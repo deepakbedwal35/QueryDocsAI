@@ -1,0 +1,1848 @@
+PROCEEDINGS
+Open Access
+On consciousness, resting state fMRI,
+and neurodynamics
+Arvid Lundervold1,2
+From Consciousness and its Measures: Joint Workshop for COST Actions NeuroMath and Consciousness
+Limassol, Cyprus. 29 November – 1 December 2009
+Abstract
+Background: During the last years, functional magnetic resonance imaging (fMRI) of the brain has been
+introduced as a new tool to measure consciousness, both in a clinical setting and in a basic neurocognitive
+research. Moreover, advanced mathematical methods and theories have arrived the field of fMRI (e.g.
+computational neuroimaging), and functional and structural brain connectivity can now be assessed non-invasively.
+Results: The present work deals with a pluralistic approach to “consciousness’’, where we connect theory and tools
+from three quite different disciplines: (1) philosophy of mind (emergentism and global workspace theory), (2)
+functional neuroimaging acquisitions, and (3) theory of deterministic and statistical neurodynamics – in particular
+the Wilson-Cowan model and stochastic resonance.
+Conclusions: Based on recent experimental and theoretical work, we believe that the study of large-scale neuronal
+processes (activity fluctuations, state transitions) that goes on in the living human brain while examined with
+functional MRI during “resting state”, can deepen our understanding of graded consciousness in a clinical setting,
+and clarify the concept of “consiousness” in neurocognitive and neurophilosophy research.
+Background
+During the last decade functional magnetic resonance
+imaging (fMRI) has been introduced as an experimental
+tool in the study of human consciousness, e.g. [1-8].
+From the early report by Binder and coworkers on “con-
+ceptual processing” and “task-unrelated thoughts” cap-
+tured by resting state fMRI [9], and the “default mode
+network” hypothesis by Raichle et al. [10], substantial
+improvements in MR image acquisition technology,
+experimental designs, and image analysis methodology
+have taken place. Functional MRI investigations now
+provide an increasingly important source of information
+to the modeling of integrative brain functions [11-16]
+and modern philosophy of mind, including the emer-
+gence of consciousness (e.g. [17,18]), and sophisticated
+mathematical and statistical models for fMRI signal pro-
+cessing and interpretation have come into play [19-30].
+The present work deals with a pluralistic approach to
+“consciousness”, where we try to connect theory and
+tools from three quite different disciplines:
+1. philosophy of mind (emergentism and global work-
+space theory),
+2. functional neuroimaging recordings, and
+3. theory of deterministic and statistical neurodynamics
+This in order to explore and review – surely prema-
+turely and haltingly – an experimental and theoretical
+framework for the study of large-scale neuronal pro-
+cesses (activity fluctuations, state transitions) that goes
+on in the conscious human brain while examined with
+functional MRI during “rest”.
+The occurrence of state transitions in the brain (i.e.
+neurodynamics [31,32]) and the presence of noise in
+neuronal systems (e.g. [33]) have been jointly investi-
+gated and incorporated into the framework of stochastic
+dynamical systems theory. Stochastic dynamical systems
+theory (e.g. [34-36]) deals with the study of dynamical
+Correspondence: arvid.lundervold@biomed.uib.no
+1Department of Biomedicine, Neuroinformatics and Image Analysis
+Laboratory, University of Bergen Jonas Lies vei 91, N-5009 Bergen, Norway
+Lundervold Nonlinear Biomedical Physics 2010, 4(Suppl 1):S9
+http://www.nonlinearbiomedphys.com/content/4/S1/S9
+© 2010 Lundervold; licensee BioMed Central Ltd. This is an open access article distributed under the terms of the Creative Commons
+Attribution License (http://creativecommons.org/licenses/by/2.0), which permits unrestricted use, distribution, and reproduction in
+any medium, provided the original work is properly cited.
+
+systems (discrete or continuous rule-based time evolu-
+tions on a state space) under the influence of noise. It
+has been shown that the coupling of noise to nonlinear
+deterministic equations of motion can lead to non-trivial
+effects such as stabilizing unstable equilibriums, transi-
+tions between coexisting deterministic stable states
+(attractors), and enhanced response of a nonlinear sys-
+tem to external signals (i.e. stochastic resonance). In our
+setting, perceptions, attention, and memories have
+extensively been modeled as state space attractors in
+dynamical neural networks (e.g. [37,38]). We want to
+explore these concepts and theoretical results in the
+context of resting state fMRI [39]. These are 4-D
+recordings consisting of spatial multivariate discrete
+time series (Δt ~ 1-3 s) of length T (~ 4-6 min), expres-
+sing local magnetic BOLD (Blood-Oxygen-Level-Depen-
+dent) signal changes in a collection of n brain regions,
+and can be regarded as realizations of our neurodynami-
+cal system with state space Rn. In the simplest case,
+each state space component xi : {1,..., T} ® R, (i = 1,...,
+n) can be represented by a single brain voxel, consisting of
+thousands of neurons, or be represented by a larger spatial
+region as obtained from e.g. independent component ana-
+lysis (spatial ICA). The joint activation pattern during the
+observation period T, where neuronal activities are
+embedded in noise, is denoted [x1(t),..., xn(t)]t=1,…,T, from
+which “neural correlates of consciousness” (NCC) [40-42]
+and dynamical state space models can be derived. This
+approach has a modest relationship to the recent introduc-
+tion of ensemble dynamics and neural mass models into
+the imaging domain [43,44], concepts that have been per-
+tinent to computational electrophysiology for many years
+[21,45,46].
+The rest of the paper is organized as follows. In the
+next section we briefly introduce the concepts of ‘emer-
+gentism’ and the ‘global workspace theory’ which we
+have found particularly relevant regarding consciousness
+and the philosophy of mind in our empirical context.
+Next we present the exploding field of functional mag-
+netic resonance imaging and so-called resting state func-
+tional connectivity MRI (rs-fcMRI) mapping, including
+the default mode network (DMN) as a particular subset
+of the resting state networks (RSNs) that can be com-
+puted from the 4-D fMRI recordings. We also refer to
+recent literature that apply these technologies in the
+study of ‘consciousness’ within basic cognitive neu-
+roscience and in a clinical setting (vegetative state, sleep,
+anesthesia, etc.). The most widely used class of methods
+for analyzing resting state fMRI recordings (i.e. ICA) is
+presented in a separate section. This brings us into the
+theory of dynamical systems and neurodynamics and its
+application to time course data in voxels or in spatially
+more extensive ICA components representing functional
+networks with long-range dependencies. In an experi-
+mental study we present an illustrative example, where
+the fMRI data are taken from one individual in a collec-
+tion of more than hundred subjects that participates in
+a comprehensive and longitudinal study of cognitive
+aging that includes structural and functional brain ima-
+ging, neuropsychological testing and genetic profiling.
+Finally, we give some concluding remarks and future
+perspectives.
+To guide a more detailed and mature tour, we have
+deliberately provided references to relevant and recent
+literature in our cross-disciplinary endeavor.
+Theory and methods
+Philosophy of mind, emergentism, and global workspace
+theory
+The concept of ‘emergence’ can be defined as (J. Gold-
+stein, 1999):
+... the way complex systems and patterns arise out of a
+multiplicity of relatively simpler interactions - occurring
+on the macro level, in contrast to the micro-level compo-
+nents and processes out of which they arise. Hence, the
+construct of ’emergence’ (cf. Fig. 1) is applicable to the
+brain and the integrative levels of brain function in man
+and animal, including ‘consciousness’.
+According to [47], the common characteristics of
+‘emergence’ are [here focussing on fMRI-derived “emer-
+gents” of resting state networks (RSNs) including the
+default mode network (DMN)]:
+Radical novelty: emergents have features that are not
+previously observed in the complex system being
+studied.
+Coherence or correlation: emergents appear as inte-
+grated wholes that tend to maintain some sense of iden-
+tity over time. This coherence spans and correlates the
+separate lower-level components into a higher-level unity.
+Global or macro level: the locus of emergent phe-
+nomena occurs at a global or macro level, in contrast to
+the micro-level locus of their components.
+Dynamical: emergent phenomena are not pre-given
+wholes but arise as a complex system evolves over time.
+As a dynamical construct, emergence is associated with
+the appearance of new attractors in dynamical systems
+(i.e. bifurcation).
+Ostensive: emergents are recognized by “showing
+themselves” [in casu: can be measured by fMRI].
+In this neurophilosophical landscape, where resting
+state fMRI is an empirical ingredient, a particular rele-
+vant position is the viewpoint of global workspace
+(GW) theory or the “conscious access hypothesis” pro-
+posed by Bernard Baars [48]. According to this theory
+there is a global distribution of conscious content
+where multiple brain networks cooperate and compete.
+Lundervold Nonlinear Biomedical Physics 2010, 4(Suppl 1):S9
+http://www.nonlinearbiomedphys.com/content/4/S1/S9
+Page 2 of 18
+
+For such, Baars states the following theoretical claims
+[49]:
+“1. Conscious perception enables access to widespread
+brain sources; unconscious sensory processing is much
+more limited.
+2. Conscious perception, inner speech, and visual
+imagery enable working memory functions; there is
+no evidence for unconscious access to working
+memory.
+3. Conscious events enable almost all kinds of learn-
+ing: episodic and explicit learning, but also implicit
+and skill learning.
+4. Conscious perceptual feedback enables voluntary
+control over motor functions, and perhaps over any
+neuronal population and even single neurons.
+5. Conscious contents can evoke selective attention.
+6. Consciousness enables access to ‘self’ – executive
+interpreters, located in part in the frontal cortex.”
+Since its inception in 1983, the global workspace the-
+ory has been refined and elaborated, integrating experi-
+mental data and models from cognitive psychology,
+artificial intelligence, electrophysiology, and neuroima-
+ging [41,50-54]. Global workspace theory has thus
+evolved into a comprehensive framework for empirically
+based characterization and understanding of ‘conscious-
+ness’, and might also show to be a useful interpretative
+tool regarding neural correlates of consciousness using
+computational neuroimaging with resting state fMRI
+recordings (cf. [55] with commentaries, and [56,57]).
+Neuroimaging and resting state fMRI
+... If we hope to understand how the brain operates,
+we must take into account the component that con-
+sumes most of the brain’s energy: spontaneous neuro-
+nal activity.
+From Fox & Raichle [39]
+The observation that spontaneous BOLD fMRI activity
+is not random noise, but is specifically organized in the
+resting human brain as functionally relevant resting-
+state networks (RSNs) has generated a new avenue in
+neuroimaging and cognitive research.
+Biswal et al. [58] were the first to demonstrate the fea-
+sibility of using fMRI to detect such spatially distributed
+networks within primary motor cortex during resting-
+state. From a MRI time course of 512 echo-planar
+images obtained every 250 ms in the resting human
+brain they calculated temporal correlations across the
+brain with the time-course from a seed voxel whose spa-
+tial location was chosen from a prior finger-tapping
+study. Time courses of low frequency (< 0.1 Hz) fluctua-
+tions where found to have a high degree of temporal
+correlation within sensorimotor regions and also with
+time courses in several other regions that can be asso-
+ciated with motor function, and they concluded that
+correlation of low frequency fluctuations in the resting
+Figure 1 Mathematical and scientific roots of emergence, where the ‘route to consciousness’ is indicated by boxes (modified from [47]).
+Lundervold Nonlinear Biomedical Physics 2010, 4(Suppl 1):S9
+http://www.nonlinearbiomedphys.com/content/4/S1/S9
+Page 3 of 18
+
+state BOLD signal is a manifestation of functional con-
+nectivity of the brain. With increasing evidence during
+the last decade, the common understanding is that
+RSNs reflect interactions in cognitively relevant func-
+tional networks of the brain and are not, as early
+debated, a simple consequence of ongoing non-neuronal
+physiological processes such as the cardiac and respira-
+tory cycles [59] (but see also [60,61]). Resting state func-
+tional connectivity MRI (rs-fcMRI), combined with
+structural connectivity mapping (cf. Fig. 2), has therefore
+proven to be a useful probe for functional alterations in
+the brain as a consequence of changes in brain state,
+disease processes, neurodevelopment and aging, phar-
+macological interventions, and genetics [62-71].
+Moreover, several fMRI studies have demonstrated
+that some of these self-organizing, resting state networks
+coincide with brain regions that are found to be deacti-
+vated across several fMRI (and PET) studies where an
+external stimulus or a cognitive paradigm is applied.
+Thus, these brain locations are more active at rest than
+during task performance. These observations have led to
+the hypothesis that the brain remains active in an orga-
+nized fashion during the resting state, denoted the
+default mode network (DMN) [10,39]. The default mode
+hypothesis has been extensively studied [10,71-78],
+including direct electrophysiological measurement of
+default network areas [79], and its changes in different
+clinical states of consciousness [8]. The concepts and
+exploration of RSNs and the DMN has therefore been
+regarded as “a paradigm shift in functional brain
+imaging’’[80,81].
+Spatial Independent Component Analysis (ICA)
+in the study of resting state fMRI
+Independent component analysis (ICA) [82,83] has pro-
+ven to be a powerful exploratory tool for data-driven
+analysis of fMRI recordings. It is used to blindly esti-
+mate distributed spatial patterns in the brain, jointly
+with hidden source processes in the observed data,
+under the assumptions of statistically independent pat-
+terns and non-Gaussianity of the source components
+[84,85]. In this setting, one typically represents the 4-D
+fMRI dataset as a p × n matrix X, where the n columns
+consist of an enumeration of the n voxels that covers
+the imaged 3-D object of interest (i.e. the brain), and
+the rows consist of the recorded signals in these voxels
+at p different time points. Furthermore, one assumes
+that a matrix decomposition exists such that X = AS,
+where S is a p × n matrix of source signals, and A is a
+Figure 2 Structural and functional connectivity assessed with multimodal MRI (anatomical T1-weighted 3D scan, diffusion tensor imaging,
+BOLD fMRI).
+Lundervold Nonlinear Biomedical Physics 2010, 4(Suppl 1):S9
+http://www.nonlinearbiomedphys.com/content/4/S1/S9
+Page 4 of 18
+
+p × pmixing matrix. This expresses that the ICA model
+is a generative model that describes how the observed
+data are generated by a mixing process of the compo-
+nents (i.e. row vectors) in S, and that the independent
+components are latent variables that cannot be directly
+observed. Both A and S must be estimated from X
+under some general statistical assumptions (indepen-
+dence and non-Gaussianity), and the ICA method is
+thus a type of blind source separation (BSS).
+During ICA estimation, the matrix S is optimized to
+contain, in its rows, statistically independent areas in the
+brain (spatial maps, or components), each with an
+internally consistent time course (the corresponding col-
+umn vector in A).The observed signal intensity xij in
+time sample i of voxel j is thus a weighted sum (linear
+mixing) of the unobserved source signals in the voxel,
+i.e. x
+a s
+ij
+ik kj
+k
+p
+=
+=
+∑
+1
+. With iterative optimising of an
+unmixing matrixW = A-1, we obtain S = WX with
+mutually independent rows using e.g. the InfoMax algo-
+rithm [84,86]or the FastICA algorithm [87]. No noise
+is included in the model. Typically, the spatial maps
+are transformed to have zero mean and unit variance
+(Z-scores), thresholded at some level (e.g. |Z| > 2.0),
+and mapped back to 3-D image space, color-coded, and
+superimposed on a coregistered anatomical image for
+visual assessment of the ICA component.
+It can be shown that the independent components are
+identifiable up to a permutation and scaling of the
+sources under the assumption that at most one of the
+sources sk = [sk1,..., skn] (k = 1,... ,p) is Gaussian, and that
+the mixing matrix A is full rank. The assumption that
+the mixing matrix is square i.e. the complete case with
+as many mixtures (M) as sources (K), can be relaxed
+[88-90]. Important challenges are to reduce large fMRI
+data sets for ICA [91] and to estimate the number of
+independent components in the data [92]. Calhoun and
+coworkers [93] has also introduced an approach (GIFT)
+for drawing group inferences using ICA of fMRI data
+from many subjects, and Beckmann et al. [94] have con-
+structed a “tensor probabilistic ICA” for multisubject
+fMRI analysis. These extensions have widened the scope
+and popularity of ICA for fMRI studies, especially group
+studies of resting state networks and the DMN (see [95]
+for a comparative framework with these approaches).
+Furthermore, ICA methods has also been applied to
+EEG recordings and combined fMRI-EEG data [96],
+with a large potential for integrated analysis of electro-
+physiological recordings (with high temporal, low spatial
+resolution) and BOLD image acquisitions (with high
+spatial, low temporal resolution). Recently, it has been
+argued that independence is not the right mathematical
+framework for blind source separation in fMRI and that
+representations in which the fMRI signal is spatially
+sparse are more promising [97], and in their simulation
+studies Daubechies et al. demonstrated that the ICA
+algorithms InfoMax and FastICA select for such sparsity
+of components rather than spatial independence.
+Theory of dynamical systems and neurodynamics
+... Neurodynamics has a peculiar property described
+as the “edge of stability” or “metastability”. Accord-
+ingly, the brain as a complex dynamic system is in
+perpetual movement from one state to another.
+When the brain reaches a dominant state, it does
+not rest there, rather it immediately moves on and
+decays into an unordered state, only to emerge a
+moment later to another prominent state. Freeman
+has identified neurophysiological correlates of this
+metastable wandering along the landscape of brain
+dynamics in the form of spatio-temporal patterns of
+oscillations, sudden jumps or phase transitions of
+local field potentials. (From [38])
+To bring functional MRI into the domain of experi-
+mental neurodynamics (cf. Fig. 3), we can: (i) regard
+voxel time courses as the given spatio-temporal observa-
+tions, or (ii) incorporate a “higher level” spatial repre-
+sentation based on anatomically meaningful regions (cf.
+the 38 cortical and 2 subcortical regions defined in
+[43]), or (iii) incorporate regions that are derived from
+spatial ICA analysis, or from cross-correlation clustering
+and graph theory (pionered by [98]), or from structural
+connectivity maps obtained with diffusion tensor MRI
+recordings and fiber tracking.
+Due to the coarse spatial resolution of fMRI (for
+whole brain human studies voxel size is typically limited
+to ≥1µl) and low temporal resolution (typically ≥1000
+ms), these measurement techniques will only be able to
+consider the granularity of ‘mesoscopic brain dynamics’,
+i.e. (nonlinear) dynamics and neural activity at spatial
+scales between a few millimeters and the entire brain,
+and temporal scales of a few hundred milliseconds to
+seconds (cf. [99]). Moreover, mesoscopic brain dynamics
+is characterized by “its high complexity, often involving
+oscillations of different frequencies and amplitudes, per-
+haps interrupted by chaotic or pseudo-chaotic irregular
+behaviour. The mesoscopic brain dynamics is affected by
+the activity at other scales. For example, it is often
+mixed with noise, generated at a microscopic level by
+spontaneous activity of neurons and ion channels. It is
+also affected by macroscopic activity, such as slow
+rhythms generated by cortico-thalamic circuits or neuro-
+modulatory influx from different brain regions” [100]. As
+indicated above, there are a number of naturally occur-
+ring ‘noise sources’ in the brain (related to e.g. channel
+gating, ion concentrations, membrane conductance, and
+synaptic transmission [33]) that will influence signal
+Lundervold Nonlinear Biomedical Physics 2010, 4(Suppl 1):S9
+http://www.nonlinearbiomedphys.com/content/4/S1/S9
+Page 5 of 18
+
+measurements at mesocopic and macroscopic scales
+([101]). During the last years, the importance of noise in
+neural systems has been put in the context of ‘stochastic
+resonance’ – and before we deal with a classical frame-
+work for neural dynamics (the Wilson-Cowan model),
+we will present this highly interesting and relevant
+phenomenon.
+Stochastic resonance
+Stochastic resonance (SR) is “a mechanism by which a
+system embedded in a noisy environment acquires an
+enhanced sensitivity towards small external time-depen-
+dent forcings, when the noise intensity reaches some finite
+level” [102]. This SR effect introduces a new role of
+noise processes, not only as a detrimental nuisance, but
+as a constructive component in a broad range of natural
+and man-made systems. The mechanism was first
+observed and reported in climate research by Benzi et
+al. [103] in the early 1980’s to explain the almost peri-
+odic recurrences of ice ages on the earth.
+Mathematically, the SR phenomenon can be captured
+in a bistable nonlinear dynamical system where a one-
+variable formulation could be [104]:
+dx
+dt
+U
+x
+= −∂
+∂
++
++
++ ( )
+A
+t
+cos
+ 
+t
+(
+)
+
+
+
+(1)
+where the state variablex(t), interpreted as e.g. the
+position of a Brownian particle in a bi-stable potential
+U : R ® R, is subject to both a weak periodic forcing
+parameterized with amplitude A, frequency ω and initial
+phase j, and a noise process ξ(t). In our example U(x)
+can be the reflection-symmetric quartic potential
+U x
+x
+x
+( ) = −
++
+1
+2
+1
+4
+2
+4 , with minima xm located at ±1 and
+with height of the potential barrier between the two
+stable minima equal to ΔU = 1
+4
+. The noise term ξ(t) in
+the stochastic differential equation (1) is typically a zero-
+mean Gaussian where the SR mechanism is related to
+its autocorrelation function <ξ(t), ξ(0)>, which could be
+on the form D e t
+
+
+−
+where τ is correlation time and D
+is intensity of the colored noise. The effect of SR can be
+enhanced by introducing an ensemble of stochastic reso-
+nators. In this case, a weak periodic signal can induce
+large-scale stochastic synchronization and self-organiza-
+tion (Ch. 3 in [34]).
+More recently, SR has been introduced to explain
+behavior in biological systems (see [105], 106 for
+reviews), including single neurons and large-scale brain
+systems (e.g. [107]). Neural synchrony, noise, and SR
+has also been applied to the modeling of attention and
+consciousness [108], and how age-related neuromodula-
+tory deficiencies may contribute to increased neuronal
+noise leading to less robust information processing in
+aging neurocognitive systems [109,110]. Most interest-
+ingly, the stochastic resonance mechanisms has recently
+been proposed to explain resting state results in connec-
+tivity data from BOLD fMRI experiments [43].
+As an illustrative example of stochastic resonance in
+basic neurophysiology, we will briefly present a simula-
+tion study of the spiking behavior in a neuron with
+Hodgkin-Huxley (HH) dynamics [111], where the firing
+of action potentials is driven by a sinusoidal external
+force and Gaussian noise. The simulation code we are
+using is modified from the exposition on nonlinear
+Figure 3 Functional MRI voxel time courses and spatio-temporal activity patterns in the context of experimental neurodynamics (modified
+from [155]).
+Lundervold Nonlinear Biomedical Physics 2010, 4(Suppl 1):S9
+http://www.nonlinearbiomedphys.com/content/4/S1/S9
+Page 6 of 18
+
+neurodynamics by H.R. Wilson [112] (HHnoise.m),
+using a fourth order Runge-Kutta solver with constant
+step size to solve the Rinzel approximation to the HH
+equations:
+C dV
+dt
+a
+bV
+cV
+V
+E
+R V
+E
+I t
+n t
+dR
+dt
+R
+R
+Na
+k
+= −+
++
+−
+−
+−
++
++
+=
+−
++
+(
+)(
+)
+.
+(
+)
+( )
+( )
+(
+2
+26 0
+1
+
+1 35
+1 03
+.
+.
+)
+V +
+For the simulations we used time increment Δt = 0.02,
+and a = 17.81, b = 47.71, c = 32.63, d = 26. The equili-
+brium potentials were ENa = 0.55 and EK = –0.92. The
+neural capacitance was C = 0.8, and the recovery time
+constant τR = 1.9 ms. The stimulating oscillating current
+was given as I(t) = A sin(ωt + j) with amplitude A = 0.035
+and initial phase j = 0, were the ω was fixed to give an
+angular input frequency of 200 Hz. We adjusted zero
+mean noise level h with standard deviations (SD) in steps
+of 0.01 in the range [0.0, 0.5] to observe the effect of noise
+level of the system and the occurrence of stochastic reso-
+nance. The results from this simulation study are given in
+Fig. 4, where Figs. 4c &4e depict SR with clustering of
+spike intervals corresponding to integral multiples of the
+principal inter-spike interval of about 5 ms.
+Linking fMRI and neurodynamical modeling
+The theory of dynamical systems has been applied to fMRI
+in different settings [113-118]. To explore a particularly
+interesting link between fMRI and neurodynamical model-
+ing in more detail, we adopt the approach taken by Deco
+et al. [43]. Here, the dynamics of each ‘node’ (to be inter-
+preted below) is captured by a mean-field type rate model,
+expressing the coupling between excitatory and inhibitory
+nodes in the network. This is very similar to the classical
+attractor neural network (ANN) model stated by Amit
+[37] and others.
+More specifically a Wilson-Cowan [119] type neural
+network dynamics is introduced, following [120,121]
+du
+dt
+u
+W u
+I
+i
+i
+ij
+j
+j i
+i
+i
+= −
++
++
++
+⎛
+⎝
+⎜
+⎜
+⎞
+⎠
+⎟
+⎟
+≠∑
+
+
+Θ
+(2)
+where ui denotes the activity of the i-th ‘neuron’
+(neural mass, or enumerated spatial localization i = 1,...,
+n in the brain); a is inverse relaxation time; Wij is the
+‘synaptic’ or connection strength between locations i and j
+(i.e. the connectivity matrix); Ii is the external input to
+location i; and ξi is random noise related to i. The non-
+linear (e.g. sigmoidal) function Θ(x) limits the growth of
+x, accounting for saturation of ‘firing rates’ or local neural
+mass activity. In the ‘resting state’, external inputs to the
+network nodes vanish, i.e. Ii ≡0, where we also assume
+the noise terms ξi are Gaussian N(0, si), and that
+saturation can be ignored, i.e. Θ(x) ≡x. With these
+assumptions, the coupled stochastic ODE’s (2) can be dis-
+cretized in time, with time step Δt, to obtain
+u t
+t
+t u t
+W u t
+t
+N
+t
+t
+i
+i
+ij
+j
+i
+j i
+(
+)
+(
+) ( )
+( )
+( ,
+)( )
++
+=
+−
++
++
+≠∑
+Δ
+Δ
+Δ
+Δ
+1
+0
+
+
+(3)
+which can be written on matrix form
+u(t + Δt) = Au(t)+ξ(t)
+(4)
+where A = (1 – aΔt)1 + WΔt;ξ = N(0,s)(t)Δt, and
+N(0,s)(t) denotes the noise column vector at time point
+t. The temporal averaged covariance matrix of the rest-
+ing state time courses is C =〈u(t) • u(t)T〉, and the
+eigenvectors vk of the real-valued symmetric matrix C
+are the principal components or the dominant patterns
+or
+modes
+of
+the
+resting
+state
+activity,
+i.e.
+u
+v
+v
+u
+( )
+( )
+;
+( )
+( );
+( )
+t
+a t
+a t
+t
+a
+t
+k
+k
+k
+k
+T
+k
+k
+k
+n
+=
+=
+⋅
+=
+=
+∑
+
+2
+1
+. In
+[120] it is shown that the covariance matrix of the rest-
+ing state activity is determined by the covariance matrix
+of the intrinsic noise and the eigenvalues of the connec-
+tivity matrix W. As the overall weight of each mode in
+the resting state activity is given by the magnitude of
+the associated eigenvalue lk, there is link between the
+dominant patterns and the concept of attractor in
+neural dynamics [120]. Morover, Galán [120] provides
+arguments that the resting state neural activity ‘fluctu-
+ates most of the time around the basin of attraction
+([37,122]) of the dominant pattern’, and that ‘the
+amount of time spent around the basin of attraction of
+the remaining principal components is proportional to
+the magnitude of their eigenvalues’.
+In their simulation study of resting brain fluctuations,
+Deco and co-workers [43], using the above Wilson-
+Cowan model with 38 cortical and 2 subcortical thalamic
+nodes and a realistic neuroanatomical connectivity matrix
+and signal transmission delay between nodes in the net-
+work, were able to reproduce typically occurring resting
+state fMRI brain dynamics. In their synchronization ana-
+lysis (employing the Kuramoto synchronization index
+[123]) of simulated neuroelectric activity in each of two
+individual community clusters (the occipital-temporal-
+prefrontal community, and the sensorimotor-premotor
+community), using internode communication velocity of
+v ~ 1.65 m/s and global coupling strength of a ~ 0.007, a
+global slow 0.1 Hz) oscillation at rest could emerge from
+a network built up with simple fast oscillators in the
+g-band of 40 Hz. This underscores the role of neural
+synchronization as a mechanism for the emergence of
+ultraslow fluctuations in e.g. the default mode network as
+observed in resting state BOLD fMRI. Moreover, Deco
+et al. also observed a stochastic resonance effect for the
+same level of fluctuations that revealed optimal
+Lundervold Nonlinear Biomedical Physics 2010, 4(Suppl 1):S9
+http://www.nonlinearbiomedphys.com/content/4/S1/S9
+Page 7 of 18
+
+emergence of 0.1 Hz global slow oscillations, with the
+occurrence of anti-correlated spatiotemporal patterns (as
+reported in fMRI) in both communities – without the use
+of (unrealistic) long-range inhibition. From their work,
+they conclude that “the particular dynamics of the intrinsic
+properties of the brain are useful for keeping the system in
+a high competition state between the different subnetworks
+that later are used during different tasks. ... In this way, a
+relatively small external stimulation is able to stabilize one
+or the other subnetwork giving rise to the respective evoked
+activity. So, the anticorrelated fluctuating structure of the
+subnetwork patterns characteristic of the resting state is
+particularly convenient for that.”
+Linking consiousness and neurodynamics
+The field of neurodynamics has also had impact on the
+theory of consciousness [38,41,124-127] (so has
+Figure 4 Stochastic resonance in a simple neuronal system with an oscillating driving force and a noise term. The simulated neuron is
+modeled with Hodgkin-Huxley dynamics [112] and is stimulated by a sinusoidal current I at a frequency 200 Hz and amplitude 0.035 (a.u.) with
+added zero mean Gaussian noise with standard deviation SD. At low noise levels (SD less than 0.01), spike threshold is not attained. With
+increased noise (SD = 0.04) irregular spike bursts occur. At a narrow noise band, stochastic resonance occur with inter-spike interval (ISI) at about
+5 ms and integral multiples of that period. We see that the neuron can miss four or more periods between spiking, but keep firing at integral
+multiples of the 5 ms stimulus period. In the simulations, one could also show that (low and moderate) noise alone will not be sufficient to
+drive the spiking in the absence of the periodic stimulus. In this simulation we observe that sub-threshold noise can increase the sensitivity of
+the neuron to periodic stimulation - that be sensory input or input from a neuronal rhythm generator. This illustrates stochastic resonance. a)
+Insufficient noise level (SD = 0.01) to trigger spikes. b) Low noise level (SD = 0.04) - infra SR. c) Stochastic resonance, SR (SD = 0.19). d) High
+noise level (SD = 0.30) - supra SR. e) Magnification of the SR condition in c). Blue trace = oscillating driving force; Black trace = input noise; Red
+trace = response (firing pattern) of the simulated neuron at the given noise level. The inserts in b) and d) show the corresponding inter-spike
+interval histograms.
+Lundervold Nonlinear Biomedical Physics 2010, 4(Suppl 1):S9
+http://www.nonlinearbiomedphys.com/content/4/S1/S9
+Page 8 of 18
+
+stochastic resonance [32,108,128]). A prominent exam-
+ple is the ‘dynamic core hypothesis’ presented in a semi-
+nal paper by Tononi and Edelman [129], and later
+refined and extended [127,130,131]. Based on modeling
+concepts from statistical physics and information theory,
+together with accumulated empirical findings in the his-
+tory of clinical and experimental neuroscience, they pro-
+pose the following:
+• A group of neurons can contribute directly to con-
+scious experience only if it is part of a distributed
+functional cluster that achieves high integration in
+hundreds of milliseconds.
+• To sustain conscious experience, it is essential that
+this functional cluster be highly differentiated, as
+indicated by high values of complexity.
+• A large cluster of neuronal groups exist that
+together constitute, on a time scale of hundreds of
+milliseconds, a unified neural process of high com-
+plexity – termed the dynamic core, where
+– its participating neuronal groups are much
+more strongly interactive among themselves than
+with the rest of the brain
+– its global activity patterns must be selected
+within less than a second out of a very large
+repertoire
+– deliberately does not refer to a unique, invar-
+iant set of brain areas (e.g. prefrontal, extrastri-
+ate, or striate cortex) and,
+– can transcend traditional anatomical bound-
+aries and may change in composition over time
+An other interesting neurodynamics theory of con-
+sciousness is the COrollary Discharge of Attention Move-
+ment (CODAM) model of J. G. Taylor and co-workers
+[132,133], based on application of engineering control
+theory and artificial neural networks. The CODAM fra-
+mework is claimed to have considerable experimental
+support for certain of its modules. Support that comes
+from both brain imaging, ERP studies, and single cell
+experiments, as well as transcranial magnetic stimula-
+tion (TMS) that enables non-invasive, temporarily
+‘knock out’ of brain circuitry in operator-defined cortical
+regions. In this model, the so-called ‘working memory
+corollary discharge (WMcd) buffer’ is the most impor-
+tant element in the circuitry to create consciousness.
+The framework consists of an input module (for pre-
+processing in low-level visual cortex), the object map
+(where object codes are stored), the inverse model con-
+troller (IMC) which is a generator of the signal to move
+the focus of attention in lower cortices, the corollary
+discharge module where a copy of the attention move-
+ment signal is stored temporarily, the working memory
+(WM) holding an estimate of the attended target
+representation, and the monitor producing an error sig-
+nal given by the difference of the required goal signal
+and that produced by the corollary discharge module as
+a predictor of the attended next state or of the working
+memory module activation (cf. [133]). So far, very little
+work has been done to put fMRI experiments into the
+CODAM framework, which might have been due to dif-
+ficulties of interpreting fMRI data in terms of timing
+and inhibition ( [134]).
+As resting state fMRI networks revealed by e.g. inde-
+pendent component analysis might represent neural
+mass activity related to the state of consciousness ([17]),
+further empirical investigations and numerical simula-
+tions of distinct network components and their time
+courses, IC1(t), ..., ICn(t), should be performed in the
+framework of Wilson-Cowan type neural network
+dynamics ( [43,121]). Moreover, measuring fMRI resting
+state functional connectivity (rsFC) and structural con-
+nectivity (SC), using DTI or diffusion spectrum imaging
+tractography at high resolution in the same individuals,
+it has been shown that the organizations of SC and of
+rsFC are strongly interrelated [121,135] 135. In [121]
+the authors applied Eq. (4) to model macroscopic corti-
+cal dynamics within segmented cortical parcellations
+(n=998), where the inter-nodal interaction efficacy
+matrix W in the generalized coupling matrix A = (1 –
+aΔt)1 + WΔt was the resampled fiber strengths
+obtained from diffusion spectrum imaging tractography.
+Such approaches might open up a new opportunity to
+combine mutlimodal MRI and neurodynamics in the
+study of consciousness.
+In the following experiment, we illustrate the first
+steps of deriving time course information from resting
+state fMRI data that can be further analyzed in such
+modeling frameworks.
+An experimental resting state fMRI illustration
+As an illustrative example, we report data from one sub-
+ject (651) in a cohort of 100 healthy elderly people that
+were scanned with a 1.5 Tesla GE Signa Excite scanner
+equipped with an eight-channel head coil as part of a
+larger longitudinal study of cognitive aging [136-139],
+where our laboratory was responsible for the image
+analysis.
+Data acquisition
+While the subject was lying comfortably in the scanner
+with eyes closed, head fixed with noise-protecting ear-
+pads, and asked not to fall asleep, we used an EPI gradi-
+ent echo pulse sequence (TR / TE / FA = 2 s / 50 ms /
+900); 64 × 64 acquisition matrix, 25 slices, 256 time
+frames, with voxelsize = 3.75 × 3.75 × 5.5 mm3 and
+time resolution of 2 s to obtain “resting state” data. In
+addition, the imaging protocol consisted of an alternat-
+ing left and right hand finger-tapping fMRI paradigm,
+Lundervold Nonlinear Biomedical Physics 2010, 4(Suppl 1):S9
+http://www.nonlinearbiomedphys.com/content/4/S1/S9
+Page 9 of 18
+
+two anatomical 3D T1-weighted scans for brain segmen-
+tation with FreeSurfer (http://surfer.nmr.
+mgh.harvard.edu), and DTI acquisitions (TR / TE /
+FA = 7900 / 104.8 / 90; 25 b=1000, 5 b=0; 25 slices;
+voxelsize = 1.88 × 1.88 × 4.0 mm3) for assessment of
+white matter integrity and fibertracking with TrackVis
+(http://trackvis.org).
+Data processing
+Image processing and analysis of the “resting state
+fMRI” data was carried out using Probabilistic Indepen-
+dent Component Analysis [85] as implemented in
+MELODIC (Multivariate Exploratory Linear Decomposi-
+tion into Independent Components) Version 3.09, part
+of FSL (FMRIB’s Software Library, http://www.
+fmrib.ox.ac.uk/fsl) [29]. The following data pre-
+processing was applied to the input data: masking of
+non-brain voxels; voxel-wise de-meaning of the data;
+normalization of the voxel-wise variance; Pre-processed
+data were whitened and projected into a 60-dimensional
+subspace using probabilistic Principal Component
+Analysis where the number of dimensions was estimated
+using the Laplace approximation to the Bayesian evi-
+dence of the model order [85,140]. The whitened obser-
+vations were decomposed into sets of vectors which
+describe signal variation across the temporal domain
+(time-courses) and across the spatial domain (maps) by
+optimizing for non-Gaussian spatial source distributions
+using a fixed-point iteration technique [87]. Estimated
+Component maps were divided by the standard devia-
+tion of the residual noise and thresholded by fitting a
+mixture model to the histogram of intensity values [85].
+Figure 5 shows recorded images and a voxel time course
+from the subject, while Fig. 6 depicts MELODIC com-
+ponent no. 45, representing the default mode network.
+A more advanced processing scheme of the multimo-
+dal MRI acquisitions from the same subject (651),
+combining both structural connectivity information
+from DTI recordings and functional connectivity from
+resting state fMRI recordings, is shown in Fig. 7. [The
+original acquisitions Anatomyi.nii, Anatomy2.
+Figure 5 Voxel time course in right cerebral hemisphere from subject 651. a) Time frame from the resting state fMRI recording, where a
+voxel-of-interest in the visual area of the occipital lobe is marked with a cross-hair. b) Corresponding voxel in the 3D Tl-weighted anatomical
+image. c) Same voxel in the volume-rendered 3D anatomical image obtained with MRIcron (http://www.sph.sc.edu/comd/
+rorden/MRicron) d) Plot of signal intensity (S.I.) versus time for the same voxel.
+Lundervold Nonlinear Biomedical Physics 2010, 4(Suppl 1):S9
+http://www.nonlinearbiomedphys.com/content/4/S1/S9
+Page 10 of 18
+
+nii, DWI.nii, bvec.dat, bval.dat, Resting.
+nii, Fingertapping.nii are available in NIFTI-1
+format from the author; see also http://sites.
+google.com/site/hufy372 ]
+Concluding remarks and perspectives
+During the last few years, functional MRI has been
+introduced as a new tool to measure consciousness, both
+in a clinical setting and in basic neurocognitive research
+[1,2,7,8,18,141-153], and advanced methods and theories
+(e.g. computational neuroimaging) has arrived the field
+of fMRI [114,121,154-158]. The aim of this paper has
+been to present the great excitement (and limitations)
+regarding the use of fMRI as a tool for the study of
+one of the Big Questions - the neural correlates of
+consciousness.
+To end up with a more balanced picture regarding the
+measurement of NCC, we have also to address electrical
+neuroimaging (e.g. [159]) and the assessment of neuro-
+dynamics at subsecond time scale - not yet possible
+Figure 6 a) Spatial extension of MELODIC component no. 45, a thresholded IC map, representing the default mode network. b) The temporal
+mode or timecourse of component no. 45. c) Powerspectrum of timecourse belonging to component no. 45. Note the peaks in the low
+frequency band ~ 0.01 – 0.02 Hz.
+Lundervold Nonlinear Biomedical Physics 2010, 4(Suppl 1):S9
+http://www.nonlinearbiomedphys.com/content/4/S1/S9
+Page 11 of 18
+
+with MRI. Up to now, electrophysiology has had much
+greater impact than fMRI on the study of consciousness,
+both in the clinics [160-162] and in basic research
+[163,164]. However, during the last years the technology
+for obtaining simultaneous recordings of multichannel
+electroencephalography (EEG) and BOLD fMRI acquisi-
+tions has been developed. This technology, involving
+both hardware solutions and clever data analysis,
+exploits and joins the advantages of each technique -
+the high spatial resolution of fMRI and the high tem-
+poral resolution of EEG. Due to these developments
+there are an increasing number of investigations being
+performed, both in the clinics (e.g. epilepsy) and in neu-
+rocognitive research that uses simultaneous EEG-fMRI
+recordings to disentangle brain processes and spatio-
+temporal activity patterns [75,96,165-177]. Recently,
+Musso et al. [178], using a novel EEG-fMRI analysis
+approach to explore resting-state networks, were able to
+show that the information contained within EEG micro-
+states on a millisecond timescale was able to elicit
+BOLD activation patterns consistent with well known
+RSNs - “opening new avenues for multimodal imaging
+data processing”. Finally, direct mapping of neuronal
+activity using MRI detection has been demonstrated
+[179-182], but seems not to be very promising, or of
+practical value, so far [183].
+To conclude this paper, we will briefly bring up some
+themes and challenging topics that need to be clarified,
+Figure 7 Integration of structural connectivity (DTI) and functional resting state networks (fMRI). All derived information from the
+multimodal MRI examination (subj651) was obtained automatically with different freely-available analysis tools. Coregistration was performed in
+Matlab. a) Tl-weighted anatomical 3-D image superimposed with: (i) anatomical region (thalamus) segmented by FreeSurfer; (ii) resting state
+networks (RSNs) derived from ICA analysis (GIFT) of the BOLD fMRI recordings; (iii) white matter fiber tracts (TrackVis) between these regions of
+interest (ROIs). Yellow blob is the ventromedial prefrontal cortex (VMPFC) component of the default mode network (DMN). b) Corresponding time
+courses (256 frames; TR= 2 s) of the resting state components. Upper trace is IC-3 (DMN). Lower trace is IC-26 located in the central thalamic
+region (not part of the DMN). c) Histogram of the FA values, reflecting white matter integrity and structural connectivity along the fiber tracts
+between the two regions: (i) spatial intersection between anatomical thalamus and the RSN defined by IC-26, and (ii) the VMPFC component of
+DMN defined by IC-3. [Courtesy of Martin Ystad, Tome Eichele, Erlend Hodneland, and Judit Haasz]
+Lundervold Nonlinear Biomedical Physics 2010, 4(Suppl 1):S9
+http://www.nonlinearbiomedphys.com/content/4/S1/S9
+Page 12 of 18
+
+or incorporated into experimental procedures and mod-
+eling frameworks:
+• The emergence of human consciousness [184]
+• Consciousness without a cerebral cortex? [185] Is
+your brain really necessary? [186]
+• The possibility or plausibility of quantum informa-
+tion processing capabilities of neuronal microtubules
+(MT) and relation to consciousness, with proponents
+[187-193] and opponents [195-197]
+• Different time scales in the brain [198,199]
+• Fast dynamics in local and large-scale networks
+[200], and hierarchy of attractors [201]
+• Direct correlations between the BOLD response
+and neuronal electrophysiology [202,203]
+• Resting state fMRI - “spatially sparse” rather than
+“spatially independent” componets? [97]
+•
+Mind
+reading
+using
+fMRI
+time
+courses
+[14,183,204-207]
+• Consciosness and unilateral neglect [208] – the
+role of fMRI? [209,210]
+• Graded consciousness and fMRI [1,7,8,67,70,
+142,144,211-219] and unconscious cognitive control
+[146,220].
+Finally, within frameworks of emergentism, global work-
+space theory, dynamic core hypothesis, and the CODAM
+model we believe the combination of (i) resting state fMRI
+(functional connectivity), (ii) diffusion tensor MR imaging
+(structural connectivity), and (iii) neurodynamical model-
+ing will bring a new set of tools to the study of conscious-
+ness and cognition – that be during early development,
+during aging and neurodegeneration, and in altered brain
+states such as anesthesia, sleep, and meditation.
+List of abbreviations used
+4-D: four dimensional (3-D + time); ANN: attractor neural network; BOLD:
+blood-oxygenation-level-dependent; BSS: blind source separation; CODAM:
+COrollary Discharge of Attention Movement; DMN: default mode network;
+DTI: diffusion tensor imaging; EEG: electroencephalography; ERP: event
+related potentials; FA: flip angle (in MRI); fMRI: functional magnetic
+resonance imaging; GW: global workspace (theory); HH: Hodgkin-Huxley
+(dynamics); IC: independent (spatial) component; ICA: independent
+component analysis; MT: microtubule; NCC: neural correlates of
+consciousness; NMM: neural mass model; ODE: ordinary differential equation;
+PET: positron emission tomography; rsFC: resting state functional
+connectivity; RSN: resting state network; SC: structural connectivity; SDE:
+stochastic differential equation; SR: stochastic resonance; TE: echo time (in
+MRI); TMS: transcranial magnetic stimulation; TR: repetition time (in MRI);
+VMPFC: ventromedial prefrontal cortex; WM: working memory.
+Acknowledgements
+I will thank students and colleagues in the Neuroscience and Imaging
+groups at University of Bergen. In particular MD PhD Tom Eichele and MD
+Martin Ystad for being instrumental in the resting state fMRI analysis; PhD
+Erlend Hodneland for his mathematical and programming skills, Prof. Astri J.
+Lundervold for providing access to the “Cognitive aging project”, and MSc
+Alexander Lundervold for useful discussions on mathematical issues. I will
+also thank Lars Walløe and Dagfinn Føllesdal at University of Oslo for their
+cross-disciplinary Seminar series in the mid-70’s, which initiated my interest
+in ‘Hjerne & Bevissthet’. Finally, thanks to the organizers of Consciousness and
+its Measures - Joint workshop for COST actions Consciousness (BM0605) and
+NeuroMath (BM0601), November 29 - December 1 2009, Limassol, Cyprus for
+making this work possible.
+This article has been published as part of Nonlinear Biomedical Physics
+Volume 4 Supplement 1, 2010: Consciousness and its Measures: Joint
+Workshop for COST Actions Neuromath and Consciousness. The full
+contents of the supplement are available online at
+http://www.nonlinearbiomedphys.com/supplements/4/S1.
+Author details
+1Department of Biomedicine, Neuroinformatics and Image Analysis
+Laboratory, University of Bergen Jonas Lies vei 91, N-5009 Bergen, Norway.
+2Department of Radiology, Haukeland University Hospital, N-5021 Bergen,
+Norway.
+Authors information
+Arvid Lundervold has a BSc in mathematics and philosophy from the
+University of Oslo (1975) and got his medical degree (MD) from the same
+university (1982). While in Oslo he also worked with experimental epilepsy
+(the hippocampal slice preparation) at the Institute of Neurophysiology and
+at the National Hospital. He obtained his PhD ("Multispectral Analysis,
+Classification and Quantification in Medical Magnetic Resonance Imaging”) at
+the University of Bergen in 1995. He has professional experience in medical
+informatics from the National Hospital in Oslo (1984-1988), and as research
+scientist at the Norwegian Computing Center, Image Analysis and Pattern
+Recognition group (1989-1994), before he came to the University of Bergen
+in 1994. He his currently a Professor in medical information technology at
+the University of Bergen, Department of Biomedicine, and head of the
+Neuroinformatics and Image Analysis Laboratory. Lundervold is also affiliated
+with the Department of Radiology, Haukeland University Hospital. He has
+published more than 100 papers and conference reports related to medical
+image analysis, pattern recognition, and neuroinformatics. Lundervold has
+supervised or co-supervised more than twenty Master and PhD students
+with their basic training from mathematics, computer science, medicine, or
+physiology. He has participated in the European COST B11 action
+("Quantitation of Magnetic Resonance Image Texture”), the COST B21 (
+“Physiological Modelling of MR Image Formation”), and the COST BM0601
+("NEUROMATH - Advanced Methods for the Estimation of Human Brain
+Activity and Connectivity”). He is on the editorial board of Computerized
+Medical Imaging and Graphics and of Frontiers in Neuroinformatics.
+Lundervold is member of the Norwegian Medical Association, the
+International Society for Magnetic Resonance in Medicine, the IEEE
+Computer Society, and the American Mathematical Society.
+Competing interests
+The author declare that he has no competing interests.
+Published: 3 June 2010
+References
+1.
+Bærentsen KB, Stødkilde-Jørgensen H, Sommerlund B, Hartmann T,
+Damsgaard-Madsen J, Fosnæs M, Green AC: An investigation of brain
+processes supporting meditation. Cogn Process 2010, 11:57-84.
+2.
+Boly M, Coleman MR, Davis MH, Hampshire A, Bor D, Moonen G,
+Maquet PA, Pickard JD, Laureys S, Owen AM: When thoughts become
+action: an fMRI paradigm to study volitional brain activity in non-
+communicative brain injured patients. Neuroimage 2007, 36(3):979-992.
+3.
+Coleman MR, Davis MH, Rodd JM, Robson T, Ali A, Owen AM, Pickard JD:
+Towards the routine use of brain imaging to aid the clinical diagnosis of
+disorders of consciousness. Brain 2009, 132(Pt 9):2541-2552.
+4.
+Immordino-Yang MH, McColl A, Damasio H, Damasio A: Neural correlates
+of admiration and compassion. Proc Natl Acad Sci USA 2009,
+106(19):8021-8026.
+5.
+Jardri R, Pins D, Bubrovszky M, Lucas B, Lethuc V, Delmaire C, Vantyghem V,
+Despretz P, Thomas P: Neural functional organization of hallucinations in
+schizophrenia: multisensory dissolution of pathological emergence in
+consciousness. Conscious Cogn 2009, 18(2):449-457.
+6.
+Lloyd D: Functional MRI and the study of human consciousness. J Cogn
+Neurosci 2002, 14:818-831.
+Lundervold Nonlinear Biomedical Physics 2010, 4(Suppl 1):S9
+http://www.nonlinearbiomedphys.com/content/4/S1/S9
+Page 13 of 18
+
+7.
+Soddu A, Boly M, Nir Y, Noirhomme Q, Vanhaudenhuyse A, Demertzi A,
+Arzi A, Ovadia S, Stanziano M, Papa M, Laureys S, Malach R: Reaching
+across the abyss: recent advances in functional magnetic resonance
+imaging and their potential relevance to disorders of consciousness.
+Prog Brain Res 2009, 177:261-274.
+8.
+Vanhaudenhuyse A, Noirhomme Q, Tshibanda LJF, Bruno MA, Boveroux P,
+Schnakers C, Soddu A, Perlbarg V, Ledoux D, Brichant JF, Moonen G,
+Maquet P, Greicius MD, Laureys S, Boly M: Default network connectivity
+reflects the level of consciousness in non-communicative brain-
+damaged patients. Brain 2010, 133(Pt 1):161-171.
+9.
+Binder JR, Frost JA, Hammeke TA, Bellgowan PS, Rao SM, Cox RW:
+Conceptual processing during the conscious resting state: A functional
+MRI study. J Cogn Neurosci 2002, 11:80-95.
+10.
+Raichle ME, MacLeod AM, Snyder AZ, Powers WJ, Gusnard DA, Shulman GL: A
+default mode of brain function. Proc Natl Acad Sci USA 2001, 98(2):676-682.
+11.
+Kahane G, Savulescu J: Brain damage and the moral significance of
+consciousness. J Med Philos 2009, 34:6-26.
+12.
+Kapogiannis D, Barbey AK, Su M, Zamboni G, Krueger F, Grafman J:
+Cognitive and neural foundations of religious belief. Proc Natl Acad Sci
+USA 2009, 106(12):4876-4881.
+13.
+Laureys S, Boly M: What is it like to be vegetative or minimally
+conscious? Curr Opin Neurol 2007, 20(6):609-613.
+14.
+Norman KA, Polyn SM, Detre GJ, Haxby JV: Beyond mind-reading: multi-
+voxel pattern analysis of fMRI data. Trends Cogn Sci 2006, 10:424-430,
+[(Comment in: Trends Cogn Sci. 2007;11(1):4-5)].
+15.
+Thaut MH, Demartin M, Sanes JN: Brain networks for integrative rhythm
+formation. PLoS One 2008, 3(5):e2312.
+16.
+Tzagarakis C, Jerde TA, Lewis SM, Ugurbil K, Georgopoulos AP: Cerebral
+cortical mechanisms of copying geometrical shapes: a multidimensional
+scaling analysis of fMRI patterns of activation. Exp Brain Res 2009,
+194(3):369-380.
+17.
+He BJ, Raichle ME: The fMRI signal, slow cortical potential and
+consciousness. Trends Cogn Sci 2009, 13:302-309, [(Comment in: Trends
+Cogn Sci. 2009;13(9):367-369)].
+18.
+Schurger A, Pereira F, Treisman A, Cohen JD: Reproducibility distinguishes
+conscious from nonconscious neural representations. Science 2010,
+327(5961):97-99.
+19.
+Bullmore E, Sporns O: Complex brain networks: graph theoretical analysis
+of structural and functional systems. Nat Rev Neurosci 2009,
+10(3):186-198.
+20.
+Chang C, Glover GH: Time-frequency dynamics of resting-state brain
+connectivity measured with fMRI. Neuroimage 2009 [http://dx.doi.org/
+10.1016/j.neuroimage.2009.12.011].
+21.
+Deco G, Jirsa VK, Robinson PA, Breakspear M, Friston K: The dynamic brain:
+from spiking neurons to neural masses and cortical fields. PLoS Comput
+Biol 2008, 4(8):e1000092.
+22.
+Deco G, Rolls ET, Romo R: Stochastic dynamics as a principle of brain
+function. Prog Neurobiol 2009, 88:1-16.
+23.
+Friston KJ, Trujillo-Barreto N, Daunizeau J: DEM: a variational treatment of
+dynamic systems. Neuroimage 2008, 41(3):849-885.
+24.
+van den Heuvel M, Mandl R, Pol HH: Normalized cut group clustering of
+resting-state FMRI data. PLoS One 2008, 3(4):e2001.
+25.
+Johnston LA, Duff E, Mareels I, Egan GF: Nonlinear estimation of the BOLD
+signal. Neuroimage 2008, 40(2):504-514.
+26.
+Mezer A, Yovel Y, Pasternak O, Gorfine T, Assaf Y: Cluster analysis of
+resting-state fMRI time series. Neuroimage 2009, 45(4):1117-1125.
+27.
+Stephan KE, Kasper L, Harrison LM, Daunizeau J, den Ouden HEM,
+Breakspear M, Friston KJ: Nonlinear dynamic causal models for fMRI.
+Neuroimage 2008, 42(2):649-662.
+28.
+Suckling J, Wink AM, Bernard FA, Barnes A, Bullmore E: Endogenous
+multifractal brain dynamics are modulated by age, cholinergic blockade
+and cognitive performance. J Neurosci Methods 2008, 174(2):292-300.
+29.
+Woolrich MW, Jbabdi S, Patenaude B, Chappell M, Makni S, Behrens T,
+Beckmann C, Jenkinson M, Smith SM: Bayesian analysis of neuroimaging
+data in FSL. Neuroimage 2009, 45(1Suppl):S173-S186.
+30.
+Xie X, Cao Z, Weng X: Spatiotemporal nonlinearity in resting-state fMRI
+of the human brain. Neuroimage 2008, 40(4):1672-1685.
+31.
+Freeman WJ: Neurodynamics: An Exploration in Mesoscopic Brain
+Dynamics (Perspectives in Neural Computing). SpringerVerlag 2000.
+32.
+Ward LM: Dynamical Cognitive Science. MIT / Bradford Books 2002.
+33.
+Faisal AA, Selen LPJ, Wolpert DM: Noise in the nervous system. Nat Rev
+Neurosci 2008, 9(4):292-303.
+34.
+Anishchenko VS, Astakhov V, Neiman A, Vadivasova T, Schimansky-Geier L:
+Nonlinear Dynamics of Chaotic and Stochastic Systems: Tutorial and
+Modern Developments. Springer, 2nd 2007.
+35.
+Barrat A, Barthelemy M, Vespignani A: Dynamical Processes on Complex
+Networks. Cambridge University Press 2008.
+36.
+Laing C, Lord GJ (Eds): Stochastic Methods in Neuroscience. Oxford
+University Press 2010.
+37.
+Amit DJ: Modeling Brain Function: The World of Attractor Neural
+Networks. Cambridge University Press 1989.
+38.
+Perlovsky LI, Kozma R (Eds): Neurodynamics of Cognition and,
+Consciousness. Springer 2007.
+39.
+Fox MD, Raichle ME: Spontaneous fluctuations in brain activity observed
+with functional magnetic resonance imaging. Nat Rev Neurosci 2007,
+8(9):700-711.
+40.
+Hohwy J: The neural correlates of consciousness: new experimental
+approaches needed? Conscious Cogn 2009, 18(2):428-438.
+41.
+Raffone A, Srinivasan N: An adaptive workspace hypothesis about the
+neural correlates of consciousness: insights from neuroscience and
+meditation studies. Prog Brain Res 2009, 176:161-180.
+42.
+Tononi G, Koch C: The neural correlates of consciousness: an update.
+Ann N Y Acad Sci 2008, 1124:239-261.
+43.
+Deco G, Jirsa V, McIntosh AR, Sporns O, Kötter R: Key role of coupling,
+delay, and noise in resting brain fluctuations. Proc Natl Acad Sci USA
+2009, 106(25):10302-10307.
+44.
+Friston K, Dolan R: Computational and dynamic models in neuroimaging.
+NeuroImage 2010 [http://dx.doi.org/10.1016/j.neuroimage.2009.12.068].
+45.
+Buice MA, Cowan JD: Statistical mechanics of the neocortex. Prog Biophys
+Mol Biol 2009, 99(2-3):53-86.
+46.
+da Silva FHL, van Rotterdam A, Barts P, van Heusden E, Burr W: Models of
+neuronal populations: the basic mechanisms of rhythmicity. Prog Brain
+Res 1976, 45:281-308.
+47.
+Goldstein J: Emergence as a construct: History and issues. Emergence
+1999, 1:49-72.
+48.
+Baars BJ: In the theatre of consciousness: Global workspace theory, a
+rigorous scientific theory of consciousness. Journal of Consciousness
+Studies 1997, 4:292-309 [http://www.imprint.co.uk/theatre.htm].
+49.
+Baars BJ: The global brainweb: An update on global workspace theory.
+Science and Consciousness Review 2003 [http://cogweb.ucla.edu/CogSci/
+Baars-update_03.html].
+50.
+Baars BJ: The conscious access hypothesis: origins and recent evidence.
+Trends Cogn Sci 2002, 6:47-52.
+51.
+Cho SB, Baars BJ, Newman J: A neural global workspace model for
+conscious attention. Neural Netw 1997, 10(7):1195-1206.
+52.
+Dehaene S, Naccache L: Towards a cognitive neuroscience of
+consciousness: basic evidence and a workspace framework. Cognition
+2001, 79(1-2):1-37.
+53.
+Dehaene S, Changeux JP: Ongoing spontaneous activity controls access
+to consciousness: a neuronal model for inattentional blindness. PLoS
+Biol 2005, 3(5):e141.
+54.
+Reuter F, Cul AD, Malikova I, Naccache L, Confort-Gouny S, Cohen L,
+Cherif AA, Cozzone PJ, Pelletier J, Ranjeva JP, Dehaene S, Audoin B: White
+matter damage impairs access to consciousness in multiple sclerosis.
+Neuroimage 2009, 44(2):590-599.
+55.
+Block N: Consciousness, accessibility, and the mesh between psychology
+and neuroscience. Behav Brain Sci 2007, 30(56):481-99, discussion 499-548.
+56.
+Song X, Tang X: The division of labor for internal-external information
+processing : An extended theory of Global Workspace about
+consciousness. The 12th Annual Meeting of the Association for the Scientific
+Study of Consciousness (ASSC2008) National Taiwan University, Taipei,
+Taiwan. 2008 [http://www.theassc.org/files/assc/ASSC2008r.pdf].
+57.
+Werner G: Consciousness related neural events viewed as brain state
+space transitions. Cogn Neurodyn 2009, 3:83-95.
+58.
+Biswal B, Yetkin FZ, Haughton VM, Hyde JS: Functional connectivity in the
+motor cortex of resting human brain using echo-planar MRI. Magn
+Reson Med 1995, 34(4):537-541.
+59.
+Beckmann CF, DeLuca M, Devlin JT, Smith SM: Investigations into resting-
+state connectivity using independent component analysis. Philos Trans R
+Soc Lond B Biol Sci 2005, 360(1457):1001-1013.
+Lundervold Nonlinear Biomedical Physics 2010, 4(Suppl 1):S9
+http://www.nonlinearbiomedphys.com/content/4/S1/S9
+Page 14 of 18
+
+60.
+Birn RM, Murphy K, Bandettini PA: The effect of respiration variations on
+independent component analysis results of resting state functional
+connectivity. Hum Brain Mapp 2008, 29(7):740-750.
+61.
+Chang C, Glover GH: Effects of model-based physiological noise
+correction on default mode network anti-correlations and correlations.
+Neuroimage 2009, 47(4):1448-1459.
+62.
+Broyd SJ, Demanuele C, Debener S, Helps SK, James CJ, Sonuga-Barke EJS:
+Default-mode brain dysfunction in mental disorders: a systematic
+review. Neurosci Biobehav Rev 2009, 33(3):279-296.
+63.
+Damoiseaux JS, Beckmann CF, Arigita EJS, Barkhof F, Scheltens P, Stam CJ,
+Smith SM, Rombouts SARB: Reduced resting-state brain activity in
+the ‘’default network’’ in normal aging. Cereb Cortex 2008,
+18(8):1856-1864.
+64.
+Fair DA, Cohen AL, Dosenbach NUF, Church JA, Miezin FM, Barch DM,
+Raichle ME, Petersen SE, Schlaggar BL: The maturing architecture of the
+brain’s default network. Proc Natl Acad Sci USA 2008, 105(10):4028-4032.
+65.
+Fair DA, Cohen AL, Power JD, Dosenbach NUF, Church JA, Miezin FM,
+Schlaggar BL, Petersen SE: Functional brain networks develop from a
+‘local to distributed’ organization. PLoS Comput Biol 2009, 5(5):e1000381.
+66.
+Filippini N, MacIntosh BJ, Hough MG, Goodwin GM, Frisoni GB, Smith SM,
+Matthews PM, Beckmann CF, Mackay CE: Distinct patterns of brain activity
+in young carriers of the APOE-epsilon4 allele. Proc Natl Acad Sci USA
+2009, 106(17):7209-7214.
+67.
+Fransson P, Skiold B, Engström M, Hallberg B, Mosskin M, Aden U,
+Lagercrantz H, Blennow M: Spontaneous brain activity in the newborn
+brain during natural sleep-an fMRI study in infants born at full term.
+Pediatr Res 2009, 66(3):301-305.
+68.
+Greicius MD, Srivastava G, Reiss AL, Menon V: Default-mode network
+activity distinguishes Alzheimer’s disease from healthy aging: evidence
+from functional MRI. Proc Natl Acad Sci USA 2004, 101(13):4637-4642.
+69.
+Luca MD, Beckmann CF, Stefano ND, Matthews PM, Smith SM: fMRI resting
+state networks define distinct modes of long-distance interactions in the
+human brain. Neuroimage 2006, 29(4):1359-1367.
+70.
+Monti MM, Vanhaudenhuyse A, Coleman MR, Boly M, Pickard JD,
+Tshibanda L, Owen AM, Laureys S: Willful modulation of brain activity in
+disorders of consciousness. N Engl J Med 2010, 362(7):579-589.
+71.
+Zhang D, Raichle ME: Disease and the brain’s dark energy. Nat Rev Neurol
+2010, 6:15-28.
+72.
+Bellec P, Perlbarg V, Jbabdi S, Pelegrini-Issac M, Anton JL, Doyon J, Benali H:
+Identification of large-scale networks in the brain using fMRI.
+Neuroimage 2006, 29(4):1231-1243.
+73.
+Cole MW, Pathak S, Schneider W: Identifying the brain’s most globally
+connected regions. Neuroimage 2009.
+74.
+Greicius MD, Krasnow B, Reiss AL, Menon V: Functional connectivity in the
+resting brain: a network analysis of the default mode hypothesis. Proc
+Natl Acad Sci USA 2003, 100:253-258.
+75.
+Jann K, Dierks T, Boesch C, Kottlow M, Strik W, Koenig T: BOLD correlates
+of EEG alpha phase-locking and the fMRI default mode network.
+Neuroimage 2009, 45(3):903-916.
+76.
+Laird AR, Eickhoff SB, Li K, Robin DA, Glahn DC, Fox PT: Investigating the
+functional heterogeneity of the default mode network using coordinate-
+based meta-analytic modeling. J Neurosci 2009, 29(46):14496-14505.
+77.
+Mayer JS, Roebroeck A, Maurer K, Linden DEJ: Specialization in the default
+mode: Task-induced brain deactivations dissociate between visual
+working memory and attention. Hum Brain Mapp 2010, 31:126-139.
+78.
+Raichle ME, Snyder AZ: A default mode of brain function: a brief history
+of an evolving idea. Neuroimage 2007, 37(4):1083-90, discussion 1097-9.
+79.
+Miller KJ, Weaver KE, Ojemann JG: Direct electrophysiological
+measurement of human default network areas. Proc Natl Acad Sci USA
+2009, 106(29):12174-12177.
+80.
+Raichle ME: A paradigm shift in functional brain imaging. J Neurosci
+2009, 29(41):12729-12734.
+81.
+Raichle ME: The brain’s dark energy. Sci Am 2010, 302(3):44-49.
+82.
+Comon P: Independent component analysis, A new concept? Signal
+Processing 1994, 36(3):287-314, [Higher Order Statistics].
+83.
+Hyvarinen A, Oja E: Independent component analysis: algorithms and
+applications. Neural Netw 2000, 13(4-5):411-430.
+84.
+McKeown MJ, Makeig S, Brown GG, Jung TP, Kindermann SS, Bell AJ,
+Sejnowski TJ: Analysis of fMRI data by blind separation into independent
+spatial components. Hum Brain Mapp 1998, 6(3):160-188.
+85.
+Beckmann CF, Smith SM: Probabilistic independent component analysis
+for functional magnetic resonance imaging. IEEE Trans Med Imaging
+2004, 23(2):137-152.
+86.
+Bell AJ, Sejnowski TJ: An information-maximization approach to blind
+separation and blind deconvolution. Neural Comput 1995, 7(6):1129-1159.
+87.
+Hyvarinen A: Fast and robust fixed-point algorithms for independent
+component analysis. IEEE Trans Neural Netw 1999, 10(3):626-634.
+88.
+Amari S: Natural gradient learning for over- and under-complete bases
+in ICA. Neural Comput 1999, 11(8):1875-1883.
+89.
+Theis FJ, Jung A, Puntonet CG, Lang EW: Linear geometric ICA:
+fundamentals and algorithms. Neural Comput 2003, 15(2):419-439.
+90.
+Caiafa CF, Cichocki A: Estimation of sparse nonnegative sources from
+noisy overcomplete mixtures using MAP. Neural Comput 2009,
+21(12):3487-3518.
+91.
+Wang Z, Wang J, Calhoun V, Rao H, Detre JA, Childress AR: Strategies for
+reducing large fMRI data sets for independent component analysis.
+Magn Reson Imaging 2006, 24(5):591-596.
+92.
+Li YO, Adali T, Calhoun VD: Estimating the number of independent
+components for functional magnetic resonance imaging data. Hum
+Brain Mapp 2007, 28(11):1251-1266.
+93.
+Calhoun VD, Adali T, Pearlson GD, Pekar JJ: A method for making group
+inferences from functional MRI data using independent component
+analysis. Hum Brain Mapp 2001, 14(3):140-151.
+94.
+Beckmann CF, Smith SM: Tensorial extensions of independent
+component analysis for multisubject FMRI analysis. Neuroimage 2005,
+25:294-311.
+95.
+Guo Y, Pagnoni G: A unified framework for group independent
+component analysis for multi-subject fMRI data. Neuroimage 2008,
+42(3):1078-1093.
+96.
+Eichele T, Calhoun VD, Debener S: Mining EEG-fMRI using independent
+component analysis. Int J Psychophysiol 2009, 73:53-61.
+97.
+Daubechies I, Roussos E, Takerkart S, Benharrosh M, Golden C, D’Ardenne K,
+Richter W, Cohen JD, Haxby J: Independent component analysis for brain
+fMRI does not select for independence. Proc Natl Acad Sci USA 2009,
+106(26):10415-10422.
+98.
+Dodel S, Herrmann JM, Geisel T: Functional connectivity by cross-
+correlation clustering. Neurocomputing 2002, 44-46:1065-1070 [http://dx.
+doi.org/10.1016/S0925-2312(02)00416-2].
+99.
+Freeman WJ: Mesoscopic neurodynamics: from neuron to brain. J Physiol
+Paris 2000, 94(5-6):303-322.
+100. Liljenströom H: Mesoscopic brain dynamics. Scholarpedia. 2000 [http://www.
+scholarpedia.org/article/Mesoscopic_brain_dynamics], (visited 2010/01/30).
+101. Ringach DL: Spontaneous and driven cortical activity: implications for
+computation. Curr Opin Neurobiol 2009, 19(4):439-444.
+102. Rouvas-Nicolis C, Nicolis G: Stochastic resonance. Scholarpedia 2007,
+2(11):1474 [http://dx.doi.org/10.4249/scholarpedia.1474], [Visited 2010/01/
+30].
+103. Benzi R, Parisi G, Sutera A, Vulpiani A: Stochastic resonance in climate
+change. Tellus 1982, 34:10-16.
+104. Gammaitoni L, Hanggi P, Jung P, Marchesoni F: Stochastic resonance.
+Reviews of Modern Physics 1998, 70:223-233.
+105. Moss F, Ward LM, Sannita WG: Stochastic resonance and sensory
+information processing: a tutorial and review of application. Clin
+Neurophysiol 2004, 115(2):267-281.
+106. McDonnell MD, Abbott D: What is stochastic resonance? Definitions,
+misconceptions, debates, and its relevance to biology. PLoS Comput Biol
+2009, 5(5):e1000348-1.
+107. Longtin A: Stochastic resonance in neuron models. Journal of Statistical
+Physics 1993, 70:309-327.
+108. Ward LM, Doesburg SM, Kitajo K, MacLean SE, Roggeveen AB: Neural
+synchrony in stochastic resonance, attention, and consciousness. Can J
+Exp Psychol 2006, 60(4):319-326.
+109. Li SC, von Oertzen T, Lindenberger U: A neurocomputational model of
+stochastic resonance and aging. Neurocomputing 2006, 69:1553-1560.
+110. MacDonald SWS, Li SC, Böackman L: Neural underpinnings of within-
+person variability in cognitive functioning. Psychol Aging 2009,
+24(4):792-808.
+111. Hodgkin AL, Huxley AF: A quantitative description of membrane current
+and its application to conduction and excitation in nerve. J Physiol 1952,
+117(4):500-544.
+Lundervold Nonlinear Biomedical Physics 2010, 4(Suppl 1):S9
+http://www.nonlinearbiomedphys.com/content/4/S1/S9
+Page 15 of 18
+
+112. Wilson HR: Spikes, Decisions and Actions: Dynamical Foundations of
+Neuroscience. Oxford University Press 1999.
+113. Friston KJ: Bayesian estimation of dynamical systems: an application to
+fMRI. Neuroimage 2002, 16(2):513-530.
+114. Hanson SJ, Gagliardi AD, Hanson C: Solving the brain synchrony
+eigenvalue problem: conservation of temporal dynamics (fMRI) over
+subjects doing the same task. J Comput Neurosci 2009, 27:103-114.
+115. Makni S, Beckmann C, Smith S, Woolrich M: Bayesian deconvolution of
+[corrected] fMRI data using bilinear dynamical systems. Neuroimage
+2008, 42(4):1381-1396.
+116. Stephan KE: On the role of general system theory for functional
+neuroimaging. J Anat 2004, 205(6):443-470.
+117. Stam CJ, Reijneveld JC: Graph theoretical analysis of complex networks in
+the brain. Nonlinear Biomed Phys 2007, 1:3.
+118. Sömbul U, Santos JM, Pauly JM: Improved time series reconstruction for
+dynamic magnetic resonance imaging. IEEE Trans Med Imaging 2009,
+28(7):1093-1104.
+119. Wilson HR, Cowan JD: A mathematical theory of the functional dynamics
+of cortical and thalamic nervous tissue. Kybernetik 1973, 13(2):55-80.
+120. Galan R: On how network architecture determines the dominant
+patterns of spontaneous neural activity. PLoS One 2008, 3(5):e2148.
+121. Honey CJ, Sporns O, Cammoun L, Gigandet X, Thiran JP, Meuli R,
+Hagmann P: Predicting human resting-state functional connectivity from
+structural connectivity. Proc Natl Acad Sci USA 2009, 106(6):2035-2040.
+122. Jirsa V, McIntosh A (Eds): Handbook of brain connectivity. Springer-Verlag 2007.
+123. Acebron JA, Bonilla LL, Perez Vicente CJ, Ritort F, Spigler R: The Kuramoto
+model: A simple paradigm for synchronization phenomena. Reviews of
+Modern Physics 2005, 77:137-185 [http://dx.doi.org/10.1103/
+RevModPhys.77.137].
+124. Khrennikov AY: Toward an adequate mathematical model of mental
+space: conscious/unconscious dynamics on m-adic trees. Biosystems
+2007, 90(3):656-675.
+125. Panksepp J: Affective consciousness: Core emotional feelings in animals
+and humans. Conscious Cogn 2005, 14:30-80.
+126. Poznanski RR: Model-based neuroimaging for cognitive computing. J
+Integr Neurosci 2009, 8(3):345-369.
+127. Seth AK, Izhikevich E, Reeke GN, Edelman GM: Theories and measures of
+consciousness: an extended framework. Proc Natl Acad Sci USA 2006,
+103(28):10799-10804.
+128. Haynes JD, Rees G: Predicting the stream of consciousness from activity
+in human visual cortex. Curr Biol 2005, 15(14):1301-1307.
+129. Tononi G, Edelman GM: Consciousness and complexity. Science 1998,
+282(5395):1846-1851.
+130. Quyen MLV: Disentangling the dynamic core: a research program for a
+neurodynamics at the large-scale. Biol Res 2003, 36:67-88.
+131. Werner G: Brain dynamics across levels of organization. J Physiol Paris
+2007, 101(4-6):273-279.
+132. Taylor JG: CODAM model: Through attention to consciousness.
+Scholarpedia 2007, 2(11):1598 [http://dx.doi.org/10.4249/scholarpedia.1598].
+133. Taylor JG: On the neurodynamics of the creation of consciousness. Cogn
+Neurodyn 2007, 1(2):97-118.
+134. Korsten NJH, Fragopanagos N, Hartley M, Taylor N, Taylor JG: Attention as a
+controller. Neural Netw 2006, 19(9):1408-1421.
+135. Skudlarski P, Jagannathan K, Calhoun V, Hampson M, Skudlarska B, Pearlson G:
+Measuring brain connectivity: diffusion tensor imaging validates resting
+state temporal correlations. Neuroimage 2008, 43(3):554-561.
+136. Andersson M, Ystad M, Lundervold A, Lundervold AJ: Correlations between
+measures of executive attention and cortical thickness of left posterior
+middle frontal gyrus - a dichotic listening study. Behav Brain Funct 2009, 5:41.
+137. Klauschen F, Goldman A, Barra V, Meyer-Lindenberg A, Lundervold A:
+Evaluation of automated brain MR image segmentation and volumetry
+methods. Hum Brain Mapp 2009, 30(4):1310-1327.
+138. Ystad MA, Lundervold AJ, Wehling E, Espeseth T, Rootwelt H, Westlye LT,
+Andersson M, Adolfsdottir S, Geitung JT, Fjell AM, Reinvang I, Lundervold A:
+Hippocampal volumes are important predictors for memory function in
+elderly women. BMC Med, Imaging 2009, 9:17 [http://dx.doi.org/10.1186/
+1471-2342-9-17].
+139. Ystad MA, Eichele T, Lundervold AJ, Lundervold A: Subcortical functional
+connectivity and verbal episodic memory in healthy elderly - a resting
+state fMRI study. Neuroimage 2010.
+140. Minka T: Automatic choice of dimensionality for PCA. Tech. Rep. Technical
+Report 514, MIT Media Laboratory, Vision and Modeling Group 2000.
+141. Babiloni C, Sara M, Vecchio F, Pistoia F, Sebastiano F, Onorati P, Albertini G,
+Pasqualetti P, Cibelli G, Buffo P, Rossini PM: Cortical sources of resting-
+state alpha rhythms are abnormal in persistent vegetative state patients.
+Clin Neurophysiol 2009, 120(4):719-729.
+142. Boly M, Phillips C, Tshibanda L, Vanhaudenhuyse A, Schabus M, Dang-Vu TT,
+Moonen G, Hustinx R, Maquet P, Laureys S: Intrinsic brain activity in
+altered states of consciousness: how conscious is the default mode of
+brain function? Ann N Y Acad Sci 2008, 1129:119-129.
+143. Boly M, Phillips C, Balteau E, Schnakers C, Degueldre C, Moonen G, Luxen A,
+Peigneux P, Faymonville ME, Maquet P, Laureys S: Consciousness and
+cerebral baseline activity fluctuations. Hum Brain Mapp 2008,
+29(7):868-874.
+144. Boly M, Massimini M, Tononi G: Theoretical approaches to the diagnosis
+of altered states of consciousness. Prog Brain Res 2009, 177:383-398.
+145. Cauda F, Micon BM, Sacco K, Duca S, D’Agata F, Geminiani G, Canavero S:
+Disrupted intrinsic functional connectivity in the vegetative state. J
+Neurol Neurosurg Psychiatry 2009, 80(4):429-431.
+146. van Gaal S, Ridderinkhof KR, Scholte HS, Lamme VAF: Unconscious
+activation of the prefrontal no-go network. J Neurosci 2010,
+30(11):4143-4150.
+147. Ghosh A, Rho Y, McIntosh AR, Kotter R, Jirsa VK: Noise during rest enables
+the exploration of the brain’s dynamic repertoire. PLoS Comput Biol
+2008, 4(10):e1000196.
+148. Greicius MD, Kiviniemi V, Tervonen O, Vainionpäö V, Alahuhta S, Reiss AL,
+Menon V: Persistent default-mode network connectivity during light
+sedation. Hum Brain Mapp 2008, 29(7):839-847.
+149. Johnston JM, Vaishnavi SN, Smyth MD, Zhang D, He BJ, Zempel JM,
+Shimony JS, Snyder AZ, Raichle ME: Loss of resting interhemispheric
+functional connectivity after complete section of the corpus callosum. J
+Neurosci 2008, 28(25):6453-6458.
+150. Morgan VL, Gore JC, Szaflarski JP: Temporal clustering analysis: what does
+it tell us about the resting state of the brain? Med Sci Monit 2008, 14(7):
+CR345-CR352.
+151. Treserras S, Boulanouar K, Conchou F, Simonetta-Moreau M, Berry I, Celsis P,
+Chollet F, Loubinoux I: Transition from rest to movement: brain correlates
+revealed by functional connectivity. Neuroimage 2009, 48:207-216.
+152. Tshibanda L, Vanhaudenhuyse A, Boly M, Soddu A, Bruno MA, Moonen G,
+Laureys S, Noirhomme Q: Neuroimaging after coma. Neuroradiology 2010,
+52:15-24.
+153. Vincent JL, Patel GH, Fox MD, Snyder AZ, Baker JT, Essen DCV, Zempel JM,
+Snyder LH, Corbetta M, Raichle ME: Intrinsic functional architecture in the
+anaesthetized monkey brain. Nature 2007, 447(7140):83-86.
+154. Pons AJ, Cantero JL, Atienza M, Garcia-Ojalvo J: Relating structural and
+functional anomalous connectivity in the aging brain via neural mass
+modeling. Neuroimage 2010.
+155. Roebroeck A, Formisano E, Geobel R: The identification of interacting
+networks in the brain using fMRI: Model selection, causality and
+deconvolution. Neuroimage 2010.
+156. Rubinov M, Sporns O, van Leeuwen C, Breakspear M: Symbiotic relationship
+between brain structure and dynamics. BMC Neurosci 2009, 10:55.
+157. Spiegler A, Kiebel SJ, Atay FM, Knosche TR: Bifurcation analysis of neural
+mass models: Impact of extrinsic inputs and dendritic time constants.
+Neuroimage 2009 [http://dx.doi.org/10.1016/j.neuroimage.2009.12.081].
+158. Thirion B, Dodel S, Poline JB: Detection of signal synchronizations in
+resting-state fMRI datasets. Neuroimage 2006, 29:321-327.
+159. Michel CM, Koenig T, Brandeis D, Gianotti LR, Wackermann J (Eds): Electrical
+Neuroimaging. Cambridge University Press 2009.
+160. Englot DJ, Blumenfeld H: Consciousness and epilepsy: why are complex-
+partial seizures complex? Prog Brain Res 2009, 177:147-170.
+161. Hauge T, Løken AC, Lundervold A: Unusual EEG in unconscious patient
+with brain stem atrophy. Electroencephalogr Clin Neurophysiol 1956,
+8(4):665-670.
+162. Pockett S, Holmes MD: Intracranial EEG power spectra and phase
+synchrony during consciousness and unconsciousness. Conscious Cogn
+2009, 18(4):1049-1055.
+163. Babiloni C, Vecchio F, Buffo P, Buttiglione M, Cibelli G, Rossini PM: Cortical
+responses to consciousness of schematic emotional facial expressions: A
+high-resolution EEG study. Hum Brain Mapp 2010.
+Lundervold Nonlinear Biomedical Physics 2010, 4(Suppl 1):S9
+http://www.nonlinearbiomedphys.com/content/4/S1/S9
+Page 16 of 18
+
+164. Kostopoulos GK: Involvement of the thalamocortical system in epileptic
+loss of consciousness. Epilepsia 2001, 42(Suppl 3):13-19.
+165. Deneux T, Faugeras O: EEG-fMRI fusion of paradigm-free activity using
+Kalman filtering. Neural Comput 2010, 22(4):906-948.
+166. Eichele T, Calhoun VD, Moosmann M, Specht K, Jongsma MLA, Quiroga RQ,
+Nordby H, Hugdahl K: Unmixing concurrent EEG-fMRI with parallel
+independent component analysis. Int J Psychophysiol 2008, 67(3):222-234.
+167. Esposito F, Aragri A, Piccoli T, Tedeschi G, Goebel R, Salle FD: Distributed
+analysis of simultaneous EEG-fMRI time-series: modeling and
+interpretation issues. Magn Reson Imaging 2009, 27(8):1120-1130.
+168. Esposito F, Mulert C, Goebel R: Combined distributed source and single-
+trial EEG-fMRI modeling: application to effortful decision making
+processes. Neuroimage 2009, 47:112-121.
+169. Li Q, Luo C, Yang T, Yao Z, He L, Liu L, Xu H, Gong Q, Yao D, Zhou D: EEG-
+fMRI study on the interictal and ictal generalized spike-wave discharges
+in patients with childhood absence epilepsy. Epilepsy Res 2009, 87(2-
+3):160-168.
+170. Lei X, Qiu C, Xu P, Yao D: A parallel framework for simultaneous EEG/fMRI
+analysis: Methodology and simulation. Neuroimage 2010 [http://dx.doi.
+org/10.1016/j.neuroimage.2010.01.024].
+171. Mantini D, Perrucci MG, Gratta CD, Romani GL, Corbetta M:
+Electrophysiological signatures of resting state networks in the human
+brain. Proc Natl Acad Sci U S A 2007, 104(32):13170-13175.
+172. Martino FD, Valente G, de Borst AW, Esposito F, Roebroeck A, Goebel R,
+Formisano E: Multimodal imaging: an evaluation of univariate and
+multivariate methods for simultaneous EEG/fMRI. Magn Reson Imaging
+2010.
+173. Moosmann M, Schonfelder VH, Specht K, Scheeringa R, Nordby H,
+Hugdahl K: Realignment parameter-informed artefact correction for
+simultaneous EEG-fMRI recordings. Neuroimage 2009, 45(4):1144-1150.
+174. Mulert C, Leicht G, Hepp P, Kirsch V, Karch S, Pogarell O, Reiser M, Hegerl U,
+Jöger L, Moller HJ, McCarley RW: Single-trial coupling of the gamma-band
+response and the corresponding BOLD signal. Neuroimage 2010,
+49(3):2238-2247.
+175. Ritter P, Moosmann M, Villringer A: Rolandic alpha and beta EEG rhythms’
+strengths are inversely related to fMRI-BOLD signal in primary
+somatosensory and motor cortex. Hum Brain Mapp 2009,
+30(4):1168-1187.
+176. Rodionov R, Siniatchkin M, Michel CM, Liston AD, Thornton R, Guye M,
+Carmichael DW, Lemieux L: Looking for neuronal currents using MRI: an
+EEG-fMRI investigation of fast MR signal changes time-locked to
+frequent focal epileptic discharges. Neuroimage 2010, 50(3):1109-1117.
+177. Sato JR, Rondinoni C, Sturzbecher M, de Araujo DB, Amaro E: From EEG to
+BOLD: brain mapping and estimating transfer functions in simultaneous
+EEG-fMRI acquisitions. Neuroimage 2010, 50(4):1416-1426.
+178. Musso F, Brinkmeyer J, Mobascher A, Warbrick T, Winterer G: Spontaneous
+brain activity and EEG microstates. A novel EEG/fMRI analysis approach
+to explore resting-state networks. Neuroimage 2010.
+179. Bodurka J, Bandettini PA: Toward direct mapping of neuronal activity:
+MRI detection of ultraweak, transient magnetic field changes. Magn
+Reson Med 2002, 47(6):1052-1058.
+180. Heller L, Barrowes BE, George JS: Modeling direct effects of neural current
+on MRI. Hum Brain Mapp 2009, 30:1-12.
+181. Paley MNJ, Chow LS, Whitby EH, Cook GG: Modelling of axonal fields in
+the optic nerve for direct MR detection studies. Image and Vision
+Computing 2009, 27:331-341 [http://dx.doi.org/10.1016/j.imavis.2008.05.001].
+182. Parkes LM, de Lange FP, Fries P, Toni I, Norris DG: Inability to directly
+detect magnetic field changes associated with neuronal activity. Magn
+Reson Med 2007, 57(2):411-416.
+183. Friston KJ: Modalities, modes, and models in functional neuroimaging.
+Science 2009, 326(5951):399-403.
+184. Lagercrantz H, Changeux JP: The emergence of human consciousness:
+from fetal to neonatal life. Pediatr Res 2009, 65(3):255-260.
+185. Merker B: Consciousness without a cerebral cortex: a challenge for
+neuroscience and medicine. Behav Brain Sci 2007, 30:63-81, discussion 81-134.
+186. Lewin R: Is your brain really necessary? Science 1980,
+210(4475):1232-1234.
+187. Faber J, Portugal R, Rosa LP: Information processing in brain
+microtubules. Biosystems 2006, 83:1-9.
+188. Frohlich S, Franco CA: The consciousness circuit - an approach to the
+hard problem. Adv Exp Med Biol 2010, 657:285-301.
+189. Hagan S, Hameroff SR, Tuszyński JA: Quantum computation in brain
+microtubules: decoherence and biological feasibility. Phys Rev E Stat
+Nonlin Soft Matter Phys 2002, 65(6 Pt 1):061901.
+190. Hameroff S: Quantum computation in brain microtubules? The Penrose-
+Hameroff ‘Orch OR’ model of consciousness. Phil. Trans. R. Soc. Lond. A
+1998, 356:1869-1896.
+191. Musha T: Possibility of high performance quantum computation by
+superluminal evanescent photons in living systems. Biosystems 2009,
+96(3):242-245.
+192. Penrose R: Shadows of the Mind. Oxford University Press 1994.
+193. Penrose R: Consciousness, the brain, and spacetime geometry: an
+addendum. Some new developments on the Orch OR model for
+consciousness. Ann N Y Acad Sci 2001, 929:105-110.
+194. Woolf NJ, Hameroff SR: A quantum approach to visual consciousness.
+Trends Cogn Sci 2001, 5(11):472-478.
+195. Craddock TJA, Tuszynski JA: A critical assessment of the information
+processing capabilities of neuronal microtubules using coherent
+excitations. J Biol Phys 2010, 36:53-70.
+196. McKemmish LK, Reimers JR, McKenzie RH, Mark AE, Hush NS: Penrose-
+Hameroff orchestrated objective-reduction proposal for human
+consciousness is not biologically feasible. Phys Rev E Stat Nonlin Soft
+Matter Phys 2009, 80(2 Pt 1):021912.
+197. Tegmark M: Importance of quantum decoherence in brain processes.
+Phys Rev E Stat Phys Plasmas Fluids Relat Interdiscip Topics 2000, 61(4 Pt
+B):4194-4206.
+198. Kiebel SJ, Daunizeau J, Friston KJ: A hierarchy of time-scales and the
+brain. PLoS Comput Biol 2008, 4(11):e1000209.
+199. Kiebel SJ, von Kriegstein K, Daunizeau J, Friston KJ: Recognizing sequences
+of sequences. PLoS Comput Biol 2009, 5(8):e1000464.
+200. Haider B, McCormick DA: Rapid neocortical dynamics: cellular and
+network mechanisms. Neuron 2009, 62(2):171-189.
+201. Kiebel SJ, Daunizeau J, Friston KJ: Perception and hierarchical dynamics.
+Front Neuroinformatics 2009, 3:20.
+202. Angenstein F, Kammerer E, Scheich H: The BOLD response in the rat
+hippocampus depends rather on local processing of signals than on the
+input or output activity. A combined functional MRI and
+electrophysiological study. J Neurosci 2009, 29(8):2428-2439.
+203. Angenstein F, Krautwald K, Scheich H: The current functional state of local
+neuronal circuits controls the magnitude of a BOLD response to
+incoming stimuli. Neuroimage 2010, 50(4):1364-1375.
+204. Adams RB, Rule NO, Franklin RG, Wang E, Stevenson MT, Yoshikawa S,
+Nomura M, Sato W, Kveraga K, Ambady N: Cross-cultural reading the mind
+in the eyes: An fMRI investigation. J Cogn Neurosci 2009, 22:97-108
+[http://dx.doi.org/10.1162/jocn.2009.21187].
+205. deCharms RC: Applications of real-time fMRI. Nat Rev Neurosci 2008,
+9(9):720-729.
+206. Hanson SJ, Halchenko YO: Brain reading using full brain support vector
+machines for object recognition: there is no “face” identification area.
+Neural Comput 2008, 20(2):486-503.
+207. Haynes JD, Rees G: Decoding mental states from brain activity in
+humans. Nat Rev Neurosci 2006, 7(7):523-534.
+208. Kinsbourne M: From unilateral neglect to the brain basis of
+consciousness. Cortex 2006, 42(6):869-874.
+209. Cicek M, Deouell LY, Knight RT: Brain activity during landmark and line
+bisection tasks. Front Hum Neurosci 2009, 3:7.
+210. Ruff CC, Blankenburg F, Bjoertomt O, Bestmann S, Weiskopf N, Driver J:
+Hemispheric differences in frontal and parietal influences on human
+occipital cortex: direct confirmation with concurrent TMS-fMRI. J Cogn
+Neurosci 2009, 21(6):1146-1161.
+211. Bernat JL: Chronic consciousness disorders. Annu Rev Med 2009, 60:381-392.
+212. Christensen MS, Ramsøy TZ, Lund TE, Madsen KH, Rowe JB: An fMRI study
+of the neural correlates of graded visual perception. Neuroimage 2006,
+31(4):1711-1725.
+213. Davis MH, Coleman MR, Absalom AR, Rodd JM, Johnsrude IS, Matta BF,
+Owen AM, Menon DK: Dissociating speech perception and
+comprehension at reduced levels of awareness. Proc Natl Acad Sci USA
+2007, 104(41):16032-16037.
+214. Horovitz SG, Fukunaga M, de Zwart JA, van Gelderen P, Fulton SC, Balkin TJ,
+Duyn JH: Low frequency BOLD fluctuations during resting wakefulness
+and light sleep: a simultaneous EEG-fMRI study. Hum Brain Mapp 2008,
+29(6):671-682.
+Lundervold Nonlinear Biomedical Physics 2010, 4(Suppl 1):S9
+http://www.nonlinearbiomedphys.com/content/4/S1/S9
+Page 17 of 18
+
+215. Laureys S: Eyes open, brain shut. Sci Am 2007, 296(5):84-89.
+216. Overgaard M: How can we know if patients in coma, vegetative state or
+minimally conscious state are conscious? Prog Brain Res 2009, 177:11-19.
+217. Owen AM, Coleman MR, Boly M, Davis MH, Laureys S, Pickard JD: Detecting
+awareness in the vegetative state. Science 2006, 313(5792):1402.
+218. Owen AM, Coleman MR: Functional MRI in disorders of consciousness:
+advantages and limitations. Curr Opin Neurol 2007, 20(6):632-637.
+219. Pagnoni G, Cekic M, Guo Y: ‘’Thinking about not-thinking": neural
+correlates of conceptual processing during Zen meditation. PLoS One
+2008, 3(9):e3083.
+220. Bien N, Roebroeck A, Goebel R, Sack AT: The brain’s intention to imitate:
+the neurobiology of intentional versus automatic imitation. Cereb Cortex
+2009, 19(10):2338-2351.
+doi:10.1186/1753-4631-4-S1-S9
+Cite this article as: Lundervold: On consciousness, resting state fMRI,
+and neurodynamics. Nonlinear Biomedical Physics 2010 4(Suppl 1):S9.
+Submit your next manuscript to BioMed Central
+and take full advantage of: 
+• Convenient online submission
+• Thorough peer review
+• No space constraints or color ﬁgure charges
+• Immediate publication on acceptance
+• Inclusion in PubMed, CAS, Scopus and Google Scholar
+• Research which is freely available for redistribution
+Submit your manuscript at 
+www.biomedcentral.com/submit
+Lundervold Nonlinear Biomedical Physics 2010, 4(Suppl 1):S9
+http://www.nonlinearbiomedphys.com/content/4/S1/S9
+Page 18 of 18

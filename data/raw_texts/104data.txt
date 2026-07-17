@@ -1,0 +1,1520 @@
+HYPOTHESIS AND THEORY ARTICLE
+published: 16 July 2013
+doi: 10.3389/fpsyg.2013.00407
+General and speciﬁc consciousness: a ﬁrst-order
+representationalist approach
+Neil Mehta1 and George A. Mashour 2*
+1 Whitney Humanities Center, Yale University, New Haven, CT, USA
+2 Neuroscience Graduate Program, Department of Anesthesiology, University of Michigan Medical School, Ann Arbor, MI, USA
+Edited by:
+Morten Overgaard, Aalborg
+University, Denmark
+Reviewed by:
+Antti Revonsuo, University of Turku,
+Finland
+Jakob Hohwy, Monash University,
+Australia
+*Correspondence:
+George A. Mashour, Neuroscience
+Graduate Program, Department of
+Anesthesiology, University of
+Michigan Medical School, 1H247
+University Hospital, SPC-5048,
+1500 East Medical Center Drive,
+Ann Arbor, MI 48109-5048, USA
+e-mail: gmashour@umich.edu
+It is widely acknowledged that a complete theory of consciousness should explain general
+consciousness (what makes a state conscious at all) and speciﬁc consciousness (what
+gives a conscious state its particular phenomenal quality). We defend ﬁrst-order represen-
+tationalism, which argues that consciousness consists of sensory representations directly
+available to the subject for action selection, belief formation, planning, etc. We provide
+a neuroscientiﬁc framework for this primarily philosophical theory, according to which
+neural correlates of general consciousness include prefrontal cortex, posterior parietal
+cortex, and non-speciﬁc thalamic nuclei, while neural correlates of speciﬁc consciousness
+include sensory cortex and speciﬁc thalamic nuclei. We suggest that recent data
+support ﬁrst-order representationalism over biological theory, higher-order representation-
+alism, recurrent processing theory, information integration theory, and global workspace
+theory.
+Keywords: consciousness, neural correlate, level of consciousness, content of consciousness, representationalism,
+ﬁrst-order representationalism
+The last two decades have witnessed a renaissance of scientiﬁc
+inquiry into consciousness. Several theoretical contenders have
+emerged, including biological theory, higher-order representation-
+alism, recurrent processing theory, information integration theory,
+and global workspace theory. This article outlines another proposal,
+ﬁrst-order representationalism, which has been inﬂuential among
+philosophers but has received scant neuroscientiﬁc attention. In
+thisarticle,westatethetestabledifferencesbetweenﬁrst-orderrep-
+resentationalism and its rivals, and argue that current data favor
+ﬁrst-order representationalism.
+The core idea of ﬁrst-order representationalism is that any con-
+scious state is a representation, and what it’s like to be in a conscious
+state is wholly determined by the content of that representation. By
+deﬁnition, a representation is about something, and the content of
+a representation is what the representation is about. For instance,
+the word “dolphins” (representation) is about dolphins (content);
+Herbert Bix’s book Hirohito and the Making of Modern Japan (rep-
+resentation) is about the life of the Japanese emperor Hirohito
+(content); and the classic fairy tale Snow White (representation) is
+about the princess Snow White and an evil queen who tries to kill
+her (content). To express the ﬁrst-order representationalist view
+in a (helpful but simpliﬁed) slogan: consciousness is the story that
+our perceptual systems tell us about the world. This is, of course,
+a substantial and controversial hypothesis, as many would dispute
+that our perceptual systems genuinely represent the world to us in
+this rich sense (Travis, 2004).
+Three clariﬁcations are in order. First clariﬁcation: though a
+representation has content, a representation is not identical to its
+content. For example, the representation “dolphins” is an English
+word with eight letters, but its content – dolphins – does not have
+any letters. Conversely, dolphins swim, but the word “dolphins”
+does not swim. This point underlies one major philosophical
+motivation of representationalism: the fact that neural states seem
+to have very different properties than conscious perceptions. For
+instance, when someone consciously perceives the color orange,
+normally there is nothing orange in that person’s brain. First-
+order representationalists explain this by holding that a conscious
+perception of orange is a representation of orange, and (as the
+“dolphin” example shows) the properties of a representation can
+be very different from the properties of its content (Dretske, 1995,
+1999, 2003; Tye, 1995, 2000; Lycan, 1996).
+Second clariﬁcation: the content of a representation can be
+false, and can concern a non-existent thing. Though Bix’s biogra-
+phy of Hirohito is carefully researched, doubtless it contains some
+false sentences. More to the point, the story of Snow White is
+about someone who does not exist. According to representation-
+alists, this explains why illusions, dreams, and hallucinations are
+possible: consciousness can misrepresent the world.
+Third clariﬁcation: ﬁrst-order representationalism does not
+hold that every contentful representation is conscious.
+For
+example, early vision may contain unconscious representations
+(perhaps with contents concerning line orientations and light
+gradients),andtheNewYorkTimesnewspapercontainsmanyrep-
+resentations that are not conscious. Thus, Tye (1995) suggests that
+a conscious representation must be poised to interact directly with
+one’s beliefs and desires, and similarly Dretske (2006) hypothesizes
+that a conscious representation must be available to the subject as a
+reason for action and belief formation. Below, we will reﬁne these
+ideas from Tye and Dretske.
+Stated at this high-level of abstraction, ﬁrst-order represen-
+tationalism delivers little in the way of scientiﬁcally testable
+predictions. Thisarticleexploresaneuroanatomicalinterpretation
+www.frontiersin.org
+July 2013 | Volume 4 | Article 407 | 1
+
+Mehta and Mashour
+First-order representationalism
+of ﬁrst-order representationalism that delivers testable predic-
+tions separating it from rival scientiﬁc theories. In doing so, we
+present a novel approach to the neural correlates of consciousness
+(deﬁned below) that organizes general and speciﬁc conscious-
+ness in a functional relationship of post-sensory and sensory
+systems.
+The discussion will proceed as follows. §1 distinguishes gen-
+eral consciousness (which pertains to the“level”of consciousness)
+from speciﬁc consciousness (which pertains to the “content”
+of consciousness) and also characterizes the post-sensory and
+sensory systems that participate in conscious processing. §2
+summarizes several inﬂuential theories of consciousness and cate-
+gorizes them according to which of these systems are hypothesized
+to be the neural correlates of general and speciﬁc consciousness.
+We argue that only ﬁrst-order representationalism identiﬁes post-
+sensory systems as the neural correlates of general consciousness
+and sensory systems as the neural correlates of speciﬁc conscious-
+ness. §3 argues that post-sensory systems are the neural correlates
+of general consciousness, while §4 argues that sensory systems are
+the neural correlates of speciﬁc consciousness, just as ﬁrst-order
+representationalism predicts.
+1. FRAMING THE PROBLEM(S) OF CONSCIOUSNESS
+Let us begin by clarifying the phenomenon to be explained:
+consciousness. According to Block (1995, 2007), scientists and
+philosophers discussing “consciousness” have often conﬂated two
+quite different properties: access consciousness and phenomenal
+consciousness. To a ﬁrst approximation, a mental state is access
+conscious if and only if one can directly and spontaneously use its
+content in action (including speech) and reasoning. By contrast,
+a mental state is phenomenally conscious if there is “something
+it’s like,” in the inﬂuential phrase of Nagel (1974), to be in that
+state. This paper focuses primarily on phenomenal consciousness,
+though issues of access consciousness crop up occasionally. In
+order to avoid confusion, we will always use the term “conscious-
+ness” to refer to phenomenal consciousness, and we will speak of
+“access”instead of“access consciousness.”Additionally, we will use
+the term phenomenal character to refer to “what it’s like” to be in a
+given conscious state.
+Several theorists (Rees et al., 2002; Hurley and Noë, 2003;
+Tononi, 2004; Kriegel, 2009) have observed that a complete theory
+of consciousness must explain two separate phenomena. The ﬁrst
+is what we term general consciousness: what makes a state conscious
+at all, as opposed to wholly unconscious. This part of a given the-
+ory should explain the difference between, e.g., one’s conscious
+state when one sees a red thing and one’s unconscious state when
+one is anesthetized.
+Second,thetheorymustexplainwhatwetermspeciﬁcconscious-
+ness: what gives a state its speciﬁc phenomenal character, rather
+than some alternative phenomenal character. This part of a given
+theory should explain the difference between one’s conscious state
+when one sees something red and one’s conscious state when one
+sees something green (or hears a loud noise, or feels pain). Speciﬁc
+consciousness presupposes general consciousness, since there can
+be no speciﬁc conscious state if the subject is not conscious at all.
+However, two individuals may both have general consciousness
+while differing in their speciﬁc consciousness.
+To further elucidate the relationship between general con-
+sciousness and speciﬁc consciousness, consider an analogy. Pride
+and Prejudice is a book by Jane Austen. Certain factors make it a
+book at all – the fact that it has pages, a front and back cover, a
+binding, etc. Other factors make it the speciﬁc book that it is – the
+fact that it contains speciﬁc words in a speciﬁc order, was written
+by Jane Austen, etc. Similarly, general consciousness is what makes
+a state conscious at all, while speciﬁc consciousness is what makes
+a state the speciﬁc conscious state that it is.
+This distinction between general and speciﬁc consciousness
+corresponds roughly to the existing distinction between the
+“level” and the “content” of consciousness (Hohwy, 2009; Over-
+gaard and Overgaard, 2010; Bachmann, 2012). However, since
+we are using the term “content” in the technical way deﬁned
+above, we will continue to use the general/speciﬁc terminology
+instead. Additionally, we acknowledge that cortical arousal, or
+the capacity for cortical arousal – which is mediated primarily by
+subcortical structures in the brainstem, diencephalon, and basal
+forebrain – is a necessary precondition for consciousness. How-
+ever, these subcortical structures do not constitute consciousness
+per se. This is clearly evidenced in certain pathological condi-
+tions such as vegetative states, in which arousal or sleep–wake
+patterns can be present in the absence of consciousness (Lau-
+reys, 2005). Thus, we do not discuss these subcortical structures
+further.
+Scientists have often sought the neural correlates of conscious-
+ness – the set of neural events and mechanisms that directly
+constitute (general or speciﬁc) consciousness. These differ from
+the neural prerequisites of consciousness, which are necessary for
+consciousness without directly constituting it, and from the neu-
+ral consequences of consciousness,which result from consciousness
+rather than directly constituting it (Aru et al., 2012; De Graaf et al.,
+2012).
+Broadly speaking, two types of systems participate in con-
+scious processing. Sensory systems are dedicated to the detection
+of highly speciﬁc perceptible features. These systems may be tuned
+to modality-speciﬁc properties (such as color and tone) or proper-
+ties detectible via multiple modalities (such as motion and spatial
+location), and the same localized neural region may be tuned to
+different perceptible properties over time (Lamme and Roelfsema,
+2000). Post-sensory systems perform a broad variety of functions,
+including modulation of sensory processing via top-down atten-
+tion, distribution of sensory information via a global workspace
+(Dehaene and Changeux, 2011), and estimation of signal quality
+(Lau, 2008).
+For example, consider visual processing, which includes both a
+fast feedforward sweep and slower recurrent processing loops (also
+known as feedback, reentrant, reafferent, or reverberant process-
+ing; Lamme and Roelfsema, 2000; Lamme, 2006, 2010; Treisman,
+2006; VanRullen, 2007; Dehaene et al., 2011). In the feedforward
+sweep, which is completed in about 100 ms, activation proceeds in
+a swift, unidirectional cascade from the retina, to the lateral genic-
+ulate nucleus of the thalamus, to V1 in the occipital cortex, to
+higher visual processing areas (including V2,V3,V4, and V5), and
+ﬁnally to more rostral structures. By contrast, recurrent processing
+loops involve reciprocal information transfer between these cor-
+tical areas, and corresponding thalamic regions (Jones, 2009), via
+Frontiers in Psychology | Consciousness Research
+July 2013 | Volume 4 | Article 407 | 2
+
+Mehta and Mashour
+First-order representationalism
+horizontal and feedback connections. Recurrent processing may
+occur at many scales, from a local scale (within a sensory modal-
+ity) to a global scale (implicating executive function or spanning
+different sensory modalities).
+Plausibly, visual sensory systems dedicated to processing highly
+speciﬁc properties include occipital and temporal cortex (such as
+V1,V2,V3,V4, and V5), as well as the lateral geniculate nucleus of
+the thalamus. By contrast, many areas in the frontal and posterior
+parietal cortex, as well as thalamic non-speciﬁc (or matrix) nuclei
+associated with such areas (Jones, 2009), are strong candidates
+for post-sensory systems. These post-sensory systems tend to be
+multimodal association cortices that serve as highly connected
+hubs performing a wide range of functions (Gong et al., 2009).
+Although the sensory/post-sensory distinction may not be per-
+fectly sharp, we believe that it is sharp enough to be helpful
+in philosophical and scientiﬁc categorization. Consequently, the
+next section uses this framework to categorize theories of con-
+sciousness according to which systems (sensory or post-sensory)
+are hypothesized to be the neural correlates of general or spe-
+ciﬁc consciousness. The commitments of scientiﬁc theories of
+consciousness with respect to this framework have usually been
+implicit. As such, we will make them as explicit as possible, which
+requires some degree of interpretation.
+2. THEORIES OF CONSCIOUSNESS
+It is widely accepted that consciousness is realized in neural states.
+However, is consciousness also identical to neural states, so that
+something without neural states (such as a robot) cannot possibly
+have the same kinds of conscious states as a human being? The
+biological theory answers this question afﬁrmatively. To explain
+speciﬁc consciousness, many biological theorists hold that each
+speciﬁc type of conscious state corresponds to a speciﬁc type of
+neural state. For instance, Block (2009) hypothesizes that con-
+sciousness of motion is simply activation of visual areaV5 (as long
+as this activation is of a certain sort, and is properly embedded in a
+certain sort of biological system), and similarly Zeki (2007) identi-
+ﬁes consciousness of color with activation of V4. This suggests that
+sensory systems are the neural correlates of speciﬁc consciousness.
+Moreover, Block (2009) speculates that functional connections
+between these cortical areas and the thalamus are required for
+consciousness in general, which suggests that sensory and perhaps
+post-sensory systems (depending on which thalamic regions are
+involved) are the neural correlates of general consciousness, as
+well.
+Next,consider higher-order representationalism, which is a more
+complex version of ﬁrst-order representationalism. While ﬁrst-
+order representationalists posit an array of ﬁrst-order perceptual
+representationsdirectedattheworld,higher-orderrepresentation-
+alists additionally posit an array of higher-order representations
+(either thoughts or perceptions) directed at these ﬁrst-order per-
+ceptual representations. To explain general consciousness, higher-
+order representationalists hold that a state is conscious in virtue
+of being targeted by (or perhaps being disposed to be targeted
+by Carruthers, 2000, 2005) higher-order representations. Some
+higher-order representationalists hold that speciﬁc phenomenal
+character is determined entirely by the content of higher-order
+representations (Rosenthal, 2005), while others appeal to the
+content of both ﬁrst-order and higher-order representations (Lau,
+2008, 2010; Kriegel, 2009).
+In neural terms, Lau and Rosenthal (2011) hypothesize that
+higher-order representations are harbored in post-sensory sys-
+tems, such as posterior parietal regions and especially the dor-
+solateral prefrontal cortex, while ﬁrst-order representations are
+harbored in sensory systems. Although this neural interpretation is
+not forced on higher-order representationalists, we will henceforth
+adopt it because (a) several higher-order representationalists have
+endorsed this interpretation, and (b) higher-order representation-
+alism is very difﬁcult to test scientiﬁcally without some neural
+interpretation. Given this interpretation, higher-order represen-
+tationalists identify post-sensory areas as the neural correlates of
+general consciousness; they identify post-sensory and perhaps also
+sensory areas as the neural correlates of speciﬁc consciousness.
+Lamme (2006) proposes the recurrent processing theory, accord-
+ing to which recurrent processing (as described in §1) is necessary
+and sufﬁcient for general consciousness. Lamme holds that recur-
+rent processing can occur in both sensory and post-sensory areas.
+Additionally, while Lamme is not entirely explicit about how to
+explain speciﬁc consciousness, the obvious approach is to say that
+speciﬁc phenomenal character is determined by which areas are
+engaged in recurrent processing, which again comprises sensory
+and post-sensory areas.
+Information
+integration
+theory
+holds
+that
+consciousness
+requires two elements: information, understood as the ability to
+discriminate among a large number of alternatives, and integra-
+tion, understood as whether or not a system functions as a uniﬁed
+whole, rather than as separate components (Tononi, 2004, 2008).
+With respect to general consciousness, information integration
+theory says that the degree of consciousness that a system possesses
+at a time is determined by the degree of integrated information
+it possesses at that time. Since this will, in turn, be determined
+by corticothalamic networks spanning the brain, the hypothesis
+takes sensory and post-sensory systems as the neural correlates of
+general consciousness. Further, with respect to speciﬁc conscious-
+ness, it claims that the speciﬁc character of a conscious state is
+wholly determined by the set of informational relationships of a
+system with integrated information (Tononi, 2008). That is, the
+mechanisms constituting consciousness discriminate one infor-
+mational state from all other possible states of the system, and
+this precise discrimination determines the speciﬁc phenomenal
+character of the state. Since all informational relationships are rel-
+evant to determining speciﬁc phenomenal character, information
+integration theory also takes sensory and post-sensory systems to
+constitute speciﬁc consciousness.
+We now turn to global workspace theory, which posits many
+specialized and localized mental processes. Information from a
+select few of these processes are collected in a global workspace
+(typically identiﬁed with working memory), and this informa-
+tion is widely disseminated throughout the brain via long-range
+neuronal connections. According to global workspace theory, a
+state is conscious in virtue of its outputs being disseminated via
+the global workspace, which is neurally realized in cortical and
+thalamocortical networks distributed throughout the brain but
+which is especially dense in prefrontal, cingulate, and parietal
+regions (Baars,2002,2005; Baars and Franklin,2003; Dehaene and
+www.frontiersin.org
+July 2013 | Volume 4 | Article 407 | 3
+
+Mehta and Mashour
+First-order representationalism
+Changeux, 2003, 2011; Sergent and Dehaene, 2004; Dehaene et al.,
+2006, 2011). While these networks consist of post-sensory areas,
+they relay information from sensory areas. Thus, sensory and
+post-sensory systems are identiﬁed as the neural correlates of gen-
+eral consciousness. Global workspace theory also implicates these
+same systems as the neural correlates of speciﬁc consciousness,
+since speciﬁc phenomenal character is determined by which neu-
+rons are active and which are inactive within the global workspace
+(Dehaene et al., 2011).
+Finally, let us return to ﬁrst-order representationalism. Recall
+that, according to this theory, consciousness is hypothesized to
+consist in (i) ﬁrst-order representations directed at the world
+which (ii) are directly available to the subject for action selec-
+tion, belief formation, planning, etc. Condition (i) embodies
+an approach to speciﬁc consciousness: the speciﬁc phenomenal
+character of a representation is determined wholly by its con-
+tent. Condition (ii) complements this with an approach to general
+consciousness: for a representation to be conscious rather than
+unconscious is for it to be directly available to the subject for
+action selection, belief formation, planning, etc.
+We will now provide a neural framework for this theory. As
+mentioned above, we deem arousal or the capacity for arousal
+(as mediated primarily by subcortical structures in the brainstem,
+diencephalon and basal forebrain) as a necessary precondition
+for consciousness, rather than a constitutive factor. Further,
+with respect to (i), we hypothesize (in agreement with Lau and
+Rosenthal, 2011) that these ﬁrst-order representations are gener-
+ated by sensory systems. In visual processing, for example, we
+hypothesize (with theorists like Block and Zeki) that V4 con-
+tains representations of color and V5 contains representations of
+motion.
+To characterize direct availability neurally, we incorporate ele-
+ments of global workspace theory. Recall that global workspace
+theory posits a process whereby information is selected and widely
+distributed throughout the brain via post-sensory long-range neu-
+rons especially dense in prefrontal, cingulate, and parietal regions.
+(Based on research discussed below, we hypothesize that posterior
+parietal cortex plays an especially important role.) This process
+of information selection and distribution integrates such diverse
+brain functions as attention, long-term memory, motor control,
+and evaluation (Dehaene et al., 2011). We tentatively hypothesize
+that the subject is constituted by the integrated activity of such
+diverse brain functions. Thus, we hold that these post-sensory cor-
+tical systems, and the relevant thalamic matrix neurons, underlie
+direct availability to the subject and are thus the neural correlates
+of general consciousness. This version of ﬁrst-order representa-
+tionalism is a close cousin of global workspace theory with respect
+to general consciousness, but diverges from global workspace the-
+ory with respect to speciﬁc consciousness. Table 1 summarizes this
+information.
+There is one substantial complication, which we mention only
+to set aside. Some argue that consciousness can overﬂow access
+(Block, 1995, 2007, 2011; Lamme, 2003; Tye, 2010), while oth-
+ers disagree (Prinz, 2000, 2005, 2010, 2011; Dehaene et al., 2006;
+Kouider et al., 2007, 2010; De Brigard and Prinz, 2010; Cohen
+and Dennett, 2011; Phillips, 2011; Brown, 2012). We remain
+neutral on this controversial topic, since ﬁrst-order representa-
+tionalism is compatible with either view. If consciousness does
+overﬂow access, then ﬁrst-order representationalists can accom-
+modate this by holding that ﬁrst-order representations can be
+conscious merely in virtue of being poised for distribution via
+the global workspace, even if they are not actually distributed. If
+consciousness does not overﬂow access, then consciousness can
+be understood straightforwardly as distribution via the global
+workspace.
+Since only ﬁrst-order representationalism identiﬁes post-
+sensory systems as the neural correlates of general consciousness
+and sensory systems as the neural correlates of speciﬁc conscious-
+ness, ﬁrst-order representationalism makes testable predictions
+distinguishing it from the alternative theories discussed. It pre-
+dicts that selective impairment of post-sensory systems, such as
+prefrontal cortex, posterior parietal cortex, and regions of the tha-
+lamus,will result in an impaired ability to generate conscious states
+at all, but that no such impairment will result from impairments
+of sensory systems alone. These predictions separate ﬁrst-order
+representationalism from biological theory, recurrent processing
+Table 1 |Theories of consciousness.
+Theory
+Consciousness is. . .
+Systems constituting general NCC
+Systems constituting speciﬁc NCC
+Biological theory
+Identical to neural states
+Sensory, possibly post-sensory
+Sensory
+Higher-order representationalism
+Activation of higher-order
+representations directed at
+ﬁrst-order sensory representations
+Post-sensory
+Post-sensory, possibly sensory
+Recurrent processing theory
+Recurrent processing
+Sensory, post-sensory
+Sensory, post-sensory
+Information integration theory
+Integrated information
+Sensory, post-sensory
+Sensory, post-sensory
+Global workspace theory
+Global information availability
+Sensory, post-sensory
+Sensory, post-sensory
+First-order representationalism
+Activation of ﬁrst-order
+representations (poised to be)
+distributed via the global workspace
+Post-sensory
+Sensory
+NCC, neural correlates of consciousness.
+Frontiers in Psychology | Consciousness Research
+July 2013 | Volume 4 | Article 407 | 4
+
+Mehta and Mashour
+First-order representationalism
+theory, information integration theory, and global workspace
+theory. Second, it predicts that selectively impairing sensory sys-
+tems will selectively impair the ability to experience speciﬁc types
+of conscious states without impairing the ability to experience
+other types of conscious states. Selectively impairing post-sensory
+systems will not have this effect. These predictions separate ﬁrst-
+order representationalism from higher-order representationalism,
+recurrent processing theory, information integration theory, and
+global workspace theory.
+Next, §3 will argue that the ﬁrst-order representational-
+ist predictions about general consciousness are consistent with
+current data, and §4 will argue that the ﬁrst-order representation-
+alist predictions about speciﬁc consciousness are consistent with
+current data.
+3. GENERAL CONSCIOUSNESS
+The claim that the neural correlates of general consciousness
+include post-sensory systems in prefrontal cortex, posterior pari-
+etal cortex, and non-speciﬁc thalamic nuclei is strongly supported
+by many types of studies. First, consider data suggesting that
+sensory processing alone appears insufﬁcient for general con-
+sciousness. Boveroux et al. (2010) found preservation of func-
+tionalnetworkssubservingprimaryvisualandauditoryprocessing
+during deep sedation. Meanwhile, prefrontal cortex (especially
+dorsolateral prefrontal cortex) appears relevant to general con-
+sciousness under some conditions. For example, Lau and Passing-
+ham (2006) used a metacontrast masking paradigm to create two
+conditions with matched performance of discriminating two tar-
+gets, but where subjects in one condition were much more likely
+to report seeing the target. fMRI data revealed differences between
+these conditions only in dorsolateral prefrontal cortex (and not,
+for example, in sensory processing areas). Additionally, transcra-
+nial magnetic stimulation applied to dorsolateral prefrontal cortex
+alone can decrease the likelihood that subjects report seeing a tar-
+get (Rounis et al., 2010). Because of the interventional nature of
+transcranial magnetic stimulation, this suggests that dorsolateral
+prefrontal cortex is not merely a neural consequence of general
+consciousness, but is instead a genuine neural correlate. The fact
+that general consciousness does not wholly disappear under dis-
+ruption of the dorsolateral prefrontal cortex suggests that this area
+is not the sole neural correlate of general consciousness.
+Långsjö et al. (2012) and Ku et al. (2011) assessed loss and
+return of consciousness in anesthetized subjects. Loss of con-
+sciousness was associated with decreased frontoparietal connectiv-
+ity (Ku et al., 2011), while return of consciousness was associated
+with an increase in frontoparietal connectivity (Ku et al., 2011;
+Långsjö et al.,2012). Notably,these results also implicate the poste-
+riorparietalcortexingeneralconsciousness. However,itisunlikely
+that prefrontal cortex is the sole neural correlate of general con-
+sciousness, given the well-known suppression of frontal activity
+during rapid-eye-movement (REM) sleep, which is strongly asso-
+ciated with dream consciousness (Maquet et al.,1996; Hobson and
+Pace-Schott, 2002).
+The thalamus also plays a substantial role in supporting general
+consciousness. Alkire and Miller (2005) report that, across eight
+different anesthetic agents, depression of the thalamus is more
+strongly correlated with anesthesia than local effects anywhere else
+inthebrain. Further,recentdatasuggestthatanestheticeffectsmay
+preferentially inhibit the non-speciﬁc thalamic nuclei and that this
+inhibition correlates best with cognitive changes during loss of
+consciousness in humans (Liu et al., 2013). This is consistent with
+our view that the non-speciﬁc thalamic nuclei are part of a post-
+sensory processing system that mediates general consciousness.
+Recall that our neural version of ﬁrst-order representationalism
+holds that general consciousness requires availability of sensory
+content to a set of distributed post-sensory systems (realized in
+prefrontal cortex,posterior parietal cortex,and thalamus) working
+in an integrated fashion (as described by global workspace theory).
+If this is correct, then perhaps no single post-sensory system is
+required for general consciousness. Rather, integrated activity of a
+substantial number of post-sensory systems is required for general
+consciousness. This hypothesis explains the above data concern-
+ing deactivation of prefrontal cortex during sleep and is further
+supported by a number of experiments. For example, Massimini
+et al. (2010) observed a pattern of widespread cortical activation
+associated with transcranial magnetic stimulation in the waking
+state. This pattern persisted, though less robustly, in REM sleep
+(associated with dreaming consciousness) and was virtually extin-
+guished during non-REM (NREM) sleep (associated with little to
+no consciousness) and during general anesthesia (Ferrarelli et al.,
+2010). Similarly, Del Cul et al. (2007) found that consciousness in
+a masking paradigm was associated with highly distributed fronto-
+parieto-temporal activation. Such data underscore the signiﬁcance
+of widespread cortical activation for general consciousness.
+Moreover, not all post-sensory processing is conscious. For
+example, inhibitory control is mediated largely by the prefrontal
+cortex, a paradigmatic post-sensory region. Recent studies sug-
+gest that inhibitory control can occur unconsciously (Hughes
+et al., 2009; van Gaal et al., 2008, 2009, 2010, 2011; van Gaal and
+Lamme, 2011). Similarly, prefrontal cognitive control functions
+such as task-set preparation may be discharged unconsciously
+(Lau and Passingham, 2007). As ﬁrst-order representationalists
+predict, there was no widespread activation of cortical networks
+associated with the global workspace in these experiments. Only
+localized activation of post-sensory regions occurred (Dehaene
+and Changeux, 2011; van Gaal and Lamme, 2011).
+One might argue that, rather than subserving consciousness per
+se, post-sensory processing merely subserves attention or access to
+sensory systems, which are in fact the neural correlates of general
+consciousness. On this view, post-sensory processing is a neural
+consequence of consciousness. One argument for this is neural:
+Lamme (2003) suggests that the neural basis of attention involves
+increased activity in frontoparietal regions which is shaped by
+a combination of sensory processing, short-term memory, and
+long-term memory. By contrast, he argues that consciousness
+requires recurrent processing. Backward masking, which ren-
+ders stimuli unreportable, suppresses recurrent processing while
+leaving the feedforward sweep largely intact (Lamme and Roelf-
+sema, 2000). Moreover, transcranial magnetic stimulation that
+disrupts recurrent but not feedforward processing still leaves sub-
+jects unable to report seeing anything, and feedforward processing
+persists without recurrent processing in anesthetized animals
+(Lamme, 2003). Thus, Lamme concludes that the neural cor-
+relates of consciousness include recurrent processing. Although
+www.frontiersin.org
+July 2013 | Volume 4 | Article 407 | 5
+
+Mehta and Mashour
+First-order representationalism
+Lammefocusesprimarilyonrecurrentprocessingwithinthevisual
+modalities, others theorize that more global recurrent processing
+from anterior to posterior post-sensory brain regions is critical for
+general consciousness (Dehaene and Changeux, 2011; Changeux,
+2012).
+We reply that ﬁrst-order representationalism is perfectly com-
+patible with these data: as discussed in the next section, the neural
+correlates of speciﬁc consciousness may well include recurrent
+processing. However, some preliminary evidence argues against
+the hypothesis that the sole contribution of post-sensory pro-
+cessing is to enable attention or access. For example, Del Cul
+et al. (2009) studied patients with frontal lesions and found that
+such patients displayed impaired abilities to report seeing masked
+stimuli and to select the appropriate response in a forced-choice
+identiﬁcation task, compared to control subjects. However, this
+appears not to be an attentional deﬁcit, for such patients bene-
+ﬁted from both temporal and spatial cues, and the threshold for
+reportable perception was consistently higher for these patients
+across four different attentional conditions.
+More studies are required to rule out the hypothesis that the
+sole contribution of post-sensory processing is to enable non-
+attentional access. Nevertheless, the simplest explanation of the
+current data is that, assuming cortical arousal (as in the wak-
+ing state and during REM sleep), post-sensory processing regions
+alone are the neural correlates of general consciousness. This
+result favors ﬁrst-order representationalism and higher-order rep-
+resentationalism, which both predict this result. It undermines
+biological theory, which (as it has been speciﬁed by its advocates)
+identiﬁes sensory (and perhaps also post-sensory) processing
+regions as the neural correlates of general consciousness. It also
+undermines information integration theory and global workspace
+theory, which identify both sensory and post-sensory processing
+regions as the neural correlates of general consciousness. The next
+section considers speciﬁc consciousness.
+4. SPECIFIC CONSCIOUSNESS
+A large body of experimental ﬁndings supports the hypothesis
+that speciﬁc phenomenal character is determined solely by sen-
+sory systems. The best evidence for this claim is that activation
+of localized sensory areas is tightly associated with speciﬁc con-
+scious states. For example, many studies show that activation of
+V4 is strongly associated with consciousness of color: fMRI data
+show selective activation of V4 in the experience of color across
+a variety of paradigms (Bartels and Zeki, 2000), and damage to
+V4 leads to the inability to see color (Zeki, 1990). Similarly, recent
+studies have associated distinct sensory areas with the processing
+of texture, color, shape/form, and glossiness (Cant et al., 2009;
+Cavina-Pratesi et al., 2010a,b; Kentridge et al., 2012). Additionally,
+many studies suggest that activation of V5 is tightly associated
+with consciousness of motion. Lesions of V5 in humans and mon-
+keys result in severe deﬁcits in motion perception (Schenk and
+Zihl, 1997). Further, V5 is differentially activated when subjects
+experience illusory motion (Zeki et al., 1993) and implied motion
+(e.g., when one sees a still photo of an object obviously in motion;
+Kourtzi and Kanwisher, 2000).
+Surprisingly, such results hold up even across modalities. Saenz
+et al. (2008) provide fMRI data for early-blind subjects who
+recoveredlimitedvisioninadulthood. Inthesecases,V5wasdiffer-
+entiallyactivatedbymovingvisualandauditorystimuli. Moreover,
+Poirier et al. (2006) report similar results based on fMRI data: areas
+typically associated with visual processing of motion are, in blind
+subjects, associated with auditory processing of motion. Addi-
+tionally, Ricciardi et al. (2011) found that selectively disabling V5
+with transcranial magnetic stimulation signiﬁcantly impaired the
+ability of subjects to detect tactile motion.
+However, some experiments suggest that V5 activation in the
+absenceofV1activationdoesnotresultinconsciousnessof motion
+(Cowey and Walsh, 2000; Pascual-Leone and Walsh, 2001). Thus,
+we leave open the possibility that consciousness of motion requires
+recurrent processing between V5 and areas such as V1. More
+broadly,weleaveopenthepossibilitythatallspeciﬁcconsciousness
+requires recurrent processing (as Lamme, 2006, 2010 suggest).
+Nonetheless, two alternative views are worth considering.
+First, one may hold that these data concern unconscious or
+pre-conscious processing, rather than full-ﬂedged conscious pro-
+cessing (Dehaene et al., 2006). On this view, differences in sensory
+processing are neural prerequisites of consciousness: they cause
+differences in post-sensory processing, but only these post-sensory
+states are genuinely conscious. Second, one may argue that some
+speciﬁc phenomenal character is determined by sensory process-
+ing, while other speciﬁc phenomenal character is determined by
+post-sensory processing (Lau, 2008, 2010). However, the same
+problem afﬂicts both replies. Both of these approaches predict that
+selectively disabling post-sensory areas will also selectively disable
+the ability to undergo speciﬁc conscious states (just as disabling
+V5 also selectively disables the ability to be in the speciﬁc con-
+scious states associated with motion). However, so far as we know,
+no effect of this sort has been reported. As discussed in Section
+“General Consciousness,” disabling post-sensory systems leads to
+a general deﬁcit in consciousness. However, clear examples of spe-
+ciﬁc deﬁcits in consciousness resulting from local disruption of
+post-sensory systems have not been found.
+In sum, these data strongly suggest that processing in sensory
+systems alone is the neural correlate of speciﬁc consciousness.
+This result is predicted by ﬁrst-order representationalism and
+biological theory but poses problems for higher-order representa-
+tionalism, information integration theory, and global workspace
+theory. Since the previous section argued that current forms of
+the biological theory are unpromising with respect to general
+consciousness, we conclude that a diverse body of data presently
+supports ﬁrst-order representationalism.
+CONCLUSION
+We have argued that disentangling general and speciﬁc conscious-
+ness leads to substantial progress: post-sensory systems are strong
+candidates for the neural correlates of general consciousness, while
+sensory systems are strong candidates for the neural correlates of
+speciﬁc consciousness. Of existing theories of consciousness that
+supply enough neural detail to be directly empirically testable,only
+ﬁrst-order representationalism makes these predictions.
+However, we freely admit that rival theories of consciousness
+could be substantially modiﬁed to accommodate these data. For
+example, one could hold a higher-order representationalist view
+according to which a state is conscious if and only if it is the
+Frontiers in Psychology | Consciousness Research
+July 2013 | Volume 4 | Article 407 | 6
+
+Mehta and Mashour
+First-order representationalism
+target of a higher-order representation, but speciﬁc phenomenal
+character is determined solely by the content of the targeted ﬁrst-
+order representation. Similarly, a biological theorist could posit
+that prefrontal cortex, posterior parietal cortex, and non-speciﬁc
+thalamic nuclei constitute general consciousness. It remains to be
+seen whether such modiﬁcations can be made while respecting the
+initial motivations for these theories. Regardless, we conclude that,
+of the major theoretical options as they have been neurally speciﬁed
+by their advocates, ﬁrst-order representationalism currently best
+ﬁts the data.
+REFERENCES
+Alkire, M., and Miller, J. (2005). “Gen-
+eral anesthesia and the neural cor-
+relates of consciousness,” in Progress
+in Brain Research, ed. S. Laureys
+(Oxford, MA: Elsevier), 229–244.
+Aru, J., Bachmann, T., Singer, W.,
+and Melloni, L. (2012). Distilling the
+neural correlates of consciousness.
+Neurosci. Biobehav. Rev. 36, 737–
+746. doi: 10.1016/j.neubiorev.2011.
+12.003
+Baars, B. (2002). The conscious access
+hypothesis: origins and recent evi-
+dence. Trends Cogn.
+Sci.
+6, 47–
+52.
+doi:
+10.1016/S1364-6613(00)
+01819-2
+Baars,B.(2005).“Globalworkspacethe-
+ory of consciousness: toward a cog-
+nitive neuroscience of human expe-
+rience,” in Progress in Brain Research,
+ed. S. Laureys (Oxford,MA:Elsevier),
+45–53.
+Baars, B., and Franklin, S. (2003).
+How conscious experience and work-
+ing memory interact. Trends Cogn.
+Sci. 7, 166–172. doi: 10.1016/S1364-
+6613(03)00056-1
+Bachmann, T. (2012). How to begin
+to overcome the ambiguity present
+in
+differentiation
+between
+con-
+tents and levels of consciousness?
+Front. Psychol. 3:82. doi: 10.3389/
+fpsyg.2012.00082
+Bartels, A., and Zeki, S. (2000). The
+architecture of the colour centre
+in the human visual brain:
+new
+results and a review. Eur. J. Neurosci.
+12, 172–193. doi: 10.1046/j.1460-
+9568.2000.00905.x
+Block,
+N. (1995).
+On a confusion
+about a function of consciousness.
+Behav. Brain Sci. 18, 227–287. doi:
+10.1017/S0140525X00038188
+Block, N. (2007). Consciousness, acces-
+sibility, and the mesh between psy-
+chology and neuroscience.
+Behav.
+Brain Sci. 30, 481–499. doi: 10.1017/
+S0140525X07002786
+Block,
+N. (2009).
+“Comparing the
+major theories of consciousness,” in
+The Cognitive Neurosciences IV, ed.
+M. Gazzaniga (London: MIT Press),
+1111–1122.
+Block,
+N. (2011).
+Perceptual con-
+sciousness overﬂows cognitive access.
+Trends Cogn. Sci. 15, 567–575. doi:
+10.1016/j.tics.2011.11.001
+Boveroux,
+P.,
+Vanhaudenhuyse,
+A.,
+Bruno,
+M.,
+Noirhomme,
+Q.,
+Lauwick, S., Luxen, A., et al. (2010).
+Breakdown of within- and between-
+network
+resting
+state
+functional
+magnetic resonance imaging con-
+nectivity during propofol-induced
+loss
+of
+consciousness.
+Anesthe-
+siology
+113,
+1038–1053.
+doi:
+10.1097/ALN.0b013e3181f697f5
+Brown,
+R.
+(2012).
+The
+myth
+of
+phenomenological overﬂow.
+Con-
+scious.
+Cogn.
+21,
+599–604.
+doi:
+10.1016/j.concog.2011.06.005
+Cant, J., Arnott, S., and Goodale, M.
+(2009). fMRI-adaptation reveals sep-
+arate processing regions for the per-
+ception of form and texture in the
+human ventral stream. Exp. Brain
+Res. 192, 391–405. doi: 10.1007/
+s00221-008-1573-8
+Carruthers, P. (2000). Phenomenal Con-
+sciousness: A Naturalistic Theory. New
+York: Cambridge University Press.
+doi: 10.1017/CBO9780511487491
+Carruthers, P. (2005). Consciousness:
+Essays from a Higher-order Perspec-
+tive. New York: Oxford University
+Press.
+Cavina-Pratesi, C., Kentridge, R., Hey-
+wood, C., and Milner, A. (2010a).
+Separate
+channels
+for
+processing
+form,
+texture,
+and
+color:
+evi-
+dence from fMRI adaptation and
+visual object agnosia. Cereb. Cor-
+tex 20, 2319–2332. doi: 10.1093/cer-
+cor/bhp298
+Cavina-Pratesi, C., Kentridge, R., Hey-
+wood, C., and Milner, A. (2010b).
+Separate processing of texture and
+form in the ventral stream: evidence
+from FMRI and visual agnosia. Cereb.
+Cortex 20, 433–446. doi: 10.1093/cer-
+cor/bhp111
+Changeux, J. (2012). Conscious pro-
+cessing:
+implications for general
+anesthesia. Curr. Opin. Anaesthe-
+siol. 25, 397–404. doi: 10.1097/ACO.
+0b013e32835561de
+Cohen, M., and Dennett, D. (2011).
+Consciousness cannot be separated
+from function.
+Trends Cogn.
+Sci.
+15, 358–364. doi: 10.1016/j.tics.2011.
+06.008
+Cowey,
+A.,
+and Walsh,
+V. (2000).
+Magnetically
+induced
+phosphenes
+in sighted, blind and blindsighted
+observers.
+Neuroreport 11,
+3269–
+3273.
+doi:
+10.1097/00001756-
+200009280-00044
+De Brigard, F., and Prinz, J. (2010).
+Attention and consciousness. Wiley
+Interdiscip. Rev. Cogn. Sci. 1, 51–59.
+doi: 10.1002/wcs.27
+De Graaf, T., Hsieh, P., and Sack,
+A. (2012). The ‘correlates’ in neural
+correlates of consciousness. Neurosci.
+Biobehav. Rev. 36, 191–197. doi:
+10.1016/j.neubiorev.2011.05.012
+Dehaene,
+S.,
+and
+Changeux,
+J.
+(2003). A neuronal network model
+linking subjective reports and objec-
+tive physiological data during con-
+scious perception. Proc. Natl. Acad.
+Sci.
+U.S.A. 100, 8520–8525.
+doi:
+10.1073/pnas.1332574100
+Dehaene,
+S.,
+and
+Changeux,
+J.
+(2011). Experimental and theoret-
+ical approaches to conscious pro-
+cessing. Neuron 70, 200–227. doi:
+10.1016/j.neuron.2011.03.018
+Dehaene, S., Changeux, J., and Nac-
+cache, L. (2011). “The global neu-
+ronal workspace model of conscious
+access: from neuronal architectures
+to clinical applications,”in Character-
+izing Consciousness: From Cognition
+to the Clinic? eds S. Dehaene and Y.
+Christen (New York, NY: Springer),
+55–84.
+Dehaene, S., Changeux, J., Naccache, L.,
+Sackur, J., and Sergent, C. (2006).
+Conscious, preconscious, and sub-
+liminal processing: a testable taxon-
+omy. Trends Cogn. Sci. 10, 204–211.
+doi: 10.1016/j.tics.2006.03.007
+Del Cul, A., Baillet, S., and Dehaene,
+S. (2007). Brain dynamics underly-
+ing the nonlinear threshold for access
+to consciousness. PLoS Biol. 5:e260.
+doi: 10.1371/journal.pbio.0050260
+Del Cul, A., Dehaene, S., Reyes, P.,
+Bravo, E., and Slachevsky, A. (2009).
+Causal role of prefrontal cortex in
+the threshold for access to conscious-
+ness. Brain 132, 2531–2540. doi:
+10.1093/brain/awp111
+Dretske, F. (1995). Naturalizing the
+Mind. Cambridge: MIT Press.
+Dretske, F. (1999). The mind’s aware-
+ness of itself. Philos. Stud. 95, 103–
+124. doi: 10.1023/A:1004515508042
+Dretske, F. (2003). Experience as rep-
+resentation. Philos. Issues 13, 67–82.
+doi: 10.1111/1533-6077.00005
+Dretske, F. (2006). “Perception with-
+out
+awareness,”
+in
+Perceptual
+Experience, eds T. Gendler and J.
+Hawthorne (New York, NY: Oxford
+University Press),
+147–180.
+doi:
+10.1093/acprof:oso/9780199289769.
+003.0005
+Ferrarelli, F., Massimini, M., Sarasso,
+S., Casali, A., Riedner, B., Angelini,
+G.,
+et al.
+(2010).
+Breakdown in
+cortical effective connectivity dur-
+ing midazolam-induced loss of con-
+sciousness. Proc. Natl. Acad. Sci.
+U.S.A. 107, 2681–2686. doi: 10.1073/
+pnas.0913008107
+Gong,
+G.,
+Yong,
+H.,
+Concha,
+L.,
+Lebel, C., Gross, D., and Evans,
+A. (2009). Mapping anatomical con-
+nectivity patterns of human cerebral
+cortex using in vivo diffusion tensor
+imaging tractography. Cereb. Cor-
+tex 19, 524–536. doi: 10.1093/cer-
+cor/bhn102
+Hobson, J., and Pace-Schott, E. (2002).
+The cognitive neuroscience of sleep:
+neuronal systems, consciousness and
+learning. Nat. Rev. Neurosci. 3, 679–
+693. doi: 10.1038/nrn915
+Hohwy, J. (2009). The neural correlates
+of consciousness: new experimental
+approaches needed? Conscious. Cogn.
+18, 428–438. doi: 10.1016/j.concog.
+2009.02.006
+Hughes, G., Velmans, M., and De Fock-
+ert, J. (2009). Unconscious priming
+of a no–go response. Psychophysiol-
+ogy 49, 405–415. doi: 10.1111/j.1469-
+8986.2009.00873.x
+Hurley, S., and Noë, A. (2003). Neu-
+ral plasticity and consciousness. Biol.
+Philos. 18, 131–168.
+Jones, E. (2009). Synchrony in the inter-
+connected circuitry of the thalamus
+and cerebral cortex. Ann. N. Y. Acad.
+Sci. 1157, 10–23. doi: 10.1111/j.1749-
+6632.2009.04534.x
+Kentridge, R., Thomson, R., and Hey-
+wood, C. (2012). Glossiness percep-
+tion can be mediated independently
+of cortical processing of colour or
+texture. Cortex 48, 1244–1246. doi:
+10.1016/j.cortex.2012.01.011
+Kouider,
+S.,
+de Gardelle,
+V.,
+and
+Dupoux, E. (2007). Partial aware-
+ness and the illusion of phenom-
+enal consciousness.
+Behav.
+Brain
+Sci.
+30,
+510–511.
+doi:
+10.1017/
+S0140525X07002919
+Kouider, S., de Gardelle, V., Sackur, J.,
+and Dupoux, E. (2010). How rich
+is consciousness? The partial aware-
+ness hypothesis. Trends Cogn. Sci.
+14, 301–307. doi: 10.1016/j.tics.2010.
+04.006
+Kourtzi, Z., and Kanwisher, N. (2000).
+Activation in human MT/MST by
+static images with implied motion.
+J. Cogn. Neurosci. 12, 48–55. doi:
+10.1162/08989290051137594
+Kriegel,
+U. (2009).
+Subjective Con-
+sciousness:
+A
+Self-representational
+www.frontiersin.org
+July 2013 | Volume 4 | Article 407 | 7
+
+Mehta and Mashour
+First-order representationalism
+Theory.
+New York:
+Oxford Uni-
+versity Press. doi: 10.1093/acprof:
+oso/9780199570355.001.0001
+Ku, S., Lee, U., Noh, G., Jun, I.,
+and Mashour, G. (2011). Preferen-
+tial inhibition of frontal-to-parietal
+feedback connectivity is a neuro-
+physiologic correlate of general anes-
+thesia in surgical patients.
+PLoS
+ONE 6:e25155. doi: 10.1371/jour-
+nal.pone.0025155
+Lamme, V. (2003). Why visual atten-
+tion and awareness are different.
+Trends Cogn. Sci. 7, 12–18. doi:
+10.1016/S1364-6613(02)00013-X
+Lamme, V. (2006). Towards a true neu-
+ral stance on consciousness. Trends
+Cogn.
+Sci.
+10,
+494–501.
+doi:
+10.1016/j.tics.2006.09.001
+Lamme, V. (2010). How neuroscience
+will change our view on conscious-
+ness. Cogn. Neurosci. 1, 204–240. doi:
+10.1080/17588921003731586
+Lamme, V., and Roelfsema, P. (2000).
+The distinct modes of vision offered
+by feedforward and recurrent pro-
+cessing. Trends Neurosci. 23, 571–
+579.
+doi:
+10.1016/S0166-2236(00)
+01657-X
+Långsjö,
+J.,
+Alkire,
+M.,
+Kaskinoro,
+K., Hayama, H., Maksimow, A.,
+Kaisti, K., et al. (2012). Returning
+from oblivion:
+imaging the neu-
+ral core of consciousness. J. Neu-
+rosci. 32, 4935–4943. doi: 10.1523/
+JNEUROSCI.4962-11.2012
+Lau,
+H.
+(2008).
+A
+higher
+order
+Bayesian decision theory of con-
+sciousness.
+Prog.
+Brain Res.
+168,
+35–48. doi: 10.1016/S0079-6123(07)
+68004-2
+Lau, H. (2010). Theoretical motivations
+for investigating the neural corre-
+lates of consciousness. Wiley Inter-
+discip. Rev. Cogn. Sci. 2, 1–7. doi:
+10.1002/wcs.93
+Lau, H., and Passingham, R. (2006).
+Relative
+blindsight
+in
+normal
+observers and the neural correlate
+of visual consciousness. Proc. Natl.
+Acad. Sci. U.S.A. 103, 18763–18768.
+doi: 10.1073/pnas.0607716103
+Lau, H., and Passingham, R. (2007).
+Unconscious
+activation
+of
+the
+cognitive
+control
+system
+in
+the
+human prefrontal cortex. J. Neu-
+rosci. 27, 5805–5811. doi: 10.1523/
+JNEUROSCI.4335-06.2007
+Lau, H., and Rosenthal, D. (2011).
+Empirical support for higher-order
+theories
+of
+conscious
+awareness.
+Trends Cogn. Sci. 15, 365–373. doi:
+10.1016/j.tics.2011.05.009
+Laureys, S. (2005). The neural corre-
+late of (un)awareness: lessons from
+the vegetative state. Trends Cogn. Sci.
+9, 556–559. doi: 10.1016/j.tics.2005.
+10.010
+Liu, X., Lauer, K. K., Ward, B., Li, S., and
+Hudetz,A. (2013). Differential effects
+of propofol anesthesia on speciﬁc
+and nonspeciﬁc thalamocortical sys-
+tems. Anesthesiology 118, 59–69. doi:
+10.1097/ALN.0b013e318277a801
+Lycan,
+W.
+(1996).
+Consciousness
+and Experience.
+Cambridge:
+MIT
+Press.
+Maquet, P., Péters, J., Aerts, J., Delﬁore,
+G., Degueldre, C., Luxen, A., et al.
+(1996).
+Functional neuroanatomy
+of
+human
+rapid-eye-movement
+sleep and dreaming.
+Nature 383,
+163–165.
+Massimini, M., Ferrarelli, F., Mur-
+phy, M., Huber, R., Riedner, B.,
+Casarotto, S., et al. (2010). Corti-
+cal reactivity and effective connec-
+tivity during REM sleep in humans.
+Cogn. Neurosci. 1, 176–183. doi:
+10.1080/17588921003731578
+Nagel, T. (1974). What is it like to be
+a bat? Philos. Rev. 83, 435–450. doi:
+10.2307/2183914
+Overgaard,
+M.,
+and Overgaard,
+O.
+(2010). Neural correlates of contents
+and levels of consciousness. Front.
+Psychol. 1:164. doi: 10.3389/fpsyg.
+2010.00164
+Pascual-Leone,A., and Walsh,V. (2001).
+Fastbackprojectionsfromthemotion
+to the primary visual area neces-
+sary for visual awareness. Science
+292, 510–512. doi: 10.1126/science.
+1057099
+Phillips, I. (2011). Perception and iconic
+memory: what Sperling doesn’t show.
+Mind
+Lang.
+26,
+381–411.
+doi:
+10.1111/j.1468-0017.2011.01422.x
+Poirier, C., Collignon, O., Scheiber,
+C., Renier, L., Vanlierde, A., Tran-
+duy,
+D.,
+et al.
+(2006).
+Auditory
+motion perception activates visual
+motion areas in early blind sub-
+jects. Neuroimage 31, 279–285. doi:
+10.1016/j.neuroimage.2005.11.036
+Prinz, J. (2000). A neurofunctional
+theory of visual consciousness. Con-
+scious.
+Cogn.
+9,
+243–259.
+doi:
+10.1006/ccog.2000.0442
+Prinz, J. (2005). “A neurofunctional
+theory of consciousness,” in Cog-
+nition and the Brain:
+Philosophy
+and Neuroscience Movement,
+eds
+A.
+Brook
+and
+K. Akins
+(Cam-
+bridge,
+MA: Cambridge Univer-
+sity Press), 381–396. doi: 10.1017/
+CBO9780511610608.012
+Prinz,
+J.
+(2010).
+“When
+is
+per-
+ception conscious?,”
+in Perceiving
+the World,
+ed.
+B. Nanay (New
+York, NY: Oxford University Press),
+310–332.
+doi:
+10.1093/acprof:oso/
+9780195386196.003.0011
+Prinz, J. (2011). “Is attention neces-
+sary and sufﬁcient for conscious-
+ness?,” in Attention: Philosophical and
+Psychological Essays, eds C. Mole,
+D. Smithies,
+and W. Wu (New
+York, NY: Oxford University Press),
+174–203.
+Rees, G., Kreiman, G., and Koch, C.
+(2002). Neural correlates of con-
+sciousness in humans.
+Nat.
+Rev.
+Neurosci. 3, 261–270. doi: 10.1038/
+nrn783
+Ricciardi,
+E.,
+Basso,
+D.,
+Sani,
+L.,
+Daniela, B., Vecchi, T., Pietrini, P.,
+et al. (2011). Functional inhibition of
+the human middle temporal cortex
+affects non-visual motion percep-
+tion: a repetitive transcranial mag-
+netic stimulation study during tactile
+speed discrimination. Exp. Biol. Med.
+236,
+138–144.
+doi:
+10.1258/ebm.
+2010.010230
+Rosenthal, D. (2005). Consciousness and
+Mind. New York: Oxford University
+Press.
+Rounis, E., Maniscalco, B., Rothwell, J.,
+Passingham, R., and Lau, H. (2010).
+Theta-burst transcranial magnetic
+stimulation to the prefrontal cortex
+impairs metacognitive visual aware-
+ness. Cogn. Neurosci. 1, 165–175. doi:
+10.1080/17588921003632529
+Saenz, M., Lewis, L., Huth, A., Fine, I.,
+and Koch, C. (2008). Visual motion
+area MT+/V5 responds to auditory
+motion in human sight-recovery sub-
+jects. J. Neurosci. 28, 5141–5148.
+doi:
+10.1523/JNEUROSCI.0803-08.
+2008
+Schenk,
+T.,
+and
+Zihl,
+J.
+(1997).
+Visual motion perception after brain
+damage: I. deﬁcits in global motion
+perception.
+Neuropsychologia
+35,
+1289–1297.
+doi:
+10.1016/S0028-
+3932(97)00004-3
+Sergent, C., and Dehaene, S. (2004).
+Neural processes underlying con-
+scious perception: experimental ﬁnd-
+ings and a global neuronal workspace
+framework. J. Physiol. Paris 98, 374–
+384. doi: 10.1016/j.jphysparis.2005.
+09.006
+Tononi, G. (2004). An information
+integration theory of consciousness.
+BMC Neurosci. 5:42. doi: 10.1186/
+1471-2202-5-42
+Tononi, G. (2008). Consciousness as
+integrated information: a provisional
+manifesto. Biol. Bull. 215, 216–242.
+doi: 10.2307/25470707
+Travis,
+C. (2004).
+The silence of
+the senses. Mind 113, 57–94. doi:
+10.1093/mind/113.449.57
+Treisman, A. (2006). How the deploy-
+ment of attention determines what
+we see. Vis. Cogn. 14, 411–443. doi:
+10.1080/13506280500195250
+Tye, M. (1995). Ten Problems of Con-
+sciousness: A Representational Theory
+of the Phenomenal Mind. Cambridge:
+MIT Press.
+Tye, M. (2000). Consciousness, Color,
+and
+Content.
+Cambridge:
+MIT
+Press.
+Tye,
+M. (2010).
+Attention,
+seeing,
+and change-blindness. Philos. Issues
+20, 410–437. doi: 10.1111/j.1533-
+6077.2010.00180.x
+van Gaal, S., and Lamme, V. (2011).
+Unconscious high-level information
+processing: implication for neuro-
+biological theories of consciousness.
+Neuroscientist
+18,
+287–301.
+doi:
+10.1177/1073858411404079
+van Gaal,
+S.,
+Lamme, V.,
+Fahren-
+fort,
+J.,
+and
+Ridderinkhof,
+K.
+(2011).
+Dissociable brain mecha-
+nisms underlying the conscious and
+unconscious control of behavior. J.
+Cogn. Neurosci. 23, 91–105. doi:
+10.1162/jocn.2010.21431
+van Gaal, S., Ridderinkhof, K., Fahren-
+fort, J, Scholte, H., and Lamme,
+V. (2008). Frontal cortex mediates
+unconsciously triggered inhibitory
+control. J. Neurosci. 28, 8053–8062.
+doi:
+10.1523/JNEUROSCI.1278-08.
+2008
+van
+Gaal,
+S.,
+Ridderinkhof,
+K.,
+Scholte, H., and Lamme, V. (2010).
+Unconscious activation of the pre-
+frontal no–go network.
+J. Neu-
+rosci. 30, 4143–4150. doi: 10.1523/
+JNEUROSCI.2992-09.2010
+van
+Gaal,
+S.,
+Ridderinkhof,
+K.,
+and
+van
+den
+Wildenberg,
+W.
+(2009). Dissociating consciousness
+from inhibitory control: evidence for
+unconsciously triggered inhibitory
+control in the stop-signal paradigm.
+J. Exp. Psychol. Hum. Percept. Per-
+form 35, 1129–1139. doi: 10.1037/
+a0013551
+VanRullen,
+R. (2007).
+The power
+of
+the feedforward sweep.
+Adv.
+Cogn.
+Psychol.
+3,
+167–176.
+doi:
+10.2478/v10053-008-0022-3
+Zeki, S. (1990). A century of cere-
+bral achromatopsia. Brain 113, 1721–
+1777.
+doi:
+10.1093/brain/113.6.
+1721
+Zeki, S. (2007). “A theory of micro-
+consciousness,”
+in The
+Blackwell
+Companion to Consciousness, eds M.
+Velmans and S. Schneider (Malden,
+MA: Blackwell Publishing),
+580–
+588.
+doi: 10.1002/9780470751466.
+ch46
+Zeki,
+S.,
+Watson,
+J.,
+and Frack-
+owiak,
+R. (1993).
+Going beyond
+the information given:
+the rela-
+tion of illusory visual motion to
+brain activity. Proc. R. Soc. B. 252,
+215–222.
+doi:
+10.1098/rspb.1993.
+0068
+Conflict of Interest Statement: The
+authors declare that the research was
+Frontiers in Psychology | Consciousness Research
+July 2013 | Volume 4 | Article 407 | 8
+
+Mehta and Mashour
+First-order representationalism
+conducted in the absence of any com-
+mercial or ﬁnancial relationships that
+could be construed as a potential con-
+ﬂict of interest.
+Received: 12 February 2013; paper pend-
+ing published: 15 March 2013; accepted:
+17 June 2013; published online: 16 July
+2013.
+Citation: Mehta N and Mashour GA
+(2013) General and speciﬁc conscious-
+ness:
+a ﬁrst-order representationalist
+approach. Front. Psychol. 4:407. doi:
+10.3389/fpsyg.2013.00407
+This article was submitted to Frontiers
+in Consciousness Research, a specialty of
+Frontiers in Psychology.
+Copyright © 2013 Mehta and Mashour.
+This
+is
+an
+open-access
+article
+dis-
+tributed under the terms of the Creative
+Commons Attribution License,
+which
+permits use,
+distribution and repro-
+duction in other forums, provided the
+original authors and source are cred-
+ited and subject to any copyright notices
+concerning
+any
+third-party
+graphics
+etc.
+www.frontiersin.org
+July 2013 | Volume 4 | Article 407 | 9

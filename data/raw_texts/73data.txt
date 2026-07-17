@@ -1,0 +1,772 @@
+Frontiers in Psychology | www.frontiersin.org	
+1	
+February 2020 | Volume 11 | Article 83
+PERSPECTIVE
+published: 14 February 2020
+doi: 10.3389/fpsyg.2020.00083
+Edited by: 
+David Soto, 
+Basque Center on Cognition, Brain 
+and Language, Spain
+Reviewed by: 
+Megan Peters, 
+University of California, 
+Riverside, United States
+Guido Hesselmann, 
+Psychologische Hochschule 
+Berlin, Germany
+Liad Mudrik, 
+Tel Aviv University, Israel
+*Correspondence: 
+Victor A. F. Lamme 
+victorlamme@gmail.com
+Specialty section: 
+This article was submitted to 
+Consciousness Research, 
+a section of the journal 
+Frontiers in Psychology
+Received: 29 August 2019
+Accepted: 13 January 2020
+Published: 14 February 2020
+Citation:
+Lamme VAF (2020) Visual Functions 
+Generating Conscious Seeing.
+Front. Psychol. 11:83.
+doi: 10.3389/fpsyg.2020.00083
+Visual Functions Generating 
+Conscious Seeing
+Victor A. F. Lamme*
+Department of Psychology, Amsterdam Brain and Cognition (ABC), University of Amsterdam, Amsterdam, Netherlands
+Visual functions are reviewed that coincide with conscious as opposed to unconscious 
+vision. Four stages of vision are identified, going from the fully invisible, to subjectively 
+invisible, unattended, and clearly visible. It is proposed that feature extraction, categorization, 
+and some aspects of visual inference occur during full and subjective invisibility. Functions 
+related to perceptual organization, such as grouping and figure-ground segregation, occur 
+during inattention as well as full visibility. It is argued that perceptual organization is the 
+function that is central to understanding the transition from unconscious to conscious 
+seeing. It is discussed what this implies for theories of consciousness such as Recurrent 
+Processing Theory, Higher Order Thought Theory, Integrated Information Theory, and 
+Global Neuronal Workspace Theory.
+Keywords: consciousness, neural correlate of consciousness, global neuronal workspace theory, integrated 
+information theory, higher order thought theory, recurrent processing theory, perceptual organization
+WHERE DOES CONSCIOUS VISION START, WHERE DOES 
+IT END?
+What does it mean to consciously see or not see? The matter is simple at the extreme 
+ends. Suppose someone is shown a face, which is then recognized by the subject, who 
+insists that he  was seeing that face and can describe all sorts of features. Then it will 
+be  safe to assume there was a conscious sensation of that stimulus. At the other end, 
+suppose someone is shown visual stimuli (or blanks) that are strongly masked, while all 
+attention is focused on the screen, and the only task is to press one button when seen, 
+and another when not seen. If the subject then insists not having seen anything at any 
+trial, which is confirmed by d-prime being 0 (and sufficient trials were recorded to reliably 
+estimate that), it will be  safe to assume that there was no conscious sensation of the 
+stimuli. This is generally considered “objective invisibility,” the level at which conscious 
+sensations are trusted to be  absent.
+But with anything in between, matters immediately get murky. There is currently much 
+debate about what should count as evidence for unconscious vision. Objective invisibility 
+may be  considered too “harsh” a criterion. Another way to gauge the transition from 
+unconscious to conscious perception is the “perceptual awareness scale” (PAS), where 
+subjects report the amount of subjective awareness on a scale, say from 1 to 4 (Ramsøy 
+and Overgaard, 2004). The scale typically has labels describing different qualitative sensations 
+a stimulus may evoke, such as “not seeing anything,” “a weak glimpse,” “almost clear 
+image” up to “a clear image,” that can also be tailored to specific stimulus details. Depending 
+
+Lamme	
+Visual Functions Generating Conscious Seeing
+Frontiers in Psychology | www.frontiersin.org	
+2	
+February 2020 | Volume 11 | Article 83
+on these descriptions, and on how subjects interpret them, 
+different thresholds are found for stimuli that are masked, 
+degraded or otherwise reduced in visibility. Often (if not 
+always), stimuli that are above the level of objective invisibility 
+and hence have d-prime above 0 may get rated “unaware” 
+(level 1 on the PAS) in such subjective scaling experiments 
+(Wierzchoń et al., 2014), implying that subjective invisibility 
+may happen for stimuli that are objectively detectable.
+Other variations on this theme exist. Some have combined 
+objective measurements with confidence ratings or post-decision 
+wagering, asking subjects how much they trust their yes-no 
+responses. When confidence is equally high (or low) for correct 
+and incorrect trials (i.e., metacognition about one’s own 
+performance is absent), stimuli are considered metacognitively 
+unconscious. A big advantage of this approach is that objective 
+and subjective (or rather metacognitive) visibility can be directly 
+compared in the framework of signal detection theory, using 
+a d-prime value (Fleming and Lau, 2014), and hence solving 
+some issues of decision criteria that the PAS may suffer from. 
+Metacognitive visibility is typically reached at stimulus strengths 
+that are above objective invisibility, yet are lower than or equal 
+to those for subjective awareness as measured with a PAS 
+(Jachs et  al., 2015).
+From this, we  arrive at three stages of visual processing 
+(Figure  1A):
+	1.	 Fully unconscious, i.e., stimuli that are below the threshold 
+for objective visibility.
+	2.	 Subjectively unconscious, i.e., stimuli that are reported as 
+unseen in experiments using perceptual awareness scales, 
+meta d-prime, confidence ratings etc., yet are above the 
+threshold for objective invisibility.
+	3.	 Subjectively conscious, i.e., stimuli that get a PAS score 
+above 1, where meta-d prime is above 0, etc., and hence 
+are reported as seen.
+On another dimension are phenomena of “unconscious” 
+vision that relate to attention. Well-known are the change 
+blindness (CB) or innatentional blindness (IB) demonstrations 
+where huge changes between scenes are not seen, or gorillas 
+pass by unnoticed. Often used is the attentional blink (AB) 
+paradigm, where the reporting of a first target renders a shortly 
+following second target “invisible.”
+A separate distinction thus is between (Figure  1B):
+	4.	 Unattended, i.e., stimuli that are reported as not seen while 
+attention is diverted away from them (as in CB, IB or AB 
+experiments). These are potentially visible, yet momentarily 
+escape cognitive access.
+	5.	 Attended, accessed, reported, memorized, etc.
+How to compare these stages? Stages 3 and 5 are in fact 
+similar, since in both cases we have subjects reporting (and 
+most likely having attention for and access to) subjectively 
+visible stimuli. It is less clear to what extent “unattended” 
+overlaps with subjective invisibility. Stimuli that are subjectively 
+easily visible become subjectively invisible when attention 
+is diverted away (which is in fact the striking point of the 
+change blindness phenomenon). When attention happens 
+to be  directed at these stimuli, the subjective invisibility is 
+resolved. This is clearly different from invisibility from 
+masking, flash suppression, etc. In those cases, there is 
+nothing the subject himself can do to see the stimulus, it 
+seems irrevocably “buried” in the unconscious. It thus seems 
+that inattentional invisibility is a more “cognitive” or higher-
+level form of invisibility than invisibility from masking, flash 
+suppression, etc. As will be  shown below, indeed attention 
+as manipulated in CB, IB or AB paradigms does not interfere 
+with visual functions per se. It therefore seems warranted 
+to categorize “unattended” as “potentially visible,” yet not 
+reportable or accessed right now, as others have done before 
+(Dehaene et  al., 2006).
+A potential “hierarchy” of visual phenomenology thus may 
+be  (above levels in parentheses)
+	1.	 Stage 1: Fully invisible (1)
+	2.	 Stage 2: Subjectively invisible (2)
+	3.	 Stage 3: Unattended (but otherwise subjectively visible) (4)
+	4.	 Stage 4: Subjectively visible and attended (3/5)
+An alternative is to view the two types of manipulations 
+of conscious vision – those manipulating visibility and those 
+manipulating attention- as orthogonal [as I  and others have 
+done before (Lamme, 2003, 2004; Dehaene et  al., 2006)]. In 
+fact, it is irrelevant for the discussion below (about which 
+visual functions operate under the four levels) whether the 
+four levels are orthogonal or hierarchical.
+Another debate is where the “real” boundary between 
+conscious and unconscious vision lies. Some have doubts as 
+to whether “subjectively invisible” (stage 2) is truly unconscious, 
+for example because subjective awareness may be  influenced 
+by all sorts of non-visual conditions, like the type of PAS 
+scale used, whether it is followed or preceded by other questions 
+(Overgaard and Sandberg, 2012), decision criteria, etc. Another 
+discussion is whether the absence of attention (stage 3) really 
+implies the absence of conscious perception (rather than the 
+absence of attention, access and report of that conscious percept). 
+That has been discussed in previous work extensively, resulting 
+in an apparent stalemate of opinions about the essence of 
+conscious vision (Koch et  al., 2016; Lamme, 2018) (although 
+in my view some arguments can be made to lay the boundary 
+between stages 2 and 3 rather than 3 and 4 (Lamme, 2010), 
+supporting the somewhat counterintuitive view that “invisibility” 
+due to inattention is in fact not true invisibility, yet a case 
+of failure to “internally report” or otherwise cognitively access 
+and manipulate the information. Further arguments and 
+experiments may pull us out of this complex discussion). The 
+controversy also has links to much older philosophical debates 
+about the so-called hard problem, and the distinction between 
+phenomenal (P-) and access (A-) consciousness (Block, 2005). 
+I will refrain from any reiteration of these debates and simply 
+try to link each level to various functions.
+For further clarity, I  will assume that:
+	1.	 Anesthesia renders everything stage 1.
+
+Lamme	
+Visual Functions Generating Conscious Seeing
+Frontiers in Psychology | www.frontiersin.org	
+3	
+February 2020 | Volume 11 | Article 83
+A
+C
+B
+FIGURE 1  |  Visual operations during stages of unconscious to conscious and attentive (visual) processing. (A) Depending on stimulus manipulations like masking, 
+CFS, etc., stimuli may be consciously visible or not. Shown are the different thresholds for conscious visibility, depending on the method used to “ask” subjects 
+whether the stimulus was seen or not. (B) Depending on attention, stimuli may become consciously accessed and reported or not. There is typically a capacity limit 
+for how much can be attended, accessed or reported. (C) Table showing which of three categories of visual functions are or are not executed during the different 
+stages of unconscious/conscious/unattended/attended vision. A red box indicates that the functions are not executed, green that they are, yellow that there are 
+mixed results or that some functions in this category are executed while others are not.
+
+Lamme	
+Visual Functions Generating Conscious Seeing
+Frontiers in Psychology | www.frontiersin.org	
+4	
+February 2020 | Volume 11 | Article 83
+	2.	 Manipulations like backward or dichoptic masking, CFS, 
+and rivalry, or conditions like blindsight render stimuli stage 
+1 when d-prime is really 0 (which is not often achieved), 
+otherwise stage 2.
+	3.	 Attentional manipulations like AB, IB, and CB, or attentional 
+deficits like neglect speak only to the transition between 
+stages 3 and 4 (see above for the underlying reasoning).
+WHAT COGNITIVE FUNCTIONS TO 
+CONSIDER?
+The four stages identified obviously – and trivially – relate to 
+several cognitive functions. All measurements of consciousness 
+in one way or another rely on subjects reporting, mostly via 
+button presses. The required motor machinery consists of a 
+whole set of cognitive functions that are not relevant to the 
+discussion here. Metacognition and attention are trivially linked 
+to conscious vision, simply because they are part of the way 
+the different stages are distinguished. Metacognition is intertwined 
+with various aspects of decision making. Closely associated 
+with attention is a function called “access,” or the making 
+available of sensory information to other cognitive processes 
+(Naccache, 2018). These are all functions that come with the 
+“definition” of conscious perception that is used, and a discussion 
+of their role in consciousness amounts to nothing more than 
+a reiteration of the stalemate previously mentioned (although 
+interesting observations about the relation between attention, 
+metacognition, access and consciousness have been made).
+Furthermore, I  will here limit myself to visual functions only. 
+What will be  obtained is a set of functions that coincide with 
+conscious perception, which is more or less the classic idea behind 
+the search for the neural correlate of consciousness (NCC) (Koch 
+et  al., 2016). A potential next step then is to argue for these 
+functions to also be both necessary and sufficient for the “machinery” 
+that is “generating” the conscious percept: some functions (such 
+as orientation selectivity in V1) contribute to vision, just like the 
+eye is required to see, but they do not by themselves generate 
+a conscious percept (just like an isolated eyeball will not), while 
+other functions necessarily coincide with the occurrence of conscious 
+percepts; without them, no conscious percept, with them, the 
+percept follows automatically. The logic behind the following is 
+that visual functions that occur without subjects having conscious 
+sensations are not sufficient for generating conscious vision. 
+Functions that only occur when conscious percepts are present 
+are candidate NCC’s, and this paper is an attempt to identify 
+those functions. Note, however, that the definition of what exactly 
+entails a true NCC is complex (Owen and Guta, 2019).
+VISUAL OPERATIONS DURING STAGE 1 
+AND BEYOND: FEATURE EXTRACTION 
+AND CATEGORIZATION
+Everything retinal seems to proceed regardless of consciousness; 
+most of what we  know of retinal processing comes from 
+studying isolated retinas or anesthetized animals. So the feature 
+extraction that occurs there (basically converting a luminance 
+distribution into a distribution of contrast and its temporal 
+dynamics) is generally considered to be  independent of 
+consciousness. Similarly, the transmittance of retinal signals 
+to the cortex via the LGN seems unaffected by it (Durand 
+et al., 2016). The extraction of features like orientation, direction 
+of motion, disparity, or color in early visual cortex, as well 
+as higher level categorizations of for example complex shapes 
+or even faces in higher visual regions occurs just as well 
+during anesthesia, masking, rivalry, or inattention as during 
+conscious vision. In fact, any visual operation that is “hardwired” 
+via feedforward connections does not depend on any form 
+of consciousness. This also includes so called “base groupings” 
+(Roelfsema, 2006) such as the co-occurrence of a particular 
+orientation with a particular direction of motion, as many 
+cells are simultaneously selective for both features. In sum, 
+everything there is to “know” in terms of localized features 
+and categories about the visual scene is extracted [during a 
+“feedforward sweep” through the brain (Lamme and Roelfsema, 
+2000)] regardless of consciousness.
+VISUAL OPERATIONS DURING STAGE 2 
+AND BEYOND: INTERFERENCE AND 
+INFERENCE (TO SOME EXTENT)
+At some point in vision, all the features and categories that 
+have been extracted start to interact. Some examples of these 
+are phenomena of perceptual interference, where the luminance 
+or color of one part of the image is influenced by that of 
+another, potentially resulting in striking visual illusions of 
+brightness or color differences between physically identical 
+patches of gray or color. The neural correlates of such interactions 
+are found in many visual areas, and to some extent also in 
+anesthetized animals (Rossi et  al., 1996; Shapley and Hawken, 
+2011). Moreover, they seem present under conditions of masking 
+or CFS, albeit not with the strictest criteria of invisibility (Harris 
+et  al., 2011). An important test case is the phenomenon of 
+color constancy, the ability to interpret color from the pattern 
+of wavelengths across the visual scene. Some experiments suggest 
+this to occur already during stage 2 (Stoerig and Cowey, 1989), 
+others do not (Breitmeyer et al., 2004; Barbur and Spang, 2008).
+A related visual function is that of inference. These are 
+most poignantly illustrated by many visual illusions. Take the 
+well-known Kanizsa triangle, where the physical stimulus consists 
+of three “Pac-men” shapes. From that configuration we  infer 
+a triangle overlying three disks, with clearly visible yet illusory 
+contours, and even an increased brightness for the triangle 
+region. Neural correlates of such illusory contours have been 
+found in early visual cortex, in awake animals. Some have 
+shown these illusions to persist during CFS (Wang et al., 2012), 
+others claim they do not (Harris et al., 2011). Blindsight patients 
+report Kanizsa illusions when one of the inducers is in the 
+blind hemifield (Marcel, 1998), suggesting they are generated 
+partly unconsciously.
+
+Lamme	
+Visual Functions Generating Conscious Seeing
+Frontiers in Psychology | www.frontiersin.org	
+5	
+February 2020 | Volume 11 | Article 83
+In sum, it seems that the visual processes of interference 
+and inference, where local features start to interact and put 
+into global perceptual context (e.g., wavelength being converted 
+to color, contours to surfaces, etc.) find their basis in stage 
+2, and may even operate to completion during this stage. 
+Some have called this stage the formation of the 2.5D sketch 
+(Nakayama and Shimojo, 1992), i.e., going from features to 
+surfaces and their relative positions.
+There are clear limits, however, to what is achieved in terms 
+of moving toward a more global interpretation of the scene 
+during stage 2. An important aspect of scene interpretation is 
+perceptual organization, where distant features are combined 
+A
+B
+C
+E
+D
+FIGURE 2  |  The neural processing of figure ground organization and its relation to conscious perception. (A) A typical figure-ground stimulus as used in many 
+studies (of the author) on the relation between perceptual organization and conscious vision. (B) Typical result from recording responses in monkey primary visual 
+cortex (V1) to the stimulus shown in (A). Note how the initial response is identical for line segments belonging either to figure or background, yet that later responses 
+reflect the processing of figure versus background (Lamme, 1995; Zipser et al., 1996). (C) Contextual modulation reflects figure-ground segregation as modulation is 
+uniformly elevated for the figure region (Lamme et al., 1999). (D) When anesthetized, feedforward activation and detection of line segments is still present, yet the 
+figure-ground modulation is selectively absent (Lamme et al., 1998). (E) When figures are not seen, feedforward V1 responses persist, but figure-ground modulation 
+is selectively absent (Supèr et al., 2001). © (1998) National Academy of Sciences.
+
+Lamme	
+Visual Functions Generating Conscious Seeing
+Frontiers in Psychology | www.frontiersin.org	
+6	
+February 2020 | Volume 11 | Article 83
+into coherent objects and their relative layout. An example is 
+figure ground organization as depicted in Figure 2A. The scene 
+is interpreted as a textured square figure overlying a textured 
+background, a percept entirely based on the grouping of similarly 
+oriented line segments, segregating the two groups, and assigning 
+the one as figure and the other as background (perceptually 
+“continuing” behind the figure). I  have devoted a career to 
+studying the neural 
+mechanisms 
+behind this 
+stimulus 
+(Figures  2B,C), and how it depends on factors like attention 
+(Lamme, 2003), anesthesia (Figure  2D; Lamme et  al., 1998), 
+masking (Lamme et  al., 2001), lesions (Lamme et  al., 1998), 
+pharmacological interventions (Meuwese et al., 2013), and what 
+not. While the processing of the orientation of line segments 
+survives stage 2 manipulations (like masking), the figure-ground 
+percept and its neural correlates do not (Lamme et  al., 2001; 
+Fahrenfort et  al., 2007). Any neural signal representing the 
+figure-ground layout [also in more complex stimulus configurations 
+than shown here (Zipser et  al., 1996)] critically depends on 
+the layout being consciously visible (Figures 2D,E; Lamme and 
+Spekreijse, 2000; Supèr et  al., 2001; Lamme, 2004, 2009), and 
+hence is absent during stage 2.
+VISUAL OPERATIONS DURING STAGE 3 
+AND BEYOND: ANYTHING VISUAL 
+IS COMPLETED
+Effects of attention on visual processing are well-documented. 
+In general, unattended stimuli generate weaker responses 
+than attended ones. But the quality of visual representation 
+seems to suffer much less, if at all. For example, the width 
+of orientation tuning curves in V1 does not change during 
+inattention, only their amplitude does (McAdams and Maunsell, 
+1999). Higher level representations, such as selective responses 
+to faces or other categories in the temporal lobe typically 
+get weaker (Kastner and Ungerleider, 2000) but essentially 
+remain (Marois et  al., 2004).
+Processes of interference and inference proceed as well, 
+as Kanizsa illusion representations are identical whether 
+attended and reported or inattended (Vandenbroucke et  al., 
+2014). Fahrenfort et al. (2017) studied the neural processing 
+of Kanizsa figures using clever control stimuli that enabled 
+a distinction between the processing of the inducers that 
+support the illusion and the processes of integration and 
+inference that “make” the illusion happen. It was found 
+that masking selectively disrupts the neural processing of 
+integration and inference, supporting the limits of stage 1 
+and 2 processing discussed above. However, when the 
+Kanizsa  stimuli were made “invisible” due to an attentional 
+blink manipulation, the inference and integration related 
+neural  signals remained. Also, the neural signals related to 
+perceptual organization and figure ground segregation 
+(Figure  2), which  are absent in stage 2, are present during 
+stage 3, as was shown in a variety of studies using change 
+detection (Landman et al., 2003) and inattention paradigms 
+(Scholte et  al., 2001).
+In sum, although attention has strong effects on the strength 
+of visual representations in visual cortex [and may also lower 
+thresholds for otherwise invisible stimuli (Kastner and Ungerleider, 
+2000)], the essence of what visual cortex does – going from 
+feature extraction and categorization toward perceptual inference, 
+grouping, and organization, so as to “build” a complete 
+interpretation of the visual scene in front of us – is essentially 
+unaffected by attention, and hence completed in stage 3 (Lamme, 
+2003). Attention has well-documented effects on visual processing, 
+but does not seem to affect whether particular visual functions 
+are executed or not.
+VISUAL OPERATIONS DURING STAGE 4: 
+COGNITIVE FUNCTIONS ADDED
+With everything visual completed already during stages 1, 
+2, and 3, one may wonder what exactly is added in stage 
+4. The short answer is: nothing in terms of visual operations. 
+What is added are cognitive functions that may operate on 
+the visual representation that is now complete. These may 
+include attentional selection (“highlighting” some parts of 
+the scene, which typically renders their neural representation 
+stronger relative to unattended parts), working memory 
+(storing some parts of the scene), access (making available 
+the visual representation to other functions like control or 
+language), decision processes (deciding on which object to 
+act), metacognition [re-representing the visual representation 
+somewhere else (Brown et al., 2019)], and report (you saying 
+“I saw this”). These may alter the visual representation 
+somewhat, but it should be  noted that visual percepts are 
+typically cognitively “impenetrable” (Pylyshyn, 1999). For 
+example, you  cannot un-see a visual illusion by knowing it 
+is an illusion.
+WHAT FUNCTIONS SUPPORT THE 
+CONSCIOUS PERCEPT?
+A summary of the results presented above is given in Figure 1C. 
+Note that this is a short review of the matter, and therefore 
+quite simplified, sketching a broad picture. There are exceptions 
+and debatables to the general observations made here (Lamme, 
+2015). Note that the hierarchy of four stages proposed above 
+(as opposed to the stages being independent or orthogonal) 
+is supported by the findings: invisibility due to attentional 
+manipulations (stage 3) indeed is more “cognitive” or high 
+level, in the sense that it is not caused by a disturbance of 
+any visual process. Invisibility due to manipulations like masking 
+or flash suppression (stage 2) is caused by a disturbance of 
+such visual processes [see (Fahrenfort et al., 2017) for a study 
+manipulating both types of visibility in a single experiment]. 
+The two types of invisibility thus are clearly different “beasts,” 
+which argues for the two not being treated as equal ways of 
+manipulating consciousness (Kim and Blake, 2005).
+What does this say about the NCC? As noted, finding 
+the NCC is ultimately aimed at unraveling the set of neural 
+
+Lamme	
+Visual Functions Generating Conscious Seeing
+Frontiers in Psychology | www.frontiersin.org	
+7	
+February 2020 | Volume 11 | Article 83
+operations (hence functions) that “generate” the conscious 
+(visual) percept. Often, this is framed as operations being 
+both necessary and sufficient for consciousness. In practice, 
+however, this is hard to establish. What mostly occurs is 
+that some correlation is found between conditions or 
+manipulations that affect conscious experience on the one 
+hand, and neural signals and their associated processes on 
+the other hand. On the basis of what is summarized here, 
+some visual functions can be  excluded from the NCC in 
+this correlational sense: feature extraction, categorization, 
+some interference and inference occur regardless of whether 
+one is conscious of the visual stimulus or not. Other functions 
+are likely candidates: some inference and integration (like 
+in the Kanizsa illusion), processes of grouping, perceptual 
+organization and figure-ground segregation depend strongly 
+on the stimulus that is evoking these operations being 
+consciously perceived.
+Others have argued for the NCC also needing to have some 
+explanatory power toward consciousness. The properties of 
+conscious experience most in need for such explanation according 
+to Seth (2009) are the fact that conscious experiences are (1) 
+simultaneously integrated and differentiated, (2) have some 
+“point of view” or perspective relative to the “I,” (3) are shaped 
+by emotions and bodily states, and (4) are marked by intention 
+and agency. The first – conscious percepts are differentiated 
+and integrated – is also at the heart of Integrated Information 
+Theory (IIT) (Tononi et  al., 2016), where it is one of the 
+“axioms” the theory departs from. This property seems to 
+be  fully explained by the dichotomy in functions described 
+here, where the transition from unconscious to conscious vision 
+is accompanied by the transition of functions that merely signal 
+various low and high level features, to functions that enable 
+these features to get integrated into a unitary and integrated 
+whole. An example is the perception of a face. While face 
+selective cells in IT cortex signal the category “face” (as opposed 
+to say an animal or house), this is by no means similar to 
+consciously seeing a face. In the conscious face percept, all 
+features of that face (its color, shape, depth, motion, etc.) are 
+integrated with the “faceness” of it (Fahrenfort et  al., 2012). 
+In Recurrent Processing Theory (RPT), the unconscious functions 
+of feature extraction and categorizations are mediated by the 
+feedforward sweep, while conscious functions related to 
+perceptual organization are mediated by recurrent (feedback, 
+or re-entrant) cortico-cortical connections (Lamme, 2010). It 
+is not unlikely that experiencing some emotion to go along 
+with that face also depends on recurrent interactions between 
+neurons representing the different features of the face with 
+some neurons signaling emotional content, residing either in 
+subcortical structures like the amygdala of in ventromedial 
+prefrontal cortices (Klasen et  al., 2014).
+Some argue that a mere visual representation, however 
+integrated and organized, is not sufficient for having a conscious 
+percept of it. Either some re-representation of it is deemed 
+necessary, as in Higher Order Thought Theory (HOTT) (Brown 
+et  al., 2019), or functions related to access, such as attention 
+and reportability, as in Global (Neuronal) Workspace Theory 
+(GNWT) (Naccache, 2018). Although this may be  necessary 
+to report, memorize or otherwise cognitively manipulate the 
+visual information, it remains to be  demonstrated how such 
+functions provide an insight into the transition from 
+unconscious to conscious vision (Tsuchiya et al., 2015). Some 
+integration is offered in the GNWT account, as upon entering 
+the global workspace visual information may get integrated 
+with information from other senses, emotions, or motor plans 
+(Naccache, 2018). However, this is a type of integration 
+operating at a higher level than the integration that seems 
+to mark the transition form unconscious to conscious seeing 
+that is discussed here. HOTT offers no explanation of the 
+“integration” and “unity” aspect of consciousness, as the 
+operations underlying this are fully completed before higher 
+order thoughts are elevating the first order representation to 
+consciousness (Brown et  al., 2019). Both GNWT and HOTT 
+may speak to the aspect of intention and agency, as indeed 
+conscious visual percepts often go along with some sort of 
+intention (for example to grasp). Given that vision can also 
+be  entirely passive, and is not lost in patients with even 
+severe disturbance of agency (Bayne et  al., 2019), I  have a 
+hard time seeing the explanatory power of these functions 
+toward understanding seeing (as opposed to knowing, wanting, 
+remembering, etc.).
+Perhaps the most difficult aspect of conscious experience 
+is that of it having this ego-perspective, or “I”-point of view. 
+This is primarily caused by the “I” being hard to define, let 
+alone pin down to some specific functions or neural processes. 
+In some versions of HOTT, the re-representation of visual 
+information is thought to be  a pointer indicating whether 
+the visual representation is coming from within (as in 
+imagination) or from the outside (as in perception) (Brown 
+et al., 2019). It is also conceivable that the process of perceptual 
+organization generates the ego-perspective that vision has. 
+For example, it was recently proposed (in the context of IIT) 
+that the perception of space, as it unfolds in front of our 
+eyes, is supported by brain areas whose units are linked by 
+a grid-like connectivity, as in visual cortex (Haun and Tononi, 
+2019). Others link the ego-perspective to integrating visual 
+information with interoceptive information (Park and Tallon-
+Baudry, 2014). Either way, also this aspect of consciousness 
+seems quite distant from explaining the unconscious to 
+conscious transition that is dealt with here, as both unconscious 
+and conscious vision share the same “I,” being either aware 
+of an object or not.
+In sum, therefore, the transition from unconscious to conscious 
+vision, key to understanding the NCC of seeing, is probably 
+best explained by visual processing going from (low and high 
+level) feature extraction toward integrating those features into 
+a coherent and integrated whole, thereby constituting the 
+organized and unitary percept that sits so prominently in the 
+mind of the visual animal we  are.
+AUTHOR CONTRIBUTIONS
+The author confirms being the sole contributor of this work 
+and has approved it for publication.
+
+Lamme	
+Visual Functions Generating Conscious Seeing
+Frontiers in Psychology | www.frontiersin.org	
+8	
+February 2020 | Volume 11 | Article 83
+ 
+REFERENCES
+Barbur, J. L., and Spang, K. (2008). Colour constancy and conscious perception 
+of changes of illuminant. Neuropsychologia 46, 853–863. doi: 10.1016/j.
+neuropsychologia.2007.11.032
+Bayne, T., Seth, A. K., and Massimini, M. (2019). Are there islands of awareness? 
+Trends Neurosci. 43, 6–16. doi: 10.1016/j.tins.2019.11.003
+Block, N. (2005). Two neural correlates of consciousness. Trends Cogn. Sci. 9, 
+46–52. doi: 10.1016/j.tics.2004.12.006
+Breitmeyer, B. G., Ro, T., and Singhal, N. S. (2004). Unconscious color priming 
+occurs at stimulus- not percept-dependent levels of processing. Psychol. Sci. 
+15, 198–202. doi: 10.1111/j.0956-7976.2004.01503009.x
+Brown, R., Lau, H., and LeDoux, J. E. (2019). Understanding the higher-order 
+approach to consciousness. Trends Cogn. Sci. 23, 754–768. doi: 10.1016/j.
+tics.2019.06.009
+Dehaene, S., Changeux, J. P., Naccache, L., Sackur, J., and Sergent, C. (2006). 
+Conscious, preconscious, and subliminal processing: a testable taxonomy. 
+Trends Cogn. Sci. 10, 204–211. doi: 10.1016/j.tics.2006.03.007
+Durand, S., Iyer, R., Mizuseki, K., de Vries, S., Mihalas, S., and Reid, R. C. 
+(2016). A comparison of visual response properties in the lateral geniculate 
+nucleus and primary visual cortex of awake and anesthetized mice. J. Neurosci. 
+36, 12144–12156. doi: 10.1523/JNEUROSCI.1741-16.2016
+Fahrenfort, J. J., Scholte, H. S., and Lamme, V. A. (2007). Masking disrupts 
+reentrant processing in human visual cortex. J. Cogn. Neurosci. 19, 1488–1497. 
+doi: 10.1162/jocn.2007.19.9.1488
+Fahrenfort, J. J., van Leeuwen, J., Olivers, C. N. L., and Hogendoorn, H. (2017). 
+Perceptual integration without conscious access. PNAS. 114, 3744–3749. doi: 
+10.1073/pnas.1617268114
+Fahrenfort, J. J., Snijders, T. M., Heinen, K., van Gaal, S., Scholte, H. S., and 
+Lamme, V. A. (2012). Neuronal integration in visual cortex elevates face 
+category tuning to conscious face perception. Proc. Natl. Acad. Sci. USA 
+109, 21504–21509. doi: 10.1073/pnas.1207414110
+Fleming, S. M., and Lau, H. C. (2014). How to measure metacognition. Front. 
+Hum. Neurosci. 8:443. doi: 10.3389/fnhum.2014.00443
+Harris, J. J., Schwarzkopf, D. S., Song, C., Bahrami, B., and Rees, G. (2011). 
+Contextual illusions reveal the limit of unconscious visual processing. Psychol. 
+Sci. 22, 399–405. doi: 10.1177/0956797611399293
+Haun, A., and Tononi, G. (2019). Why does space feel the way it does? Towards 
+a principled account of spatial experience. Entropy 21:1160. doi: 10.3390/
+e21121160
+Jachs, B., Blanco, M. S. J., Grantham-Hill, S., and Soto, D. (2015). On the independence 
+of visual awareness and metacognition: a signal detection theoretic analysis. J. 
+Exp. Psychol. Hum. Percept. Perform. 41, 269–276. doi: 10.1037/xhp0000026
+Kastner, S., and Ungerleider, L. G. (2000). Mechanisms of visual attention in 
+the human cortex. Annu. Rev. Neurosci. 23, 315–341. doi: 10.1146/annurev.
+neuro.23.1.315
+Kim, C. Y., and Blake, R. (2005). Psychophysical magic: rendering the visible 
+‘invisible’. Trends Cogn. Sci. 9, 381–388. doi: 10.1016/j.tics.2005.06.012
+Klasen, M., Kreifelts, B., Chen, Y.-H., Seubert, J., and Mathiak, K. (2014). 
+Neural processing of emotion in multimodal settings. Front. Hum. Neurosci. 
+8:822. doi: 10.3389/fnhum.2014.00822
+Koch, C., Massimini, M., Boly, M., and Tononi, G. (2016). Neural correlates 
+of consciousness: progress and problems. Nat. Rev. Neurosci. 17, 307–321. 
+doi: 10.1038/nrn.2016.22
+Lamme, V. A. (1995). The neurophysiology of figure-ground segregation in 
+primary visual cortex. J. Neurosci. 15, 1605–1615. doi: 10.1523/
+JNEUROSCI.15-02-01605.1995
+Lamme, V. A. (2003). Why visual attention and awareness are different. Trends 
+Cogn. Sci. 7, 12–18. doi: 10.1016/S1364-6613(02)00013-X
+Lamme, V. A. (2004). Separate neural definitions of visual consciousness and 
+visual attention; a case for phenomenal awareness. Neural Netw. 17, 861–872. 
+doi: 10.1016/j.neunet.2004.02.005
+Lamme, V. A. F. (2004). “Beyond the classical receptive field: contextual modulation 
+of V1 responses” in The visual neurosciences. eds. L. M. Chalupa and J. S. 
+Werner (Cambridge, MA: MIT Press), 720–732.
+Lamme, V. A. F. (2009). Re-entrant processing. The Oxford companion to 
+consciousness, 556–561.
+Lamme, V. A. (2010). How neuroscience will change our view on consciousness. 
+Cogn. Neurosci. 1, 204–220. doi: 10.1080/17588921003731586
+Lamme, V. (2015). “The crack of dawn: perceptual functions and neural mechanisms 
+that mark the transition from unconscious processing to conscious vision” in 
+Open MIND: 22(T). eds. T. Metzinger and J. M. Windt (Frankfurt am Main: 
+MIND Group), doi: 10.15502/9783958570092
+Lamme, V. A. F. (2018). Challenges for theories of consciousness: seeing or 
+knowing, the missing ingredient and how to deal with panpsychism. Philos. 
+Trans. R. Soc. B 373:20170344. doi: 10.1098/rstb.2017.0344
+Lamme, V. A., Rodriguez-Rodriguez, V., and Spekreijse, H. (1999). Separate 
+processing dynamics for texture elements, boundaries and surfaces in primary 
+visual cortex of the macaque monkey. Cereb. Cortex 9, 406–413. doi: 10.1093/
+cercor/9.4.406
+Lamme, V. A., and Roelfsema, P. R. (2000). The distinct modes of vision offered 
+by feedforward and recurrent processing. Trends Neurosci. 23, 571–579. doi: 
+10.1016/S0166-2236(00)01657-X
+Lamme, V. A., and Spekreijse, H. (2000). Modulations of primary visual cortex 
+activity representing attentive and conscious scene perception. Front. Biosci. 
+5, D232–D243. doi: 10.2741/lamme
+Lamme, V. A., Super, H., and Spekreijse, H. (1998). Feedforward, horizontal, 
+and feedback processing in the visual cortex. Curr. Opin. Neurobiol. 8, 
+529–535. doi: 10.1016/S0959-4388(98)80042-1
+Lamme, V. A., Zipser, K., and Spekreijse, H. (1998). Figure-ground activity in 
+primary visual cortex is suppressed by anesthesia. Proc. Natl. Acad. Sci. 
+USA 95, 3263–3268.
+Lamme, V. A. F., Zipser, K., and Spekreijse, H. (2001). Masking interrupts 
+figure-ground signals in V1. J. Vis. 1:32. doi: 10.1162/089892902320474490
+Landman, R., Spekreijse, H., and Lamme, V. A. (2003). Set size effects in the 
+macaque striate cortex. J. Cogn. Neurosci. 15, 873–882. doi: 10.1162/
+089892903322370799
+Marcel, A. J. (1998). Blindsight and shape perception: deficit of visual 
+consciousness or of visual function? Brain 121, 1565–1588. doi: 10.1093/
+brain/121.8.1565
+Marois, R., Yi, D.-J., and Chun, M. M. (2004). The neural fate of consciously 
+perceived and missed events in the attentional blink. Neuron 41, 465–472. 
+doi: 10.1016/S0896-6273(04)00012-1
+McAdams, C. J., and Maunsell, J. H. R. (1999). Effects of attention on orientation-
+tuning functions of single neurons in macaque cortical area V4. J. Neurosci. 
+19, 431–441. doi: 10.1523/JNEUROSCI.19-01-00431.1999
+Meuwese, J. D., van Loon, A. M., Scholte, H. S., Lirk, P. B., Vulink, N. C., 
+Hollmann, M. W., et al. (2013). NMDA receptor antagonist ketamine impairs 
+feature integration in visual perception. PLoS One 8:e79326. doi: 10.1371/
+journal.pone.0079326
+Naccache, L. (2018). Why and how access consciousness can account for 
+phenomenal consciousness. Philos. Trans. R. Soc. Lond. B Biol. Sci 373:20170357. 
+doi: 10.1098/rstb.2017.0357
+Nakayama, K., and Shimojo, S. (1992). Experiencing and perceiving visual 
+surfaces. Science 257, 1357–1363. doi: 10.1126/science.1529336
+Overgaard, M., and Sandberg, K. (2012). Kinds of access: different methods for report 
+reveal different kinds of metacognitive access. Philos. Trans. R. Soc. Lond. 
+Ser. B Biol. Sci. 367, 1287–1296. doi: 10.1098/rstb.2011.0425
+Owen, M., and Guta, M. P. (2019). Physically sufficient neural mechanisms of 
+consciousness. Front. Syst. Neurosci. 13:24. doi: 10.3389/fnsys.2019.00024
+Park, H.-D., and Tallon-Baudry, C. (2014). The neural subjective frame: from 
+bodily signals to perceptual consciousness. Philos. Trans. R. Soc. B 369:20130208. 
+doi: 10.1098/rstb.2013.0208
+Pylyshyn, Z. (1999). Is vision continuous with cognition? The case for cognitive 
+impenetrability of visual perception. Behav. Brain Sci. 22, 341–365; discussion 
+366–423. doi: 10.1017/S0140525X99002022
+Ramsøy, T. Z., and Overgaard, M. (2004). Introspection and subliminal perception. 
+Phenomenol. Cogn. Sci. 3, 1–23. doi: 10.1023/B:PHEN.0000041900.30172.e8
+Roelfsema, P. R. (2006). Cortical algorithms for perceptual grouping. 
+Annu. Rev. Neurosci. 29, 203–227. doi: 10.1146/annurev.neuro.29.
+051605.112939
+Rossi, A. F., Rittenhouse, C. D., and Paradiso, M. A. (1996). The representation 
+of brightness in primary visual cortex. Science 273, 1104–1107. doi: 10.1126/
+science.273.5278.1104
+
+Lamme	
+Visual Functions Generating Conscious Seeing
+Frontiers in Psychology | www.frontiersin.org	
+9	
+February 2020 | Volume 11 | Article 83
+Scholte, H. S., Spekreijse, H., and Lamme, V. A. F. (2001). Neural correlates 
+of global scene segmentation are present during inattentional blindness. J. 
+Vis. 1:346. doi: 10.1167/1.3.346
+Seth, A. (2009). Explanatory correlates of consciousness: theoretical and computational 
+challenges. Cogn. Comput. 1, 50–63. doi: 10.1007/s12559-009-9007-x
+Shapley, R., and Hawken, M. J. (2011). Color in the cortex: single- and double-
+opponent cells. Vis. Res. 51, 701–717. doi: 10.1016/j.visres.2011.02.012
+Stoerig, P., and Cowey, A. (1989). Wavelength sensitivity in blindsight. Nature 
+342, 916–918. doi: 10.1038/342916a0
+Supèr, H., Spekreijse, H., and Lamme, V. A. F. (2001). Two distinct modes of 
+sensory processing observed in monkey primary visual cortex (V1). Nat. 
+Neurosci. 4, 304–310. doi: 10.1038/85170
+Tononi, G., Boly, M., Massimini, M., and Koch, C. (2016). Integrated information 
+theory: from consciousness to its physical substrate. Nat. Rev. Neurosci. 17, 
+450–461. doi: 10.1038/nrn.2016.44
+Tsuchiya, N., Wilke, M., Frässle, S., and Lamme, V. A. (2015). No-report 
+paradigms: extracting the true neural correlates of consciousness. Trends 
+Cogn. Sci. 19, 757–770. doi: 10.1016/j.tics.2015.10.002
+Vandenbroucke, A. R., Fahrenfort, J. J., Sligte, I. G., and Lamme, V. A. (2014). 
+Seeing without knowing: neural signatures of perceptual inference in the 
+absence of report. J. Cogn. Neurosci. 26, 955–969. doi: 10.1162/jocn_a_00530
+Wang, L., Weng, X., and He, S. (2012). Perceptual grouping without awareness: 
+superiority of Kanizsa triangle in breaking interocular suppression. PLoS 
+One 7:e40106. doi: 10.1371/journal.pone.0053383
+Wierzchoń, M., Paulewicz, B., Asanowicz, D., Timmermans, B., and Cleeremans, A. 
+(2014). Different subjective awareness measures demonstrate the influence 
+of visual identification on perceptual awareness ratings. Conscious. Cogn. 
+27, 109–120. doi: 10.1016/j.concog.2014.04.009
+Zipser, K., Lamme, V. A., and Schiller, P. H. (1996). Contextual modulation 
+in primary visual cortex. J. Neurosci. 16, 7376–7389. doi: 10.1523/
+JNEUROSCI.16-22-07376.1996
+Conflict of Interest: The author declares that the research was conducted in 
+the absence of any commercial or financial relationships that could be construed 
+as a potential conflict of interest.
+Copyright © 2020 Lamme. This is an open-access article distributed under the 
+terms of the Creative Commons Attribution License (CC BY). The use, distribution 
+or reproduction in other forums is permitted, provided the original author(s) and 
+the copyright owner(s) are credited and that the original publication in this journal 
+is cited, in accordance with accepted academic practice. No use, distribution or 
+reproduction is permitted which does not comply with these terms.
+
+Lamme	
+Visual Functions Generating Conscious Seeing
+Frontiers in Psychology | www.frontiersin.org	
+10	
+February 2020 | Volume 11 | Article 83
+POPULAR SUMMARY
+How is it possible that we have a conscious sensation of what 
+we see? Several theories argue for higher level cognitive 
+functions, such as attention, access or metacognition to play 
+an important role. Here, I take a closer look at the visual 
+functions that mark the transition from unconscious to conscious 
+vision. It appears that a clear distinction between such functions 
+can be made, hinting toward an important role for perceptual 
+organization as the “machine” that generates the conscious 
+visual percept.

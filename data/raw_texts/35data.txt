@@ -1,0 +1,1410 @@
+Frontiers in Psychology
+01
+frontiersin.org
+Self-organized criticality as a 
+framework for consciousness: A 
+review study
+Nike Walter * and Thilo Hinterberger 
+Section of Applied Consciousness Sciences, Department of Psychosomatic Medicine, University 
+Hospital of Regensburg, Regensburg, Germany
+Objective: No current model of consciousness is univocally accepted on either 
+theoretical or empirical grounds, and the need for a solid unifying framework 
+is evident. Special attention has been given to the premise that self-organized 
+criticality (SOC) is a fundamental property of neural system. SOC provides a 
+competitive model to describe the physical mechanisms underlying spontaneous 
+brain activity, and thus, critical dynamics were proposed as general gauges of 
+information processing representing a strong candidate for a surrogate measure 
+of consciousness. As SOC could be a neurodynamical framework, which may 
+be  able to bring together existing theories and experimental evidence, the 
+purpose of this work was to provide a comprehensive overview of progress of 
+research on SOC in association with consciousness.
+Methods: A comprehensive search of publications on consciousness and 
+SOC published between 1998 and 2021 was conducted. The Web of Science 
+database was searched, and annual number of publications and citations, type 
+of articles, and applied methods were determined.
+Results: A total of 71 publications were identified. The annual number of 
+citations steadily increased over the years. Original articles comprised 50.7% 
+and reviews/theoretical articles 43.6%. Sixteen studies reported on human data 
+and in seven studies data were recorded in animals. Computational models 
+were utilized in n = 12 studies. EcoG data were assessed in n = 4 articles, fMRI 
+in n = 4 studies, and EEG/MEG in n = 10 studies. Notably, different analytical 
+tools were applied in the EEG/MEG studies to assess a surrogate measure 
+of criticality such as the detrended fluctuation analysis, the pair correlation 
+function, parameters from the neuronal avalanche analysis and the spectral 
+exponent.
+Conclusion: Recent studies pointed out agreements of critical dynamics with 
+the current most influencing theories in the field of consciousness research, 
+the global workspace theory and the integrated information theory. Thus, the 
+framework of SOC as a neurodynamical parameter for consciousness seems 
+promising. However, identified experimental work was small in numbers, and 
+a heterogeneity of applied analytical tools as a surrogate measure of criticality 
+was observable, which limits the generalizability of findings.
+KEYWORDS
+self-organized criticality (theory), neurodynamical model, theories of consciousness, 
+complexity, phase transition
+TYPE  Original Research
+PUBLISHED  15 July 2022
+DOI  10.3389/fpsyg.2022.911620
+OPEN ACCESS
+EDITED BY
+Narayanan Srinivasan, 
+Indian Institute of Technology Kanpur, India
+REVIEWED BY
+Giovanni Rabuffo, 
+Institut de Neurosciences des Systèmes 
+(INSERM U1106), France
+Malcolm Koo, 
+Tzu Chi University of Science and 
+Technology, Taiwan
+Andy Wai Kan Yeung, 
+University of Hong Kong, China
+*CORRESPONDENCE
+Nike Walter 
+nike.walter@ukr.de
+SPECIALTY SECTION
+This article was submitted to 
+Consciousness Research, 
+a section of the journal 
+Frontiers in Psychology
+RECEIVED 02 April 2022
+ACCEPTED 29 June 2022
+PUBLISHED 15 July 2022
+CITATION
+Walter N and Hinterberger T (2022) Self-
+organized criticality as a framework for 
+consciousness: A review study.
+Front. Psychol. 13:911620.
+doi: 10.3389/fpsyg.2022.911620
+COPYRIGHT
+© 2022 Walter and Hinterberger. This is an 
+open-access article distributed under the 
+terms of the Creative Commons Attribution 
+License (CC BY). The use, distribution or 
+reproduction in other forums is permitted, 
+provided the original author(s) and the 
+copyright owner(s) are credited and that 
+the original publication in this journal is 
+cited, in accordance with accepted 
+academic practice. No use, distribution or 
+reproduction is permitted which does not 
+comply with these terms.
+
+Walter and Hinterberger
+10.3389/fpsyg.2022.911620
+Frontiers in Psychology
+02
+frontiersin.org
+Introduction
+Consciousness has been fascinated humankind since its very 
+beginning and the relationship between the aware perception of 
+stimuli and the orchestration of billions of neurons in the brain 
+still is a baffling topic for many researchers all over the world 
+(Melloni et al., 2021). Over the years an abundance of conceptual 
+proposals with distinct philosophical foundations were published 
+and straightforward comparisons can be challenging (Seth et al., 
+2006). Especially, the conceptual nonlinear dynamical system 
+framework in neuroscience has produced a variety of approaches 
+and hypotheses on the relation between dynamics of neural 
+activity and conscious experience (Cosmelli et al., 2007; Werner, 
+2007b). Such notions are appealing considering that consciousness 
+reflects an intrinsically dynamical phenomenon, the propagation 
+of information, a temporal process in its nature, notably described 
+as the “stream of consciousness” (James, 1950). Importantly, no 
+current model of consciousness is univocally accepted on either 
+theoretical or empirical grounds and the need for a solid unifying 
+framework is evident (Melloni et al., 2021; Signorelli et al., 2021). 
+One strong candidate for this task is self-organized criticality 
+(SOC) providing an established and competitive model to describe 
+the physical mechanisms underlying spontaneous brain activity 
+and hence, in extension, cognition, behavior and consciousness 
+(Cocchi et al., 2017).
+Therefore, the purpose of this work was (i) to review the 
+literature including annual number of publications and citations, 
+type of articles, and applied methods, as well as to outline evidence 
+bringing together theories and experimental evidence on how 
+SOC may account for conscious perception and (ii) to give a 
+conceptual perspective regarding agreements with the most 
+influencing theories on consciousness described in the following.
+Theories on how consciousness relates to the physical domain 
+generally start from different premises. Hence, the current two 
+main theories of consciousness, the global workspace theory and 
+the integrated information theory, incorporate distinct approaches 
+to the definition of consciousness (Michel et al., 2018). The global 
+workspace theory (GWT) starts by posing the question of 
+conscious access, i.e., how an external or internal piece of 
+information gains access to conscious processing resulting in a 
+reportable subjective experience. Hence, the central notion behind 
+the GWT is that conscious content is globally available for diverse 
+cognitive (unconscious) processes such as memory and attention, 
+and that consciousness might be  a gateway enabling access 
+between otherwise separate neuronal functions (Baars, 2002). 
+Thus, it posits that the function of conscious awareness is the 
+broadcasting of information in the brain and it postulates that 
+information becomes conscious by the activation of long-distance 
+connectivity of “workspace neurons,” which can make the 
+information available to other modular cerebral networks 
+processing information in an unconscious manner (Baars, 1993; 
+Dehaene, 2001). Whereas related stances such as the idea of a 
+“Dynamic Core” proposed by Edelman and Tononi hypothesized 
+thalamocortical and corticocortical reentry as the basic 
+mechanism facilitating the interaction among distant regions of 
+the brain (Edelman and Tononi, 2001), GWT assumes that a 
+nonlinear network ignition associated with recurrent processing 
+amplifies and sustains a neural representation, which allows the 
+global accesses by local processors (Mashour et al., 2020). The 
+GWT further describes ignition as a sudden activation, which 
+may be  triggered by an external stimulus or may occur 
+spontaneously and stochastically at rest (Dehaene and Changeux, 
+2005). The theory has led to a number of empirical studies 
+applying experimental paradigms such as masking, binocular 
+rivalry, and inattentional blindness to investigate a minimal 
+contrast between conscious and nonconscious (i.e., subliminal or 
+preconscious) stimuli (Dehaene and Changeux, 2011).
+Distinguishable to the definition of consciousness in terms of 
+brain-wide information sharing, the integrated information 
+theory (IIT) uses a distinct approach claiming that the existence 
+of consciousness cannot be inferred starting from physical systems 
+(Tononi, 2015). In their work, Tononi et al. derived axioms from 
+phenomenological considerations on essential properties required 
+for the physical substrate of consciousness. Centrally, it is argued 
+that an experience is identical to a conceptual structure that is 
+maximally irreducible intrinsically. Going further, the theory 
+advocates a mathematical measure to evaluate not only the 
+quantity but also the quality of consciousness. Hereby, it is argued 
+that a maximum of intrinsic cause–effect power is fundamental, 
+proposing a parameter termed ϕ, which reflects the amount of 
+causally effective information that can be  integrated across a 
+subset of elements (Tononi, 2004; Oizumi et al., 2014; Tononi 
+et al., 2016; Niikawa, 2020). Due to its level of formalization as a 
+theory, and especially “a calculus to evaluate whether a physical 
+system is conscious” (Tononi and Koch, 2015), the IIT has 
+triggered a lot of responses, debates, and criticisms. Therefore, it 
+has been revised continuously over the years (Oizumi et al., 2014; 
+Cerullo, 2015; Barrett and Mediano, 2019; Kleiner and Hoel, 2021; 
+Kleiner and Tull, 2021).
+Moreover, special attention has been given to the hypothesis 
+that neural dynamics might be governed by the phenomenon of 
+SOC. SOC, in the sense of statistical physics, is defined as a 
+specific type of behavior, seen when a system undergoes a phase 
+transition. During a phase transition, macroscopic properties of 
+the system, termed the order parameters, change as a function of 
+a so-called control parameter. For example, when water gets 
+boiled, a phase transition from liquid to a vaporous phase occurs. 
+Here, the order parameter would reflect the phase’s entropy (such 
+as water or vapor), whereas the control parameter is the 
+temperature. Modifying the control parameter gradually changes 
+the order parameter until a specific point, at which the values of 
+the order parameter vary abruptly. Graphically, phase transitions 
+are either marked by a discontinuity of the phase diagram (a jump 
+of the order parameter) or by a point of non-differentiability 
+reflected as a sharp corner. The latter is termed a continuous 
+second order phase transition, which allows the system to 
+be poised exactly between two phases. In that case the system is in 
+the critical state, residing between two qualitative distinct types of 
+
+Walter and Hinterberger
+10.3389/fpsyg.2022.911620
+Frontiers in Psychology
+03
+frontiersin.org
+behavior such as ordered and disorder. A system at criticality is 
+therefore sometimes referred to as on the “edge of chaos.” If the 
+control parameter is below the critical value, the state is called 
+subcritical, whereas values above the critical state result in a 
+supercritical state (Hesse and Gross, 2014; Roli et  al., 2018; 
+Zimmern, 2020). Systems in a critical state show complex behavior 
+with inherent characteristics such as scale-invariance, meaning 
+that no scale in time or space dominates the behavioral pattern. 
+This mode is reflected by spatial and temporal correlations and 
+scaling of a power law over several orders of magnitude. Hence, 
+these give rise to self-similar fractal-like structure over many 
+scales (Heiney et al., 2021).
+Alan Turing was probably the first one speculating that the 
+brain could be in a critical regime in his seminal paper on the 
+topic of artificial intelligence written in 1950 (Turing, 1950). A 
+decade later advances in explaining the principles of self-
+organization and nonequilibrium phase transitions such as 
+Herman Haken’s pioneering work on synergetics and Stuart 
+Kauffmann’s investigations paved the way for understanding the 
+brain in terms of a complex system (Haken et al., 1985; Kauffman, 
+1993; Haken, 2007). Back then, the potential equivalence between 
+neuronal networks and systems exhibiting a phase transition such 
+as cellular automata, binary lattices evolving iteratively, was 
+highlighted (Hopfield, 1982). This so-called “computation at the 
+edge of chaos” (Packard, 1988; Crutchfield and Young, 1990), was 
+in accordance with theories from Per Bak, promoting critical 
+phase transitions as a mechanisms to generate complexity, 
+ubiquitous 1/f noise and the preponderance of fractal structures 
+in nature. In his book “How nature works” he uses the canonical 
+example of a sand pile (Bak, 1996). The sandpile model, which is 
+analogous to a cellular automata, randomly placing chips on a 
+finite grid, describes the process of a random positioning of sand 
+grains on a pile. This results in a slope, which builds up until it 
+reaches a specific, critical threshold value, the transition point. At 
+this point the system is out of balance and from here on, the 
+dropping of more sand grains leads to an avalanche. During an 
+avalanche the site collapses transferring sand into the adjacent site, 
+extending their slope. This dynamic was found to be governed by 
+power laws (Bak and Wiesenfeld, 1987). However, after a rapid 
+increase of publications in this field in the 1990s, interest slowly 
+receded (Hesse and Gross, 2014) and the conjecture of critical 
+brain dynamics has come a long way before it was put to 
+experimental testing ground and revived (Plenz, 2014).
+In 2003, Beggs and Plenz hypothesized that the propagation 
+of activity in networks of cortical neurons is describable by 
+equations that govern cascades indicative of a state of SOC. In 
+their study, they recorded spontaneous negative local field 
+potentials (LFP) of mature organotypic cultures and acute slices 
+of rat cortex using a multielectrode array (Beggs and Plenz, 2003). 
+Indeed, the propagation of synchronized LFP followed a power 
+law with a scaling exponent of −3/2 as it would be predicted from 
+a network of globally coupled nonlinear threshold elements 
+(Eurich et  al., 2002). The authors termed this new mode of 
+network activity “neuronal avalanches” (Beggs and Plenz, 2003, 
+2004). Further, in vivo experiments confirmed power law statistic 
+and spontaneous activity in form of neuronal avalanches in cats 
+under anesthesia (Petermann et al., 2009; Hahn et al., 2010), in 
+awake monkeys (Petermann et al., 2009; Klaus et al., 2011) and in 
+rats traversing the wake–sleep cycle (Ribeiro et al., 2010). First 
+signatures of criticality in the human brain were reported by 
+Linkenkaer-Hansen et al. (2001), who focused on the temporal 
+fluctuations employing a method called detrended fluctuation 
+analysis and reported scale-free temporal statistics in EEG data 
+(Linkenkaer-Hansen et al., 2001). In 2013, Shriki and colleagues 
+analyzed resting-state brain activity from 124 participants using 
+magnetoencephalography (MEG). Here, large deflections at single 
+MEG sensors were identified and analyzed as cascades. The 
+authors reported that cascade size distribution obeyed power laws 
+with an exponent of −3/2 at timescales where the branching 
+parameter was close to 1. A scaling and coarse graining of the 
+sensor array did not change this relationship (Shriki et al., 2013). 
+Using intracranial depth recordings in humans it was further 
+shown that avalanche distributions follow a power law, whereby 
+these differed between states of vigilance with larger and longer 
+avalanches during rapid eye movement (REM) sleep (Priesemann 
+et al., 2013). Subsequently, spatial critical dynamics were also 
+described in whole brain functional neuroimaging (fMRI) data 
+(Tagliazucchi et al., 2012).
+Intriguingly, work on criticality in physical systems suggest 
+that systems in a critical state exhibit optimal computational 
+properties (Cocchi et al., 2017) and it has been shown that critical 
+dynamics in the brain would be equivalently accompanied by 
+functional benefits (Shew and Plenz, 2013). SOC implies a 
+balanced signal propagation, which can have important 
+implications for the dynamics of neural networks. Such balance is 
+based on the likelihood that one spike causes each other neuron 
+to fire and can be captured by the branching parameter σ, which 
+is defined as the ratio of descendants, the number of events in a 
+temporal interval t and the ancestors, the number of events in the 
+following interval t + 1 (Harris, 2002; Beggs, 2007; Shew and Plenz, 
+2013). Accordingly, experimental evidence suggest that critical 
+dynamics emerge when excitation and inhibition is balanced (Poil 
+et al., 2012; Massobrio et al., 2015b). Importantly, the balance 
+between independence and interdependence among neurons is 
+fundamental for the transmission and processing of information 
+(Kello et al., 2010). Computational advantages of criticality have 
+been demonstrated in neural network models and empirical 
+recordings. For instance, it has been shown that that the dynamic 
+range of a neural network is maximized at a critical point 
+(Kinouchi and Copelli, 2006; Larremore et al., 2011), which has 
+also been suggested by an in vitro experiments manipulating 
+cultures pharmacologically close to criticality (Shew et al., 2009) 
+as well in vivo recordings from rats (Gautam et al., 2015). Further, 
+optimal information transmission, storage and capacity has been 
+reported in neuronal models at criticality (Bertschinger and 
+Natschläger, 2004; Haldeman and Beggs, 2005; Del Papa et al., 
+2017), in vivo (Shew et al., 2011) and in animal studies (Fagerholm 
+et al., 2016). Importantly, the observed scale-free patterns close to 
+
+Walter and Hinterberger
+10.3389/fpsyg.2022.911620
+Frontiers in Psychology
+04
+frontiersin.org
+a critical point of a phase transition imply the largest variability 
+and thus, the largest number of configurations and repertoire of 
+possible brain states (Chialvo, 2018). Further, critical dynamics 
+were proposed as general gauges of information processing and 
+features of healthy brain networks (Massobrio et  al., 2015a; 
+Zimmern, 2020; Fekete et al., 2021).
+However, the criticality in the brain theory has not been 
+unchallenged (Beggs and Timme, 2012; Wilting and Priesemann, 
+2019; Destexhe and Touboul, 2021). For instance, debates on the 
+significance of power laws have been hold for a long time in 
+diverse areas of research (Reed and Hughes, 2002; Muñoz, 2018) 
+and it remains discussable to what extent the idea of criticality can 
+be  generalized to neurobiology (Gisiger, 2001). Importantly, 
+power laws are one of the hallmarks of SOC but not a sufficient 
+condition (Beggs and Timme, 2012). Hence, whereas all critical 
+systems should exhibit 1/f noise, not all 1/f noise is indicative of 
+criticality (Hesse and Gross, 2014; Zimmern, 2020). Also, power 
+laws can emerge through several mechanisms and non-critical 
+systems are also reported to display power law behavior 
+(Mitzenmacher, 2004; Touboul and Destexhe, 2017; Faqeeh et al., 
+2019). For instance, Friedman and Landsberg reported features of 
+critical dynamics such as power-law distributions of avalanche 
+sizes and durations in a network with hierarchical modular 
+structure even though underlying dynamical processes were not 
+critical (Friedman and Landsberg, 2013). Further models of 
+neural dynamics suggest that diverse neuronal avalanches can 
+coexist simultaneously, although, the network does not operate in 
+a regime at the edge of a phase transition (Martinello et al., 2017). 
+Additionally, it might be the case that power law regimes may 
+coexist with others suggesting metastability (Kelso, 2012) and that 
+it might be possible that brain areas are driven to the critical point 
+separately (Hesse and Gross, 2014).
+To summarize, hitherto, no current model of consciousness is 
+univocally accepted on either theoretical or empirical grounds and 
+the need for a solid unifying framework is evident (Melloni et al., 
+2021; Signorelli et al., 2021). SOC is a strong candidate providing 
+an established and competitive model to describe the physical 
+mechanisms underlying spontaneous brain activity and hence, in 
+extension, cognition, behavior and consciousness (Cocchi et al., 
+2017). Thus, SOC could be a neurodynamical framework, which 
+may be able to bring together existing theories and experimental 
+evidence (Werner, 2009, 2013; Tagliazucchi, 2017).
+Therefore, the aim of this study was to provide a 
+comprehensive overview of progress of research regarding the 
+relationship of SOC and consciousness. For this purpose, a review 
+of the literature including an analysis of citations was conducted 
+and the most influencing publications on the topic as well as 
+applied analytical tools were determined.
+Materials and methods
+Data were retrieved from the Web of Science (WoS) 
+electronic database (SCI-Expanded). A search (All-Fields) with 
+the keywords: “self-organized criticality,” OR “critical dynamics,” 
+OR “phase transition,” OR “neuronal avalanches,” AND 
+“consciousness” OR “conscious percept” was performed, 
+Articles published between 01.01.1998 and 31.12.2021 were 
+included. There were no language restrictions applied. The data 
+were extracted in December 2021 from the Web of Science and 
+exported to plain text. The data were then tabulated in a 
+spreadsheet using Microsoft Excel (Microsoft, Redmond, WA, 
+United States). In total n = 81 publications were identified. Of 
+all, the full texts were screened to verify that were in the field of 
+neuroscience referring to SOC in the context of brain dynamics. 
+This was not the case in n = 10 articles, whereby, the term 
+criticality was used in association with mobile service delivery, 
+behavior in flocks as well as educational and social sciences. 
+Thus, these articles were excluded from the analysis. The criteria 
+evaluated were the year of publication, the total number of 
+citations, number of citations per year, institution, authors, the 
+journal published, subject, type of articles, used methods, and 
+country of origin. To compare the trends of the criticality and 
+consciousness research separately, two additional searches 
+(All-Fields) were performed with the keywords (i) “self-
+organized criticality” OR “critical dynamics” OR “neuronal 
+avalanche” AND “brain” as well as (ii) “consciousness” OR 
+“conscious percept” AND “brain” OR “neural activity.” In 
+addition, to quantify the growth in the field of SOC and 
+consciousness with respect to the trends of the topics separately, 
+the ratio between the number of citations was normalized by 
+the total number of citations identified with the search (i) 
+and (ii).
+Results
+In total, a number of n = 71 publications were included. These 
+had a total number of 1,968 citations (1,878 without self-citations), 
+an h-index of 21, and 24.3 citations averaged per item. Most 
+articles were original (n = 36, 50.7%). This was followed by 31 
+reviews/theoretical articles (43.6%), three proceedings papers 
+(4.2%) and one editorial (1.4%). The annual number of 
+publications was highest in the year 2020 with a local maximum 
+in 2017. The annual number of citations steadily increased over 
+the years (Figure 1). When analyzed independently, both fields 
+showed a growth in articles, citations and the intersection between 
+the two domains thickened (Figure 2).
+Out of the original articles, n = 16 (44.4%) reported on 
+human data and in n = 7 (19.4%) studies data was recorded in 
+animals. Regarding the methods, computational models were 
+utilized in n = 12 studies (Zare and Grigolini, 2013; Aguilera 
+et al., 2015; Kang et al., 2017; Podobnik et al., 2017; Stramaglia 
+et al., 2017; Abeyasinghe et al., 2018, 2020; Aguilera, 2019; Lee 
+et al., 2019; Avramiea et al., 2020; Kim and Lee, 2020; Popiel 
+et al., 2020), electrocorticography (EcoG) was assessed in n = 4 
+articles (Alonso et al., 2014; Solovey et al., 2015; Krzemiński 
+et al., 2017; Varley et al., 2020b), fMRI in n = 4 studies (Liu et al., 
+
+Walter and Hinterberger
+10.3389/fpsyg.2022.911620
+Frontiers in Psychology
+05
+frontiersin.org
+2014; Tagliazucchi et  al., 2014, 2016; Varley et  al., 2020a), 
+voltage imaging/microelectrode arrays in n = 4 studies 
+(Fagerholm et al., 2016; Hudetz et al., 2016; Fakhraei et al., 
+2017; Fekete et al., 2018), EEG/MEG in n = 10 studies (Allegrini 
+et al., 2015; Colombo et al., 2016; Irrmischer et al., 2018; Kim 
+and Lee, 2019; Duncan et al., 2020; Dürschmid et al., 2020; 
+Keshmiri, 2020; Fekete et  al., 2021; Huels et  al., 2021; 
+Kim H. et al., 2021) and EEG and fMRI in one study (Kim 
+M. et al., 2021; Figure 3). Notably, different analytical tools were 
+applied in the EEG/MEG studies to assess a surrogate measure 
+of criticality. These included the detrended fluctuation analysis 
+(n = 3), the pair correlation function (n = 2), parameters from 
+the neuronal avalanche analysis (n = 2), and the spectral 
+exponent (n = 1), whereas one study applied multiscale entropy 
+and permutation entropy and another one the autocorrelation 
+function of global alpha oscillations.
+In total, 252 authors were identified. The author with the 
+highest number of publications was U. Lee affiliated with the 
+University Michigan, United States, followed by E. Tagliazucchi 
+from Netherlands Institute for Neuroscience. The latter also had 
+the highest number of citations (n = 473), followed by G. Werner 
+from the University of Texas with 143 citations from Table 1. 
+There was a significant heterogeneity in the origin of the authors, 
+with most of them coming from the United States (Table 2).
+Articles were published in 51 different journals. The journal 
+Chaos, Solitons and Fractals had the highest number of 
+publications, followed by Neuroimage and Entropy (Table 3). The 
+majority of articles was published as open access (70.4%). The 25 
+most cited articles on criticality and consciousness were cited 
+between 16 and 323 times (Table 4).
+Discussion
+The premise arose that SOC is a fundamental property of 
+neural system and that “all human behaviors, including thoughts, 
+undirected or goal oriented actions, or simply any state of mind, 
+are the outcome of a dynamical system, the brain, at or near a 
+critical state” (Chialvo, 2007). In this study, a review study was 
+carried out to determine the current state of the art on SOC as a 
+framework of consciousness.
+An upwarding trend in citations on the topic and a 
+maximum of publications in the year 2020 was observed. The 
+publication with highest number of citations was the entropic 
+brain hypothesis by Carhart-Harris et al. (2014), proposing that 
+the “qualia” or subjective quality of any given conscious state, 
+and specifically the “richness” of its content, can be indexed by 
+a quantitative measure of magnitude of entropy in the 
+information theoretic sense (Carhart-Harris et al., 2014). In 
+their original proposal, entropic states were associated with a 
+supercritical regime and low entropic states with a subcritical 
+regime, whereby it was hypothesized that psychedelics tune the 
+brain closer to the critical point compared to normal waking 
+consciousness. To note, their hypothesis has been unchallenged 
+(Papo, 2016). In their revised version, the critical regime 
+accounts for a range of brain states in the spectrum of normal 
+waking consciousness (Carhart-Harris, 2018). The second most 
+influencing paper was an original study by Tagliazucchi et al. 
+(2013), who measured fMRI data across the human nonrapid 
+eye movement sleep cycle (Tagliazucchi et al., 2013). Their study 
+was published in PNAS, the journal with the highest impact 
+factor among the analyzed journals (Table 3). The paper with 
+FIGURE 1
+Annual number of publications and citations combining the keywords self-organized criticality (SOC) and consciousness.
+
+Walter and Hinterberger
+10.3389/fpsyg.2022.911620
+Frontiers in Psychology
+06
+frontiersin.org
+the third most citations was a theoretical article by Werner 
+(2007a) crosslinking SOC to a “family resemblance” of models 
+of consciousness (Werner, 2007b) including oscillatory 
+synchrony, coordination dynamics (Kelso, 2012), the Dynamic 
+Core hypothesis (Tononi and Edelman, 1998; Sporns et al., 
+2000), and the global workspace theory (Baars, 2002).
+A
+B
+C
+FIGURE 2
+(A) Annual number of publications and citations in the field of consciousness research. (B) Annual number of publications and citations on SOC in 
+the brain. (C) Annual ratio between the number of citations combining the keywords SOC and consciousness normalized by the total number of 
+citations in the field of consciousness research and citations on SOC in the brain.
+
+Walter and Hinterberger
+10.3389/fpsyg.2022.911620
+Frontiers in Psychology
+07
+frontiersin.org
+Whereas 43.6% of the articles were theoretical in their nature, 
+the theory has been increasingly put to a testing ground. However, 
+a recent bibliometric evaluation of consciousness theories showed 
+that approximately 3–9 of the citations were based on testing 
+ground. The authors reported that out of five considered theories 
+(global workspace, higher order, integrated information, local 
+recurrent and quantum theories), the IIT had the highest increase 
+in publication and citation count (Yeung et al., 2022).
+To note, findings of critical dynamics in the brain did 
+receive substantial critiques (Wilting and Priesemann, 2019). 
+For instance, the quality of power-law fits to empirical data 
+has been scrutinized by demonstrating that some claims of 
+scale-free dynamics lack statistical significance. Hence, 
+stringent statistical tests have been advocated in the detection 
+of critical dynamics (Muñoz, 2018). Thus, especially the work 
+done by Marshall and colleagues providing a freely available 
+MATLAB toolbox for estimating neural complexity and 
+criticality can be  regarded as an important advancement 
+incorporating automated maximum likelihood estimation 
+fitting routines for doubly truncated, discrete power-law 
+distribution as well as an automated method for performing 
+and measuring avalanche shape collapses (Marshall 
+et al., 2016).
+Interestingly, also a few studies emerged connecting the IIT 
+with the concept of criticality by investigation the explicit 
+relationship between critical exponents and the amount of 
+integrated information (Φ). Here, research on criticality and 
+consciousness is largely informed by network models. For 
+instance, Kim and Lee computed a large-scale human brain 
+network model implementing a Kuramoto model on the scaffold 
+of an anatomically informed human brain network structure 
+constructed from diffusion tensor imaging (Kim and Lee, 2019). 
+Arguing that criticality is associated with heightened susceptibility 
+to external stimuli, the pair correlation function (PCF) was 
+calculated as a surrogate measure for susceptibility this was 
+defined as a parameter for criticality. Going further, the authors 
+proposed a metric for Φ, defining integrated information as the 
+effective information of the minimum information partition in a 
+system, i.e., the partition of the system at which information loss 
+caused by partitioning is minimized (Kitazono et al., 2018). Then, 
+the network model was modulated by systematically changing the 
+coupling strength. The authors demonstrated that the Φ value was 
+maximized at the point of maximized PCF. Second, they analyzed 
+previously published EEG data recorded from seven healthy 
+participants (Blain-Moraes et al., 2015). During the recordings, 
+sevoflurane, an anesthetic agent, was applied, whereby the 
+concentration was first increased from 0.4 to 0.6 to 0.8% and then 
+gradually decreased. The level of consciousness was assessed as the 
+response rate to verbal commands. In comparison to the 
+anesthetic state, conscious resting states showed higher PCF and 
+FIGURE 3
+Identified methods of original articles regarding SOC and 
+consciousness given in percentage. EcoG, electrocorticography, 
+EEG, electroencephalography, MEG, magnetoencephalography, 
+fMRI, functional magnetic resonance imaging.
+TABLE 1  Top ten authors sorted by the frequency of publications on 
+consciousness and criticality.
+Author
+Number of articles
+Citations
+Lee, U.
+5 (6.2%)
+53
+Tagliazucchi, E.
+4 (4.9%)
+473
+Mashour, G.A.
+4 (4.9%)
+56
+Abeyasinghe, P.M.
+4 (4.9%)
+28
+Owen, A.M.
+4 (4.9%)
+28
+Soddu, A.
+4 (4.9%)
+28
+Werner, G.
+3 (3.7%)
+143
+Laurey, S.
+3 (3.7%)
+69
+Allegrini, P.
+3 (3.7%)
+38
+Gemignani, A.
+3 (3.7%)
+38
+TABLE 2  List of top five countries.
+Country
+Number of articles
+USA
+36 (44.4%)
+Italy
+11 (13.6%)
+Germany
+9 (11.1%)
+England
+7 (8.6%)
+Japan
+7 (8.6%)
+TABLE 3  List of the top ten journals with the most publications and 
+the associated impact factors of the year 2021.
+Journal
+Record counts
+Impact factor
+Chaos, Solitons and Fractals
+6 (7.4%)
+5.9
+Neuroimage
+6 (7.4%)
+6.5
+Entropy
+5 (6.1%)
+2.4
+PLOS ONE
+4 (4.9%)
+3.2
+Proceedings of the National 
+Academy of Sciences of the 
+United States of Amerika
+2 (2.5%)
+11.2
+Frontiers in Physiology
+2 (2.5%)
+4.6
+Frontiers in Human Neuroscience
+2 (2.5%)
+3.2
+Frontiers in Systems Neuroscience
+2 (2.5%)
+3.2
+Journal of consciousness studies
+2 (2.5%)
+1.3
+Cultural studies of science 
+education
+2 (2.5%)
+1.2
+
+Walter and Hinterberger
+10.3389/fpsyg.2022.911620
+Frontiers in Psychology
+08
+frontiersin.org
+TABLE 4  Top 25 most cited publications.
+Rank
+Title
+Total 
+citations
+Citations 
+in 2021
+Open 
+access
+Type of 
+article
+1
+The entropic brain: a theory of conscious states informed by neuroimaging research with 
+psychedelic drugs (Carhart-Harris et al., 2014)
+323
+62
+Yes
+Theoretical
+2
+Breakdown of long-range temporal dependence in default mode and attention networks during 
+deep sleep (Tagliazucchi et al., 2013)
+127
+24
+No
+Original (fMRI)
+3
+Metastability, criticality and phase transitions in brain and its models (Werner, 2007b)
+103
+2
+No
+Theoretical
+4
+The entropic brain – revisited (Carhart-Harris, 2018)
+75
+26
+No
+Theoretical
+5
+Consciousness as a phenomenon in the operational architectonics of brain organization: Criticality 
+and self-organization considerations (Fingelkurts et al., 2013)
+56
+4
+No
+Theoretical
+6
+Indirect biological measures of consciousness from field studies of brains as dynamical systems 
+(Freeman, 2007)
+56
+1
+No
+Theoretical
+7
+Loss of Consciousness Is Associated with Stabilization of Cortical Activity (Solovey et al., 2015)
+55
+4
+Yes
+Original (ECoG)
+8
+Consciousness as a state of matter (Tegmark, 2015)
+45
+8
+Yes
+Theoretical
+9
+Analysis of Power Laws, Shape Collapses, and Neural Complexity: New Techniques and MATLAB 
+Support via the NCC Toolbox (Marshall et al., 2016)
+36
+7
+Yes
+Original 
+(methods)
+10
+The spectral exponent of the resting EEG indexes the presence of consciousness during 
+unresponsiveness induced by propofol, xenon, and ketamine (Colombo et al., 2019)
+34
+18
+Yes
+Original (EEG)
+11
+Cortical Entropy, Mutual Information and Scale-Free Dynamics in Waking Mice (Fagerholm et al., 
+2016)
+30
+6
+Yes
+Original (voltage 
+imaging)
+12
+Criticality and avalanches in neural networks (Zare and Grigolini, 2013)
+29
+1
+No
+Original 
+(network model)
+13
+Dynamical criticality during induction of anesthesia in human ECoG recordings(Alonso et al., 2014)
+27
+1
+Yes
+Original (ECoG)
+14
+Brain dynamics across levels of organization (Werner, 2007a)
+24
+1
+No
+Theoretical
+15
+Relationship of critical dynamics, functional connectivity, and states of consciousness in large-scale 
+human brain networks (Lee et al., 2019)
+23
+11
+Yes
+Original 
+(network model)
+16
+Random graph theory and neuropercolation for modeling brain oscillations at criticality (Kozma 
+and Puljic, 2015)
+23
+2
+No
+Theoretical
+17
+Scale-Free Functional Connectivity of the Brain Is Maintained in Anesthetized Healthy Participants 
+but Not in Patients with Unresponsive Wakefulness Syndrome (Liu et al., 2014)
+23
+1
+Yes
+Original (fMRI)
+18
+Role of Network Science in the Study of Anesthetic State Transitions (Lee and Mashour, 2018)
+22
+5
+Yes
+Theoretical
+19
+Generalized CNS arousal: An elementary force within the vertebrate nervous system (Calderon 
+et al., 2016)
+22
+6
+Yes
+Theoretical
+20
+Self-organized dynamical complexity in human wakefulness and sleep: Different critical brain-
+activity feedback for conscious and unconscious states (Allegrini et al., 2015)
+21
+5
+Yes
+Original (EEG)
+21
+The signatures of conscious access and its phenomenology are consistent with large-scale brain 
+communication at criticality (Tagliazucchi, 2017)
+19
+4
+No
+Theoretical
+22
+Ising model with conserved magnetization on the human connectome: Implications on the relation 
+structure–function in wakefulness and anesthesia (Stramaglia et al., 2017)
+19
+2
+Yes
+Original 
+(network model)
+23
+Revisiting the Quantum Brain Hypothesis: Toward Quantum (Neuro)biology? (Jedlicka, 2017)
+18
+6
+Yes
+Theoretical
+24
+Sleep unconsciousness and breakdown of serial critical intermittency: New vistas on the global 
+workspace (Allegrini et al., 2013)
+17
+1
+No
+Theoretical
+25
+Consciousness viewed in the framework of brain phase space dynamics, criticality, and the 
+Renormalization Group (Werner, 2013)
+16
+2
+Yes
+Theoretical
+EcoG, electrocorticography; EEG, electroencephalography; fMRI, functional magnetic resonance imaging.
+Φ. The authors concluded that a neural network in a critical 
+regime is a necessary condition for information integration in the 
+human brain (Kim and Lee, 2019). Also, Popiel et al. simulated an 
+Ising model on 159 randomly generated, positive weighted n = 5 
+nodes network, which was tuned to a critical point. The parameter 
+Φ was calculated as the effective information of the minimum 
+information partition. The results indicated that subcritical 
+regimes can generate high Φ values, whereby values were largest 
+near the critical point. The authors concluded that the system 
+would be most conscious, according to the definition given by the 
+3rd version of the IIT (Oizumi et al., 2014), in the critical regime 
+(Popiel et al., 2020).
+
+Walter and Hinterberger
+10.3389/fpsyg.2022.911620
+Frontiers in Psychology
+09
+frontiersin.org
+Whereas the global workspace theory and the IIT address 
+distinct aspects of consciousness, the first conscious access closely 
+related to the function of conscious awareness and the latter the 
+phenomenology of consciousness, one notable study combined 
+both in the context of criticality (Tagliazucchi, 2017). Enzo 
+Tagliazucchi constructed an anatomical connectivity network 
+inferred from diffusion tensor imaging data. Their computational 
+model represented a variant of the Greenberg–Hastings cellular 
+automaton of excitable dynamics. Hereby, each node of the 
+network can be either be in an inactive, an active or a refractory 
+state. Thus, the model only comprises two parameters, a threshold 
+T , determining the difficulty of the activity to spread and the 
+probability of transitioning from the refractory to the inactive 
+state. For a given of value of T (Tc ) the model depicts a phase 
+transition. Following the argument that Tononi et al. proposed the 
+complexity as an indirect marker of the level of consciousness, the 
+authors calculated neural complexity with the Lempel–Ziv. Also, 
+the amount of integrated information (Φ) was determined as the 
+minimum amount of information that is lost when splitting the 
+system into two-subsystems introduced by Barrett and Seth 
+(2011). Further, metastability, defined as the repertoire of 
+configurations that a system explores throughout its temporal 
+evolution was calculated by quantifying the level of global 
+cohesion of the average time series. Then, to model the effect of 
+backward masking, regions of interest chosen from 998 network 
+nodes were serially activated with different delays between the 
+activations. Here, both activations propagated at a certain Tc , 
+whereby the probability of the second activation percolating 
+through the network increased with the delay. Also, they simulated 
+competing stimuli as in the paradigm of binocular rivalry by 
+modeling the propagation threshold of each region of interest. The 
+results reveal that the stimuli did not simultaneously percolate 
+through the network, which the authors interpreted as a 
+dichotomous access to the global network. Important to note, at 
+the critical point of the model, maximal Φ and metastability was 
+observed. This findings led the authors to conclude that the two 
+influential theories GWT and IIT could be compatible and that 
+the criticality hypothesis offers a framework in which experimental 
+predications from both can coexist (Tagliazucchi, 2017).
+Thus, summarized, the formulation of a regime within the IIT 
+in which segregation and integration occur simultaneously at its 
+maximum corresponding to the conscious state goes hand in hand 
+with the critical state from a dynamical perspective (Tononi, 2004; 
+Tononi et al., 2016; Chialvo, 2018). Further, the abrupt activation 
+facilitating conscious access as described in the GWT may 
+be attributed to SOC, favoring rapid transitions between different 
+states of the system, supporting the adaptive emergence and 
+disappearance of a global workspace (Werner, 2007a, 2009; 
+Kitzbichler et al., 2011).
+The main limitation of this study is that the analysis was solely 
+based on Web of Science. Web of Science covers approximately 
+34,000 journals with over 75 million records and includes the 
+sub-databases Science Citation Index, Social Sciences Citation 
+Index, Arts and Humanities Citation Index, Conference 
+Proceedings Citation Index, Book Citation Index, and Emerging 
+Sources Citation Index (Birkle et al., 2020). Further, the Thomas 
+Scientific impact factor is based on the Web of Science database 
+(Chadegani et al., 2013). In addition, Web of Science is older than 
+the Scopus database, which has been launched by Elsevier Science 
+in 2004, and provides better graphical rankings of the citation 
+analysis and is more detailed than the citation analysis of Scopus 
+(Falagas et al., 2008). However, Web of Science queries the citation, 
+abstract, and keyword identifiers, but one has to acknowledge that 
+articles mentioning the keywords of interest in the methods sections 
+are omitted, and thus, completeness of the identified list of articles 
+on consciousness and SOC cannot be fully ensured.
+The topic is compelling as principles such as SOC describing 
+outcomes of collective phenomena in any complex dynamical 
+system, provide a model suitable to situate the phenomenon of 
+consciousness within universal laws of the physical world 
+(Fingelkurts et al., 2013). Whereas over the years some authors 
+have claimed that consciousness is entirely beyond the reach of 
+science or regard consciousness a fundamental feature in form of 
+a ubiquitous field pervading the universe (Seth, 2010; Keppler and 
+Shani, 2020), the theory offers the possibility of empirically testing 
+mathematical measures as neurophysiological indices for 
+consciousness. Thus, in conclusion, the framework of SOC as a 
+neurodynamical model of consciousness is promising synthesizing 
+the current most influencing theories in the field of consciousness 
+research. However, identified experimental work was small in 
+numbers and a heterogeneity of applied analytical tools as a 
+surrogate measure of criticality was observable, which limits the 
+generalizability of findings. Future studies will reveal whether this 
+issue and current pitfalls such as unprecise terminology, the 
+determination of a biological plausible control parameter and 
+debates on the significance of power laws can be overcome (Beggs 
+and Timme, 2012; Wilting and Priesemann, 2019; Zimmern, 2020).
+Data availability statement
+The raw data supporting the conclusions of this article will 
+be made available by the authors, without undue reservation.
+Author contributions
+NW conceptualized the study, analyzed the data, and wrote 
+the manuscript. TH supervised the project and revised the final 
+version of the manuscript. All authors discussed the results, 
+contributed to the article, and approved the submitted version.
+Conflict of interest
+The authors declare that the research was conducted in the 
+absence of any commercial or financial relationships that could 
+be construed as a potential conflict of interest.
+
+Walter and Hinterberger
+10.3389/fpsyg.2022.911620
+Frontiers in Psychology
+10
+frontiersin.org
+Publisher’s note
+All claims expressed in this article are solely those of the 
+authors and do not necessarily represent those of their affiliated 
+organizations, or those of the publisher, the editors and the 
+reviewers. Any product that may be evaluated in this article, or 
+claim that may be made by its manufacturer, is not guaranteed or 
+endorsed by the publisher.
+References
+Abeyasinghe, P. M., Aiello, M., Nichols, E. S., Cavaliere, C., Fiorenza, S., 
+Masotta, O., et al. (2020). Consciousness and the dimensionality of DOC patients 
+via the generalized Ising model. J. Clin. Med. 9:1342. doi: 10.3390/jcm9051342
+Abeyasinghe, P. M., de Paula, D. R., Khajehabdollahi, S., Valluri, S. R., 
+Owen, A. M., and Soddu, A. (2018). Role of dimensionality in predicting the 
+spontaneous behavior of the brain using the classical Ising model and the Ising 
+model implemented on a structural Connectome. Brain Connect. 8, 444–455. doi: 
+10.1089/brain.2017.0516
+Aguilera, M. (2019). Scaling behaviour and critical phase transitions in integrated 
+information theory. Entropy 21:1198. doi: 10.3390/e21121198
+Aguilera, M., Barandiaran, X. E., Bedia, M. G., and Seron, F. (2015). Self-organized 
+criticality, plasticity and sensorimotor coupling. Explorations with a neurorobotic 
+model in a behavioural preference task. PLoS One 10:e0117465. doi: 10.1371/
+journal.pone.0117465
+Allegrini, P., Paradisi, P., Menicucci, D., Laurino, M., Bedini, R., Piarulli, A., et al. 
+(2013). Sleep unconsciousness and breakdown of serial critical intermittency: new vistas 
+on the global workspace. Chaos Solit. Fractals 55, 32–43. doi: 10.1016/j.chaos.2013.05.019
+Allegrini, P., Paradisi, P., Menicucci, D., Laurino, M., Piarulli, A., and 
+Gemignani, A. (2015). Self-organized dynamical complexity in human wakefulness 
+and sleep: different critical brain-activity feedback for conscious and unconscious 
+states. Phys. Rev. E Stat. Nonlinear Soft Matter Phys. 92:32808. doi: 10.1103/
+PhysRevE.92.032808
+Alonso, L. M., Proekt, A., Schwartz, T. H., Pryor, K. O., Cecchi, G. A., and 
+Magnasco, M. O. (2014). Dynamical criticality during induction of anesthesia in 
+human ECoG recordings. Front. Neural Circuits 8:20. doi: 10.3389/fncir.2014.00020
+Avramiea, A.-E., Hardstone, R., Lueckmann, J.-M., Bím, J., Mansvelder, H. D., and 
+Linkenkaer-Hansen, K. (2020). Pre-stimulus phase and amplitude regulation of 
+phase-locked responses are maximized in the critical state. Elife 9:e53016, 
+doi:10.7554/eLife.53016. doi: 10.7554/eLife.53016
+Baars, B. J. (1993). A Cognitive Theory of Consciousness. Cambridge: Cambridge 
+University Press.
+Baars, B. J. (2002). The conscious access hypothesis: origins and recent evidence. 
+Trends Cogn. Sci. 6, 47–52. doi: 10.1016/S1364-6613(00)01819-2
+Bak, P. (1996). How Nature Works. New York, NY: Springer.
+Bak, T., and Wiesenfeld, K. (1987). Self-organized criticality: an explanation of 
+the 1/f noise. Phys. Rev. Lett. 59, 381–384. doi: 10.1103/PhysRevLett.59.381
+Barrett, A. B., and Mediano, P. A. M. (2019). The phi measure of integrated 
+information is not well-defined for general physical systems. J. Conscious. Stud. 26, 
+11–20. doi: 10.48550/arXiv.1902.04321
+Barrett, A. B., and Seth, A. K. (2011). Practical measures of integrated information for 
+time-series data. PLoS Comput. Biol. 7:e1001052. doi: 10.1371/journal.pcbi.1001052
+Beggs, J. (2007). Neuronal avalanche. Scholarpedia 2:1344. doi: 10.4249/
+scholarpedia.1344
+Beggs, J. M., and Plenz, D. (2003). Neuronal avalanches in neocortical circuits. J. 
+Neurosci. 23, 11167–11177. doi: 10.1523/JNEUROSCI.23-35-11167.2003
+Beggs, J. M., and Plenz, D. (2004). Neuronal avalanches are diverse and precise 
+activity patterns that are stable for many hours in cortical slice cultures. J. Neurosci. 
+24, 5216–5229. doi: 10.1523/JNEUROSCI.0540-04.2004
+Beggs, J. M., and Timme, N. (2012). Being critical of criticality in the brain. Front. 
+Physiol. 3:163. doi: 10.3389/fphys.2012.00163
+Bertschinger, N., and Natschläger, T. (2004). Real-time computation at the edge 
+of chaos in recurrent neural networks. Neural Comput. 16, 1413–1436. doi: 
+10.1162/089976604323057443
+Birkle, C., Pendlebury, D. A., Schnell, J., and Adams, J. (2020). Web of science as 
+a data source for research on scientific and scholarly activity. Quant. Sci. Stud. 1, 
+363–376. doi: 10.1162/qss_a_00018
+Blain-Moraes, S., Tarnal, V., Vanini, G., Alexander, A., Rosen, D., Shortal, B., et al. 
+(2015). Neurophysiological correlates of Sevoflurane-induced unconsciousness. 
+Anesthesiology 122, 307–316. doi: 10.1097/ALN.0000000000000482
+Calderon, D. P., Kilinc, M., Maritan, A., Banavar, J. R., and Pfaff, D. (2016). 
+Generalized CNS arousal: An elementary force within the vertebrate nervous 
+system. Neurosci. Biobehav. Rev. 68, 167–176. doi: 10.1016/j.neubiorev.2016.05.014
+Carhart-Harris, R. L. (2018). The entropic brain—revisited. Neuropharmacology 
+142, 167–178. doi: 10.1016/j.neuropharm.2018.03.010
+Carhart-Harris, R. L., Leech, R., Hellyer, P. J., Shanahan, M., Feilding, A., 
+Tagliazucchi, E., et al. (2014). The entropic brain: a theory of conscious states 
+informed by neuroimaging research with psychedelic drugs. Front. Hum. Neurosci. 
+8:20. doi: 10.3389/fnhum.2014.00020
+Cerullo, M. A. (2015). The problem with phi: A critique of integrated information 
+theory. PLoS Comput. Biol. 11:e1004286. doi: 10.1371/journal.pcbi.1004286
+Chadegani, A. A., Salehi, H., Yunus, M. M., Farhadi, H., Fooladi, M., Farhadi, M., 
+et al. (2013). A comparison between two Main academic literature collections: web 
+of science and Scopus databases. Asian Soc. Sci. 9, 18–26. doi: 10.5539/ass.v9n5p18
+Chialvo, D. R. (2007). “The brain near the edge,” in Cooperative Behavior in Neural 
+Systems: Ninth Granada Lectures. eds. J. Marro, P. L. Garrido and J. J. Torres 
+(Maryland: American Institute of Physics).
+Chialvo, D. R. (2018). Life at the edge: complexity and criticality in biological 
+function. Acta Phys. Pol. B 49:1955. doi: 10.5506/APhysPolB.49.1955
+Cocchi, L., Gollo, L. L., Zalesky, A., and Breakspear, M. (2017). Criticality in the 
+brain: A synthesis of neurobiology, models and cognition. Prog. Neurobiol. 158, 
+132–152. doi: 10.1016/j.pneurobio.2017.07.002
+Colombo, M. A., Napolitani, M., Boly, M., Gosseries, O., Casarotto, S., 
+Rosanova, M., et al. (2019). The spectral exponent of the resting EEG indexes the 
+presence of consciousness during unresponsiveness induced by propofol, xenon, 
+and ketamine. NeuroImage 189, 631–644. doi: 10.1016/j.neuroimage.2019.01.024
+Colombo, M. A., Wei, Y., Ramautar, J. R., Linkenkaer-Hansen, K., Tagliazucchi, E., 
+and van Someren, E. J. W. (2016). More severe insomnia complaints in people with 
+stronger long-range temporal correlations in wake resting-state EEG. Front. Physiol. 
+7, 576. doi: 10.3389/fphys.2016.00576
+Cosmelli, D., Lachaux, J.-P., and Thompson, E. (2007). “Neurodynamical 
+approaches to consciousness,” in The Cambridge Handbook of Consciousness. eds. P. 
+D. Zelazo, M. Moscovitch and E. Thompson (Cambridge: Cambridge University 
+Press), 731–772.
+Crutchfield, J. P., and Young, K. (1990). Computation at the Onset of Chaos, 
+Complexity, Entropy, and Physics of Information. New Jersey: Addison Wesley.
+Dehaene, S. (2001). Towards a cognitive neuroscience of consciousness: basic 
+evidence and a workspace framework. Cognition 79, 1–37. doi: 10.1016/
+s0010-0277(00)00123-2
+Dehaene, S., and Changeux, J.-P. (2005). Ongoing spontaneous activity controls 
+access to consciousness: a neuronal model for inattentional blindness. PLoS Biol. 
+3:e141. doi: 10.1371/journal.pbio.0030141
+Dehaene, S., and Changeux, J.-P. (2011). Experimental and theoretical approaches 
+to conscious processing. Neuron 70, 200–227. doi: 10.1016/j.neuron.2011.03.018
+Del Papa, B., Priesemann, V., and Triesch, J. (2017). Criticality meets learning: 
+criticality signatures in a self-organizing recurrent neural network. PLoS One 
+12:e0178683. doi: 10.1371/journal.pone.0178683
+Destexhe, A., and Touboul, J. D. (2021). Is there sufficient evidence for criticality 
+in 
+cortical 
+systems? 
+eNeuro 
+8:ENEURO.0551-20.2021. 
+doi: 
+10.1523/
+ENEURO.0551-20.2021
+Duncan, N. W., Hsu, T.-Y., Cheng, P. Z., Wang, H.-Y., Lee, H.-C., and Lane, T. J. (2020). 
+Intrinsic activity temporal structure reactivity to behavioural state change is correlated 
+with depressive symptoms. Eur. J. Neurosci. 52, 4840–4850. doi: 10.1111/ejn.14858
+Dürschmid, S., Reichert, C., Walter, N., Hinrichs, H., Heinze, H.-J., Ohl, F. W., 
+et al. (2020). Self-regulated critical brain dynamics originate from high frequency-
+band activity in the MEG. PLoS One 15:e0233589. doi: 10.1371/journal.
+pone.0233589
+Edelman, G. M., and Tononi, G. (2001). A Universe of Consciousness: How Matter 
+Becomes Imagination. New York, NY: Basic Books.
+Eurich, C. W., Herrmann, J. M., and Ernst, U. A. (2002). Finite-size effects of 
+avalanche dynamics. Phys. Rev. E Stat. Nonlinear Soft Matter Phys. 66, 66137. doi: 
+10.1103/PhysRevE.66.066137
+Fagerholm, E. D., Scott, G., Shew, W. L., Song, C., Leech, R., Knöpfel, T., et al. 
+(2016). Cortical entropy, mutual information and scale-free dynamics in waking 
+mice. Cereb. Cortex 26, 3945–3952. doi: 10.1093/cercor/bhw200
+
+Walter and Hinterberger
+10.3389/fpsyg.2022.911620
+Frontiers in Psychology
+11
+frontiersin.org
+Fakhraei, L., Gautam, S. H., and Shew, W. L. (2017). State-dependent intrinsic 
+predictability of cortical network dynamics. PLoS One 12:e0173658. doi: 10.1371/
+journal.pone.0173658
+Falagas, M. E., Pitsouni, E. I., Malietzis, G. A., and Pappas, G. (2008). Comparison 
+of PubMed, Scopus, web of science, and Google scholar: strengths and weaknesses. 
+FASEB J. 22, 338–342. doi: 10.1096/fj.07-9492LSF
+Faqeeh, A., Osat, S., Radicchi, F., and Gleeson, J. P. (2019). Emergence of power 
+laws in noncritical neuronal systems. Phys. Rev. E 100:10401. doi: 10.1103/
+PhysRevE.100.010401
+Fekete, T., Hinrichs, H., Sitt, J. D., Heinze, H.-J., and Shriki, O. (2021). Multiscale 
+criticality measures as general-purpose gauges of proper brain function. Sci. Rep. 
+11:14441. doi: 10.1038/s41598-021-93880-8
+Fekete, T., Omer, D. B., O'Hashi, K., Grinvald, A., van Leeuwen, C., and Shriki, O. 
+(2018). Critical dynamics, anesthesia and information integration: lessons from 
+multi-scale criticality analysis of voltage imaging data. NeuroImage 183, 919–933. 
+doi: 10.1016/j.neuroimage.2018.08.026
+Fingelkurts, A. A., Fingelkurts, A. A., and Neves, C. F. (2013). Consciousness as a 
+phenomenon in the operational architectonics of brain organization: criticality and 
+self-organization considerations. Chaos Solit. Fractals 55, 13–31. doi: 10.1016/j.
+chaos.2013.02.007
+Freeman, W. J. (2007). Indirect biological measures of consciousness from field 
+studies of brains as dynamical systems. Neural Netw. 20, 1021–1031. doi: 10.1016/j.
+neunet.2007.09.004
+Friedman, E. J., and Landsberg, A. S. (2013). Hierarchical networks, power laws, 
+and neuronal avalanches. Chaos 23, 013135. doi: 10.1063/1.4793782
+Gautam, S. H., Hoang, T. T., McClanahan, K., Grady, S. K., and Shew, W. L. (2015). 
+Maximizing sensory dynamic range by tuning the cortical state to criticality. PLoS 
+Comput. Biol. 11:e1004576. doi: 10.1371/journal.pcbi.1004576
+Gisiger, T. (2001). Scale invariance in biology: coincidence or footprint of a 
+universal mechanism? Biol. Rev. Camb. Philos. Soc. 76, 161–209. doi: 10.1017/
+s1464793101005607
+Hahn, G., Petermann, T., Havenith, M. N., Yu, S., Singer, W., Plenz, D., et al. 
+(2010). Neuronal avalanches in spontaneous activity in vivo. J. Neurophysiol. 104, 
+3312–3322. doi: 10.1152/jn.00953.2009
+Haken, H. (2007). Synergetics. Scholarpedia 2, 1400. doi: 10.4249/scholarpedia.1400
+Haken, H., Kelso, J. A., and Bunz, H. (1985). A theoretical model of phase 
+transitions in human hand movements. Biol. Cybern. 51, 347–356. doi: 10.1007/
+BF00336922
+Haldeman, C., and Beggs, J. M. (2005). Critical branching captures activity in 
+living neural networks and maximizes the number of metastable states. Phys. Rev. 
+Lett. 94, 58101. doi: 10.1103/PhysRevLett.94.058101
+Harris, T. E. (2002). The Theory of Branching Processes. Mineola: Dover Publications.
+Heiney, K., Huse Ramstad, O., Fiskum, V., Christiansen, N., Sandvig, A., 
+Nichele, S., et al. (2021). Criticality, connectivity, and neural disorder: a multifaceted 
+approach to neural computation. Front. Comput. Neurosci. 15:611183. doi: 10.3389/
+fncom.2021.611183
+Hesse, J., and Gross, T. (2014). Self-organized criticality as a fundamental property 
+of neural systems. Front. Syst. Neurosci. 8, 166. doi: 10.3389/fnsys.2014.00166
+Hopfield, J. J. (1982). Neural networks and physical systems with emergent 
+collective computational abilities. Proc. Natl. Acad. Sci. U. S. A. 79, 2554–2558. doi: 
+10.1073/pnas.79.8.2554
+Hudetz, A. G., Vizuete, J. A., Pillay, S., and Mashour, G. A. (2016). Repertoire of 
+mesoscopic cortical activity is not reduced during anesthesia. Neuroscience 339, 
+402–417. doi: 10.1016/j.neuroscience.2016.10.023
+Huels, E. R., Kim, H., Lee, U., Bel-Bahar, T., Colmenero, A. V., Nelson, A., et al. 
+(2021). Neural correlates of the shamanic state of consciousness. Front. Hum. 
+Neurosci. 15:610466. doi: 10.3389/fnhum.2021.610466
+Irrmischer, M., Houtman, S. J., Mansvelder, H. D., Tremmel, M., Ott, U., and 
+Linkenkaer-Hansen, K. (2018). Controlling the temporal structure of brain 
+oscillations by focused attention meditation. Hum. Brain Mapp. 39, 1825–1838. doi: 
+10.1002/hbm.23971
+James, W. (1950). The Principles of Psychology. New York, NY: Dover-Publication.
+Jedlicka, P. (2017). Revisiting the quantum brain hypothesis: Toward quantum 
+(Neuro)biology? Front. Mol. Neurosci. 10, 366. doi: 10.3389/fnmol.2017.00366
+Kang, J., Pae, C., and Park, H.-J. (2017). Energy landscape analysis of the 
+subcortical brain network unravels system properties beneath resting state 
+dynamics. NeuroImage 149, 153–164. doi: 10.1016/j.neuroimage.2017.01.075
+Kauffman, S. A. (1993). The Origins of Order: Self-Organization and Selection in 
+Evolution. New York, NY: Oxford University Press.
+Kello, C. T., Brown, G. D. A., Ferrer-I-Cancho, R., Holden, J. G., 
+Linkenkaer-Hansen, K., Rhodes, T., et al. (2010). Scaling laws in cognitive sciences. 
+Trends Cogn. Sci. 14, 223–232. doi: 10.1016/j.tics.2010.02.005
+Kelso, J. A. S. (2012). Multistability and metastability: understanding dynamic 
+coordination in the brain. Phil. Trans. Royal Soc. London Ser. B Biol. Sci. 367, 
+906–918. doi: 10.1098/rstb.2011.0351
+Keppler, J., and Shani, I. (2020). Cosmopsychism and consciousness research: a 
+fresh view on the causal mechanisms underlying phenomenal states. Front. Psychol. 
+11:371. doi: 10.3389/fpsyg.2020.00371
+Keshmiri, S. (2020). Comparative analysis of the permutation and multiscale 
+entropies for quantification of the brain signal variability in naturalistic scenarios. 
+Brain Sci. 10:527. doi: 10.3390/brainsci10080527
+Kim, M., Kim, H., Huang, Z., Mashour, G., Jordan, D., Ilg, R., et al. (2021). 
+Criticality creates a functional platform for network transitions Between internal 
+and external processing modes in the human brain. Front. Syst. Neurosci. 15:657809. 
+doi: 10.3389/fnsys.2021.657809
+Kim, H., and Lee, U. (2019). Criticality as a determinant of integrated information 
+Φ in human brain networks. Entropy 21, 981. doi: 10.3390/e21100981
+Kim, M., and Lee, U. (2020). Alpha oscillation, criticality, and responsiveness in 
+complex brain networks. Network Neurosci. 4, 155–173. doi: 10.1162/
+netn_a_00113
+Kim, H., McKinney, A., Brooks, J., Mashour, G., Lee, U., and Vlisides, P. (2021). 
+Delirium, caffeine, and perioperative cortical dynamics. Front. Hum. Neurosci. 
+15:744054. doi: 10.3389/fnhum.2021.744054
+Kinouchi, O., and Copelli, M. (2006). Optimal dynamical range of excitable 
+networks at criticality. Nature Phys. 2, 348–351. doi: 10.1038/nphys289
+Kitazono, J., Kanai, R., and Oizumi, M. (2018). Efficient algorithms for searching 
+the minimum information partition in integrated information theory. Entropy 
+20:173. doi: 10.3390/e20030173
+Kitzbichler, M. G., Henson, R. N. A., Smith, M. L., Nathan, P. J., and 
+Bullmore, E. T. (2011). Cognitive effort drives workspace configuration of human 
+brain functional networks. J. Neurosci. 31, 8259–8270. doi: 10.1523/JNEUROSCI.
+0440-11.2011
+Klaus, A., Yu, S., and Plenz, D. (2011). Statistical analyses support power law 
+distributions found in neuronal avalanches. PLoS One 6:e19779. doi: 10.1371/
+journal.pone.0019779
+Kleiner, J., and Hoel, E. (2021). Falsification and consciousness. Neurosci. 
+Conscious. 2021:niab001. doi: 10.1093/nc/niab001
+Kleiner, J., and Tull, S. (2021). The mathematical structure of integrated information 
+theory. Front. Appl. Math. Stat. 6:602973. doi: 10.3389/fams.2020.602973
+Kozma, R., and Puljic, M. (2015). Random graph theory and neuropercolation for 
+modeling brain oscillations at criticality. Curr. Opin. Neurobiol. 31, 181–188. doi: 
+10.1016/j.conb.2014.11.005
+Krzemiński, D., Kamiński, M., Marchewka, A., and Bola, M. (2017). Breakdown 
+of long-range temporal correlations in brain oscillations during general anesthesia. 
+NeuroImage 159, 146–158. doi: 10.1016/j.neuroimage.2017.07.047
+Larremore, D. B., Shew, W. L., and Restrepo, J. G. (2011). Predicting criticality and 
+dynamic range in complex networks: effects of topology. Phys. Rev. Lett. 106:58101. 
+doi: 10.1103/PhysRevLett.106.058101
+Lee, H., Golkowski, D., Jordan, D., Berger, S., Ilg, R., Lee, J., et al. (2019). 
+Relationship of critical dynamics, functional connectivity, and states of 
+consciousness in large-scale human brain networks. NeuroImage 188, 228–238. doi: 
+10.1016/j.neuroimage.2018.12.011
+Lee, U., and Mashour, G. A. (2018). Role of network science in the study of 
+anesthetic state transitions. Anesthesiology 129, 1029–1044. doi: 10.1097/
+ALN.0000000000002228
+Linkenkaer-Hansen, K., Nikouline, V. V., Palva, J. M., and Ilmoniemi, R. J. (2001). 
+Long-range temporal correlations and scaling behavior in human brain oscillations. 
+J. Neurosci. 21, 1370–1377. doi: 10.1523/JNEUROSCI.21-04-01370.2001
+Liu, X., Ward, B. D., Binder, J. R., Li, S.-J., and Hudetz, A. G. (2014). Scale-free 
+functional connectivity of the brain is maintained in anesthetized healthy 
+participants but not in patients with unresponsive wakefulness syndrome. PLoS One 
+9:e92182. doi: 10.1371/journal.pone.0092182
+Marshall, N., Timme, N. M., Bennett, N., Ripp, M., Lautzenhiser, E., and 
+Beggs, J. M. (2016). Analysis of power Laws, shape collapses, and neural complexity: 
+new techniques and MATLAB support via the NCC toolbox. Front. Physiol. 7:250. 
+doi: 10.3389/fphys.2016.00250
+Martinello, M., Hidalgo, J., Maritan, A., Di Santo, S., Plenz, D., and Muñoz, M. A. 
+(2017). Neutral theory and scale-free neural dynamics. Phys. Rev. X 7:041071. doi: 
+10.1103/PhysRevX.7.041071
+Mashour, G. A., Roelfsema, P., Changeux, J.-P., and Dehaene, S. (2020). Conscious 
+processing and the global neuronal workspace hypothesis. Neuron 105, 776–798. 
+doi: 10.1016/j.neuron.2020.01.026
+Massobrio, P., Arcangelis, L. d., Pasquale, V., Jensen, H. J., and Plenz, D. (2015a). 
+Criticality as a signature of healthy neural systems. Front. Syst. Neurosci. 9:22. doi: 
+10.3389/fnsys.2015.00022
+
+Walter and Hinterberger
+10.3389/fpsyg.2022.911620
+Frontiers in Psychology
+12
+frontiersin.org
+Massobrio, P., Pasquale, V., and Martinoia, S. (2015b). Self-organized criticality in 
+cortical assemblies occurs in concurrent scale-free and small-world networks. Sci. 
+Rep. 5, 10578. doi: 10.1038/srep10578
+Melloni, L., Mudrik, L., Pitts, M., and Koch, C. (2021). Making the hard problem 
+of consciousness easier. Science 372, 911–912. doi: 10.1126/science.abj3259
+Michel, M., Fleming, S. M., Lau, H., Lee, A. L. F., Martinez-Conde, S., 
+Passingham, R. E., et al. (2018). An informal internet survey on the current state of 
+consciousness science. Front. Psychol. 9:2134. doi: 10.3389/fpsyg.2018.02134
+Mitzenmacher, M. (2004). A brief history of generative models for power 
+law and lognormal distributions. Internet Math. 1, 226–251. doi: 10.1080/
+15427951.2004.10129088
+Muñoz, M. A. (2018). Colloquium: criticality and dynamical scaling in living 
+systems. Rev. Mod. Phys. 90:031001. doi: 10.1103/RevModPhys.90.031001
+Niikawa, T. (2020). A map of consciousness studies: questions and approaches. 
+Front. Psychol. 11:530152. doi: 10.3389/fpsyg.2020.530152
+Oizumi, M., Albantakis, L., and Tononi, G. (2014). From the phenomenology to 
+the mechanisms of consciousness: integrated information theory 3.0. PLoS Comput. 
+Biol. 10:e1003588. doi: 10.1371/journal.pcbi.1003588
+Packard, N. H. (1988). “Adaptation towards the edge of chaos,” in Dynamic 
+Patterns in Complex Systems. eds. J. A. S. Kelso, A. J. Mandell and M. F. Shlesinger 
+(Singapore: World Scientific), 293–301.
+Papo, D. (2016). Commentary: The entropic brain: a theory of conscious states 
+informed by neuroimaging research with psychedelic drugs. Front. Hum. Neurosci. 
+10, 423. doi: 10.3389/fnhum.2016.00423
+Petermann, T., Thiagarajan, T. C., Lebedev, M. A., Nicolelis, M. A. L., 
+Chialvo, D. R., and Plenz, D. (2009). Spontaneous cortical activity in awake monkeys 
+composed of neuronal avalanches. Proc. Natl. Acad. Sci. U. S. A. 106, 15921–15926. 
+doi: 10.1073/pnas.0904089106
+Plenz, D. (2014). “Criticality in cortex: neuronal avalanches and coherence 
+potentials” in Criticality in Neural Systems. eds. D. Plenz and E. Niebur (Weinheim: 
+Wiley-VCH Verlag GmbH & Co. KGaA), 5–42.
+Podobnik, B., Jusup, M., Tiganj, Z., Wang, W.-X., Buldú, J. M., and Stanley, H. E. 
+(2017). Biological conservation law as an emerging functionality in dynamical 
+neuronal networks. Proc. Natl. Acad. Sci. U. S. A. 114, 11826–11831. doi: 10.1073/
+pnas.1705704114
+Poil, S.-S., Hardstone, R., Mansvelder, H. D., and Linkenkaer-Hansen, K. (2012). 
+Critical-state dynamics of avalanches and oscillations jointly emerge from balanced 
+excitation/inhibition in neuronal networks. J. Neurosci. 32, 9817–9823. doi: 10.1523/
+JNEUROSCI.5990-11.2012
+Popiel, N. J. M., Khajehabdollahi, S., Abeyasinghe, P. M., Riganello, F., Nichols, E. S., 
+Owen, A. M., et al. (2020). The emergence of integrated information, complexity, and 
+'Consciousness' at criticality. Entropy 22:339. doi: 10.3390/e22030339
+Priesemann, V., Valderrama, M., Wibral, M., and van Quyen, M. (2013). Neuronal 
+avalanches differ from wakefulness to deep sleep--evidence from intracranial depth 
+recordings in humans. PLoS Comput. Biol. 9:e1002985. doi: 10.1371/journal.
+pcbi.1002985
+Reed, W. J., and Hughes, B. D. (2002). From gene families and genera to incomes 
+and internet file sizes: why power laws are so common in nature. Phys. Rev. E Stat. 
+Nonlinear Soft Matter Phys. 66:67103. doi: 10.1103/PhysRevE.66.067103
+Ribeiro, T. L., Copelli, M., Caixeta, F., Belchior, H., Chialvo, D. R., Nicolelis, M. A. 
+L., et al. (2010). Spike avalanches exhibit universal dynamics across the sleep-wake 
+cycle. PLoS One 5:e14129. doi: 10.1371/journal.pone.0014129
+Roli, A., Villani, M., Filisetti, A., and Serra, R. (2018). Dynamical criticality: overview 
+and open questions. J. Syst. Sci. Complex. 31, 647–663. doi: 10.1007/s11424-017-6117-5
+Seth, A. K. (2010). The grand challenge of consciousness. Front. Psychol. 1:5. doi: 
+10.3389/fpsyg.2010.00005
+Seth, A. K., Izhikevich, E., Reeke, G. N., and Edelman, G. M. (2006). Theories and 
+measures of consciousness: an extended framework. Proc. Natl. Acad. Sci. U. S. A. 
+103, 10799–10804. doi: 10.1073/pnas.0604347103
+Shew, W. L., and Plenz, D. (2013). The functional benefits of criticality in the 
+cortex. Neuroscientist 19, 88–100. doi: 10.1177/1073858412445487
+Shew, W. L., Yang, H., Petermann, T., Roy, R., and Plenz, D. (2009). Neuronal 
+avalanches imply maximum dynamic range in cortical networks at criticality. J. 
+Neurosci. 29, 15595–15600. doi: 10.1523/JNEUROSCI.3864-09.2009
+Shew, W. L., Yang, H., Yu, S., Roy, R., and Plenz, D. (2011). Information capacity 
+and transmission are maximized in balanced cortical networks with neuronal 
+avalanches. J. Neurosci. 31, 55–63. doi: 10.1523/JNEUROSCI.4637-10.2011
+Shriki, O., Alstott, J., Carver, F., Holroyd, T., Henson, R. N. A., Smith, M. L., et al. 
+(2013). Neuronal avalanches in the resting MEG of the human brain. J. Neurosci. 33, 
+7079–7090. doi: 10.1523/JNEUROSCI.4286-12.2013
+Signorelli, C. M., Szczotka, J., and Prentner, R. (2021). Explanatory profiles of 
+models of consciousness—towards a systematic classification. Neurosci. Conscious. 
+2021:2021. doi: 10.1093/nc/niab021
+Solovey, G., Alonso, L. M., Yanagawa, T., Fujii, N., Magnasco, M. O., Cecchi, G. A., 
+et al. (2015). Loss of consciousness is associated with stabilization of cortical activity. 
+J. Neurosci. 35, 10866–10877. doi: 10.1523/JNEUROSCI.4895-14.2015
+Sporns, O., Tononi, G., and Edelman, G. (2000). Connectivity and complexity: the 
+relationship between neuroanatomy and brain dynamics. Neural Netw. 13, 909–922. 
+doi: 10.1016/s0893-6080(00)00053-8
+Stramaglia, S., Pellicoro, M., Angelini, L., Amico, E., Aerts, H., Cortés, J. M., et al. 
+(2017). Ising model with conserved magnetization on the human connectome: 
+implications on the relation structure-function in wakefulness and anesthesia. Chaos 
+27:047407. doi: 10.1063/1.4978999
+Tagliazucchi, E. (2017). The signatures of conscious access and its phenomenology 
+are consistent with large-scale brain communication at criticality. Conscious. Cogn. 
+55, 136–147. doi: 10.1016/j.concog.2017.08.008
+Tagliazucchi, E., Balenzuela, P., Fraiman, D., and Chialvo, D. R. (2012). Criticality 
+in large-scale brain FMRI dynamics unveiled by a novel point process analysis. 
+Front. Physiol. 3:15. doi: 10.3389/fphys.2012.00015
+Tagliazucchi, E., Carhart-Harris, R., Leech, R., Nutt, D., and Chialvo, D. R. (2014). 
+Enhanced repertoire of brain dynamical states during the psychedelic experience. 
+Hum. Brain Mapp. 35:5442–5456. doi: 10.1002/hbm.22562
+Tagliazucchi, E., Chialvo, D. R., Siniatchkin, M., Amico, E., Brichant, J.-F., 
+Bonhomme, V., et al. (2016). Large-scale signatures of unconsciousness are 
+consistent with a departure from critical dynamics. J. R. Soc. Interface 13, 20151027. 
+doi: 10.1098/rsif.2015.1027
+Tagliazucchi, E., Wegner, F. von, Morzelewski, A., Brodbeck, V., Jahnke, K., and 
+Laufs, H. (2013). Breakdown of long-range temporal dependence in default mode 
+and attention networks during deep sleep. Proc. Natl. Acad. Sci. U. S. A. 110, 15419–
+15424, doi: 10.1073/pnas.1312848110
+Tegmark, M. (2015). Consciousness as a state of matter. Chaos Solit. Fractals 76, 
+238–270. doi: 10.1016/j.chaos.2015.03.014
+Tononi, G. (2004). An information integration theory of consciousness. BMC 
+Neurosci. 5:42. doi: 10.1186/1471-2202-5-42
+Tononi, G. (2015). Integrated information theory. Scholarpedia 10:4164. doi: 
+10.4249/scholarpedia.4164
+Tononi, G., Boly, M., Massimini, M., and Koch, C. (2016). Integrated information 
+theory: from consciousness to its physical substrate. Nat. Rev. Neurosci. 17, 450–461. 
+doi: 10.1038/nrn.2016.44
+Tononi, G., and Edelman, G. M. (1998). Consciousness and complexity. Science 
+282, 1846–1851. doi: 10.1126/science.282.5395.1846
+Tononi, G., and Koch, C. (2015). Consciousness: here, there and everywhere? 
+Phil. Trans. Royal Soc. London Ser. B. Biol. Sci. 370:20140167. doi: 10.1098/
+rstb.2014.0167
+Touboul, J., and Destexhe, A. (2017). Power-law statistics and universal scaling 
+in the absence of criticality. Phys. Rev. E 95, 12413. doi: 10.1103/PhysRevE.
+95.012413
+Turing, A. M. (1950). I.—computing machinery and intelligence. Mind LIX LIX, 
+433–460. doi: 10.1093/mind/LIX.236.433
+Varley, T. F., Carhart-Harris, R., Roseman, L., Menon, D. K., and Stamatakis, E. A. 
+(2020a). Serotonergic psychedelics LSD & psilocybin increase the fractal dimension 
+of cortical brain activity in spatial and temporal domains. NeuroImage 220:117049. 
+doi: 10.1016/j.neuroimage.2020.117049
+Varley, T. F., Sporns, O., Puce, A., and Beggs, J. (2020b). Differential effects of 
+propofol and ketamine on critical brain dynamics. PLoS Comput. Biol. 16:e1008418. 
+doi: 10.1371/journal.pcbi.1008418
+Werner, G. (2007a). Brain dynamics across levels of organization. J. Physiol. Paris 
+101, 273–279. doi: 10.1016/j.jphysparis.2007.12.001
+Werner, G. (2007b). Metastability, criticality and phase transitions in brain and its 
+models. Bio Syst. 90, 496–508. doi: 10.1016/j.biosystems.2006.12.001
+Werner, G. (2009). Consciousness related neural events viewed as brain state space 
+transitions. Cogn. Neurodyn. 3, 83–95. doi: 10.1007/s11571-008-9040-6
+Werner, G. (2013). Consciousness viewed in the framework of brain phase space 
+dynamics, criticality, and the renormalization group. Chaos, Solitons Fractals 55, 
+3–12. doi: 10.1016/j.chaos.2012.03.014
+Wilting, J., and Priesemann, V. (2019). 25 years of criticality in neuroscience—
+established results, open controversies, novel concepts. Curr. Opin. Neurobiol. 58, 
+105–111. doi: 10.1016/j.conb.2019.08.002
+Yeung, A. W. K., Cushing, C. A., and Lee, A. L. F. (2022). A bibliometric evaluation 
+of the impact of theories of consciousness in academia and on social media. 
+Conscious. Cogn. 100:103296. doi: 10.1016/j.concog.2022.103296
+Zare, M., and Grigolini, P. (2013). Criticality and avalanches in neural networks. 
+Chaos Solit. Fract. 55, 80–94. doi: 10.1016/j.chaos.2013.05.009
+Zimmern, V. (2020). Why brain criticality is clinically relevant: a scoping review. 
+Front. Neural Circuits 14:54. doi: 10.3389/fncir.2020.00054

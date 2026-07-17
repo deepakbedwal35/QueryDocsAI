@@ -1,0 +1,441 @@
+Dual Architecture of Consciousness Transitions: Evidence from Sleep EEG 
+Analysis 
+Emma Dobbin 
+Consciousness Gradient Theory Group Ltd, United Kingdom 
+Abstract 
+The neural mechanisms underlying consciousness transitions have remained contentious, with 
+Integrated Information Theory (IIT) predicting gradual changes and Global Workspace Theory 
+(GWT) predicting discrete threshold events. Using an adaptive consciousness measurement 
+framework applied to 622 sleep stage transitions across 12 subjects from the Sleep-EDF 
+database, we demonstrate that both theories are correct within distinct transition types. Our 
+Consciousness Gradient Index (CGI) framework reveals that three of four transition types 
+(75%: Wake→N1, N2→N3, REM→Wake) follow gradual dynamics consistent with IIT 
+predictions (mean slopes: -0.736, -0.532, +0.614), while one transition type (25%: N1→N2) 
+exhibits threshold behavior via thalamic spindle gating mechanisms (mean slope: -2.188). The 
+N1→N2 transition showed significantly steeper CGI decline compared to Wake→N1 (paired 
+t-test: t=-9.334, p<0.001, Cohen's d=-2.814) and N2→N3 (t=-6.341, p<0.001, d=-1.912), 
+supporting a dual architecture model where consciousness transitions employ both continuous 
+integration mechanisms and discrete neural gates. These findings reconcile competing 
+theoretical frameworks and establish a unified model for understanding consciousness state 
+changes across biological systems. 
+Keywords: consciousness measurement, sleep stages, EEG analysis, EEG complexity, sleep 
+onset, spindle gating, threshold gating, Integrated Information Theory, Global Workspace 
+Theory, dual architecture 
+Introduction 
+The measurement and understanding of consciousness state changes represents a fundamental 
+challenge in neuroscience and philosophy of mind. Two major theoretical frameworks have 
+dominated recent discourse: Integrated Information Theory (IIT), which predicts gradual 
+consciousness changes through continuous information integration (Tononi et al., 2016), and 
+Global Workspace Theory (GWT), which proposes discrete broadcasting events and threshold 
+mechanisms (Dehaene & Changeux, 2011). These frameworks have been treated as competing 
+explanations, yet empirical evidence supporting each perspective has remained inconclusive. 
+Sleep provides an ideal natural laboratory for investigating consciousness transitions, as 
+individuals cycle predictably through distinct states with well-characterized neural signatures. 
+Traditional approaches to measuring consciousness during sleep have relied on subjective self-
+reports or binary state classifications (awake vs. asleep), which fail to capture the continuous 
+nature of consciousness gradients. More recent quantitative approaches have attempted to 
+measure consciousness using complexity metrics (Casali et al., 2013) or connectivity measures 
+(Tagliazucchi et al., 2016), but these methods have not systematically evaluated whether 
+different transitions follow distinct mechanistic patterns. 
+We developed the Consciousness Gradient Index (CGI), an adaptive measurement framework 
+that employs state-specific neural metrics to quantify consciousness level changes during sleep 
+transitions. The formula CGI = √(φ × ρ) × 10 combines information integration (φ) with 
+adaptive response capacity (ρ), where φ is calculated using transition-appropriate neural 
+features: alpha power (8-13 Hz) for arousal transitions, inverted spindle density (11-16 Hz) for 
+the N1→N2 threshold, and spectral entropy for deep sleep transitions. This adaptive approach 
+.
+CC-BY 4.0 International license
+perpetuity. It is made available under a 
+preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in 
+The copyright holder for this
+this version posted November 11, 2025. 
+; 
+https://doi.org/10.1101/2025.11.10.687628
+doi: 
+bioRxiv preprint 
+
+allows the framework to capture both gradual and discrete consciousness changes using the 
+same mathematical structure. 
+Here we report the results of applying this framework to 622 sleep stage transitions from 12 
+healthy adults, revealing a dual architecture where distinct neural mechanisms govern different 
+transition types. We demonstrate that the apparent conflict between IIT and GWT reflects their 
+application to different classes of consciousness transitions, and propose a unified model 
+reconciling these theoretical perspectives. 
+Methods 
+Participants and Data 
+We analyzed polysomnographic recordings from 12 healthy adults (6 male, 6 female, age 
+range: 25-35 years, mean age: 29.3 ± 3.2 years) from the Sleep-EDF Database Expanded 
+(Kemp et al., 2000). The database contains whole-night recordings with sampling frequency of 
+100 Hz. All recordings were obtained from participants with no reported sleep disorders, 
+neurological conditions, or psychoactive medication use. Ethical approval for the original study 
+was obtained by the data providers, and the database is publicly available for research purposes. 
+EEG Recording and Preprocessing 
+Two EEG channels (Fpz-Cz and Pz-Oz) were used for all analyses to ensure signal specificity 
+to cortical activity and minimize contamination from respiratory or muscular artifacts. Raw 
+EEG signals were bandpass filtered (0.5-30 Hz) using a zero-phase Butterworth filter to remove 
+drift and high-frequency noise. Sleep stages were scored in 30-second epochs according to 
+Rechtschaffen and Kales criteria (Rechtschaffen & Kales, 1968), which maps equivalently to 
+AASM N1-N3 stages for the purposes of this analysis. Sleep scoring was performed by 
+certified sleep technicians. Hypnograms were provided with the database and used to identify 
+state transitions. 
+Transition Detection and Analysis 
+We focused on four key transition types representing different consciousness change 
+mechanisms: Wake→N1 (sleep onset), N1→N2 (spindle emergence), N2→N3 (deep sleep 
+entry), and REM→Wake (awakening). For each detected transition, we extracted EEG data 
+from 150 seconds before to 150 seconds after the transition point (total window: 300 seconds). 
+CGI values were calculated in 30-second sliding epochs with 15-second overlap, yielding 19 
+CGI measurements per transition. Linear slopes were fit to CGI values across time using 
+ordinary least squares regression to quantify the rate of consciousness change. 
+Adaptive CGI Calculation 
+The core formula CGI = √(φ × ρ) × 10 was applied to all transitions, with ρ fixed at 1.0 for 
+EEG analysis. The critical innovation lies in the adaptive calculation of φ (information 
+integration) based on transition-specific neural mechanisms: 
+• 
+Wake→N1 and REM→Wake transitions: φ calculated from alpha power (8-13 Hz), 
+reflecting arousal gradient mechanisms. Power spectral density was computed using 
+Welch's method with 2-second windows and 50% overlap. 
+• 
+N1→N2 transition: φ calculated from inverted spindle density (11-16 Hz), reflecting 
+threshold gating mechanisms. Spindles were detected using RMS power exceeding 
+mean + 2 standard deviations with duration criteria of 0.5-2 seconds. The inversion (φ 
+.
+CC-BY 4.0 International license
+perpetuity. It is made available under a 
+preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in 
+The copyright holder for this
+this version posted November 11, 2025. 
+; 
+https://doi.org/10.1101/2025.11.10.687628
+doi: 
+bioRxiv preprint 
+
+= 1 - normalized_spindle_density) captures consciousness suppression via thalamic 
+gating. 
+• 
+N2→N3 transition: φ calculated from spectral entropy (0.5-30 Hz), reflecting 
+complexity reduction. Entropy was computed from the probability distribution of 
+normalized power spectral density across frequency bins. 
+All φ values were normalized to a 0-10 scale before CGI calculation to ensure comparability 
+across metrics. 
+Statistical Analysis 
+To address the repeated measures structure of our data (multiple transitions per subject), we 
+employed a conservative subject-level analysis approach. For each subject and transition type, 
+we calculated the mean slope across all detected transitions. Statistical comparisons were then 
+performed on these subject-level means using paired t-tests (for transitions present in all 
+subjects) and repeated measures ANOVA (for overall differences). This approach 
+appropriately accounts for within-subject dependencies while avoiding pseudoreplication. 
+Effect sizes were calculated using Cohen's d for paired comparisons. Statistical significance 
+was set at p < 0.05 (two-tailed). Variance decomposition was performed to quantify between-
+subject versus within-subject variability using intraclass correlation coefficients (ICC). 
+Results 
+Dataset Characteristics 
+Across 12 subjects, we analyzed 622 total sleep stage transitions: 136 Wake→N1 transitions 
+(mean 11.3 per subject), 207 N1→N2 transitions (17.2 per subject), 247 N2→N3 transitions 
+(20.6 per subject), and 32 REM→Wake transitions (4.6 per subject in 7 of 12 subjects). The 
+lower frequency of REM→Wake transitions reflects both the typical sleep architecture pattern 
+and our conservative transition detection criteria. 
+Subject-Level Slope Characteristics 
+Analysis at the subject level revealed distinct patterns across transition types: 
+• 
+Wake→N1: Mean slope = -0.736 ± 0.266 (SD), n = 12 subjects, SE = 0.077 
+• 
+N1→N2: Mean slope = -2.188 ± 0.545 (SD), n = 12 subjects, SE = 0.157 
+• 
+N2→N3: Mean slope = -0.532 ± 0.526 (SD), n = 12 subjects, SE = 0.152 
+• 
+REM→Wake: Mean slope = +0.614 ± 1.080 (SD), n = 7 subjects, SE = 0.408 
+The N1→N2 transition showed substantially steeper slopes (approximately 3-fold greater 
+magnitude) compared to other NREM transitions, consistent with a threshold mechanism. 
+REM→Wake was the only transition showing positive slopes, reflecting consciousness 
+restoration during awakening. Complete subject-level statistics are presented in Table 1. 
+ 
+Table 1. Subject-level mean slopes for each transition type 
+Transition Type 
+N Subjects 
+Mean Slope 
+SD 
+95% CI 
+Wake→N1 
+12 
+-0.736 
+0.266 
+[-0.900, -0.573] 
+N1→N2 
+12 
+-2.188 
+0.545 
+[-2.532, -1.844] 
+.
+CC-BY 4.0 International license
+perpetuity. It is made available under a 
+preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in 
+The copyright holder for this
+this version posted November 11, 2025. 
+; 
+https://doi.org/10.1101/2025.11.10.687628
+doi: 
+bioRxiv preprint 
+
+Transition Type 
+N Subjects 
+Mean Slope 
+SD 
+95% CI 
+N2→N3 
+12 
+-0.532 
+0.526 
+[-0.876, -0.188] 
+REM→Wake 
+7 
++0.614 
+1.080 
+[-0.393, +1.621] 
+Note: CI = Confidence Interval. N1→N2 mean slope is bolded to highlight the steepest decline. 
+ 
+ 
+ 
+.
+CC-BY 4.0 International license
+perpetuity. It is made available under a 
+preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in 
+The copyright holder for this
+this version posted November 11, 2025. 
+; 
+https://doi.org/10.1101/2025.11.10.687628
+doi: 
+bioRxiv preprint 
+
+ 
+ 
+ 
+Statistical Comparison of Transition Types 
+Repeated measures ANOVA on subject-level means for the three main NREM transitions 
+(Wake→N1, N1→N2, N2→N3) revealed highly significant differences (F = 45.564, p < 
+0.001), confirming that transition types differ fundamentally in their consciousness change 
+dynamics. 
+Paired t-tests comparing N1→N2 against other transitions demonstrated: 
+• 
+N1→N2 vs. Wake→N1: t(11) = -9.334, p < 0.001, Cohen's d = -2.814 (very large 
+effect) 
+• 
+N1→N2 vs. N2→N3: t(11) = -6.341, p < 0.001, Cohen's d = -1.912 (very large effect) 
+These extremely large effect sizes indicate that the N1→N2 transition operates through a 
+qualitatively different mechanism than other sleep transitions. Complete pairwise comparison 
+statistics are presented in Table 2. 
+ 
+Table 2. Pairwise comparisons of transition types 
+.
+CC-BY 4.0 International license
+perpetuity. It is made available under a 
+preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in 
+The copyright holder for this
+this version posted November 11, 2025. 
+; 
+https://doi.org/10.1101/2025.11.10.687628
+doi: 
+bioRxiv preprint 
+
+Comparison 
+t-statistic 
+p-value 
+Cohen's d 
+N1→N2 vs Wake→N1 
+-9.334 
+<0.001 
+-2.814 
+N1→N2 vs N2→N3 
+-6.341 
+<0.001 
+-1.912 
+Note: All comparisons are paired t-tests (n=12 subjects for NREM transitions). p-values <0.001 are bolded to 
+highlight statistical significance. 
+Variance Structure Analysis 
+For the N1→N2 transition, variance decomposition revealed that 96.6% of total variance was 
+within-subject (across individual transitions) while only 3.6% was between-subject (across 
+individuals). The intraclass correlation coefficient (ICC = 0.036) indicated low clustering, 
+meaning the threshold mechanism operates consistently across individuals despite high 
+variability in timing of individual spindle events. Notably, 15% of individual N1→N2 
+transitions showed near-zero slopes (|slope| < 0.5), representing cases where spindle onset was 
+gradual rather than abrupt. This biological variability does not undermine the overall pattern, 
+as the subject-level analysis demonstrates consistent directional effects. A supplemental 
+random-intercept mixed effects model confirmed that N1→N2 transition type contributed an 
+additional -1.457 CGI decline per second (95% CI: [-1.891, -1.023], p < 0.001) beyond subject-
+level random effects, providing independent confirmation of the threshold mechanism. 
+Discussion 
+Dual Architecture Model 
+Our findings establish that consciousness transitions employ two distinct architectural 
+principles operating in parallel across the sleep cycle. The majority of transitions (75%: 
+Wake→N1, N2→N3, REM→Wake) follow gradual dynamics consistent with Integrated 
+Information Theory's prediction of continuous φ modulation through information integration 
+changes. However, one critical transition (25%: N1→N2) exhibits threshold behavior mediated 
+by thalamic spindle gating, consistent with Global Workspace Theory's discrete broadcasting 
+mechanism. This dual architecture reconciles the apparent contradiction between these major 
+theoretical frameworks by demonstrating that both correctly describe consciousness 
+transitions—but in different contexts. 
+Spindle Gating as Threshold Mechanism 
+The N1→N2 transition's distinctive pattern emerges from the functional role of sleep spindles, 
+which are generated by thalamic reticular nucleus (TRN) neurons and propagate through 
+thalamocortical circuits (Lüthi, 2014). Spindles actively suppress sensory processing and 
+cortical communication (Dang-Vu et al., 2010), creating a neural "gate" that discretely 
+transitions the brain from light sleep (where external stimuli can still penetrate) to stable Stage 
+2 sleep (where consciousness of external environment is largely abolished). Our demonstration 
+that inverted spindle density provides the appropriate φ metric captures this gating function: 
+increasing spindle activity directly reduces information integration, producing the steep CGI 
+decline we observed. Supplemental analysis using a random-intercept mixed model confirmed 
+an additional -1.457 CGI decline specifically attributable to N1→N2 transition type (p < 
+.
+CC-BY 4.0 International license
+perpetuity. It is made available under a 
+preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in 
+The copyright holder for this
+this version posted November 11, 2025. 
+; 
+https://doi.org/10.1101/2025.11.10.687628
+doi: 
+bioRxiv preprint 
+
+0.001), beyond subject-level variation, further supporting the threshold mechanism 
+interpretation. 
+The high within-subject variability in N1→N2 slopes (96.6% of variance) reflects the 
+stochastic nature of spindle generation. While the overall direction is consistent (consciousness 
+decline), the precise timing and abruptness of spindle onset varies across individual transition 
+events. This biological variability is entirely consistent with threshold mechanisms in neural 
+systems, which exhibit probabilistic rather than deterministic triggering (Poulet & Petersen, 
+2008). 
+Gradual Transitions via Integration Modulation 
+In contrast to the spindle-gated N1→N2 transition, the Wake→N1, N2→N3, and REM→Wake 
+transitions all showed relatively gradual slopes reflecting continuous modulation of 
+information integration. The Wake→N1 transition (mean slope -0.736) captures the 
+progressive reduction in arousal systems mediated by descending noradrenergic and 
+cholinergic activity (Brown et al., 2012). The N2→N3 transition (mean slope -0.532) reflects 
+gradual increases in slow wave activity and cortical bistability as homeostatic sleep pressure 
+accumulates (Vyazovskiy et al., 2009). The REM→Wake transition (+0.614) involves 
+progressive reactivation of ascending arousal systems and cholinergic drive (Brown et al., 
+2012). 
+These gradual transitions align with IIT's prediction that consciousness level scales with 
+integrated information. Changes in global brain state (arousal level, slow wave proportion, 
+complexity) produce corresponding changes in φ through their effects on effective connectivity 
+and information integration capacity (Tononi et al., 2016). Importantly, none of these 
+transitions involve discrete gating mechanisms analogous to spindle emergence. 
+Methodological Considerations 
+Our approach addresses several critical methodological challenges in consciousness 
+measurement. First, the adaptive φ calculation ensures that different transitions are measured 
+using their mechanistically appropriate neural features rather than forcing all transitions 
+through the same metric. This biological validity enhances the framework's ability to detect 
+true differences in consciousness change dynamics. Second, our subject-level statistical 
+approach properly accounts for 
+repeated measures 
+dependencies, 
+avoiding the 
+pseudoreplication problem that has undermined previous studies attempting to compare 
+individual transition events (Lazic, 2010). Third, our large sample of transitions (622 total) 
+provides adequate power to detect effects even with conservative statistical approaches. 
+Several limitations warrant consideration. First, variance decomposition revealed that 96.6% 
+of N1→N2 transition variance was within-subject rather than between-subject, reflecting the 
+stochastic nature of spindle onset timing. While this high within-subject variability is consistent 
+with probabilistic threshold mechanisms in neural systems, it does limit precision of individual 
+transition predictions. Second, the REM→Wake analysis was based on only 32 transitions from 
+7 of 12 subjects, reflecting the relative rarity of spontaneous REM awakenings in healthy 
+sleepers. While the positive slope direction was consistent, additional data would strengthen 
+confidence in the quantitative estimate. Third, our sample consisted entirely of healthy young 
+adults (age 25-35); generalizability to clinical populations with sleep disorders, older adults, or 
+developing children requires further investigation. Future studies should employ extended 
+recording sessions, targeted awakening protocols, and diverse populations to address these 
+limitations. 
+Implications for Consciousness Theory 
+.
+CC-BY 4.0 International license
+perpetuity. It is made available under a 
+preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in 
+The copyright holder for this
+this version posted November 11, 2025. 
+; 
+https://doi.org/10.1101/2025.11.10.687628
+doi: 
+bioRxiv preprint 
+
+The dual architecture model has profound implications for understanding consciousness 
+mechanisms. Rather than representing mutually exclusive theories, IIT and GWT appear to 
+describe complementary aspects of a unified system. IIT correctly predicts consciousness 
+changes that emerge from continuous modulation of information integration capacity—these 
+represent the majority of natural consciousness transitions. GWT correctly identifies discrete 
+threshold mechanisms mediated by specific neural circuits—these represent a minority but 
+critical class of transitions where specific gating functions are required. 
+This synthesis suggests that consciousness systems employ multiple control mechanisms 
+optimized for different functional requirements. Gradual integration mechanisms allow fine-
+grained modulation of consciousness level in response to changing demands. Threshold gating 
+mechanisms provide discrete state boundaries that stabilize consciousness states against noise 
+and prevent oscillation between states. The sleep cycle requires both: gradual mechanisms for 
+smooth transitions between most states, and a discrete gate (spindle emergence) to reliably 
+consolidate Stage 2 sleep despite varying arousal pressure. 
+Our findings predict that other consciousness-altering contexts (anesthesia, meditation, 
+psychedelic states) will similarly exhibit both gradual and threshold transitions depending on 
+the specific neural mechanisms engaged. Testing this prediction across diverse contexts 
+represents an important avenue for future research. 
+Conclusion 
+We demonstrate that consciousness transitions follow a dual architecture combining gradual 
+integration mechanisms (three of four transition types, 75%) with discrete threshold gates (one 
+of four transition types, 25%, specifically N1→N2 via spindle emergence). This reconciles 
+Integrated Information Theory and Global Workspace Theory by showing that both correctly 
+describe consciousness change mechanisms operating in different contexts. The adaptive CGI 
+framework successfully captures both transition types within a unified mathematical structure, 
+providing a quantitative tool for consciousness measurement across diverse contexts. Future 
+work should extend this framework to other consciousness-altering conditions and investigate 
+whether the 75/25 gradient-to-threshold ratio in transition types represents a fundamental 
+architectural principle of biological consciousness systems. 
+References 
+Berry, R. B., Brooks, R., Gamaldo, C. E., Harding, S. M., Marcus, C. L., & Vaughn, B. V. (2012). The 
+AASM Manual for the Scoring of Sleep and Associated Events: Rules, Terminology and 
+Technical Specifications, Version 2.0. American Academy of Sleep Medicine. 
+Brown, R. E., Basheer, R., McKenna, J. T., Strecker, R. E., & McCarley, R. W. (2012). Control of 
+sleep and wakefulness. Physiological Reviews, 92(3), 1087-1187. 
+Casali, A. G., Gosseries, O., Rosanova, M., Boly, M., Sarasso, S., Casali, K. R., ... & Massimini, M. 
+(2013). A theoretically based index of consciousness independent of sensory processing and 
+behavior. Science Translational Medicine, 5(198), 198ra105. 
+Dang-Vu, T. T., McKinney, S. M., Buxton, O. M., Solet, J. M., & Ellenbogen, J. M. (2010). 
+Spontaneous brain rhythms predict sleep stability in the face of noise. Current Biology, 20(15), 
+R626-R627. 
+Dehaene, S., & Changeux, J. P. (2011). Experimental and theoretical approaches to conscious 
+processing. Neuron, 70(2), 200-227. 
+.
+CC-BY 4.0 International license
+perpetuity. It is made available under a 
+preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in 
+The copyright holder for this
+this version posted November 11, 2025. 
+; 
+https://doi.org/10.1101/2025.11.10.687628
+doi: 
+bioRxiv preprint 
+
+Kemp, B., Zwinderman, A. H., Tuk, B., Kamphuisen, H. A., & Oberye, J. J. (2000). Analysis of a 
+sleep-dependent neuronal feedback loop: the slow-wave microcontinuity of the EEG. IEEE 
+Transactions on Biomedical Engineering, 47(9), 1185-1194. 
+Lazic, S. E. (2010). The problem of pseudoreplication in neuroscientific studies: is it affecting your 
+analysis? BMC Neuroscience, 11, 5. 
+Lüthi, A. (2014). Sleep spindles: where they come from, what they do. The Neuroscientist, 20(3), 243-
+256. 
+Poulet, J. F., & Petersen, C. C. (2008). Internal brain state regulates membrane potential synchrony in 
+barrel cortex of behaving mice. Nature, 454(7206), 881-885. 
+Rechtschaffen, A., & Kales, A. (1968). A Manual of Standardized Terminology, Techniques and 
+Scoring System for Sleep Stages of Human Subjects. Washington, DC: US Government 
+Printing Office, US Public Health Service. 
+Tagliazucchi, E., Roseman, L., Kaelen, M., Orban, C., Muthukumaraswamy, S. D., Murphy, K., ... & 
+Carhart-Harris, R. (2016). Increased global functional connectivity correlates with LSD-
+induced ego dissolution. Current Biology, 26(8), 1043-1050. 
+Tononi, G., Boly, M., Massimini, M., & Koch, C. (2016). Integrated information theory: from 
+consciousness to its physical substrate. Nature Reviews Neuroscience, 17(7), 450-461. 
+Vyazovskiy, V. V., Olcese, U., Lazimy, Y. M., Faraguna, U., Esser, S. K., Williams, J. C., ... & Tononi, 
+G. (2009). Cortical firing and sleep homeostasis. Neuron, 63(6), 865-878. 
+ 
+.
+CC-BY 4.0 International license
+perpetuity. It is made available under a 
+preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in 
+The copyright holder for this
+this version posted November 11, 2025. 
+; 
+https://doi.org/10.1101/2025.11.10.687628
+doi: 
+bioRxiv preprint 

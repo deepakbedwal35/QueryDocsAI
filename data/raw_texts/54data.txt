@@ -1,0 +1,1374 @@
+Retrospective Attention Can Trigger Visual Perception 
+Without Dependence on Either Cue Awareness or Target 
+Reporting 
+Ye Li
+1,2,3, Xingbei Wan
+1,2, Mingxing Mao
+1,2, Lingying Jin
+1,2, Xilin Zhang
+1,2 
+1Key Laboratory of Brain, Cognition and Education Sciences, Ministry of Education, South China 
+Normal University, Guangzhou, Guangdong 
+510631, China 
+2School of Psychology, Center for Studies of Psychological Application, Guangdong Provincial Key 
+Laboratory of Mental Health and 
+Cognitive Science, South China Normal University, Guangzhou, Guangdong 510631, China 
+3Lead contact 
+*Correspondence: li983397358@outlook.com 
+ 
+SUMMARY 
+Retrospective attention, directed by cues after stimulus offset, enhances the perception 
+of threshold-level Gabor patches. However, the neural mechanisms and the dependence 
+on cue awareness and target reporting remain unclear. Using EEG in both report and no-
+report paradigms with visible and invisible post-cues, we found that orientation 
+discrimination improved with retro-cues regardless of cue visibility. Under invisible 
+conditions, retro-cueing effects were weaker, limited to a stimulus onset asynchrony (SOA) 
+of 66.67 ms, and associated with the N2pc component. In contrast, visible retro-cueing 
+persisted at a 100 ms SOA, eliciting strong P3b and weak VAN in report condition. 
+Multivariate pattern analysis revealed that in report conditions, neural processing of cued 
+targets was earlier, stronger, and more generalized in fronto-parietal regions, whereas in 
+no-report conditions, decoding was confined to parieto-occipital areas. These findings 
+indicate that retrospective attention can enhance visual perception independently of cue 
+awareness and target reporting, contributing to ongoing theories of consciousness. 
+ 
+ 
+INTRODUCTION 
+Visual perception is a complex process influenced by various factors, including attention. An 
+intriguing question in visual perception and consciousness research is whether cues presented 
+after the offset of a visual stimulus can induce visual reactivation and retrospectively influence our 
+conscious perception of the stimulus
+1,2. This phenomenon, known as the "retrospective attention 
+effect," has significant implications for our understanding of consciousness and attention. 
+Recent experiments have confirmed the existence of the retrospective attention effect
+3-5. These 
+studies have demonstrated that retro-cueing attention can retrospectively recover sensory traces 
+that are about to disappear from consciousness, suggesting that retrospective attention acts as a 
+gatekeeper mediating conscious perception 
+5. Furthermore, a study by Thibault et al.
+4, showed that 
+directing exogenous attention to the target location after its presentation significantly improved 
+preprint (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this
+this version posted November 9, 2024. 
+; 
+https://doi.org/10.1101/2024.11.09.622275
+doi: 
+bioRxiv preprint 
+
+participants' ability to discriminate its orientation, ruling out the hypothesis that the retrospective 
+attention effect stems from working memory rather than a perceptual effect. 
+However, the interpretation of these findings remains controversial. Some researchers argue that 
+the retro-cueing effect is confounded by various cognitive processes, such as target attention, 
+decision-making and motor functions
+6,7,18,25-30. They contend that results at the behavioral level 
+alone cannot adequately distinguish these processes. Adding to this complexity, a recent study by 
+Stein
+7 reported that a local visual interaction between the target and cue is sufficient to trigger 
+consciousness of the target, revealing a new type of retrospective attention effect mediated by 
+sensory (non-attentional) mechanisms. This suggests that exogenous attention may not be the 
+only mechanism contributing to the retrospective attention effect. 
+While robust effects of post-cue attention have been found in behavioral experiments
+4,7,8, the 
+neural mechanisms underlying these effects remain largely unknown. This gap in our 
+understanding is particularly significant given the intricate connections between attention and 
+consciousness identified in previous studies
+9,10. Theories of consciousness, such as the Recurrent 
+Processing Theory (RPT) and the Global Neuronal Workspace Theory (GNWT)
+9,10, provide 
+frameworks for understanding these connections but have not been specifically applied to the 
+retro-perception effect. 
+To address these open questions and distinguish between different types of retro-perception 
+effects, we designed three new experiments incorporating two key paradigms: 
+The Backward Masking Paradigm
+14,15: This paradigm can generate subliminal cues, thereby 
+blocking top-down information transmission pathways and allowing us to isolate the effects of 
+local visual interactions. 
+The No-Report Paradigm
+11-13: In this paradigm, participants do not make judgments about their 
+perceptual experience, minimizing the neural correlates of post-perceptual processing
+11. 
+Additionally, we incorporated EEG recordings and multivariate pattern analysis to investigate the 
+neural correlates associated with retro-perception effects. Specifically, we focused on ERP 
+components such as N2pc and P3b
+14 to investigate the relationship between consciousness and 
+attention. 
+By combining these paradigms, we aim to achieve two primary objectives: Dissociate the Two 
+Types of Retro-Perception Effects: One based on local visual sensory interaction mechanisms and 
+the other on attention mechanisms. Distinguish Conscious Perception from Motor Activity: 
+Ensuring that the observed retrospective attention effect indeed enhances participants' conscious 
+perception of the target at the neural level.  
+We hypothesize that: The Backward Masking Paradigm Will Not Disrupt Sensory-Mediated Retro-
+Perception Effects
+15. Post-Cue Attention Will Enhance Neural Markers of Conscious Perception, 
+even in the absence of explicit reporting, demonstrating its robustness beyond task-related 
+cognitive processes. 
+This study contributes to the field by providing the first neural evidence for the mechanisms 
+underlying the retrospective attention effect, potentially reconciling conflicting accounts in the 
+literature. Our findings will have implications for theories of consciousness and attention, offering 
+new insights into the temporal dynamics of conscious perception and the role of post-perceptual 
+processing in awareness. Moreover, by demonstrating the persistence of the post-cue effect in a 
+no-report paradigm, we aim to establish its fundamental role in shaping conscious perception, 
+independent of explicit report. 
+preprint (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this
+this version posted November 9, 2024. 
+; 
+https://doi.org/10.1101/2024.11.09.622275
+doi: 
+bioRxiv preprint 
+
+RESULTS 
+Experiment 1 
+We assessed whether post-cue attention
+5 could influence the perception of a single stimulus at 
+threshold in an unconscious exogenous attention paradigm
+16. In this paradigm, the attentional cue 
+provided no information on stimulus location, minimizing its influence on decision-making or 
+other post-perceptual processes. The target stimulus was a single low-contrast Gabor patch of 
+random orientation, which could be flashed randomly within one of two circles to the left or right 
+of central fixation (Figure 1A). Participants were required to report the target’s orientation. Target 
+contrast was individually calibrated to reach 75% accuracy without cueing. 
+During the experiment, attention was randomly cued to the left or right by a brief dimming of one 
+circle. Importantly, the dimming prevented masking of the target, unlike more conventional 
+attentional cues such as thickening or abrupt onset of a shape near the target’s location. This cue 
+appeared either before (pre-cue) or after (post-cue) the target. Following the cue or target, an 
+83.33 ms mask or fixation period was presented for the invisible and visible conditions, respectively. 
+At the end of each trial, a response cue (thickening of one side of the fixation cross) indicated the 
+target’s side, eliminating location uncertainty. Subsequently, a second response screen appeared, 
+displaying a dimming cross at the fixation point where participants reported the position of the 
+cue in a two-alternative forced choice (2AFC) task. Twenty-four volunteers participated in this 
+experiment. 
+When no mask stimulus was presented (visible cue condition), whether the cue appeared before 
+or after the target, our results replicated the typical time course of pre-cue and post-cue 
+exogenous attention (Figure 2): congruent cues—same side as the target—improved orientation 
+accuracy relative to incongruent cues—opposite side [ANOVA with factors congruency (2) × 
+stimulus onset asynchrony (SOA) (3); congruency: F(1,23) = 111.64, p < 0.001]. Critically, congruent 
+cues presented after the target also substantially improved orientation discrimination (Figure 2). 
+Post-hoc comparisons with BONFERRONI correction indicated significant differences between 
+valid and invalid cues in all three SOA conditions (-116.67 ms, corrected p < 0.001; +66.67 ms, 
+corrected p < 0.001; +100 ms, corrected p < 0.001). This strong effect persisted 100 ms after the 
+target, mainly due to the benefit of congruent cueing, which improved performance compared to 
+75% accuracy in the absence of cueing. 
+When a mask stimulus was presented, although the pre-cue and post-cue exogenous attention 
+effects weakened, congruent cues still improved orientation accuracy relative to incongruent cues 
+[ANOVA with factors congruency (2) × stimulus onset asynchrony (SOA) (3); congruency: F(1,23) 
+= 16.33, p = 0.001]. Post-hoc comparisons with BONFERRONI correction indicated significant 
+differences between valid and invalid cues in two SOA conditions (-116.67 ms, corrected p = 0.022; 
++66.67 ms, corrected p = 0.015), but not in the +100 ms condition (corrected p = 0.257) (Figure 
+2). 
+In conclusion, these results show that when a single stimulus is presented, directing attention to 
+its location after its offset can still have a substantial effect on our ability to report a simple feature 
+of this stimulus, such as orientation, even when the cue location is invisible. This indicates that 
+post-cue attention likely reflects a local sensory interaction between the cue and target, rather 
+than post-perceptual processes. Interestingly, we found that the post-cue attention effect 
+vanished when the SOA between the target and the cue reached +100ms in the invisible cue 
+condition. This suggests that the post-cue attention effect is highly time-sensitive under 
+preprint (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this
+this version posted November 9, 2024. 
+; 
+https://doi.org/10.1101/2024.11.09.622275
+doi: 
+bioRxiv preprint 
+
+conditions where the cue location is invisible. 
+ 
+A Experiment 1 
+ 
+ 
+B Experiment 2 
+ 
+ 
+ 
+C Experiment 3 
+ 
+ 
+Figure 1. Stimuli and procedures in experiments 1,2,3 
+(A) Stimulus and Procedure for the Experiments 1: Each trial commenced with the appearance of a fixation cross at the 
+center. After a random delay of 800 to 1200 ms, a target—specifically, a Gabor patch with a random orientation (30° or 
+150° away from the vertical)—was displayed for 33.33 ms within one of the circles located to the left or right of the 
+preprint (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this
+this version posted November 9, 2024. 
+; 
+https://doi.org/10.1101/2024.11.09.622275
+doi: 
+bioRxiv preprint 
+
+fixation point. The target contrast was individually calibrated for each subject using a staircase method. A 16.67 ms cue, 
+which consisted of a brief dimming of one of the circles, could appear either before or after the target. This cue could be 
+either valid (on the same side as the target) or invalid (on the opposite side). Following the cue, there was an 83.33 ms 
+mask or fixation period for the visible and invisible conditions, respectively. A response screen was presented 800 to 1200 
+ms after the offset of the mask or fixation, with a response cue indicating the target’s side (marked by a thickening and 
+dimming on one side of the cross). Participants were then asked to report the target’s orientation by choosing between 
+two options (Left/Right). Subsequently, a second response screen appeared, displaying a dimming cross at the fixation 
+point, where participants reported the position of the cue in a two-alternative forced choice (2AFC) task. 
+(B) Stimulus and Procedure for the Experiments 2: The stimulus presentation procedure in Experiments 2 is 
+fundamentally similar to that of Experiments 1, with the following modifications: the two circles are placed below the 
+fixation point; the target presentation screen includes a fixation screen with a 1/3 probability (catch trials); the stimulus 
+onset asynchrony (SOA) between the target and the cue is fixed at 66.67 ms; a Non-Cue condition is added to the cue 
+presentation; and only the mask stimulus is presented, thereby maintaining only the invisible condition. 
+(C) Stimuli and Procedure for Experiments 3: In this experiment, two circles are positioned respectively above and below 
+the fixation point. The Gabor patch and the cue randomly appear in one of the two circles. The physical stimulus intensity 
+is determined for each participant based on the Gabor contrast levels obtained from the staircase test: high contrast - 
+orientation discrimination accuracy near 100%, medium contrast - orientation discrimination accuracy around 75%, and 
+low contrast - orientation discrimination accuracy about 50%. The fixation screen from Experiments 2 is retained for catch 
+trials. On the response screen, the active reporting condition remained consistent with the Gabor patch orientation 
+discrimination task from the previous experiment, with the addition that participants were required to report both the 
+Gabor patch orientation and their subjective visibility. Additionally, a passive viewing condition is introduced, wherein 
+participants are required to complete one of three randomly presented tasks: 1. Speed response task; 2. Mind-wandering 
+detection task; 3. A simple message prompting "Press SPACE to continue"(see Methods for details). On the response 
+screen of Experiments 3, the active reporting condition remained similar to the Gabor patch orientation discrimination 
+task from the previous experiment. However, participants were now required to identify both the orientation of the 
+Gabor patch (Left or Right) and rate its subjective visibility ("visible" or "invisible") simultaneously. This modification 
+resulted in four response options for each trial. 
+ 
+Behavioral results in experiment 1 
+ 
+ 
+Figure 2. Experiment1 Behavioral results. 
+Left: Cue Position Discrimination 2AFC Task in Experiment 1: Dots represent individual performance. Accuracy is presented 
+on the y-axis, and the different visible cues are presented on the x-axis. Error bars represent the standard error of the 
+mean. 
+Middle, right: Target Orientation Discrimination 2AFC Task in Experiment 1: Dots represent individual performance, with 
+chance level at 50%. Accuracy is presented on the y-axis. The different target-cue SOA conditions are presented on the x-
+axis. Under the visible cue condition, all three selected target-cue SOA conditions exhibited the classic pre-cue and post-
+preprint (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this
+this version posted November 9, 2024. 
+; 
+https://doi.org/10.1101/2024.11.09.622275
+doi: 
+bioRxiv preprint 
+
+cue effects, with accuracy in the valid cue condition significantly higher than in the invalid cue condition. Middle shows the 
+visible cue condition, while right shows the invisible cue condition. 
+ 
+Experiment 2 
+Behavior Results 
+This second experiment, including 23 new volunteers, was similar to the previous one except that 
+the SOA between the target and the cue was fixed at 66.67 ms; a Nocue condition was added to 
+the cue presentation; and only the mask stimulus was presented, thereby maintaining only the 
+invisible condition (Figure 3). Results on the objective orientation discrimination task replicated the 
+results of the first experiment (Figure 3) [congruency: F(1,20) = 5.66, p = 0.011]. Post-hoc 
+comparisons with BONFERRONI correction indicated significant differences between valid and 
+invalid cues (corrected p = 0.002), but not between valid and nocue condition (corrected p = 
+0.169). 
+ 
+EEG Results 
+The N2pc in the report and no-report conditions in experiment 2 
+Results from the N2pc analysis are shown in Figure 4. N2pc amplitudes significantly differed 
+between the contralateral and ipsilateral electrodes across the three congruency conditions 
+[ANOVA with factors congruency (valid/invalid/nocue, 3) × electrodes (ipsilateral/contralateral, 2): 
+F(2, 20) = 2.264, p = 0.129; electrodes: F(1, 22) = 30.39, p < 0.001]. Post-hoc comparisons with 
+BONFERRONI correction indicated significant differences between contralateral and ipsilateral 
+electrodes in all three congruency conditions (Figure 4A, valid, corrected p < 0.001; Figure 4A, 
+invalid, corrected p = 0.006; Figure 4B, nocue, corrected p < 0.001). N2pc difference wave 
+amplitudes (contralateral minus ipsilateral) significantly differed between the valid, nocue and 
+invalid conditions [ANOVA with factors congruency (valid/invalid/nocue, 3): F(2, 20) = 14.76, p < 
+0.001]. Post-hoc comparisons with BONFERRONI correction indicated significant differences not 
+only between valid and invalid conditions but not between valid and nocue conditions (valid versus 
+invalid, corrected p = 0.025; valid versus nocue, corrected p = 0.231; invalid versus nocue, 
+corrected p = 0.029). The results showed that even under conditions where the cue was invisible, 
+post-cue attention could still modulate the classic attention-related ERP component-N2pc. 
+Behavioral results in experiment 2 
+ 
+Figure 3. Experiment 2 Behavioral results. 
+Left: Cue Position Discrimination 2AFC Task in Experiment 2, dots represent individual performance. Accuracy is presented 
+on the y-axis, and the different visible cues are presented on the x-axis. Error bars represent the standard error of the 
+preprint (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this
+this version posted November 9, 2024. 
+; 
+https://doi.org/10.1101/2024.11.09.622275
+doi: 
+bioRxiv preprint 
+
+mean. 
+Right: Target Orientation Discrimination 2AFC Task in Experiment 2, dots represent individual performance, with chance 
+level at 50%. Accuracy is presented on the y-axis. The different cue attention conditions (Valid, Invalid, and No-cue) are 
+presented on the x-axis.  
+A. N2pc Wave in the valid and invalid condition 
+ 
+B. N2pc in the nocue condition 
+ 
+ 
+ 
+Figure 4. Visualizations of the N2pc in experiment2 
+A-valid, invalid, B-noncue, left: N2pc waveforms for contralateral and ipsilateral sides plotted over time. Shaded areas 
+represent the time window for mean amplitude used for statistical testing (240-280 ms). Right: Topographical voltage 
+distributions between 240-280 ms with all electrodes used to analyze the N2pc indicated on the scalp map. 
+ 
+Experiment 3 
+Behavior results 
+This third experiment, involving 20 new participants, was similar to the first experiment but with 
+several key modifications. The stimulus onset asynchrony (SOA) between the target and the cue 
+was fixed at 66.67 ms. Only the fixation stimulus was presented, maintaining the visible condition. 
+Two circles were positioned above and below the fixation point, with the Gabor patch and the cue 
+randomly appearing in one of these circles (Figure 1C). 
+A significant addition was the introduction of three Gabor contrast levels for the target 
+presentation. These contrast levels followed a linear growth pattern (Figure 6A), with average 
+values of 0.00662 (Low), 0.01845 (Medium), and 0.03088 (High), and standard deviations of 
+0.00367 (Low), 0.00598 (Medium), and 0.00873 (High). 
+In the report task, accuracy on the objective orientation discrimination task replicated the results 
+of the first experiment (Figure 6B) [congruency: t (1, 19) = 84.67, p < 0.001]. Post-hoc comparisons 
+with BONFERRONI correction indicated significant differences between valid and invalid cues at 
+the medium Gabor contrast level (corrected p = 0.002), but not in the low (corrected p = 0.776) 
+and high contrast conditions (corrected p = 0.079). 
+Interestingly, the results for subjective clarity were slightly different, showing a significant post-
+cue effect across low, medium, and high contrast levels. Post-hoc comparisons with BONFERRONI 
+correction indicated significant differences between valid and invalid cues across low, medium, 
+preprint (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this
+this version posted November 9, 2024. 
+; 
+https://doi.org/10.1101/2024.11.09.622275
+doi: 
+bioRxiv preprint 
+
+and high contrast levels (low-50% accuracy: corrected p = 0.002; medium-75% accuracy: p < 0.001; 
+high-100% accuracy: p = 0.021). This discrepancy is possibly due to floor and ceiling effects. 
+In the mind-wandering tasks, almost all subjects reported that they were focusing on the Gabor 
+patch in over 70% of the trials, as well as on the dimming of the circle or the fixation cross (Figure 
+6C, Average = 0.9589, SD = 0.07918). In the speeded-response task, almost all subjects responded 
+accurately and quickly (in less than 1 second) to press the button (Figure 6C, Average = 0.9920, 
+SD = 0.00862). 
+ 
+A. Different contrasts of the three condition 
+ 
+ 
+ 
+B. Behavior results in the report condition 
+ 
+ 
+C. Behavior results in the no-report condition 
+ 
+ 
+Figure 6. Behavior results in the no-report and report conditions in experiment3 
+preprint (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this
+this version posted November 9, 2024. 
+; 
+https://doi.org/10.1101/2024.11.09.622275
+doi: 
+bioRxiv preprint 
+
+(A) Average contrast levels across three conditions. The x-axis displays the different Gabor patch contrasts (Low, Medium, 
+and High), while the y-axis represents the contrast values. Dots on the right indicate individual contrast levels used to 
+control orientation discrimination performance at 50%, 75%, and 100% accuracy. The graph illustrates the linear progression 
+of contrast levels across the three conditions.  
+(B) Left: Target Subjective Visibility in Experiment 3: Dots represent individual performance. The proportion of trials in 
+which the target was visible is presented on the y-axis. The different Gabor patch contrasts (Invisible, Medium, and Visible) 
+are presented on the x-axis.  
+Right: Target Orientation Discrimination 2AFC Task in Experiment 3: Dots represent individual performance, with chance 
+level at 50%. Accuracy is presented on the y-axis. The different target contrast conditions are presented on the x-axis.  
+(C) Performance on the Mind-Wandering Task and Speeded Response Task in the No-Report Condition. All error bars 
+represent the standard error. 
+ 
+EEG Results 
+The P3b in the report and no-report conditions in experiment3 
+The results from the P3b analysis (see Methods) are shown in Figure 7. In the report condition, 
+we observed a post-cueing effect in both high (100%) and medium (75%) contrast conditions for 
+the P3b (medium: valid vs. invalid, t(19) = 20.131; P = 0.001 and high: valid vs. invalid, t(19) = 
+4.77; P = 0.046; Figure 7A), indicating that post-cueing attention can enhance visual perception. 
+There was no difference in P3b amplitude for the two lowest contrast conditions (valid vs. invalid, 
+t(19) = 0.252; P = 0.623), consistent with previous behavioral studies.  
+Most importantly, consistent with previous studies
+11,13, we found no significant difference in P3b 
+amplitude in the no-report condition (high: valid vs. invalid, t(19) = 2.516; P = 0.129; medium: 
+valid vs. invalid, t(19) = 0.344; P = 0.565; low: valid vs. invalid, t(19) = 0.001; P = 0.882; Figure 7B). 
+Interestingly, in the report task, when plotting the average amplitudes from all electrodes used 
+for the P3b across all six conditions (low-invalid, low-valid, medium-invalid, medium-valid, 
+high-invalid, high-valid), we observed a non-linear, bifurcated-like increase in amplitudes
+12,13,17. 
+This pattern is considered a potential correlate of conscious processing, replicating prior work
+17. 
+However, while we ensured that the three contrast levels were controlled in a linear manner, we 
+could not guarantee that the different attention modulations (valid, invalid) formed a linear 
+pattern. As a result, we did not conduct further in-depth analysis on this particular aspect. 
+ 
+A. P3b in the report condition 
+ 
+ 
+preprint (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this
+this version posted November 9, 2024. 
+; 
+https://doi.org/10.1101/2024.11.09.622275
+doi: 
+bioRxiv preprint 
+
+B. P3b in the no-report condition 
+ 
+ 
+  
+Figure 7. Visualizations of the P3b in the report and no-report conditions in experiment3 
+(A) Report condition and (B) no-report condition. On the left: The average amplitudes from all electrodes used for the 
+P3b across all six conditions. On the center: P3b waveforms for all six conditions (3 contrasts × 2 congruencies) plotted 
+over time. On the right: Topographical voltage distributions between 300-600ms with all electrodes used to analyze the 
+P3b indicated on the scalp map. 
+ 
+The VAN in the report and no-report conditions in experiment3 
+The “visual awareness negativity” (VAN)
+18,19 is defined as a relatively more negative ERP signal for 
+seen compared to unseen stimuli, with a bilateral posterior distribution, roughly in the time window 
+between 150-300 ms. Results from the VAN analysis are shown in Figure 8. In the report condition, 
+we observed a post-cueing effect in the VAN only at high (100%) contrast (high: valid vs. invalid, 
+t(19) = 9.149; P = 0.009; medium: valid vs. invalid, t(19) = 0.066; P = 0.801; low: valid vs. invalid, 
+t(19) = 0.516; P = 0.484; Figure 8A). Interestingly, the VAN pattern is exactly the opposite of the 
+P3b, meaning the VAN amplitude in the invalid condition is more negative than in the valid 
+condition. Similar with the P3b pattern, we found no difference in the VAN between valid and 
+invalid in the no-report condition. (high: invalid vs. valid, t(19) = 1.251; P = 0.277; medium: invalid 
+vs. valid, t(19) = 0.023; P = 0.882; low: invalid vs. valid, t(19) = 0.001; P = 0.981; Figure 8B). 
+ 
+A. VAN in the report condition 
+ 
+preprint (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this
+this version posted November 9, 2024. 
+; 
+https://doi.org/10.1101/2024.11.09.622275
+doi: 
+bioRxiv preprint 
+
+ 
+B. VAN in the no-report condition                       
+ 
+ 
+Figure 8. Visualizations of the VAN in the report and no-report conditions in experiment3 
+(A) Report and (B) no-report conditions. On the left: The average amplitudes from all electrodes used for the VAN across 
+all six conditions. On the center: VAN waveforms for all six conditions (3 contrasts × 2 congruencies) plotted over time. On 
+the right: Topographical voltage distributions between 240-280 ms with all electrodes used to analyze the P3b indicated 
+on the scalp map. 
+ 
+Multivariate Analysis Results 
+We trained linear classifiers for all 62 electrodes to distinguish between target and no-target 
+conditions, using the amplitude across electrodes as features. Classifier performance was 
+evaluated using the area under the curve (AUC) of the receiver operating characteristic (ROC) 
+curve. 
+ 
+Decoding Time Courses in the report condition and no-report condition in experiment3 
+However, the temporal profiles of decoding performance varied across different contrast and 
+congruency conditions (Figures 9A, 9B). In the report task, significant clusters emerged earlier after 
+stimulus onset in the valid condition compared to the invalid condition for all three contrast 
+conditions (all pcluster < 0.05, shown by different color horizontal bars in Figure 9A top). The temporal 
+profiles of difference AUC (valid-invalid) revealed that significant clusters emerged around 400ms 
+after stimulus onset and ended around 500ms in both high and medium contrast conditions 
+(Figure 9A bottom). 
+In the no-report task, significant clusters emerged only 300ms after stimulus onset in the high 
+contrast-valid condition, but not in the other five conditions (all pcluster < 0.05, shown by different 
+color horizontal bars in Figure 9B top). The temporal profiles of difference AUC (valid-invalid) 
+showed that significant clusters emerged around 400ms and ended around 700ms after stimulus 
+onset in only high contrast conditions (Figure 9B bottom). 
+ 
+Searchlight Decoding Analysis in valid and invalid condition in the Report condition and No-
+report condition in experiment3 
+ 
+To identify the regions with the highest decoding performance in valid and invalid conditions 
+preprint (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this
+this version posted November 9, 2024. 
+; 
+https://doi.org/10.1101/2024.11.09.622275
+doi: 
+bioRxiv preprint 
+
+across three Gabor contrasts, we conducted a Searchlight Decoding Analysis
+20-22. In the report task, 
+the highest performance cluster was clearly localized to the fronto-parietal region electrodes in 
+both medium and high contrast conditions (Supplement Figure 1). However, in the no-report task, 
+the highest performance cluster emerged in a region much closer to the occipital area, specifically 
+in the high contrast condition (Supplement Figure 1). 
+ 
+Temporal Generalization Analysis in the Report condition and No-report condition in 
+experiment3 
+These findings demonstrate that the retro-cue effect can improve EEG decoding performance for 
+the target Gabor patch and advance its decoding time, regardless of report or no-report task 
+conditions. To test the temporal generalization performance of the retro-cue effect, we applied 
+the temporal generalization method. In this approach, classifiers are trained on data from each 
+time point separately but tested on all time points, resulting in a temporal generalization matrix 
+(TGM; target present vs. target absent: Supplement Figure). Successful decoding between time 
+points (off-diagonal decoding) indicates that the direction in state space discriminating between 
+target and no-target conditions remains stable over time. 
+The Temporal Generalization Analysis results revealed a pattern similar to the Decoding Time 
+Courses. In the report task, we found strong evidence of a metastable representation associated 
+with conscious perception, indicated by late square-shaped patterns in the temporal 
+generalization matrix (Supplement Figure) in all conditions except the lowest contrast-invalid 
+condition. These late square-shaped patterns
+13,23-28 were stronger in the valid condition compared 
+to the invalid condition. In the no-report condition, the late square-shaped patterns only occurred 
+in the high contrast-valid condition (Supplement Figure). 
+As with the temporal decoding analysis, we created a similar difference-AUC TGM matrix. In the 
+report task, significant clusters emerged around 400ms after stimulus onset and ended around 
+500ms in both high and medium contrast conditions (Supplement Figure, all pcluster < 0.05). In the 
+no-report task, significant clusters emerged around 400ms and ended around 700ms after 
+stimulus onset in only high contrast conditions (Supplement Figure, all pcluster < 0.05). 
+Interestingly, in both analyses, the no-report high contrast condition contributed the longest 
+significant time courses in the difference-AUC analysis, indicating an even longer-lasting retro-
+cueing perception effect. 
+ 
+ 
+preprint (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this
+this version posted November 9, 2024. 
+; 
+https://doi.org/10.1101/2024.11.09.622275
+doi: 
+bioRxiv preprint 
+
+ 
+A. Decoding Time Courses in the report condition 
+ 
+ 
+B. Decoding Time Courses in the no-report condition 
+ 
+ 
+Figure 9. Decoding Time Courses in experiment3 
+Decoding time courses in the report condition (A) and the no-report condition (B) (target present vs. target absent) were 
+analyzed. All nine conditions (3 contrasts: 50%, 75%, 100% × 3 congruencies: valid, invalid, difference (valid-invalid)) were 
+plotted, with decoding performance (AUC) shown as a function of time. The top row represents the valid and invalid 
+condition, and the bottom row shows the difference: valid minus invalid condition. Color bars indicate significant clusters 
+identified by cluster-based permutations, p corrected <0.05. 
+ 
+ 
+ 
+preprint (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this
+this version posted November 9, 2024. 
+; 
+https://doi.org/10.1101/2024.11.09.622275
+doi: 
+bioRxiv preprint 
+
+A. Average difference in searchlight analysis in the report and no-report condition 
+ 
+ 
+ 
+ 
+ 
+B. Average difference in Time generalization analysis in the report and no-report condition 
+ 
+ 
+Figure 10. Searchlight Analysis and Temporal Generalization Analysis in experiment3 
+(A) Searchlight Analysis results for the report condition (top) between 400 and 500ms and the no-report condition  
+between 400 and 600ms. All six conditions (3 contrasts: 50%, 75%, 100% × difference (valid-invalid) × 2 (report no-report)) 
+were plotted, with decoding performance (AUC) shown as a function of time. The top row represents the report condition, 
+and the bottom row shows the no-report (All images display differences in decoding performances (valid – invalid)). Color 
+bars indicate decoding performances. 
+(B) A decoder was trained to discriminate between target-present and target-absent trials from 0 to 900 ms. In the report 
+preprint (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this
+this version posted November 9, 2024. 
+; 
+https://doi.org/10.1101/2024.11.09.622275
+doi: 
+bioRxiv preprint 
+
+condition and the no-report condition, all six conditions (3 contrasts: 50%, 75%, 100% × difference (valid-invalid)) × 2 (report 
+no-report) with the decoding temporal generalization matrix (TGM). The top row represents the report condition, and the 
+bottom row shows the no-report (All images display differences in decoding performances (valid – invalid)). Black contours 
+indicate periods where classification deviated significantly from chance at p corrected < 0.01 (FDR). 
+ 
+ 
+DISCUSSION 
+The aim of this study was to dissociate two types of retrospective attention effects: those based 
+on local visual sensory interaction mechanisms and those rooted in attention mechanisms. 
+Additionally, we sought to distinguish between conscious perception and motor activity to confirm 
+that the observed retro-cueing effect indeed enhances participants' conscious perception of the 
+target at the neural level. To address these objectives, we conducted three experiments. In line 
+with previous research by Sergent et al.
+8, participants were asked to report a single target Gabor 
+patch shortly after its presentation (within 1.5 seconds), ensuring no ambiguity regarding its 
+location. 
+ 
+The N2pc is associated with the subliminal retro-cueing effect. 
+In our first experiment, we successfully replicated Sergent et al.'s
+8 findings using a visible cue 
+condition and observed a retro-cueing attention effect in the orientation discrimination task at a 
+66.7 ms target-cue stimulus onset asynchrony (SOA). Notably, this effect persisted even with 
+invisible cues. Our second experiment, utilizing EEG recordings, further validated these findings. 
+Analysis of the classic attentional ERP component N2pc revealed significant differences between 
+valid, no-cue, and invalid conditions. This neural signature demonstrates that subliminal cues can 
+enhance exogenous attention toward the target. Additionally, by manipulating mask intensity, we 
+successfully dissociated two types of retrospective attention effects, aligning with similar time 
+windows observed in previous research
+7. 
+While prior studies have examined N2pc in subliminal cueing effects
+10,30, they primarily focused on 
+N2pc elicited by cues rather than targets. In our second experiment, we observed significant 
+differences in target-elicited N2pc, indicating improved target attention facilitated by subliminal 
+retro-cues. This component can be employed in subsequent studies on subliminal spatial cueing 
+attention, particularly in research investigating subliminal retro-cueing effects. 
+The controversy on P3b and VAN. 
+In the realm of consciousness research, one of the most critical questions concerns the neural 
+correlates of consciousness (NCC)
+1,29,30. Previous studies have intensely debated whether P3b and 
+VAN are neural correlates of consciousness
+11,19,31,32. In classical report paradigms, P3b was 
+considered a consciousness-related ERP component. However, recent no-report paradigm studies 
+suggest that P3b may instead reflect motor preparation potentials related to task-specific button 
+pressing, thereby excluding it as a candidate for NCC. Conversely, in a recent auditory study, 
+Sergent et al. identified a new late negative component during the P3b time window under no-
+report conditions, with its amplitude correlating with linear stimulus intensity increases. These 
+divergent findings add complexity to the debate, and a recent preprint by Cohen proposed that 
+N2 is the neural marker of consciousness
+13. 
+Under no-report conditions, our study produced results that contradict previous findings
+6,13,18,19,30,32,33: 
+within the 300–600 ms time window, the P3b component was still present under high-contrast 
+preprint (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this
+this version posted November 9, 2024. 
+; 
+https://doi.org/10.1101/2024.11.09.622275
+doi: 
+bioRxiv preprint 
+
+conditions, albeit more attenuated compared to the report condition (Figure 7A). Although high-
+contrast Gabor stimuli evoked higher P3b amplitudes than low-contrast stimuli, the difference 
+between them was not statistically significant (Figure 7A). Furthermore, our multivariate pattern 
+analysis revealed late-stage successful decoding and metastable representations related to 
+conscious perception occurring after 300 ms under both attention conditions in high-contrast 
+settings. 
+Based on these findings, we contend that prior conclusions regarding conscious perception 
+derived from no-report paradigms warrant skepticism. Firstly, except for experiments 
+incorporating eye-tracking measurements, previous studies could not ensure that participants 
+clearly perceived the experimental stimuli under no-report conditions
+32,34. Participants might 
+achieve satisfactory behavioral performance even when their attention wavers or is diverted away 
+from the task or screen stimuli, potentially resulting in inattentional blindness effects
+35,36 that render 
+the stimuli unconscious. 
+Moreover, the generalizability of using eye movement metrics to distinguish between visible and 
+invisible stimuli from report to no-report conditions remains contentious. A recent publication 
+highlighted that eye movement patterns do not consistently and accurately reflect the content of 
+conscious perception
+6,42. 
+To address these concerns, we adopted Sergent et al.’s approach from auditory perception 
+experiments by increasing the complexity of tasks unrelated to the stimuli
+37. This included adding 
+color discrimination tasks, mind-wandering detection, and rapid response tasks (though 
+participants might still potentially falsify responses in mind-wandering detection questions). These 
+measures were implemented to ensure that participants’ attention remained as focused as 
+possible on the screen. 
+Our results challenge the simplistic exclusion of P3b from the neural correlates of consciousness 
+(NCC)
+ 6,18-20,31,33,34. The findings suggest that P3b may still play a role in conscious perception even 
+under no-report conditions, challenging the notion that it solely reflects motor preparation 
+potentials related to task-specific actions
+6,18-20,31,33,34. This underscores the complexity of identifying 
+definitive neural markers of consciousness and highlights the necessity for more nuanced 
+experimental designs that rigorously control for attention and perception. 
+However, alternative interpretations of our experimental results remain possible: Complex Task 
+Design and Mind-Wandering Detection: The intricate task design, along with the introduction of 
+mind-wandering detection tasks, may have led participants to adopt covert report strategies. 
+Frequency of Key Presses: The number of trials requiring key presses exceeded those that did not, 
+resulting in participants predominantly employing motor preparation strategies in most trials. 
+Consequently, motor preparation-related potentials were not fully excluded. 
+Our Responses to These Concerns Are as Follows: Mitigating Internal Reporting Strategies: Half of 
+our participants experienced the experimental sequence by performing the no-report task before 
+the report task. Since participants were unaware of the specific tasks required in the report 
+condition, this effectively prevented them from adopting covert report strategies. Furthermore, 
+separate analyses of participants who performed the no-report task first did not reveal any 
+significant differences compared to the overall results. Eliminating Motor Preparation-Related 
+Potentials: In the no-report task, participants were instructed to make responses that were entirely 
+unrelated to the visual stimuli, and the presentation order was appropriately balanced to avoid 
+systematic biases. More importantly, the ERP amplitudes we present were derived by subtracting 
+preprint (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this
+this version posted November 9, 2024. 
+; 
+https://doi.org/10.1101/2024.11.09.622275
+doi: 
+bioRxiv preprint 
+
+the blank-cue condition from the target-cue condition. This subtraction method effectively 
+mitigated components related to key responses. Additionally, in the no-report task, participants 
+were not required to report the visibility of the Gabor stimuli. Despite this, the P3b component still 
+appeared exclusively in the high-contrast valid conditions and exhibited higher decoding levels 
+within the same time window. This observation aligns with characteristics reported in studies on 
+the neural correlates of consciousness, such as the emergence of bifurcation patterns with linearly 
+increasing stimulus intensity and decoding temporal generalization within corresponding time 
+windows. 
+ 
+Retrospective attention as a trigger for conscious perception 
+To determine whether retrospective attention can indeed enhance conscious perception
+4,6,8,11 
+across a broader range of physical stimulation intensities, we conducted the third experiment. If 
+no significant neural signature differences were observed between valid and invalid conditions in 
+the no-report task, it would suggest that retrospective attention primarily enhances attention 
+directed at the target rather than conscious perception. Conversely, an increase in the amplitude 
+of the ERP component associated with conscious perception, or improved brain decoding 
+performance and advanced decoding time for the target Gabor patch with post-cueing attention, 
+regardless of reporting, would indicate enhanced conscious perception. 
+The present results corroborate previous findings on the retrospective effects of attention on 
+conscious perception observed by other researchers
+4,8. Notably, the subjective visibility results 
+demonstrated a significant post-cue effect across low, medium, and high contrast levels, a finding 
+not paralleled by accuracy measurements in the orientation discrimination task. This discrepancy 
+could be attributed to the subjective measurement's heightened sensitivity compared to the 
+objective measurement, which may be susceptible to ceiling and floor effects. While prior studies 
+primarily employed behavioral experiments to verify the effects on conscious perception, this study 
+rigorously tested these effects at the neural level, particularly through multivariate pattern analysis.  
+Multivariate pattern analysis, particularly temporal generalization analysis, has primarily been 
+applied in conscious perception experiments involving linearly increasing physical intensities. 
+However, Mathieu Landry and colleagues recently employed this method to discriminate between 
+the neural signatures of exogenous and endogenous spatial cueing attention.
+38 Their study 
+elegantly demonstrated how multivariate pattern analysis could corroborate earlier observations 
+made using behavioural and ERP measures. In the present study, we adopted a similar strategy to 
+investigate the effects of retrospective attention at the neural level. A comparison of 12 different 
+conditions confirmed that retrospective cueing attention can indeed improve the conscious 
+perception of Gabor patches. The decoding performance revealed a distinct pattern, showing that 
+the benefits of retro-cued attention were due to an enhancement of the neural signature of 
+consciousness during later time courses (400-700 ms), as indicated by previous studies
+13,23-28. (Fig 
+9, 10, 11). 
+These findings dismiss the hypothesis that the retrospective attention effect arises from memory 
+rather than a perceptual effect. If retro-perception merely prevented the rapid decay of seen 
+representations in memory, we would have observed no significant difference in neural signals 
+between valid retro-cue trials and invalid or no-cue trials in the no-report task, since post-
+perceptual processes were excluded in this design and no stimulus is required to be memorized. 
+However, the data showed clear evidence of enhancement in neural signals. Contrary to the widely 
+preprint (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this
+this version posted November 9, 2024. 
+; 
+https://doi.org/10.1101/2024.11.09.622275
+doi: 
+bioRxiv preprint 
+
+held assumption that events occurring after the disappearance of a stimulus affect only post-
+perceptual processes, such as decision-making or working memory
+39-42, our results demonstrate 
+that retro-cued attention can directly influence whether a stimulus is consciously perceived at the 
+neural level, consistent with a recent study on retrospective perception that used a mixed model 
+analysis approach
+4.  
+ 
+The relationship between attention and consciousness 
+Contemporary theories on the relationship between attention and consciousness propose three 
+main perspectives
+43: Double Dissociation between Attention and Consciousness
+44: This view asserts 
+that attention can modulate sensory processing even without conscious perception, while 
+conscious experiences can and do occur without attention. Single Dissociation between Attention 
+and Consciousness: This stance maintains that while attention can modulate sensory processing 
+regardless of conscious perception, conscious awareness requires attention. In other words, 
+attention and consciousness are distinct mental processes - attention can operate independently 
+of consciousness, but not vice versa. Attention is necessary for consciousness. No Dissociation: 
+The third perspective opposes any type of dissociation, proposing that consciousness is attention. 
+The first perspective is supported by the Recurrent Processing Theory (RPT), while the last two are 
+mainly advocated by the Global Neuronal Workspace Theory (GNWT). 
+Our current research data supports the single dissociation perspective between attention and 
+consciousness. In Experiments 1 and 2, we demonstrated that retrospective attention can 
+modulate sensory processing under unconscious conditions. Furthermore, in Experiment 3, 
+retrospective attention could still modulate conscious perception in high-contrast conditions even 
+under no-report paradigms, indicating that attention continues to play a role in conscious 
+perception even after controlling for decision-making and motor-related neural activities. 
+Notably, we employed a retro-cueing spatial attention paradigm
+45, which revealed that spatial 
+attention can modulate consciousness in purely perceptual conditions even 67ms after target 
+presentation. This demonstrates a highly flexible temporal window for attentional modulation of 
+consciousness, providing compelling experimental evidence for the single dissociation perspective. 
+ 
+Searchlight and neural correlates of consciousness 
+The Searchlight Decoding Analysis in Experiment 3 revealed distinct neural patterns associated 
+with the Report and No-report conditions under valid and invalid scenarios across varying Gabor 
+contrasts. In the Report condition, the highest decoding performance clusters were consistently 
+localized within the fronto-parietal regions, particularly under medium and high contrast 
+conditions (Figure 10 A). This localization suggests that the fronto-parietal network, known for its 
+role in attention and decision-making processes, is actively engaged when participants are 
+required to report their perceptions, especially when the visual stimuli are more salient. In contrast, 
+the No-report condition demonstrated peak decoding performance near the occipital areas, 
+notably under high contrast conditions (Figure 10 A). This parieto-occipital dominance aligns with 
+the primary visual processing functions of the occipital lobe, indicating that in the absence of a 
+reporting task, neural activity remains more confined to sensory processing regions, consistent 
+with previous research on consciousness
+6,46-48. The shift from fronto-parietal to occipital regions 
+between Report and No-report conditions highlights the modulatory effect of task demands on 
+neural engagement. Specifically, the requirement to report appears to recruit higher-order 
+preprint (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this
+this version posted November 9, 2024. 
+; 
+https://doi.org/10.1101/2024.11.09.622275
+doi: 
+bioRxiv preprint 
+
+cognitive networks beyond primary sensory areas, whereas the No-report condition allows for 
+more localized sensory processing. These findings underscore the dynamic interplay between 
+attention, perception, and executive functions, and suggest that task instructions can significantly 
+influence the spatial distribution of neural decoding performance. 
+Although late components in ERP, time decoding, and time generalization analyses are capable 
+of decoding attention and consciousness, our Searchlight Decoding Analysis within the late time 
+window (400 ms–600 ms) still indicates that, under no-report conditions, the decoding locations 
+for attention and consciousness remain near posterior brain regions rather than encompassing 
+the whole brain or the prefrontal cortex. However, due to the low spatial resolution of EEG, we are 
+unable to accurately localize the cortical sources of these decoding signals. Therefore, these 
+findings warrant further investigation using higher spatial resolution techniques, such as fMRI and 
+iEEG. 
+ 
+ 
+Limitations of the study 
+It is noteworthy that in the no-report task, we only observed the retrospective attention effect in 
+the high-contrast condition. This may be due to our use of an adapted Posner Cueing Paradigm
+45, 
+which is typically employed in spatial attention research rather than studies on consciousness. As 
+a result, participants were required to divide their attention between two locations simultaneously. 
+In the no-report task, however, participants were asked to perform a task entirely unrelated to the 
+stimulus, thus allocating less attention to the target stimulus. Consequently, the contrast threshold 
+for the Gabor patches may have increased. This is evident in the medium contrast condition, where 
+the decoding performance in the invalid condition was higher than in the valid condition (Figs. 8, 
+10) when attention was not fully focused on the Gabor task. In other words, the cue presented at 
+the same location produced an interference effect—similar to a backward masking effect
+14,15,37. 
+Previous studies on the bifurcation model of consciousness have generally employed stimuli with 
+the same physical intensity in both report and no-report tasks
+17,18, and this study followed that 
+approach as well. In the field of consciousness research, some researchers have used eye 
+movement measurements
+48-50 to ensure that physical stimuli are visible even when participants do 
+not provide explicit reports. Therefore, in future studies on the retrospective spatial cueing effect, 
+it would be advisable to include eye movement measurements to ensure that participants' 
+subjective visibility in no-report tasks does not significantly differ from their visibility in report tasks. 
+However, a more recent review
+51 suggests that eye movement patterns do not always accurately 
+reflect the content of conscious perception and can sometimes significantly diverge from it
+6,42. 
+Additionally, although we controlled for the sequence effects of the report and no-report tasks 
+(see Methods), we did not specifically examine the potential impact of the order of these sessions, 
+which has been rigorously tested in a previous study
+12. Lastly, we did not investigate potential 
+sex/gender differences in retrospective attention effects, which could be a valuable avenue for 
+future research. 
+ 
+Future Directions and Practical Implications 
+Building on our findings, future research should explore the incorporation of eye-tracking 
+measures alongside retro-cueing paradigms to better ascertain the relationship between attention 
+and conscious perception. Additionally, investigating sex/gender differences could provide deeper 
+preprint (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this
+this version posted November 9, 2024. 
+; 
+https://doi.org/10.1101/2024.11.09.622275
+doi: 
+bioRxiv preprint 
+
+insights into the generalizability of retrospective attention effects. Expanding the range of task 
+complexities and stimulus types could also help in understanding the boundaries of retrospective 
+attention effects. 
+From a practical standpoint, our findings have potential applications in areas such as attention 
+training programs and cognitive rehabilitation therapies. Enhancing conscious perception through 
+retrospective attention could aid individuals with attentional deficits or those recovering from 
+cognitive impairments. Furthermore, understanding the neural mechanisms underlying attention 
+and consciousness can inform the development of neurofeedback and brain-computer interface 
+technologies aimed at optimizing cognitive performance. 
+In conclusion, this study provides robust evidence that retrospective attention can enhance 
+conscious perception at the neural level, distinguishing between sensory interaction and 
+attentional mechanisms. By demonstrating that subliminal retro-cues modulate both N2pc and 
+P3b components, we highlight the intricate relationship between attention and consciousness. Our 
+findings support the single dissociation perspective, suggesting that while attention can operate 
+independently, it is a necessary component for conscious awareness. These insights contribute to 
+the ongoing discourse on the neural correlates of consciousness and theories of consciousness 
+and pave the way for future investigations into the complex interplay between attention, 
+perception, and consciousness. 
+ 
+STAR METHODS 
+RESOURCE AVAILABILITY 
+Lead contact 
+Further information and requests for resources and reagents should be directed to and will be 
+fulfilled by the lead contact, Xilin Zhang (xlzhang@m.scnu.edu.cn). 
+Materials availability 
+This study did not generate new unique reagents. 
+Data and code availability 
+Freely available software and algorithms used for analyses are listed in the resource table. The 
+anonymized datasets for this study are available at Open Science Framework, https://osf.io/ This 
+paper does not report any original code. Any information required to reanalyze the data 
+reported in this paper is available from the lead contact upon request. 
+ 
+EXPERIMENTAL MODEL AND STUDY PARTICIPANT DETAILS 
+A total of 29 human subjects (9 male, 18–28 years old) were involved in the Experiments 1, 
+Standard Deviation = 2.94. Twenty-four of them participated in the Experiments 1. 23 human 
+subjects (9 male, 18–29 years old) participated in the Experiments 2 but one subject in the 
+Experiments 2 was excluded because of too many artifacts (>10% trials was discarded). 20 human 
+subjects (9 male, 18–29 years old) participated in the Experiments 3 and no subject was 
+excluded. The sample size was based on the previous study regarding retro-cueing attention 
+and a priori power calculation using G*Power program. The power analysis indicated that a 
+sample of 24, 23 and 20 in our behavioral and EEG experiments, respectively, would be sufficient 
+to detect a medium-size effect (f = 0.35) in a within-subjects analysis of ANOVA with the power 
+of 0.8. They were naive to the purpose of the study except for one subject in Experiments 3(One 
+of the authors). They were right-handed, reported normal or corrected-to-normal vision, and 
+preprint (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this
+this version posted November 9, 2024. 
+; 
+https://doi.org/10.1101/2024.11.09.622275
+doi: 
+bioRxiv preprint 
+
+had no known neurological or visual disorders. They gave written, informed consent, and our 
+procedures and protocols were approved by the human subjects review committee of School of 
+Psychology at South China Normal University. 
+ 
+METHOD DETAILS 
+Stimuli 
+In both the Experiments 1 and Experiments 2, the stimuli consisted of two horizontally arranged 
+black circles (1.3 cd/m², 3° visual angle in diameter) on the screen, along with a central fixation 
+cross (1.3 cd/m², 0.5° visual angle) for fixation. These circles were positioned 5° to the left and 
+right of the fixation point. The experimental procedure was divided into a threshold testing 
+phase and a formal experiment phase. Cues were briefly presented (16.67 ms) as a dimming (20 
+cd/m²) of one of the two black circles, followed by a longer dimming (83.33 ms) of both circles 
+(with brightness adjusted for each participant) to mask the cue in the Invisible Cue conditions. In 
+the Visible Cue conditions, there was no dimming, and a fixation screen was shown instead. The 
+target stimulus was a Gabor patch (2° visual angle in diameter) tilted either 30° or 150° from the 
+vertical. In Experiments 3, the stimuli were similar to those in the Experiments 1 and Experiments 
+2, with the following adjustments: the diameter of the black circles was increased to 4° visual 
+angle, and the diameter of the Gabor patch was increased to 3° visual angle. Additionally, the 
+two black circles were positioned 5° above and below the fixation point, rather than to the sides. 
+ 
+Behavioral experiments Overview 
+The experiment was programmed using Psychtoolbox based on Matlab2016b. All stimuli were 
+presented on a 19-inch LED computer screen with a resolution of 1024×768 and a refresh rate 
+of 60 Hz. The background was gray (28 cd/m²). 
+In the Experiments 1, two horizontally arranged black circles (1.3 cd/m², 3° visual angle in 
+diameter) were always present on the screen. In Experiments 2, the black circles on the left and 
+right sides were shifted downward by 2.5° of visual angle compared to the Experiments 1. In 
+Experiments 3, two vertically arranged black circles (1.3 cd/m², 4° visual angle in diameter) were 
+used instead. A fixation cross (1.3 cd/m², 0.5° visual angle) was used for fixation. 
+In the Experiments 1 and Experiments 2, the black circles were positioned 5° to the left and right 
+of the fixation point. In Experiments 3, the black circles were positioned 5° above and below the 
+fixation point. The viewing distance was 57 cm, and participants' head positions were stabilized 
+using a chin rest. The black fixation cross was always displayed at the center of the screen. 
+ 
+Threshold measurement task 
+Before each Retro-Cueing Spatial Attention (RCSA) task, participants first performed a two-
+alternative forced-choice (2AFC) judgment to determine the location of the cue stimulus—either 
+to the left or right of the fixation point in the Experiments 1 and Experiments 2, or above or 
+below in Experiments 3. Accuracy in the visible cue condition was maintained above 95%, while in 
+the invisible cue condition, it was kept at 50%, i.e., chance level. Following this, we measured the 
+orientation discrimination thresholds of the target Gabor using a 2AFC staircase procedure 
+aimed at achieving 75% accuracy. This was done to ensure equal performance across both visible 
+and invisible cue conditions. The stimuli and procedure for this threshold measurement task 
+were identical to those of the RCSA task, except that no cue stimuli were presented. The contrast 
+preprint (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this
+this version posted November 9, 2024. 
+; 
+https://doi.org/10.1101/2024.11.09.622275
+doi: 
+bioRxiv preprint 
+
+discrimination threshold measurement task consisted of two sessions: one for the visible 
+condition (without a Mask stimulus) and one for the invisible condition (with a Mask stimulus). 
+The order of these sessions was counterbalanced across participants. Each session included two 
+staircases of 80 trials each. Each trial began with a central fixation point. Participants were 
+instructed to press one of two buttons to indicate the orientation of the target Gabor. The 
+contrast of the target Gabor varied from trial to trial and was controlled by the staircase 
+procedure to estimate the participants’ orientation discrimination threshold at a 75% correct 
+level. 
+ 
+Experiment1 
+Each participant completed four staircase sessions (80 trials each): two for the visible cue 
+condition and two for the invisible cue condition. These sessions determined the target's 
+contrast at which participants could discriminate the target's orientation with 75% accuracy, 
+without any attentional manipulation. This contrast value was then fixed for the remainder of the 
+experiment. Participants subsequently performed four experimental blocks, each consisting of 
+288 trials, resulting in 96 trials for each combination of cueing and SOA conditions. 
+As shown in Figure 1A, each trial commenced with the appearance of a fixation cross at the 
+center. After a random delay of 800 to 1200 ms, a target—a Gabor patch with a random 
+orientation (30° or 150° away from the vertical)—was displayed for 33.33 ms within one of the 
+circles located to the left or right of the fixation point. The target contrast was individually 
+calibrated for each participant using a staircase method. A 16.67 ms cue, consisting of a brief 
+dimming of one of the circles, could appear either before or after the target. This cue could be 
+either valid (on the same side as the target) or invalid (on the opposite side). Following the cue, 
+there was an 83.33 ms mask or fixation period for the invisible and visible conditions, 
+respectively.  
+A response screen was presented 800 to 1200 ms after the offset of the mask or fixation, with a 
+response cue indicating the target’s side (marked by a thickening and dimming on one side of 
+the cross). Participants were then asked to report the target’s orientation by choosing between 
+two options (Left/Right). Subsequently, a second response screen appeared, displaying a 
+dimming cross at the fixation point, where participants reported the position of the cue in a two-
+alternative forced choice (2AFC) task. 
+ 
+Experiment2 
+Each participant completed two staircase sessions (80 trials each) for the invisible cue condition to 
+determine the target's contrast at which they could discriminate the target's orientation with 75% 
+accuracy, without any attentional manipulation. This contrast value was then fixed for the 
+remainder of the experiment. Participants subsequently performed four experimental blocks, each 
+consisting of 153 trials, resulting in 136 trials for each cueing condition, including the non-cue 
+condition and catch trials (33.33%). 
+As shown in Figure 1B, the stimulus presentation for the EEG experiment was consistent with that 
+of the Experiments 1. The procedure in Experiments 2 was fundamentally similar to the 
+Experiments 1, with the following modifications: the two circles were placed below the fixation 
+point (shifted downward by 2.5° of visual angle compared to the Experiments 1); the target 
+presentation screen included a fixation screen with a 33.33% probability (catch trials); the stimulus 
+preprint (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this
+this version posted November 9, 2024. 
+; 
+https://doi.org/10.1101/2024.11.09.622275
+doi: 
+bioRxiv preprint 
+
+onset asynchrony (SOA) between the target and the cue was fixed at 66.67 ms; a Non-Cue 
+condition was added to the cue presentation; and only the mask stimulus was presented, thereby 
+maintaining only the invisible condition. 
+ 
+Experiment3 
+Each participant completed six staircase sessions (80 trials each) for the visible cue condition to 
+determine the target's contrast at which they could discriminate the target's orientation with 50%, 
+75%, and 100% accuracy, without any attentional manipulation. These determined contrast values 
+were then fixed for the remainder of the experiment. Participants subsequently performed four 
+experimental blocks, each consisting of 196 trials, resulting in 112 trials for each cueing 
+condition, including the catch trials (25%). 
+As shown in Figure 1C, in this experiment, two circles were positioned above and below the 
+fixation point. The Gabor patch and the cue randomly appeared in one of the two circles. The 
+physical stimulus intensity was determined for each participant based on the Gabor contrast 
+levels obtained from the staircase test: high contrast for near 100% orientation discrimination 
+accuracy, medium contrast for approximately 75% accuracy, and low contrast for about 50% 
+accuracy. The fixation screen from Experiments 2 was retained for catch trials. 
+As shown in Figure 1D, on the response screen, the active reporting condition remained similar 
+to the Gabor patch orientation discrimination task from the previous experiment. However, 
+participants were now required to identify both the orientation of the Gabor patch (Left or Right) 
+and rate the subjective visibility ("visible" or "invisible") simultaneously. Thus, in each trial, 
+participants had four response options. 
+Additionally, a passive viewing condition was introduced, wherein participants were required to 
+complete one of three randomly presented tasks: 
+1. Speed Response Task: Press the SPACE key whenever a green cross was displayed at fixation. 
+2. Mind-Wandering Detection Task: Participants answered the question "What is on your mind 
+just now?" by choosing one of four options: "the Gabor/Fixation," "the cross," "my thoughts," or 
+"nothing/I feel sleepy." 
+3. A Simple Message Prompting: "Press SPACE to continue." 
+ 
+EEG data Acquisition   
+Sixty-four electrodes were placed according to the international 10-20 system to collect EEG 
+data, using the Brain Products EEG amplifier (Brain Products, Munich, Germany) for signal 
+amplification. During recording, the impedance of all electrodes was kept below 10 kΩ. The 
+frontal electrode FCz served as the online reference point, while the electrode AFz served as the 
+ground. No online filtering was applied to the electrodes, and continuous sampling was 
+performed at a frequency of 1000 Hz per channel. Eye movements and blinks were monitored 
+using the IO channel located under the right eye. 
+ 
+Data Preprocessing 
+Offline preprocessing of EEG data was performed using BrainVision Analyzer 2.2 (Brain Products) 
+and the EEGLAB toolbox
+52. Firstly, visual identification of any noisy electrodes was performed, and 
+interpolation of surrounding electrodes was used to reconstruct the noisy channels if necessary. 
+All electrodes were then re-referenced to the average of the left and right mastoids. Then, all EEG 
+preprint (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this
+this version posted November 9, 2024. 
+; 
+https://doi.org/10.1101/2024.11.09.622275
+doi: 
+bioRxiv preprint 
+
+signals underwent a series of filters: 0.1 Hz high-pass, 25 Hz low-pass, and 50 Hz notch filtering 
+with a 24 dB/Oct roll-off. Vertical eye blink correction and horizontal eye drift correction were also 
+applied. Segmentation of trials around the target (or the same time point in cue-mask-only trials). 
+Segments containing peak-to-peak deviations exceeding ±70 μV were excluded from the analysis, 
+and if the number of excluded segments exceeded 20% of the total trials, the data from that 
+participant were discarded. Baseline correction using the time window from -100 to 0ms pre-
+stimulus. 
+ 
+ERPs and cue, cue-mask subtraction 
+Trials were sorted by condition and trial type (valid, invalid, or cue/cue-mask only). Each group of 
+trials was averaged at the participant level and low-pass filtered at 25 Hz. To isolate stimulus-
+related neural activity from cue/cue-mask-evoked activity, the cue/cue-mask-only ERPs were 
+time-shifted to align the timing of the cues with cue onset in the stimulus-cue-mask trials, 
+following the procedure of Del Cul and Cohen
+13,17. This was done for each condition, and the time-
+shifted mask ERPs were subtracted from the corresponding stimulus-cue-mask ERPs as follows: 
+The cue/cue-mask-only ERP is initially time-locked to cue onset (i.e., time 0 is when the first cue 
+was presented). 
+The cue/cue-mask-only ERP is then shifted forward in time so that cue onset aligns with cue onset 
+in each of the stimulus-cue-mask ERPs. 
+The time-shifted mask ERPs are subtracted from the corresponding stimulus-cue-mask ERPs. 
+ 
+ERP analysis 
+Three ERPs of interest were identified based on data from the initial group: the N2pc in 
+Experiments 2, the VAN in Experiments 3 (both displaying bifurcation dynamics in the no-report 
+condition), and the P3b (displaying bifurcation dynamics in the report condition). The following 
+time windows and electrodes were selected for each component and pre-registered on OSF 
+(nearest channels of the international 10-20 system are reported in parentheses): 
+N2pc: 240-280 ms, electrodes 9, 42, 56 (O1/O2, PO3/PO4, PO7/PO8). 
+P3b: 300-600 ms, electrodes 1, 4-6, 13-15 (Pz, P1, P2, CPz, CP1, CP2, Cz). 
+VAN: 240-280 ms, electrodes 9, 10, 42, 43, 56, 57 ( P5, P6, P7, P8, PO7, PO8) 
+These time windows and electrodes were used for all analyses of these three ERPs. Additionally, a 
+post-hoc analysis of the VAN was conducted, measured from 240-280 ms at electrodes 9, 10, 42, 
+43, 56, 57 (P5, P6, P7, P8, PO7, PO8). 
+ 
+Multivariate pattern analysis 
+All decoding was conducted using the MVPA-Light toolbox
+20 and fieldtrip
+53 for MATLAB. Data was 
+exported from BrainVision Analyzer and formatted for use with the MVPA-Light toolbox using 
+EEGLAB. For each cue validity and task condition, a linear classifier (LDA) was trained to distinguish 
+between stimulus-present and cue-mask-only trials using a 9-fold cross-validation procedure. 
+At each time point, the decoder was first trained on 8/9 of the trials and then tested on the 
+remaining subset of trials. This process was repeated nine times, ensuring that the decoder was 
+both trained and tested on the entire dataset over the course of the procedure. Importantly, the 
+classifier was never tested on data used for training when assessing performance.  
+Trial numbers were balanced across classes so that there were equal numbers of stimulus-present 
+preprint (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this
+this version posted November 9, 2024. 
+; 
+https://doi.org/10.1101/2024.11.09.622275
+doi: 
+bioRxiv preprint 
+
+and cue-mask-only trials in each fold. Classifier sensitivity, summarized as the area under the 
+receiver operating characteristic curve (AUC), was averaged across the folds to calculate overall 
+classifier performance. 
+ 
+Temporal generalization 
+The temporal generalization analysis technique characterizes the neural dynamics of perceptual 
+representations by testing if a classifier trained on data from one time point can successfully 
+discriminate between classes when applied to data from different time points. If a classifier 
+trained at time T1 is able to decode stimulus presence at a level significantly above chance when 
+tested at time T2, it suggests that the neural dynamics supporting above-chance decoding at T1 
+are recurring at T2.  
+Temporal generalization matrices were computed by training classifiers on one time point and 
+testing each at every other time point. Classification sensitivity was statistically tested against 
+chance and corrected for multiple comparisons using 1000-permutation cluster-based 
+permutation testing. 
+ 
+REFERENCES 
+1. 
+Rees, G., Kreiman, G., and Koch, C. (2002). Neural correlates of consciousness in humans. 
+Nature Reviews Neuroscience 3, 261-270. 
+2. 
+Dehaene, S., Changeux, J.-P., Naccache, L., Sackur, J., and Sergent, C. (2006). Conscious, 
+preconscious, and subliminal processing: a testable taxonomy. Trends in cognitive 
+sciences 10, 204-211. 
+3. 
+Sergent, C., Ruff, C.C., Barbot, A., Driver, J., and Rees, G. (2011). Top–Down Modulation 
+of Human Early Visual Cortex after Stimulus Offset Supports Successful Postcued Report. 
+Journal of Cognitive Neuroscience 23, 1921-1934. 10.1162/jocn.2010.21553. 
+4. 
+Thibault, L., van den Berg, R., Cavanagh, P., and Sergent, C. (2016). Retrospective 
+Attention Gates Discrete Conscious Access to Past Sensory Stimuli. PLoS One 11, 
+e0148504. 10.1371/journal.pone.0148504. 
+5. 
+Sergent, C., Wyart, V., Babo-Rebelo, M., Cohen, L., Naccache, L., and Tallon-Baudry, C. 
+(2013). Cueing attention after the stimulus is gone can retrospectively trigger conscious 
+perception. Curr Biol 23, 150-155. 10.1016/j.cub.2012.11.047. 
+6. 
+Tsuchiya, N., Wilke, M., Frässle, S., and Lamme, V.A.F. (2015). No-Report Paradigms: 
+Extracting the True Neural Correlates of Consciousness. Trends in Cognitive Sciences 19, 
+757-770. 10.1016/j.tics.2015.10.002. 
+7. 
+Xia, Y., Morimoto, Y., and Noguchi, Y. (2016). Retrospective triggering of conscious 
+perception by an interstimulus interaction. Journal of Vision 16. 10.1167/16.7.3. 
+8. 
+Sergent, C., Wyart, V., Babo-Rebelo, M., Cohen, L., Naccache, L., and Tallon-Baudry, C. 
+(2013). Cueing Attention after the Stimulus Is Gone Can Retrospectively Trigger 
+Conscious Perception. Current Biology 23, 150-155. 10.1016/j.cub.2012.11.047. 
+9. 
+Mashour, G.A., Roelfsema, P., Changeux, J.-P., and Dehaene, S. (2020). Conscious 
+Processing and the Global Neuronal Workspace Hypothesis. Neuron 105, 776-798. 
+10.1016/j.neuron.2020.01.026. 
+10. 
+Dehaene, S., and Changeux, J.P. (2011). Experimental and theoretical approaches to 
+conscious processing. Neuron 70, 200-227. 10.1016/j.neuron.2011.03.018. 
+preprint (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this
+this version posted November 9, 2024. 
+; 
+https://doi.org/10.1101/2024.11.09.622275
+doi: 
+bioRxiv preprint 
+
+11. 
+Cohen, M.A., Ortego, K., Kyroudis, A., and Pitts, M. (2020). Distinguishing the Neural 
+Correlates of Perceptual Awareness and Postperceptual Processing. The Journal of 
+Neuroscience 40, 4925-4935. 10.1523/jneurosci.0120-20.2020. 
+12. 
+Sergent, C., Corazzol, M., Labouret, G., Stockart, F., Wexler, M., King, J.-R., Meyniel, F., 
+and Pressnitzer, D. (2021). Bifurcation in brain dynamics reveals a signature of conscious 
+processing independent of report. Nature Communications 12. 10.1038/s41467-021-
+21393-z. 
+13. 
+Cohen, M.A., Dembski, C., Ortego, K., Steinhibler, C., and Pitts, M. (2023). Neural 
+signatures of visual awareness independent of post-perceptual processing. bioRxiv, 
+2023.2006.2009.543951. 10.1101/2023.06.09.543951. 
+14. 
+Hosseini, M., Zivony, A., Eimer, M., Wyble, B., and Bowman, H. (2024). Transient 
+Attention Gates Access Consciousness: Coupling N2pc and P3 Latencies Using Dynamic 
+Time Warping. The Journal of Neuroscience 44. 10.1523/jneurosci.1798-23.2024. 
+15. 
+Xia, Y., Morimoto, Y., and Noguchi, Y. (2016). Retrospective triggering of conscious 
+perception by an interstimulus interaction. J Vis 16, 3. 10.1167/16.7.3. 
+16. 
+Prasad, S., and Mishra, R.K. (2019). The Nature of Unconscious Attention to Subliminal 
+Cues. Vision (Basel) 3. 10.3390/vision3030038. 
+17. 
+Del Cul, A., Baillet, S., and Dehaene, S. (2007). Brain Dynamics Underlying the Nonlinear 
+Threshold for Access to Consciousness. PLOS Biology 5, e260. 
+10.1371/journal.pbio.0050260. 
+18. 
+Eklund, R., and Wiens, S. (2018). Visual awareness negativity is an early neural correlate 
+of awareness: A preregistered study with two Gabor sizes. Cogn Affect Behav Neurosci 
+18, 176-188. 10.3758/s13415-018-0562-z. 
+19. 
+Dembski, C., Koch, C., and Pitts, M. (2021). Perceptual awareness negativity: a 
+physiological correlate of sensory consciousness. Trends Cogn Sci 25, 660-670. 
+10.1016/j.tics.2021.05.009. 
+20. 
+Treder, M.S. (2020). MVPA-Light: A Classification and Regression Toolbox for Multi-
+Dimensional Data. Frontiers in Neuroscience 14. 10.3389/fnins.2020.00289. 
+21. 
+Etzel, J.A., Zacks, J.M., and Braver, T.S. (2013). Searchlight analysis: promise, pitfalls, and 
+potential. Neuroimage 78, 261-269. 
+22. 
+Collins, E., Robinson, A.K., and Behrmann, M. (2018). Distinct neural processes for the 
+perception of familiar versus unfamiliar faces along the visual hierarchy revealed by EEG. 
+NeuroImage 181, 120-131. 
+23. 
+King, J.R., Faugeras, F., Gramfort, A., Schurger, A., El Karoui, I., Sitt, J.D., Rohaut, B., 
+Wacongne, C., Labyt, E., Bekinschtein, T., et al. (2013). Single-trial decoding of auditory 
+novelty responses facilitates the detection of residual consciousness. NeuroImage 83, 
+726-738. https://doi.org/10.1016/j.neuroimage.2013.07.013. 
+24. 
+King, J.R., and Dehaene, S. (2014). Characterizing the dynamics of mental 
+representations: the temporal generalization method. Trends in Cognitive Sciences 18, 
+203-210. 10.1016/j.tics.2014.01.002. 
+25. 
+Vishne, G., Gerber, E.M., Knight, R.T., and Deouell, L.Y. (2023). Distinct ventral stream and 
+prefrontal cortex representational dynamics during sustained conscious visual 
+perception. Cell Reports 42. 10.1016/j.celrep.2023.112752. 
+26. 
+Schurger, A., Sarigiannidis, I., Naccache, L., Sitt, J.D., and Dehaene, S. (2015). Cortical 
+preprint (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this
+this version posted November 9, 2024. 
+; 
+https://doi.org/10.1101/2024.11.09.622275
+doi: 
+bioRxiv preprint 
+
+activity is more stable when sensory stimuli are consciously perceived. Proceedings of 
+the National Academy of Sciences 112, E2083-E2092. 
+27. 
+Marti, S., and Dehaene, S. (2017). Discrete and continuous mechanisms of temporal 
+selection in rapid visual streams. Nat Commun 8, 1955. 10.1038/s41467-017-02079-x. 
+28. 
+Derda, M., Koculak, M., Windey, B., Gociewicz, K., Wierzchoń, M., Cleeremans, A., and 
+Binder, M. (2019). The role of levels of processing in disentangling the ERP signatures of 
+conscious visual processing. Consciousness and cognition 73, 102767. 
+29. 
+Focker, J., Mortazavi, M., Khoe, W., Hillyard, S.A., and Bavelier, D. (2019). Neural 
+Correlates of Enhanced Visual Attentional Control in Action Video Game Players: An 
+Event-Related Potential Study. J Cogn Neurosci 31, 377-389. 10.1162/jocn_a_01230. 
+30. 
+Dellert, T., Krebs, S., Bruchmann, M., Schindler, S., Peters, A., and Straube, T. (2022). 
+Neural correlates of consciousness in an attentional blink paradigm with uncertain target 
+relevance. NeuroImage 264, 119679. https://doi.org/10.1016/j.neuroimage.2022.119679. 
+31. 
+Koch, C., Massimini, M., Boly, M., and Tononi, G. (2016). Neural correlates of 
+consciousness: progress and problems. Nature reviews neuroscience 17, 307-321. 
+32. 
+Pitts, M.A., Padwal, J., Fennelly, D., Martinez, A., and Hillyard, S.A. (2014). Gamma band 
+activity and the P3 reflect post-perceptual processes, not visual awareness. Neuroimage 
+101, 337-350. 10.1016/j.neuroimage.2014.07.024. 
+33. 
+Aru, J., Bachmann, T., Singer, W., and Melloni, L. (2012). Distilling the neural correlates of 
+consciousness. Neuroscience and biobehavioral reviews 36, 737-746. 
+10.1016/j.neubiorev.2011.12.003. 
+34. 
+Block, N. (2019). What Is Wrong with the No-Report Paradigm and How to Fix It. Trends 
+Cogn Sci 23, 1003-1013. 10.1016/j.tics.2019.10.001. 
+35. 
+Chica, A.B., Lasaponara, S., Chanes, L., Valero-Cabre, A., Doricchi, F., Lupianez, J., and 
+Bartolomeo, P. (2011). Spatial attention and conscious perception: the role of 
+endogenous and exogenous orienting. Atten Percept Psychophys 73, 1065-1081. 
+10.3758/s13414-010-0082-6. 
+36. 
+Mack, A. (2003). Inattentional blindness: Looking without seeing. Current directions in 
+psychological science 12, 180-184. 
+37. 
+Sergent, C., Corazzol, M., Labouret, G., Stockart, F., Wexler, M., King, J.-R., Meyniel, F., 
+and Pressnitzer, D. (2021). Bifurcation in brain dynamics reveals a signature of conscious 
+processing independent of report. Nature Communications 12, 1149. 10.1038/s41467-
+021-21393-z. 
+38. 
+Landry, M., da Silva Castanheira, J., and Jerbi, K. (2023). Differential and Overlapping 
+Effects between Exogenous and Endogenous Attention Shape Perceptual Facilitation 
+during Visual Processing. Journal of Cognitive Neuroscience 35, 1279-1300. 
+10.1162/jocn_a_02015. 
+39. 
+Kinchla, R.A., Chen, Z., and Evert, D. (1995). Precue effects in visual search: data or 
+resource limited? Percept Psychophys 57, 441-450. 10.3758/bf03213070. 
+40. 
+Prinzmetal, W., Long, V., and Leonhardt, J. (2008). Involuntary attention and brightness 
+contrast. Perception & Psychophysics 70, 1139-1150. 10.3758/PP.70.7.1139. 
+41. 
+Vogel, E.K., Woodman, G.F., and Luck, S.J. (2005). Pushing around the locus of selection: 
+evidence for the flexible-selection hypothesis. J Cogn Neurosci 17, 1907-1922. 
+10.1162/089892905775008599. 
+preprint (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this
+this version posted November 9, 2024. 
+; 
+https://doi.org/10.1101/2024.11.09.622275
+doi: 
+bioRxiv preprint 
+
+42. 
+Yeshurun, Y., Montagna, B., and Carrasco, M. (2008). On the flexibility of sustained 
+attention and its effects on a texture segmentation task. Vision Res 48, 80-95. 
+10.1016/j.visres.2007.10.015. 
+43. 
+Pitts, M.A., Lutsyshyna, L.A., and Hillyard, S.A. (2018). The relationship between attention 
+and consciousness: an expanded taxonomy and implications for ‘no-report’paradigms. 
+Philosophical Transactions of the Royal Society B: Biological Sciences 373, 20170348. 
+44. 
+Koch, C., and Tsuchiya, N. (2007). Attention and consciousness: two distinct brain 
+processes. Trends in Cognitive Sciences 11, 16-22. 10.1016/j.tics.2006.10.012. 
+45. 
+Posner, M.I. (1980). Orienting of attention. Q J Exp Psychol 32, 3-25. 
+10.1080/00335558008248231. 
+46. 
+Ferrante, O., Gorska-Klimowska, U., Henin, S., Hirschhorn, R., Khalaf, A., Lepauvre, A., Liu, 
+L., Richter, D., Vidal, Y., Bonacchi, N., et al. (2023). An adversarial collaboration to 
+critically evaluate theories of consciousness. bioRxiv, 2023.2006.2023.546249. 
+10.1101/2023.06.23.546249. 
+47. 
+Hatamimajoumerd, E., Ratan Murty, N.A., Pitts, M., and Cohen, M.A. (2022). Decoding 
+perceptual awareness across the brain with a no-report fMRI masking paradigm. Curr 
+Biol 32, 4139-4149 e4134. 10.1016/j.cub.2022.07.068. 
+48. 
+Frässle, S., Sommer, J., Jansen, A., Naber, M., and Einhäuser, W. (2014). Binocular Rivalry: 
+Frontal Activity Relates to Introspection and Action But Not to Perception. The Journal of 
+Neuroscience 34, 1738-1747. 10.1523/jneurosci.4403-13.2014. 
+49. 
+Tong, F., Canales-Johnson, A., Beerendonk, L., Chennu, S., Davidson, M.J., Ince, R.A.A., 
+and van Gaal, S. (2023). Feedback information transfer in the human brain reflects 
+bistable perception in the absence of report. PLOS Biology 21. 
+10.1371/journal.pbio.3002120. 
+50. 
+Panagiotaropoulos, Theofanis I., Deco, G., Kapoor, V., and Logothetis, Nikos K. (2012). 
+Neuronal Discharges and Gamma Oscillations Explicitly Reflect Visual Consciousness in 
+the Lateral Prefrontal Cortex. Neuron 74, 924-935. 10.1016/j.neuron.2012.04.013. 
+51. 
+He, B.J. (2023). Next frontiers in consciousness research. Neuron 111, 3150-3153. 
+10.1016/j.neuron.2023.09.042. 
+52. 
+Delorme, A., and Makeig, S. (2004). EEGLAB: an open source toolbox for analysis of 
+single-trial EEG dynamics including independent component analysis. J Neurosci 
+Methods 134, 9-21. 10.1016/j.jneumeth.2003.10.009. 
+53. 
+Oostenveld, R., Fries, P., Maris, E., and Schoffelen, J.-M. (2011). FieldTrip: Open Source 
+Software for Advanced Analysis of MEG, EEG, and Invasive Electrophysiological Data. 
+Computational Intelligence and Neuroscience 2011, 156869. 
+https://doi.org/10.1155/2011/156869. 
+ 
+preprint (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this
+this version posted November 9, 2024. 
+; 
+https://doi.org/10.1101/2024.11.09.622275
+doi: 
+bioRxiv preprint 

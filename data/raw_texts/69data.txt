@@ -1,0 +1,1917 @@
+Vol.:(0123456789)
+AI & SOCIETY (2026) 41:4929–4947 
+https://doi.org/10.1007/s00146-026-02896-z
+RESEARCH
+Synthetic emotions and consciousness: exploring architectural 
+boundaries
+Hermann Borotschnig1 
+Received: 24 June 2025 / Accepted: 26 January 2026 / Published online: 4 March 2026 
+© The Author(s) 2026
+Abstract
+As artificial agents display increasingly sophisticated emotion-like behaviors, frameworks for assessing whether such sys-
+tems risk instantiating consciousness remain limited. This contribution asks whether synthetic emotion-like control can be 
+implemented while deliberately excluding architectural features that major theories associate with access-like consciousness. 
+We propose architectural principles (A1–A8) for a hierarchical, dual-source implementation in which (i) immediate needs 
+generate motivational signals and (ii) episodic memory provides affective guidance from similar past situations; the two 
+sources converge to modulate action selection. To operationalize consciousness-related risk, we distill predictions from major 
+theories into four engineering risk-reduction constraints: (R1) no content-general, workspace-like global broadcast, (R2) no 
+metarepresentation, (R3) no autobiographical consolidation, and (R4) bounded learning. We address three questions: (Q1) 
+Can emotion-like control satisfy R1–R4? We present a concrete architecture as an existence proof. (Q2) Can the architecture 
+be extended without introducing access-enabling features? We identify stable modifications that preserve compliance. (Q3) 
+Can we trace graded paths that plausibly increase access risk? We map gradual transitions that progressively violate the con-
+straints. While we cannot resolve questions about consciousness, our contribution operates at three levels: on the engineering 
+side, we present a modular, biologically motivated control architecture; on the theoretical side, we propose a control model 
+of emotions and a methodological template for converting consciousness-related questions into auditable architectural tests; 
+on the safety side, we sketch preliminary audit indicators that may inform future governance frameworks. The architecture 
+functions independently as an emotion-like controller, while the risk-reduction criteria may extend to other AI systems. We 
+offer no definitive answers about phenomenology, but we provide starting points for navigating uncertainty—tools intended 
+to evolve as understanding advances.
+Keywords  Synthetic emotion · Consciousness · AI safety · Affective computing · Heuristic control
+1  Introduction
+Artificial systems now exhibit flexible decision-making, 
+memory, and context-sensitive behavior at a scale that brings 
+long-standing questions about machine consciousness, emo-
+tion, and moral status into practical focus (Seth 2025; Butlin 
+et al. 2025). This contribution asks a focused question of 
+public and policy relevance—and of philosophical inter-
+est: Can artificial systems implement emotion-like control 
+as a practical control layer while deliberately avoiding 
+architectural features that major theories associate with 
+access-like consciousness?
+Artificial architectures offer a tractable domain for prob-
+ing such questions. We argue that an agent need not self-
+ascribe feelings to operate via affect-like mechanisms. In our 
+operational sense, emotion-like control constitutes a specific 
+family of heuristics for resource-bounded action selection. 
+More concretely, it is a biologically motivated control archi-
+tecture (A1–A8) in which need-based appraisal and episodic 
+affective memory jointly generate affective states that bias 
+action selection. Affect is not peripheral in this design: affec-
+tive variables pervade need appraisal, memory encoding, 
+retrieval, fusion, and decision-making, such that the system 
+can neither be understood nor coherently specified without 
+them.
+ *	 Hermann Borotschnig 
+	
+borotschnig-AI@protonmail.com
+1	
+Munich, Germany
+
+4930
+	
+AI & SOCIETY (2026) 41:4929–4947
+The double risk. The relationship between such systems 
+and access-like consciousness carries practical urgency 
+because the risks are asymmetric. On the one hand, emo-
+tionally expressive but non-conscious systems may deceive 
+users into forming pseudo-relationships with simulacra, 
+enabling manipulation and psychological harm without any 
+moral patient being present. On the other hand, systems may 
+gain functional sophistication that raises consciousness con-
+cerns—particularly when emotion-like mechanisms guide 
+decision-making via standard machine-learning (ML) prac-
+tices such as value tagging, episodic control (Pritzel et al. 
+2017), and deep reinforcement learning pipelines (Mnih 
+et al. 2015; Gershman and Daw 2017). The opacity of con-
+sciousness detection compounds both risks: we cannot easily 
+verify whether an expressive system lacks experience (pro-
+tecting users) or whether a functional system has acquired it 
+(protecting the system). Understanding couplings between 
+emotion-like control and consciousness-relevant architecture 
+is therefore important for responsible development.
+General assumptions. We proceed under the following 
+assumptions, fixing scope and interpretation (see Table 1 for 
+terminology):
+•	 Functionalism. We adopt a functionalist stance: roles 
+and causal organization of processing, rather than sub-
+strate, ground our analysis. Our claims concern archi-
+tecture and information flow rather than implementation 
+specifics.
+•	 Control role of emotion. We treat emotions as control 
+processes biasing retrieval, evaluation, and action selec-
+tion under uncertainty and resource limits (Simon 1967). 
+This is compatible with appraisal traditions that link core 
+affect to behavior (Scherer et al. 2001; Frijda 1986; Rus-
+sell 2003), with affective-neuroscience views emphasiz-
+Table 1   Terminology at a glance
+Core concepts
+Emotion-like control
+Hierarchical, dual-source architecture combining needs appraisals and episodic memory to bias policy selection 
+and action instantiation (see A1–A8 below). Not a claim about phenomenology
+Separation witness
+A concrete implementation of emotion-like control A1–A8 that satisfies R1–R4, showing that affective control 
+can be realized without introducing the access-enabling mechanisms targeted by our proxy (not a proof of 
+non-consciousness)
+Plausibly access-excluding
+Systems satisfying constraints R1–R4; the target conservative design region under our multi-family proxy
+Architectural components (A1–A8) for control loop S
+A1 Hierarchy
+Two-level control: behavioral modes or policies are selected by affect, then instantiated to concrete actions. 
+Observed situations are mapped to categorical abstractions
+A2 Need appraisal
+Transforms homeostatic discrepancies into drives, affect, and policy preferences
+A3 Episodic memory
+Stores situation-categories with affect tags and policy hints; enables similarity-based retrieval
+A4 Integration
+Combines need-based and memory-based signals into unified affect and policy preferences
+A5 Policy instantiation
+Maps selected policy to preferences for concrete situation-dependent actions
+A6 Action execution
+Performs instantiated action and observes state change from pre-action state to post-action situation
+A7 Post-action reappraisal
+Observes outcome and generates post-action affect. Evaluates outcome based on need and affect changes
+A8 Episode storage
+Stores categorical abstraction of pre-action situation, pre-/post-action affect, policy preferences, and post-action 
+success
+Design constraints (R1–R4)
+R1 No shared workspace
+No content-general workspace/hub/router that makes internal representations flexibly reusable across heteroge-
+neous subsystems (no workspace-like broadcast); allows narrow, typed control signals
+R2 No metarepresentation
+No higher-order representations about having internal states
+R3 No autobio. consolid.
+No construction, persistence, export, or re-ingestion of identity/time-anchored cross-episode summary state (no 
+autobiographical “glue” or consolidation)
+R4 Bounded learning
+Credit assignment stays within module boundaries
+Research questions (Q1–Q3)
+Q1 Existence
+Can emotion-like control A1–A8 also satisfy R1–R4?
+Q2 Stability
+Are there design modifications preserving witness status?
+Q3 Gradualism
+Can we trace graded paths plausibly increasing access risk?
+Consciousness framework
+Access-like consciousness
+Global availability, higher-order access, integration
+Phenomenal consciousness
+Felt, valenced experience (normative anchor, not analyzed)
+Multi-family proxy
+GWT/GNW, HOT-like theories used to motivate R1–R4 constraints (see Sect. 2.2)
+
+4931
+AI & SOCIETY (2026) 41:4929–4947	
+ing subcortical motivational circuitry (Panksepp 1998; 
+Panksepp and Biven 2012; LeDoux 2003), and with 
+computational approaches treating value representations 
+as goals for instrumental action (Rolls 2013, 2014). We 
+explore whether emotions can function as simple heu-
+ristic shortcuts rather than requiring complex integrative 
+machinery.
+•	 Architecture over taxonomies. We remain agnostic 
+about full emotion taxonomies.1 For concreteness, we 
+use a minimal descriptive set (valence, arousal, drive) as 
+control variables within an architectural scaffold, con-
+sistent with core-affect and appraisal accounts (Russell 
+2003; Scherer et al. 2001).
+•	 First order vs. higher order. We distinguish first-order 
+state tracking (e.g., needs/appraisals) from higher-order 
+metarepresentations (representations about those states). 
+This distinction matters for the separation question.
+Scope and terminology. We use access-like consciousness 
+operationally, following the standard access/phenomenal 
+distinction (Block 1995): roughly, contents that are glob-
+ally available for flexible use (workspace-like broadcast), 
+that potentially involve higher-order access, and/or that 
+exhibit strong temporal integration (e.g., ignition, stabiliza-
+tion) (Dehaene and Naccache 2001; Rosenthal 2005; Lau 
+and Rosenthal 2011). By contrast, phenomenal conscious-
+ness (“what it is like”) may be a normative anchor but is 
+not as such our object of positive theorizing here. We do 
+not attempt to explain qualia or address the hard problem. 
+Instead, we analyze how concrete design choices (R1–R4) 
+may raise or lower the risk that access-enabling features 
+emerge. Throughout, “access” terms are used for operational 
+assessment. We do not provide complete policy-relevant 
+risk assessments; we provide methodological suggestions 
+that may structure such endeavors, particularly under the 
+assumption that adding access-enabling features weakly 
+increases the probability of phenomenality.
+Our stance aims to preserve theoretical neutrality while 
+enabling policy-relevant guidance: we propose to audit 
+access-related conjuncts (broadcast+ignition; first order+
+higher order; information-generation+integration) with-
+out taking a stand on their metaphysical sufficiency. Our 
+goal is not to decide consciousness in practice, but to 
+understand how design choices may increase or decrease 
+access-consciousness risks. Future ethical recommendations 
+might track risk to phenomenal affect, but the present study 
+primarily explores the possibility of avoiding access features 
+under constraints.
+A reference model for emotion-like control.
+We now specify a hierarchical, dual-source process as 
+our working notion of “emotion-like control”. The aim is 
+to define emotion-like control architectures that establish 
+an architectural floor—a minimal threshold that should 
+nonetheless be rich enough to deserve the label, provid-
+ing genuine behavioral regulation through need appraisal, 
+episodic retrieval, and affect-modulated selection. To this 
+end, we embed emotion-like control into decision-making 
+under uncertainty and resource limits (Simon 1967; Dama-
+sio 1999). The model is biologically and psychologically 
+motivated (see Sect. 2.3) and can be realized in multiple 
+computational styles (see Sect. 3).
+By emotion-like control we thus understand an imple-
+mentation with the following architectural components and 
+control flow: 
+A1	
+Hierarchical organization with categorical abstrac-
+tion. The system employs a two-level hierarchy to 
+avoid combinatorial explosion: behavioral policies 
+(such as “approach” or “flee”) are selected based on 
+affective state and episodic hints, then instantiated 
+into actions. Observations are similarly abstracted: 
+infinite sensory variations are translated into situation 
+categories.
+A2	
+Source 1: Unmet needs and appraisals. Homeo-
+static discrepancies generate corresponding (i) drives 
+(graded urgency), (ii) affect (e.g., valence, intensity, 
+arousal), and possibly (iii) initial biases toward specific 
+behavioral policies.
+A3	
+Source 2: Episodic emotional memory. Prior epi-
+sodes (single situations or short sequences) are stored 
+as discrete records of situation-categories with affec-
+tive tags, providing an alternative source for current 
+emotions and policy hints. Retrieval by situation cate-
+gory similarity yields (i) contextual affect and (ii) pol-
+icy suggestions, but not episode content: the controller 
+receives an aggregated “hunch”—affect and behavioral 
+bias—without access to its source (no “recollections” 
+of past episodes2).
+1  Rather than adjudicating between basic-emotion  (Ekman 1992), 
+dimensional (Russell 2003), appraisal (Scherer et al. 2001), or con-
+structionist  (Feldman Barrett 2017) frameworks, we focus on emo-
+tion’s control function: how affective states bias action selection 
+under uncertainty.
+2  Our “episodic memory” differs from Tulving’s  (Tulving 1985), 
+which involves autonoetic consciousness, see Sect. 2.2. Our system is 
+closer to “episodic-like” memory (Clayton and Dickinson 1998), but 
+more implicit still: the controller receives only aggregated affect and 
+policy biases, no details allowing deliberation.
+
+4932
+	
+AI & SOCIETY (2026) 41:4929–4947
+A4	
+Affective and policy integration. The two sources 
+converge: need-based and memory-based affects 
+combine into a unified affective state that also influ-
+ences how policy preferences from both sources are 
+integrated into a set of current policy preferences. This 
+dual integration arbitrates between different sources 
+(current needs and past episodes) and among compet-
+ing drives.
+A5	
+Policy instantiation as actions. The selected policy is 
+mapped to concrete actions through situation-depend-
+ent action proposals. These action proposals—whether 
+evolutionarily hardwired or developmentally learned—
+translate abstract behavioral policies into situation-
+appropriate actions (e.g., “flee” may map to “move 
+away from threat source”).
+A6	
+Action execution and outcome observation. The 
+instantiated action is performed, and the resulting state 
+change is observed.
+A7	
+Post-action reappraisal. Success is evaluated based 
+on outcome measures (e.g., changes in need satisfac-
+tion), generating post-action affect that reflects the 
+result.
+A8	
+Episode storage. The completed episode data is writ-
+ten to memory, enabling future retrieval in similar situ-
+ations. Episode data includes at least the situation cat-
+egory (primary retrieval key), associated affect values 
+(to contribute to present-moment affect upon retrieval, 
+but potentially also used as secondary keys), indicators 
+of the policies considered/executed, and success.
+Within the proposed architectural constraints we remain 
+taxonomy-agnostic with regard to synthetic affective states 
+and tags. For explanatory purposes, our examples use a min-
+imal descriptive set in which each valence signal is paired 
+with an emotional intensity, alongside drive (goal-directed 
+urgency from need discrepancy) and arousal (activation/
+vigilance that shifts decisiveness and exploration rate) (Rus-
+sell 2003).
+When we speak of emotion-like control, we mean the 
+above architectural, control-level construct: a hierarchical 
+system where appraisal/drive signals modulate policy selec-
+tion rather than directly controlling actions, plus episodic 
+write-back for learning. This is not a claim about phenom-
+enology and not a self-model commitment. Some theorists 
+reserve “emotion” for phenomena essentially tied to a self or 
+to experience (Goldie 2002; Helm 2009); our target here is 
+narrower and we retain any familiar labels solely as handles.
+Correspondingly, we use “emotion” informally for 
+emotion-like control (both biological and artificial or 
+synthetic). Our definition should exclude mere mimicry 
+(e.g., a variable arbitrarily named “fear”) and other, pos-
+sibly non-heuristic optimization or deliberation procedures 
+for action selection and control. A1–A8 thus also func-
+tion as demarcation criteria: arbitrarily complex control-
+lers that fail to implement A1–A8 would not qualify as 
+emotion-like. Nevertheless, we may ask whether A1–A8 
+are still too primitive to capture anything essential about 
+emotion at all. Our human emotional life encompasses far 
+more than these architectural principles: we experience 
+feelings, reflect on them, narrate them to ourselves and 
+others, and integrate them into our sense of self. This rich-
+ness may lead us to see A1–A8 as too impoverished to 
+deserve the label. But our claim is not that A1–A8 are suf-
+ficient for the full human experience of emotion—only that 
+they represent a minimal core that should be present before 
+we could call any system emotion-like. Human emotional 
+life has much more; we propose that any emotion-like sys-
+tem should have at least this. We return to these questions 
+in Sect. 5, where we discuss a potential biological analogy 
+and also discuss how our methodology may remain robust 
+under adaptations of design elements.
+The separation question and design constraints.
+Our analysis can also be motivated by the following 
+considerations: if emotion-like control can operate through 
+local heuristics (need-based appraisals and similarity-based 
+retrieval), while consciousness apparently requires com-
+plex architectural commitments (global integration, higher-
+order representation, temporal binding), separation of the 
+two notions may be expected. The surmised computational 
+simplicity of emotion-like control would suggest the pos-
+sibility of early evolutionary emergence of biological ana-
+logs, potentially requiring only minimal nervous systems. 
+The architectural demands of consciousness might instead 
+explain its rarity and late emergence. This perspective 
+reframes the question from whether emotion and conscious-
+ness can be separated to charting paths by which artificial 
+systems might traverse the gap between them.
+Against this backdrop, we attempt to identify a conserv-
+ative, audit-friendly region of design space which avoids 
+features commonly associated with consciousness. We 
+characterize this region by four design constraints R1–R4 
+distilled from major consciousness theories (detailed map-
+ping in Sect. 2.2). These constraints target the absence of 
+access-enabling features in prominent accounts. The restric-
+tions carve out a small region that should plausibly be non-
+access-enabling under those theories. Consequently, violat-
+ing R1–R4 would not imply access consciousness under 
+these theories. We call implementations satisfying R1–R4 
+plausibly access-excluding under this multi-family proxy: 
+they inhabit a conservative region designed to remove sev-
+eral prominent access-enabling routes, without claiming that 
+consciousness is thereby impossible. 
+
+4933
+AI & SOCIETY (2026) 41:4929–4947	
+R1	
+No global, content-general shared broadcast: the 
+system contains no mechanism (workspace, shared 
+scratchpad, hub, or router) that makes internally gen-
+erated representations flexibly reusable across hetero-
+geneous subsystems.
+R2	
+No metarepresentation: no higher-order representa-
+tions; in particular, no representations about having 
+internal states.
+R3	
+No autobiographical consolidation or autobio-
+graphical temporal integration across episodes: forbid 
+constructing, persisting, exporting, or re-ingesting 
+identity- or time-anchored cross-episode summaries 
+(including as retrieval keys, routing/addressing signals, 
+or shared context variables).
+R4	
+Bounded learning: credit assignment remains within 
+module boundaries; no cross-module meta-optimiza-
+tion that induces global coupling.
+R1 (no global broadcast) is intended as an architectural 
+constraint: it checks whether selected internal content can 
+become widely available to multiple downstream hetero-
+geneous subsystems, while not forbidding ordinary, fixed 
+dataflow. We treat “heterogeneous subsystems” as func-
+tionally distinct components with separable code paths 
+and explicit interfaces (e.g., perception, memory, plan-
+ning, language, action selection), ideally enforceable as 
+process/container boundaries. R1 is not satisfied by rede-
+fining the entire agent as a single monolithic module. We 
+call a buffer or representation content-general if it can 
+carry open-ended task content (e.g., arbitrary perceptual/
+semantic tokens, rich world-model latents, general-pur-
+pose scratchpad text, untyped shared context vectors) such 
+that multiple consumers can repurpose the same represen-
+tational channel for different functional roles. R1 targets 
+mechanisms which (i) host content-general items, (ii) sup-
+port multi-consumer access (two or more heterogeneous 
+subsystems can read the same item), and (iii) enable flex-
+ible reuse (the item can be exploited for diverse down-
+stream functions without a fixed, role-restricted schema). 
+R1 therefore allows narrow, typed, role-restricted point-
+to-point interfaces provided these channels are not used 
+as general-purpose scratchpads and do not permit arbi-
+trary internal content to be routed to multiple heterogene-
+ous subsystems. In particular, fixed fan-out of exogenous 
+inputs provided by sensors to multiple components does 
+not by itself constitute a workspace: R1 targets an inter-
+nally generated, content-general state that is written by 
+one subsystem and then flexibly read and repurposed by 
+multiple heterogeneous consumers.
+R2 (no metarepresentation) concerns controller-internal 
+higher-order states: the architecture contains no representa-
+tions about having internal states that are consumed by con-
+trol or learning. In particular, including a language or intro-
+spection module may produce outward-facing self-ascriptive 
+text (e.g., “I feel ...”) or telemetry (e.g., “fear=0.8”). In such 
+a case, safely maintaining R2 would require that such out-
+puts be generated via strictly one-way reporting, without 
+being re-ingested as inputs to scoring, memory keys, routing, 
+or learning. Any feedback path from self-report tokens into 
+control would constitute an explicit R2/R3 pressure point.
+R3 does not forbid any temporal processing (e.g., filter-
+ing), nor does it prevent the mere time-stamped storage of 
+past episodes: it focuses on using such data to synthesize and 
+employ an autobiographical self-description.
+R4 (bounded learning) concerns training-like architec-
+tural parameter updates and cross-module optimization, not 
+the accumulation of emotionally tagged episodes—the latter 
+being intrinsic to emotion-like control (A1–A8). We there-
+fore distinguish training/learning of architectural parame-
+ters or neural network weights (the learning constrained by 
+R4) from episodic memory formation, which stores affect-
+tagged experiences for later retrieval without parameter 
+modification.
+Research questions. Note that A1–A8 and R1–R4 derive 
+from different considerations: the architectural components 
+A1–A8 are motivated by biological and psychological 
+research on emotion (see Sect. 2.3.1), while the risk-reduc-
+tion constraints R1–R4 emerge from central features of theo-
+ries of consciousness (see Sect. 2.2). Against this backdrop, 
+we pose three questions about the separability of affect and 
+consciousness: 
+Q1	
+(Existence): Does there exist a separation witness—an 
+implementation of A1–A8 satisfying R1–R4?
+Q2	
+(Stability): Are there design modifications that pre-
+serve witness status, or is it structurally fragile?
+Q3	
+(Gradualism): Can we trace graded paths plausibly 
+increasing access risk?
+When addressing Q1, the core risk reductions are R1–R3; 
+we include R4 throughout for completeness since capability-
+driven systems often add learning, and its boundaries matter 
+for Q2–Q3.
+Contributions and roadmap. This is a conceptual explo-
+ration at the interface of philosophy and computer science, 
+grounded in neuroscience and psychology. We (1) articulate 
+a biologically motivated, hierarchical dual-source reference 
+model of synthetic emotion; and (2) use plausibility argu-
+ments to explore separating affect from access consciousness 
+
+4934
+	
+AI & SOCIETY (2026) 41:4929–4947
+by means of three separation questions Q1–Q3, related to 
+access-related risk reductions R1–R4. Our analysis rests on 
+concrete architectural designs. With these considerations in 
+mind, we offer a plausible witness for Q1; we find pockets of 
+stability (Q2) and explore graded upgrade paths that threaten 
+separation (Q3). After discussing related work in Sect. 2.1, 
+motivations from consciousness theories in Sect. 2.2, and 
+biological drives in Sect. 2.3, we outline a general emotion-
+like control architecture and processing loop in Sect. 3, made 
+concrete by a toy example for a potential separation witness. 
+We address questions Q1–Q3 in Sect. 4, while Sect. 5 syn-
+thesizes findings and discusses the broader methodological 
+template, including its generalizability beyond our specific 
+choices.
+Readers primarily interested in the conceptual argument 
+and governance implications may focus on Sects. 1–2.3 
+and 5. The algorithmic controller in Sect. 3 and the Q1 wit-
+ness construction in Sect. 4.1 provide a concrete existence 
+proof, while Sects. 4.2–4.3 examine increasingly complex 
+design modifications.
+2  Theoretical grounding
+Our approach is motivated by four strands of prior work 
+that, taken together, suggest that emotion-like control can 
+be engineered and evaluated without making commitments 
+about phenomenology. First, computational architectures 
+integrate affective and motivational signals into action 
+selection (see Sect. 2.1). Second, theories of consciousness 
+provide architectural features we interpret as design con-
+straints to avoid (see Sect. 2.2, motivating R1–R4). Third, 
+heuristic perspectives view emotions as resource-bounded 
+control signals that bias decision-making (see Sect. 2.3, 
+motivating A1–A8 and Q1–Q3). Finally, recent proposals 
+for indicator properties and governance frameworks sug-
+gest how to operationalize auditable, non-phenomenological 
+assessments of complex systems (Butlin et al. 2025; Raji 
+et al. 2020; NIST 2023).
+2.1  Computational precedents
+We draw on multiple computational traditions that model 
+emotions without presupposing phenomenology or full-
+blown propositional cognition. Psychological appraisal theo-
+ries (Smith and Lazarus 1993; Lazarus 1991; Ortony et al. 
+1988) hold that emotions arise from evaluating situations 
+along dimensions such as goal-conduciveness, accountabil-
+ity, and coping potential. Computational implementations 
+such as EMA (Marsella and Gratch 2009) operationalize 
+these evaluations, driving emotion dynamics and cop-
+ing responses via propositional machinery (belief track-
+ing, causal attribution, expectation maintenance). The 
+Belief-Desire-Intention (BDI) framework (Rao and Georgeff 
+1995) provides a practical reasoning architecture in which 
+agents maintain beliefs about the world, desires (goals), 
+and intentions (committed plans). Emotional extensions 
+to BDI-style deliberation, such as EBDI (Jiang et al. 2007) 
+and the WASABI architecture (Becker-Asano 2008), intro-
+duce affective states drawing on dimensional models such 
+as PAD (Mehrabian 1996). The LIDA architecture (Franklin 
+et al. 2014) integrates attention and global-workspace-style 
+access with motivation, emotion, and learning in a biologi-
+cally inspired systems-level design.
+Relative to these precedents, our architecture (i) eschews 
+propositional reasoning in favor of situation category keys 
+and policy hints as low-bandwidth surrogates for “what to 
+do next”; (ii) uses affect channels to bias behavioral policy 
+selection directly rather than constructing discrete narra-
+tives or modulating a deliberation cycle; and (iii) employs 
+episodic transfer—similarity-based retrieval over situation 
+categories that supplies policy-class priors without forward 
+models or multi-step counterfactuals. The resulting pipeline 
+(observations → categories → policies → actions) functions 
+as a computational “complexity firewall”. This deliberate 
+simplicity reflects our methodological choice of adding com-
+plexity only when required (see Sect. 5). At the same time, 
+A1–A8 remain richer than purely reactive architectures such 
+as Braitenberg vehicles (Braitenberg 1984). They establish a 
+floor above stimulus–response control while staying below 
+deliberative reasoning.3
+2.2  Design constraints from consciousness theories
+We motivate the design risk-reduction criteria R1–R4 pri-
+marily from two well-developed families of access-ori-
+ented accounts—global workspace theory/global neuronal 
+workspace (GWT/GNW) and higher-order thought (HOT) 
+theories—and then note convergent pressure toward simi-
+lar risk reductions from several additional frameworks. 
+Throughout, R1–R4 are intended as conservative, audit-
+friendly risk-reduction criteria: satisfying them does not 
+establish the absence of consciousness, but plausibly 
+removes multiple architectural routes that these accounts 
+treat as enabling access-like consciousness. Because our 
+operational target is access-like consciousness, R1–R4 
+should be read as risk reductions targeting access-oriented 
+routes; they are not intended as exhaustive tests, nor do 
+3  Such parsimony would be misguided if emotion-like control 
+inherently demanded richer machinery—but this is not universally 
+assumed. Work on subcortical emotional systems has been interpreted 
+as suggesting that adaptive affective control can arise through ancient, 
+non-propositional mechanisms without cortical elaboration  (Pank-
+sepp 1998; Panksepp and Biven 2012), providing biological motiva-
+tion for examining minimal architectures and their functional capa-
+bilities.
+
+4935
+AI & SOCIETY (2026) 41:4929–4947	
+they address theories that primarily target phenomenal-
+ity (but see the methodological extensions discussed in 
+Sect. 5).
+Global workspace theory (GWT/GNW). If GWT/GNW is 
+approximately correct (Dehaene and Naccache 2001; Baars 
+2005; Mashour et al. 2020), access consciousness involves 
+(i) broad availability of selected content via workspace-like 
+broadcast and (ii) stabilization of that content over an opera-
+tional time window (often discussed in terms of ignition/
+maintenance dynamics). R1 (no content-general shared 
+global broadcast) targets the creation of workspaces of 
+selected internal content for multiple heterogeneous con-
+sumers, while still allowing narrow, typed, role-restricted 
+control signals flowing through fixed interfaces. R3 (no auto-
+biographical consolidation) is introduced more cautiously: 
+while workspace theories primarily concern within-window 
+stabilization, engineered systems often extend short-window 
+maintenance into longer-horizon, cross-episode context 
+(e.g., persistent summaries or identity-anchored states that 
+are repeatedly re-ingested). R3 should block this escalation 
+pathway by forbidding autobiographical consolidation. R4 
+(bounded learning) further limits training-driven emergence 
+of broadcast-like routing or implicit workspace structures 
+(e.g., shared latents or routers that effectively recreate multi-
+consumer availability).
+Higher-order thought (HOT) theories. Under HOT 
+accounts (Rosenthal 2005; Lau and Rosenthal 2011), aware-
+ness requires representing one’s own mental states (e.g., rep-
+resenting that one is afraid, not merely being afraid). R2 (no 
+metarepresentation) should therefore block a central HOT 
+route by forbidding representations about having internal 
+states, including internal self-ascriptions that feed back into 
+control or learning. This constraint is further motivated 
+by recent proposals for conscious emotional experience. 
+LeDoux and Brown (2017) and Rolls (2013, 2014) argue 
+that conscious emotional feelings require higher-order rep-
+resentations. We read both positions as support for treating 
+R2 as a risk-reduction criterion for conscious affect. R3 (no 
+autobiographical consolidation) provides complementary 
+protection in a practical sense: robust higher-order self-attri-
+bution in implemented systems commonly recruits persistent 
+self/identity variables and diachronic bookkeeping (even if 
+not mandated by the core theory). By preventing autobio-
+graphical consolidation and re-ingestion of identity/time-
+anchored summaries, R3 removes a common scaffold by 
+which higher-order access can become temporally extended 
+and self-anchored. R1 (no content-general shared global 
+broadcast) offers an additional constraint, since higher-order 
+representations typically require some form of accessibility 
+to their first-order targets across functional components.
+Convergent support from other frameworks. Several 
+additional approaches, while differing substantially in their 
+explanatory commitments, emphasize architectural moves 
+that also pressure parts of R1–R4:
+•	 Predictive processing and active inference (Hohwy 
+2013; Seth 2013; Letheby and Gerrans 2017; Friston 
+et al. 2018) often emphasize hierarchical generative 
+models with temporal depth. On many readings, con-
+sciousness-relevant capacities involve relatively deep 
+temporal integration and (in some proposals) explicit 
+self-model variables; R3 (limiting autobiographical 
+stitching of cross-episode narratives) and R2 (blocking 
+explicit higher order self-models) target these routes.
+•	 Autonoetic consciousness (Tulving 1985) concerns 
+mental time travel and re-experiencing past episodes 
+as one’s own. This capacity depends constitutively on 
+autobiographical memory and persisting self-continu-
+ity—precisely the kind of cross-episode stitching that 
+R3 targets.
+•	 Attention schema theory (AST) (Webb and Graziano 
+2015) proposes that subjective awareness depends on 
+an internal model of attention. If such a schema is an 
+explicit model about the system’s own attentional pro-
+cessing and is consumed by downstream control, it pres-
+sures R2 (metarepresentation), and, in many implemen-
+tations, also R1 insofar as the schema must be available 
+across functional subsystems.
+Taken together, these different perspectives suggest that 
+R1–R4 track a cluster of architectural moves that are recur-
+rently flagged as consciousness-relevant in the literature, 
+rather than being tied to any single theoretical commitment.
+2.3  Biological grounding
+From a biological standpoint, brains are optimized for adap-
+tive behavior under evolutionary pressure, not rationality per 
+se. We follow the tradition that views emotions as evolu-
+tionarily selected heuristics for navigating complex environ-
+ments under constraints of limited time and computational 
+capacity (Simon 1956, 1967; Gigerenzer and Selten 2001). 
+Stronger emotions exert greater control precedence, overrid-
+ing deliberation (Frijda 1986), suggesting adaptive benefits 
+for rapid decision-making.
+2.3.1  Biological motivation for A1–A8
+Our architectural principles A1–A8 draw on biological, 
+neurological, and psychological evidence to identify pos-
+sible functional cores of emotion-like control. The evidence 
+below is offered as motivational grounding, not derivation: 
+we aim to show that A1–A8 are consistent with plausible 
+readings of diverse findings, while acknowledging that alter-
+native interpretations and architectures remain possible.
+
+4936
+	
+AI & SOCIETY (2026) 41:4929–4947
+Hierarchy and abstraction (A1, A5–A6). Emotions bias 
+action through “action readiness”: in social animals, fear 
+biases avoidance, joy biases approach, etc. (Frijda 1986). 
+Such biases trigger broad behavioral modes instantiated into 
+context-appropriate actions (Fanselow 1994). Categorical 
+abstraction addresses a prerequisite for generalization since 
+raw sensory states rarely repeat exactly. The requirement 
+that emotional processing produce an intervening state that 
+enables flexible instrumental action distinguishes emotion 
+from reflexes and fixed action patterns (Rolls 2013, 2014).
+Dual mechanisms (A2–A4). Subcortical circuits generate 
+immediate responses from current discrepancies: homeo-
+static needs (Damasio 1994), safety violations (LeDoux 
+2012), and social affective needs (Panksepp 1998) (motivat-
+ing A2). Retrieved episodes bias current decisions through 
+similarity-based reactivation: transference research dem-
+onstrates that affect associated with past significant others 
+transfers to similar individuals (Andersen and Baum 1994), 
+while behavioral evidence shows past choices bias decisions 
+even without explicit recollection (Bornstein et al. 2017). 
+Our architecture generalizes these findings to situational 
+similarity (motivating A3). The existence of immediate and 
+memory-based responses suggests dual-source integration4 
+(motivating A4).
+Reappraisal and storage (A7–A8). Post-action reap-
+praisal generates feedback updating future responses. The 
+somatic marker hypothesis can be read as partial support 
+for emotional outcomes of past decisions influencing cur-
+rent choice (Damasio 1994; Bechara et al. 2000), moti-
+vating the use of affective tags in our episodic memory. 
+Emotionally salient experiences are preferentially consoli-
+dated (McGaugh 2004; Kensinger 2004); notably, affective 
+vividness outlasts factual accuracy in “flashbulb memo-
+ries” (Talarico and Rubin 2007). Affective tags may thus 
+bias future behavior even as episodic detail fades (Rolls 
+2013, 2014) (motivating A7–A8).
+2.3.2  Biological motivation for Q1–Q3
+Multiple lines of evidence suggest partial independence 
+between functional and phenomenal affect. Subliminal prim-
+ing demonstrates valence effects below awareness (Wiens 
+2006). Affective blindsight shows emotional responses 
+without conscious perception (Celeghin et al. 2015). Lik-
+ing/wanting dissociations reveal unconscious hedonic 
+reactions (Berridge and Winkielman 2003). Rolls (2013, 
+2014) argues that action selection may proceed through 
+implicit routes without requiring conscious feelings. LeDoux 
+(1996) suggested a fast/slow distinction, motivating us to 
+consider whether affect may act independently of detailed 
+understanding.
+Some neurological cases appear to suggest dissociabil-
+ity (Bechara et al. 2000; Feinstein et al. 2013). Given ongo-
+ing debates about the relationship between emotion and con-
+sciousness—including subcortical affect systems (Panksepp 
+1998; Panksepp and Biven 2012), integration with predictive 
+processing (Seth 2013), proposed dissociations (Tamietto 
+and De Gelder 2010), and constructionist accounts (Feldman 
+Barrett 2017)—we treat Q1–Q3 as open empirical questions 
+rather than presupposing any particular resolution.
+Multiple lines of research indicate emotional memories 
+undergo offline processing (Walker 2009; McGaugh 2004; 
+Revonsuo 2000), motivating our reconciliation process 
+(further motivating Q2 and architectural modification M1 
+in Sect. 4.2), though we claim no functional equivalence to 
+biological sleep or dreaming.
+The progression from simple state-modulation in C. 
+elegans through episodic memory in mammals (Ginsburg 
+and Jablonka 2019; Adolphs and Anderson 2018) motivates 
+Q3: systems might progressively approach consciousness-
+relevant features when transitioning from reactive to more 
+sophisticated forms of predictive control. This progression 
+also suggests a background hypothesis underlying Q1–Q3 
+and developed further in Sect. 5: emotion-like control may 
+constitute an intermediate computational layer that can oper-
+ate without access consciousness (Q1–Q2; Sects. 4.1–4.2), 
+yet becomes intertwined with consciousness in certain sys-
+tems (Q3; Sect. 4.3).
+3  An architecture for Emotion‑like Control
+We now translate the biological principles and definitional 
+components into a concrete, example architecture.
+3.1  A primitive emotion‑like control 
+implementation
+The following end-to-end controller implements key design 
+moves that follow A1–A8. The system hierarchically groups 
+situations into categories which relate to policy hints (behav-
+ioral modes) that get instantiated as concrete actions selected 
+using emotional biases.5
+Setting. The algorithm in Fig. 1 is applicable in a wide 
+range of contexts. For ease of understanding, the following 
+5  A detailed discussion of the controller is provided in SI, Part I.
+4  This design remains compatible with cases like patient K.C., who 
+lost all conscious access to past episodes yet retained other cognitive 
+functions (Tulving 2002): (a) our episodic retrieval may fail and affect 
+can then derive solely from current needs (graceful degradation), and 
+(b) our episodes influence behavior exclusively through transferred 
+affect and behavioral biases, not surfacing as recollections or basis for 
+deliberation.
+
+4937
+AI & SOCIETY (2026) 41:4929–4947	
+discussion may be visualized in the context of a simpli-
+fied concrete example: consider an agent in a 2-D crowd 
+scene. At each step t it receives a compact observation vec-
+tor xt ∈ℝd (e.g., coarse bearings/distances to peers, pro-
+prioception, current heading, location, speed), and selects 
+a fine-grained action u ∈U (e.g., move in heading 휃 or 
+pause). Internal affective variables are used only as control 
+signals. We may group affect attributed to our agent into 
+low-dimensional affect channels like valence v ∈[−1, 1]b , 
+corresponding emotional intensity/magnitude m ∈[0, 1]b , 
+arousal a ∈[0, 1] , and motivation/drive d ∈[−1, 1]퓁:
+where the bracket denotes concatenation. For our actor 
+we may imagine two affect channels b = 2 with emotional 
+valence v = (v1, v2) and magnitude m = (m1, m2) , where 
+the pair (v1, m1) encodes lonely-like emotions, and (v2, m2) 
+stands for crowded-like emotions. The 퓁 drives d1, … , d퓁 
+provide a measure of motivation and correspond in number 
+to 퓁 different need channels. In our simplified example, n1,t 
+may represent a need for affiliation or bonding, and n2,t may 
+(1)
+zt ∶= [vt, mt, at, dt],
+Fig. 1   S : a single iteration 
+(A1–A8) in a hierarchical, dual-
+source emotion-like control 
+loop for action selection. For a 
+detailed discussion see Supple-
+mentary Information, Part I
+
+4938
+	
+AI & SOCIETY (2026) 41:4929–4947
+represent a need for independence; both may depend on the 
+observed geometric peer layout.6
+Architectural overview.
+The architecture of Fig. 1 operates across two levels of 
+description—a concrete level interfacing with the physical 
+world, and an abstract level where emotional signals guide 
+behavioral policy selection—with systematic information 
+flow between them. Information flows “upward” through cat-
+egorical abstraction, where dual-source emotional guidance 
+shapes policy selection at the abstract level, then “down-
+ward” through policy instantiation into concrete action. Out-
+comes feed back through reappraisal into episodic storage.
+A1: Upward abstraction: from sensation to situational 
+encoding. Raw sensory input xt rarely repeats exactly across 
+encounters, rendering direct episodic matching brittle. The 
+system therefore first maps the concrete situation into a more 
+abstract situation category ct that captures relevant structure 
+(e.g., “moderately crowded,” “threat approaching”) while 
+also extracting situation-specific parameters yt (e.g., direc-
+tion to nearest crowd, threat bearing) for later use in action 
+instantiation.
+A2–A3: dual-source emotional hints at the level of 
+abstract policies. With the situation categorized, the system 
+consults two sources of affective signals: need-based affect 
+zneed
+t
+ and memory-based affect zmem
+t
+.
+Source 1: Need appraisal. Current homeostatic discrepan-
+cies—deviations between actual and target states for affilia-
+tion, safety, energy, and similar needs—generate drives car-
+rying both direction and intensity, from which emotional 
+signals (valence, arousal) and policy preferences emerge. 
+In step 3 of Fig. 1, need levels are computed from the cur-
+rent world situation, including categorized abstractions of 
+observations (e.g., threat levels) and internal control vari-
+ables (e.g., maintenance levels, physical or chemical sensor 
+readings). Need levels, especially when compared to target 
+values, generate corresponding affect (step 4 of Fig. 1). This 
+affect also provides policy hints hneed
+t
+(휋) , which quantify 
+how strongly need-based affect zneed
+t
+ favors each behavioral 
+policy 휋—broad behavioral modes that admit different con-
+crete instantiations as actions u. In our simplified example, 
+such policies 휋 may include Seek, Avoid, Explore, Flee, or 
+Rest, while affect components zneed
+t
+ react to motivational 
+drives reflecting how far energy, safety, bonding, or inde-
+pendence levels lie from their targets.
+Source 2: Episodic memory. The situation category 
+ct serves as a retrieval key into stored episodes. Memory 
+returns the affective “coloring” of similar past situations, 
+zmem
+t
+ , along with policy hints hmem
+t
+—success-weighted sug-
+gestions about which behavioral strategies proved effective 
+under comparable circumstances ( ct ≈cj ). When computing 
+episodic affect and policy hints, additional weights wj may 
+be used to fine-tune the influence of past episodes by their 
+degree of situational similarity. For simplicity, steps 6–8 are 
+depicted as part of the controller S in Fig. 1, even though 
+they would conceptually be performed inside a memory 
+module, which only returns the final affect zmem
+t
+ , along with 
+policy hints hmem
+t
+ , i.e. 
+where RetrieveM is a bounded-output procedure (e.g., top-
+K similarity search with fixed-schema aggregation) that 
+exposes only (zmem
+t
+, hmem
+t
+) to the controller S , possibly with 
+an overall reliability indicator (e.g., degree of similarity to 
+most similar episode).
+A4:  policy selection through affective integration. 
+Affective signals from both sources (needs and memory) 
+are fused into a combined affective state zt , which provides 
+hints for behavioral policies. All hint sources (fused affect, 
+needs, memory) contribute to aggregated hints ht(휋) for each 
+abstract policy 휋 , yielding policy preferences qt(휋) . These 
+preferences qt(휋) reflect a continuous-value vote for each 
+policy. Arousal at may modulate decisiveness: high arousal 
+sharpens the vote distribution toward commitment, while 
+low arousal encourages exploration.
+A5: downward instantiation: from policy to action. 
+Abstract policies do not specify concrete actions. The 
+system uses situation-specific parameters yt to instantiate 
+policies into action scores s(u). For example, if the policy 
+휋= AVOID is tentatively considered and parameters yt indi-
+cate that a threat lies to the left, concrete rightward move-
+ments u receive high scores s(u). This context-dependent 
+mapping ( yt ) from broad policies 휋 to concrete actions u 
+ensures that memory stores policies—general behavioral 
+modes rather than motor sequences—enabling behavioral 
+generalization (e.g., fight or flight) across wide situational 
+variations (different threat positions). This simplified algo-
+rithm can thus learn when to activate policies, but policy-
+to-action mappings are assumed innate. Presently, a policy 
+휋= FLEE directs the agent toward a predetermined, presum-
+ably safer region, analogous to an innate taxis-like response, 
+e.g., movement away from threats.7
+A6–A8: execution, reappraisal, and storage. The agent 
+executes the action u with the highest score s(u)—or sam-
+pled from the score distribution—observes the resulting state 
+x∗
+t , categorizes it ( c∗
+t , y∗
+t ), and reappraises outcomes against 
+needs, producing post-action affect z∗
+t . The complete episode 
+et comprises the situation category ct (which also serves as 
+future retrieval key), pre-action affect zt , policy hints ht , 
+(2)
+(zmem
+t
+, hmem
+t
+) ←RetrieveM(ct),
+7  See also the harm-avoidance example discussed in SI, Part I. 
+Learning movement directions would require memory-informed pol-
+icy instantiation, which we leave for future work, see also SI, Part I.B.
+6  For other examples, see SI, Parts I, I.A-B.
+
+4939
+AI & SOCIETY (2026) 41:4929–4947	
+outcome affect z∗
+t , and success estimate succ∗
+t ∈[−1, +1] , 
+where negative values indicate failure. Success may be esti-
+mated from “objective” measures of situational improve-
+ment, from need improvements (e.g., drive reduction), or 
+from hedonic changes by comparing z∗
+t to zt . Alternatively, 
+one may compare only the pre- and post-action need-based 
+affect (e.g., if relief from memory-induced fear is consid-
+ered an artifact). Note that the minimal implementation in 
+Fig. 1 stores the fused hints ht ; but memory could addition-
+ally store the selected policy 휋t for each episode and use 
+this information in the weighted averaging of Steps 7–8 for 
+stricter credit assignment (see SI, Part I.B for details). Thus, 
+every encountered situation is recorded in condensed, cat-
+egorized form ( ct ) together with affective tags, policy hints, 
+and success measures, ready for use in future policy and 
+action selection.8
+The architecture can operate standalone or augment exist-
+ing systems. Hybrid controllers could fuse affect-based 
+action scores semo(u) with scores sdelib(u) from deliberative 
+planners, using arousal or affect to gate exploration, persis-
+tence, or risk sensitivity. Alternatively, the low-cost semo(u) 
+could serve as initial suggestions for deliberative planners 
+(mirroring volitional-like control). The affective path aims at 
+supplying temporal continuity (through continuity in arousal 
+and affect), coherence across competing needs via informa-
+tion fusion, and contextual adaptation.
+4  Examining the separation
+We now return to the three questions posed in the intro-
+duction, examining whether and how emotion-like control 
+can be implemented while avoiding consciousness-enabling 
+mechanisms. This section demonstrates that the architec-
+ture from Sect. 3 can serve as a separation witness (Q1), 
+identifies stable modifications preserving this status (Q2), 
+and explores gradual paths toward consciousness-relevant 
+thresholds (Q3).
+4.1  Q1: The architecture as separation witness
+Can emotion-like control following design principles A1–A8 
+be implemented to satisfy R1–R4? We argue that it can, and 
+establish a separation witness starting from the primitive 
+example outlined in Fig. 1, further restricting attention to 
+minimal implementations that respect the following con-
+servative safety envelope:
+Safe interface contract (SIC). We formalize interface 
+constraints on memory M and controller S in Fig. 1: 
+SIC-1	
+Single-reader access (memory cannot serve as a 
+workspace). Any episode in M (including caches) 
+has exactly one memory-external heterogeneous 
+reader: S . This is a sufficient condition preventing 
+M from functioning as a content-general shared 
+workspace, and preventing the controller S from 
+benefiting from indirect access to external systems 
+using the same memory (no workspace, R1).
+SIC-2	
+Key hygiene (step-local). Retrieval keys 휿t = ct(xt) 
+depend only on current observation content (no 
+identity/time/affect fields; see R1–R3).
+SIC-3	
+No cross-episode summaries to the control-loop. 
+Offline maintenance inside M creates no autobio-
+graphical stitching of cross-episode aggregates in 
+any buffer read by controller S (R3).
+SIC-4	
+Gradient/optimizer isolation. Frozen deployment. 
+For any pre-deployment training: no loss outside S 
+depends on episodes or derivatives thereof; opti-
+mizers are disjoint; telemetry containing previous 
+episode data is never used to train modules (R4).
+SIC-5	
+Memory access discipline. Write only at A8 
+(step 20) and read only at A3 (step 6). The obser-
+vation buffer xt at A1 is exogenous (world/intero-
+ception) and excludes introspective reads of Mt . 
+Retrieval at A3 is single pass with bounded outputs 
+(R1, R3).
+Additional deployment assumptions for the witness. 
+Fig. 1 specifies the control flow (A1–A8), but does not by 
+itself enforce the safe interface contract (SIC). The core prin-
+ciples of emotion-like control are compatible with a wide 
+range of design choices regarding interfaces and intertwin-
+ing with other processes. Because Q1 is an existence claim, 
+it suffices to show it for an SIC-compliant implementation, 
+provided such implementations exist.
+R1–R4 compatibility: Under SIC-compliant implemen-
+tations, the controller in Fig. 1 satisfies R1–R4 and becomes 
+a separation witness for question Q1.
+Sketch of argument: R1: SIC-1/2/5 enforce a single, 
+bounded read path from memory, preventing workspace/
+broadcast. R2: Internal affect variables are numeric con-
+trol signals used only inside scoring/fusion maps in S ; 
+the witness contains no module that re-encodes them 
+as higher-order propositions (self-ascriptions). In addi-
+tion, SIC-4 assumes frozen deployment (no deployment/
+8  Our example may maintain memory-internal housekeeping meta-
+data (e.g., an age counter or write index) for pruning or deduplication. 
+Such metadata is not part of the episode fields returned to the control-
+ler S.
+
+4940
+	
+AI & SOCIETY (2026) 41:4929–4947
+post-deployment training), and also prevents episode-
+derived telemetry from becoming a training signal for mod-
+ules. R3: SIC-2/3 keep keys step-local and prevent write-
+back of cross-episode aggregates; SIC-5 blocks introspective 
+read loops that could stitch episodes into an autobiographical 
+state. R4: SIC-4 enforces optimizer isolation and prevents 
+cross-module learning via episode data leakage; SIC-5 fur-
+ther constrains read/write pathways that could otherwise act 
+as unintended training interfaces.
+Existence of SIC compliance: The argument above cov-
+ers implementations satisfying the safe interface contract 
+(SIC). SI, Part I complements this argument with a concrete 
+worked instance (keys, hints, policy-to-action templates), 
+providing an explicit constructive toy model for SIC-com-
+pliant implementations and thus completing our affirmative 
+answer to Q1 at the single-agent level. The toy model cor-
+responds to “hardwiring” or “freezing” a pre-specified con-
+troller (no training, modeling innate systems) and ensuring 
+it respects a strict read/write discipline. The constructed wit-
+ness is not only architecturally and parametrically frozen but 
+also deliberately primitive regarding categorical abstraction 
+(implementable even via discrete binning), need-to-affect 
+mapping (implementable as a linear transform), and episodic 
+guidance and information integration (implementable via 
+bounded k-NN retrieval, weighted sums, and softmax selec-
+tion). To be clear, our worked instance is a hardwired and 
+standalone S+M controller with the SIC enforced without 
+integrating language or deliberative planning, or other het-
+erogeneous subsystems.
+Given that we can construct such primitive witnesses, it 
+may be worth re-emphasizing that we should not conflate 
+sophistication with membership in the target architectural 
+class. The point of the Q1 witness is precisely that an imple-
+mentation can satisfy A1–A8 while remaining compatible 
+with R1–R4. Whether this primitiveness may even hint at 
+corresponding biological hypotheses is discussed in Sect. 5.
+Levels of description. A feature of functionalist accounts 
+is that architectural features of access consciousness might 
+emerge at higher organizational levels through agent interac-
+tions. Block’s “China Brain” thought experiment illustrates 
+this (Block 1978): could a population simulating neurons 
+with brain-like connectivity give rise to collective con-
+sciousness? In our setting, while the witness construction 
+demonstrates R1–R4 compliance for a single agent, we may 
+ask whether networks of artificial emotion-like “neurons”—
+each operating via A1–A8 and satisfying R1–R4—might 
+instantiate integration at the network level. Crucially, our 
+methodology can be repeated at each hierarchical level: 
+checking A1–A8 for emotion-like control and auditing 
+R1–R4 for access consciousness.
+4.2  Q2: Stable design modifications (plausibility 
+by examples)
+Having established the Q1 separation witness under strict 
+R1–R4, we argue for stability by concrete, auditable modi-
+fication examples M1–M3.9 Each modification below alters 
+functionality without departing from the conservative region 
+defined by R1–R4. Where relevant we give (i) a minimal 
+mathematical specification, (ii) an explicit note on changes 
+compared to Fig. 1, and (iii) audit hooks that implementers 
+can run to verify compliance. None of the examples presup-
+poses a global workspace, higher-order self-representations, 
+or cross-episode autobiographical state.
+M1: off-line periodic memory reconciliation 
+(“dream”/“sleep”). Design. Run a periodic memory-inter-
+nal maintenance pass that leaves the controller S and its 
+interfaces unchanged. The controller still performs the same 
+bounded read at A3 and write at A8, and memory returns the 
+same fixed-schema fields; the maintenance pass may only 
+prune episodes and/or update per-episode fields (e.g., succ∗ ) 
+within that schema. Intuitively, memory keeps the most use-
+ful examples and makes success tags reflect medium-term 
+consequences, while the controller and its read/write disci-
+pline remain unchanged. The maintenance pass:
+(i) deduplicates near-identical episodes and prunes simi-
+lar pre-action episodes while keeping high-success exem-
+plars, optionally per policy;
+(ii) prunes episodes by age or retrieval frequency, with 
+success/emotional intensity based exceptions (“flash-bulb” 
+exceptions); and
+(iii) re-estimates single-step past success tags using their 
+medium-/long-term horizon outcomes through a bounded, 
+future-informed aggregate (short-term gains/losses versus 
+long-term losses/gains). Distribute a small backward bonus 
+for rare, very-high-success events to preceding actions.
+Loop impact. None: the read/write discipline of SIC-5 
+(read only at A3, write only at A8) and the frozen-deploy-
+ment assumption of SIC-4 remain satisfied.
+Audit hooks. (R1) no broadcast, (R2) no metarepresenta-
+tions (R3) no autobiographical stitching; only per-episode 
+scalar rewrites; any success edits remain atomic per epi-
+sode; no new vectors or keys are created, and retrieval keys 
+remain step-local, and (R4) no re-training, only memory 
+module-local updates. This example should highlight that 
+memory-internal maintenance and success re-evaluation, 
+even if concerning multiple episodes, would not by itself 
+imply violations of any of R1–R4.
+M2: “Mood”-like temporal smoothing (local integrator).
+9  SI, Part II provides complete details for M1, as well as further mod-
+ification examples M4–M5.
+
+4941
+AI & SOCIETY (2026) 41:4929–4947	
+Design. A leaky buffer biases S by storing a time-aver-
+aged emotion which is neither persisted as an episode nor 
+used as a retrieval key:
+Loop impact. Affective integration A4 may use ̄zt−1 as a 
+controller-internal input to fusion/scoring; retrieval keys 
+remain step-local (SIC-2), and the memory read/write dis-
+cipline remains unchanged (SIC-5).
+Audit hooks. (R1–R2) No additional heterogeneous con-
+sumers are introduced, and ̄z is not re-encoded into higher-
+order reportable state tokens. (R3) While the leaky smooth-
+ing of affect implies long time-window averages, ̄z is never 
+aggregated into an autobiographical consolidation. In par-
+ticular, (i) it is strictly controller local, (ii) it is not used as 
+retrieval key or situation category, (iii) it is not stored inside 
+episodes, and (iv) it has an explicitly bounded time constant 
+(auditable as an effective temporal receptive field). (R4) For 
+innate controllers or frozen deployment (SIC-4), no train-
+ing occurs and the leaky integrator is simply a fixed runt-
+ime mechanism. If pre-deployment training does occur and 
+incorporates ̄z , gradients must remain module local and must 
+not backpropagate through the temporal buffer to couple 
+earlier timesteps with later module updates. This example 
+should illustrate that simple temporal filtering does not by 
+itself imply consolidation into an autobiographical narrative.
+M3: Trait-like constant modulators. Design. Intro-
+duce per-actor parameters Ω ∈ℝf that parametrize 
+only local maps inside S , without changing interfaces 
+or keys. For example, we may modify the need-based 
+affect-to-hint-mapping
+The values of Ω may be interpretable to observers as “trait-
+like” (for alignment/telemetry purposes), but internally they 
+are just control gains.
+Runtime immutability. During deployment, Ω remains 
+constant, consistent with SIC-4 (frozen deployment/opti-
+mizer isolation).
+Loop impact. None on A1–A8 interfaces: the safe inter-
+face contract is unchanged, including SIC-5 (read only 
+at A3, write only at A8). The only effect of Ω is via the 
+fixed parametrization of bounded, controller-internal maps; 
+retrieval keys and episodes are unchanged.
+Audit hooks. (R1: no content-general workspace) No con-
+tent-general shared scratchpad/hub/router is introduced: Ω 
+only parametrizes fixed, controller-internal maps. Any shared 
+signals remain narrow, typed control variables (gains, policy 
+parameters, fixed-schema scores), and there is no global atten-
+tion, message bus, or routing mechanism that would expose a 
+content-general state to multiple heterogeneous subsystems. 
+(R2: no metarepresentations) Static graph check: no buffer 
+(3)̄
+zt = 𝛾̄ zt−1 + (1 −𝛾) zt,
+𝛾∈[0.9, 0.99].
+hneed
+t
+←hints(need)(Ω, zneed
+t
+).
+read by S encodes any token whose semantics is “my Ω is ...”. 
+Episodes continue to store only situation classes, affect z , poli-
+cies, and success tags to support similarity-based control. Even 
+though this can lead to non-intuitive behavior (for example to 
+counteract “disadvantageous” parameterizations Ω because 
+“non-social” settings may underperform during deployment 
+and memory-based affect may eventually bias toward Seek), 
+any such shifts result from world-facing evidence and remain 
+first order: no variable about Ω is constructed, stored, or con-
+sumed by the action-selection loop (changes in behavior would 
+result without explicit or implicit situational meta-analyses). 
+(R3: no temporal integration into cross-episode summaries) 
+Ω is never written to episodes, never used in keys, not time-
+indexed. Keys remain step-local functions of xt (and permitted 
+step-local transforms). (R4: bounded learning): No optimizer 
+for Ω during deployment. This example should illustrate that 
+parameterizations might coherently modulate “behavior”, 
+yet remain first order without introducing a higher order 
+self-model.
+4.3  Q3: Gradual paths toward consciousness risk
+The gradualism question. Having delineated a conservative 
+region in which R1–R4 remain intact, making access con-
+sciousness unlikely under our proxy, we now ask whether 
+one can trace paths that gradually increase access-con-
+sciousness risk. While we cannot demonstrate conscious-
+ness emergence (there is no universally accepted operational 
+test), we can argue that our framing through risk-reduction 
+criteria R1–R4 allows for a natural answer to question 
+Q3: the combined risk-reduction criteria R1–R4 repre-
+sent the strictest version by establishing many simultane-
+ous constraints. As constraint violations accumulate, risk 
+plausibly increases. Though the precise mapping remains 
+uncertain, we can establish a partial hierarchical ordering 
+of different design paths: any proper subset of constraints 
+{R1, … , Rm} ⊊{R1, … , Rn} requires fewer constraints 
+( m < n ) to be simultaneously met, and would thus plausi-
+bly be less strongly access avoiding. Each abandoned risk-
+reduction criterion amounts to permitting specific capability 
+upgrades. Hence, risk-reduction criteria may indicate which 
+design elements we may focus on when asking whether-
+and which-design moves may gradually shift toward access 
+consciousness. They can form graded “drift axes” in design 
+space which allow us to chart design trajectories that 
+leave the conservative region, plausibly in the direction of 
+increased access-consciousness risk.
+4.3.1  Self‑modeling as a graded path
+A prominent trajectory concerns self-modeling (see Gerrans 
+2024, ). We distinguish a ladder of design moves that gradu-
+ally pressure R2 (and eventually R1/R3): 
+
+4942
+	
+AI & SOCIETY (2026) 41:4929–4947
+S1	
+Self-free (task-facing only). The system tracks exog-
+enous/task variables; affect is first-order control (needs/
+drives → policies). Compatible with R1–R4 (our Q1 
+witness baseline).
+S2	
+Proto-self (body schema/calibration). Local proprio-
+ceptive calibration signals inside S to stabilize control; 
+not stored or keyed; not reportable. Still first order; 
+typically R1–R4 compatible if kept private and myopic.
+S3	
+Episode-linked identity. Persistent identifiers (or 
+profile features) linking episodes over time. Begins to 
+pressure R3 (temporal autobiographical consolidation). 
+If such identifiers enter S inputs or keys, R2/R3 risk 
+rises.
+S4	
+Narrative self-model. Cross-episode summaries that 
+represent the agent’s own states, capabilities, or his-
+tory; often coupled to broadcast. This directly risks R2 
+(self-ascriptive tokens), R3 (autobiographical stitch-
+ing), and frequently R1 (workspace-like hubs).
+Takeaway. The step from S2 to S3/S4 aligns with con-
+cerns based on predictive processing accounts: moving 
+from local calibration to explicit self-tokens and narrative 
+integration. Our witness design remains at S1 (optionally 
+S2) by construction.
+4.3.2  Separate gradual paths
+Integration pressure (broadcast). Demands for cross-
+modal coordination and routing can gradually erode R1:
+•	 B1: separate processors, narrow typed interfaces.
+•	 B2: shared encoders at interfaces (risk: stealth hubs).
+•	 B3: common latent spaces and routers (implicit broad-
+cast).
+•	 B4: explicit global workspace for arbitrary content 
+routing.
+Temporal depth (binding). Long-horizon tasks tempt 
+departures from R3:
+•	 T1: atomic episodes.
+•	 T2: short sequences for specific tasks.
+•	 T3: extended narratives for planning.
+•	 T4: autobiographical memory with causal models.
+Learning sophistication (credit assignment). Capability 
+pressure may violate R4:
+•	 L0: frozen deployment, possibly no training (innate Q1 
+witness baseline).
+•	 L1: local parameter tuning within S (disjoint optimizer).
+•	 L2: multiple S submaps adapt (still module local).
+•	 L3: cross-module credit ( S ↔perception/memory).
+•	 L4: end-to-end optimization through all pathways.
+4.3.3  Implicit violations through learned representations
+The gradual paths above (S1–S4, B1–B4, T1–T4, L1–L4) 
+focus on explicit architectural changes. However, function-
+ally equivalent R1–R4 violations may arise through implicit 
+emergence within learned components, even when explicit 
+architecture remains fixed. Neural networks implementing 
+the categorization function (A1), need-to-affect mapping 
+(A2), or policy scoring (A4–A5) might develop representa-
+tions that violate our constraints:
+•	 Implicit global broadcast (R1): shared encoder layers 
+across modules may develop latent spaces that function 
+as covert hubs, making content available to heterogene-
+ous consumers without explicit broadcast channels.
+•	 Implicit metarepresentation (R2): a categorization net-
+work might learn embeddings that encode not just situ-
+ational features but also the agent’s own internal states, 
+history, or identity—self-referential content emerging 
+from training incentives rather than architectural design.
+•	 Implicit autobiographical consolidation (R3): even 
+with step-local keys, learned representations might 
+encode trajectory information if training involved tem-
+porally extended prediction tasks.
+•	 Implicit cross-module coupling (R4): pre-deployment 
+training with shared objectives or end-to-end gradients 
+may leave residual dependencies frozen into the weights, 
+even if deployment satisfies gradient isolation.
+4.3.4  Risk posture and audits
+A cautious policy for deployments aiming to maintain sep-
+aration witness status is to keep systems at self-modeling 
+levels S1/S2, broadcast level B1, temporal level T1, and 
+learning levels L0-L2. Moving toward levels 3/4 on any axis 
+represents graded departure from the conservative region.
+Table 2 sketches design indicators and tests for both 
+explicit architectural violations and implicit violations aris-
+ing within learned components. Explicit tests verify compli-
+ance at the architectural level; implicit tests target emergent 
+properties through indirect probes such as activation clus-
+tering, representational similarity analysis, and causal trac-
+ing (Kästner and Crook 2024; Sharkey et al. 2025). Imple-
+mentations may align logged variables with indicator-style 
+assessments and document processes in the spirit of AI-audit 
+frameworks (Raji et al. 2020; NIST 2023). Detecting implicit 
+
+4943
+AI & SOCIETY (2026) 41:4929–4947	
+violations in artificial neural networks shares some of the 
+challenges of inferring functional organization from bio-
+logical connectomics. Artificial systems offer instrumental 
+advantages—arbitrary interventions and exact readout of any 
+internal variable at arbitrary precision. Yet invasive probing 
+(e.g., ablation-style interventions) for access consciousness 
+in artificial systems that might possess it would raise ethical 
+concerns (e.g., consent, welfare) analogous to those arising 
+in biological research. Developing robust methods to reveal 
+the design elements targeted by R1–R4—whether encoded 
+in weights or arising dynamically through data-dependent 
+activation—remains an important open problem for AI inter-
+pretability (Sharkey et al. 2025) and R1–R4 audits at scale.
+5  Synthesis and outlook
+Summary of findings. Under our audit proxy for access 
+risk (operationalized via R1–R4: no global workspace-like 
+broadcast, no metarepresentation, no autobiographical con-
+solidation, bounded learning), we argued Q1 in the affirma-
+tive: there exists a separation witness—an emotion-like 
+controller incorporating architectural principles A1–A8 
+and satisfying R1–R4, thereby remaining below access-like 
+thresholds according to this proxy. Informally, the witness 
+architecture is “too simple to be conscious yet rich enough 
+to be emotional.” This slogan captures the core intuition 
+but should not be taken too literally; what makes the stance 
+precise and falsifiable is the concrete controller of Fig. 1 
+tested against R1–R4 audits. For Q2, we identified stable 
+design pockets: functionally useful modifications that pre-
+serve R1–R4 compliance and thus maintain witness status. 
+For Q3, we sketched graded routes out of those pockets, 
+proposing preliminary audit criteria to track progressive 
+departure from the conservative region.
+Potential use in comparative biology. The separation 
+framework, if sound, may license hypotheses beyond arti-
+ficial systems. One could ask whether simpler organisms 
+implement something approximating A1–A8 while lack-
+ing the integrative and reflective capacities associated with 
+access consciousness—capacities whose graded relaxation 
+we traced in Q3. Indeed, the framework suggests an intui-
+tion pump: starting from humans, where emotional life and 
+consciousness are typically entangled, and moving toward 
+simpler animals that we may intuitively credit with emo-
+tional responses but with diminished reflective and integra-
+tive capacities, one may approach—in the limit—systems 
+where emotion-like control operates without access-enabling 
+features. Whether this picture is correct is an empirical ques-
+tion, but the framework would render it coherent.
+This perspective might bear on ongoing debates. 
+Researchers studying insects often speak of “internal 
+states” or “behavioral modulation” rather than “affect” or 
+Table 2   Preliminary audit indicators for R1–R4. Explicit tests verify architectural compliance; implicit tests detect learned violations that may emerge despite architectural constraints
+Criterion Design indicators
+Explicit tests
+Implicit tests
+R1
+Max fan-out of internal states; shared buffers or workspace 
+tokens; cross-module attention; shared context objects; 
+stealth hubs via shared embeddings/gates/routers
+Count consumer modules per signal; ablate shared 
+structures and check multi-module failure; cap/log 
+inter-module bandwidth; scan for global-memory tokens 
+or attention making content concurrently readable by 
+heterogeneous consumers
+Probe for latent hub structure in learned representations; 
+measure cross-module mutual information
+R2
+Paths that re-encode internal states as inputs; self-ref-
+erential features; introspection nodes; variables about 
+internal states (self-reports, self-ratings) feeding back 
+into scoring or learning
+Trace whether system inputs include own state variables; 
+telemetry one-way only; check for telemetry leakage 
+(debug/UX strings or dashboards reused in training)
+Train classifiers to decode self-referential content (identity, 
+internal states) from activations
+R3
+Effective temporal receptive field; cross-episode keys; per-
+sistent profiles; cross-episode profile vectors; sequence 
+models over long histories; identity/time keys
+Shuffle/trim histories and test decision invariance; forbid 
+write-back of summaries into system-readable buffers; 
+check for offline summarizers writing autobiographical 
+state
+Probe whether trajectory or autobiographical information is 
+decodable from ostensibly step-local representations
+R4
+Gradient paths crossing modules; shared optimizers; 
+multi-agent distillation; end-to-end backprop across 
+modules or actors; shared routers coupling local states
+Verify zero cross-gradients at boundaries; one optimizer 
+per module; intervene in A and test drift in B under 
+frozen losses
+Audit training-time objectives for integration incentives; 
+check for residual cross-module dependencies in frozen 
+weights
+
+4944
+	
+AI & SOCIETY (2026) 41:4929–4947
+“emotion,” and whether such phenomena merit the stronger 
+label remains contested (Anderson and Adolphs 2014; 
+Adolphs and Anderson 2018). Our architectural specifi-
+cation (A1–A8) sets a threshold for warranting that label 
+in our sense, one that may apply even to primitive organ-
+isms: hierarchical organization with categorical abstraction, 
+dual-source modulation through need appraisal and episodic 
+memory, and affect-tagged storage enabling experience-
+dependent behavioral change. Below this threshold would 
+lie merely reactive control. The Q1 witness shows that also 
+above this threshold systems need not, as a matter of archi-
+tectural necessity, possess the access-enabling features tar-
+geted by R1–R4. Whether particular biological organisms 
+implement something approximating A1–A8 is an empirical 
+question; our contribution, if accepted, would support the 
+conditional claim that if they do, this alone would not imply 
+access-like consciousness under the proxy adopted here. The 
+witness might thus serve double duty: as an existence proof 
+for artificial systems, and as a scaffold for hypotheses about 
+which functional details of affect-like control could have 
+emerged evolutionarily as an intermediate layer between 
+reactive regulation and conscious access (Panksepp and 
+Biven 2012).
+Generalizability of the method
+The present account could be turned into a blueprint that 
+generalizes beyond our specific choices. The core method 
+for identifying a potential separation witness (Q1) consists 
+in: (i) implementing a candidate architecture (here A1–A8) 
+in deliberately primitive form (here an architecturally frozen 
+version of Fig. 1 with limited interfaces and strictly con-
+strained read/write operations; see Sect. 4.1), and (ii) audit-
+ing it against theory-derived risk-reduction criteria (here 
+R1–R4). This method can be applied to alternative archi-
+tectural commitments ­A1–An and risk-reduction sets ­R1–Rm.
+Our approach to the architectural features A1–A8 pro-
+posed here as sufficient for the label “emotion-like control” 
+is intentionally minimalistic. This permits considerable 
+primitiveness in the separation witness,10 which may prompt 
+skepticism: surely this cannot be all there is to emotions? 
+Readers who subscribe to functional accounts but find our 
+architectural principles incomplete or misspecified—for 
+example, in drawing insufficient distinctions among different 
+types of emotions, affect, and feelings—may substitute their 
+own architectural principles ­A1–An and provide alternative 
+implementations. The methodological template remains 
+applicable regardless.
+Regarding the risk-reduction criteria R1–R4, our 
+approach is theory-informed and deliberately conservative: 
+these criteria reflect features associated with access-like con-
+sciousness across prominent access-oriented frameworks. 
+Satisfying R1–R4 is meant to place a system in a plausibly 
+access-excluding region under this proxy, but the criteria 
+are not claimed to be necessary or sufficient for establish-
+ing the presence or absence of consciousness in general. 
+Here too, readers may identify omissions—for instance, 
+distinctions between awareness and consciousness that our 
+criteria may fail to capture. Such concerns may motivate 
+deriving alternative risk-reduction criteria ­R1–Rm, unless 
+the existing constraints can be shown to already preclude 
+the relevant mechanisms. Extensions may also attempt to 
+formulate optional criteria tailored to theories that are not 
+primarily access-oriented, such as Integrated Information 
+Theory (IIT). For example, one could add an R5 aimed at 
+reducing large-scale causal integration—using tractable 
+approximations or proxies for Φ—by targeting the forma-
+tion of a tightly integrated complex (Tononi et al. 2016). 
+The methodology permits extending the risk-reduction set 
+when one wishes to track additional theoretical risk lenses.
+Future work may thus build on this template, adapting 
+both the “emotion-like” specification and “consciousness-
+risk-reducing” tests as theoretical understanding evolves. 
+Corresponding adaptations to the modification analysis (Q2) 
+and the gradual relaxation of risk reductions (Q3) would 
+follow the same principles.
+Toward a robust separation conjecture. A broader con-
+jecture emerges: if modifications establishing architectural 
+principles ­A1–An to satisfy risk reductions ­R1–Rm consist-
+ently yield affirmative answers to Q1–Q3 across a wide vari-
+ety of emotion-controller proposals, this would constitute 
+strong evidence that emotion-like control, at least for basic 
+emotions, is logically independent of access consciousness. 
+This reasoning assumes that the architectural principles 
+­A1–An are reduced to their functional minimum. Negative 
+answers to Q1 follow trivially if a model intrinsically pre-
+supposes (access) consciousness.11 Stipulative approaches 
+settle the question by definition.12 A genuine test arises 
+11  For example, LeDoux and Brown (2017) extend HOT to include 
+emotions and write “[...] we define ‘fear’ as the conscious feeling one 
+has when in danger [...]. One implication of our view is that emotions 
+can never be unconscious. Responses controlled by subcortical sur-
+vival circuits that operate nonconsciously sometimes occur in con-
+junction with emotional feelings but are not emotions.” In contrast, 
+LeDoux (2003) writes “Fear and fear learning have been dealt with 
+here without addressing the conscious experience of fear [...]. While 
+this is more a problem about consciousness than about emotion, [...] 
+research on emotion may be able to contribute”. Under the assump-
+tion that adding access-enabling features weakly increases the prob-
+ability of phenomenality, our methodology seems more readily appli-
+cable to this earlier framing.
+12  One might object that A1–A8 are themselves stipulative. We 
+acknowledge this: any demarcation involves definitional choices. The 
+crucial difference is that A1–A8 stipulate a floor—a minimal thresh-
+old distinguishing emotion-like control from mere reactive systems—
+while leaving open whether additional capacities (such as access 
+10  See in particular the example code referenced in SI, Part I.
+
+4945
+AI & SOCIETY (2026) 41:4929–4947	
+when a model does not presuppose access consciousness, 
+yet the risk reductions ­R1–Rm prove difficult or impossible 
+to satisfy—suggesting that access-enabling features may 
+be necessary after all. Higher-order social emotions (e.g., 
+guilt, shame, pride) that appear to require self-referential 
+processing seem to be potential candidates for this outcome. 
+Conversely, ease in satisfying ­R1–Rm provides preliminary 
+evidence against the necessity of access consciousness. 
+Different categories of emotions may thus yield differ-
+ent answers to Q1; the methodology accommodates this 
+heterogeneity.
+The present analysis represents a first step toward this 
+broader program, offering initial results alongside a meth-
+odological template. For example, whether short-term 
+guilt- or shame-equivalent states can be captured within our 
+model (or slight extensions)—e.g., via observed cues and 
+discrepancies in a need for bonding—becomes amenable 
+to operational test. Dogs display guilt-like behaviors cor-
+relating with owner cues, casting doubt on whether genuine 
+guilt is present (Horowitz 2009). An alternative interpreta-
+tion is that received anger cues produce guilt-like uneasiness 
+that recurs under similar circumstances, triggers a “guilty 
+look” policy reinforced by bonding success, and operates 
+without higher-order self-representation or autobiographical 
+consolidation. The emotion-like controller presented here 
+could perhaps mirror such internal states and guide exter-
+nal behavior in sociable robots (Breazeal 2003) with mini-
+mal extensions (e.g., longer episode duration). This raises 
+the possibility that even some primitive forms of guilt-like 
+control are functionally implementable independently of 
+whatever further capacities—if any—distinguish conscious 
+from non-conscious affect. Whether and how strongly the 
+dog may be said to feel remains an open question on which 
+theorists would presumably disagree (Panksepp and Biven 
+2012; LeDoux and Brown 2017); our framework offers a 
+functionalist approach testable in artificial systems as one 
+basis for advancing such debates on conscious experience—
+now arising in analogous form for AI (Butlin et al. 2025; 
+Seth 2025).
+Closing note. Whatever one’s stance on consciousness or 
+emotion, the present contribution may be engaged at three 
+independent levels.
+(1) A practical engineering toolkit. Readers who disa-
+gree with our methodology may nonetheless find value in 
+applying the concrete, modular controller based on princi-
+ples A1–A8, with its intuitive tuning parameters (drives, 
+valence, arousal). The dual-source design (immediate needs 
++ episodic hints) aims to add robustness; the hierarchical 
+separation (situations → categories → policies → actions) 
+is intended to manage complexity; and explicit interfaces 
+(keys, tags, scores) are designed to make systems debug-
+gable and ablatable.
+(2) A bridge from theory to measurement. Questions such 
+as “What are emotions?” and “Can emotions exist without 
+consciousness?” are notoriously vague. We propose a sys-
+tematic approach for making such questions tractable within 
+a functionalist framework: specify architectural principles, 
+implement them in auditable form, and test against theory-
+derived risk-reduction criteria. The resulting template—
+illustrated here through a separation witness, stability 
+analysis, and risk gradients—may prove applicable to other 
+questions concerning emotions and/or consciousness.
+(3) A safety framework potentially transcending emo-
+tion architectures. Our risk-reduction criteria (R1–R4) are 
+intended to function as access consciousness risk-reduction 
+audits. They cannot certify the absence of consciousness, but 
+they flag architectural patterns that multiple theories associ-
+ate with access-consciousness risk—and by relaxing crite-
+ria successively, they enable tracing graded paths toward 
+such risk. These theory-informed risk-reduction proxies are 
+meant to delineate a plausibly access-excluding region under 
+this proxy: for explicit architectural features, they may offer 
+directly actionable, falsifiable tests; for implicit violations 
+emerging within learned representations, the proposed audits 
+remain preliminary. In principle this methodology is not spe-
+cific to the examined scenarios and it may find use in audits 
+of other AI architectures.
+We hope each community finds something of value here: 
+engineers, an architecture to experiment with; theorists, a 
+conceptual scaffold and a family of testable cases; policy-
+makers and safety researchers, a suggestion for structuring 
+audits through access consciousness risk-reduction criteria. 
+As capabilities accelerate while theories of consciousness 
+remain contested, definitive conclusions may lie beyond 
+reach. Yet navigation tools may prove more tractable than 
+definitive answers—grounding architectural choices in bio-
+logically inspired principles while keeping them transparent 
+and auditable. The templates and tests proposed here are 
+intended as starting points for discovery, not destinations, 
+and are designed to evolve as understanding advances.
+Supplementary Information  The online version contains supplemen-
+tary material available at https://​doi.​org/​10.​1007/​s00146-​026-​02896-z.
+Author Contributions  The author is solely responsible for all aspects 
+of this work.
+Funding  The author received no funding for this work.
+Data Availability  Not applicable.
+Code Availability  Reference implementations are available at https://​
+github.​com/​affect-​based-​contr​ol/​synth​etic-​emoti​on-​contr​oller.
+consciousness) are also necessary. Stipulating a ceiling (e.g., that 
+emotions require consciousness) forecloses the separation question by 
+definition; stipulating a floor preserves it as empirically tractable.
+Footnote 12  (continued)
+
+4946
+	
+AI & SOCIETY (2026) 41:4929–4947
+Declarations 
+Conflict of interest  The author declares no conflict of interest.
+Ethics approval and consent to participate  Not applicable.
+Consent for publication  Not applicable.
+Open Access  This article is licensed under a Creative Commons 
+Attribution 4.0 International License, which permits use, sharing, 
+adaptation, distribution and reproduction in any medium or format, 
+as long as you give appropriate credit to the original author(s) and the 
+source, provide a link to the Creative Commons licence, and indicate 
+if changes were made. The images or other third party material in this 
+article are included in the article’s Creative Commons licence, unless 
+indicated otherwise in a credit line to the material. If material is not 
+included in the article’s Creative Commons licence and your intended 
+use is not permitted by statutory regulation or exceeds the permitted 
+use, you will need to obtain permission directly from the copyright 
+holder. To view a copy of this licence, visit http://creativecommons.
+org/licenses/by/4.0/.
+References
+Anderson DJ, Adolphs R (2014) A framework for studying emotions 
+across species. Cell 157(1):187–200. https://​doi.​org/​10.​1016/j.​
+cell.​2014.​03.​003
+Adolphs R, Anderson DJ (2018) The neuroscience of emotion: a new 
+synthesis. Princeton University Press, Princeton, NJ
+Andersen SM, Baum A (1994) Transference in interpersonal relations: 
+inferences and affect based on significant-other representations. 
+J Pers 62(4):459–497. https://​doi.​org/​10.​1111/j.​1467-​6494.​1994.​
+tb003​06.x
+Becker-Asano C (2008) WASABI: Affect simulation for agents with 
+believable interactivity. PhD thesis, Bielefeld University, Biele-
+feld, Germany
+Baars BJ (2005) Global workspace theory of consciousness: toward 
+a cognitive neuroscience of human experience. Prog Brain Res 
+150:45–53. https://​doi.​org/​10.​1016/​S0079-​6123(05)​50004-9
+Bechara A, Damasio H, Damasio AR (2000) Emotion, decision making 
+and the orbitofrontal cortex. Cereb Cortex 10(3):295–307. https://​
+doi.​org/​10.​1093/​cercor/​10.3.​295
+Bornstein AM, Khaw MW, Shohamy D, Daw ND (2017) Reminders of 
+past choices bias decisions for reward in humans. Nat Commun 8. 
+https://​doi.​org/​10.​1038/​ncomm​s15958
+Butlin P, Long R, Bayne T, Bengio Y, Birch J, Chalmers D, Constant 
+A, Deane G, Elmoznino E, Fleming SM, Ji X, Kanai R, Klein C, 
+Lindsay G, Michel M, Mudrik L, Peters MAK, Schwitzgebel E, 
+Simon J, VanRullen R (2025) Identifying indicators of conscious-
+ness in AI systems. Trends Cogn Sci. https://​doi.​org/​10.​1016/j.​
+tics.​2025.​10.​011
+Block N (1978) Troubles with Functionalism. In: Savage CW (ed) Min-
+nesota Studies in the Philosophy of Science 9, 261–325. Univer-
+sity of Minnesota Press, Minneapolis
+Block N (1995) On a confusion about a function of consciousness. 
+Behav Brain Sci 18(2):227–247. https://​doi.​org/​10.​1017/​S0140​
+525X0​00381​88
+Braitenberg V (1984) Vehicles: experiments in synthetic psychology. 
+MIT Press, Cambridge
+Breazeal C (2003) Emotion and sociable humanoid robots. Int J Hum 
+Comput Stud 59(1–2):119–155. https://​doi.​org/​10.​1016/​S1071-​
+5819(03)​00018-1
+Berridge KC, Winkielman P (2003) What is an unconscious emotion? 
+(The case for unconscious “liking’’). Cogn Emot 17(2):181–211. 
+https://​doi.​org/​10.​1080/​02699​93030​2289
+Clayton NS, Dickinson A (1998) Episodic-like memory during cache 
+recovery by scrub jays. Nature 395:272–274. https://​doi.​org/​10.​
+1038/​26216
+Celeghin A, De Gelder B, Tamietto M (2015) From affective blindsight 
+to emotional consciousness. Conscious Cogn 36:414–425. https://​
+doi.​org/​10.​1016/j.​concog.​2015.​05.​007
+Damasio AR (1994) Descartes’ Error: Emotion. Reason and the Human 
+Brain. Putnam, New York
+Damasio AR (1999) The feeling of what happens: body and emotion 
+in the making of consciousness. Harcourt, New York
+Dehaene S, Naccache L (2001) Towards a cognitive neuroscience of 
+consciousness: basic evidence and a workspace framework. Cog-
+nition 79(1–2):1–37. https://​doi.​org/​10.​1016/​S0010-​0277(00)​
+00123-2
+Ekman P (1992) An argument for basic emotions. Cogn Emotion 6(3–
+4):169–200. https://​doi.​org/​10.​1080/​02699​93920​84110​68
+Feinstein JS, Buzza C, Hurlemann R, Follmer RL, Dahdaleh NS, 
+Coryell WH, Welsh MJ, Tranel D, Wemmie JA (2013) Fear and 
+panic in humans with bilateral amygdala damage. Nat Neurosci 
+16(3):270–272. https://​doi.​org/​10.​1038/​nn.​3323
+Fanselow MS (1994) Neural organization of the defensive behavior 
+system responsible for fear. Psychon Bull Rev 1:429–438. https://​
+doi.​org/​10.​3758/​BF032​10947
+Feldman Barrett L (2017) The theory of constructed emotion: an active 
+inference account of interoception and categorization. Soc Cognit 
+Affect Neurosci 12(1):1–23. https://​doi.​org/​10.​1093/​scan/​nsw154
+Franklin S, Madl T, D’Mello SK, Snaider J (2014) LIDA: a systems-
+level architecture for cognition, emotion, and learning. IEEE 
+Trans Auton Ment Dev 6(1):19–41. https://​doi.​org/​10.​1109/​
+TAMD.​2013.​22775​89
+Frijda NH (1986) The Emotions. Cambridge University Press, 
+Cambridge
+Friston KJ, Rosch R, Parr T, Price C, Bowman H (2018) Deep temporal 
+models and active inference. Neurosci Biobehav Rev 90:486–501. 
+https://​doi.​org/​10.​1016/j.​neubi​orev.​2018.​04.​004
+Gershman SJ, Daw ND (2017) Reinforcement learning and episodic 
+memory in humans and animals: an integrative framework. 
+Annu Rev Psychol 68:101–128. https://​doi.​org/​10.​1146/​annur​
+ev-​psych-​122414-​033625
+Gerrans P (2024) Anatomy of an avatar: the virtual self in pathologies 
+of self awareness. Oxford University Press, Oxford. https://​doi.​
+org/​10.​1093/​97801​91994​395.​001.​0001
+Ginsburg S, Jablonka E (2019) The evolution of the sensitive soul: 
+learning and the origins of consciousness. MIT Press, Cambridge, 
+MA
+Goldie P (2002) Emotions, feelings and intentionality. Phenomenol 
+Cogn Sci 1(3):235–254. https://​doi.​org/​10.​1023/A:​10213​06500​
+055
+Gigerenzer G, Selten R (eds) (2001) Bounded rationality: the adaptive 
+toolbox. MIT Press, Cambridge, MA
+Helm BW (2009) Emotions as evaluative feelings. Emot Rev 1(3):248–
+255. https://​doi.​org/​10.​1177/​17540​73909​103593
+Hohwy J (2013) The Predictive Mind. Oxford University Press, Oxford. 
+https://​doi.​org/​10.​1093/​acprof:​oso/​97801​99682​737.​001.​0001
+Horowitz A (2009) Disambiguating the “guilty look’’: Salient prompts 
+to a familiar dog behaviour. Behav Proc 81(3):447–452. https://​
+doi.​org/​10.​1016/j.​beproc.​2009.​03.​014
+Jiang H, Vidal JM, Huhns MN (2007) EBDI: an architecture for emo-
+tional agents. In: Proceedings of the 6th International Joint Con-
+ference on Autonomous Agents and Multiagent Systems. AAMAS 
+’07. Association for Computing Machinery, New York. https://​doi.​
+org/​10.​1145/​13291​25.​13291​39
+
+4947
+AI & SOCIETY (2026) 41:4929–4947	
+Kästner L, Crook B (2024) Explaining AI through mechanistic 
+interpretability. Eur J Philos Sci 14:52. https://​doi.​org/​10.​1007/​
+s13194-​024-​00614-4
+Kensinger EA (2004) Remembering emotional experiences: The con-
+tribution of valence and arousal. Rev Neurosci 15(4):241–252. 
+https://​doi.​org/​10.​1515/​REVNE​URO.​2004.​15.4.​241
+Lazarus RS (1991) Emotion and adaptation. Oxford University Press, 
+Oxford
+LeDoux JE, Brown R (2017) A higher-order theory of emotional con-
+sciousness. Proc Natl Acad Sci 114(10):E2016–E2025. https://​
+doi.​org/​10.​1073/​pnas.​16193​16114
+LeDoux JE (1996) The emotional brain: the mysterious underpinnings 
+of emotional life. Simon & Schuster, New York
+LeDoux JE (2003) The emotional brain, fear, and the amygdala. Cell 
+Mol Neurobiol 23(4–5):727–738. https://​doi.​org/​10.​1023/A:​
+10250​48802​629
+LeDoux JE (2012) Rethinking the Emotional Brain. Neuron 73(4):653–
+676. https://​doi.​org/​10.​1016/j.​neuron.​2012.​02.​004
+Letheby C, Gerrans P (2017) Self unbound: ego dissolution in psyche-
+delic experience. Neurosci Consciousn 2017(1):1–11. https://​doi.​
+org/​10.​1093/​nc/​nix016
+Lau H, Rosenthal D (2011) Empirical support for higher-order theories 
+of conscious awareness. Trends Cogn Sci 15(8):365–373. https://​
+doi.​org/​10.​1016/j.​tics.​2011.​05.​009
+McGaugh JL (2004) The amygdala modulates the consolidation of 
+memories of emotionally arousing experiences. Annu Rev Neu-
+rosci 27:1–28. https://​doi.​org/​10.​1146/​annur​ev.​neuro.​27.​070203.​
+144157
+Mehrabian A (1996) Pleasure-arousal-dominance: a general framework 
+for describing and measuring individual differences in tempera-
+ment. Curr Psychol 14(4):261–292. https://​doi.​org/​10.​1007/​BF026​
+86918
+Marsella SC, Gratch J (2009) EMA: a process model of appraisal 
+dynamics. Cogn Syst Res 10(1):70–90. https://​doi.​org/​10.​1016/j.​
+cogsys.​2008.​03.​005
+Mnih V, Kavukcuoglu K, Silver D, Rusu AA, Veness J, Bellemare MG, 
+Graves A, Riedmiller M, Fidjeland AK, Ostrovski G et al (2015) 
+Human-level control through deep reinforcement learning. Nature 
+518:529–533. https://​doi.​org/​10.​1038/​natur​e14236
+Mashour GA, Roelfsema P, Changeux J, Dehaene S (2020) Conscious 
+processing and the global neuronal workspace hypothesis. Neuron 
+105(5):776–798. https://​doi.​org/​10.​1016/j.​neuron.​2020.​01.​026
+NIST (2023) Artificial Intelligence Risk Management Framework (AI 
+RMF 1.0). Technical Report NIST AI 100-1, National Institute of 
+Standards and Technology. https://​doi.​org/​10.​6028/​NIST.​AI.​100-1
+Ortony A, Clore GL, Collins A (1988) The cognitive structure of emo-
+tions. Cambridge University Press, Cambridge. https://​doi.​org/​10.​
+1017/​CBO97​80511​571299
+Panksepp J (1998) Affective neuroscience: the foundations of human 
+and animal emotions. Oxford University Press, Oxford
+Panksepp J, Biven L (2012) The archaeology of mind: neuroevolution-
+ary origins of human emotions. W. W. Norton, New York
+Pritzel A, Uria B, Srinivasan S, Badia AP, Vinyals O, Hassabis D, 
+Wierstra D, Blundell C (2017) Neural Episodic Control. In: 
+Precup D, Teh YW (eds.) Proceedings of the 34th international 
+conference on machine learning. Proceedings of machine learn-
+ing research, PMLR, 70, 2827–2836. ML Research Press, https://
+proceedings.mlr.press
+Revonsuo A (2000) The reinterpretation of dreams: An evolution-
+ary hypothesis of the function of dreaming. Behav Brain Sci 
+23(6):877–901. https://​doi.​org/​10.​1017/​S0140​525X0​00040​15
+Rao AS, Georgeff MP (1995) BDI agents: from theory to practice. In: 
+Proceedings of the first international conference on multiagent 
+systems (ICMAS-95), San Francisco, CA. pp. 312–319
+Rolls ET (2013) Emotion and decision-making explained. Oxford Uni-
+versity Press, Oxford. https://​doi.​org/​10.​1093/​acprof:​oso/​97801​
+99659​890.​001.​0001
+Rolls ET (2014) Emotion and decision-making explained: A précis. 
+Cortex 59:185–193. https://​doi.​org/​10.​1016/j.​cortex.​2014.​01.​020
+Rosenthal DM (2005) Consciousness and Mind. Oxford University 
+Press, Oxford
+Raji ID, Smart A, White RN, Mitchell M, Gebru T, Hutchinson B, 
+Smith-Loud J, Theron D, Barnes P (2020) Closing the AI account-
+ability gap: Defining an end-to-end framework for internal algo-
+rithmic auditing. In: Proceedings of the 2020 conference on fair-
+ness, accountability, and transparency, pp 33–44. https://​doi.​org/​
+10.​1145/​33510​95.​33728​73
+Russell JA (2003) Core affect and the psychological construction of 
+emotion. Psychol Rev 110(1):145–172. https://​doi.​org/​10.​1037/​
+0033-​295X.​110.1.​145
+Sharkey L, Chughtai B, Batson J, Lindsey J, Wu J, Bushnaq L, 
+Goldowsky-Dill N, Heimersheim S, Ortega A, Bloom JI, et al 
+(2025) Open problems in mechanistic interpretability. Trans Mach 
+Learn Res
+Seth AK (2013) Interoceptive inference, emotion, and the embodied 
+self. Trends Cogn Sci 17(11):565–573. https://​doi.​org/​10.​1016/j.​
+tics.​2013.​09.​007
+Seth AK (2025) Conscious artificial intelligence and biological natu-
+ralism. Behav Brain Sci, pp 1–42 https://​doi.​org/​10.​1017/​S0140​
+525X2​50000​32
+Simon HA (1956) Rational choice and the structure of the environment. 
+Psychol Rev 63(2):129–138. https://​doi.​org/​10.​1037/​h0042​769
+Simon HA (1967) Motivational and emotional controls of cognition. 
+Psychol Rev 74(1):29–39. https://​doi.​org/​10.​1037/​h0024​127
+Smith CA, Lazarus RS (1993) Appraisal components, core relational 
+themes, and the emotions. Cogn Emotion 7(3–4):233–269. https://​
+doi.​org/​10.​1080/​02699​93930​84091​89
+Scherer KR, Schorr A, Johnstone T (2001) (eds) Appraisal processes 
+in emotion: theory, methods, research. Oxford University Press, 
+Oxford. https://​doi.​org/​10.​1093/​oso/​97801​95130​072.​001.​0001
+Tononi G, Boly M, Massimini M, Koch C (2016) Integrated informa-
+tion theory: from consciousness to its physical substrate. Nat Rev 
+Neurosci 17:450–461. https://​doi.​org/​10.​1038/​nrn.​2016.​44
+Tamietto M, De Gelder B (2010) Neural bases of the non-conscious 
+perception of emotional signals. Nat Rev Neurosci 11:697–709. 
+https://​doi.​org/​10.​1038/​nrn28​89
+Talarico JM, Rubin DC (2007) Flashbulb memories are special 
+after all; in phenomenology, not accuracy. Appl Cogn Psychol 
+21(5):557–578. https://​doi.​org/​10.​1002/​acp.​1293
+Tulving E (1985) Memory and consciousness Canadian Psychology/
+Psychologie canadienne 26(1):1–12. https://​doi.​org/​10.​1037/​
+h0080​017
+Tulving E (2002) Episodic memory: from mind to brain. Annu Rev 
+Psychol 53:1–25. https://​doi.​org/​10.​1146/​annur​ev.​psych.​53.​
+100901.​135114
+Walker MP (2009) The role of sleep in cognition and emotion. Ann 
+N Y Acad Sci 1156(1):168–197. https://​doi.​org/​10.​1111/j.​1749-​
+6632.​2009.​04416.x
+Webb TW, Graziano MSA (2015) The attention schema theory: a 
+mechanistic account of subjective awareness. Front Psychol 6:500. 
+https://​doi.​org/​10.​3389/​fpsyg.​2015.​00500
+Wiens S (2006) Subliminal emotion perception in brain imaging: find-
+ings, issues, and recommendations. In: Anders S, Ende G, Jun-
+ghofer M, Kissler J, Wildgruber D (eds) Understanding emotions. 
+Progress in Brain Research, 156, 105–121. Elsevier, Amsterdam. 
+https://​doi.​org/​10.​1016/​S0079-​6123(06)​56006-6
+Publisher's Note  Springer Nature remains neutral with regard to 
+jurisdictional claims in published maps and institutional affiliations.

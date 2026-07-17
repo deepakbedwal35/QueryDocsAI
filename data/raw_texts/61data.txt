@@ -1,0 +1,1327 @@
+ORIGINAL RESEARCH
+published: 08 October 2020
+doi: 10.3389/fpsyg.2020.530152
+Edited by:
+Christopher Gutland,
+Sun Yat-sen University, China
+Reviewed by:
+Koji Ota,
+Niigata University, Japan
+Garrett Mindt,
+Central European University, Hungary
+*Correspondence:
+Takuya Niikawa
+niitaku11@gmail.com
+†Present address:
+Takuya Niikawa,
+Graduate School of Humanities, Kobe
+University, Kobe, Japan
+Specialty section:
+This article was submitted to
+Consciousness Research,
+a section of the journal
+Frontiers in Psychology
+Received: 28 January 2020
+Accepted: 02 September 2020
+Published: 08 October 2020
+Citation:
+Niikawa T (2020) A Map
+of Consciousness Studies: Questions
+and Approaches.
+Front. Psychol. 11:530152.
+doi: 10.3389/fpsyg.2020.530152
+A Map of Consciousness Studies:
+Questions and Approaches
+Takuya Niikawa1,2*†
+1 Institut Jean Nicod, ENS, Paris, France, 2 Faculty of Humanities and Human Sciences, Hokkaido University, Sapporo, Japan
+This article aims to present a map of consciousness studies, which consists of a
+list of fundamental questions about consciousness and existing approaches to them.
+The question list includes ﬁve fundamental categories: Deﬁnitional, Phenomenological,
+Epistemological, Ontological, and Axiological. Each fundamental category is divided into
+more determinate questions. Existing approaches to each question are also classiﬁed
+into a few groups, presenting principal researchers who take each kind of approach. In
+the ﬁnal section, I demonstrate the usefulness of the proposed map of consciousness
+studies by applying it to examine the integrated information theory and the global
+workspace theory of consciousness.
+Keywords: consciousness, consciousness science, philosophy of consciousness, approach to consciousness,
+questions about consciousness
+INTRODUCTION
+Academic research starts with research questions. An area of research typically develops by research
+questions being sophisticated, in particular, those being conceptually clariﬁed and being divided
+into more determinate questions. In the philosophy of language, for instance, the research question
+of “what is the meaning of symbols?” was divided into two diﬀerent types of questions, namely,
+the question about semantics—“what is the meaning of this or that symbol (for a particular person
+or group)?”—and the question about foundation—“in virtue of what facts about that person or
+group does the symbol have that meaning?” (Speaks, 2019, sec. 1). This division has helped us
+to develop theories of meaning without confusion. In linguistics, likewise, the research question of
+“what is the linguistic capacity?” can be divided into two distinct questions, namely, the competence
+question—“what is the linguistic competence?”—and the performance question—“what is the
+linguistic performance ability?” (Chomsky, 2014). This distinction helps us to develop theories of
+linguistic capacities while avoiding unnecessary confusion.
+Consciousness studies have rapidly developed in the last three decades; many philosophical
+and scientiﬁc theories of consciousness have been proposed. However, it is far less clear how
+such theories of consciousness are related to each other. Some theories target diﬀerent aspects
+of consciousness; some theories address the same aspect of consciousness but with diﬀerent
+methodologies. Consider two inﬂuential scientiﬁc theories of consciousness, the integrated
+information theory (IIT) (Tononi, 2008; Tononi et al., 2016) and the global workspace theory
+(GWT) (Baars, 2005; Dehaene, 2014). Although many assume that they are competitive, it is
+unclear whether they are concerned with the same research subject in the ﬁrst place (Ball, 2019).
+Given that there already exist many theories of consciousness, and it is far less clear how they
+are related, we need to stop trying to answer a speciﬁc research question set out in a theoretical
+framework for a moment and instead take research questions about consciousness themselves as the
+target of investigation. In other words, a second-order investigation of the research questions about
+consciousness is required to further develop consciousness studies.
+Frontiers in Psychology | www.frontiersin.org
+1
+October 2020 | Volume 11 | Article 530152
+
+Niikawa
+A Map of Consciousness Studies
+As an initial step of the second-order investigation, this article
+presents a systematic list of questions about consciousness (see
+section “The List of Questions”). This list helps us to understand
+what questions the existing theories of consciousness address. In
+addition, the list helps each consciousness researcher to see what
+aspects of consciousness they are interested in.
+After proposing a list of questions about consciousness,
+I also submit a list of approaches to each question (see section
+“The List of Approaches”). The list of approaches gives us the
+methodological overview of consciousness studies. It also helps
+researchers working in various ﬁelds to see what question they
+can tackle in their methodological/theoretical frameworks.
+The list of questions is constructed by a top–down approach.
+I apply the traditional taxonomy of philosophical inquiries to
+categorize questions about consciousness. Thus, the proposed
+classiﬁcatory framework is neither arbitrary nor groundless. The
+list of approaches is constructed by a bottom–up approach. I take
+the existing approaches to each kind of question and then classify
+them based on their crucial methodological diﬀerences.
+The ﬁnal section of this article is dedicated to demonstrate the
+usefulness of the map of consciousness studies, which consists
+of the lists of questions and approaches, by applying it to
+examine IIT and GWT. I will argue that the proposed map is
+useful in that it can provide a multidimensional framework in
+which to compare various scientiﬁc theories of consciousness,
+including IIT and GWT.
+THE LIST OF QUESTIONS
+Philosophical inquiries have typically been divided into three
+categories: Ontological, Epistemological, and Axiological (Lee,
+1966, p. 72; Wole´nski, 2004, p. 3). In addition to this traditional
+distinction, I incorporate two other fundamental categories into
+the classiﬁcatory framework for questions about consciousness,
+namely,
+Deﬁnitional
+and
+Phenomenological.
+Deﬁnitional
+inquiries explore satisfactory deﬁnitions of key concepts, such
+as “good” and “knowledge.” The term “consciousness” is also a
+target of this inquiry. Phenomenology is a discipline in which
+to investigate conscious phenomena from the subjective point
+of view, which is typically distinguished from other disciplines
+of philosophy (Smith, 2018, sec. 1). There is no doubt that
+the category of phenomenology should be included in the
+classiﬁcatory framework for questions about consciousness.
+Thus,
+we
+have
+ﬁve
+fundamental
+categories
+in
+which
+questions
+about
+consciousness
+are
+classiﬁed:
+Deﬁnitional,
+Phenomenological, Epistemological, Ontological, and Axiological1.
+Each
+fundamental
+category
+(except
+the
+deﬁnitional)
+has
+subcategories. The subcategories are set out partially in a
+bottom–up manner: it is partially based on the widely accepted
+division in the subject matter. In the rest of this section, I present
+the ﬁve fundamental questions about consciousness and how
+they are divided into subquestions (Figure 1).
+1Note that I do not claim that the questions belonging to distinct fundamental
+categories are independent of each other. Rather, they are interrelated in such a
+way that the answer to one question aﬀects the scope of possible answers to other
+kinds of questions.
+FIGURE 1 | The list of questions about consciousness.
+Deﬁnitional Question
+How should we deﬁne the term “consciousness” and its cognates?
+The deﬁnitional question is not divided into subquestions... .
+Phenomenological Question
+What phenomenological features does consciousness have?
+Frontiers in Psychology | www.frontiersin.org
+2
+October 2020 | Volume 11 | Article 530152
+
+Niikawa
+A Map of Consciousness Studies
+The
+phenomenological
+question
+is
+divided
+into
+three
+subquestions, depending on what aspect of consciousness to
+focus on, namely, content, dimension, or structure. The content of
+consciousness is understood as variable features of consciousness,
+such as experienced color, shape, movement, taste, or feel2. The
+dimension of consciousness is understood as the fundamentally
+diﬀerent kinds of conscious experiences, such as perceptual,
+cognitive, and emotional dimensions (Kriegel, 2015). The
+structure of consciousness is understood as invariable features
+of consciousness, such as unity and ﬁgure-ground structure
+(Bayne, 2010; Watzl, 2011; Macpherson, 2015). While the general
+structures of consciousness itself are typically discussed in the
+philosophy of consciousness, the speciﬁc structures of each
+dimension of consciousness can also be investigated.
+Content Question
+What content does consciousness have?
+Dimension Question
+What dimensions does consciousness have?
+Structure Question
+What structures does consciousness have?
+Epistemological Question
+How do we know about consciousness?
+The epistemological question is divided into two subquestions,
+depending on whose consciousness to address, whether one’s own
+consciousness or the consciousness of others.
+Epistemological Question About One’s Own
+Consciousness
+How do we know about our own consciousness?
+Epistemological Question About Others’
+Consciousness
+How do we know about the consciousness of others?
+Ontological Question
+How is consciousness located in the world?
+The ontological question is divided into two subquestions3.
+The ﬁrst concerns the relation between consciousness and
+the physical world; the second concerns the distribution of
+consciousness over the physical world.
+Mind–Body Question
+What relation holds between consciousness and the physical
+world (in particular our brain)?
+2For the overview of philosophical issues about the content of consciousness, see
+Macpherson (2011) and Siegel (2016).
+3One might wonder why I do not formulate the ontological question as “what
+is consciousness?” The reason is that it is ambiguous in that it can also be
+interpreted as the deﬁnitional question and as the phenomenological question
+asking the essential phenomenological features of consciousness. This ambiguity
+of the question of “what is consciousness?” may cause confusions in consciousness
+studies.
+Distribution Question
+How is consciousness distributed in the physical world? (In other
+words, what has consciousness?)
+Axiological Question
+What values does consciousness have?
+This question is divided into four subquestions, depending on
+what kind of value to address, namely, cognitive, epistemic, moral,
+or aesthetic4.
+Cognitive Value Question
+What type of cognitive capacity does consciousness enable its
+possessor to have?
+Epistemic Value Question
+What type of knowledge does consciousness enable its possessor
+to have?
+Moral Value Question
+What type of moral status does consciousness enable its possessor
+to have?
+Aesthetic Value Question
+What type of aesthetic value does consciousness enable its
+possessor to have?
+THE LIST OF APPROACHES
+In this section, I present approaches to each kind of questions
+that have been actually employed by consciousness researchers
+with a brief assessment of them (Figure 2). Note that although
+each approach can be taken individually to address one question,
+we can also take diﬀerent approaches in combination to
+address one speciﬁc question. In this sense, these approaches
+are not exclusive.
+Approaches to the Deﬁnitional Question
+Let us start with the deﬁnitional question: How should we
+deﬁne the term “consciousness” and its cognates? There are
+two approaches to the deﬁnitional question: (I) example-based
+approach and (II) essence-based approach.
+The
+example-based
+approach
+deﬁnes
+the
+term
+“consciousness” as something that is shared by typical examples of
+conscious states/experiences, such as pain experience and visual
+experience (Velmans, 2009; Nida-Rümelin, 2016; Prinz, 2016;
+Schwitzgebel, 2016). This approach can provide a theoretically
+neutral deﬁnition of consciousness, since it does not refer to any
+distinctive property in the deﬁnition of the term “consciousness.”
+The problem of the example-based approach is that it is unclear
+how we should determine the scope of typical examples of
+conscious experiences. If we restrict the “typical” examples
+4Although I owe this division partly to Kriegel (2019), there are two diﬀerences.
+First, I do not introduce the distinction between intrinsic and instrumental values
+for the sake of simplicity. Second, I add cognitive value because (1) it does not
+seem to be reducible to other kinds of value and (2) the cognitive value question
+has actually been discussed in scientiﬁc consciousness studies (Kanai et al., 2019).
+Frontiers in Psychology | www.frontiersin.org
+3
+October 2020 | Volume 11 | Article 530152
+
+Niikawa
+A Map of Consciousness Studies
+FIGURE 2 | The list of questions about consciousness and each approach to them.
+of conscious experiences too narrowly, borderline cases of
+consciousness, such as dreamless sleep and vegetative states, may
+be automatically excluded from consciousness studies. However,
+it is controversial whether dreamless sleep and vegetative states
+are conscious states (Shea and Bayne, 2010; Windt et al., 2016).
+The essence-based approach deﬁnes the term “consciousness”
+by referring to its essential property such as phenomenality
+(or “what-it-is-like-ness”) (Chalmers, 1997), the property of
+being inner, qualitative, and subjective (Searle, 2000), and being
+accurately reportable (Baars, 1993, p. 19). The merit of this
+Frontiers in Psychology | www.frontiersin.org
+4
+October 2020 | Volume 11 | Article 530152
+
+Niikawa
+A Map of Consciousness Studies
+approach is that it can provide an informative deﬁnition of
+the term “consciousness.” Its problem is that it is highly
+controversial what property we should count as the deﬁnitional
+property of consciousness; there may be no single property
+that all the consciousness researchers accept to be essential for
+consciousness. Thus, the essence-based approach may cause a
+dispute over the correct deﬁnition of consciousness. This dispute
+can be resolved if we take a pluralist position about the deﬁnition
+of consciousness, allowing that there are several diﬀerent
+notions of consciousness deﬁned in diﬀerent manners, such as
+“phenomenal consciousness” and “access consciousness” (Block,
+1995). However, meta-level questions arise for the pluralists: what
+relation holds between those notions of consciousness? Are they
+diﬀerent aspects of a single phenomenon, or do they refer to
+diﬀerent phenomena?
+Approaches to the Phenomenological
+Question
+The second question is the phenomenological question: What
+phenomenological features does consciousness have? This
+question is divided into three subquestions: content, dimension,
+and structure. There are three approaches to each subquestion:
+(I) introspection approach, (II) observation approach, and (III)
+reasoning approach.
+The introspection approach explores the phenomenological
+features of conscious experiences by introspection in a broad
+sense, where it involves not only the cognitive activities of
+“turning one’s attention inward and attending to one’s own
+concurrent internal goings-on” but also uses of memory,
+imagination, and concept application (Kriegel, 2015, pp. 20, 21).
+Thus, introspection in this sense can include imagining
+a
+conscious
+experience
+and
+conceptually
+describing
+its
+phenomenological feature; it can also involve imaginatively
+comparing a current conscious experience with past conscious
+experiences5.
+The
+introspection
+approach
+works
+for
+basic
+contents
+of conscious experiences and their salient dimensions and
+structures. For instance, when I introspect on my current
+conscious experience of drinking Springbank 15 years, I
+can ﬁnd that it has sweetness, smokiness, saltiness, and its
+distinctive sulfur smell as its ﬂavor contents, that it has temporal
+continuity as its structure, and that it has perceptual and
+algedonic dimensions. However, there are cases for which
+the introspection approach does not work. For instance,
+sophisticated skills of introspection are required to capture the
+complex phenomenological features of consciousness such as
+dynamical interactions of attentional shifts and ﬂavor proﬁles
+of drinking Springbank 15 years, but people typically lack such
+skills. Furthermore, introspection seems unable to determine
+whether a perceptual experience can have causal relations (e.g.,
+touching a screen causing the screen ﬂashing) and natural
+kind properties (e.g., being water) as its content (Siegel, 2007)
+and whether consciousness has cognitive phenomenology as a
+distinct dimension (Spener, 2011). This is not because our skills
+5Husserlian Phenomenology can be counted as introspective on this broad
+deﬁnition of introspection (Breyer and Gutland, 2016, p. 13; Gutland, 2018).
+of introspection are not sophisticated to the required extent, but
+because it is unclear how introspective data are related to these
+issues. We need to clarify what introspective data are predicted
+if we consciously experience causal relations between events in
+addition to experiencing sequential occurrences of events, if we
+consciously experience the property of being water in addition
+to experiencing the presence of clear, colorless liquid, and if
+consciousness has a cognitive dimension as being irreducible
+to other dimensions such as sensory and imaginative ones.
+Introspection turns out useless if no introspectable diﬀerence is
+predicted there. A more fundamental limitation of introspection
+is that one’s introspection is not eﬀective to understand the
+phenomenological features of conscious experiences that one
+is unable to have. For instance, it is hard for normal people to
+understand by introspection the phenomenological features of
+schizophrenic experiences and synesthetic experiences.
+The observation approach is to infer what phenomenological
+features a conscious experience has from its possessor’s
+observable states/behaviors, including their subjective reports.
+For instance, when one reports that she sees a red patch,
+then we can infer that her conscious experience has red-color
+content; when one groans painfully, we can infer that she
+has pain experience6. This approach is available to explore
+the
+phenomenological
+features
+of
+conscious
+experiences
+that are diﬃcult for researchers to have by themselves,
+such as schizophrenic and synesthetic experiences. We can,
+in
+principle,
+infer
+what
+phenomenological
+features
+such
+conscious experiences have from their possessors’ observable
+states/behaviors,
+in
+particular,
+their
+introspective
+reports
+(Hubbard and Ramachandran, 2003; Fuchs, 2007; Simmonds-
+Moore, 2016). Experimental neuroscience of consciousness
+typically employs the observation approach in investigating
+neural properties responsible for the phenomenological features
+of conscious experiences (Tononi and Koch, 2015, sec. 3).
+This is in part because it needs to collect quantitative data
+about neural activities from many experimental participants
+rather than the researchers themselves alone. The practical
+problem with this approach lies in how to interpret the
+observable states/behaviors. In addressing untypical conscious
+experiences, even the introspective reports of such experiences
+are diﬃcult to interpret. Here is a report from a patient with
+depersonalization syndrome: “I feel as though I’m not alive
+as though my body is an empty, lifeless shell. I seem to be
+standing apart from the rest of the world, as though I’m not
+really here” (Bockner, 1949, p. 969). It is hard to understand
+what the patient’s experience is like. Furthermore, Michel (2019)
+points to the crucial role of background beliefs in interpreting
+observable states/behaviors, claiming that the disagreements
+among consciousness scientists mainly lie in whether to interpret
+certain observable states/behaviors as evidence for the presence
+of a phenomenological feature.
+The
+reasoning
+approach
+infers
+what
+phenomenological
+features
+consciousness
+has
+from
+a
+given
+thesis
+about
+6It is controversial whether some kind of inference is always required to know
+what others consciously experience. This paper sets aside this issue for simplicity.
+See McDowell (1983) for an argument against the necessity of inference.
+Frontiers in Psychology | www.frontiersin.org
+5
+October 2020 | Volume 11 | Article 530152
+
+Niikawa
+A Map of Consciousness Studies
+consciousness. For instance, Pitt (2004) argues that given
+that the possession of consciousness enables us to introspectively
+know what we think, consciousness must have a cognitive
+dimension as being irreducible to other dimensions7. A challenge
+to those who adopt this approach is to justify a thesis about
+consciousness used as a premise for reasoning. Note that the
+premise in Pitt’s reasoning can be counted as an answer to
+the epistemic value question: What type of knowledge does
+consciousness enable its possessor to have? As shown in this,
+answers to other kinds of questions, in particular, the ontological
+question and the axiological question, can possibly be the premises
+used in the reasoning approach.
+Approaches to the Epistemological
+Questions
+The third question is the epistemological question: How do
+we know about consciousness? This question is divided into
+two subquestions depending on whose consciousness to address,
+namely, one’s own consciousness or the consciousness of others.
+There are three approaches to the epistemological question:
+(I) ﬁrst-person descriptive approach, (II) third-person descriptive
+approach, and (III) betterment approach.
+The ﬁrst-person descriptive approach describes how we know
+about our own consciousness and the consciousness of others
+from the ﬁrst-person perspective. To describe how one knows
+about one’s own consciousness from the ﬁrst-person perspective
+is to describe ﬁrst-personally the processes of introspection.
+This approach is employed in constructing/assessing theories
+of introspection. For example, some philosophers reﬂect on
+the process of introspection on perceptual experience and
+describe it as being “transparent” in that we know the
+contents of our own perceptual experience through being
+aware of the external objects/events (Harman, 1990; Tye,
+2000). A theory of introspection is constructed/assessed partially
+based on the transparency of perceptual experience. If a
+theory of introspection implies that introspection is entirely
+distinct from perceptual awareness, the theory seems to
+conﬂict with the transparency of perceptual experience and
+therefore be assessed negatively. Likewise, to describe how
+one knows about the consciousness of others from the ﬁrst-
+person perspective is to describe ﬁrst-personally the processes of
+knowing others’ conscious experiences. Some philosophical and
+phenomenological accounts of how to know others’ conscious
+experiences are partially based on the ﬁrst-personal descriptions
+of such processes (Wittgenstein, 1980, sec. 570; Scheler, 2008;
+Overgaard, 2017).
+The third-person descriptive approach describes how we
+know about our own consciousness and the consciousness
+of others from the third-person perspective. To describe
+how one knows about one’s own consciousness from the
+third-personal perspective is to describe third-personally the
+processes of introspection. This approach typically focuses on
+the neural/psychological processes responsible for introspection
+(Fleming et al., 2010; Baird et al., 2013; Jacobs and Silvanto, 2015),
+where introspection is not diﬀerentiated from metacognition
+7This is not the original form of Pitt’s argument but its possible reformulation.
+[for
+the
+conceptual
+relation
+between
+introspection
+and
+metacognition, see Overgaard and Sandberg (2012, sec. 1)].
+A theory of introspection can also be evaluated based on the
+relevant scientiﬁc ﬁndings. Likewise, to describe how one knows
+about the consciousness of others from the third-personal
+perspective is to describe third-personally the processes of
+knowing others’ conscious experiences. This approach includes
+attempts to describe the processes of mind reading and empathy.
+Some focus on the relevant neural/psychological processes
+(Marsh, 2018), others address external conditions in which
+we try to know others’ conscious experiences (Gallagher and
+Hutto, 2008). A theory of mind reading/empathy can be
+constructed/assessed based on the data acquired through this
+type of exploration.
+The betterment approach explores how we can better know
+about consciousness, rather than just describing how we know
+about it. There are a few research projects that can be counted
+as the betterment approach. Some training programs to enhance
+the skills of empathy have been developed (Lam et al., 2011;
+Englander, 2014). Likewise, there is a research project to design
+a training program to enhance the skills of introspection in
+general (Miyahara et al., 2020). There are also many attempts
+to invent an interview-based method to know better what
+others consciously experience (Petitmengin, 2006; Langdridge,
+2007; Giorgi, 2009; Petitmengin et al., 2019). Moreover, brain-
+decoding techniques may be available to know better about the
+consciousness of others, including behaviorally non-responsive
+patients’ experiences (Naci et al., 2017). Importantly, we can see
+the betterment approach as developing methods to address the
+phenomenological question8.
+Approaches to the Ontological Question
+The fourth question is the ontological question: How is
+consciousness located in the world? This question is divided into
+two subquestions. The ﬁrst is the mind–body question: What
+relation holds between consciousness and the physical world (in
+particular our brain?) The second is the distribution question:
+How is consciousness distributed in the physical world? (In other
+words, what has consciousness?) There are two approaches to the
+mind–body question: (I) correlation approach and (II) reasoning
+approach. There are also two approaches to the distribution
+question: (I) intuition approach and (II) reasoning approach.
+The
+correlation
+approach
+explores
+what
+neural
+or
+informational feature is correlated with the presence of a
+phenomenological feature of consciousness (or the presence
+of consciousness itself) by using brain scanning technologies
+such as functional magnetic resonance imaging (fMRI) and
+brain stimulation techniques such as repetitive transcranial
+magnetic stimulation (rTMS). Simply put, this is to explore
+“neural correlates of consciousness (NCC),” which are the
+minimal neuronal mechanisms jointly suﬃcient for a speciﬁc
+8One might wonder why the question of “how it is possible for us to know about
+consciousness,” which has been much discus-sed in philosophy, is not included in
+the list of subcategories of the epistemological question. The reason is that the “how
+possible” question should be interpreted as a form of the ontological question,
+namely: what relation must hold between consciousness and the world (including
+our body and brain) given that it is possible for us to know about consciousness?
+Frontiers in Psychology | www.frontiersin.org
+6
+October 2020 | Volume 11 | Article 530152
+
+Niikawa
+A Map of Consciousness Studies
+content, dimension, or structure of consciousness (or the
+presence of consciousness itself) (Crick and Koch, 1990).
+There are many ﬁndings of the neural and informational
+correlates of consciousness (Koch et al., 2016; Boly et al.,
+2017; Wu, 2018, secs 4, 5). For example, some found that the
+conscious experience of a visual scene is correlated with the
+activities of the parahippocampal place area of our brain (a
+subregion of the parahippocampal cortex that lies medially
+in the inferior temporo-occipital cortex) (Mégevand et al.,
+2014); others found that the conscious experience of a human
+face is correlated with the activities of the posterior and mid
+fusiform gyrus (Parvizi et al., 2012). The limitation of the
+correlation approach is that it cannot, in principle, reveal a
+more substantial relationship between consciousness and the
+physical world than the correlation relation. Since the correlation
+relation is consistent with many metaphysical relations such as
+causal relation, grounding relation, and identity relation, the
+correlation approach cannot determine which metaphysical
+relation holds between consciousness and the physical world
+(Kozuch and Kriegel, 2015).
+The reasoning approach infers what relation holds between
+consciousness and the physical world from a given thesis about
+consciousness. For example, Papineau (2002, pp. 31–35) takes the
+causal eﬃcacy thesis that consciousness can cause physical eﬀects
+as a key premise for reasoning and argues that consciousness
+is identical to physical properties. Chalmers (2010, pp. 106–
+108) takes the conceivability of a phenomenal zombie—the
+thesis that it is conceivable that a physical duplicate of us
+lacks consciousness—as a key premise for reasoning and argues
+that consciousness cannot be physical. Campbell (2002, chap.
+6) argues that perceptual consciousness must be constituted
+by ordinary mind-independent objects on the premise that
+perceptual consciousness enables its possessor to know about
+such ordinary mind-independent objects demonstratively. As
+shown in these examples, the reasoning approach can address
+what metaphysical relation holds between consciousness and the
+physical world beyond mere correlation. As we saw in section
+“Approaches to the Phenomenological Question”, however, a
+challenge to those who adopt this approach is to justify the
+thesis about consciousness used as a key premise for reasoning.
+To address this, for example, one may try to justify the causal
+eﬃcacy thesis by appealing to our folk psychological briefs,
+such as the one that “my conscious thirst caused me to fetch
+a beer” (Papineau, 2002, p. 21); another may try to justify the
+conceivability of a phenomenal zombie by providing an argument
+against the a priori entailment from physical facts to phenomenal
+facts. The essential diﬃculty with the reasoning approach is
+to settle the conﬂicts between those who take distinct theses,
+which are justiﬁed in diﬀerent manners, as the premises to
+infer opposing ontological positions (such as physicalism and
+anti-physicalism).
+The intuition approach to the distribution question asks
+our intuition what has consciousness. We typically have some
+intuitive thoughts about what can have consciousness. For
+instance, it seems doubtless to me that other human beings are
+conscious. Many other kinds of mammals, such as dogs and cats,
+seem to have consciousness. However, microphysical entities and
+machines like my laptop do not seem to have consciousness. It is
+unclear to me whether insects and plants are conscious. On the
+assumption that intuition is a reliable epistemic route to know
+about the distribution of consciousness over the world, we can
+employ our intuition to answer the distribution question. The
+obvious problem with this approach is to justify the assumption
+that intuition is reliable with respect to the distribution of
+consciousness over the world.
+The reasoning approach is also available to address the
+distribution question: to infer what has consciousness from
+a given thesis about consciousness. For example, if we
+take biological naturalism that consciousness is a biological
+phenomenon (Searle, 1992) as a premise for reasoning, we can
+infer that non-biological entities, such as machines and robots,
+cannot have consciousness. If we take IIT that consciousness
+is identical to internally generated and integrated information
+(Tononi, 2008) as a premise for reasoning, we can conclude that
+any system that generates information in an integrated manner
+has consciousness (for the detail of IIT, see section “Applications:
+Integrated Information Theory and Global Workspace Theory”).
+As we have seen, the essential diﬃculty with this approach is to
+settle the debates between those who take distinct theses, which
+are justiﬁed in diﬀerent manners, as the premises for reasoning.
+Note that the answer to the distribution question directly
+aﬀects the scope of the phenomenological and epistemological
+questions. For instance, since IIT implies that computers
+which generate information in an integrated manner possess
+consciousness, the question of how we can know about the
+consciousness of such computers arises for advocates of IIT.
+Likewise, IIT opens up the phenomenological question about
+such computers: What content, dimension, and structure does
+their consciousness have?
+Approaches to the Axiological Question
+The ﬁfth question is the axiological question: What values
+does consciousness have? This question is divided into four
+subquestions depending on what kind of value to address:
+cognitive, epistemic, moral, and esthetic. The scope of those
+subquestions is not restricted to the values of consciousness itself
+but includes those of each content, dimension, and structure
+of consciousness. There are three approaches to the axiological
+question: (I) ﬁrst-person contrast approach, (II) third-person
+contrast approach, and (III) reasoning approach.
+The ﬁrst-person contrast approach explores what diﬀerence
+there is in relevant value between the cases where one has
+and lacks consciousness (or where one’s consciousness has and
+lacks a speciﬁc phenomenological feature) from the ﬁrst-person
+perspective. This approach typically consists of the following two
+steps: (a) to ﬁrst-personally imagine that one loses consciousness
+(or a speciﬁc phenomenological feature disappears from one’s
+consciousness) and (b) to consider what value-related feature
+she thereby loses. Siewert (1998, 2014) takes this approach,
+arguing that (1) consciousness makes the life of its possessor
+worth living and that (2) only the possessor of consciousness
+can perform intentional cognitive activities/processes such as
+making judgments and having desires. The ﬁrst point concerns
+moral value and possibly aesthetic value; the second point
+Frontiers in Psychology | www.frontiersin.org
+7
+October 2020 | Volume 11 | Article 530152
+
+Niikawa
+A Map of Consciousness Studies
+concerns cognitive value. Campbell (2002, chap. 1) also takes
+this approach, arguing that perceptual experience enables its
+possessor to know about ordinary mind-independent objects
+demonstratively. The problem with this approach is that it
+is controversial whether our ﬁrst-personal thoughts about the
+values of consciousness are reliable. When reﬂecting on how
+we visually discriminate an object from others, for example, we
+are likely to think that if we lose perceptual consciousness, we
+cannot carry out the discrimination task. However, this intuitive
+thought seems to be falsiﬁed by the case of blindsight: the patient
+can achieve various visual discrimination tasks by “guesswork,”
+even though he said he did not have any visual experience
+(Weiskrantz, 2007).
+The third-person contrast approach explores what diﬀerence
+there is in relevant value between the cases where one has
+and lacks consciousness (or where one’s consciousness has
+and lacks a speciﬁc phenomenological feature) from the third-
+person perspective. Dehaene and Naccache (2001) take this
+approach, arguing that consciousness enables durable and explicit
+information maintenance, novel combinations of operations, and
+intentional behavior. Weiskrantz (1997, chap. 7) focuses on a
+broad spectrum of syndromes in which there seems to be a
+loss of capacities related to consciousness, such as blindsight
+and aphasic disorders, arguing that consciousness grounds the
+capacities to perform ﬂexible thinking and imagining. Kriegel
+(2017) compares our natural attitudes to conscious beings and
+non-conscious beings, and argues that consciousness confers
+dignity as a moral status on its possessors (possibly with some
+other conditions). However, it may be objected that the apparent
+diﬀerences in values can be explained without appealing to
+consciousness (Lau, 2009; see also Rosenthal, 2008). Hence,
+a challenge to the third-person contrast approach is to argue
+that the proposed diﬀerence in a type of value cannot be well
+explained without referring to consciousness.
+The reasoning approach infers what values consciousness
+has from a given thesis about consciousness. For example, Tye
+(1996) takes the representationalist thesis that consciousness is
+representational as the key premise for reasoning and concludes
+that consciousness enables its possessor “to do a wide variety
+of things that they would not be able to do without it—for
+example, to recognize objects, to avoid knocking into them” (pp.
+301, 302). The proponents of the attentional schema thesis that
+consciousness is an internal model of attention (Graziano and
+Webb, 2014) can take it as a premise for reasoning and conclude
+that consciousness enables its possessor to control attention
+in proper manners.
+APPLICATIONS: INTEGRATED
+INFORMATION THEORY AND GLOBAL
+WORKSPACE THEORY
+This article proposes a map of consciousness studies, which
+consists of a systematic list of questions about consciousness
+and existing approaches to each question. In this ﬁnal section,
+I apply this map to examine IIT and GWT. I ﬁrst address
+how IIT answers each fundamental question that I have listed.
+In doing so, I point out several challenges to IIT. I then
+take the same procedure to examine GWT. I ﬁnally propose
+a way to clarify the relation between IIT and GWT with
+the help of the proposed map of consciousness studies. The
+discussion is sketchy but still suﬃcient to demonstrate how the
+proposed map can be used to examine and compare theories
+of consciousness.
+Let us start with the deﬁnitional question. Tononi (2015,
+abstract, emphasis added) claims that IIT “attempts to identify
+the essential properties of consciousness (axioms) and, from
+there, infers the properties of physical systems that can
+account for it (postulates).” He lists ﬁve essential properties
+of consciousness, namely, intrinsic existence, composition,
+information, integration, and exclusion, and calls them “axioms”
+(Tononi, 2015, sec. 2). The intrinsic existence axiom states
+that consciousness exists independently from external observers,
+the composition axiom states that consciousness is structured,
+the information axiom states that each conscious experience
+is the particular way it is and thereby it diﬀers from other
+possible conscious experiences, the integration axiom states
+that consciousness is uniﬁed, and the exclusion axiom states
+that consciousness is deﬁnite in content and spatiotemporal
+grain9. The fact that they are called “axioms” suggests that the
+conjunction of the listed essential properties ﬁxes the reference of
+“consciousness.” Thus, IIT takes the essence-based approach to
+the deﬁnitional question, claiming that consciousness is deﬁned
+in terms of the ﬁve axioms.
+One slogan of IIT is that it goes “from phenomenology to
+physics” (Tononi et al., 2016, p. 450); the axioms are called
+the “phenomenological axioms” (Oizumi et al., 2014). This
+indicates that the axioms are derived from phenomenological
+considerations, namely, by addressing the phenomenological
+question, in particular, the structure question of what invariant
+features consciousness has (since the essential properties of
+consciousness are the invariant of consciousness). This suggests
+that advocates of IIT answer the deﬁnitional question through
+tackling the structure question.
+Advocates of IIT claim that the phenomenological axioms
+“cannot be doubted and do not need proof” and are “taken
+to be immediately evident” (Oizumi et al., 2014, p. 2).
+This shows that they take the introspection approach to the
+structure question, rather than the observation approach and
+the reasoning approach, to derive the phenomenological axioms.
+However, some philosophers cast doubt on the plausibility
+of the axioms as capturing the essential phenomenological
+features of consciousness (Bayne, 2018; Pokropski, 2018;
+Miyahara and Witkowski, 2019). This demonstrates that the
+phenomenological axioms can be doubted and should not
+be taken to be immediately evident. Thus, advocates of IIT
+must justify the phenomenological axioms, employing the other
+approaches if needed.
+Let us next move onto the ontological question. IIT
+speciﬁes ﬁve informational features of physical systems (so-
+called “postulates”), each of which is supposed to account
+9For more details of axioms in IIT, see Oizumi et al. (2014); Tononi et al. (2016),
+and Miyahara and Witkowski (2019).
+Frontiers in Psychology | www.frontiersin.org
+8
+October 2020 | Volume 11 | Article 530152
+
+Niikawa
+A Map of Consciousness Studies
+for a corresponding phenomenological axiom, and states that
+every physical system that realizes the ﬁve postulates possesses
+consciousness10. This statement is counted as the answer to the
+distribution question. Nevertheless, it is not fully clear what
+reasoning is in play here (especially in what sense each postulate
+“accounts for” a corresponding phenomenological axiom and
+why each postulate necessitates the phenomenological feature
+represented by the corresponding axiom). In order to evaluate
+IIT’s answer to the distribution question, thus, we should clarify
+the exact premises and inferential steps that constitute the
+reasoning in question.
+IIT answers the mind–body question by stating that conscious
+experience is identical to an integrated informational structure
+of physical systems that instantiates the ﬁve postulates (Tononi,
+2015, sec. 4). There is, however, no mention of how the identity
+claim is derived in any IIT literature. As we have seen in
+section “Approaches to the Ontological Question”, identity is
+not reasonably inferred only from the presence of correlation,
+since other metaphysical relations such as causal relation and
+grounding relation are also compatible with the presence of
+correlation. To justify the identity claim, advocates of IIT need
+to clarify what theses they use as the premises for the reasoning
+in question, in addition to the experimental ﬁnding that there is a
+correlation between the presence of consciousness and a relevant
+informational structure of brains (Massimini et al., 2005).
+Otherwise, we cannot properly evaluate IIT’s identity claim.
+Let us ﬁnally examine what implications IIT have for the
+epistemological and the axiological questions. First, IIT seems
+to have an implication for the epistemological question about
+the consciousness of others. IIT states that the phenomenological
+features of consciousness (in particular contents and dimensions)
+are reﬂected in the form of the informational structure of physical
+systems (Tononi, 2015, sec. 4; Tononi et al., 2016, p. 459). It
+follows from this that we can infer the phenomenological features
+of the consciousness of others from the form of the informational
+structure of their brain, which we can, in principle, specify
+from the third-person perspective. This can be counted as an
+answer to the epistemological question about the consciousness
+of others. IIT also has an implication for the cognitive value
+question. If it is cognitively advantageous for physical systems to
+generate information in an integrated manner, IIT implies that
+the possession of consciousness is cognitively advantageous for
+that very reason.
+I turn to how GWT (in particular its major advocate Stanislas
+Dehaene) answers each fundamental question listed in The
+List of Questions section. Dehaene (2014, pp. 8, 9) deﬁnes
+consciousness in terms of “conscious access”: the content of
+mental state/process is consciously accessible if and only if
+it enters awareness and becomes reportable to others. This
+deﬁnition consists of two notions, awareness and reportability.
+The property of being reportable serves to provide an informative
+deﬁnition of consciousness, since we can set out an objective
+procedure to determine whether a piece of information is
+reportable for its possessor. In contrast, it is unclear how
+“awareness” is diﬀerent from “consciousness” in our ordinary
+conceptual understandings. Furthermore, it is unclear what
+10For the details of the postulates, see Oizumi et al. (2014).
+behavioral standard can be used to determine whether one is
+aware of a piece of information, as being diﬀerent from the one
+for reportability. Nevertheless, Dehaene does not seem to provide
+an analytic explanation of the notion of awareness. Instead, he
+presents a few examples of being aware of something. For instance,
+he presents an example of visual illusion and states:
+Twelve dots, printed in light gray, surround a black cross. Now stare
+intently at the central cross. After a few seconds, you should see some
+of the gray dots fade in and out of existence. For a few seconds, they
+vanish from your awareness; then they pop back in. Sometimes the
+entire set goes away, temporarily leaving you with a blank page—
+only to return a few seconds later with a seemingly darker shade of
+gray. (Dehaene, 2014, p. 17)
+This suggests that Dehaene leads his readers to grasp the sense
+of “awareness” through the examples presented in his book. If
+this is correct, his deﬁnition of consciousness is not entirely
+operational, for it does not reduce the sense of “consciousness”
+to reportability alone. In deﬁning consciousness, Dehaene seems
+to take the example-based and essence-based approaches in
+combination; the former corresponds to the “awareness” part,
+and the latter corresponds to the “reportability” part.
+Dehaene (2014, chap. 4) takes the correlation approach to
+the mind–body question, presenting many relevant empirical
+ﬁndings11. Based on them, he identiﬁes four physiological
+markers that index whether a stimulus is consciously accessible:
+First, a conscious stimulus causes an intense neuronal activation
+that leads to a sudden ignition of parietal and prefrontal circuits.
+Second, in the EEG, conscious access is accompanied by a slow
+wave called the P3 wave, which emerges as late as one-third of a
+second after the stimulus. Third, conscious ignition also triggers a
+late and sudden burst of high-frequency oscillations. Finally, many
+regions exchange bidirectional and synchronized messages over long
+distances in the cortex, thus forming a global brain web. (Dehaene,
+2014, pp. 158, 159)
+Dehaene then provides a functionalist account as to why
+consciousness is correlated with those physiological makers.
+The human brain has developed eﬃcient long-distance networks,
+particularly in the prefrontal cortex, to select relevant information
+and disseminate it throughout the brain. Consciousness is an
+evolved device that allows us to attend to a piece of information and
+keep it active within this broadcasting system. Once the information
+is conscious, it can be ﬂexibly routed to other areas according to our
+current goals. Thus we can name it, evaluate it, memorize it, or use
+it to plan the future (Dehaene, 2014, p. 161).
+This
+functionalist
+account
+describes
+how
+a
+piece
+of
+information is cognitively processed in our brain when it is
+consciously accessible and thereby explains why the above
+physiological makers occur in functional terms. This account
+is thus an empirically supported correlation-based answer
+to the mind–body question. This is, I think, the core thesis
+of GWT. However, Dehaene (2014, p. 161) goes beyond the
+11It is necessary to address the content question before exploring the correlation
+between the contents of consciousness and neural/informational features of brains.
+Dehaene (2014, p. 41–45) takes the observation approach to address the content
+question, emphasizing the availability of subjective reports from experimental
+participants as objective data.
+Frontiers in Psychology | www.frontiersin.org
+9
+October 2020 | Volume 11 | Article 530152
+
+Niikawa
+A Map of Consciousness Studies
+empirically supported claim regarding correlation, claiming
+that “consciousness is brain-wide information sharing.” If we
+interpreted this statement literally, it would mean the identity
+between consciousness and the brain-wide information sharing.
+However, this identity claim does not directly follow from the
+empirically supported claim about correlation. If Dehaene (2014)
+deﬁned consciousness only in terms of reportability, then the
+identity claim would be derived from the fact that reportability
+can be reductively explained in terms of brain-wide information
+sharing. However, Dehaene (2014) includes “awareness” in his
+deﬁnition of consciousness, which is supposed to be grasped
+through examples. It is unclear whether the property of being
+aware of something is considered to be reductively explained in
+functional terms, unlike reportability. Thus, Dehaene is required
+to explain why the property of being aware of something should
+be counted as standing in the identity relation, rather than other
+metaphysical relations, to the brain-wide information sharing.
+As in the case of IIT, we cannot properly evaluate IIT’s identity
+claim unless some explanation is provided.
+Global workspace theory has implications for (i) the cognitive
+value question, (ii) the epistemological question about the
+consciousness of others, and (iii) the distribution question. Given
+that a piece of information can be ﬂexibly routed to many brain
+areas only when it is consciously accessible, it is plausible to think
+that (i) consciousness enables its possessor to process information
+in such ﬂexible manners (Dehaene, 2014, chap. 3) and that (ii)
+we can know about the content of the consciousness of others
+by detecting the information widely shared in his/her brain. (iii)
+It follows from GWT’s identity claim that every creature who
+has “brain-wide information sharing” is conscious (Dehaene,
+2014, chap. 6.7).
+We can clarify the relation between IIT and GWT by
+comparing their answers to each fundamental question. Let us
+take three questions, for example, the deﬁnitional question, the
+mind–body question, and the distribution question. For the
+deﬁnitional question, IIT states that consciousness is deﬁned
+in terms of the ﬁve phenomenological axioms, which are
+supposed to capture the essential properties of consciousness. In
+contrast, GWT deﬁnes consciousness in terms of awareness and
+reportability. By comparing the two deﬁnitions of consciousness,
+we can examine whether IIT and GWT have the same research
+subject in the ﬁrst place. For the mind–body question, IIT
+states that conscious experience is identical to an integrated
+informational structure of physical systems that instantiates the
+ﬁve postulates. In contrast, GWT states that consciousness is
+brain-wide information sharing. By comparing the two identity
+claims, we can examine whether they are compatible or conﬂicting.
+For the distribution question, IIT states that every physical
+system that realizes the ﬁve postulates possesses consciousness.
+In contrast, GWT implies that every creature who has brain-wide
+information sharing has consciousness. By examining whether
+each kind of creature overlaps, we can see whether IIT and
+GWT substantially diﬀer in what existing creatures/entities have
+consciousness. In this way, we can conduct a multidimensional
+comparison between IIT and GWT. This enables us to assess
+the two theories systematically and comparatively in the
+multidimensional evaluative space.
+I close this article by presenting three ideas on how to proceed
+with consciousness research with the help of the lists of questions
+and approaches proposed in this article. First, we should examine
+how existing theories of consciousness answer each fundamental
+question about consciousness and what approach their advocates
+adopt. By doing so, we can obtain systematic understandings
+of each theory of consciousness, which enable us to see what
+part of each theory of consciousness needs to be justiﬁed
+and developed. Second, we should conduct a multidimensional
+comparison of the existing theories of consciousness. This
+enables us to obtain a detailed and well-organized review of
+how they are related to each other. These two points have been
+demonstrated in the discussions of IIT and GWT. Third, each
+research group should clarify what question and approach to
+take in investigating consciousness. By doing so, they can be
+aware of the scope, limitation, and potential implications of their
+research project and also of its relations to existing theories
+of consciousness.
+Although I believe that the proposed lists of questions and
+approaches contribute to the development of consciousness
+studies, I do not think that they are entirely satisfactory. The
+map of consciousness studies presented in this article can be
+revised and further enriched. I hope that this article also works
+as a springboard for a further second-order investigation on
+consciousness studies as being distinct from the ﬁrst-order
+investigation on consciousness.
+DATA AVAILABILITY STATEMENT
+The original contributions presented in the study are included in
+the article/supplementary material.
+AUTHOR CONTRIBUTIONS
+The author conﬁrms being the sole contributor of this work and
+has approved it for publication.
+FUNDING
+I gratefully acknowledge the support of the Japan Society
+for
+the
+Promotion
+of
+Science
+(JSPS
+KAKENHI
+Grant
+Number: 18K00031).
+ACKNOWLEDGMENTS
+I would like to thank Benedicte Veillet, Ying-Tung Lin, Katsunori
+Miyahara, Matthieu Koroma, Lok-Chi Chan, and Uriah Kriegel
+for their detailed comments on this article. I also thank the
+audience at the 22nd conference of the Association for the
+Scientiﬁc Study of Consciousness, the 10th Annual Meeting of
+Japan Association for Contemporary and Applied Philosophy,
+the consciousness workshop at National Yang-Ming University,
+and Paris Consciousness/Self-consciousness Group for their
+questions and comments. I appreciate Nanami Yamada for
+designing the ﬁgures in this article.
+Frontiers in Psychology | www.frontiersin.org
+10
+October 2020 | Volume 11 | Article 530152
+
+Niikawa
+A Map of Consciousness Studies
+REFERENCES
+Baars, B. J. (1993). A Cognitive Theory of Consciousness. Reprint edition.
+Cambridge: Cambridge University Press.
+Baars, B. J. (2005). Global workspace theory of consciousness: toward a cognitive
+neuroscience of human experience. Prog. Brain Res. 150, 45–53. doi: 10.1016/
+S0079-6123(05)50004-9
+Baird, B., Smallwood, J., Gorgolewski, K. J., and Margulies, D. S. (2013). Medial
+and lateral networks in anterior prefrontal cortex support metacognitive ability
+for memory and perception. J. Neurosci. 33, 16657–16665. doi: 10.1523/
+JNEUROSCI.0786-13.2013
+Ball, P. (2019). Neuroscience Readies for a Showdown Over Consciousness Ideas.
+New York, NY: Quanta Magazine.
+Bayne, T. (2010). The Unity of Consciousness. Oxford: Oxford University Press.
+Bayne, T. (2018). On the axiomatic foundations of the integrated information
+theory of consciousness. Neurosci. Conscious. 4:niy007. doi: 10.1093/nc/niy007
+Block, N. (1995). On a confusion about a function of consciousness. Behav. Brain
+Sci. 18, 227–247. doi: 10.1017/S0140525X00038188
+Bockner, S. (1949). The depersonalization syndrome: report of a case. J. Ment. Sci.
+95, 968–971. doi: 10.1192/bjp.95.401.968
+Boly, M., Massimini, M., Tsuchiya, N., Postle, B. R., Koch, C., and Tononi, G.
+(2017). Are the neural correlates of consciousness in the front or in the back
+of the cerebral cortex? Clinical and neuroimaging evidence. J. Neurosci. 37,
+9603–9613. doi: 10.1523/JNEUROSCI.3218-16.2017
+Breyer, T., and Gutland, C. (2016). Phenomenology of Thinking: Philosophical
+Investigations into the Character of Cognitive Experiences. London: Routledge.
+doi: 10.1523/jneurosci.3218-16.2017
+Campbell, J. (2002). Reference and Consciousness. Oxford: Oxford University Press.
+Chalmers, D. (1997). The Conscious Mind: In Search of a Fundamental Theory.
+Revised ∧. New York, NY: Oxford University Press.
+Chalmers, D. (2010). The Character of Consciousness. Oxford: Oxford University
+Press.
+Chomsky, N. (2014). Aspects of the Theory of Syntax. Anniversary, Reprint ∧.
+Cambridge, MA: The MIT Press.
+Crick, F., and Koch, C. (1990). Towards a neurobiological theory of consciousness.
+Semin. Neurosci. 2, 263–275.
+Dehaene, S. (2014). Consciousness and the Brain: Deciphering How the Brain Codes
+Our Thoughts. New York, NY: Viking.
+Dehaene, S., and Naccache, L. (2001). Towards a cognitive neuroscience of
+consciousness: basic evidence and a workspace framework. Cognition 79, 1–37.
+doi: 10.1016/S0010-0277(00)00123-2
+Englander, M. (2014). Empathy training from a phenomenological perspective.
+J. Phenomenol. Psychol. 45, 5–26. doi: 10.1163/15691624-12341266
+Fleming, S. M., Weil, R. S., Nagy, Z., Dolan, R. J., and Rees, G. (2010). Relating
+introspective accuracy to individual diﬀerences in brain structure. Science 329,
+1541–1543. doi: 10.1126/science.1191883
+Fuchs, T. (2007). The temporal structure of intentionality and its disturbance in
+schizophrenia. PSP 40, 229–235. doi: 10.1159/000101365
+Gallagher, S., and Hutto, D. D. (2008). “Understanding others through
+primary interaction and narrative practice,” in The Shared Mind: Perspectives
+on Intersubjectivity Converging Evidence in Language and Communication
+Research (CELCR), eds T. P. Racine, J. Zlatev, C. Sinha and E. Itkonen
+(Amsterdam: John Benjamins Publishing Company), 17–38. doi: 10.1075/celcr.
+12.04gal
+Giorgi, A. (2009). The Descriptive Phenomenological Method in Psychology: A
+modIﬁed Husserlian Approach. Pittsburgh, PA: Duquesne University Press.
+Graziano,
+M.
+S.
+A.,
+and
+Webb,
+T.
+W.
+(2014).
+A
+mechanistic
+theory
+of consciousness. Int. J. Mach. Conscious. 06, 163–176. doi: 10.1142/
+S1793843014400174
+Gutland, C. (2018). Husserlian phenomenology as a kind of introspection. Front.
+Psychol. 9:896. doi: 10.3389/fpsyg.2018.00896
+Harman, G. (1990). The intrinsic quality of experience. Philos. Perspect. 4, 31–52.
+doi: 10.2307/2214186
+Hubbard, E., and Ramachandran, V. (2003). The phenomenology of synaesthesia.
+J. Conscious. Stud. 10, 49–57.
+Jacobs, C., and Silvanto, J. (2015). How is working memory content consciously
+experienced? The ‘conscious copy’ model of WM introspection. Neurosci.
+Biobehav. Rev. 55, 510–519. doi: 10.1016/j.neubiorev.2015.06.003
+Kanai, R., Chang, A., Yu, Y., Magrans, de Abril, I., Biehl, M., et al. (2019).
+Information generation as a functional basis of consciousness. Neurosci.
+Conscious. 2019:niz016. doi: 10.1093/nc/niz016
+Koch, C., Massimini, M., Boly, M., and Tononi, G. (2016). Neural correlates of
+consciousness: progress and problems. Nat. Rev. Neurosci. 17, 307–321. doi:
+10.1038/nrn.2016.22
+Kozuch, B., and Kriegel, U. (2015). “Correlation, causation, constitution: on
+the interplay between the science and philosophy of consciousness,” in The
+Constitution of Phenomenal Consciousness, ed. S. M. Miller (Amsterdam: John
+Benjamins), 400–417. doi: 10.1075/aicr.92.17koz
+Kriegel, U. (2015). The Varieties of Consciousness. Oxford: Oxford University Press.
+Kriegel, U. (2017). “Dignity and the phenomenology of recognition-respect,”
+in
+Emotional
+Experiences:
+Ethical
+and
+Social
+Signiﬁcance,
+eds
+J.
+J.
+Drummond and S. Rinofner-Kreidl (New York, NY: Rowman & Littleﬁeld),
+121–136.
+Kriegel, U. (2019). The value of consciousness. Analysis 79, 503–520. doi: 10.1093/
+analys/anz045
+Lam, T. C. M., Kolomitro, K., and Alamparambil, F. C. (2011). Empathy training:
+methods. Evaluation practices, and validity. J. MultiDiscipl. Eval. 7, 162–200.
+Langdridge, D. (2007). Phenomenological Psychology: Theory, Research and
+Method. Harlow: Pearson Education.
+Lau, H. (2009). Volition and the function of consciousness. Faith Philos. 26,
+537–552. doi: 10.5840/faithphil200926554
+Lee, D. S. (1966). “Ultimacy and the philosophic ﬁeld of metaphysics,” in
+Metaphysics and Belief Tulane Studies in Philosophy, ed. F. R. Merlan
+(Dordrecht:
+Springer
+Netherlands),
+71–102.
+doi:
+10.1007/978-94-010-
+3540-8_5
+Macpherson, F. (2011). “Introduction: the admissible contents of experience,” in
+The Admissible Contents of Experience, eds K. Hawley and F. Macpherson
+(Hoboken, NJ: John Wiley & Sons, Ltd), 1–15. doi: 10.1002/9781444343915.ch1
+Macpherson, F. (2015). the structure of experience, the nature of the visual, and
+type 2 blindsight. Conscious. Cogn. 32, 104–128. doi: 10.1016/j.concog.2014.
+10.011
+Marsh, A. A. (2018). The neuroscience of empathy. Curr. Opin. Behav. Sci. 19,
+110–115. doi: 10.1016/j.cobeha.2017.12.016
+Massimini, M., Ferrarelli, F., Huber, R., Esser, S. K., Singh, H., and Tononi, G.
+(2005). Breakdown of cortical eﬀective connectivity during sleep. Science 309,
+2228–2232. doi: 10.1126/science.1117256
+McDowell, J. (1983). “Criteria, defeasibility, and knowledge,” in Proceedings of the
+British Academy 68, Oxford: Oxford University Press, 455–479.
+Mégevand, P., Groppe, D. M., Goldﬁnger, M. S., Hwang, S. T., Kingsley, P. B.,
+Davidesco, I., et al. (2014). Seeing scenes: topographic visual hallucinations
+evoked by direct electrical stimulation of the parahippocampal place area.
+J. Neurosci. 34, 5399–5405. doi: 10.1523/JNEUROSCI.5202-13.2014
+Michel, M. (2019). Consciousness science underdetermined. Ergo Open Access J.
+Philos. 6, 2019–2020. doi: 10.3998/ergo.12405314.0006.028
+Miyahara, K., Niikawa, T., Hamada, H. T., and Nishida, S. (2020). Developing
+a short-term phenomenological training program: a report of methodological
+lessons. New Ideas Psychol. 58:100780. doi: 10.1016/j.newideapsych.2020.
+100780
+Miyahara, K., and Witkowski, O. (2019). The integrated structure of consciousness:
+phenomenal content, subjective attitude, and noetic complex. Phenomenol.
+Cogn. Sci. 18, 731–758. doi: 10.1007/s11097-018-9608-5
+Naci, L., Sinai, L., and Owen, A. M. (2017). Detecting and interpreting conscious
+experiences in behaviorally non-responsive patients. NeuroImage 145, 304–313.
+doi: 10.1016/j.neuroimage.2015.11.059
+Nida-Rümelin, M. (2016). “The illusion of illusionism,” in Illusionism as a Theory
+of Consciousness, ed. K. Frankish (England: Imprint Academic), 200–214.
+Oizumi, M., Albantakis, L., and Tononi, G. (2014). From the phenomenology to the
+mechanisms of consciousness: integrated information theory 3.0. PLoS Comput.
+Biol. 10:e1003588. doi: 10.1371/journal.pcbi.1003588
+Overgaard, M., and Sandberg, K. (2012). Kinds of access: diﬀerent methods for
+report reveal diﬀerent kinds of metacognitive access. Philos. Trans. R. Soc. Lond.
+B Biol. Sci. 367, 1287–1296. doi: 10.1098/rstb.2011.0425
+Overgaard, S. (2017). Other minds embodied. Cont. Philos. Rev. 50, 65–80. doi:
+10.1007/s11007-016-9388-y
+Papineau, D. (2002). Thinking About Consciousness. Oxford: Oxford University
+Press.
+Frontiers in Psychology | www.frontiersin.org
+11
+October 2020 | Volume 11 | Article 530152
+
+Niikawa
+A Map of Consciousness Studies
+Parvizi, J., Jacques, C., Foster, B. L., Withoft, N., Rangarajan, V., Weiner, K. S., et al.
+(2012). Electrical stimulation of human fusiform face-selective regions distorts
+face perception. J. Neurosci. 32, 14915–14920. doi: 10.1523/JNEUROSCI.2609-
+12.2012
+Petitmengin, C. (2006). Describing one’s subjective experience in the second
+person: an interview method for the science of consciousness. Phenom. Cogn.
+Sci. 5, 229–269. doi: 10.1007/s11097-006-9022-2
+Petitmengin, C., Remillieux, A., and Valenzuela-Moguillansky, C. (2019).
+Discovering the structures of lived experience. Phenomenol. Cogn. Sci. 18,
+691–730. doi: 10.1007/s11097-018-9597-4
+Pitt, D. (2004). The phenomenology of cognition or “What Is It like to Think
+That P?”. Philos. Phenomenol. Res. 69, 1–36. doi: 10.1111/j.1933-1592.2004.
+tb00382.x
+Pokropski, M. (2018). Commentary: from the phenomenology to the mechanisms
+of consciousness: integrated information theory 3.0. Front. Psychol. 9:101. doi:
+10.3389/fpsyg.2018.00101
+Prinz, J. (2016). Against illusionism. J. Conscious. Stud. 23, 186–196.
+Rosenthal, D. M. (2008). Consciousness and its function. Neuropsychologia 46,
+829–840. doi: 10.1016/j.neuropsychologia.2007.11.012
+Scheler, M. (2008). The Nature of Sympathy. Piscataway, NJ: AldineTransaction.
+Schwitzgebel, E. (2016). ). Phenomenal consciousness, deﬁned and defended as
+innocently as i can manage. J. Conscious. Stud. 23, 224–235.
+Searle, J. R. (1992). The Rediscovery of the Mind. Cambridge, MA: Bradford Books.
+Searle, J. R. (2000). Consciousness. Annu. Rev. Neurosci. 23, 557–578. doi: 10.1146/
+annurev.neuro.23.1.557
+Shea, N., and Bayne, T. (2010). The vegetative state and the science
+of
+consciousness.
+Br.
+J.
+Philos.
+Sci.
+61,
+459–484.
+doi:
+10.1093/bjps/
+axp046
+Siegel, S. (2007). How can we discover the contents of experience? Southern J.
+Philos. 45, 127–142. doi: 10.1111/j.2041-6962.2007.tb00118.x
+Siegel, S. (2016). “The contents of perception,” in The Stanford Encyclopedia of
+Philosophy, ed. E. N. Zalta (Stanford, CA: Stanford University).
+Siewert, C. (1998). The Signiﬁcance of Consciousness. Princeton, NJ: Princeton
+University Press.
+Siewert, C. (2014). “Speaking up for consciousness,” in Current Controversies in
+Philosophy of Mind, ed. U. Kriegel (London: Routledge), 199–221. doi: 10.4324/
+9780203116623-9
+Simmonds-Moore, C. A. (2016). An interpretative phenomenological analysis
+exploring synesthesia as an exceptional experience: insights for consciousness
+and cognition. Q. Res. Psychol. 13, 303–327. doi: 10.1080/14780887.2016.
+1205693
+Smith, D. W. (2018). “Phenomenology,” in The Stanford Encyclopedia of
+Philosophy, ed. E. N. Zalta (Stanford, CA: Stanford University).
+Speaks, J. (2019). “Theories of meaning,” in The Stanford Encyclopedia of
+Philosophy, ed. E. N. Zalta (Stanford, CA: Stanford University).
+Spener, M. (2011). “Disagreement about cognitive phenomenology,” in Cognitive
+Phenomenology, eds T. Bayne and M. Montague (Oxford: Oxford University
+Press), 268–284. doi: 10.1093/acprof:oso/9780199579938.003.0012
+Tononi, G. (2008). Consciousness as integrated information: a provisional
+manifesto. Biol. Bull. 215, 216–242. doi: 10.2307/25470707
+Tononi, G. (2015). Integrated information theory. Scholarpedia 10:4164. doi: 10.
+4249/scholarpedia.4164
+Tononi, G., Boly, M., Massimini, M., and Koch, C. (2016). Integrated information
+theory: from consciousness to its physical substrate. Nat. Rev. Neurosci. 17,
+450–461. doi: 10.1038/nrn.2016.44
+Tononi, G., and Koch, C. (2015). Consciousness: here, there and everywhere? Phil.
+Trans. R. Soc. B 370:20140167. doi: 10.1098/rstb.2014.0167
+Tye, M. (1996). The function of consciousness. Noûs 30, 287–305. doi: 10.2307/
+2216271
+Tye, M. (2000). Consciousness, Color, and Content. Cambridge, MA: MIT Press.
+Velmans, P. M. (2009). How to deﬁne consciousness—and how not to deﬁne
+Consciousness. J. Conscious. Stud. 16, 139–156.
+Watzl, S. (2011). “Attention as structuring of the stream of consciousness,” in
+Attention: Philosophical and Psychological Essays, eds C. Mole, D. Smithies, and
+W. Wu (Oxford: Oxford University Press), 145–173.
+Weiskrantz, L. (1997). Consciousness Lost and Found: A Neuropsychological
+Exploration. New York, NY: Oxford University Press.
+Weiskrantz, L. (2007). Blindsight. Scholarpedia 2:3047. doi: 10.4249/scholarpedia.
+3047
+Windt, J. M., Nielsen, T., and Thompson, E. (2016). Does consciousness disappear
+in dreamless sleep? Trends Cogn. Sci. 20, 871–882. doi: 10.1016/j.tics.2016.
+09.006
+Wittgenstein, L. (1980). Remarks on the Philosophy of Psychology. Oxford:
+Blackwell.
+Wole´nski, J. (2004). “The history of epistemology,” in Handbook of Epistemology,
+eds I. Niiniluoto, M. Sintonen, and J. Wole´nski (Dordrecht: Springer
+Netherlands), 3–54. doi: 10.1007/978-1-4020-1986-9_1
+Wu, W. (2018). “The neuroscience of consciousness,” in The Stanford Encyclopedia
+of Philosophy, ed. E. N. Zalta (Stanford, CA: Stanford University).
+Conﬂict of Interest: The author declares that the research was conducted in the
+absence of any commercial or ﬁnancial relationships that could be construed as a
+potential conﬂict of interest.
+Copyright © 2020 Niikawa. This is an open-access article distributed under the terms
+of the Creative Commons Attribution License (CC BY). The use, distribution or
+reproduction in other forums is permitted, provided the original author(s) and the
+copyright owner(s) are credited and that the original publication in this journal
+is cited, in accordance with accepted academic practice. No use, distribution or
+reproduction is permitted which does not comply with these terms.
+Frontiers in Psychology | www.frontiersin.org
+12
+October 2020 | Volume 11 | Article 530152

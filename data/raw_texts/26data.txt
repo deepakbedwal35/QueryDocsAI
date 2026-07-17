@@ -1,0 +1,1007 @@
+UvA-DARE is a service provided by the library of the University of Amsterdam (https://dare.uva.nl)
+UvA-DARE (Digital Academic Repository)
+Singularity and consciousness: A neuropsychological contribution
+de Haan, E.H.F.; Scholte, H.S.; Pinto, Y.; Foschi, N.; Polonara, G.; Fabri, M.
+DOI
+10.1111/jnp.12234
+Publication date
+2021
+Document Version
+Final published version
+Published in
+Journal of Neuropsychology
+License
+CC BY-NC-ND
+Link to publication
+Citation for published version (APA):
+de Haan, E. H. F., Scholte, H. S., Pinto, Y., Foschi, N., Polonara, G., & Fabri, M. (2021).
+Singularity and consciousness: A neuropsychological contribution. Journal of
+Neuropsychology, 15(1), 1-19. https://doi.org/10.1111/jnp.12234
+General rights
+It is not permitted to download or to forward/distribute the text or part of it without the consent of the author(s)
+and/or copyright holder(s), other than for strictly personal, individual use, unless the work is under an open
+content license (like Creative Commons).
+Disclaimer/Complaints regulations
+If you believe that digital publication of certain material infringes any of your rights or (privacy) interests, please
+let the Library know, stating your reasons. In case of a legitimate complaint, the Library will make the material
+inaccessible and/or remove it from the website. Please Ask the Library: https://uba.uva.nl/en/contact, or a letter
+to: Library of the University of Amsterdam, Secretariat, P.O. Box 19185, 1000 GD Amsterdam, The Netherlands.
+You will be contacted as soon as possible.
+Download date:16 Jul 2026
+
+Journal of Neuropsychology (2021), 15, 1–19
+© 2021 The Authors. Journal of Neuropsychology published by John Wiley & Sons Ltd
+on behalf of British Psychological Society
+www.wileyonlinelibrary.com
+Theoretical or Review Article
+Singularity and consciousness: A
+neuropsychological contribution
+Edward H. F. de Haan*1,2
+, Huibert Steven Scholte1,2, Yair Pinto1,2,
+Nicoletta Foschi3, Gabriele Polonara4 and Mara Fabri5
+1Department of Psychology, University of Amsterdam, the Netherlands
+2Amsterdam Brain & Cognition (ABC) Center, University of Amsterdam, the
+Netherlands
+3Epilepsy Center-Neurological Clinic, Azienda "Ospedali Riuniti", Ancona, Italy
+4Department of Odontostomatologic and Specialized Clinical Sciences, Marche
+Polytechnic University, Ancona, Italy
+5Department of Experimental and Clinical Medicine, Marche Polytechnic University,
+Ancona, Italy
+In common sense experience based on introspection, consciousness is singular. There is
+only one ‘me’ and that is the one that is conscious. This means that ‘singularity’ is a deﬁning
+aspect of ‘consciousness’. However, the three main theories of consciousness, Integrated
+Information, Global Workspace and Recurrent Processing theory, are generally not very
+clear on this issue. These theories have traditionally relied heavily on neuropsychological
+observations and have interpreted various disorders, such as anosognosia, neglect and
+split-brain as impairments in conscious awareness without any reference to ‘the
+singularity’. In this review, we will re-examine the theoretical implications of these
+impairments in conscious awareness and propose a new way how to conceptualize
+consciousness of singularity. We will argue that the subjective feeling of singularity can
+coexist with several disuniﬁed conscious experiences. Singularity awareness may only
+come into existence due to environmental response constraints. That is, perceptual,
+language, memory, attentional and motor processes may largely proceed unintegrated in
+parallel, whereas a sense of unity only arises when organisms need to respond coherently
+constrained by the affordances of the environment. Next, we examine from this
+perspective psychiatric disorders and psycho-active drugs. Finally, we present a ﬁrst
+attempt to test this hypothesis with a resting state imaging experiment in a split-brain
+patient. The results suggest that there is substantial coherence of activation across the
+two hemispheres. These data show that a complete lesioning of the corpus callosum does
+not, in general, alter the resting state networks of the brain. Thus, we propose that we
+have separate systems in the brain that generate distributed conscious. The sense of
+singularity, the experience of a ‘Me-ness’, emerges in the interaction between the world
+This is an open access article under the terms of the Creative Commons Attribution-NoDerivs License, which permits use and
+distribution in any medium, provided the original work is properly cited and no modiﬁcations or adaptations are made.
+*Correspondence should be addressed to Edward de Haan, Psychology Department, University of Amsterdam, Nieuwe
+Prinsengracht 129B, 1018WS Amsterdam, the Netherlands (email: e.h.f.dehaan@uva.nl).
+DOI:10.1111/jnp.12234
+1
+
+and response-planning systems, and this leads to coherent activation in the different
+functional networks across the cortex.
+In most theories, and certainly in common sense experience based on introspection,
+consciousness is singular. There is only one ‘me’ and that is the one that is conscious. This
+means that ‘singularity’ is a deﬁning aspect of ‘consciousness’. Bayne (2008, 2010); Bayne
+and Chalmers (2003) distinguish different deﬁnitions of uniﬁed consciousness, and in one
+sense, singularity refers to ’subject unity’. Subject unity is present if all the experiences
+generated in a system belong to one subject. In other words, if a system contains a ﬁrst-
+person perspective, then subject unity is preserved if that system only contains one such
+perspective, but subject unity is absent if the system contains multiple ﬁrst-person
+perspectives. Another deﬁnition of uniﬁed consciousness refers to representational unity.
+This indicates whether the contents of an experience are integrated. For instance, when
+you are driving a car and listening to GPS instructions, your sight and sound are related to
+each other, whereas if you listen to the radio, the visual and auditory contents are not
+integrated (Sasai, Boly, Mensen, & Tononi, 2016). So, representational unity is preserved
+in the former, but not in the latter case. Thus, the existence of a singularity refers to subject
+unity: One subject undergoes all the experiences existing within a system. Representa-
+tional unity is more closely related to the sense of singularity, or the ’feeling of oneness’.
+This distinction bears some resemblance to the ‘subjective self’ and the ‘objective self’.
+The former refers to the sense of self, whereas the latter refers to the self as an experiencer.
+The currently leading theories on consciousness in cognitive neuroscience are the
+Integrated Information theory (IIT, Tononi, 2004, 2005; Tononi & Koch, 2015),the Global
+Workspace theory (Baars, 1988, 2005; Dehaene & Naccache, 2001), and the Recurrent
+Processing theory (Block, 2007; Lamme, 2006; Lamme & Roelfsema, 2000). According to
+IIT, consciousness arises when a system has a rich representation repertoire and its
+subsystems are strongly interconnected. However, when the integration within a
+subsystem is larger than the connection between subsystems, consciousness will arise as a
+function of the subsystem rather than of the system as a whole (Tononi, 2004, 2005).
+Thus, this theory suggests that split-brain patients, in whom integrated information
+processing is mostly conﬁned within the two hemispheres, are two conscious agents; one
+agent per hemisphere. Note that this seems to refer to subject unity, or the objective self.
+According to Global Workspace theory, the cerebral hemispheres house a ‘global
+workspace’. This global workspace can be thought of as the ‘headquarters’ of the cortex,
+which receives information from and projects to many cortical modules. Only information
+processed by the global workspace reaches consciousness. Recurrent Processing theory
+asserts that consciousness can arise through local recurrent processing between cortical
+modules, even in the absence of global or integrative cortical processes. However, such
+local processing, by itself, only leads to phenomenal consciousness that is otherwise
+inaccessible, and unreportable. Thus, for uniﬁed reportable consciousness, strong
+integration between the hemispheres is needed. These models all share the idea that
+uniﬁed consciousness requires massive, coherent activation of neuronal tissue in the
+brain. Note that in these theories, no clear distinction is made between the sense of self
+and the existence of a self. For instance, IIT seems to claim that in a split-brain two ﬁrst-
+person perspectives exist. That is, there really are two independent conscious agents in a
+split-brain, one per hemisphere. IIT is silent on how the sense of self is impacted. In
+theory, even if there are two agents, they could still (mistakenly) think of themselves as
+only one agent. In general, none of the leading theories of consciousness clearly
+2
+Edward H. F. de Haan et al.
+
+distinguishes between the objective and subjective self, and none clearly indicate which
+processes underlie either of these selves.
+Here, we will address this lacuna. We will postulate a model that deals with the
+subjective self, that is, the sense of singularity. Our model is grounded on three main
+hypotheses. The ﬁrst hypothesis states that conscious awareness is distributed (e.g.,
+Weiskrantz, 1999). The conscious experience of perceptual, language, memory,
+attentional and even motor processes may largely proceed unintegrated in parallel. Thus,
+this addresses, in Bayne’s terms, representational unity, not subject unity. That is, we
+claim that many conscious processes may contribute to experiences with parts that are
+not integrated with each other (comparable to movies in which sound and sight are out-of-
+sync) although they still all may be experienced by one subject.
+The second hypothesis argues that the subjective feeling of singularity, that is, the
+subjective self, can coexist with several disuniﬁed conscious experiences. The sense of
+singularity, then, is an experience that may only come into existence when we need to
+move our (single) body in an environment characterized by response constraints. Thus,
+conscious awareness may largely proceed unintegrated in parallel, whereas the sense of
+unity only arises when organisms need to respond coherently and purposefully. The third
+hypothesis suggests that the sense of singularity is based on a separate neural system
+involving an extensive subcortical network (e.g., the thalamus and the striatum),
+prefrontal, and insular structures that is concerned with developing intentions and action
+plans.
+Regarding the ﬁrst hypothesis, note that many studies with healthy subjects on
+attention claim that ’the brain cannot process all incoming information, therefore we need
+selection by means of attention’ – the so-called early selection idea of attention
+(Broadbent, 1958; Neisser & Becklen, 1975; Yantis & Johnston, 1990). However, this
+claim may be erroneous, since the brain can, and in fact does, process massive incoming
+information in parallel. As far as selection takes place, it is mainly outside the purview of
+top-down attention. This is also apparent from our visual experience. In contrast to the
+claims stating that ’change blindness’ is driven by consciousness bottlenecks, it is evident
+that you experience a lot of visual information at the same time without needing attention.
+Parallel processing even occurs in attention as has been shown by ‘multiple object
+tracking’ studies (Alvarez & Cavanagh, 2005; Cavanagh & Alvarez, 2005; Drew, Mance,
+Horowitz, Wolfe, & Vogel, 2014) and ‘functional split-brain’ (Sasai et al., 2016)
+investigations. In all these perceptual examples, there is no place in the brain where all
+the visual information comes together. The notion of a single phrenological seat for
+consciousness seems like a highly improbable explanation of the sense of singularity. After
+all, even within a single cortical area, information is distributed, and it is impossible that
+eventually all information is projected onto a single neuron.
+In contrast, we suggest that the sense of singularity does not arrive as a by-product from
+having one seat of consciousness but is the result of the interaction between intentions
+and the possibilities or affordances of our body, and the environment. This system is,
+typically, single because, although there are many different input channels signalling
+different aspects of the outside world and many response possibilities, there is, however,
+only one body in one environment. Motor control is effected at many levels, ranging from
+spinal reﬂexes to subcortical, cerebellar, and cortical systems. Therefore, we are able to
+execute complex and sometimes conﬂicting behaviours. However, at the highest level,
+we formulate intentions and develop action plans that concern a single body in an external
+world that allows to successfully satisfy some but no other intentions. The second
+hypothesis thus argues that our experience of a singular ‘Me’ ﬁnds its origin in this
+Singularity and consciousness
+3
+
+intentional, action directed process. It is not the binding of different cognitive processes
+that causes this experience but the need to satisfy intentions using your body. We are,
+thus, hypothesizing a Gibsonian (e.g., Gibson, 1979) interpretation of the sense of singular
+agency. The third hypothesis is more speculative and suggests that this intentional
+singularity system has evolved in a phylogenetic fashion from a basic subcortical system
+for motor planning to a high-level cognitive system involving the prefrontal and insular
+regions. Our starting point here is similar to the ‘Passive Frame Theory’ proposed by
+Morsella, Godwin, Jantz, Krieger, and Gazzaley (2016), who proposed a framework from
+an action-based perspective. They suggest that the primary function of consciousness is
+serving the somatic nervous system: ‘it constrains and directs skeletal muscle output,
+thereby yielding adaptive behavior. The mechanism by which consciousness achieves this
+is more counterintuitive, passive, and “low level” than the kinds of functions that theorists
+have previously attributed to consciousness’. They propose two separate types of
+consciousness: paleoconsciousness that originates in a phylogenetically old system like
+the olfactory system, and neoconsciousness that arising from thalamic and cortical
+processing. We agree that environmental and bodily affordances are important but we
+disagree with their focus on the olfactory system and the somatosensory system. More
+importantly, we do not concur with the suggestion that this system subserves
+consciousness as a whole but propose instead that such a system might explain the
+sense of singularity. Therefore, our suggestion is more in line with the commentary of de
+Vries and Ward (2016), who also start with claim that the environment affords many
+possible actions. They suggest that we have perceptual, cognitive and motor systems that
+afford such a huge number of possible actions that there is a need for constraints. They
+propose that the more elaborate neoconsciousness system based on a subcortical
+network evolved, along with neocortex, to extend the range of affordances, thereby
+providing a basis for very sophisticated behaviours involve moving the body and limbs in
+complicated ways. These action affordances develop in environment-speciﬁcsettings, but
+experience enables us to extend these behaviours to novel projections in space and time.
+Subsequently, it allows for the planning of complex movement patterns well beyond the
+range of direct perception.
+In addition, communication is also an interaction between a person and his or her
+environment. Speaking allows for endless different messages to be shared with the
+environment, but it is essentially singular: You simply cannot say two things at once. Then,
+it might follow that higher-order thinking (in the sense of verbal thought) is also
+experienced as singular. That is, it is also under the control of the singularity constraints.
+That means that you can consciously think of all kinds of different things at the same time
+(parallel, pre-verbal notions), but if you want to translate it into language (speaking or
+internal speech), it will become singular. If that makes sense, it means that the ‘function’
+that monitors or imposes singularity is within the brain’s functions that regulate our
+intentions in the environment. As a ﬁrst approximation, it is likely to be based on a
+phylogenetically older subcortical network and cortically distributed over the frontal/
+parietal areas (but it does not have to be in one separate area). In addition, it is possible that
+the insula, as a higher-order emotional representation of the body, is also involved (e.g.,
+Morsella et al., 2016).
+Below, we will re-examine the theoretical implications of the neuropsychological
+impairments in conscious awareness against the backdrop of our new hypothesis.
+Subsequently, we present a ﬁrst attempt to test this hypothesis with a resting state imaging
+experiment in a split-brain patient.
+4
+Edward H. F. de Haan et al.
+
+Impairments in conscious awareness
+Theories of consciousness have traditionally relied heavily on neuropsychological
+observations. Clinical observations of disorders in neurological patients can often be
+interpreted as impairments in conscious awareness. Until recently, the consensus
+appeared to be that the main theories of consciousness were largely in agreement with
+these neuropsychological observations. However, on occasion these observations are
+open to alternative interpretations, and in some cases, the phenomenology has been
+reassessed as new evidence was collected. There are basically four groups of these
+neuropsychological phenomena: anosognosia or denial of illness, knowledge without
+awareness, neglect and split-brain. We will critically evaluate the conclusions that may be
+drawn from these observations with respect to consciousness in the light of our new
+approach.
+Anosognosia or denial of illness
+The classic observations of unawareness of impairment date back to Von Monakow
+(1885) and Anton (1899) whose patients denied their own blindness or deafness. Soon it
+became clear that it can occur in a wide range of physical and cognitive disorders, such as
+unawareness of hemiplegia (Babinski, 1914), hemianopia (Critchley, 1949; Warrington
+and Weiskrantz, 1968), aphasia (Lebrun, 1987; Wernicke, 1874), and of amnesia
+(Korsakoff, 1889; Talland, 1961, 1965). Anosognosia cannot be explained by the severity
+of impairment. For instance, on the basis of a review of the different causes of
+unawareness of memory impairments McGlynn and Schacter (1989) concluded that it is
+clearly not simply the case that people with poor memories forget the occasions when
+they failed to remember things and thus feel that their memories are unimpaired. In
+addition, McGlynn and Schacter (1989) also argued that the patients who show
+unawareness of impairment are not necessarily demented and do not necessarily
+experience a global change in consciousness. In contrast, patients who are disoriented
+and confused may nonetheless continue to achieve insight into their cognitive
+impairments (Parkin, Miller, & Vincent, 1987). Thus, there is convincing evidence for a
+‘double dissociation’ between anosognosias and more general impairments of conscious-
+ness. Another important point is that patients with more than one deﬁcit may be unaware
+of one impairment but perfectly well aware of others. Von Monakow (1885) had already
+observed that a patient with extensive bilateral brain lesions who denied being blind but
+complained heavily about other problems. This idea has been further expanded by
+Bisiach, Vallar, Perani, Papagno, and Berti (1986), who showed clear dissociations
+between anosognosia for hemiplegia and anosognosia for hemianopia. The fact that
+anosognosia may be very selective was demonstrated in a patient reported by Young, de
+Haan, and Newcombe (1990) who suffered from multiple cognitive deﬁcits but only
+denied her face recognition impairment. Interestingly, Anton (1899) already suggested
+that ‘unawareness of impairment of a particular function is caused by a disorder at the
+highest levels of organization of that function’. The deﬁcits of insight have also been
+observed in dementias and psychiatric conditions, such as schizophrenia (e.g., David,
+Bedford, Wiffen, & Gilleen, 2012).
+Thus, the clinical phenomenon of anosognosia actually suggests that local conscious-
+ness (of a deﬁcit in a particular processing stream) may become selectively disrupted. The
+alternative proposal that anosognosia is caused by a disconnection between a speciﬁc
+cognitive module and a central ‘awareness system’ (e.g., Schacter, McAndrews, &
+Moscovitch, 1988; see also Schacter’s (1989) ‘DICE’ [Dissociative Interactions in
+Singularity and consciousness
+5
+
+Conscious Experience] model) assumes that we possess such a separate system where
+consciousness arises. There is little empirical evidence for such a system. It is,
+therefore, not such a strange suggestion to conclude that with respect to perception,
+body awareness, and memory, we have multiple unintegrated streams of conscious-
+nesses and that these streams differ in terms of detail and vividness. We might be
+vaguely aware of the room temperature, somewhat aware of the phone in our pocket
+and very aware of a person in the room that we do not like. Damage to a network
+may cause – in certain circumstances – that insight about its dysfunctional state does
+not reach consciousness. Note that, as a rule, the experience of singularity is not
+reduced in these patients.
+Knowledge without awareness
+There is a group of clinical phenomena that can be construed as spared cognitive
+processing while the patient remains consciously oblivious of the fruits of this processing.
+We will discuss a number of the most prominent examples below.
+The paradoxical term ‘blindsight’ refers to the ability of patients, who suffer from
+visual ﬁeld defects due to damage to the primary visual cortex, to respond above chance to
+visual stimuli in the blind areas of their visual ﬁeld. The ﬁrst clinical report was published
+in 1973 by P€oppel et al. who demonstrated that hemianopic patients made accurate
+saccades to light ﬂashes presented in their blind half-ﬁeld. Weiskrantz (e.g., Sanders,
+Warrington, Marshall, & Weiskrantz, 1974; Weiskrantz, 2009; Weiskrantz, Warrington,
+Sanders, & Marshall, 1974) took this initial observation one step further and showed that
+the effects could also be demonstrated using manual pointing and verbal forced-choice
+responses. Apart from blindsight for location, it has since been argued that blindsight
+patients may respond to ﬂicker, contrast sensitivity, motion, and wavelength (e.g., Stoerig
+& Cowey, 1992). In addition, above-change processing of higher-order properties has also
+been proposed (e.g., Tamietto & Morrone, 2016). For instance, Trevarthen et al. (2007)
+argued for preserved categorical perception, and Solca et al. (2015) for recognition of
+familiar faces presented in the blind ﬁeld. Earlier criticism (e.g., Campion, Latto, & Smith,
+1983) focused on alternative explanations such as scattered light and/or rudimentary
+(‘peppered’) vision. Subsequent research refuted most these criticisms in subsequent
+studies (see Cowey, 2010 for a review) but it also became clear that there are different
+types of blindsight phenomenon in different, individual patients. In response to
+differences in the phenomenal experience of patients, two forms of it have been
+proposed by Weiskrantz (1998). In type 1 blindsight, the patients experience no
+awareness of any kind, while patients with type 2 blindsight experience a non-visual
+experience that, and even where, something occurred. In addition, Danckert and Rossetti
+(2005) suggested three different types of blindsight. First, patients who are able to act
+upon stimuli in the blind ﬁeld (e.g., by pointing or saccades) are classiﬁed as having
+‘action-blindsight’. Second, patients who respond on the basis of attentional processing of
+blind ﬁeld stimuli are thought to have ‘attention-blindsight’, and third, patients who
+demonstrate above-chance perceptual judgements for different stimulus characteristics
+presented in the blind ﬁeld are classiﬁed as having ‘perceptual blindsight’ (Smits et al.,
+2019).
+Covert face recognition concerns the indirect observation of preserved face
+processing in prosopagnosic patients. The term ‘prosopagnosia’ (Bodamer, 1947) refers
+to an inability to recognize familiar people by the face as a result of bilateral
+occipitotemporal lesions. The perception of faces as such remains intact, and they can
+6
+Edward H. F. de Haan et al.
+
+describe a face and see the features such as the nose and the eyes clearly. In addition, the
+recognition of other objects is still intact (e.g., de Haan, 2017, 2019; De Renzi, 1986). The
+ﬁrst demonstrations of covert recognition relied on autonomic and central physiological
+responses that are sensitive to familiarity or identity. Bauer (1984) showed a prosopag-
+nosic patient a series of photographs of familiar faces each time with ﬁve spoken names.
+The patient was at chance in choosing the correct name but electrodermal responses
+differentiated between target names and foils. Rizzo, Hurtig, and Damasio (1987) showed
+that visual scan paths differed between familiar and unfamiliar faces and that this effect
+was also present in a prosopagnosic patient, while Renault, Signoret, DeBruille, Signoret,
+Debruille, Breton, and Bolgert (1989) observed signiﬁcant differences in the P300
+responses to familiar versus unfamiliar faces in a patient with prosopagnosia. Using
+behavioural tests employing paradigms such as interference and priming, de Haan et al.
+conﬁrmed that in some patients the recognition ability was largely intact and it was only
+the absence of conscious access to this information that caused the prosopagnosia (de
+Haan et al., 1987; de Haan, Bauer, & Greve, 1992; Young, Hellawell, & De Haan, 1988;
+Young and Haan, 1988). For instance, a priming task was used in which the patient was
+asked to make speeded responses to familiar and unfamiliar names (he could still read).
+The amount of priming (i.e., RT reduction) was similar from name primes, which could
+recognize, and face primes, that he could not recognize overtly. Similar observations have
+also been reported in the realm of alexic, letter-by-letter reading patients (Coslett &
+Saffran, 1990; Shallice and Saffran, 1986).
+Implicit processing has been extensively investigated in memory. From the early
+studies in the famous patient HM demonstrating spared motor learning on a mirror
+drawing task (Milner, 1962) and the observation of intact perceptual ﬂuency in amnesic
+patients by Warrington and Weiskrantz (1968) to the large-scale research programmes by
+Schacter (Schacter, 2020) and Squire (2009). Implicit memory can be demonstrated with
+tasks such as the word-stem-completion where patients have complete word-stems with
+the ﬁrst word that comes to mind instead of asking them to remember which word has
+been presented earlier (e.g., Schacter, Alpert, Savage, Rauch, & Albert, 1996) or similar
+priming paradigms for verbal and non-verbal material. Implicit access has also been
+demonstrated for semantic memory (Young, Newcombe, Hellawell, & de Haan, 1989),
+and Graf and Schacter (1985) showed that amnesic patients can even store new
+associations at an implicit level.
+What has not been stressed, but now constitutes an important data point, is the
+observation that patients with comorbid deﬁcits do not show knowledge without
+awareness across the board. Thus, a patient with prosopagnosia and amnesia may
+show covert face recognition but does not – as rule – show any evidence for
+implicit memory, and vice versa. Thus, the clinical condition dampening conscious-
+ness below the level at which it can still be experienced is a local phenomenon. It
+only affects a particular function, and the remaining functions appear to provoke
+consciousness in a normal fashion. The experience of singularity is not normally
+affected in these patients.
+Neglect
+This concerns a group of related disorders that entail a failure to report, react or orient to
+stimuli that are presented to the patient’s contralesional side (e.g., Heilman, Watson, and
+Valenstein, 1985). The responsible lesions are in the right superior longitudinal fasciculus
+and its cortical end-points in the parietal and frontal lobes (Lunven et al., 2015). It is not
+Singularity and consciousness
+7
+
+caused by a basic sensorimotor deﬁcit or general confusion or intellectual deterioration.
+Different subtypes of neglect are distinguished. Neglect at the input-level concerns
+impairments in the perception of, or the attention to, the hemiﬁeld contralateral to the
+damaged hemisphere, while problems at the output or intentional stage are concerned
+with motor (akinesithetic) deﬁcits in or towards the contralesional side. Moreover, the
+characteristics of the deﬁcit (Heilman et al., 1985; Halligan, Marshall, & Wade, 1989;
+Heilman, Valenstein, & Watson, 2000) are further determined by the spatial frame-of-
+reference (personal, spatial, and representational) and the responding hand (unimanually
+left or right or bimanual). Central for the current discussion is that neglect is in essence a
+form of selective unawareness. The complete outside world is registered, and there is
+good evidence that the information is processed at an implicit level (e.g., Berti & Rizzolatti,
+1992). Thus, neglect is an example of knowledge without awareness and anosognosia in
+the same patient (see also Young et al., 1990). Explaining their failure to the patient has
+little effect; it is as if he or she has also forgotten what it was like to attend to the left side.
+Thus, apart from an impairment in the conscious perception or explicit memory, brain
+damage can also result in an inability to consciously explore or attend to part of the
+external world. In short, in all its different forms, neglect constitutes an intriguing deﬁcit
+affecting consciousness but notably the sense of singularity appears to be unaffected.
+Split-brain
+In a spit-brain, the corpus callosum is surgically severed leading to mostly independent
+processing in the right and the left hemispheres. This naturally evokes the idea that each
+hemisphere gives rise to an independent conscious agent, and indeed early studies
+claimed to have found evidence for this (Gazzaniga, 1967; Sperry, 1968, 1984). These
+studies suggested that independent perceptual processing and independently generated
+responses within each hemisphere.
+However, where the former claim of independent perceptual processing has stood up
+to the test, the latter claim of independently generated responses has been discredited
+across a range of patients and tasks (Clarke & Zaidel, 1989; Corballis, Corballis, Fabri,
+Paggi, & Manzoni, 2005; de Haan, Fabri, et al., 2020; Pinto,Lamme, & de Haan, 2017; Pinto,
+Neville, et al., 2017; Trevarthen and Sperry, 1973). This has rekindled the debate of
+whether the self is split in split-brain patients (Corballis, Corballis, Berlucchi, & Marzi,
+2018; de Haan, Fabri, et al., 2020; Pinto, Lamme, et al., 2017; Pinto, Neville, et al., 2017;
+Volz & Gazzaniga, 2017; Volz et al., 2018). Note furthermore that despite the widespread
+claims of a split self in split-brain patients, these patients seem to behave in a socially
+ordinary manner and they report feeling unchanged after the operation (Bogen, Fisher, &
+Vogel, 1965; Pinto, Neville, et al., 2017; Sperry, 1968, 1984).
+A second observation is crucial here. Split-brain patients appear unaware of their split
+perception. In a normal situation, that is perhaps not that strange as both hemispheres are
+fully informed when the patient moves his head and eyes, but then again, it should be
+obvious that when they stare straight ahead each hemisphere has a hemianopia. One
+intriguing way to explain this is that it is normal to experience many separate parallel
+conscious experiences. In a sense, healthy subjects may also have separate processing of
+the visual half ﬁelds. The subjective experience in healthy subjects is that they view
+coherently integrated full ﬁelds. This could be because they have a corpus callosum that
+supports this integration or it could be the case that we experience these as separate but
+simultaneous conscious experiences.
+8
+Edward H. F. de Haan et al.
+
+Impairments in the sense of singularity
+If our hypothesis is correct, then one could expect that in certain patients with brain
+dysfunction the feeling of singularity has been disrupted. Note that the issue here is not
+impaired levels of consciousness but deﬁcits of experiencing the singularity. It is not
+immediately obvious what such a singularity deﬁcit would look like but it is clear that it
+would be a subjective experience involving feelings such as loss of unity, loss of self, and
+loss of agency. These problems are not often reported in the neurological literature, but
+there are notable references in other areas, such as in psychiatry and psycho-active drugs.
+Schizophrenia
+Bleuler had already suggested that disintegration of the ‘self’ is a central symptom of
+schizophrenia: ‘Ganz intakt ist dennoch das Ich nirgends’ (Bleuler, 1911: p. 58). Ipseity is a
+term from the Latin ‘ipse’ meaning ‘self’ or ‘itself’. In psychiatry, the term refers to a crucial
+sense of being with an automatic ‘mineness’ of experience (Sass & Parnas, 2003). Sass,
+Pienkos, Nelson, and Medford (2013) continue to suggest that deﬁcits of ipseity have two
+related aspects. First, ‘hyper-reﬂexivity’ refers to an exaggerated self-consciousness. It
+involves an alienating attention to ‘automatic popping-up or popping-out of phenomena
+and processes that would normally remain in the tacit background of awareness’. This
+description does not reﬂect the idea of a disturbance of singularity. However, the second
+aspect, ‘diminished self-affection’, is conceptualized as ‘a reduction in the very sense of
+existing as an aware subject or agent of action, that is, to a diminished sense of existing as a
+ﬁrst-person perspective on the world, an experiencing entity’. Reviewing the psychiatric
+literature on schizophrenia, they conclude that ipseity problems occur frequently in this
+population. Feinberg and Keenan (2005) speciﬁcally looked at patients with delusional
+mis-identiﬁcation syndrome, such as the Capgras and Fregoli syndrome, and suggested
+that a loss of self is central to these neuropsychiatric conditions. Interestingly, these
+patients often show damage to frontal regions in addition to right hemisphere lesions.
+Depersonalization
+Depersonalization disorder is described as a dissociative disorder entailing ‘a feeling of
+detachment or estrangement from one’s self’ (DSM IV, 2000). The symptoms involve
+emotional numbing, loss of sense of agency, and altered experience of the body, time, and
+space (e.g., Simeon & Abugel, 2006). This description is, at least, reminiscent of a problem
+in singularity. Interesting are the early observations by Hughlings Jackson who was one of
+the ﬁrst to propose a theory of the self. He described it as a double phenomenon with a
+subject and object allowing for the emergence of ‘introspection of consciousness’. The
+experience of the Self was reliant on evolutionary new brain structures, speciﬁcally the
+prefrontal cortex. He predicted on the basis of his experience with epileptic patients that
+the self could be lost as a result of brain dysfunction leading to depersonalization and a
+diminution of the sense of ‘me-ness’ (Meares, 1999).
+Depersonalization is usually reported in psychiatric patients suffering from either
+depression or anxiety. However, several reports have documented depersonalization and
+derealization symptoms in patients with epilepsy (Medford, Sierra, Stringaris, Brammer,
+and David, 2016). Heydrich, Marillier, Evans, Seeck, and Blanke (2019) suggested that it
+was patients with the epileptogenic zone in the dorsal premotor cortex that experienced
+ictal depersonalization with altered self-identiﬁcation, while patients with derealization
+suffered from temporal lobe epilepsy. They describe the depersonalization disorder as ‘a
+Singularity and consciousness
+9
+
+disturbing change in the quality of ﬁrst-person experience, almost invariably encompass-
+ing a diminished sense of self and an alteration in emotional experience such that the
+sufferer feels less emotionally reactive, with emotions experienced as decreased or
+damped down’. In their view, the attenuation of emotional experience was associated
+with reduced activity of the insula. This raises again the interesting hypothesis that the
+parieto-frontal singularity network is closely afﬁliated with the insula. It is, in this context,
+interesting that Craig (2009, 2011) has suggested that the anterior insula entails a re-
+representation of interoception that serves as the platform involved in subjective feelings
+and, as such, plays a pivotal role in awareness. In his model, the limbic system, entailing
+the motor cortex, the anterior cingulate, and medial prefrontal cortex, works together
+with the limbic sensory cortex, that is, the anterior insula. In our hypothesis, the role of
+this network is slightly rephrased in that it is responsible for the feeling of singular me-
+ness, that is, of the singularity. See also Seth, Suzuki, and Critchley (2012) for a predictive
+coding account of conscious presence in which the insula is a central neuroanatomical
+structure.
+Psycho-active drugs
+According to Milliere (2017), there are three neuropharmacological classes of drugs that
+can induce ‘ego dissolution’: classical psychedelics, dissociative anaesthetics, and
+agonists of the kappa opioid receptor. These drugs operate on different neurotransmitter
+receptors, and they all share a strong subjective effect on the subjective experience of the
+self, including ego dissolution. It is well known that these drugs may distort perception
+and mood (e.g., Halberstadt, 2015) with smaller doses but the more complex effects at
+higher doses have received less attention. Some of these hallucinogenic drugs may cause
+distortions of self-consciousness that have been described as a dramatic breakdown of the
+sense of self or ‘ego dissolution’. Mescaline is both a notable and famous example, as
+illustrated by Aldous Huxley who portrayed his experience with mescaline as the ‘ﬁnal
+stage of egolessness’ (Huxley, 1954). Drugs that may produce similar effects are LSD and
+psilocybin. Dissociative anaesthetics constitute another group of psycho-active sub-
+stances that been associated with ego dissolution experiences. These anaesthetics, such
+as ketamine and dextromethorphan, target the NMDA receptors as antagonists. In a recent
+review, Sleigh, Warnaby, and Tracey (2018) conclude that fMRI and EEG studies
+comparing the effect of sleep and general anaesthesia on consciousness and ‘self-’ related
+functions have shown critical differences. They point to the drug-induced reduction of
+anterior insula function that is absent in sleep. With increasing levels of anaesthetics,
+patients often become depersonalized and may lose their sense of agency, while higher-
+order functions and a disembodied self-awareness may be retained. In contrast, during
+sleep the loss of agency and sentience parallels or lags behind, the decrease in self-
+awareness. Finally, Milliere (2017) identiﬁes kappa opioid agonists, such as salvinorin-A,
+the active ingredient in the Mexican plant Salvia divinorum, as the third compound to
+provoke alterations in self-awareness and depersonalization-like feelings. It triggers fewer
+visual distortions but may induce intense somatic effects and feelings of losing a sense of
+bodily ownership.
+Loss of Self-activation
+The ‘loss of psychic self-activation’ or ‘psychic akinesia’ syndrome was ﬁrst described by
+Laplane, Baulac, Widlocher, and Dubois (1984) in patients suffering from carbon
+10
+Edward H. F. de Haan et al.
+
+monoxide intoxication or wasp stings. It is characterized by a ‘striking reduction in
+spontaneous motion and speech, almost complete lack of initiative, absence of
+spontaneous mental activation of any kind, subjective “mental emptiness”, loss of
+interest for previously motivating activities, and apparent emotional ﬂatness or poor
+expressiveness of affect’ (Riveros et al., 2019). A case study with a patient who suffered
+from severe loss of psychic self-activation after a post-anoxic coma extensive neuroimag-
+ing including CT, MRI, and SPECT showed bilateral damage to the basal ganglia and
+prefrontal hypoperfusion. The suggestion that the basal ganglia (and notably the antero-
+dorsal part of the striatum) might be involved in the maintenance of the self supports the
+proposals by Morsella et al. (2016).
+Taken these neuropsychological observations together,we propose that the processes
+that impose singularity on the interaction between intentions of the whole organism and
+the environment are carried out by a network involving subcortical structures, such as the
+striatum and the thalamus, the medial prefrontal cortex, and the anterior insula.
+Resting state imaging in a split-brain patient
+Healthy subjects in rest have a number of stable brain networks that are co-activated over
+time (Smith et al., 2009). These networks are of particular interested when considering
+the functional organization of split-brain patients because they entail, for eight out of 10
+networks, bilateral components. For this reason, we tested the split-brain patient DDC to
+evaluate to what degree the bilateral nature of these components is dependent on a
+functioning corpus callosum, using BOLD-MRI. DDC has had a complete removal of the
+corpus callosum and most of the anterior commissure to help relieve epileptic seizures.
+Other than the removal of the corpus callosum and most of the anterior commissure, the
+patient had no brain damage, and fell within the normal IQ range. See Pizzini et al. (2010)
+and Corballis et al. (2010) for a detailed description of this patient.
+The MR scanner and recording procedures and sequence parameters were identical to
+the functional imaging of Fabri & Polonara, 2013, with the following exception: We
+recorded two runs of functional data, each consisting of 300 volumes. During the
+recording of each of these runs, we ﬁrst showed a movie that lasted for 480 s (160
+volumes), while the subject was instructed to relax during the remainder of the run
+(420 s, 140 volumes). Pre-processing of BOLD-MRI data was identical to Groen et al.,
+2018, and subsequently, both runs were denoised using FSL-Fix (Griffanti et al., 2014).
+Next, we performed a concatenated ICA (Beckmann & Smith, 2004) analysis on the
+2 x 420 s of BOLD-MRI data in which no movie was presented. This yielded 41
+components of which we calculated the dice scores (threshold t > 1.7) in relation to the
+10 resting state components from Smith et al., 2009. The seven components that
+overlapped between these two data sets are displayed in Figure 1. This overlap is
+substantial for all components of DCC except 5 and 6 (see Table 1). Two components
+observed in DDC overlapped with multiple components from Smith et al., 2009. Next, we
+determined to what degree the unilateral activations within each hemisphere were
+symmetrical by ﬂipping the slices of one hemisphere around the central sagittal axis onto
+the other hemisphere, and calculating the correlations between the two hemispheres.
+This analysis indicated substantial symmetry in the activation of left and right hemisphere
+for ﬁve of the seven components (see Table 1).
+These results strongly indicate that there is, for at least four components, coherence of
+activation across the two hemispheres of the brain that are not dependent on the corpus
+callosum. By exclusion, it can be deduced that this coherence is the result of subcortical
+Singularity and consciousness
+11
+
+Figure 1. The seven components that overlapped between (Smith et al., 2009) and the components
+from the split-brain patient (threshold at z > 1.7). The numbers between the brackets indicate the
+overlap with the components of Smith et al. (2009). [Colour ﬁgure can be viewed at wileyonlinelibrary.
+com]
+Table 1. Correlations between right and left hemisphere activations and dice scores in the 10 resting
+states components in normal subjects (Smith et al., 2009) and the seven in the split-brain patient DCC.
+SB Comp
+L-R Comp
+RS Comp
+Dice Score
+1
+0.46
+1
+0.22
+2
+0.15
+3
+0.19
+2
+0.48
+4
+0.18
+3
+0.19
+5
+0.1
+4
+0.21
+6
+0.14
+5
+0.35
+7
+0.17
+6
+0.55
+8
+0.16
+7
+0.45
+9
+0.14
+10
+0.17
+12
+Edward H. F. de Haan et al.
+
+processes. In our view, this is the subcortical aspect of the system that formulates our
+intentions and develops action plans that concern a single body in an external world that
+sets continuously changing constraints. As suggested above, this system is, typically,
+single because, although there are many different input channels signalling different
+aspects of the outside world and many response possibilities, there is only one body in one
+environment. Therefore, although consciousness may be distributed, especially sensory/
+visual consciousness, the sense of singularity may be unaffected in a split-brain patient due
+to coherence driven by the singular intentional system.
+Conclusion
+In this paper, we have argued for the idea that conscious awareness is distributed, and
+experienced locally. We suggest that the subjective feeling of singularity is independent of
+these.
+Following this reasoning,we predict that there should be many seats for different types
+of conscious experience but that the hardware related to the subjective feeling of
+singularity is located in the system involvedwith action planning and intentions. Crucially,
+we see this seat of singularity not as a meta-system curating experiences but as a system
+that arises in our interactions with the outside world.
+To make this point, we review data from neuropsychology showing that the loss of a
+function does not need to coincide with awareness about this loss (anosognosia), that
+subjects can have local awareness deﬁcits without altering their sense of singularity (see
+the section on knowledge without experience), that subjects can have both (neglect), and
+that subjects in which the connectivity is fundamentally altered (split-brain) still do not
+experience an altered sense of singularity. Moreover, the sense of singularity may only
+come into existence due to environmental response constraints.
+We support the idea with novel results in which we evaluate bilateral connectivity in a
+split-brain patient. We show that, using independent component analysis, our high-
+functioning split-brain patient has a substantial number of components with normal
+bilateral activation.
+While brain damage seems to alter local consciousness, but not singularity the
+opposite occurs in a range of psychiatric disorders like schizophrenia, depersonalization
+but also psycho-active drugs. We believe these double dissociations over phenomena
+further support our idea that singularity and conscious awareness are fundamentally
+different and that the sense of singularity can coexist with several disuniﬁed conscious
+processes, both in patients and healthy adults.
+Our concept of a system involved in singularity differs from global workspace theory
+(Dehaene & Naccache, 2001) in the sense that we believe these systems are (largely)
+independent from each other, and the latter not being the supervisor of the earlier.
+Furthermore, the results from our split-brain patient argue against IIT (Tononi & Koch,
+2015), in that a substantial drop in connectivity (removal of corpus callosum + anterior
+commissure) does not result in a drop of global consciousness. If anything our results are
+in line with recurrent processing theory (Lamme, 2006) although this theory (or any of the
+other ones) does not addresses the sense of singularity.
+In sum, we have argued that the experience of singularity and conscious awareness are
+fundamentally different and that the sense of singularity can coexist with several
+disuniﬁed conscious processes, both in patients and healthy adults.
+Singularity and consciousness
+13
+
+Acknowledgements
+This work was supported by an ERC Advanced grant FAB4V (#339374) to Edward de Haan and
+a Templeton grant (ID# 61382) ‘Towards understanding a uniﬁed mind’) to YP.
+Conﬂicts of interest
+All authors declare no conﬂict of interest.
+Author contributions
+Edward H. F. de Haan, Ph.D. (Conceptualization; Data curation; Formal analysis; Funding
+acquisition; Investigation; Methodology; Project administration; Resources; Supervision;
+Writing – original draft; Writing – review & editing) H. Steven Scholte (Conceptualization;
+Data curation; Formal analysis; Investigation; Methodology; Visualization; Writing –
+original draft) Yair Pinto (Conceptualization; Investigation; Methodology; Supervision;
+Writing – original draft; Writing – review & editing) Nicoletta Foschi (Conceptualization;
+Investigation; Project administration; Resources; Writing – original draft) Gabriele
+Polonara
+(Conceptualization;
+Investigation;
+Methodology;
+Project
+administration;
+Resources; Writing – original draft) Mara Fabri (Conceptualization; Investigation;
+Methodology; Project administration; Resources; Writing – original draft).
+References
+Alvarez, G. A., & Cavanagh, P. (2005). Independent resources for attentional tracking in the left and
+right visual hemiﬁelds. Psychological Science, 16, 637–643. https://doi.org/10.1111/j.1467-
+9280.2005.01587.x
+Anton, G. (1899). Ueber die Selbstwahrnemung der Herderkrankungen des Gehirns durch den
+Kranken
+bei
+Rindenblindheit
+und
+Rindentaubheit.
+Archiv
+Fir
+Psychiatric
+Und
+Nervenkrankheiten, 32, 86–127.
+Baars, B.J. (1988). A cognitivetheory of consciousness. Cambridge, UK: Cambridge University Press.
+Baars, B. J. (2005). Global workspace theory of consciousness: Toward a cognitive neuroscience of
+human experience. Progress in Brain Research, 150, 45–53. https://doi.org/10.1016/S0079-
+6123(05)50004-9
+Babinski, M. J. (1914). Contribution a I’etude des troubles mentaux dans I’hemiplegie organique
+cerebrale (Anosognosie). Revue Neurologique, 12, 845–848.
+Bauer, R. M. (1984). Autonomic recognition of names and faces in prosopagnosia: A
+neuropsychological application of the guilty knowledge test. Neuropsychologia, 22, 457–
+469. https://doi.org/10.1016/0028-3932(84)90040-x
+Bayne, T. (2008). The unity of consciousness and the split-brain syndrome. The Journal of
+Philosophy, 105, 277–300. https://doi.org/10.2307/20620103
+Bayne, T. (2010). The unity of consciousness. Oxford, UK: Oxford University Press.
+Bayne, T., & Chalmers, D. J. (2003). What is the unity of consciousness? In A. Cleeremans (Ed.), The
+unity of consciousness: Binding, integration and dissociation (pp. 23–58). Oxford, UK:
+Oxford University Press.
+Beckmann, C. F., & Smith, S. M. (2004). Probabilistic independent component analysis for functional
+magnetic resonance imaging. IEEE Transactions on Medical Imaging, 23(2), 137–152. https://
+doi.org/10.1109/TMI.2003.822821
+Berti, A., & Rizzolatti, G. (1992). Visual Processing without awareness: Evidence from unilateral
+neglect. Journal of Cognitive Neuroscience, 4, 345–351. https://doi.org/10.1162/jocn.1992.4.
+4.345
+14
+Edward H. F. de Haan et al.
+
+Bisiach, E., Vallar, G., Perani, D., Papagno, C., & Berti, A. (1986). Unawareness of disease following
+lesions of the right hemisphere: Anosognosia for hemiplegia and anosognosia for hemianopia.
+Neuropsychologia, 24, 471–482. https://doi.org/10.1016/0028-3932(86)90092-8
+Bleuler, E. (1911). Dementia praecox or the group of schizophrenias (J Zinkin, Trans.). New York,
+NY: International Universities Press.
+Block, N. (2007). Consciousness, accessibility, and the mesh between psychology and
+neuroscience. The Behavioral and Brain Sciences, 30, 481–499. https://doi.org/10.1017/
+S0140525X07002786
+Bodamer, J. (1947). Die prosopagnosie. Arch Psychiatr. Nervenkr, 179, 6–53.
+Bogen, J. E., Fisher, E., & Vogel, P. (1965). Cerebral commissurotomy: A second case report. JAMA,
+194(12), 1328–1329.
+Broadbent, D. E. (1958). Perception and communication. London, UK: Pergamon.
+Campion, J., Latto, R., & Smith, Y. M. (1983). Is blindsight an effect of scattered light, spared cortex,
+and near-threshold vision? Behavioral Brain Sciences, 3, 423–486.
+Cavanagh, P., & Alvarez, G. A. (2005) Tracking multiple targets with multifocal attention. Trends in
+Cognitive Science, 9, 349–354. https://doi.org/10.1016/j.tics.2005.05.009
+Clarke, J. M., & Zaidel, E. (1989). Simple reaction times to lateralized light ﬂashes. Varieties of
+interhemispheric communication routes. Brain, 112, 849–870. https://doi.org/10.1093/brain/
+112.4.849
+Corballis, M. C., Birse, K., Paggi, A., Manzoni, T., Pierpaoli, C., & Fabri, M. (2010). Mirror-image
+discrimination and reversal in the disconnected hemispheres. Neuropsychologia, 48, 1664–
+1669.
+Corballis, M. C., Corballis, P. M., Berlucchi, G., & Marzi, C. A. (2018). Perceptual unity in the split
+brain: The role of subcortical connections. Brain, 141(6), e46. https://doi.org/10.1093/brain/
+awy085
+Corballis, M. C., Corballis, P. M., Fabri, M., Paggi, A., & Manzoni, T. (2005). Now you see it, now you
+don’t: Variable hemineglect in a commissurotomized man. Cognitive Brain Research, 25(2),
+521–530. https://doi.org/10.1016/j.cogbrainres.2005.08.002
+Coslett, H. B., & Saffran, E. M. (1990). Evidence for preserved reading in "pure" alexia. Brain, 112:
+327–359. https://doi.org/10.1093/brain/112.2.327
+Cowey, A. (2010). The blindsight saga. Experimental Brain Research, 200, 3–24. https://doi.org/
+10.1007/s00221-009-1914-2
+Craig, A. D. (2009). How do you feel - now? The anterior insula and human awareness. Nature
+Review Neuroscience, 10, 59–70. https://doi.org/10.1038/nrn2555
+Craig, A. D. (2011). Signiﬁcance of the insula for the evolution of human awareness of feelings from
+the body. Annals of the New York Academy of Sciences, 1225, 72–82. https://doi.org/10.1111/
+j.1749-6632.2011.05990.x
+Critchley, M. (1949). The problem of awareness or non-awareness of hemianopic ﬁeld defects.
+Transactions of the Ophthalmological Society UK, 69, 95–109.
+Danckert, J., & Rossetti, Y. (2005). Blindsight in action: What can the different sub-types of
+blindsight tell us about the control of visually guided actions?" Neuroscience and Biobehavioral
+Reviews, 29, 1035–1046. https://doi.org/10.1016/j.neubiorev.2005.02.001
+David, A. S., Bedford, N., Wiffen, B., & Gilleen, J. (2012). Failures of metacognition and lack of insight
+in neuropsychiatric disorders. Philosophical Transactions of the Royal Society B, 367, 1379–
+1390. https://doi.org/10.1098/rstb.2012.0002
+de Haan, E. H. F. (2017) Prosopagnosia. In R. Stein (Ed.). Neuroscience and Biobehavioral
+Psychology. New York, NY: Elseviers Science. https://doi.org/10.1016/B978-0-12-809324-5.
+03150-3
+de Haan, E. H. F. (2019). Impaired vision: How the visual world may change after brain damage.
+New York, NY: Wiley-Blackwell.
+de Haan, E. H. F., Bauer, R. M., & Greve, K. W. (1992). Behavioural and Psychophysiological evidence
+for covert face recognition in a prosopagnosic patient. Cortex, 28, 77–95. https://doi.org/10.
+1016/s0010-9452(13)80167-0
+Singularity and consciousness
+15
+
+de Haan, E. H., Fabri, M., Dijkerman, H. C., Foschi, N., Lattanzi, S., & Pinto, Y. (2020). Uniﬁed tactile
+detection and localisation in split-brain patients. Cortex, 124, 217–223. https://doi.org/10.
+1016/j.cortex.2019.11.010
+de Haan, E. H. F., Young, A. W., & Newcombe, F. (1987). Face recognition without awareness.
+Cognitive Neuropsychology, 4, 385–415. https://doi.org/10.1016/0278-2626(90)90056-t
+de Renzi, E. (1986). Prosopagnosia in two patients with CT scan evidence of damage conﬁned to the
+right hemisphere. Neuropsychologia, 24(3), 385–389. https://doi.org/10.1016/0028-3932(86)
+90023-0
+de Vries, J., & Ward, L. M. (2016). An “ecological” action-based synthesis. Behavioural and Brain
+Sciences, https://doi.org/10.1017/S0140525X15002046, e173.
+Dehaene, S., & Naccache, L. (2001). Towards a cognitive neuroscience of consciousness: basic
+evidence and a workspace framework. Cognition, 79, 1–37. https://doi.org/10.1016/s0010-
+0277(00)00123-2
+Drew, T., Mance, I., Horowitz, T. S., Wolfe, J. M., & Vogel, E. K. (2014). A soft handoff of attention
+between cerebral hemispheres. Current Biology, 24, 1133–1137. https://doi.org/10.1016/j.c
+ub.2017.11.076
+Fabri, M., & Polonara, G. (2013). Functional topography of human corpus callosum: An FMRI
+mapping study. Neural Plasticity, 2013, 251308. https://doi.org/10.1155/2013/251308
+Feinberg, T. E., & Keenan, J. P. (2005). Where in the brain is the self? Consciousness and Cognition,
+14, 661–678. https://doi.org/10.1016/j.concog.2005.01.002
+Gazzaniga, M. S. (1967). The split brain in man. Scientiﬁc American, 217, 24–29.
+Gibson, J. J. (1979). The ecological approach to visual perception. Boston, MA: Houghton Mifﬂin.
+Graf, P., & Schacter, D. L. (1985). Implicit and explicit memory for new associations in normal and
+amnesic subjects. Journal of Experimental Psychology: Learning, Memory, and Cognition, 11,
+501–518. https://doi.org/10.1037//0278-7393.11.3.501
+Griffanti, L., Salimi-Khorshidi, G., Beckmann, C.F., Auerbach, E. J., Douaud, G., Sexton, C. E., . . .
+Smith, S. M. (2014). ICA-based artefact removal and accelerated fMRI acquisition for improved
+resting state network imaging. NeuroImage, 95, 232–247. https://doi.org/10.1016/j.neuroima
+ge.2014.03.034
+Groen, I. I., Jahfari, S., Seijdel, N., Ghebreab, S., Lamme, V. A., & Scholte, H. S. (2018). Scene
+complexity modulates degree of feedback activity during object detection in natural scenes.
+PLoS
+Computational
+Biology,
+14(12),
+e1006690.
+https://doi.org/10.1371/journal.pcbi.
+1006690
+Halberstadt, A. L. (2015). Recent advances in the neuropsychopharmacology of serotonergic
+hallucinogens. Behavioral Brain Research, 277, 99–120. https://doi.org/10.1016/j.bbr.2014.
+07.016
+Halligan, P. W., Marshall, J. C., &Wade, D. T. (1989). Visuospatial neglect: underlying factors and test
+sensitivity. Lancet, 2, 908–911. https://doi.org/10.1016/s0140-6736(89)91561-4
+Heilman, K. M., Valenstein, E., & Watson, R. T. (2000). Neglect and related disorders. Seminars in
+Neurology, 20, 463–470. https://doi.org/10.1055/s-2000-13179
+Heilman, K. M., Watson, R. T., & Valenstein, E. (1985) Neglect. In: K. M. Heilman, & E. Valenstein
+(Eds.), Clinical neuropsychology (pp. 243–293). Oxford, UK: Oxford University Press. New
+York,.
+Heydrich, L., Marillier, G., Evans, N., Seeck, M., & Blanke, O. (2019). Depersonalization- and
+derealization-like phenomena of epileptic origin. Annals of Clinical and Translational
+Neurology, 6, 1739–1747. https://doi.org/10.1002/acn3.50870
+Huxley, A. (1954). The doors of perception and heaven and hell. London, UK: Harper Collins
+Publishers.
+Korsakoff, S. (1889). Etude medico-psychologie sur une forme des maladies de la memoire. Revue
+Philosophique, 5, 501–530.
+Lamme, V. A. (2006). Towards a true neural stance on consciousness. Trends Cognitive Science
+(regul. Ed., ) 10, 494–501. https://doi.org/10.1016/j.tics.2006.09.001
+16
+Edward H. F. de Haan et al.
+
+Lamme, V. A., & Roelfsema, P. R. (2000). The distinct modes of vision offered by feedforward and
+recurrent processing. Trends in Neuroscience, 23, 571–579. https://doi.org/10.1016/s0166-
+2236(00)01657-x
+Laplane, D., Baulac, M., Widlocher, D., & Dubois, B. (1984). Pure psychic akinesia with bilateral
+lesions of basal ganglia. Journal of Neurology, Neurosurgery and Psychiatry, 47, 377–385.
+https://doi.org/10.1136/jnnp.47.4.377
+Lebrun, Y. (1987). Anosognosia in aphasics. Cortex, 23(2), 251–263. https://doi.org/10.1016/
+s0010-9452(87)80035-7
+Lunven, N., Thiebaut De Schotten, M., Bourlon, C., Duret, C., Migliaccio, R., Rode, G., & Bartolomeo,
+P. (2015). White matter lesional predictors of chronic visual neglect: a longitudinal study. Brain,
+138, 746–760. https://doi.org/10.1093/brain/awu389
+McGlynn, S. M., & Schacter, D. L. (1989). Unawareness of deﬁcits in neuropsychological syndromes.
+Journal of Clinical and Experimental Neuropsychology, 11, 143–205. https://doi.org/10.
+1080/01688638908400882
+Meares, R. (1999). The contribution of hughlings jackson to an understanding of dissociation.
+American Journal of Psychiatry, 156, 1850–1855. https://doi.org/10.1176/ajp.156.12.1850
+Medford, N., Sierra, M., Stringaris, A. G.,Brammer, M. J., & David, A. S. (2016). Emotional experience
+and awareness of self: Functional MRI studies of depersonalization disorder. Frontiers in
+Psychology, 7, 432. https://doi.org/10.3389/fpsyg.2016.00432
+Milliere, R. (2017). Looking for the self: Phenomenology, neurophysiology and philosophical
+signiﬁcance of drug-induced ego dissolution. Frontiers in Human Neuroscience, 11, 245.
+https://doi.org/10.3389/fnhum.2017.00245
+Milner, B. (1962) Physiologie de l’hippocampe. P. Passouant (Ed.), (pp. 257–272). Paris, France:
+Centre National de la Recherche Scientiﬁqu.
+Morsella, E., Godwin, C. A., Jantz, T., Krieger, S. C., & Gazzaley, A. (2016). Homing in on
+consciousness in the nervous system: An action-based synthesis. Behavioral and Brain
+Sciences, 39, 1–70. https://doi.org/10.1017/S0140525X15000643, e168.
+Neisser, U., & Becklen, R. (1975). Selective looking: Attending to visually speciﬁed events. Cognitive
+Psychology, 7, 480–494.
+Parkin, A. J., Miller, J., & Vincent, R. (1987). Multiple neuropsychological deﬁcits due to anoxic
+encephalopathy: A case study. Cortex, 23(4), 655–665. https://doi.org/10.1016/s0010-9452
+(87)80055-2
+Pinto, Y., Lamme, V. A., & de Haan, E. H. (2017). Cross-cueing cannot explain uniﬁed control in split-
+brain patients. Brain, 140(11):e68. https://doi.org/10.1093/brain/awx235
+Pinto, Y., Neville, D. A., Otten, M., Corballis, P. M., Lamme, V. A., de Haan, E. H., . . . de Haan, E. H. F.
+(2017). Split brain: Divided perception but undivided consciousness. Brain, 140, 1231–1237.
+https://doi.org/10.1093/brain/aww358
+Pizzini, F., Polonara, G., Mascioli, G., Beltramello, A., Foroni, R., Paggi, A., . . . Fabri, M. (2010).
+Diffusion tensor tracking of callosal ﬁbers several years after callosotomy. Brain Research, 1312,
+10–17.
+P€oppel, E., Held, R., & Frost, D. (1973). Residual visual function after brain wounds involving the
+central visual pathways in man. Nature, 243, 295–296.
+Renault, B., Signoret, J. L., Debruille, B., Breton, F., & Bolgert, F. (1989). Brain potentials reveal
+covert facial recognition in prosopagnosia. Neuropsychologia, 27, 905–912. https://doi.org/10.
+1016/0028-3932(89)90066-3
+Riveros, R., Bakchine, S., Pillon, B., Poupon, F., Miranda, M., & Slachevsky, A. (2019). Fronto-
+subcortical circuits for cognition and motivation: Dissociated recovery in a case of loss of psychic
+self-activation. Frontiers in Psychology, 9, 2781. https://doi.org/10.3389/fpsyg.2018.02781
+Rizzo, M., Hurtig, R., & Damasio, A. R. (1987). The role of scanpaths in facial recognition and
+learning. Annals of Neurology, 22, 41–45. https://doi.org/10.1002/ana.410220111
+Sanders, M. D., Warrington, E. K., Marshall, J., & Weiskrantz, L. (1974). ‘Blindsight’: Vision in a ﬁeld
+defect. Lancet, 1, 707–708. https://doi.org/10.1016/s0140-6736(74)92907-9
+Singularity and consciousness
+17
+
+Sasai, S., Boly, M., Mensen, A., & Tononi, G. (2016). Functional split brain in a driving/ listening
+paradigm. Proceedings of the National Academy of Sciences of the United States of America,
+113, 14444–14449. https://doi.org/10.1073/pnas.1613200113
+Sass, L. A., & Parnas, J. (2003). Schizophrenia, consciousness, and the self. Schizophrenia Bulletin,
+29, 427–444. https://doi.org/10.1093/oxfordjournals.schbul.a007017
+Sass, L., Pienkos, E., Nelson, B., & Medford, N. (2013). Anomalous self-experience in
+depersonalization and schizophrenia: A comparative investigation. Consciousness and
+Cognition, 22, 430–441. https://doi.org/10.1016/j.concog.2013.01.009
+Schacter, D. L. (1989). On the relation between memory and consciousness: dissociable interactions
+and conscious experience. In H. L. Roediger & F. I. M. Carik (Eds.), Varieties of memory and
+consciousness: essays in honour of endel tulving (pp. 355–389). Hillsdale, NJ: Lawrence
+Erlbaum.
+Schacter, D. (2020) Implicit memory, constructive memory, and imagining the future: A career
+perspective. Perspectives on Psychological Science, 14, 256–272. https://doi.org/10.1177/
+1745691618803640
+Schacter, D., Alpert, N. M., Savage, C. R., Rauch, S. L., & Albert, M. S. (1996). Conscious recollection
+and the human hippocampal formation: Evidence from positron emission tomography.
+Proceedings of the National Academy of Sciences USA, 93, 321–325. https://doi.org/10.
+1073/pnas.93.1.321
+Schacter, D. L., McAndrews, M. P., & Moscovitch, M. (1988). Access to consciousness: Dissociations
+between implicit and explicit knowledge in neuropsychological syndromes. In L. Weiskrantz
+(Ed.), Thought without language (pp. 242–278). Oxford, UK: Oxford University Press.
+Seth, A. K., Suzuki, K., & Critchley, H. D. (2012). An interoceptive predictive coding model of
+conscious presence. Frontiers in Psychology, 2, 395. https://doi.org/10.3389/fpsyg.2011.
+00395
+Shallice, T., & Saffran, E. (1986). Lexical processing in the absence of explicit word recognition:
+Evidence from a letter-by-letter reader. Cognitive Neuropsychology, 3, 429–458.
+Simeon, D., & Abugel, J. (2006). Feeling unreal: Depersonalization disorder and the loss of self.
+New York, NY: Oxford University Press.
+Sleigh, J., Warnaby, C., & Tracey, I. (2018). General anaesthesia as fragmentation of selfhood:
+Insights from electroencephalography and neuroimaging. British Journal of Anaesthesia, 121
+(1), 233e240. https://doi.org/10.1016/j.bja.2017.12.038
+Smith, S. M., Fox, P. T., Miller, K. L., Glahn, D. C., Fox, P. M., Mackay, C. E., . . . Beckmann, C. F.
+(2009). Correspondence of the brain’s functional architecture during activation and rest.
+Proceedings of the National Academy of Sciences, 106, 13040–13045. https://doi.org/10.
+1073/pnas.0905267106
+Smits, A. R., Seijdel, N., Scholte, H. S., Kentridge, R. W., Heywood, C. A., & de Haan, E. H. F. (2019).
+Action blindsight and antipointing in a hemianopic patient. Neuropsychologia, 128, 270–275.
+https://doi.org/10.1016/j.neuropsychologia.2018.03.029
+Solca, M., Guggisberg, A. G., Schnider, A., & Leemann, B. (2015). Facial blindsight. Frontiers Human
+Neuroscience, 9, 522. https://doi.org/10.3389/fnhum.2015.00522
+Sperry, R. W. (1968). Hemisphere deconnection and unity in conscious awareness. American
+Psychologist, 23, 723.
+Sperry, R. (1984). Consciousness, personal identity and the divided brain. Neuropsychologia, 22(6),
+661–673. https://doi.org/10.1016/0028-3932(84)90093-9
+Squire, L. R. (2009). The legacy of patient H.M. for neuroscience. Neuron, 61, 6–9. https://doi.org/
+10.1016/j.neuron.2008.12.023
+Stoerig, P., & Cowey, A. (1992). Wavelength discrimination in blindsight. Brain, 115, 425–444.
+https://doi.org/10.1093/brain/115.2.425
+Talland, G. A. (1961). Confabulation in the Wernicke-Korsakoff syndrome. Journal of Nervous and
+Mental Disease, 132, 361–381.
+Talland, G. A. (1965). Deranged memory. New York, NY: Academic Press.
+18
+Edward H. F. de Haan et al.
+
+Tamietto, M., & Morrone, M. C. (2016). Visual plasticity: Blindsight bridges anatomy and function in
+the visual system. Current Biology, 26, R70–R73. https://doi.org/10.1016/j.cub.2015.11.026
+Tononi, G. (2004). An information integration theory of consciousness. BMC Neuroscience, 5, 42.
+https://doi.org/10.1038/nrn.2016.44
+Tononi, G. (2005). Consciousness, information integration, and the brain. Progress in Brain
+Research, 150, 109–126. https://doi.org/10.1016/S0079-6123(05)50009-8
+Tononi, G., & Koch, C. (2015). Consciousness: here, there and everywhere? Philosophical
+Transactions of the Royal Society of London. Series B, Biological Sciences, 370, 20140167.
+https://doi.org/10.1098/rstb.2014.0167
+Trevarthen, C., & Sperry, R. W. (1973). Perceptual unity of the ambient visual system in human
+commissurotomy patients. Brain, 96, 547–570.
+Trevethan, C. T., Sahraie, A., & Weiskrantz, L. (2007). Form discrimination in a case of blindsight.
+Neuropsychologia, 45, 2092–2103. https://doi.org/10.1016/j.neuropsychologia.2007.01.022
+Volz, L. J., & Gazzaniga, M. S. (2017). Interaction in isolation: 50 years of insights from split-brain
+research. Brain, 140, 2051–2060. https://doi.org/10.1093/brain/awx139
+Volz, L. J., Hillyard, S. A., Miller, M. B., & Gazzaniga, M. S. (2018). Unifying control over the body:
+Consciousness and cross-cueing in split-brain patients. Brain, 141(3), e15. https://doi.org/10.
+1093/brain/awx359
+von Monakow, C. (1885). Experimentelle und pathologisch-anatomische Untersuchungen €uber die
+Beziehung der sogenannten Sehsp€are zu den infracortikalen Opticuszentren und zum N. opticus
+(II). Archiv Fur Psychiatrie Und Nervenkrankheiten, 16, 151–199.
+Warrington, E. K., & Weiskrantz, L. (1968). New method of testing long-term retention with special
+reference to amnesic patients. Nature, 217, 972–974.
+Weiskrantz, L. (1998). Consciousness and commentaries. In S. R. Hameroff, A. W. Kaszniak & A. C.
+Scott (Eds.), Towards a science of consciousness II—the second tucson discussions and debates
+(pp. 371–377). Cambridge, MA: MIT Press.
+Weiskrantz, L. (1999). Consciousness lost and found: A neuropsychological exploration. Oxford,
+UK: OUP.
+Weiskrantz, L. (2009). Blindsight: A case study spanning 35 years and new developments (3rd
+ed.). Oxford, UK: Oxford University Press.
+Weiskrantz, L., Warrington, E. K., Sanders, M. D., & Marshall, J. (1974). Visual capacity in the
+hemianopic Weld following a restricted cortical ablation. Brain, 97, 709–728.
+Wernicke, C. (1874). Der aphasische Symptomencomplex: eine psychologische Studie auf
+anatomischer Basis. Breslau: Cohn & Weigert.
+Yantis, S., & Johnston, J. C. (1990). On the locus of visual selection: Evidence from focused attention
+tasks. Journal of Experimental Psychology: Human Perception and Performance, 16(1), 135–
+149. https://doi.org/10.1037//0096-1523.16.1.135
+Young, A. W., & de Haan, E. H. F. (1988). Boundaries of covert recognition in prosopagnosia.
+Cognitive Neuropsychology, 5, 317–336.
+Young, A. W., de Haan, E. H. F., & Newcombe, F. (1990). Unawareness of impaired face recognition.
+Brain and Cognition, 14, 1–18. https://doi.org/10.1016/0278-2626(90)90056-t
+Young, A. W., Hellawell, D., & de Haan, E. H. F. (1988). Cross domain semantic priming in normal
+subjects and a prosopagnosic patient. Quarterly Journal of Experimental Psychology, 40A,
+561–580. https://doi.org/10.1080/02724988843000087
+Young, A. W., Newcombe, F., Hellawell, D., & de Haan, E. H. F. (1989). Implicit access to semantic
+information. Brain and Cognition, 11, 186–209. https://doi.org/10.1016/0278-2626(89)
+90017-1
+Received 19 June 2020; revised version received 22 October 2020
+Singularity and consciousness
+19

@@ -1,0 +1,94 @@
+Synthese (2021) 198 (Suppl 3):S759–S761
+https://doi.org/10.1007/s11229-020-02712-1
+S.I. : MATERIALISM & METAPHYSICS
+Editor’s introduction
+Javier Cumpa1
+Published online: 23 May 2020
+© Springer Nature B.V. 2020
+This special issue, The Scientiﬁc Turn: Studies in Materialism and Metaphysics,
+collects a number of original articles dealing with philosophical issues concerning
+science and metaphysics in the intersection of the areas of ontology, epistemology,
+language, and mind.1 The articles contained in this special issue explore different
+relationships between what Wilfrid Sellars (1963) called “the manifest image” and
+“the scientiﬁc image”. In this connection, the articles provide new assessments of
+contemporary debates about non-reductive physicalism and mental causation, infor-
+mation integration and phenomenal consciousness, substantialism and factualism in
+quantum mechanics, naturalism and perception, identity statements and natural kinds,
+truthmaking and dependence, and materialism and Aristotelian hylomorphism on the
+theory of knowledge.
+The ﬁrst article of the special issue is “Consciousness and Information Integra-
+tion” by Berit Brogaard, Bartek Chomanski and Dimitria Electra Gatzia. It explores
+three main theories of consciousness for which the notion of information integration
+plays a central role for phenomenal consciousness: Information Integration Theory,
+Global Workspace Theory, and Attended Intermediate-Level Representation Theory.
+The main aim of the article is to show that, contrary to these theories of conscious-
+ness, information integration is neither necessary nor sufﬁcient for consciousness. The
+authors argue that there is empirical evidence against such commitments.
+In “The Scientiﬁc Turn In Metaphysics: A Factualist Approach”, Valerio Buonomo
+puts forward a defense of factualism, the view that the fundamental ontology of the
+world is an ontology of facts. To do so, he presents a criticism of substantialism,
+the conception according to which the world is a world of substances. In particular,
+Buonomo argues that substantialism does not ﬁt well with fundamental physics. He
+attemptstoshowthatsubstantialismcannotmakesenseofquantummechanicalentities
+framed in terms of substances and properties. Buonomo recommends an ontology of
+facts in which quantum mechanics can be accounted for satisfactorily.
+1 The expression “scientiﬁc turn” is Sellars’s. See Sellars (1968: p. vii).
+B Javier Cumpa
+jcarteseros@ucm.es
+1
+Universidad Complutense de Madrid, Madrid, Spain
+123
+
+760
+Synthese (2021) 198 (Suppl 3):S759–S761
+In his article “Perception Naturalised: Relocation and the Sensible Qualities”, Paul
+Coates argues for a naturalization of the theory of perception. His purpose is the
+articulation of a causal theory of perception, a theory in which the metaphysics of
+perception and the science of perception are continuous investigations on the nature
+of perception. Coates proposes a causal analysis of the perceptual relationship in
+contrast with the theories of naive realism and intentionalism. In this connection, he
+presents a defense of the Sellarsian relocation account of sensible qualities, which
+strongly relies on a causal theory of perception scientiﬁcally oriented.
+Luis Fernández Moreno discusses two central views of Kripke’s theory of theoret-
+ical identities involving natural kind terms in “Language and Metaphysics: The Case
+of Theoretical Identities”. Namely, the rigid designation of natural kind terms, and
+essentialism about natural kinds. He argues that these two views present in Kripke’s
+theory are plagued with questionable assumptions about modality and philosophical
+analysis. For these reasons, Fernández Moreno concludes that Kripke’s theory fails to
+establish the truth and necessity of theoretical identities.
+“Truthmaking and Fundamentality” makes a case for a theory of truthmaking
+including dependence relations and fundamental truthmakers as alternatives to the
+notions of grounding and fundamentality. According to John Heil, in contrast with the
+notion of grounding, the dependence of the identity of a whole, an ordinary object,
+upon the identity of its parts, the particles which makes it up, does not entail that
+there are two degrees of reality: fundamentality and non-fundamentality. For him, an
+advantage of truthmaking is that he can appeal to the fundamentality of physics with-
+out implying that there is a hierarchy of fundamental and non-fundamental levels of
+reality: the ordinary objects and the arrangements of elementary particles.
+Walter Sinnott-Armstrong in “Contrastive Mental Causation” defends con-
+trastivism about mental causation, a non-reductive physicalist account of mental
+causation based on the notion of contrastive causation, by which mental properties
+and physical properties can cause the same physical effects in contrast with different
+foils. He argues that the notion of contrastive mental causation has the capacity to
+solve relevant problems for non-reductive physicalist theories of mental causation,
+such as the problems of downward exclusion, redundancy, and overdetermination.
+The last article of the special issue is “The Ontological and Epistemological Supe-
+riority of Hylomorphism” by Robert C. Koons. It defends Aristotelian hylomorphism,
+a theory of intentionality, knowledge, and cognitive normativity in contrast with mate-
+rialism and extreme nominalism. According to Koons, neither the former nor the latter
+are capable of providing satisfactory accounts of these three human phenomena. He
+argues that both intentionality and knowledge presuppose normative facts, and nor-
+mativity is fundamentally bio-teleological in character.
+Funding Consejería de Educación e Investigación de la Comunidad de Madrid (Project ID: 2016-T1/HUM-
+1263).
+123
+
+Synthese (2021) 198 (Suppl 3):S759–S761
+761
+References
+Sellars, W. (1963). Philosophy and the scientiﬁc image of man. In W. Sellars (Ed.), Science, perception,
+and reality (pp. 1–40). London: Routledge.
+Sellars, W. (1968). Science and metaphysics: Variations on Kantian themes. New York: Humanities Press.
+Publisher’s Note Springer Nature remains neutral with regard to jurisdictional claims in published maps
+and institutional afﬁliations.
+123

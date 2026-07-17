@@ -1,0 +1,761 @@
+OPINION
+published: 10 November 2021
+doi: 10.3389/fpsyg.2021.749868
+Frontiers in Psychology | www.frontiersin.org
+1
+November 2021 | Volume 12 | Article 749868
+Edited by:
+Narayanan Srinivasan,
+Indian Institute of Technology
+Kanpur, India
+Reviewed by:
+Ruﬁn VanRullen,
+Centre National de la Recherche
+Scientiﬁque (CNRS), France
+*Correspondence:
+Bernard J. Baars
+baarsbj@gmail.com
+Natalie Geld
+ngeld@medneurocme.com
+Specialty section:
+This article was submitted to
+Consciousness Research,
+a section of the journal
+Frontiers in Psychology
+Received: 30 July 2021
+Accepted: 15 October 2021
+Published: 10 November 2021
+Citation:
+Baars BJ, Geld N and Kozma R
+(2021) Global Workspace Theory
+(GWT) and Prefrontal Cortex: Recent
+Developments.
+Front. Psychol. 12:749868.
+doi: 10.3389/fpsyg.2021.749868
+Global Workspace Theory (GWT) and
+Prefrontal Cortex: Recent
+Developments
+Bernard J. Baars 1*, Natalie Geld 2* and Robert Kozma 3
+1 Center for the Future Mind, Florida Atlantic University, Boca Raton, FL, United States, 2 MedNeuro, Inc., New York, NY,
+United States, 3 Department of Mathematical Sciences, The University of Memphis, Memphis, TN, United States
+Keywords: global workspace theory, prefrontal cortex (PFC), cortico-thalamic activity, conscious cognition,
+intracranial electrical stimulation, visual processing, metacognition, Neural Darwinism
+INTRODUCTION
+In this work, we provide a brief overview of Global Workspace Theory (GWT), along with recent
+developments and clariﬁcations of modern neuroscientiﬁc evidence. GWT started in the 1980s
+as a purely psychological theory of conscious cognition, and has become a prominent approach
+in scientiﬁc studies of consciousness (Mashour et al., 2020). Based on today’s far more detailed
+understanding of the brain, GWT has adapted to new waves of evidence. The brain-based version
+of GWT is called Global Workspace Dynamics (GWD) (Baars et al., 2013; Baars and Geld, 2019)
+precisely because the cortex is viewed as a “uniﬁed oscillatory machine” (Steriade, 1999). GWT
+therefore joins other theories in viewing consciousness as the product of highly integrated and
+widespread cortico-thalamic (C-T) activity, following a long trail of evidence (Dehaene et al., 1998).
+Here we aim to clarify some empirical questions that have been raised, and review evidence that
+the prefrontal and posterior regions support dynamic global workspace functions, in agreement
+with several other authors. Static, gross anatomical divisions are superseded by the dynamical
+connectome of cortex.
+We aim to correct the following misunderstandings. In a recent paper, Raccah et al. (2021)
+claimed that the prefrontal cortex (PfC) is not causally involved in enabling consciousness, based
+on a review of intracranial electrical stimulation (iES) experiments. We will show that Raccah et al.’s
+claim that the prefrontal cortex (PfC) does not support consciousness is incorrect.
+The brain evidence is now compelling that PfC indeed participates in the visual conscious
+stream, for example, and excellent evidence for that has emerged in recent years. We discuss the
+additional evidence and how that has a direct bearing on the PfC.
+We also respond to Raccah et al.’s (2021) mistaken claim about the role of the prefrontal cortex
+and GWT. GWT does not assert that the prefrontal cortex (PfC) is essential for conscious vision,
+nor does it deny a role for the prefrontal lobe. The 1988 version of GWT made no assertions about
+the role of cortex in consciousness. These claims are mistaken, and indeed, self contradictory.
+In addition, this integrated conception of cortex also answers counterclaims about consciousness
+and metacognition; therefore we address some misunderstandings about metacognition in the
+Global Workspace “family” of theories (Shea and Frith, 2019).
+Shea and Frith (2019) proposed that “The Global Workspace Needs Metacognition.” However,
+in 1988 Baars already described two varieties of metacognition that are implied by GWT (Baars,
+1988; Baars and Geld, 2019).
+Here we have three objectives.
+1. We provide a brief overview of Global Workspace Theory (GWT), and recent theoretical
+developments in light of modern evidence.
+
+Baars et al.
+GWT and Prefrontal Cortex: Developments
+2. We address some of the claims in these two papers, following
+our previous brief response to the Raccah et al. publication
+(see
+also:
+https://www.jneurosci.org/content/41/10/2076.
+abstract#re-global-workspace-theory-gwt-and-prefrontal-
+cortex-a-reply-to-raccah-et-al).
+3. We clarify some points related to the conscious brain,
+including
+metacognition.
+In
+particular,
+we
+make
+a
+fundamental
+distinction
+between
+CONSCIOUS
+metacognition and UN-conscious metacognition.
+Cortex is extraordinarily ﬂexible in its dynamic recruitment
+of diﬀerent regions for diﬀerent tasks. Therefore, an arbitrary
+division between prefrontal and other neuronal regions tends
+to be misleading. Consciousness requires a much broader, more
+integrative view (Bressler and Kelso, 2016).
+GWT AND CORTEX
+Global Workspace Theory (GWT): A Theory
+of Human Cognitive Architecture, the
+Cortex, and Consciousness. A Brief
+Overview
+Far from being some free-ﬂoating cloud around our heads,
+sensory consciousness is profoundly embedded in biology,
+anatomy, physiology, and above all, in adaptive brain functions
+that serve us in every second of waking life. This is not some
+philosophical speculation. It is now supported by numerous
+empirical ﬁndings published in peer-reviewed journals that
+are easily found in web archives. How can we understand
+the evidence?
+The best answer today is a “global workspace architecture,”
+ﬁrst developed by cognitive modeling groups led by Alan Newell
+and Herbert A. Simon. The term “global workspace” comes
+from Artiﬁcial Intelligence, where it refers to a ﬂeeting memory
+domain that allows for cooperative problem-solving by large
+collections of specialized programs. Some brain implications of
+the theory have been extensively explored over a 40 year period.
+Global Workspace Theory (GWT) began with this question:
+“How does a serial, integrated and very limited stream of
+consciousness emerge from a nervous system that is mostly
+unconscious, distributed, parallel and of enormous capacity?”
+GWT is a widely used model for the role of conscious and
+unconscious events in the functioning of the brain, a set of
+explicit assumptions that can be tested, as many of them have
+been over several decades.
+Global Workspace Dynamics (GWD) is the most current
+version
+of
+GWT—attempting
+to
+take
+into
+account
+the
+complexities of the living brain. Global Workspace Dynamics of
+conscious experience is supported by brain evidence, particularly
+the role of the cortex and thalamus. While the cortex and
+thalamus look separate to the naked eye, they act as an integrated
+system (Llinás and Paré, 1991; Edelman and Tononi, 2000;
+Steriade, 2006; Freeman, 2007).
+Stanislas Dehaene and Jean-Pierre Changeux in Paris have
+developed experimentally testable models and made further
+testable claims about the brain basis of visual consciousness
+(Dehaene et al., 1998; Dehaene and Changeux, 2011). The
+Dehaene-Changeux
+Model
+(DCM)
+and
+Global
+Neuronal
+Workspace Theory (GNWT) are part of the larger GW “family”
+of related theories.
+Stan Franklin and colleagues have built on GWT to sketch
+out a more general theory of cognition in LIDA, a computational
+implementation of GWT (Franklin et al., 2012).
+These theoretical ideas provide a useful framework for our
+rapidly accumulating body of evidence. They are consistent with
+our current knowledge, and can be enriched to include other
+aspects of human experience. GWT-GWD neither denies nor
+asserts the dominance of any anatomical region; it is focused
+on the dynamic functioning of the cerebral cortex, and does not
+partition the cortex into static prefrontal and posterior divisions.
+Brain anatomy gives a necessary (but not suﬃcient) account of
+Global Workspace Dynamics.
+The GWT “Family” of Theories Is
+Evidence-Driven
+The GW “family” of theories is essentially empirical. We believe
+that the following theories are in harmony with each other,
+including Dehaene et al. (1998), Edelman et al. (2011), Kozma
+and Freeman (2016), Tononi et al. (2016), Deco et al. (2019), and
+Mashour et al. (2020). Each approach is distinctive and each is
+based on a strong body of evidence; but they converge well.
+Because GWT-GWD aims to account for an extensive
+body of evidence discussed by many authors, it is in accord
+with Edelman’s Neural Darwinism, Freeman and Kozma’s
+Neurodynamics, Tononi and Koch’s Information Integration
+Theory, Dehaene and Changeux’s Global Neuronal Workspace
+Theory, Mashour et al. and most recently, the functional
+connectomics of Deco, Vidaurre and Kringelbach.
+GWT and the Cortico-Thalamic System
+A great deal of evidence supports the role of the cortico-
+thalamic (C-T) system in conscious experiences. GWT provides
+a reasonable interpretation of “ignitions” in the C-T system
+(Dehaene and Changeux, 2011). A dynamic conception of cortex
+suggests that PfC cannot be functionally separated from the rest
+of the C-T system. We show evidence that the prefrontal and
+posterior regions support dynamic global workspace functions,
+in agreement with several other authors (Edelman et al., 2011;
+Deco et al., 2019).
+GW dynamics suggests that conscious experiences reﬂect
+a ﬂexible “binding and broadcasting” function in the brain,
+which is able to mobilize a large, distributed collection of
+specialized cortical networks and processes that are not conscious
+by themselves. Note that the “broadcast” phase proposed by
+the theory should evoke widespread adaptation, for the same
+reason that a ﬁre alarm should evoke widespread responding,
+because the speciﬁc needs for task-relevant responders cannot be
+completely known ahead of time. General alarms are interpreted
+according to local conditions.
+A brain-based GW interacts with an “audience” of highly
+distributed, specialized knowledge sources, which interpret the
+global signal in terms of local knowledge (Baars, 1988). The global
+Frontiers in Psychology | www.frontiersin.org
+2
+November 2021 | Volume 12 | Article 749868
+
+Baars et al.
+GWT and Prefrontal Cortex: Developments
+FIGURE 1 | Shows three separate conscious events in a graphic interpretation
+of alternative sources of “ignition” in the C-T core (Baars and Geld, 2019, p.
+581). All three involve binding and broadcasting (“ignition”) in three cortical
+locations. Area V1 is the ﬁrst visual projection area in the cortex, and has the
+proper resolution and contrast representation to resolve the light from a single
+star on a dark night. Parietal cortex serves to contextualize conscious objects
+in egocentric and allocentric space, as in a coffee cup. The third “ignition” is
+hypothesized to emerge in the prefrontal cortex, plausibly involving a Feeling of
+Knowing (FOK), such as is induced by a tip-of-the-tongue task. (The
+hippocampus is not considered here, but it plays a major role in conscious
+perception and memory formation). Reprinted with permission.
+signal triggers reentrant signaling; resonance is the typical activity
+of the cortex.
+GWT suggests that a bidirectional broadcast (ignition)
+corresponds to conscious experience (Dehaene and Changeux,
+2011). Figure 1 shows how ignitions in the cortex may emerge
+from several diﬀerent regions of interest.
+Figure 1 illustrates three diﬀerent and separate conscious
+events. One of them is the sensory perception of a single star on a
+dark night, which plausibly emerges in area V1. The second is the
+visual experience of a coﬀee cup in nearby space, which plausibly
+emerges in the parietal cortex in combination with lower and
+higher regions of vision. The third conscious event may be a
+subtle Feeling of Knowing (FOK), as in the tip-of-the-tongue
+state, which is a semantic and linguistic event, in addition to
+being closely involved with conscious perception.
+Often,
+multiple
+gestalts
+emerge
+in
+the
+same
+conscious experience.
+There are ongoing debates about the role of prefrontal and
+posterior regions of the cortex in conscious events, but this
+dichotomy is not obvious, given the interactivity of the cerebral
+cortex as a whole. It is far more likely that many diﬀerent cerebral
+regions interact with each other from moment to moment, and
+that a static “front vs. rear” contest is simply misleading.
+Raccah et al. (2021) make an incorrect claim about Global
+Workspace Theory (GWT). Raccah et al. themselves cite evidence
+that supports the role of PfC in a wide range of conscious
+experiences, including sensory experiences (sometimes called
+“qualia”). These varieties of conscious experiences involve PfC
+and other regions (Dehaene et al., 1998). Raccah et al. (2021),
+in fact, provide a wealth of evidence for GWT-GWD; their
+hypothesis is contradicted by the very evidence they present.
+Cortex as a Uniﬁed Oscillatory Machine
+Because almost all neural links in the cortico-thalamic (C-T)
+system are bidirectional, reentrant signaling between receivers
+and broadcasting sources may quickly establish task-speciﬁc
+signaling activity. By analogy, a ﬁre department might locate the
+source of a community-wide alarm and then communicate in
+a much more task-speciﬁc way. Theoretical considerations are
+important, but a wave of new evidence shows that PfC is directly
+involved in sensory consciousness, including vision.
+We now have direct neuronal studies that show that prefrontal
+and other cortical regions constantly interact with each other.
+For example, there is a direct causal link between FEF and
+early visual processing. Other varieties of consciousness also
+appear upon direct stimulation of PfC, as shown by iES
+(Fox et al., 2020; Raccah et al., 2021).
+Multiple studies in both humans and macaques show that
+the prefrontal cortex may be necessary for visual consciousness.
+Single units in the frontal eye ﬁelds (FEF), begin to ﬁre as soon
+as ∼50–60 ms post-stimulus onset. Since visual consciousness
+emerges after ∼300 ms, this ﬁnding suggests that the prefrontal
+cortex activates ultra-rapidly, and suggests that multiple regions
+of cortex must be involved in visual consciousness. FEF is a
+region of the prefrontal cortex.
+FEF is involved in the eye tremor of physiological nystagmus,
+which maintains visual stimuli in consciousness. When the
+constant rapid eye tremor is lost, visual objects are lost
+from consciousness (see also Kirchner et al., 2009). Therefore,
+state-of-the-art evidence supports a role for PfC in many
+conscious functions.
+As Libedinsky and Livingstone (2011) write:
+“We found that fast responses in FEF strongly correlated with the
+perceptual report of the animal. It is unlikely that short-latency
+perceptually correlated activity is inherited from early visual areas,
+since response latencies in FEF are shorter than those of visual
+areas with perceptually correlated activity. These results suggest
+that frontal brain areas are involved in generating the contents of
+visual perception.”
+These authors found FEF activity ∼60 ms or less post-stimulus,
+while visually conscious stimuli are typically found more than
+∼300 ms post-onset. Thus FEF, a prefrontal region, is involved
+in pre-conscious visual input processing, contrary to the Raccah
+et al. (2021) hypothesis.
+Kirchner et al. (2009) report similar results, and write that:
+“Although the frontal lobes in humans are generally viewed as
+being involved in high-level cognitive processes, these results
+indicate that the human FEF is a remarkably quickly activated
+Frontiers in Psychology | www.frontiersin.org
+3
+November 2021 | Volume 12 | Article 749868
+
+Baars et al.
+GWT and Prefrontal Cortex: Developments
+multimodal region that belongs to a network of low-level
+neocortical sensory areas.”
+Broadly speaking, numerous regions involve both conscious and
+unconscious processes.
+Cortical Neuropercolation (CNP)
+Mathematically, the dynamics of local-global eﬀects have been
+described by Neuropercolation Theory (Perlovsky and Kozma,
+2007; Kozma and Puljic, 2015). Neuropercolation describes
+cortical phase transitions in the neuropil (layer one). These
+phase transitions take place between a basal state consisting of
+competing, local, fragmented components, and a state of high
+coherence across the hemisphere globally, when the roles of space
+and spatial diﬀerences cease (Kozma and Freeman, 2017). The
+transition from fragmented states to global coherence appears to
+be ignited in areas IT/MTL, in the case of visual consciousness
+(Dehaene and Changeux, 2011).
+We believe that it is not fruitful to pose the scientiﬁc issues
+as a contest between PfC and the rest of the cortex. The highly
+connected, recurrent activations of cortex at multiple levels
+makes the Raccah et al. claim unlikely.
+Conscious Events may Combine Multiple
+Gestalt Layers in the Same Experience
+Many conscious events are both sensory and semantic. For
+example, a word in this sentence has sensory properties, but
+it carries meaning in precisely the same event. Words that are
+eﬀortful to read and understand also activate the prefrontal
+and anterior cingulate cortex. Words that involve visual motor
+actions like playing tennis, also recruit motor regions of
+the cortex.
+It
+is
+therefore
+misleading
+to
+make
+gross
+anatomical
+distinctions between prefrontal and other cortical regions.
+Conscious Events Go Beyond the Senses
+Some authors seem to restrict the term “consciousness” to
+sensory events (Raccah et al., 2021). This is an overly narrow
+deﬁnition that excludes numerous conscious experiences, such
+as feelings of eﬀort, interoceptive emotional feelings, conscious
+beliefs and ideas, endogenous visual imagery, and inner speech.1
+1When we talk about thinking we often use the word “explicit” rather than
+“conscious” and it is a plausible source of confusion in the literature. To make
+our views abundantly clear, therefore, when we use the word conscious, we mean
+to include both the terms “explicit cognition” as well as “conscious perception.”
+Clarifying these terms relates directly to understanding and communicating
+the evidence.
+Some authors seem to restrict the term “consciousness” to sensory events
+(Raccah et al., 2021). This is an overly narrow deﬁnition that excludes numerous
+conscious experiences, such as feelings of eﬀort, interoceptive emotional feelings,
+conscious beliefs and ideas, endogenous visual imagery, and inner speech.
+This deﬁnitional heterogeneity is made worse by the widespread use in the
+scientiﬁc literature (Frith and Frith, 2008) of terms like “explicit cognition”
+instead of “conscious cognition.” In everyday English, the term “conscious”
+extends beyond sensation and perception, and applies to ideas, voluntary decisions,
+memory recall, etc., functions that have long been thought to involve the PfC. For
+all intents and purposes, the term “explicit” means “conscious” or “consciously
+mediated.” This is still a serious source of confusion today.
+In science, the way we ask our questions is crucial, because our
+questions are likely to bias our answers.
+In short, the work by Raccah et al. is a worthy eﬀort
+to make a systematic study of the role of various cortical
+regions in consciousness. Obviously, the authors may not
+claim that they provide a ﬁnal word in this ﬁeld. We feel
+a bit more caution would be in order to avoid making
+overly ambitious statements, which would inevitably prove
+wrong or fade into obsolescence as research progresses. A
+number of workers in the ﬁeld emphasize the deep and
+rapid interactivity of numerous regions and connectivities in
+the C-T core. That dynamical view of the C-T core should
+give us pause about proposing dichotomies that may not be
+in evidence.
+In summary, GWT-GWD does not deny the role of local
+regions, rather it integrates them by way of a unifying theory
+(Baars et al., 2013; Baars and Geld, 2019).
+Metacognition: Using the Prefrontal Cortex
+to Think About Thinking
+The GW concept, in itself, enables metacognitive processes from
+unconscious onlooking systems viewing the conscious ﬂow in
+the global workspace. GWT suggests the plausibility of both
+conscious and unconscious metacognition. These should be
+considered separately.
+In particular, we make a fundamental distinction between:
+a. CONSCIOUS metacognition, in which humans consciously
+think about their own conscious experiences—editing a text
+like this is one obvious example.
+b. UN-conscious
+metacognition,
+where
+UN-conscious
+specialized
+processors
+monitor
+the
+conscious
+global
+workspace to interrupt the conscious ﬂow, or otherwise
+intervene
+if
+the
+UN-conscious
+“critic”
+detects
+a
+serious problem.
+This is one basic advantage of the GW architectures ﬁrst
+developed by Allen Newell and his team. Stan Franklin and many
+other computer scientists and AI researchers have long exploited
+this feature of GW architectures. In neural net mathematics
+a similar strategy is used in so-called “critic neural networks”
+(Si, 2005).
+We believe that human conscious cognition inherently allows
+for both conscious thought about the conscious stream, as well as
+UN-conscious comments on the conscious stream.
+For example, it would be easy to have an unconscious snake
+detector as one of the many unconscious specialists watching the
+brain equivalent of a global workspace. Such a snake detector
+may exist in the two amygdalae near the tip of each temporal
+lobe. If we were conscious of a complex image of a bush
+There is no question that the prefrontal cortex is intimately associated with
+explicit mental functions — that is to say, those conscious events that can be
+explicated. Perceptual contents are not explicit in this sense, because people in
+general cannot explicate the visual sense, for example: the terms “conscious”
+and “explicit” are often confounded. They are closely related, but not identical
+in meaning. Thus, a great many deﬁnitional problems result from a confusion
+of labels.
+Frontiers in Psychology | www.frontiersin.org
+4
+November 2021 | Volume 12 | Article 749868
+
+Baars et al.
+GWT and Prefrontal Cortex: Developments
+in the hot African sun, the unconscious snake circuit would
+identify the real snake and separate it from the shadow of
+a branch. Snakes use camouﬂage, of course, and our brains
+do have specialized snake circuits. Unconscious detection of
+snake-branch ambiguities in the conscious stream would be
+highly adaptive.
+There is a great deal of evidence that all parts of the cortex
+are involved with a variety of conscious experiences. The cortex
+is deeply engaged with every kind of conscious experience
+event: sensory consciousness (including so-called “qualia”);
+endogenous sensory and non-sensory events such as visual
+imagery, inner speech, conscious beliefs, conscious decisions,
+consciously experienced emotions, and feelings of knowing
+(FOKs). The traditional view of the prefrontal cortex is that it
+includes self reﬂection and metacognition (Qiu et al., 2018).
+Metacognition has also been claimed to be a distinctive
+requirement for consciousness, but this claim has pros and
+cons (Shea and Frith, 2019). Simply reporting one’s ﬂeeting
+perceptual content involves one kind of metacognition, since
+behavioral report is about the preceding sensory stimulus.
+Conscious cues often trigger subsequent processing, such as
+mental rehearsal for strengthening recall, and that task also
+refers to the ﬁrst conscious exposure. Thus metacognition is
+extremely common in the stream of consciousness (Yeung and
+Summerﬁeld, 2012).
+Franklin’s LIDA set of simulations of Global Workspace
+Theory employs metacognition for numerous tasks, which is
+relatively easy to program, since any “globally broadcast” event
+can also trigger metacognitive agents (Franklin et al., 2012).
+Yet
+there
+are
+conscious
+experiences
+that
+minimize
+metacognition, namely absorbed experiences, as in the case
+of “ﬂow” experiences and any other total involvement with a
+dense ﬂow of events. After an absorbed state, it is generally
+diﬃcult for people to remember metacognitive judgments
+from the absorbed state (Csikszentmihalyi and Lebuda, 2017).
+It seems as if “deep absorption” minimizes the capacity for
+conscious metacognition, which makes sense in light of the
+limited capacity constraint. Absorption may drive out conscious
+metacognition. It is hard to reﬂect about inaccessible contents
+that occurred during absorption. However, during absorption it
+is entirely possible that unconscious metacognition continues,
+which would be suggested by our ability during absorption
+to be interrupted by an unexpected ﬁre alarm, presumably
+detected unconsciously.
+As for metacognitive experiences, they are so common in the
+ordinary stream of consciousness that they must also involve the
+broad cerebral cortex (Baars and Geld, 2019).
+CONCLUSION: THE DYNAMICAL
+CONNECTOME OF CORTEX
+A wide range of experimental and theoretical studies in the ﬁeld
+of consciousness emphasize the complex and rapid interactivity
+of numerous regions and connectivities in the C–T core. That
+dynamical view of the C–T core should give us pause about
+proposing dichotomies that may not be in evidence.
+From a theoretical viewpoint, Baars et al. (2013) suggest that
+the cortico-thalamic system is inherently dynamic, a view also
+taken by Pribram (1991), Edelman and Tononi (2000), Freeman
+et al. (2008), Dehaene and Changeux (2011), Edelman et al.
+(2011), and others. If we view the epicenter of conscious events
+in cortex to be dynamic rather than anatomically static, the
+question of prefrontal involvement becomes more nuanced. Most
+recently, Deco et al. (2019) deﬁne a functional “rich club” of
+active cerebral nodes and connectivities that may function as
+a dynamic global workspace, one that is not rigidly tied to a
+single anatomical region of cortex. There may be other ways
+to identify global workspace dynamics, but this appears to be a
+well-speciﬁed candidate.
+Consciousness
+studies
+have
+been
+undergoing
+rapid
+development, in part, due to new experimental techniques
+and brain monitoring. The GW “family” of theories has been
+at the forefront of these developments, and continues to make
+novel predictions. Relevant mathematical advances are also
+emerging, including spatio-temporal dynamic network and
+graph theory approaches. We hope that these points will help to
+clarify the evidence about GWT and the conscious brain.
+AUTHOR CONTRIBUTIONS
+All authors listed have made a substantial, direct and intellectual
+contribution to the work, and approved it for publication.
+FUNDING
+This work was supported by the Center for the Future Mind,
+Florida Atlantic University (to BB).
+ACKNOWLEDGMENTS
+This paper is a tribute to Gerald M. Edelman, Walter J. Freeman,
+and other colleagues for their various contributions to the work
+presented here. The authors are grateful to Florida Atlantic
+University’s Center for the Future Mind for their support in
+funding open access publication fees for this listed article.
+REFERENCES
+Baars,
+B.,
+Franklin,
+S.,
+and
+Ramsøy,
+T.
+(2013).
+Global
+workspace
+dynamics:
+cortical
+“binding
+and
+propagation”
+enables
+conscious
+contents.
+Front.
+Psychol.
+4:200.
+doi:
+10.3389/fpsyg.2013.
+00200
+Baars, B. J. (1988). A Cognitive Theory of Consciousness. Cambridge: Cambridge
+University Press.
+Baars, B. J., and Geld, N. (2019). On Consciousness: Science and Subjectivity—
+Updated Works on Global Workspace Theory. New York, NY: The Nautilus
+Press Publishing Group.
+Bressler, S. L., and Kelso, J. A. S. (2016). Coordination dynamics in cognitive
+neuroscience. Front. Neurosci. 10:397. doi: 10.3389/fnins.2016.00397
+Csikszentmihalyi, M., and Lebuda, I. (2017). A window into the bright side
+of psychology: interview with Mihaly Csikszentmihalyi. Euro. J. Psychol. 13,
+810–821. doi: 10.5964/ejop.v13i4.1482
+Frontiers in Psychology | www.frontiersin.org
+5
+November 2021 | Volume 12 | Article 749868
+
+Baars et al.
+GWT and Prefrontal Cortex: Developments
+Deco, G., Vidaurre, D., and Kringelbach, M. L. (2019). Revisiting the global
+workspace: orchestration of the functional hierarchical organisation of the
+human brain. BioRxiv 85:9579. doi: 10.1101/859579
+Dehaene,
+S.,
+and
+Changeux,
+J.-P.
+(2011).
+Experimental
+and
+theoretical
+approaches
+to
+conscious
+processing.
+Neuron
+70,
+200–227.
+doi: 10.1016/j.neuron.2011.03.018
+Dehaene, S., Kerszberg, M., and Changeux, J.-P. (1998). A neuronal model of a
+global workspace in eﬀortful cognitive tasks. Proc. Nat. Acad. Sci. 95:14529.
+doi: 10.1073/pnas.95.24.14529
+Edelman, G., Gally, J., and Baars, B. (2011). Biology of consciousness. Front.
+Psychol. 2:4. doi: 10.3389/fpsyg.2011.00004
+Edelman, G., and Tononi, G. (2000). “Reentry and the Dynamic Core: Neural
+Correlates of Conscious Experience,” in Neural Correlates of Consciousness—
+Empirical and Conceptual Questions, e. T. Metzinger (Cambridge, MA: MIT
+Press), 139–151.
+Fox, K. C. R., Shi, L., Baek, S., et al. (2020). Intrinsic network architecture predicts
+the eﬀects elicited by intracranial electrical stimulation of the human brain. Nat.
+Hum. Behav. 4, 1039–1052. doi: 10.1038/s41562-020-0910-1
+Franklin, S., Strain, S., Snaider, J., McCall, R., and Faghihi, U. (2012). Global
+workspace theory, its LIDA model and the underlying neuroscience. Biol.
+Inspir. Cogn. Architect. 1, 32–43. doi: 10.1016/j.bica.2012.04.001
+Freeman, W.J., Kozma, R., Bollob,á B., and Riordan, O. (2008). “Scale-free
+cortical planar networks,” in Handbook of Large-Scale Random Networks, Bolyai
+Society Mathematical Studies, eds B. Bollobás, R. Kozma, D. Miklós (Berlin,
+Heidelberg: Springer).
+Freeman, W. J. (2007). Indirect biological measures of consciousness from ﬁeld
+studies of brains as dynamical systems. Neural Netw. Oﬃc. J. Int. Neural Netw.
+Soc. 20, 1021–1031. doi: 10.1016/j.neunet.2007.09.004
+Frith, C. D., and Frith, U. (2008). Implicit and explicit processes in social cognition.
+Neuron 60, 503–510. doi: 10.1016/j.neuron.2008.10.032
+Kirchner, H., Barbeau, E. J., Thorpe, S. J., Régis, J., and Liégeois-Chauvel, C. (2009).
+Ultra-rapid sensory responses in human frontal eye ﬁeld region. J. Neurosci. 29,
+7599–7606. doi: 10.1523/JNEUROSCI.1233-09.2009
+Kozma, R., and Freeman, W. J. (2016). Cognitive Phase Transitions in the Cerebral
+Cortex—Enhancing the Neuron Doctrine by Modeling Neural Fields. New York,
+NY: Springer.
+Kozma,
+R.,
+and
+Freeman,
+W.
+J.
+(2017).
+Cinematic
+operation
+of
+the
+cerebral
+cortex
+interpreted
+via
+critical
+transitions
+in
+self-organized
+dynamic systems. Front. Syst. Neurosci. 11:10. doi: 10.3389/fnsys.2017.
+00010
+Kozma, R., and Puljic, M. (2015). Random graph theory and neuropercolation for
+modeling brain oscillations at criticality. Curr. Opin. Neurobiol. 31, 181–188.
+doi: 10.1016/j.conb.2014.11.005
+Libedinsky, C., and Livingstone, M. (2011). Role of prefrontal cortex in conscious
+visual perception. J. Neurosci. 31:64. doi: 10.1523/JNEUROSCI.3620-10.2011
+Llinás, R. R., and Paré, D. (1991). Of dreaming and wakefulness. Neuroscience 44,
+521–535. doi: 10.1016/0306-4522(91)90075-Y
+Mashour, G. A., Roelfsema, P., Changeux, J.-P., and Dehaene, S. (2020). Conscious
+processing and the global neuronal workspace hypothesis. Neuron 105,
+776–798. doi: 10.1016/j.neuron.2020.01.026
+Perlovsky,
+L.I.,
+and
+Kozma,
+R.
+(2007).
+“Neurodynamics
+of
+cognition
+and
+consciousness,”
+in
+Neurodynamics
+of
+Cognition
+and
+Consciousness—Understanding Complex Systems, eds. L.I. Perlovsky and
+R. Kozma. (Berlin, Heidelberg: Springer), 1–8.
+Pribram, K. H. (1991). Brain and perception: Holonomy and structure in ﬁgural
+processing. London: Lawrence Erlbaum Associates, Inc.
+Qiu, L., Su, J., Ni, Y., Bai, Y., Zhang, X., Li, X., et al. (2018). The neural system of
+metacognition accompanying decision-making in the prefrontal cortex. PLoS
+Biol. 16:e2004037. doi: 10.1371/journal.pbio.2004037
+Raccah, O., Block, N., and Fox, K. C. R. (2021). Does the prefrontal cortex
+play
+an
+essential
+role
+in
+consciousness?
+insights
+from
+intracranial
+electrical
+stimulation
+of
+the
+human
+brain.
+J.
+Neurosci.
+41:2076.
+doi: 10.1523/JNEUROSCI.1141-20.2020
+Shea, N., and Frith, C. D. (2019). The global workspace needs metacognition.
+Trends Cogn. Sci. 23, 560–571. doi: 10.1016/j.tics.2019.04.007
+Si, J. (2005). “13—Direct Learning by Reinforcement∗∗Portions reprinted, with
+permission, from the 2001 IEEE Transactions on Neural Networks 2(2),
+264–276,” in The Electrical Engineering Handbook, ed W.-K. Chen (Cambridge,
+MA: Academic Press), 1151–1159.
+Steriade,
+M.
+(1999).
+Coherent
+oscillations
+and
+short-term
+plasticity
+in
+corticothalamic
+networks.
+Trends
+Neurosci.
+22,
+337–345.
+doi: 10.1016/S0166-2236(99)01407-1
+Steriade, M. (2006). Grouping of brain rhythms in corticothalamic systems.
+Neuroscience 137, 1087–1106. doi: 10.1016/j.neuroscience.2005.10.029
+Tononi, G., Boly, M., Massimini, M., and Koch, C. (2016). Integrated information
+theory: from consciousness to its physical substrate. Nat. Rev. Neurosci. 17,
+450–461. doi: 10.1038/nrn.2016.44
+Yeung, N., and Summerﬁeld, C. (2012). Metacognition in human decision-making:
+conﬁdence and error monitoring. Philos. Trans. R. Soc. Lond., B., Biol. Sci. 367,
+1310–1321. doi: 10.1098/rstb.2011.0416
+Conﬂict of Interest: NG is founder of MedNeuro, Inc.
+The remaining authors declare that the research was conducted in the absence of
+any commercial or ﬁnancial relationships that could be construed as a potential
+conﬂict of interest.
+Publisher’s Note: All claims expressed in this article are solely those of the authors
+and do not necessarily represent those of their aﬃliated organizations, or those of
+the publisher, the editors and the reviewers. Any product that may be evaluated in
+this article, or claim that may be made by its manufacturer, is not guaranteed or
+endorsed by the publisher.
+Copyright © 2021 Baars, Geld and Kozma. This is an open-access article distributed
+under the terms of the Creative Commons Attribution License (CC BY). The use,
+distribution or reproduction in other forums is permitted, provided the original
+author(s) and the copyright owner(s) are credited and that the original publication
+in this journal is cited, in accordance with accepted academic practice. No use,
+distribution or reproduction is permitted which does not comply with these terms.
+Frontiers in Psychology | www.frontiersin.org
+6
+November 2021 | Volume 12 | Article 749868

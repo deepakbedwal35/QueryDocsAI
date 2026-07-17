@@ -1,0 +1,1056 @@
+HYPOTHESIS ANDTHEORY ARTICLE
+published: 16 December 2011
+doi: 10.3389/fpsyg.2011.00366
+Yoga lessons for consciousness research: a paralimbic
+network balancing brain resource allocation
+Hans C. Lou1*, Morten Joensson1,2 and Morten L. Kringelbach1,2,3*
+1 Centre for Functionally Integrative Neuroscience, Aarhus University, Aarhus, Denmark
+2 Department of Psychiatry, Warneford Hospital, University of Oxford, Oxford, UK
+3 Department of Psychiatry, Oxford Centre for Human Brain Activity, University of Oxford, Oxford, UK
+Edited by:
+Jeroen J. A. Van Boxtel, University of
+California Los Angeles, USA
+Reviewed by:
+Zoran Josipovic, New York University,
+USA
+Andrea Eugenio Cavanna, BSMHFT
+and University of Birmingham, UK
+*Correspondence:
+Hans C. Lou, Centre for Functionally
+Integrative Neuroscience, Aarhus
+University, Aarhus 8000, Denmark.
+e-mail: hanslou1@gmail.com;
+Morten L. Kringelbach, Department of
+Psychiatry, Warneford Hospital,
+University of Oxford, Oxford OX3
+7JX, UK.
+e-mail: morten.kringelbach@psych.
+ox.ac.uk
+Consciousness has been proposed to play a key role in shaping ﬂexible learning and as such
+is thought to confer an evolutionary advantage. Attention and awareness are the perhaps
+most important underlying processes, yet their precise relationship is presently unclear.
+Both of these processes must, however, serve the evolutionary imperatives of survival
+and procreation. They are thus intimately bound by reward and emotion to help to priori-
+tize efﬁcient brain resource allocation in order to predict and optimize behavior. Here we
+show how this process is served by a paralimbic network consisting primarily of regions
+located on the midline of the human brain. Using many different techniques, experiments
+have demonstrated that this network is effective and speciﬁc for self-awareness and con-
+tributes to the sense of unity of consciousness by acting as a common neural path for
+a wide variety of conscious experiences. Interestingly, hemodynamic activity in the net-
+work decreases with focusing on external stimuli, which has led to the idea of a default
+mode network.This network is one of many networks that wax and vane as resources are
+allocated to accommodate the different cyclical needs of the organism primarily related
+to the fundamental pleasures afforded by evolution: food, sex, and conspeciﬁcs. Here we
+hypothesize, however, that the paralimbic network serves a crucial role in balancing and
+regulating brain resource allocation, and discuss how it can be thought of as a link between
+current theories of so-called “default mode,” “resting state networks,” and “global work-
+space.” We show how major developmental disorders of self-awareness and self-control
+can arise from problems in the paralimbic network as demonstrated here by the example of
+Asperger syndrome.We conclude that attention, awareness, and emotion are integrated by
+a paralimbic network that helps to efﬁciently allocate brain resources to optimize behavior
+and help survival.
+Keywords: consciousness, attention, reward, pleasure, cingulate cortex, orbitofrontal cortex, precuneus, paralimbic
+network
+INTRODUCTION
+Biological evolution is a complex process allowing species and
+organisms to try to resist the second law of thermodynamics. Over
+time, this has led to the evolution of increasingly sophisticated
+brains allowing organisms to adapt and survive longer by learning
+from experience and predicting future events. Yet, this increase in
+adaptability also leads to an increasingly difﬁcult resource alloca-
+tion problem of how to best select between competing wants and
+likes (Kringelbach and Berridge, 2009). Human consciousness can
+be thought of as one particular successful solution to this taxing
+problem, primarily facilitated by the processes of attention and
+awareness.
+The scientiﬁc study of human consciousness is growing beyond
+its infancy and many interesting properties of its underlying neu-
+ronal substrates have been established (Changeux and Lou, 2011).
+Yetcountlessfundamentaldiscoveriesremain,however,andinpar-
+ticular understanding the precise relationship between attention
+and awareness has remained elusive (although this special issue is
+beginning to address the issue). In addition to the main tenet of
+the present discussion,namely of a bidirectional and intimate rela-
+tionship between attention and self-awareness networks, it should
+be noted that in particular for the attentional network, there
+are asymmetries between hemispheric involvement. For instance,
+Mesulam (1999) drew attention to the prime role of the right
+hemisphere in generating spatial neglect, and more recently it has
+been demonstrated that the functional connectivity of the insula
+to the paralimbic network is asymmetrical as well (Cauda et al.,
+2011).
+One way to conceptualize the relationship between attention
+and awareness is to think of attention as an executive function
+allowing the focusing of the mind, while awareness is its closely
+associated counterpart at the highest level of sensory processing.
+Yet,this conceptualization leaves out the importance of reward and
+emotion in guiding the crucial decision making involved in opti-
+mizing resource allocation of brain resources, which we discuss in
+this review.
+www.frontiersin.org
+December 2011 | Volume 2 | Article 366 | 1
+
+Lou et al.
+Yoga lessons for consciousness research
+Some progress has been made in identifying how self-awareness
+can help in shaping the decision making. Interestingly, part of this
+progress has been made possible by studying the introspective
+states involved in meditation. Studies of highly experienced Yoga-
+nidra practitioners have shown that there are signiﬁcantly different
+brain networks involved in the states related to relaxation medi-
+tation (Yoga-nidra) and normal resting state (i.e., at rest, without
+intended motor,or mental function),and that these networks vary
+greatly with the changing contents of consciousness during the
+two conditions (Lou et al., 1999). In contrast, common to both
+states and traits is sustained activity in a paralimbic network con-
+sisting of midline frontal regions (anterior cingulate and medial
+prefrontal cortices), parietal regions (primarily precuneus), and
+striatum (Kjaer and Lou, 2000; see Figures 1 and 2).
+Thisdiscoveryledtothehypothesisthattheparalimbicnetwork
+contributes to the regulation of conscious experience by acting
+as a common reference of self-perspective for changing conscious
+states and traits (Kjaer and Lou,2000). Such a role for the paralim-
+bic network would be consistent with ontogenetic considerations
+of brain development (Feinberg and Keenan, 2005). Accordingly,
+animals with a paleomammalian brain, a brain with developed
+limbic system,but scarcely developed neocortex,may display quite
+sophisticated social behaviors like maternal nurturing, separation
+distress calls, and play, while the adjacent neocortex is essential for
+perception of the self in space and time, a prerequisite for abstract
+thinking.
+The neuroanatomical evidence also supports the hypothesis
+that the paralimbic network plays a special role in guiding the
+FIGURE 1 | Sketch of the paralimbic network. Principal component
+analysis was used to identify brain regions common to conscious
+experiences during yoga-nidra meditation and the normal resting conscious
+state. Two major clusters were found, explaining 25 and 18% of the
+variability. The paralimbic network consists of a set of three regions which
+contributed to both clusters: Striatum, medial prefrontal, and medial parietal
+cortices (precuneus). Being active in a wide variety of conscious
+experiences, we hypothesize that this paralimbic network represented
+self-reference, as a common denominator for conscious experiences to
+account for a sense of unity of consciousness.
+allocation of brain resources by mediating between attention,
+awareness, and emotion. The paralimbic regions are anatomically
+located at the interface between the limbic and the neocortical
+brain, the former providing information on the bodily state and
+emotions, while the heteromodal neocortical association regions
+provide extrapersonal sensory and mnemotic information on the
+highest level of integration available for attention and awareness.
+Relying on this broad outline and on anatomical, physiological,
+and behavioral experiments in the monkey, Mesulam (1998) pro-
+posed that the cerebral cortex is organized into ﬁve hierarchically
+arranged subtypes: Limbic, paralimbic, heteromodal association,
+unimodal association, and primary sensory motor regions.
+In the present review we synthesize the evidence from the lit-
+erature to show that the paralimbic network is active and efﬁcient
+in self-processing, a prime organizer of conscious experience. We
+show how the paralimbic network uses information from both the
+external world and introspection to balance the resource alloca-
+tion, and how the access and balance in this system is regulated by
+emotion and by neurotransmitters such as dopamine. Finally, we
+show how disturbances in the paralimbic network may be involved
+in developmental disorders such as autism.
+Before proceeding, however, a brief note of caution regard-
+ing the limits of neuroimaging. As such it is important to realize
+that neuroimaging ﬁndings resulting from a comparison of active
+and control conditions usually are correlative only and will not
+imply causality. Also they will not necessarily uncover the full
+network of brain regions involved. Instead, what neuroimaging
+may reveal are the changes in activity in the important nodes
+and hubs of the human brain which can bring about changes
+in the balance of resource allocation between different brain
+networks, the associated behavior, and the resulting experience.
+In addition, also electromagnetic methods may have important
+caveats. One example is the fact that microsaccades may elicit
+gamma synchrony in the frontal cortex, while the parietal lobe is
+FIGURE 2 | A medial paralimbic network common to conscious
+experiences. The ﬁgure shows brain maps of activity related to self and
+other (midline, right, and left hemisphere). (A) Emergence of
+self-representation. Differential activity is noted in medial paralimbic
+regions, together with bilateral occipital and parietal regions (p < 0.05,
+corrected for multiple comparisons). (B) Emergence of representation of
+other (Danish Queen). Differential activity is noted in medial paralimbic
+regions, together with bilateral occipital and parietal regions and a conﬂuent
+left inferior prefrontal and temporal region. Activity in the paralimbic
+network is similar across the two conditions, an indication of the pivotal
+role of this network in higher-order consciousness with self-reference. (Lou
+et al., 2004, with permission).
+Frontiers in Psychology | Consciousness Research
+December 2011 | Volume 2 | Article 366 | 2
+
+Lou et al.
+Yoga lessons for consciousness research
+unaffected (Carl et al., 2012). The parietal lobe is a key constituent
+of the paralimbic network discussed in this review. Therefore
+the gamma synchrony described here cannot be attributed to
+eye-movements.
+THE PARALIMBIC NETWORK IS EFFECTIVE AND SPECIFIC IN
+SELF-PROCESSING
+The conscious sense of self serves as a common reference for mak-
+ing decisions about the allocation of resources ensuring survival,
+whether related to any of the fundamental pleasures of food, sex,
+or other people or even higher-order pleasures such as music or
+monetary reward. Establishing the functional neuroanatomy of
+the self is thus potentially a fruitful strategy for identifying the
+hubs and key nodes in the brain networks important for main-
+taining the balance between the competing processes of attention,
+awareness, and emotion.
+One essential role for the self is to be a common reference point
+in space and time for conscious experiences (Gallagher, 2000).
+Together, they are all experienced in unity, coherent in space and
+time. Even when someone enters the room, or the phone rings,
+and the scene and our focus of attention shifts completely, we
+usually experience the changed scene as continuous with the pre-
+ceding (Tononi and Edelman,1998). To account for this coherence
+of widely different conscious percepts, the self offers a possibility:
+per deﬁnition, we cannot have free-ﬂoating sensations with no self
+to experience them,and we cannot have a self completely devoid of
+sensory experiences, memories, or feelings. In other words: non-
+self sensations and memories and the self are two sides of the same
+coin.
+If each of the different,ever-changing sensations and memories
+are attached to the same coherent self-structure across space and
+time, these types of information will be bound to each other via
+the self. A coherent self across time requires a system to retrieve
+memories of personal experiences, i.e., episodic memory. Corre-
+lational evidence suggests that this system is involved not only
+in retrieval of past personal memories, but also in conceptualiz-
+ing the future (Ingvar,1985;Andreasen et al.,1995). Consequently,
+episodic memory retrieval appears as an indispensable component
+of the more complex forms of self-awareness and conscious-
+ness, which are described in various terms such as extended self,
+meta-consciousness, autonoetic consciousness, or narrative self
+(Gallagher, 2000). In a particular amnesic syndrome, transient
+global amnesia, a rudimentary sense of self is preserved. This state
+is characterized by loss of episodic memory, while working mem-
+ory, and semantic memory are relatively spared (Quinette et al.,
+2003).
+The neural organization of episodic memory retrieval involves
+hemodynamically synchronized activity in medial paralimbic
+regions including the anterior cingulate and posterior cingulate
+cortices and adjacent neocortical structures, as well as in the thal-
+amus (Henson et al., 1999; McDermott et al., 1999; Wiggs et al.,
+1999; Cabeza and Nyberg, 2000; Gardiner, 2001; Tulving, 2002).
+Further hemodynamic studies have conﬁrmed that the paralimbic
+network is active in self-awareness (Kjaer et al., 2002b), and single
+pulse transcranial magnetic stimulation conﬁrmed the speciﬁcity
+and causality of the network in extended self-awareness (Lou et al.,
+2004; see Figure 3).
+FIGURE 3 | Causality and speciﬁcity of one node of the paralimbic
+network in self-reference. The ﬁgure demonstrates the effects of applying
+transcranial magnetic stimulation (TMS) in targeting the
+precuneus/posterior cingulate region in a task probing self-reference. The
+causality of this region in self-reference is seen by the fact that retrieval of
+self-judgment was signiﬁcantly less efﬁcient with TMS at a latency of
+160 ms than with a latency of 0 ms (p = 0.003), suggesting that neural
+activity at that time interval after stimulus presentation is particularly
+important for self-representation. Speciﬁcity of this region in self-reference
+is provided by the fact that the difference between self and other (best
+friend) is signiﬁcant at most latencies (p < 0.05), except at the speciﬁc
+causal latency. (Lou et al., 2004, with permission).
+In contrast to extended self-awareness, the minimal self is pre-
+reﬂexive, immediate, normally infallible, and involves the sense
+of ownership of experiences. For the minimal self, data on the
+neural organization are scarcer, but indicate that the same para-
+limbic structures are active here as well (Vogeley et al., 2004),
+being a “common denominator” for the self, independent of its
+complexity, and consisting mainly of a network of paralimbic
+regions. Functional magnetic resonance imaging (fMRI) have
+shown a consistent pattern of activity in self-processing for a par-
+alimbic network including anterior cingulate/medial prefrontal
+cortices, posterior cingulate/medial parietal cortices (with pre-
+cuneus), and pulvinar thalamus (Lou et al., 2004). In addition,
+other brain regions including striatum and cerebellum have also
+been implicated.
+This network of paralimbic regions not only shows corre-
+lated activity with self-reference, but has also been shown to be
+causally related to self-reference. Transcranial magnetic pulses
+(TMS) can transiently disturb the neural function of key regions
+in the paralimbic network with decreased efﬁciency speciﬁcally of
+self-reference as a result (Lou et al., 2004).
+Anatomically, the medial prefrontal/anterior cingulate and
+medial parietal/posterior cingulate regions are connected directly
+via the cingulum bundle, and indirectly, through their rich con-
+nections via the“limbic”and intralaminar thalamic nuclei,located
+centrally at the base of the forebrain (Lou et al., 2004).
+Each structure in the paralimbic circuitry contributes fun-
+damental properties to extended self-awareness (Northoff and
+Bermpohl, 2004). The evidence shows that many of the regions on
+www.frontiersin.org
+December 2011 | Volume 2 | Article 366 | 3
+
+Lou et al.
+Yoga lessons for consciousness research
+the midline of the prefrontal cortex are involved in self-reference.
+The medial orbitofrontal cortex at the base of the frontal lobes has
+been shown to be a related to evaluating the valence of the conver-
+gence of intero- and exteroceptive stimuli, including the remark-
+ablevalenceof humaninfants(Nauta,1971;KringelbachandRolls,
+2004; Kringelbach et al., 2008). This region has been called the
+“entrance door to self-awareness” based on EEG and MEG studies
+showing comparatively early engagement after onset of emotional
+stimuli (Northoff and Bermpohl, 2004). Self-referential stimuli
+are then monitored in the dorsal anterior cingulate cortex in the
+sense that stimuli are selected here among competing stimuli for
+access to consciousness. The supplementary motor area is closely
+functionally related to the anterior cingulate cortex in preparation
+for action, in particular when there are no external cues to tell
+the subject what to do. Self-referential stimuli are thought to be
+evaluated in the dorso-medial prefrontal cortex as judged to be
+pertaining to one-self or other persons (Northoff and Bermpohl,
+2004).“Theory of the mind,”or attributing mental states to others,
+is also associated with activity in the region, which therefore may
+constitute a link between introspection and understanding others
+(Frith and Frith, 1999).
+These frontal monitoring and evaluative functions of self-
+awareness are complemented by functions in the posterior midline
+establishing spatial and diachronic unity of self and of conscious-
+ness: Spatial organization in a ﬁrst person framework involves pos-
+terior cingulate/medial parietal cortex (Northoff and Bermpohl,
+2004) which is also active in linking new information with prior
+knowledge on the subject matter (Maguire et al., 1999). In auto-
+noetic consciousness, the region is active in retrieval of episodic
+memory for autobiographical self-consciousness (Cavanna and
+Trimble, 2006). The functional integrity of medial parietal cortex
+iscriticalforextendedself-awareness.ThishasbeenshownbyTMS
+targeting precuneus to transiently disrupt the normal function of
+this region (Lou et al., 2004). The central role of the intralaminar
+nuclei for consciousness is illustrated by the fact that even minute
+lesions here may cause loss of consciousness (Schiff, 2008).
+THE ROLE OF THE PARALIMBIC NETWORK IN BALANCING
+THE DYNAMICS BETWEEN NETWORKS
+Neuroimaging experiments support the proposed role of the par-
+alimbic network as a central integrator and arbitrator of resource
+allocation in the human brain. In particular, in addition to evi-
+dence from indirect techniques such as fMRI and PET, more direct
+and faster methods such as magnetoencephalography (MEG) have
+recently provided very useful information regarding the dynamics
+of the underlying physiology.
+When sampling data from the most important hubs of the
+paralimbic network including the anterior cingulate/medial pre-
+frontal and posterior cingulate/medial parietal cortices as well as
+thalamic regions,it has been demonstrated that gamma synchrony
+is a common neural event in both minimal self-reference and
+extended self-reference, where the degree of synchrony is clearly
+related to the degree of self-reference (Lou et al., 2010). As noted
+above, this mechanism of gamma synchrony is not likely to be
+affected by the recent discovery that microsaccades may give rise
+to gamma oscillations. These gamma oscillations are induced by
+extra cerebral sources primarily in the frontal lobe, and have not
+been found in the parietal cortices (Carl et al., 2012). In addition
+we used beamforming for source localization which allows a clear
+distinction between sources.
+The degree of gamma synchrony in the paralimbic network is
+a potential mechanism between conscious experiences and widely
+different degrees of self-reference. This mechanism of gamma syn-
+chrony in the paralimbic network thus meets one of the main
+requirements needed to bind conscious experience in the so-called
+neuronal global workspace theory (Dehaene et al., 1998) based on
+earlier theoretical work (Baars, 1989).
+Yet, theories of consciousness abound and while the global
+workspace theory has been highly inﬂuential, other potential can-
+didate theories exist. An equally important concept developed
+over the last decade is the default mode theory (Gusnard and
+Raichle, 2001; Raichle et al., 2001). According to this theory, sen-
+sory information arriving from the outside world will lead to a
+decrease in perfusion and energy metabolism of the medial default
+mode network, in analogy with the re-direction of brain activ-
+ity with shifting modalities of sensory stimulation (Lam et al.,
+1999).
+At ﬁrst glance these two theories would seem contradictory,
+with the global workspace theory referring to a single global brain
+network processing consciousness, while the default mode the-
+ory posits one brain network for processing the outer world, and
+another network for the inner world.
+The hypothesized paralimbic network offers a solution to this
+apparent paradox. The evidence from MEG,which is a direct mea-
+sure of brain activity, shows that paralimbic network becomes
+synchronized to varying degrees during experiences of both the
+outer world with only minimal self-reference, and more so in
+introspection during extended self-reference (Lou et al., 2010).
+In contrast, we reanalyzed some of our data and found that
+the paralimbic network showed a signiﬁcant reduction in gamma
+power only during a minimally self-related task (syllable count-
+ing,see Figure 4),while there were no signiﬁcant change in gamma
+power during extended self-reference (retrieval of own judgment
+on one-self).
+Compare this with the evidence from indirect measures of
+brain activity such as fMRI which shows that regions involved
+in the default mode network have reduced blood oxygenation
+level dependent (BOLD) signal during goal directed (non-self-
+referential) tasks relative to rest (Raichle et al., 2001). The reduc-
+tion in gamma power as measured with MEG during an active
+task (syllable counting) could reﬂect the deactivation in the default
+mode network during active tasks. Some of the evidence suggests
+that changes in gamma power are indeed correlated with BOLD
+which is an indirect measure of the synaptic activity (Logothetis
+and Wandell, 2004).
+In sum, the evidence from MEG studies show that the par-
+alimbic network can provide the gamma synchrony needed for
+the global coherent workspace of consciousness, while also fulﬁll-
+ing the criteria of reduced activity (i.e., changes in gamma power
+in minimal self-reference) in the midline paralimbic regions of
+self-reference elicited by minimal self-reference.
+Yet, general gamma synchrony on its own is not sufﬁcient for
+consciousness but would also seem to require ampliﬁcation of
+activity within recurrent networks. This is suggested by some
+Frontiers in Psychology | Consciousness Research
+December 2011 | Volume 2 | Article 366 | 4
+
+Lou et al.
+Yoga lessons for consciousness research
+FIGURE 4 | Changes in gamma power in the paralimbic network may
+serve to guide allocation of brain resources. The ﬁgure shows the
+changes in gamma power within the paralimbic network in the pre-stimulus
+baseline in a task involving autobiographic memory retrieval of previous
+personal judgments of visually presented words. A signiﬁcant decrease in
+gamma power (p < 0.05) was found in minimal self-awareness (syllable
+counting: syl), compared to the pre-stimulus control state. This was not the
+case in extended self-awareness (retrieval of own previous judgment of
+one-self).The ﬁgure is generated from new analysis based on data from the
+previous experiment shown in Figure 3 (Lou et al., 2010).
+intriguing data gathered over 30 years ago, when (Libet, 1982)
+discovered that conscious sensations emerge as a function of
+both intensity and duration of electric stimulation of the human
+somatosensory cortices. They reported a delay of conscious expe-
+rience of approximately 400 ms from onset of a sustained stimulus
+at threshold intensity and assumed that this latency reﬂected the
+need for maintaining the initial frequency and amplitude for an
+extended period of time. This suggests that ampliﬁcation of per-
+ceptual processing is required to elicit conscious experience, a
+process which in the neuronal global workspace theory is termed
+“ignition.” In addition, evidence also indicates that high signal
+intensity in cortico-thalamic interaction is essential for emergence
+of consciousness. The possible nature of such ampliﬁcation has
+been widely discussed in the literature. Several researchers have
+speculated that extensive recursive activity to bootstrap neuronal
+processing is a general mechanism for stimuli to become available
+for consciousness (Tononi and Edelman, 1998).
+In spite of this long-standing interest in recurrent neuronal
+activity, beyond some demonstrations in primary visual cor-
+tices, such activity was only recently demonstrated in higher-
+order, modality non-speciﬁc regions using MEG and the so-called
+Granger causality analysis, a mathematical method initially devel-
+oped to analyze econometric data but now also used to identify
+the directionality of ﬂow of information between brain regions
+(Granger, 1969).
+Autobiographic memory retrieval of previous personal judg-
+ments of visually presented words was used to probe the temporal
+ﬂow of activity within the paralimbic network (Lou et al., 2011a).
+It was demonstrated that the pre-stimulus condition is charac-
+terized by causal, recurrent oscillations which are maximal in
+the lower gamma range. When retrieving previous judgments of
+visually presented adjectives, this activity is dramatically increased
+during the stimulus task as ascertained by Granger causality analy-
+sis, demonstrating not only recurrent gamma activity in higher-
+order, modality non-speciﬁc regions but also how the paralimbic
+network serves to allocate brain sources.
+CONSCIOUS EXPERIENCE UNDER THE INFLUENCE OF
+DOPAMINE
+The paralimbic network described here does not only include mid-
+line structures in medial anterior and posterior regions which are
+continuously active in different states and traits of consciousness,
+but the evidence has also implicated the striatum. It is well-known
+that dopaminergic neurotransmission is abundantly present in
+the striatum. Therefore interest has recently focused on the pos-
+sible role of dopaminergic neurotransmission in the regulation of
+conscious experience.
+At the system level we now know that conscious experience is
+linked to interacting regions of parietal and prefrontal cortices,
+which are not only active, but also effective in self-reference (Lou
+et al., 2004). However, on the molecular level our knowledge has
+until recently merely been suggestive. Functional brain imaging
+has established that abnormal conscious experiences in schiz-
+ophrenia, like hallucinations and delusions, are associated with
+abnormal dopaminergic neurotransmission (Changeux and Lou,
+2011). For instance, striatal dopamine transporter availability is
+inversely correlated with hallucinations (Schmitt et al., 2006).
+Furthermore, clinical evidence indicates that striatal dopamine
+might regulate conscious experience. One way to measure con-
+scious experience is to approach the problem as one of probability
+of signaldetection(andsubsequentsubjectiveinterpretation).Fol-
+lowing this approach, conscious experience can be determined
+by the setting of a criterion for when the sensory signal-to-noise
+ratio warrants sufﬁcient subjective conﬁdence that a stimulus is
+present. In schizophrenia, psychotic symptoms could be explained
+as a result of setting too liberal a signal-to-noise criterion. This is
+thought to be due to abnormally upregulated dopaminergic neu-
+rotransmission, an effect of dopamine on the cellular level being
+to inﬂuence the signal-to-noise ratio (Lou et al., 2011b).
+Furthermore, in the previously mentioned study of Yoga-nidra
+meditation it was shown that such meditation is accompanied by
+a strong increase in sensory awareness, and that this phenome-
+non is linked to dopamine release in the nucleus accumbens in
+the ventral striatum, which has been implicated in the paralimbic
+network consistently active in different conscious states and traits
+(Kjaer et al., 2002a).
+We directly examined the effect of increasing dopamine activa-
+tion and showed that dopaminergic stimulation with the D1 and
+D2 receptor agonist pergolide is effective in increasing conﬁdence
+in seeing words, a valid measure of awareness (Lou et al., 2011b).
+www.frontiersin.org
+December 2011 | Volume 2 | Article 366 | 5
+
+Lou et al.
+Yoga lessons for consciousness research
+These results demonstrate how dopamine can inﬂuence activ-
+ity across the various nodes and hubs of the paralimbic net-
+work, giving rise to changes in both conscious states and
+content.
+THE ROLE OF THE PARALIMBIC NETWORK IN LINKING
+REWARD, EMOTION, AND SELF-AWARENESS
+The evidence presented above supports the hypothesis that the
+paralimbic network subserves self-processing in the human brain,
+and that speciﬁc changes in synchrony between the nodes and
+hubs of this network can regulate the dynamics of widespread
+connected brain networks. In addition, the evidence also suggests
+that dopamine has a special role in modulating activity in this
+network.
+The evidence thus supports the overall notion that the para-
+limbic network plays a key role in the conscious brain resource
+allocation associated with predicting and selecting behaviors that
+ensures survival. The fundamental rewards afforded by evolution
+to ensure survival are food, sex, and conspeciﬁcs; and the time-
+courses of the associated behaviors are cyclical (Kringelbach and
+Berridge, 2009). There are distinct wanting, liking, and learning
+phases in the reward cycle, which have been shown to have partly
+dissociable neural substrates (Kringelbach, 2005).
+Over time the human brain has to use attentional mechanisms
+to detect potential rewards which, depending on the current state
+of the organism, may (or may not) initiate a speciﬁc reward cycle.
+For example, after becoming aware of hunger signals, the food
+reward cycle is initiated and our attention invariably turns to
+ﬁnding potential food rewards.
+We propose that the paralimbic network plays a key role in inte-
+grating awareness, attention, and emotion processing to optimize
+the brain resource allocation. The inputs from the senses such as
+vision, auditory, taste, smell, and touch (linked to survival-related
+rewards such as food and sex) and their subsequent evaluation
+have the potential to temporarily shift the focus of the brain net-
+works to allow for efﬁcient processing and control over behaviors
+(Berridge and Kringelbach, 2008; Kringelbach et al., 2008). The
+paralimbic network helps to ensure that the processing remains
+balanced over longer time periods.
+Mounting evidence has demonstrated that frontal regions such
+as the medial orbitofrontal and the anterior cingulate cortices are
+situated anatomically at the crossroad between interacting net-
+works of attention, awareness, and emotion as necessary nodes
+linking the networks (Tsuchiya and Adolphs, 2007; Kringelbach
+et al., 2011). It should, however, be noted that these regions are
+heterogenous regions with many sub-regions which have been
+implicated in different networks (Kringelbach and Rolls, 2004;
+Beckmann et al., 2009).
+Direct causal evidence for the interaction has been given by
+studies showing that direct electrical stimulation of the anterior
+cingulate cortex can help to alleviate severe chronic pain in patients
+(Kringelbach et al., 2010). Recently, we further demonstrated that
+reward can directly impact conscious experience and this inte-
+gration is directly reﬂected in the neural activity in the anterior
+cingulate cortex as measured by local ﬁeld potentials (Rømer
+Thomsen et al., 2011).
+In general, emerging evidence shows that perturbations to the
+paralimbicnetworkmaymanifestinanunbalancingof widespread
+brainnetworkasseenforexampleintheanhedoniaassociatedwith
+mental illness (Kringelbach et al., 2011).
+CLINICAL CONSEQUENCES OF DEVELOPMENT IMPEDIMENT
+OF THE PARALIMBIC NETWORK
+Development perturbations to the paralimbic network are not
+uncommon (Lou, 2011). Here we will brieﬂy focus on an example
+of developmental dysfunction found in the Asperger syndrome
+(see Box 1).
+Individuals with Asperger syndrome would appear to have
+problems with introspection and narrative self-awareness. In par-
+ticular they have difﬁculty identifying and reﬂecting on their own
+emotional states. They also have peculiar concrete thought pat-
+terns and a tendency to focus on external events rather than inner
+experiences (Hill et al., 2004).
+Given the hypothesis of the paralimbic network presented here,
+this failure of subjectivity may be predicted to be linked to dys-
+function in the paralimbic loop and medial neocortical structures.
+While still scarce, some of the experimental data would seem to
+support this link. One neuroimaging study involved higher-order
+Box 1 Asperger syndrome.
+Autism is a neurodevelopmental disorder of genetic origin, characterized by impaired social interaction and communication as well as repet-
+itive behavior and restricted interests. The symptomatology being highly variable, the condition is often referred to as “autism spectrum
+disorder.” Asperger syndrome is a subgroup where the affected individuals have normal language development and normal or above normal
+IQ, together with the typical social communication impairments, obsessions, and narrow interests, suggesting impaired binding of attention,
+awareness, and emotion.
+Peter is a young boy 16 years of age. After a normal pregnancy and birth he was delayed in motor development and slightly delayed in
+development of language. He did not babble until he suddenly spoke perfectly correct. As a toddler he was always playing with construction
+toys and puzzles, but not with other children. At school he is marginalized, having special interests not shared by his classmates. He behaves
+oddly in social interaction where he is rigid and clumsy, with a very formal, monotonous language. He is unable to interpret moods or motives
+of others. He speaks without restraint about his special interests, in an exalted, gesturing, and noisy way. The psychological investigation
+shows that he is of normal intelligence, with high scores in memory of facts, especially meaningless facts, and he is eminent at puzzles
+and labyrinths. In contrast, he scores below normal in reasoning and social comprehension, in particular sequential understanding of social
+activities. He is unable to generate inclusive terms covering a variety of objects. He is characterized by orienting to details. He is diagnosed
+as having Asperger syndrome, a milder variant of autism.
+Frontiers in Psychology | Consciousness Research
+December 2011 | Volume 2 | Article 366 | 6
+
+Lou et al.
+Yoga lessons for consciousness research
+consciousness based on linguistic information, sentence compre-
+hension (Just et al., 2004). In autists compared to normal controls,
+higheractivitywasseenintheWernickeregion,whileloweractivity
+was found in Broca’s region and in the medial paralimbic regions.
+This ﬁnding supports the hypothesis that the medial paralimbic
+circuitry could be defective in autism. Yet, some caution is needed
+given that the autists and the normal control participants were not
+compared directly, but only indirectly via a common reference to
+a ﬁxation point.
+Deﬁciency of the paralimbic loop of self-reference could poten-
+tially be explained by the evidence for volume reduction and
+reduction in glucose metabolism in the entire cingulate cortex
+in autism (Haznedar et al., 2000, 2004). In fact, related deﬁciencies
+maybeseeninanotherdisorderof self-awarenessandhigher-order
+consciousness: schizophrenia (Haznedar et al., 2004).
+CONCLUSION AND PERSPECTIVE
+There is a clear lesson for consciousness research initially emerg-
+ing from studying the brain activity in experienced Yoga-nidra
+teachers during meditation but subsequently supported by a
+wealth of other experiments:a common paralimbic network serves
+to regulate and balance the dynamic resource allocation needed
+to ensure survival. This process is guided by processes linked to
+awareness, attention, and emotion in order to support memory-
+dependent self-reference, which in narrative self-consciousness is
+extended into adjacent neocortical regions. Dire clinical conse-
+quences are linked to its impediment in pathological conditions.
+Yet, as a common reference of conscious experiences, it provides
+us with an adaptive tool for building a uniﬁed self and personal-
+ity over the years by successfully balancing the allocation of brain
+resources for survival and procreation.
+ACKNOWLEDGMENTS
+The authors are grateful to Professor Per Hove Thomsen (Depart-
+ment of Child Psychiatry, Aarhus University Hospital, Aarhus,
+Denmark) for the case story on Asperger syndrome, as well as
+the Mind Lab supported by the Danish Ministry for Science,
+Technology and Innovation, The Lundbeck Foundation and Tryg-
+Fonden Charitable Foundation for ﬁnancial support for some of
+the research discussed.
+REFERENCES
+Andreasen, N.
+C., O’Leary, D.
+S.,
+Cizadlo, T., Arndt, S., Rezai, K.,
+Watkins, G. L., Ponto, L. L., and
+Hichwa, R. D. (1995). Remembering
+the past: two facets of episodic mem-
+ory explored with positron emission
+tomography. Am. J. Psychiatry 152,
+1576–1585.
+Baars, B. J. (1989). A Cognitive Theory
+of Consciousness. Cambridge, MA:
+Cambridge University Press.
+Beckmann,
+M.,
+Johansen-Berg,
+H.,
+and
+Rushworth,
+M.
+F.
+(2009).
+Connectivity-based parcellation of
+human cingulate cortex and its rela-
+tion to functional specialization. J.
+Neurosci. 29, 1175–1190.
+Berridge, K. C., and Kringelbach, M.
+L. (2008). Affective neuroscience of
+pleasure: reward in humans and
+animals. Psychopharmacology (Berl.)
+199, 457–480.
+Cabeza,R.,andNyberg,L.(2000).Imag-
+ing cognition II: an empirical review
+of 275 PET and fMRI studies. J.
+Cogn. Neurosci. 12, 1–47.
+Carl, C., Acik, A., Konig, P., Engel, A. K.,
+and Hipp, J. F. (2012). The saccadic
+spike artifact in MEG. Neuroimage
+59, 1657–1667.
+Cauda, F., D’Agata, F., Sacco, K., Duca,
+S., Geminiani, G., and Vercelli, A.
+(2011). Functional connectivity of
+the insula in the resting brain. Neu-
+roimage 55, 8–23.
+Cavanna, A. E., and Trimble, M. R.
+(2006). The precuneus: a review
+of
+its
+functional
+anatomy
+and
+behavioural correlates. Brain 129,
+564–583.
+Changeux, J.
+P., and
+Lou, H.
+C.
+(2011). Emergent pharmacology of
+conscious experience: new perspec-
+tives in substance addiction. FASEB
+J. 25, 2098–2108.
+Dehaene,
+S.,
+Kerszberg,
+M.,
+and
+Changeux, J. P. (1998). A neuronal
+model of a global workspace in
+effortful cognitive tasks. Proc. Natl.
+Acad. Sci. U.S.A. 95, 14529–14534.
+Feinberg, T. E., and Keenan, J. P. (2005).
+The Lost Self: Pathologies of the Brain
+and Identity. Oxford: Oxford Uni-
+versity Press.
+Frith, C. D., and Frith, U. (1999). Inter-
+acting minds – a biological basis.
+Science 286, 1692–1695.
+Gallagher, I. I. (2000). Philosophical
+conceptions of the self: implications
+for cognitive science. Trends Cogn.
+Sci. (Regul. Ed.) 4, 14–21.
+Gardiner, J. M. (2001). Episodic mem-
+ory and autonoetic consciousness: a
+ﬁrst-person approach. Philos. Trans.
+R. Soc. Lond. B Biol. Sci. 356,
+1351–1361.
+Granger, C. W. J. (1969). Investigat-
+ing causal relations by econometric
+models and cross-spectral methods.
+Econometrica 37, 424–438.
+Gusnard, D. A., and Raichle, M. E.
+(2001). Searching for a baseline:
+functional imaging and the resting
+human brain. Nat. Rev. Neurosci. 2,
+685–694.
+Haznedar, M. M., Buchsbaum, M. S.,
+Hazlett, E. A., Shihabuddin, L., New,
+A., and Siever, L. J. (2004). Cingulate
+gyrus volume and metabolism in the
+schizophrenia spectrum. Schizophr.
+Res. 71, 249–262.
+Haznedar, M. M., Buchsbaum, M. S.,
+Wei, T. C., Hof, P. R., Cartwright,
+C., Bienstock, C. A., and Hollander,
+E.
+(2000).
+Limbic
+circuitry
+in
+patients with autism spectrum dis-
+orders studied with positron emis-
+sion tomography and magnetic res-
+onance imaging. Am. J. Psychiatry
+157, 1994–2001.
+Henson, R. N., Rugg, M. D., Shallice,
+T., Josephs, O., and Dolan, R. J.
+(1999). Recollection and familiarity
+in recognition memory: an event-
+related functional magnetic reso-
+nance imaging study. J. Neurosci. 19,
+3962–3972.
+Hill,E.,Berthoz,S.,and Frith,U. (2004).
+Brief report: cognitive processing of
+own emotions in individuals with
+autistic spectrum disorder and in
+their relatives. J. Autism Dev. Disord.
+34, 229–235.
+Ingvar, D. H. (1985). “Memory of the
+future”: an essay on the tempo-
+ral organization of conscious aware-
+ness. Hum. Neurobiol. 4, 127–136.
+Just, M. A., Cherkassky, V. L., Keller, T.
+A., and Minshew, N. J. (2004). Cor-
+tical activation and synchronization
+during sentence comprehension in
+high-functioning autism: evidence
+of underconnectivity. Brain 127,
+1811–1821.
+Kjaer, T. W., Bertelsen, C., Piccini, P.,
+Brooks, D., Alving, J., and Lou, H. C.
+(2002a). Increased dopamine tone
+during meditation-induced change
+of consciousness. Brain Res. Cogn.
+Brain Res. 13, 255–259.
+Kjaer, T. W., Nowak, M., and Lou,
+H.
+C.
+(2002b).
+Reﬂective
+self-
+awareness and conscious states: PET
+evidence for a common midline
+parietofrontal core. Neuroimage 17,
+1080–1086.
+Kjaer, T. W., and Lou, H. C. (2000).
+Interaction between precuneus and
+dorsolateral prefrontal cortex may
+play a unitary role in consciousness:
+a principal component analysis of
+rCBF. Conscious. Cogn. 9, S59.
+Kringelbach,
+M.
+L.
+(2005).
+The
+orbitofrontal cortex: linking reward
+to hedonic experience. Nat. Rev.
+Neurosci. 6, 691–702.
+Kringelbach, M. L., and Berridge, K. C.
+(2009). Towards a functional neu-
+roanatomy of pleasure and happi-
+ness. Trends Cogn. Sci. (Regul. Ed.)
+13, 479–487.
+Kringelbach, M.
+L., Green, A.
+L.,
+and Aziz, T. Z. (2011). Balanc-
+ing the brain: resting state net-
+works and deep brain stimula-
+tion. Front. Integr. Neurosci. 5:8.
+doi:10.3389/fnint.2011.00008
+Kringelbach, M. L., Green, A. L., Owen,
+S. L., Schweder, P. M., and Aziz, T. Z.
+(2010).Singthemindelectric–prin-
+ciples of deep brain stimulation. Eur.
+J. Neurosci. 32, 1070–1079.
+Kringelbach,
+M.
+L.,
+Lehtonen,
+A.,
+Squire, S., Harvey, A. G., Craske,
+M. G., Holliday, I. E., Green, A.
+L., Aziz, T. Z., Hansen, P. C., Cor-
+nelissen, P. L., and Stein, A. (2008).
+A speciﬁc and rapid neural sig-
+nature for parental instinct. PLoS
+ONE 3, e1664. doi:10.1371/jour-
+nal.pone.0001664
+Kringelbach,
+M.
+L.,
+and
+Rolls,
+E.
+T.
+(2004).
+The
+functional
+neuroanatomy
+of
+the
+human
+orbitofrontal
+cortex:
+evidence
+from
+neuroimaging
+and
+neu-
+ropsychology. Prog. Neurobiol. 72,
+341–372.
+Lam,
+K.,
+Kakigi,
+R.,
+Kaneoke, Y.,
+Naka, D., Maeda, K., and Suzuki,
+H. (1999). Effects of visual and
+www.frontiersin.org
+December 2011 | Volume 2 | Article 366 | 7
+
+Lou et al.
+Yoga lessons for consciousness research
+auditory stimulation on somatosen-
+sory evoked magnetic ﬁelds. Clin.
+Neurophysiol. 110, 295–304.
+Libet,B.(1982).Brainstimulationinthe
+study of neuronal functions for con-
+scious sensory experiences. Hum.
+Neurobiol. 1, 235–242.
+Logothetis, N. K., and Wandell, B. A.
+(2004). Interpreting the BOLD sig-
+nal. Annu. Rev. Physiol. 66, 735–769.
+Lou, H. C. (2011). Paradigm shift in
+consciousness research: the child’s
+self-awareness and abnormalities in
+autism, ADHD, and schizophrenia.
+Acta Paediatr. doi: 10.1111/j.1651-
+2227.2011.02456.x. [Epub ahead of
+print].
+Lou, H. C., Gross, J., Biermann-Ruben,
+K., Kjaer, T. W., and Schnitzler,
+A. (2010). Coherence in conscious-
+ness: paralimbic gamma synchrony
+of
+self-reference
+links
+conscious
+experiences. Hum. Brain Mapp. 31,
+185–192.
+Lou, H. C., Joensson, M., Biermann-
+Ruben,K.,Schnitzler,A.,Ostergaard,
+L.,Kjaer,T. W.,and Gross,J. (2011a).
+Recurrent activity in higher order,
+modality non-speciﬁc brain regions:
+a Granger causality analysis of auto-
+biographic memory retrieval. PLoS
+ONE 6, e22286. doi:10.1371/jour-
+nal.pone.0022286
+Lou,H.C.,Skewes,J.C.,Thomsen,K.R.,
+Overgaard, M., Lau, H. C., Mourid-
+sen, K., and Roepstorff, A. (2011b).
+Dopaminergic stimulation enhances
+conﬁdence and accuracy in seeing
+rapidly presented words. J. Vis. 11,
+1–6.
+Lou, H. C., Kjaer, T. W., Friberg, L.,
+Wildschiodtz, G., Holm, S., and
+Nowak, M. (1999). A 15O-H2O PET
+study of meditation and the resting
+state of normal consciousness. Hum.
+Brain Mapp. 7, 98–105.
+Lou, H. C., Luber, B., Crupain, M.,
+Keenan, J. P., Nowak, M., Kjaer, T.
+W.,Sackeim,H.A.,and Lisanby,S.H.
+(2004). Parietal cortex and represen-
+tation of the mental Self. Proc. Natl.
+Acad. Sci. U.S.A. 101, 6827–6832.
+Maguire, E. A., Frith, C. D., and Mor-
+ris, R. G. (1999). The functional
+neuroanatomy of comprehension
+and memory: the importance of
+prior knowledge. Brain 122(Pt 10),
+1839–1850.
+McDermott, K. B., Ojemann, J. G.,
+Petersen, S. E., Ollinger, J. M., Sny-
+der, A. Z., Akbudak, E., Conturo, T.
+E., and Raichle, M. E. (1999). Direct
+comparison of episodic encoding
+and retrieval of words: an event-
+related fMRI study. Memory
+7,
+661–678.
+Mesulam,M.M.(1998).Fromsensation
+to cognition. Brain 121, 1013–1052.
+Mesulam, M. M. (1999). Spatial atten-
+tion and neglect: parietal, frontal
+and cingulate contributions to the
+mental representation and atten-
+tional targeting of salient extraper-
+sonal events. Philos. Trans. R. Soc.
+Lond. B Biol. Sci. 354, 1325–1346.
+Nauta, W. J. (1971). The problem of
+the frontal lobe: a reinterpretation.
+J. Psychiatr. Res. 8, 167–187.
+Northoff, G., and Bermpohl, F. (2004).
+Cortical midline structures and the
+self. Trends Cogn. Sci. (Regul. Ed.) 8,
+102–107.
+Quinette, P., Guillery, B., Desgranges,
+B., de la Sayette, V., Viader, F., and
+Eustache, F. (2003). Working mem-
+ory and executive functions in tran-
+sient global amnesia. Brain 126,
+1917–1934.
+Raichle, M. E., MacLeod, A. M., Snyder,
+A. Z., Powers, W. J., Gusnard, D. A.,
+and Shulman,G. L. (2001). A default
+mode of brain function. Proc. Natl.
+Acad. Sci. U.S.A. 98, 676–682.
+Rømer Thomsen, K., Lou, H. C., Joens-
+son,M.,Hyam,J.A.,Holland,P.,Par-
+sons, C. E., Young, K. S., Møller, A.,
+Stein, A., Green, A. L., Kringelbach,
+M. L., and Aziz, T. Z. (2011). Impact
+of emotion on consciousness: pos-
+itive
+stimuli
+enhance
+conscious
+reportability. PLoS ONE 6, e18686.
+doi:10.1371/journal.pone.0018686
+Schiff, N. D. (2008). Central thalamic
+contributions to arousal regulation
+and neurological disorders of con-
+sciousness.Ann.N.Y.Acad.Sci.1129,
+105–118.
+Schmitt, G. J., Frodl, T., Dresel, S., la
+Fougere, C., Bottlender, R., Kout-
+souleris, N., Hahn, K., Moeller, H. J.,
+and Meisenzahl, E. M. (2006). Stri-
+atal dopamine transporter availabil-
+ity is associated with the produc-
+tive psychotic state in ﬁrst episode,
+drug-naïve schizophrenic patients.
+Eur. Arch. Psychiatry Clin. Neurosci.
+256, 115–121.
+Tononi, G., and Edelman, G. M. (1998).
+Consciousness and complexity. Sci-
+ence 282, 1846–1851.
+Tsuchiya, N., and Adolphs, R. (2007).
+Emotion and consciousness. Trends
+Cogn. Sci. (Regul. Ed.) 11, 158–167.
+Tulving, E. (2002). Episodic memory:
+from mind to brain. Annu. Rev.
+Psychol. 53, 1–25.
+Vogeley,
+K.,
+May,
+M.,
+Ritzl,
+A.,
+Falkai, P., Zilles, K., and Fink,
+G. R. (2004). Neural correlates
+of
+ﬁrst-person
+perspective
+as
+one constituent of human self-
+consciousness. J. Cogn. Neurosci. 16,
+817–827.
+Wiggs, C. L., Weisberg, J., and Mar-
+tin, A. (1999). Neural correlates
+of semantic and episodic mem-
+ory retrieval. Neuropsychologia 37,
+103–118.
+Conﬂict of Interest Statement: The
+authors declare that the research was
+conducted
+in
+the
+absence
+of
+any
+commercial or ﬁnancial relationships
+that could be construed as a potential
+conﬂict of interest.
+Received: 04 October 2011; accepted: 21
+November 2011; published online: 16
+December 2011.
+Citation: Lou HC, Joensson M and
+Kringelbach ML (2011) Yoga lessons
+for consciousness research: a paralim-
+bic network balancing brain resource
+allocation. Front. Psychology 2:366. doi:
+10.3389/fpsyg.2011.00366
+This article was submitted to Frontiers
+in Consciousness Research, a specialty of
+Frontiers in Psychology.
+Copyright © 2011 Lou, Joensson and
+Kringelbach. This is an open-access
+article
+distributed
+under
+the
+terms
+of the Creative Commons Attribution
+Non Commercial License, which per-
+mits non-commercial use, distribution,
+and reproduction in other forums, pro-
+vided the original authors and source are
+credited.
+Frontiers in Psychology | Consciousness Research
+December 2011 | Volume 2 | Article 366 | 8

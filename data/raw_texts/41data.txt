@@ -1,0 +1,1137 @@
+REVIEW
+published: 29 August 2017
+doi: 10.3389/fnsys.2017.00064
+From Cortical Blindness to
+Conscious Visual Perception:
+Theories on Neuronal Networks
+and Visual Training Strategies
+Vanessa Hadid 1 and Franco Lepore 2*
+1Département de Sciences Biomédicales, Université de Montréal, Montréal, QC, Canada, 2Centre de Recherche en
+Neuropsychologie et Cognition (CERNEC), Département de Psychologie, Université de Montréal, Montréal, QC, Canada
+Edited by:
+Lionel G. Nowak,
+UMR5549 Centre de Recherche
+Cerveau et Cognition (CerCo), France
+Reviewed by:
+Wioletta Joanna Waleszczyk,
+Nencki Institute of Experimental
+Biology, Poland
+Alessia Celeghin,
+University of Turin, Italy
+*Correspondence:
+Franco Lepore
+franco.lepore@umontreal.ca
+Received: 25 January 2017
+Accepted: 11 August 2017
+Published: 29 August 2017
+Citation:
+Hadid V and Lepore F (2017) From
+Cortical Blindness to Conscious
+Visual Perception: Theories on
+Neuronal Networks and Visual
+Training Strategies.
+Front. Syst. Neurosci. 11:64.
+doi: 10.3389/fnsys.2017.00064
+Homonymous hemianopia (HH) is the most common cortical visual impairment leading
+to blindness in the contralateral hemiﬁeld. It is associated with many inconveniences
+and daily restrictions such as exploration and visual orientation difﬁculties. However,
+patients with HH can preserve the remarkable ability to unconsciously perceive visual
+stimuli presented in their blindﬁeld, a phenomenon known as blindsight. Unfortunately,
+the nature of this captivating residual ability is still misunderstood and the rehabilitation
+strategies in terms of visual training have been insufﬁciently exploited. This article
+discusses type I and type II blindsight in a neuronal framework of altered global
+workspace, resulting from inefﬁcient perception, attention and conscious networks. To
+enhance synchronization and create global availability for residual abilities to reach visual
+consciousness, rehabilitation tools need to stimulate subcortical extrastriate pathways
+through V5/MT. Multisensory bottom-up compensation combined with top-down
+restitution training could target pre-existing and new neuronal mechanisms to recreate
+a framework for potential functionality.
+Keywords:
+cortical
+blindness,
+hemianopia,
+blindsight,
+neuronal
+substrates,
+global
+workspace
+theory,
+rehabilitation, multisensory training, visual training strategies
+FROM CORTICAL BLINDNESS TO AWARENESS:
+UNDERSTANDING BLINDSIGHT BEYOND THE FIRST SIGHT
+Cortical Blindness
+Normal vision in humans is primarily mediated by the geniculo-striate pathway where the
+visual information is processed in a hierarchical order via the retina, the lateral geniculate
+nucleus (LGN) and the striate cortex. Once the primary characteristics of visual information are
+processed, visual connections are sent to the parietal cortex involved in spatial attention and
+action (dorsal pathway) and to the temporal cortex involved in recognition and identification
+(ventral pathway). Following post-chiasmatic lesions inducing an alteration in the geniculo-striate
+pathway, a contralateral cortical blindness (CB) occurs, either as a result of a neurophysiologic
+disorder requiring surgical interventions of V1, or mainly subsequent to a stroke affecting
+the posterior visual cortex (Sand et al., 2013, for review, see Goodwin, 2014). Depending on
+the extent of the lesioned cortex, the visual field deficit may correspond to a CB of a few
+degrees (scotoma), a quarter of a hemifield (quadranopsia) or an entire hemifield (hemianopsia;
+for review see Swienton and Thomas, 2014). The homonymous hemianopsia (HH) is the
+Frontiers in Systems Neuroscience | www.frontiersin.org
+1
+August 2017 | Volume 11 | Article 64
+
+Hadid and Lepore
+Cortical Blindness to Visual Perception
+most common visual cortical deficit representing 10% of stroke
+cases, with little more than 70,000 new cases per year in the
+US (Zhang et al., 2006; Mozaffarian et al., 2016). Moreover,
+more than 500,000 Americans live with a HH and this deficit
+reduces significantly their quality of life, for example preventing
+them from driving and, decreasing their reading, orientation and
+exploration visuo-spatial abilities (Perez and Chokron, 2014).
+In addition, due to comorbidity, HH significantly reduces the
+prognosis and the possibility of recovery from other damaged
+functions after stroke, including motor skills (Patel et al., 2000).
+As only a small minority experiences spontaneous recovery,
+possible within the first 6 months (Duquette and Baril, 2009),
+it is crucial to rehabilitate these individuals during this time.
+Unfortunately, with the exception of the vision restitution
+therapy (VRT) approved by the FDA due to its therapeutic
+potential (Sabel et al., 2005; Kasten et al., 2006), yet controversial
+on the benefits in terms of pure visual restitution (Horton,
+2005a,b; Bouwmeester et al., 2007; Melnick et al., 2016), there
+are very few available resources for clinical interventions. This
+may be due to a lack of consensus in the literature caused
+by inconsistent results across the target population, differences
+between protocols used in research and an inefficient vision
+recovery (Pollock et al., 2011; for reviews see Riggs et al.,
+2007; Pouget et al., 2012). Furthermore, there is so much inter-
+individual variability in the origin and extent of lesions that
+most probably plasticity in the visual system is heterogeneous
+throughout the population. This leads us to the question: is visual
+recovery in cortically blind individuals possible with strategic
+rehabilitation? In theory, it would be conceivable, in the light of
+a well-documented preserved visual ability in CB referred to as
+blindsight, where visual information is processed in the blindfield
+without the knowledge of visual awareness (Weiskrantz et al.,
+1974).
+In a behavioral perspective, blindsight is the dissociation
+between what is reported subjectively, for example, the subject
+states not seeing anything in the usual scale of binary report
+(seen, not seen), and what is measured objectively, i.e., the rate
+of correct answers in the two-alternative forced-choice paradigm
+is above the chance level. The first extended precepts of the
+phenomenon are described from the results obtained on GY
+who had a trauma affecting the striate cortex at a young age
+(Barbur et al., 1980; de Gelder et al., 1999; Kentridge et al.,
+2004) and DB who required a removal of V1 at an adult age
+(Weiskrantz, 1987; Tamietto et al., 2009). Blindsight includes
+the unconscious ability to be able to locate random targets by
+reaching or pointing at them, to determine the presence or
+absence of visual targets, to have a considerable visual acuity
+mainly for low spatial frequencies, to discriminate directions
+(Weiskrantz, 1986), to recognize colors (Brent et al., 1994),
+to detect global movement, to distinguish between coherence
+(Alexander and Cowey, 2009; Pavan et al., 2011) and to recognize
+facial expressions (de Gelder et al., 1999). However, it has
+been found that high contrast and fast movement stimuli could
+induce sensations described as something elusive that happened
+in the blind hemifield. Accordingly, a distinction has been
+made between type I blindsight, i.e., absolute blindness without
+conscious awareness, and type II blindsight, i.e., blindness with
+awareness but no visual qualia (Lau and Passingham, 2006). In
+fact, attempting to understand the intrinsic process governing
+this unconscious vision has been the foundation of many theories
+(Smythies, 1999; Kanemoto, 2004; Zeman, 2004).
+Fine Line between Type I and Type II
+Blindsight
+It was in 1917 that the first evidence of a residual visual
+ability in the blindfield emerged when a patient reported visual
+sensation specifically to motion. This non absolute blindness
+sustained a form of visual qualia called the Riddoch Syndrome
+(Riddoch, 1917). Keeping this in mind, the notion of visual
+qualia is quite important to consider in blindsight studies,
+especially when considering blindsight type II because even if
+some kind of awareness remains it has to be dissociated from
+visual awareness (Ko and Lau, 2012) which we will discuss
+further on. Subsequently, the characterization and understanding
+of the dissociation between type I blindsight and type II is
+controversial, due to the fact that only a few studies have been
+able to demonstrate a correlation between the loss of the striate
+cortex, the takeover of secondary visual pathways and the state of
+visual consciousness (for review see Leopold, 2012). The problem
+that arises with respect to blindsight is to figure out which
+hypothesis could best explain the phenomenon: (1) a degraded
+normal vision; (2) an unconscious vision; and (3) a degraded
+abnormal vision.
+1. Degraded normal vision occurs when visual stimuli are
+processed through the primary visual pathway, but do not
+reach the threshold of full visual awareness. In fact, in
+some cases, spared islands of the striate cortex explain the
+residual visual capabilities found in HH (Fendrich et al., 1992,
+2001). However, several patients may present blindsight in
+the absence of a functional striate cortex (Morland et al.,
+2004; Ajina et al., 2015b; Mazzi et al., 2016), regardless of
+the state of awareness (Ffytche and Zeki, 2011). Though we
+should not overlook the importance of targeting vestiges of
+V1 in rehabilitation strategies, we must be able to stimulate
+the secondary visual pathways bypassing V1 potentially
+responsible for type I and II blindsight. Therefore, we need to
+understand the mechanisms governing the two forms of this
+phenomenon.
+2. Unconscious vision has been showcased by proving that
+residual abilities in HH do not follow the same rules
+as it is qualitatively different from that of the conscious
+normal vision (Weiskrantz, 2009). In fact, for certain
+visual stimulations, the performance in the blind side is
+better than the one in the normal side (Trevethan et al.,
+2007). For example, unlike normal vision, performance in
+a task of exclusion is inversely correlated to the stimuli’s
+contrasts (Persaud and Cowey, 2008), there is a clear
+abnormal distinction between choice-forced and detection
+performances (Azzopardi and Cowey, 1997) and some
+physical attributes are processed in the blind hemifield,
+while others are not (Morland et al., 1999; Kentridge et al.,
+2007). Taken together, these studies provide robust evidences
+to the hypothesis that blindsight is different from normal
+Frontiers in Systems Neuroscience | www.frontiersin.org
+2
+August 2017 | Volume 11 | Article 64
+
+Hadid and Lepore
+Cortical Blindness to Visual Perception
+vision and is not simply a form of degraded normal vision.
+However, they have assumed that this abnormal vision is
+unconscious, whereas an abnormal degraded vision could
+also explain the behavioral results. In fact, unconscious and
+degraded abnormal vision can both make reference to a
+vision qualitatively different from normal vision mediated
+by secondary neurophysiological correlates, but that differ in
+terms of conscious subjectivity and the nature of the sensation.
+3. Some authors refute the theory of unconscious vision by
+stating that the residual visual capabilities are due to a
+degraded abnormal vision that does not reach the threshold
+of detection (Overgaard and Grünbaum, 2011; Mazzi et al.,
+2016). In GR and SL case studies, with complete lesion
+to the striate cortex, the perceptual awareness scale (PAS)
+was used to allow a subjective finer report based on four
+indices, instead of the usual scale of binary report (seen,
+not seen). This showed that patients tend to have a higher
+threshold to acknowledge that something is conscious if the
+criterions are not based on a scale of consciousness. In fact,
+after using the PAS, awareness was better than what the
+theory of unconsciousness would have predicted (Overgaard
+et al., 2008; Mazzi et al., 2016). They concluded that type I
+blindsight can be wrongly considered as unconscious; instead
+it seems that above chance level performance comes with
+conscious perception. Therefore GR and SL do not have
+blindsight, rather they have conscious vision. Their results
+agree with the continuum perception theory, where there
+is a correlation between increased visual sensitivity and
+higher brain activity. In the normal population, results are
+contradictory depending on the paradigm used. For example,
+when using masked stimuli, results tend to suggest that
+performance can’t exist without awareness and that if the
+reverse is often inferred, it is due to visual bias induced
+by inappropriate methodological tools measuring awareness.
+Moreover, even among the ideal model, performance is
+greater than awareness in a non-linear relationship where
+the threshold for perception is inferior to the one for
+awareness which could explain why in altered perception,
+the state of consciousness decreases more rapidly than the
+performance. Thus, even if performance is accompanied
+by awareness, the latter can be wrongly underestimated
+without the appropriate tools, since thresholds for explicit
+visual consciousness is not reached (Peters and Lau, 2015).
+Therefore, is it possible that blindsight consists of an abnormal
+conscious degraded vision mediated by secondary visual
+pathways? If this extrapolation is accurate, we nevertheless
+disagree with the conclusion of Mazzi et al. (2016) that
+SL’s residual abilities are due to conscious vison inducing
+visual qualia, thus inferring that in such case there is no
+such thing as blindsight. First, blindsight was employed to
+explain an ability which was phenomenologically different
+from blindness and sight, and can be referred to as the
+loss of visual function that is accompanied by altered
+‘‘sight’’. Second, SL had the feeling that something happened
+in her blindfield; however she couldn’t visually describe
+what she saw. Can we say that she showed a form of
+consciousness? Yes. Can we conclude that the nature of
+the feeling is visual? Not so much. The scale evaluated the
+following perceptual judgments as: ‘‘(1) no experience of
+the stimulus; (2) brief glimpse; (3) almost clear experience;
+and (4) clear experience’’ (Mazzi et al., 2016). There was
+never a reference to the nature of the visual stimuli, or even
+to what was seen, contrarily to the Riddoch phenomenon
+where visual qualia of motion was described (Riddoch, 1917).
+While we agree that the use of the PAS allows patients to
+‘‘pay more attention’’, subsequently giving more insight on
+residual abilities and potential tools to rehabilitation, it’s
+nevertheless insufficient to conclude on the nature of the
+awareness and the continuum scale of perception. In fact,
+others have also used a continuous scale to assess visual
+awareness and showed that either the visual stimuli presented
+in the attentional blink was completely perceived or not
+detected at all independently of stimuli visibility (Sergent and
+Dehaene, 2004a). The non-perceived stimuli in the attentional
+blink were correlated with suppression of the P300 wave,
+and a dynamic change in brain oscillations indicating that
+perception without consciousness has distributed neuronal
+correlates (Kranczioch et al., 2007). Unfortunately, the
+neuronal correlates underlying theses controversial residual
+abilities has yet to be explained.
+An Unsynchronized Framework for
+Blindsight
+This article supports the global neuronal workspace framework
+as a model for conscious and unconscious vision (Sergent
+and Dehaene, 2004b). Thus, in alignment with promising
+views on ‘‘local’’ and ‘‘global’’ visual functions in blindsight
+(Silvanto, 2015), blindsight can be understood as a lack of
+synchronization in neuronal activity (Melloni et al., 2007)
+and rapid globalization for specific visual properties between
+altered perception processors (neuronal networks implicated
+in bottom-up activity and visual performances), attention
+processors (systems of complex neuronal association that allow
+perceptual information to access consciousness) and conscious
+processors (workspace neurons for awareness via top-down
+activity). Moreover, because the attention network can interact
+with the perception network without creating any kind of
+visual awareness, it is most probable that the perception
+workspace can send projections to the attention workspace
+without creating any attentional awareness. This phenomenon
+recently called attentional unawareness was hypothesized in
+blindsight patient for emotional stimuli, subsequent to studies in
+normal vision (for review see Diano et al., 2016). In this context,
+it would be conceivable to induce learning effect resulting in
+awareness, and moreover visual consciousness, if attentional
+and perceptual feedforward and feedback connections were
+simultaneously stimulated. This would lead to synchronization
+enhancement and would allow cascading amplification resulting
+in long-distance reciprocal connections and global availability
+(Dehaene et al., 1998). Indeed, attention is necessary to visual
+consciousness even if not sufficient (Kentridge et al., 2004;
+Schurger et al., 2008; Yoshida et al., 2012). Visual consciousness
+would be mediated by top-down activity through connections
+Frontiers in Systems Neuroscience | www.frontiersin.org
+3
+August 2017 | Volume 11 | Article 64
+
+Hadid and Lepore
+Cortical Blindness to Visual Perception
+between higher and lower perception processors, as well as
+between perception, attention and conscious processors creating
+a global workspace. As a result, the inability of cortically blind
+people to describe what is presented in their blindfield could be
+linked to a lack of global availability of the global workspace
+due to inefficient looping among the altered perception and
+attention processors and interaction with the conscious network.
+Hence, according to the global workspace, blindsight could
+be mediated by secondary visual pathways that activate the
+neuronal perception and attention networks insufficiently and
+only locally, without sending long ranging connections to
+other networks in the brain therefore suppressing visual qualia
+which could explain the above-chance visual performances in
+choice-forced paradigms. Consequently, in type I blindsight, the
+neuronal network generates sufficient activity to process the
+stimulus, however the neuronal pattern required for phenomenal
+consciousness is insufficient. In type II blindsight, activity is
+sufficient to create a sense of awareness, perhaps due to the
+activation of local conscious processors, but it doesn’t reach the
+threshold for global availability (see Figure 1).
+Nonetheless, all residual visual abilities found in CB are not
+necessarily due to blindsight, in the contrary it could be linked to
+degraded normal or abnormal vision, as we discussed previously.
+In reality multiple networks can co-exist, vary in function of the
+lesions and express themselves depending on the stimulation or
+given paradigm. In literature, the term blindsight lacks clarity
+because it refers to several types of visions, mechanisms and
+correlates all at once. Residual visual abilities are found only in
+a few individuals with CB. However, it is more than possible that
+co-existent residual secondary pathways arise together (Tamietto
+and Morrone, 2016), but when cortical alterations are too
+diffuse residual pathways aren’t activated strongly enough to
+induce residual vision. Therefore, a same individual could have
+multiple types of residual visual abilities or the potential to
+develop them with training. Thus, we propose the following
+terminology:
+1. Degraded visual abilities consist of a degraded normal vision
+caused by vestiges of the striate cortex. It is linked to reduced
+performances and/or visual awareness that are qualitatively
+similar to normal vision but quantitatively poorer.
+2. Blindsight consists of an unconscious vision mediated
+by secondary visual pathways bypassing V1 independent
+of visual awareness. It could be explained by inexistent
+(blindsight type I) or not optimal synchronization (blindsight
+type II) between the perception, attention and conscious
+networks.
+3. Alternative visual abilities consist of an abnormal degraded
+vision which is qualitatively different from normal vision but
+is associated with visual awareness mediated by secondary
+visual pathways that can’t be explained by the activity of the
+striate cortex.
+FIGURE 1 | An illustrative schematic of the proposed model for unsynchronized framework for blindsight (inspired from Dehaene et al., 1998). The gray circles
+represent neuronal processors that are activated in normal vision and the gray lines their respective connections. The black circles illustrates the neuronal processors
+that underlies blindsight and the black lines their respective connections. Blindsight can be understood as an alteration in the perception and attentional systems,
+therefore inactivating the long-range workspace connectivity, global availability and conscious visual perception. The lack of visual awareness is due to a non-efﬁcient
+global workspace. Awareness found in blindsight type II, could be linked to some long-range connectivity between the perception, attention and consciousness
+workspaces without activating the global workspace.
+Frontiers in Systems Neuroscience | www.frontiersin.org
+4
+August 2017 | Volume 11 | Article 64
+
+Hadid and Lepore
+Cortical Blindness to Visual Perception
+The idea is to understand how we can pass from blindsight
+type I, to blindsight type II to an alternative visual ability. In
+other terms how can we pass from a state of no awareness to a
+state of awareness and finally to visual awareness by stimulating
+secondary visual pathways?
+NEURONAL SUBSTRATES UNDERLYING
+THE FRAMEWORK OF BLINDSIGHT
+Geniculo-Extrastriate Pathway: A Door to
+Perception
+The geniculo-extrastriate pathway is a perfect candidate to
+our altered perception workspace. Its existence implies that
+V1 lesions do not lead to a complete degeneration of the LGN,
+and that koniocellular projections are sent to the secondary
+extrastriate regions, such as MT (Warner et al., 2010). In
+macaques with no striate cortex (eliminating the possibility
+of V1 islands) there is a causal link between the LGN and
+blindsight (Schmid et al., 2010). In fact, by presenting high
+contrasts stimuli in the blindfield, the authors have observed
+visual processing corresponding to blindsight, correlated with
+fMRI activations in several areas including extrastriate region
+MT. By inactivating the LGN, the neuronal activations and
+the residual detection skills were abolished (Schmid et al.,
+2010). Also in macaques, direct koniocellular projections
+were found between the LGN and MT corroborated by a
+retrograde technique of tracing and histological sections. In
+addition, a new neuronal population, not belonging to the
+koniocellular system, has been discovered in the intercalated
+layers of the LGN (Sincich et al., 2004). Interestingly, in
+humans MT (hMT+) acts similarly to V1 when presented
+with global motion (Ajina et al., 2015a). This highlights the
+role of existing subcortical visual pathways in blindsight,
+which was specifically and exclusively correlated with the
+presence of the geniculo-extrastriate pathway (Ajina et al.,
+2015b). However, in this study, blindsight was assessed with
+a motion task; it is possible that the correlation existed just
+for the geniculo hMT+ pathway because the psychophysical
+measure was specific to this pathway. Blindsight negative
+individuals were categorized as such using the same task,
+nonetheless they could have exhibited blindsight using saccadic
+localization of a brief visual flash, or using indirect methods
+where reaction time to stimuli presented in the normal field
+are enhanced by stimuli presented in the blindfield. We
+extrapolate a possible correlation between blindsight positive
+individuals derived from such paradigms and the colliculo-
+extrastriate pathway or interhemispheric connections between
+hMT+, respectively.
+Colliculo-Pulvinar-Extrastriate Pathway: A
+Door to Integration and Attention
+The implication of the superior colliculus (SC) in blindsight is
+strongly corroborated with behavioral data. More specifically, the
+physical parameters of stimuli inducing blindsight correspond
+specifically to the inherent characteristics of the SC neurons
+(Leh et al., 2010; Tamietto et al., 2010). For example, the lack
+of projections from the short-wavelength sensitive cones of the
+retina towards SC neurons is associated with blindness to blue
+(Leh et al., 2010; Tamietto and de Gelder, 2010). Consequently,
+when the color blue is used instead of red or an achromatic
+visual stimulation, then blindsight and activations of the SC
+disappears. From a functional point of view, an association
+between the collicular pathway and type I blindsight was found
+in a hemispherectomized patient, as well as interhemispheric
+connections extending from the SC to the visual, parietal and
+prefrontal, areas (Leh et al., 2006). Even if the SC could relay
+to the extrastriate cortex via colliculo-geniculate projections
+(Harting et al., 1991), Lyon et al. (2010), have demonstrated
+projections from the SC to V3 and V5/MT throughout the
+pulvinar in macaques assessing the possibility that blindsight
+could be mediated by relays ranging from the SC to the pulvinar
+and the dorsal pathway similar to the magnocellular pathway
+involved in movement and ocular orientations. We postulate
+that the subcortical extrastriate pathway passing by the SC and
+the pulvinar serves attentional workspaces and can be enhanced
+with multisensory stimulations. In fact, bimodal neurons of the
+SC respond to audio-visual stimuli by fortifying extrastriate
+pathways (Stein and Rowland, 2011; Paraskevopoulos et al.,
+2012). Moreover, the SC is responsible for ocular movements
+in the centers of attention becoming faster and more accurate
+with repetitive multisensory stimulations (Corneil et al., 2002;
+Bell et al., 2005; Gingras et al., 2009). Training of the oculomotor
+track could allow a potential increase in allocation of attention
+in the blind hemifield, which is necessary to perception and
+visual consciousness. On another note, it seems that the
+pulvinar can perform higher order visual processing, as motion-
+selectivity and emotional processing for the former (Villeneuve
+et al., 2005; Maior et al., 2010) so can the SC, as Gestalt
+like analysis associated with faster responses for stimuli with
+specific configuration and numerosity (Celeghin et al., 2015a;
+Georgy et al., 2016). Other studies demonstrated activations,
+projections and connections from the SC and the pulvinar to the
+amygdala when unconscious visual emotional stimuli occurred
+in hemispherectomized patients (de Gelder et al., 1999; Morris
+et al., 2001; Tamietto et al., 2012; Celeghin et al., 2015b).
+Therefore specific perceptual training could directly target these
+structures and reinforce subcortical pathways bypassing V1,
+hence the idea of combining different types of visual training.
+Multiple Workspaces of Consciousness
+We hypothesize that consciousness and moreover visual
+consciousness is mediated by multiple workspaces interacting
+together. Conscious processors can be mediated by interactions
+of the fronto-parietal and prefrontal network (Zeman, 2004;
+Persaud et al., 2011) with higher visual areas (Dehaene and
+Changeux, 2011), and visual conscious processors by the
+thalamic reticular network (Min, 2010). Consciousness, and
+more specifically visual consciousness can be achieved with
+feedforward and feedback connections from higher to lower
+visual areas (for review see Urbanski et al., 2014). An alteration
+in feedback loops and synchronization between high cognitive
+areas and visual areas could lead to a lack of awareness (blindsight
+type I). Between higher and lower visual areas inefficient
+Frontiers in Systems Neuroscience | www.frontiersin.org
+5
+August 2017 | Volume 11 | Article 64
+
+Hadid and Lepore
+Cortical Blindness to Visual Perception
+long ranging connections could lead to the lack of visual
+awareness found in type II blindsight. This blindsight model
+is subsequently the result of altered local workspaces that take
+over when a normal global network degenerates (Silvanto, 2015).
+Therefore, connectivity between new workspaces of perception
+and abnormal workspace of consciousness are weak and non-
+specific, due to a lack of visual learning reflected by a lack of
+appropriate synchronization. This unsynchronized framework
+between posterior and more anterior areas diminishes the visual
+sensitivity for motion stimuli in healthy subjects demonstrating
+precisely the effects of synchronization on V5 (Romei et al.,
+2016). Hence, the idea is to employ neurorehabilitation to target
+residual pathways passing by V5/MT, induce new connectivity
+between interhemispheric V5/MT areas (Bridge et al., 2008;
+Silvanto et al., 2009) and functional interactions within the
+lesioned hemisphere (Huxlin, 2008).
+A MODEL OF COMBINED INTERVENTIONS
+REINFORCING THE GLOBAL
+FRAMEWORK OF BLINDSIGHT
+Importance of the Subacute Period
+This section reports the estimated tools to promote plasticity
+following a CB and increase potential recovery of functional
+vision. First, future researches should emphasize the importance
+of stimulating visual pathways in the subacute period following
+the lesion (Alber et al., 2017) to notably reduce the degenerations
+of subcortical tracks (Nijboer et al., 2013) and increase the
+chances of visual improvement (Keller and Lefin-Rank, 2010).
+In fact, spontaneous restoration in the subacute phase is
+associated with a reactivation of V1, a restoration of the
+ipsilateral optical radiations and a progressive recovery of visual
+functions (for review see Matteo et al., 2016). An increase in
+spontaneous restoration could be induced with reinforcement of
+the residual tracks and recruitment of new ones by activating
+interhemispheric connections.
+The Value of Interhemispheric Connections
+It has been demonstrated that subsequent to a striate lesion,
+reorganization of the cerebral cortex in favor of the intact
+hemisphere induces V5/MT of the ipsilateral hemifield to
+project to V5/MT of the contralateral hemifield after stimulation
+of the blind field (Bridge et al., 2008). Moreover, in the
+lesioned hemisphere, there are areas that respond to stimulations
+presented in the normal hemifield, but not to stimulations
+in the blind hemifield (Kavcic et al., 2015). Simultaneous
+stimulation of the two hemifields could produce an effect of
+learning, allow for ipsilesional reorganization (Celeghin et al.,
+2015a) and would be essential to regain visual perception
+(Silvanto et al., 2007). Contralesional V5/MT activation induced
+by repetitive stimulation of the normal hemifield would allow
+reorganization and potentiation of the ipsilesional V5/MT
+via interhemispheric connections, and therefore gain new
+normal functionality instead of the ‘‘V1 like functions’’. In
+fact, we postulate that connections from the contralesional
+to the ipsilesional V5/MT could lower the threshold to
+induce global availability within the lesioned hemisphere by
+activating new processors in the lesioned hemisphere and/or
+by interhemispheric synchronization between workspaces. These
+results added to the proposed neuronal substrates of the global
+workspace seem to lead to the notion that V5/MT could be
+considered as the crossroad of residual abilities and should
+therefore be the central key to rehabilitation. Multisensory
+bottom-up activations mediated by the colliculo-extrastriate
+pathway could lead to V5/MT enhancement without the need of
+attentional processes.
+Enhancing Attention with Audio-Visual
+Training
+Reorganization following audio-visual stimulations allows a
+decrease of the ipsilesional attentional bias showed by a reduction
+in P300 amplitude (Dundon et al., 2015b), potentially moving the
+attentional capacities towards the blind hemifield. The role of the
+SC in this attentional process is particularly important, since such
+an effect is obtained by the intermediary of saccadic movements.
+This enhancement of attentional capacities, without prior visual
+attention needed, is exactly why rehabilitation tools should
+include audio-visual stimulation training (for review see Grasso
+et al., 2016) which has been associated with an improvement in
+visual detection and exploration (Bolognini et al., 2005; Leo et al.,
+2008; Passamonti et al., 2009), and in life quality (Roth et al.,
+2009). Although compensation therapies proved their reliability
+over more than two decades (Kerkhoff et al., 1992), they are still
+underestimated, due to very little clinical evidence of their impact
+(Pollock et al., 2011). For this reason, the use of multisensory
+bottom-up training in association with top-down training could
+lead to a higher chance of improving visual detection, localization
+and recognition.
+Re-Establishing Perception with
+Restitution Training
+Restitution techniques are effective if they aim typical visual
+attributes training specific to blindsight to expand over a
+large spectrum of visual characteristics and functions. For
+example, a transfer of information can be achieved by presenting
+simultaneous and diversified stimulations in the blindfield
+accompanied by temporal and spatial cues (Kentridge et al.,
+1999). As well, it would be possible to improve conscious
+visual detection performances with training of residual visual
+abilities (Chokron et al., 2008), to improve visual functions that
+are initially outside of the spatiotemporal band of blindsight
+by using double stimulations including complex motion and
+static stimuli presented in different positions in the blind field
+(Das et al., 2014). This improvement in perception is obtained
+when a transfer of information processing happens between
+different stimuli and experimental conditions (Huxlin et al.,
+2009), implying that the perception workspace is capable of
+great plasticity when it is targeted via different mechanisms.
+Restitution tools must therefore target multiple functions used
+in perception, that is to say: detection, localization, identification
+and discrimination, as well as functions used in consciousness,
+that is to say: a judgment on the nature and the level of visual
+Frontiers in Systems Neuroscience | www.frontiersin.org
+6
+August 2017 | Volume 11 | Article 64
+
+Hadid and Lepore
+Cortical Blindness to Visual Perception
+consciousness (Sahraie et al., 2013). Moreover, it is possible with
+repeated stimulation to increase visual sensitivity (Sahraie et al.,
+2006, 2010; Trevethan et al., 2012). This change in subjective
+awareness linked to the performance, highlights the possibility
+of a transfer from an unconscious vision (type I blindsight), to a
+state of awareness (type II blindsight), hence to a potential visual
+qualia (vision), which is encouraging in regards of rehabilitation
+tools (Sahraie et al., 2013). Taken together, these results imply
+that to gain vision, we have to trigger long-term plasticity by
+targeting multiple pathways and mechanisms together creating
+a synchronous activity through multiple processors of the
+blindsight framework. Thus, we endorse a combined strategy
+using multisensory compensation and restitution.
+Potential Effects of a Combined-Training
+within a Global Subcortical Framework of
+Blindsight
+Audio-Visual Scanning Training could allow feedforward
+interactions between the SC and V5/MT (Dundon et al., 2015a),
+causing V5/MT to increase its functional activity and potential to
+make stronger connections in the attentional workspace. When
+applied with restitution training, the increase in functionality
+could optimally reinforce the tracks between the LGN and
+V5/MT in the perception workspace (Ajina et al., 2015b), leading
+to more efficient interactions with lower and higher visual areas
+resulting in long-distance reciprocal connections and cascading
+amplification in the conscious workspace (see Figure 2).
+Therefore, a stimulation of the altered blindsight framework
+would allow attention and perception to enhance each other
+leading to a better access to consciousness by a decrease in the
+threshold of visual attention and discrimination. Lowering these
+thresholds implicates that the visual properties of a stimulus
+are prompt to be accessible to different areas of the brain
+making them more easily perceived and processed permitting
+awareness. This will be reflected by higher synchronization of
+neural activity in visual and higher cognitive areas which will
+induce global availability and possibly lead to conscious visual
+perception (Melloni et al., 2007). Finally, although the main focus
+of this review covered visual training, we can’t omit the potential
+benefit of pharmacological interventions (Gratton et al., 2017)
+and novel tools for neuromodulation used alone (Gall et al., 2015)
+or combined with vision restauration strategies, e.g., VRT with
+dtCS (Plow et al., 2011; Alber et al., 2017), that could target in
+different ways the global workspace. However, let’s keep in mind
+that prior to using any kind of neurostimulation it would be
+essential to use an efficient visual training that could facilitate
+rehabilitation at home.
+CONCLUSION
+The problem is to know how visual therapies can target
+residual visual abilities when neurophysiological correlates
+are so divergent between patients. Can we really use what
+we know of blindsight to develop rehabilitation tools? Our
+review explains how combined rehabilitation tools using visual
+training can enhance blindsight by targeting an inefficient
+FIGURE 2 | An illustrative schematic of the proposed hypothesis of the
+pathways involved in blindsight within the model of global workspace. In
+peach and green are represented the normal and lesioned hemispheres and
+subcortical areas projecting towards their respective hemispheres. The brown
+lines represent feedforward and feedback projections between workspaces.
+Enhancing the projections from the superior colliculus (SC)/pulvinar and the
+Lateral Geniculate Nucleus (LGN) to V5/MT and interhemispheric connections
+between V5/MT could allow synchronization between different areas, including
+the extrastriate regions, the dorsal pathways and the frontal areas, thus
+leading to more efﬁcient interactions between lower and higher visual areas
+resulting in long-distance reciprocal connections and cascading ampliﬁcation
+in the conscious workspace.
+global framework. Blindsight, defined as an unconscious residual
+visual ability, can come with or without awareness, but except
+in rare cases, doesn’t elicit visual awareness (Balsdon and
+Azzopardi, 2014). The reason why some patients may not
+present residual vision or awareness could include an inability
+to allocate sufficient attention to the information presented
+in the blind hemifield and to access their own state of
+consciousness. By understanding blindsight within the global
+workspace theory (Sergent and Dehaene, 2004b), we can define
+the lack of visual awareness as a lack of neuronal synchrony and
+global availability between inefficient workspaces of attention,
+perception and consciousness that we can target and optimize
+with rehabilitation tools. Therefore, it would be possible to
+pass from a state of no awareness (type I blindsight) to a
+Frontiers in Systems Neuroscience | www.frontiersin.org
+7
+August 2017 | Volume 11 | Article 64
+
+Hadid and Lepore
+Cortical Blindness to Visual Perception
+state of awareness (type II blindsight) to a state of visual
+awareness (alternative visual abilities) by moving the thresholds
+of attention, perception and consciousness via stimulation of
+the colliculo and geniculo-extrastriate pathways and creating
+connections between different processors. By doing so, we
+could target higher visual areas as V5/MT, induce loops with
+higher cognitive areas, synchronization of neuronal activity
+and global availability, and potentially it would lead to visual
+consciousness. These mechanisms can be targeted optimally in
+the subacute phase, using interhemispheric stimulations, Audio-
+Visual Scanning Training and combined restitution strategies,
+where several processes are enhanced at the same time inducing
+learning transfer and promoting the brain reorganization.
+The establishment of new guidelines in rehabilitation tools
+targeting the global framework of blindsight can lead to clinical
+intervention tools applicable to the majority of CB patients.
+AUTHOR CONTRIBUTIONS
+FL and VH: equal contribution for the literature search and
+article preparation.
+FUNDING
+The article was funded by the Canadian Institutes of Health
+Research.
+REFERENCES
+Ajina, S., Kennard, C., Rees, G., and Bridge, H. (2015a). Motion area V5/MT+
+response to global motion in the absence of V1 resembles early visual cortex.
+Brain 138, 164–178. doi: 10.1093/brain/awu328
+Ajina, S., Pestilli, F., Rokem, A., Kennard, C., and Bridge, H. (2015b). Human
+blindsight is mediated by an intact geniculo-extrastriate pathway. Elife
+4:e08935. doi: 10.7554/eLife.08935
+Alber, R., Moser, H., Gall, C., and Sabel, B. A. (2017). Combined transcranial
+direct current stimulation and vision restoration training in subacute stroke
+rehabilitation: a pilot study. PM&R doi: 10.1016/j.pmrj.2016.12.003 [Epub
+ahead of print].
+Alexander, I., and Cowey, A. (2009). The cortical basis of global motion detection
+in blindsight. Exp. Brain Res. 192, 407–411. doi: 10.1007/s00221-008-1508-4
+Azzopardi, P., and Cowey, A. (1997). Is blindsight like normal, near-threshold
+vision? Proc. Natl. Acad. Sci. U S A 94, 14190–14194. doi: 10.1073/pnas.94.25.
+14190
+Balsdon, T., and Azzopardi, P. (2014). Absolute and relative blindsight. Conscious.
+Cogn. 32, 79–91. doi: 10.1016/j.concog.2014.09.010
+Barbur, J. L., Ruddock, K. H., and Waterfield, V. A. (1980). Human visual
+responses in the absence of the geniculo-calcarine projection. Brain 103,
+905–928. doi: 10.1093/brain/103.4.905
+Bell, A. H., Meredith, M. A., Van Opstal, A. J., and Munoz, D. P. (2005).
+Crossmodal integration in the primate superior colliculus underlying the
+preparation and initiation of saccadic eye movements. J. Neurophysiol. 93,
+3659–3673. doi: 10.1152/jn.01214.2004
+Bolognini, N., Rasi, F., Coccia, M., and Làdavas, E. (2005). Visual search
+improvement in hemianopic patients after audio-visual stimulation. Brain 128,
+2830–2842. doi: 10.1093/brain/awh656
+Bouwmeester, L., Heutink, J., and Lucas, C. (2007). The effect of visual training
+for patients with visual field defects due to brain damage: a systematic review.
+J. Neurol. Neurosurg. Psychiatry 78, 555–564. doi: 10.1136/jnnp.2006.103853
+Brent, P. J., Kennard, C., and Ruddock, K. H. (1994). Residual colour vision in
+a human hemianope: spectral responses and colour discrimination. Proc. Biol.
+Sci. 256, 219–225. doi: 10.1098/rspb.1994.0073
+Bridge, H., Thomas, O., Jbabdi, S., and Cowey, A. (2008). Changes in connectivity
+after visual cortical brain damage underlie altered visual function. Brain 131,
+1433–1444. doi: 10.1093/brain/awn063
+Celeghin, A., Barabas, M., Mancini, F., Bendini, M., Pedrotti, E., Prior, M., et al.
+(2015a). Speeded manual responses to unseen visual stimuli in hemianopic
+patients: what kind of blindsight? Conscious. Cogn. 32, 6–14. doi: 10.1016/j.
+concog.2014.07.010
+Celeghin, A., de Gelder, B., and Tamietto, M. (2015b). From affective blindsight to
+emotional consciousness. Conscious. Cogn. 36, 414–425. doi: 10.1016/j.concog.
+2015.05.007
+Chokron, S., Perez, C., Obadia, M., Gaudry, I., Laloum, L., and Gout, O. (2008).
+From blindsight to sight: cognitive rehabilitation of visual field defects. Restor.
+Neurol. Neurosci. 26, 305–320.
+Corneil, B. D., Van Wanrooij, M., Munoz, D. P., and Van Opstal, A. J. (2002).
+Auditory-visual interactions subserving goal-directed saccades in a complex
+scene. J. Neurophysiol. 88, 438–454.
+Das, A., Tadin, D., and Huxlin, K. R. (2014). Beyond blindsight: properties
+of visual relearning in cortically blind fields. J. Neurosci. 34, 11652–11664.
+doi: 10.1523/JNEUROSCI.1076-14.2014
+de Gelder, B., Vroomen, J., Pourtois, G., and Weiskrantz, L. (1999). Non-conscious
+recognition of affect in the absence of striate cortex. Neuroreport 10, 3759–3763.
+doi: 10.1097/00001756-199912160-00007
+Dehaene, S., and Changeux, J.-P. (2011). Experimental and theoretical approaches
+to conscious processing. Neuron 70, 200–227. doi: 10.1016/j.neuron.2011.
+03.018
+Dehaene, S., Kerszberg, M., and Changeux, J. P. (1998). A neuronal model of a
+global workspace in effortful cognitive tasks. Proc. Natl. Acad. Sci. U S A 95,
+14529–14534. doi: 10.1073/pnas.95.24.14529
+Diano, M., Celeghin, A., Bagnis, A., and Tamietto, M. (2016). Amygdala response
+to emotional stimuli without awareness: facts and interpretations. Front.
+Psychol. 7:2029. doi: 10.3389/fpsyg.2016.02029
+Dundon, N. M., Bertini, C., Làdavas, E., Sabel, B. A., and Gall, C. (2015a).
+Visual rehabilitation: visual scanning, multisensory stimulation and vision
+restoration trainings. Front. Behav. Neurosci. 9:192. doi: 10.3389/fnbeh.2015.
+00192
+Dundon, N. M., Làdavas, E., Maier, M. E., and Bertini, C. (2015b). Multisensory
+stimulation in hemianopic patients boosts orienting responses to the
+hemianopic field and reduces attentional resources to the intact field. Restor.
+Neurol. Neurosci. 33, 405–419. doi: 10.3233/RNN-140457
+Duquette, J., and Baril, F. (2009). Les interventions de réadaptation visuelle
+développées à l’intention des personnes ayant une déficience visuelle associée
+à une condition neurologique. Document Synthèse de Veille Informationnelle.
+Available online at: http://www.inlb.qc.ca/
+Fendrich, R., Wessinger, C. M., and Gazzaniga, M. S. (1992). Residual
+vision in a scotoma: implications for blindsight. Science 258, 1489–1491.
+doi: 10.1126/science.1439839
+Fendrich, R., Wessinger, C. M., and Gazzaniga, M. S. (2001). Speculations on
+the neural basis of islands of blindsight. Prog. Brain Res. 134, 353–366.
+doi: 10.1016/s0079-6123(01)34023-2
+Ffytche, D. H., and Zeki, S. (2011). The primary visual cortex and feedback
+to
+it,
+are
+not
+necessary
+for
+conscious
+vision.
+Brain
+134,
+247–257.
+doi: 10.1093/brain/awq305
+Gall, C., Silvennoinen, K., Granata, G., de Rossi, F., Vecchio, F., Brösel, D., et al.
+(2015). Non-invasive electric current stimulation for restoration of vision after
+unilateral occipital stroke. Contemp. Clin. Trials 43, 231–326. doi: 10.1016/j.cct.
+2015.06.005
+Georgy, L., Celeghin, A., Marzi, C. A., Tamietto, M., and Ptito, A. (2016).
+The superior colliculus is sensitive to gestalt-like stimulus configuration in
+hemispherectomy patients. Cortex 81, 151–161. doi: 10.1016/j.cortex.2016.
+04.018
+Gingras, G., Rowland, B. A., and Stein, B. E. (2009). The differing impact
+of multisensory and unisensory integration on behavior. J. Neurosci. 29,
+4897–4902. doi: 10.1523/JNEUROSCI.4120-08.2009
+Goodwin, D. (2014). Homonymous hemianopia: challenges and solutions. Clin.
+Ophthalmol. 8, 1919–1927. doi: 10.2147/OPTH.S59452
+Grasso, P. A., Làdavas, E., and Bertini, C. (2016). Compensatory recovery
+after
+multisensory
+stimulation
+in
+hemianopic
+patients:
+behavioral
+Frontiers in Systems Neuroscience | www.frontiersin.org
+8
+August 2017 | Volume 11 | Article 64
+
+Hadid and Lepore
+Cortical Blindness to Visual Perception
+and
+neurophysiological
+components.
+Front.
+Syst.
+Neurosci.
+10:45.
+doi: 10.3389/fnsys.2016.00045
+Gratton, C., Yousef, S., Aarts, E., Wallace, D. L., D’Esposito, M., and Silver, M. A.
+(2017). Cholinergic, but not dopaminergic or noradrenergic, enhancement
+sharpens visual spatial perception in humans. J. Neurosci. 37, 4405–4415.
+doi: 10.1523/JNEUROSCI.2405-16.2017
+Harting, J. K., Huerta, M. F., Hashikawa, T., and van Lieshout, D. P. (1991).
+Projection of the mammalian superior colliculus upon the dorsal lateral
+geniculate nucleus: organization of tectogeniculate pathways in nineteen
+species. J. Comp. Neurol. 304, 275–306. doi: 10.1002/cne.903040210
+Horton, J. C. (2005a). Disappointing results from nova vision’s visual restoration
+therapy. Br. J. Ophthalmol. 89, 1–2. doi: 10.1136/bjo.2004.058214
+Horton, J. C. (2005b). Vision restoration therapy: confounded by eye movements.
+Br. J. Ophthalmol. 89, 792–794. doi: 10.1136/bjo.2005.072967
+Huxlin, K. R. (2008). Perceptual plasticity in damaged adult visual systems. Vision
+Res. 48, 2154–2166. doi: 10.1016/j.visres.2008.05.022
+Huxlin, K. R., Martin, T., Kelly, K., Riley, M., Friedman, D. I., Burgin, W. S., et al.
+(2009). Perceptual relearning of complex visual motion after V1 damage in
+humans. J. Neurosci. 29, 3981–3991. doi: 10.1523/JNEUROSCI.4882-08.2009
+Kanemoto, K. (2004). What is impaired consciousness? Revisiting impaired
+consciousness as psychiatric concept. Seishin Shinkeigaku Zasshi 106,
+1083–1109.
+Kasten, E., Bunzenthal, U., and Sabel, B. A. (2006). Visual field recovery after vision
+restoration therapy (VRT) is independent of eye movements: an eye tracker
+study. Behav. Brain Res. 175, 18–26. doi: 10.1016/j.bbr.2006.07.024
+Kavcic, V., Triplett, R. L., Das, A., Martin, T., and Huxlin, K. R. (2015).
+Role of inter-hemispheric transfer in generating visual evoked potentials in
+V1-damaged brain hemispheres. Neuropsychologia 68, 82–93. doi: 10.1016/j.
+neuropsychologia.2015.01.003
+Keller, I., and Lefin-Rank, G. (2010). Improvement of visual search after
+audiovisual exploration training in hemianopic patients. Neurorehabil. Neural
+Repair 24, 666–673. doi: 10.1177/1545968310372774
+Kentridge, R. W., Heywood, C. A., and Weiskrantz, L. (1999). Effects of temporal
+cueing on residual visual discrimination in blindsight. Neuropsychologia 37,
+479–483. doi: 10.1016/s0028-3932(98)00084-0
+Kentridge, R. W., Heywood, C. A., and Weiskrantz, L. (2004). Spatial attention
+speeds discrimination without awareness in blindsight. Neuropsychologia 42,
+831–835. doi: 10.1016/j.neuropsychologia.2003.11.001
+Kentridge, R. W., Heywood, C. A., and Weiskrantz, L. (2007). Color contrast
+processing in human striate cortex. Proc. Natl. Acad. Sci. U S A 104,
+15129–15131. doi: 10.1073/pnas.0706603104
+Kerkhoff, G., Münßinger, U., Haaf, E., Eberle-Strauss, G., and Stögerer, E. (1992).
+Rehabilitation of homonymous scotomata in patients with postgeniculate
+damage of the visual system: saccadic compensation training. Restor. Neurol.
+Neurosci. 4, 245–254. doi: 10.3233/RNN-1992-4402
+Ko, Y., and Lau, H. (2012). A detection theoretic explanation of blindsight suggests
+a link between conscious perception and metacognition. Philos. Trans. R. Soc.
+Lond. B Biol. Sci. 367, 1401–1411. doi: 10.1098/rstb.2011.0380
+Kranczioch, C., Debener, S., Maye, A., and Engel, A. K. (2007). Temporal dynamics
+of access to consciousness in the attentional blink. Neuroimage 37, 947–955.
+doi: 10.1016/j.neuroimage.2007.05.044
+Lau, H. C., and Passingham, R. E. (2006). Relative blindsight in normal observers
+and the neural correlate of visual consciousness. Proc. Natl. Acad. Sci. U S A
+103, 18763–18768. doi: 10.1073/pnas.0607716103
+Leh, S. E., Johansen-Berg, H., and Ptito, A. (2006). Unconscious vision: new
+insights into the neuronal correlate of blindsight using diffusion tractography.
+Brain 129, 1822–1832. doi: 10.1093/brain/awl111
+Leh, S. E., Ptito, A., Schönwiesner, M., Chakravarty, M. M., and Mullen, K. T.
+(2010). Blindsight mediated by an S-cone-independent collicular pathway: an
+fMRI study in hemispherectomized subjects. J. Cogn. Neurosci. 22, 670–682.
+doi: 10.1162/jocn.2009.21217
+Leo, F., Bolognini, N., Passamonti, C., Stein, B. E., and Làdavas, E. (2008). Cross-
+modal localization in hemianopia: new insights on multisensory integration.
+Brain 131, 855–865. doi: 10.1093/brain/awn003
+Leopold, D. A. (2012). Primary visual cortex: awareness and blindsight. Annu. Rev.
+Neurosci. 35, 91–109. doi: 10.1146/annurev-neuro-062111-150356
+Lyon, D. C., Nassi, J. J., and Callaway, E. M. (2010). A disynaptic relay from
+superior colliculus to dorsal stream visual cortex in macaque monkey. Neuron
+65, 270–279. doi: 10.1016/j.neuron.2010.01.003
+Maior, R. S., Hori, E., Tomaz, C., Ono, T., and Nishijo, H. (2010). The monkey
+pulvinar neurons differentially respond to emotional expressions of human
+faces. Behav. Brain Res. 215, 129–135. doi: 10.1016/j.bbr.2010.07.009
+Matteo, B. M., Viganò, B., Cerri, C. G., and Perin, C. (2016). Visual field restorative
+rehabilitation after brain injury. J. Vis. 16:11. doi: 10.1167/16.9.11
+Mazzi, C., Bagattini, C., and Savazzi, S. (2016). Blind-Sight vs. Degraded-
+sight: different measures tell a different story. Front. Psychol. 7:901.
+doi: 10.3389/fpsyg.2016.00901
+Melloni, L., Molina, C., Pena, M., Torres, D., Singer, W., and Rodriguez, E.
+(2007). Synchronization of neural activity across cortical areas correlates with
+conscious perception. J. Neurosci. 27, 2858–2865. doi: 10.1523/jneurosci.4623-
+06.2007
+Melnick, M. D., Tadin, D., and Huxlin, K. R. (2016). Relearning to see in cortical
+blindness. Neuroscientist 22, 199–212. doi: 10.1177/1073858415621035
+Min, B.-K. (2010). A thalamic reticular networking model of consciousness. Theor.
+Biol. Med. Model. 7:10. doi: 10.1186/1742-4682-7-10
+Morland, A. B., Jones, S. R., Finlay, A. L., Deyzac, E., Lê, S., and Kemp, S. (1999).
+Visual perception of motion, luminance and colour in a human hemianope.
+Brain 122, 1183–1198. doi: 10.1093/brain/122.6.1183
+Morland, A. B., Lê, S., Carroll, E., Hoffmann, M. B., and Pambakian, A. (2004).
+The role of spared calcarine cortex and lateral occipital cortex in the responses
+of human hemianopes to visual motion. J. Cogn. Neurosci. 16, 204–218.
+doi: 10.1162/089892904322984517
+Morris, J. S., DeGelder, B., Weiskrantz, L., and Dolan, R. J. (2001). Differential
+extrageniculostriate and amygdala responses to presentation of emotional
+faces in a cortically blind field. Brain 124, 1241–1252. doi: 10.1093/brain/124.
+6.1241
+Mozaffarian, D., Benjamin, E. J., Go, A. S., Arnett, D. K., Blaha, M. J.,
+Cushman, M., et al. (2016). Heart disease and stroke statistics-2016 update.
+A report from the American Heart Association. Circulation 133, e38–e360.
+doi: 10.1161/CIR.0000000000000350
+Nijboer, T., van de Port, I., Schepers, V., Post, M., and Visser-Meily, A. (2013).
+Predicting functional outcome after stroke: the influence of neglect on basic
+activities in daily living. Front. Hum. Neurosci. 7:182. doi: 10.3389/fnhum.2013.
+00182
+Overgaard, M., Fehl, K., Mouridsen, K., Bergholt, B., and Cleeremans, A. (2008).
+Seeing without seeing? Degraded conscious vision in a blindsight patient. PLoS
+One 3:e3028. doi: 10.1371/journal.pone.0003028
+Overgaard, M., and Grünbaum, T. (2011). Consciousness and modality: on the
+possible preserved visual consciousness in blindsight subjects. Conscious. Cogn.
+20, 1855–1859. doi: 10.1016/j.concog.2011.08.016
+Paraskevopoulos, E., Kuchenbuch, A., Herholz, S. C., and Pantev, C. (2012).
+Evidence for training-induced plasticity in multisensory brain structures: an
+MEG study. PLoS One 7:e36534. doi: 10.1371/journal.pone.0036534
+Passamonti, C., Bertini, C., and Làdavas, E. (2009). Audio-visual stimulation
+improves oculomotor patterns in patients with hemianopia. Neuropsychologia
+47, 546–555. doi: 10.1016/j.neuropsychologia.2008.10.008
+Patel, A. T., Duncan, P. W., Lai, S.-M., and Studenski, S. (2000). The relation
+between impairments and functional outcomes poststroke. Arch. Phys. Med.
+Rehabil. 81, 1357–1363. doi: 10.1053/apmr.2000.9397
+Pavan, A., Alexander, I., Campana, G., and Cowey, A. (2011). Detection of first-
+and second-order coherent motion in blindsight. Exp. Brain Res. 214, 261–271.
+doi: 10.1007/s00221-011-2828-3
+Perez, C., and Chokron, S. (2014). Rehabilitation of homonymous hemianopia:
+insight into blindsight. Front. Integr. Neurosci. 8:82. doi: 10.3389/fnint.2014.
+00082
+Persaud, N., and Cowey, A. (2008). Blindsight is unlike normal conscious
+vision: evidence from an exclusion task. Conscious. Cogn. 17, 1050–1055.
+doi: 10.1016/j.concog.2007.10.002
+Persaud, N., Davidson, M., Maniscalco, B., Mobbs, D., Passingham, R. E.,
+Cowey, A., et al. (2011). Awareness-related activity in prefrontal and
+parietal cortices in blindsight reflects more than superior visual performance.
+Neuroimage 58, 605–611. doi: 10.1016/j.neuroimage.2011.06.081
+Peters, M. A. K., and Lau, H. (2015). Human observers have optimal introspective
+access to perceptual processes even for visually masked stimuli. ELife 4:e09651.
+doi: 10.7554/eLife.09651
+Plow, E. B., Obretenova, S. N., Halko, M. A., Kenkel, S., Jackson, M. L.,
+Pascual-Leone, A., et al. (2011). Combining visual rehabilitative training and
+noninvasive brain stimulation to enhance visual function in patients with
+Frontiers in Systems Neuroscience | www.frontiersin.org
+9
+August 2017 | Volume 11 | Article 64
+
+Hadid and Lepore
+Cortical Blindness to Visual Perception
+hemianopia: a comparative case study. PM&R 3, 825–835. doi: 10.1016/j.pmrj.
+2011.05.026
+Pollock, A., Hazelton, C., Henderson, C. A., Angilley, J., Dhillon, B., Langhorne, P.,
+et al. (2011). Interventions for visual field defects in patients with stroke.
+Cochrane Database Syst. Rev. 5:CD008388. doi: 10.1002/14651858.CD008388.
+pub2
+Pouget, M.-C., Lévy-Bencheton, D., Prost, M., Tilikete, C., Husain, M., and
+Jacquin-Courtois, S. (2012). Acquired visual field defects rehabilitation: critical
+review and perspectives. Ann. Phys. Rehabil. Med. 55, 53–74. doi: 10.1016/j.
+rehab.2011.05.006
+Riddoch, G. (1917). On the relative perceptions of movement and a stationary
+object in certain visual disturbances due to occipital injuries. Proc. R. Soc. Med.
+10, 13–34.
+Riggs, R. V., Andrews, K., Roberts, P., and Gilewski, M. (2007). Visual deficit
+interventions in adult stroke and brain injury: a systematic review. Am. J. Phys.
+Med. Rehabil. 86, 853–860. doi: 10.1097/phm.0b013e318151f907
+Romei, V., Chiappini, E., Hibbard, P. B., and Avenanti, A. (2016). Empowering
+reentrant projections from V5 to V1 boosts sensitivity to motion. Curr. Biol.
+26, 2155–2160. doi: 10.1016/j.cub.2016.06.009
+Roth, T., Sokolov, A. N., Messias, A., Roth, P., Weller, M., and Trauzettel-
+Klosinski, S. (2009). Comparing explorative saccade and flicker training
+in hemianopia: a randomized controlled study. Neurology 72, 324–331.
+doi: 10.1212/01.wnl.0000341276.65721.f2
+Sabel, B. A., Kenkel, S., and Kasten, E. (2005). Vision restoration therapy. Br.
+J. Ophthalmol. 89, 522–524. doi: 10.1136/bjo.2005.068163
+Sahraie, A., Macleod, M.-J., Trevethan, C. T., Robson, S. E., Olson, J. A.,
+Callaghan, P., et al. (2010). Improved detection following neuro-eye therapy
+in patients with post-geniculate brain damage. Exp. Brain Res. 206, 25–34.
+doi: 10.1007/s00221-010-2395-z
+Sahraie, A., Trevethan, C. T., MacLeod, M. J., Murray, A. D., Olson, J. A.,
+and Weiskrantz, L. (2006). Increased sensitivity after repeated stimulation
+of residual spatial channels in blindsight. Proc. Natl. Acad. Sci. U S A 103,
+14971–14976. doi: 10.1073/pnas.0607073103
+Sahraie, A., Trevethan, C. T., Macleod, M.-J., Weiskrantz, L., and Hunt, A. R.
+(2013). The continuum of detection and awareness of visual stimuli within the
+blindfield: from blindsight to the sighted-sight. Invest. Ophthalmol. Vis. Sci. 54,
+3579–3585. doi: 10.1167/iovs.12-11231
+Sand, K. M., Midelfart, A., Thomassen, L., Melms, A., Wilhelm, H., and Hoff, J. M.
+(2013). Visual impairment in stroke patients—a review. Acta Neurol. Scand.
+127, 52–56. doi: 10.1111/ane.12050
+Schmid, M. C., Mrowka, S. W., Turchi, J., Saunders, R. C., Wilke, M., Peters, A. J.,
+et al. (2010). Blindsight depends on the lateral geniculate nucleus. Nature 466,
+373–377. doi: 10.1038/nature09179
+Schurger, A., Cowey, A., Cohen, J. D., Treisman, A., and Tallon-Baudry, C.
+(2008). Distinct and independent correlates of attention and awareness
+in a hemianopic patient. Neuropsychologia 46, 2189–2197. doi: 10.1016/j.
+neuropsychologia.2008.02.020
+Sergent, C., and Dehaene, S. (2004a). Is consciousness a gradual phenomenon?
+Evidence for an all-or-none bifurcation during the attentional blink. Psychol.
+Sci. 15, 720–728. doi: 10.1111/j.0956-7976.2004.00748.x
+Sergent, C., and Dehaene, S. (2004b). Neural processes underlying conscious
+perception: experimental findings and a global neuronal workspace framework.
+J. Physiol. Paris 98, 374–384. doi: 10.1016/j.jphysparis.2005.09.006
+Silvanto, J. (2015). Why is ‘‘blindsight’’ blind? A new perspective on primary visual
+cortex, recurrent activity and visual awareness. Conscious. Cogn. 32, 15–32.
+doi: 10.1016/j.concog.2014.08.001
+Silvanto, J., Cowey, A., Lavie, N., and Walsh, V. (2007). Making the blindsighted
+see. Neuropsychologia 45, 3346–3350. doi: 10.1016/j.neuropsychologia.2007.
+06.008
+Silvanto, J., Walsh, V., and Cowey, A. (2009). Abnormal functional connectivity
+between ipsilesional V5/MT+ and contralesional striate cortex (V1) in
+blindsight. Exp. Brain Res. 193, 645–650. doi: 10.1007/s00221-009-1712-x
+Sincich, L. C., Park, K. F., Wohlgemuth, M. J., and Horton, J. C. (2004). Bypassing
+V1: a direct geniculate input to area MT. Nat. Neurosci. 7, 1123–1128.
+doi: 10.1038/nn1318
+Smythies, J. (1999). Consciousness: some basic issues—A neurophilosophical
+perspective. Conscious. Cogn. 8, 164–172. doi: 10.1006/ccog.1998.0376
+Stein, B. E., and Rowland, B. A. (2011). Organization and plasticity in multisensory
+integration: early and late experience affects its governing principles. Prog.
+Brain Res. 191, 145–163. doi: 10.1016/b978-0-444-53752-2.00007-2
+Swienton, D. J., and Thomas, A. G. (2014). The visual pathway—functional
+anatomy
+and
+pathology.
+Semin.
+Ultrasound
+CT&MR
+35,
+487–503.
+doi: 10.1053/j.sult.2014.06.007
+Tamietto, M., and de Gelder, B. (2010). Neural bases of the non-conscious
+perception
+of
+emotional
+signals.
+Nat.
+Rev.
+Neurosci.
+11,
+697–709.
+doi: 10.1038/nrn2889
+Tamietto, M., Castelli, L., Vighetti, S., Perozzo, P., Geminiani, G., Weiskrantz, L.,
+et al. (2009). Unseen facial and bodily expressions trigger fast emotional
+reactions. Proc. Natl. Acad. Sci. U S A 106, 17661–17666. doi: 10.1073/pnas.
+0908994106
+Tamietto, M., Cauda, F., Corazzini, L. L., Savazzi, S., Marzi, C. A., Goebel, R., et al.
+(2010). Collicular vision guides nonconscious behavior. J. Cogn. Neurosci. 22,
+888–902. doi: 10.1167/8.6.67
+Tamietto, M., and Morrone, M. C. (2016). Visual plasticity: blindsight bridges
+anatomy and function in the visual system. Curr. Biol. 26, R70–R73.
+doi: 10.1016/j.cub.2015.11.026
+Tamietto, M., Pullens, P., de Gelder, B., Weiskrantz, L., and Goebel, R. (2012).
+Subcortical connections to human amygdala and changes following destruction
+of the visual cortex. Curr. Biol. 22, 1449–1455. doi: 10.1016/j.cub.2012.
+06.006
+Trevethan, C. T., Sahraie, A., and Weiskrantz, L. (2007). Can blindsight be superior
+to ‘sighted-sight’? Cognition 103, 491–501. doi: 10.1016/j.cognition.2006.
+04.011
+Trevethan, C. T., Urquhart, J., Ward, R., Gentleman, D., and Sahraie, A. (2012).
+Evidence for perceptual learning with repeated stimulation after partial and
+total cortical blindness. Adv. Cogn. Psychol. 8, 29–37. doi: 10.5709/acp-
+0099-8
+Urbanski, M., Coubard, O. A., and Bourlon, C. (2014). Visualizing the blind
+brain: brain imaging of visual field defects from early recovery to rehabilitation
+techniques. Front. Integr. Neurosci. 8:74. doi: 10.3389/fnint.2014.00074
+Villeneuve, M. Y., Kupers, R., Gjedde, A., Ptito, M., and Casanova, C. (2005).
+Pattern-motion selectivity in the human pulvinar. Neuroimage 28, 474–480.
+doi: 10.1016/j.neuroimage.2005.06.015
+Warner, C. E., Goldshmit, Y., and Bourne, J. A. (2010). Retinal afferents synapse
+with relay cells targeting the middle temporal area in the pulvinar and lateral
+geniculate nuclei. Front. Neuroanat. 4:8. doi: 10.3389/neuro.05.008.2010
+Weiskrantz, L. (1986). Blindsight: A Case Study and Implications. Oxford:
+Clarendon Press.
+Weiskrantz, L. (1987). Residual vision in a scotoma. A follow-up study of ‘form’
+discrimination. Brain 110, 77–92. doi: 10.1093/brain/110.1.77
+Weiskrantz, L. (2009). Is blindsight just degraded normal vision? Exp. Brain Res.
+192, 413–416. doi: 10.1007/s00221-008-1388-7
+Weiskrantz, L., Warrington, E. K., Sanders, M. D., and Marshall, J. (1974). Visual
+capacity in the hemianopic field following a restricted occipital ablation. Brain
+97, 709–728. doi: 10.1093/brain/97.4.709
+Yoshida, M., Itti, L., Berg, D. J., Ikeda, T., Kato, R., Takaura, K., et al. (2012).
+Residual attention guidance in blindsight monkeys watching complex natural
+scenes. Curr. Biol. 22, 1429–1434. doi: 10.1016/j.cub.2012.05.046
+Zeman, A. (2004). Theories of visual awareness. Prog. Brain Res. 144, 321–329.
+doi: 10.1016/s0079-6123(03)14422-6
+Zhang, X., Kedar, S., Lynn, M. J., Newman, N. J., and Biousse, V. (2006).
+Homonymous hemianopia in stroke. J. Neuroophthalmol. 26, 180–183.
+doi: 10.1097/01.wno.000023558741040.39
+Conﬂict of Interest Statement: The authors declare that the research was
+conducted in the absence of any commercial or financial relationships that could
+be construed as a potential conflict of interest.
+Copyright © 2017 Hadid and Lepore. This is an open-access article distributed
+under the terms of the Creative Commons Attribution License (CC BY). The use,
+distribution or reproduction in other forums is permitted, provided the original
+author(s) or licensor are credited and that the original publication in this journal
+is cited, in accordance with accepted academic practice. No use, distribution or
+reproduction is permitted which does not comply with these terms.
+Frontiers in Systems Neuroscience | www.frontiersin.org
+10
+August 2017 | Volume 11 | Article 64
