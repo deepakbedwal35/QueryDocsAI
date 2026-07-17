@@ -1,3 +1,49 @@
+# =========================
+# Environment Variables & Secrets
+# =========================
 .env
+.env.*
+*.pem
 
+# =========================
+# Python / Backend
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual Environments
 venv/
+.venv/
+env/
+.env_python/
+
+# =========================
+# Frontend (Node/React)
+# =========================
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.npm/
+frontend/npm-debug.log*
+frontend/yarn-error.log*
+frontend/yarn-debug.log*
+
+# =========================
+# Project-Specific Generated Files
+# =========================
+# Ignores generated evaluation reports so they don't clutter the repo
+eval/results/*.json
+
+# =========================
+# OS & IDE
+# =========================
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+.env

@@ -10,9 +10,12 @@ from __future__ import annotations
 
 import os
 
+from pathlib import Path
+
 from dotenv import load_dotenv
 
-load_dotenv()
+_ROOT = Path(__file__).resolve().parent.parent
+load_dotenv(_ROOT / ".env")
 
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
 QDRANT_URL = os.environ.get("QDRANT_URL", "")
