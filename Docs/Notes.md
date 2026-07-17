@@ -1,91 +1,87 @@
 use this api key for extract data/pdf :
 
-https://www.semanticscholar.org/product/api/tutorial 
+https://www.semanticscholar.org/product/api/tutorial
 
-
-**The exact system you just mapped out is called RAG (Retrieval-Augmented Generation)** 
+**The exact system you just mapped out is called RAG (Retrieval-Augmented Generation)**
 with an advanced Reranking and Citation pipeline.
 Here is exactly how your description maps to how a PDF-based AI application works under the hood:
 How Your Description Maps to Code
 **"Reads all your papers once and organizes them..."**
-*What happens:* The user uploads their PDFs. The system extracts the text, breaks it into small chunks (paragraphs), converts them into math vectors using a sentence transformer, and saves them in a Vector Database.
+_What happens:_ The user uploads their PDFs. The system extracts the text, breaks it into small chunks (paragraphs), converts them into math vectors using a sentence transformer, and saves them in a Vector Database.
 **"When you ask a question, it first finds the actual passages..."**
-*What happens:* This is Retrieval. The system converts the user's question into a vector and pulls the top 10 or 20 paragraphs from the database that look conceptually similar.
-"Then it double-checks itself — it picks out only the ones that truly answer your question...*"What happens:* This is called Reranking. A specialized AI model (like a Cross-Encoder) scores the retrieved paragraphs to filter out "keyword matches" and keeps only the chunks that actually possess the semantic answer.
+_What happens:_ This is Retrieval. The system converts the user's question into a vector and pulls the top 10 or 20 paragraphs from the database that look conceptually similar.
+"Then it double-checks itself — it picks out only the ones that truly answer your question..._"What happens:_ This is called Reranking. A specialized AI model (like a Cross-Encoder) scores the retrieved paragraphs to filter out "keyword matches" and keeps only the chunks that actually possess the semantic answer.
 **"Then it writes you an answer, but every claim points back to..."**
-*What happens:* The system passes the final, clean paragraphs to a Large Language Model (LLM) along with strict instructions: "Answer the prompt using ONLY this context, and append the metadata source (Filename, Page Number) to the end of your sentences.
+_What happens:_ The system passes the final, clean paragraphs to a Large Language Model (LLM) along with strict instructions: "Answer the prompt using ONLY this context, and append the metadata source (Filename, Page Number) to the end of your sentences.
 **""If your papers don't actually contain the answer, it tells you that honestly..."**
-*What happens:* This is Hallucination Prevention. The prompt explicitly tells the LLM: "If the answer is not in the text, reply with 'I cannot find the answer in the provided documents.' Do not use outside training data."
-
-
+_What happens:_ This is Hallucination Prevention. The prompt explicitly tells the LLM: "If the answer is not in the text, reply with 'I cannot find the answer in the provided documents.' Do not use outside training data."
 
 ask-my-papers/
 ├── README.md
-├── .env                          # QDRANT_URL, GROQ_API_KEY, etc.
+├── .env # QDRANT_URL, GROQ_API_KEY, etc.
 ├── .gitignore
 │
 ├── data/
-│   ├── raw_pdfs/                 # downloaded paper PDFs, untouched
-│   ├── metadata.csv              # title, authors, year, source_url, filename
-│   └── processed/
-│       └── chunks.jsonl          # extracted + chunked text, one JSON per line
+│ ├── raw_pdfs/ # downloaded paper PDFs, untouched
+│ ├── metadata.csv # title, authors, year, source_url, filename
+│ └── processed/
+│ └── chunks.jsonl # extracted + chunked text, one JSON per line
 │
-├── scripts/                      # one-off / re-runnable pipeline scripts
-│   ├── 01_fetch_papers.py        # pulls PDFs from PubMed/arXiv/bioRxiv APIs
-│   ├── 02_extract_text.py        # PyMuPDF: PDF → clean text
-│   ├── 03_chunk_text.py          # RecursiveCharacterTextSplitter → chunks.jsonl
-│   ├── 04_build_embeddings.py    # sentence-transformers → embeddings
-│   ├── 05_index_qdrant.py        # push embeddings + metadata into Qdrant
-│   ├── 06_build_bm25_index.py    # rank_bm25 sparse index, saved to disk
-│   └── run_pipeline.py           # runs 01–06 in order
+├── scripts/ # one-off / re-runnable pipeline scripts
+│ ├── 01_fetch_papers.py # pulls PDFs from PubMed/arXiv/bioRxiv APIs
+│ ├── 02_extract_text.py # PyMuPDF: PDF → clean text
+│ ├── 03_chunk_text.py # RecursiveCharacterTextSplitter → chunks.jsonl
+│ ├── 04_build_embeddings.py # sentence-transformers → embeddings
+│ ├── 05_index_qdrant.py # push embeddings + metadata into Qdrant
+│ ├── 06_build_bm25_index.py # rank_bm25 sparse index, saved to disk
+│ └── run_pipeline.py # runs 01–06 in order
 │
 ├── backend/
-│   ├── main.py                   # FastAPI app entrypoint
-│   ├── config.py                 # env vars, model names, constants
-│   ├── requirements.txt
-│   │
-│   ├── retrieval/
-│   │   ├── dense.py              # Qdrant query logic
-│   │   ├── sparse.py             # BM25 query logic
-│   │   ├── fusion.py             # Reciprocal Rank Fusion
-│   │   └── reranker.py           # cross-encoder reranking
-│   │
-│   ├── generation/
-│   │   ├── prompt_templates.py   # system prompt, citation-format instructions
-│   │   └── groq_client.py        # Groq API wrapper (reuse FinScope's pattern)
-│   │
-│   ├── models/
-│   │   └── schemas.py            # Pydantic request/response models
-│   │
-│   ├── routes/
-│   │   └── ask.py                # POST /ask endpoint — ties retrieval + generation
-│   │
-│   └── utils/
-│       └── pdf_utils.py          # shared PyMuPDF helpers (used by scripts too)
+│ ├── main.py # FastAPI app entrypoint
+│ ├── config.py # env vars, model names, constants
+│ ├── requirements.txt
+│ │
+│ ├── retrieval/
+│ │ ├── dense.py # Qdrant query logic
+│ │ ├── sparse.py # BM25 query logic
+│ │ ├── fusion.py # Reciprocal Rank Fusion
+│ │ └── reranker.py # cross-encoder reranking
+│ │
+│ ├── generation/
+│ │ ├── prompt_templates.py # system prompt, citation-format instructions
+│ │ └── groq_client.py # Groq API wrapper (reuse FinScope's pattern)
+│ │
+│ ├── models/
+│ │ └── schemas.py # Pydantic request/response models
+│ │
+│ ├── routes/
+│ │ └── ask.py # POST /ask endpoint — ties retrieval + generation
+│ │
+│ └── utils/
+│ └── pdf_utils.py # shared PyMuPDF helpers (used by scripts too)
 │
 ├── eval/
-│   ├── test_questions.json       # your 30–50 hand-written Q&A pairs
-│   ├── run_eval.py                # runs test set through the pipeline
-│   └── results/
-│       └── eval_report.json       # hit-rate@k, faithfulness scores per run
+│ ├── test_questions.json # your 30–50 hand-written Q&A pairs
+│ ├── run_eval.py # runs test set through the pipeline
+│ └── results/
+│ └── eval_report.json # hit-rate@k, faithfulness scores per run
 │
 └── frontend/
-    ├── package.json
-    ├── src/
-    │   ├── App.jsx
-    │   ├── components/
-    │   │   ├── ChatWindow.jsx
-    │   │   ├── MessageBubble.jsx
-    │   │   ├── CitationCard.jsx      # expandable source excerpt
-    │   │   └── PaperSourceBadge.jsx
-    │   ├── api/
-    │   │   └── askApi.js             # calls backend /ask
-    │   └── styles/
-    └── public/
-
-
+├── package.json
+├── src/
+│ ├── App.jsx
+│ ├── components/
+│ │ ├── ChatWindow.jsx
+│ │ ├── MessageBubble.jsx
+│ │ ├── CitationCard.jsx # expandable source excerpt
+│ │ └── PaperSourceBadge.jsx
+│ ├── api/
+│ │ └── askApi.js # calls backend /ask
+│ └── styles/
+└── public/
 
     Full stack, step by step
+
 1. Paper collection
 
 requests + PubMed E-utilities API for bulk metadata/full-text pulls
@@ -140,20 +136,20 @@ React → Render static site, same as FinScope
 One dependency note
 sentence-transformers pulls in PyTorch — it's a heavier install than your typical Python project. First-time setup will take a few minutes and eat some disk space; not a blocker, just don't be alarmed by the install time.
 Want me to scaffold the project folder structure and a requirements.txt next, or start with Step 1 (pulling a real sample of papers) to get actual data in hand first?{'paperId': '027d70631ba117229e54638fd373411ad2bacdea',
- 'externalIds': {'MAG': '2614358123',
-  'ArXiv': '1705.04742',
-  'DOI': '10.31234/osf.io/e6497',
-  'CorpusId': 25130814},
- 'title': 'How sustainable are different levels of consciousness',
- 'year': 2017,
- 'citationCount': 5,
- 'openAccessPdf': {'url': 'https://arxiv.org/pdf/1705.04742',
-  'status': 'GREEN',
-  'license': None,
-  'disclaimer': 'Notice: Paper or abstract available at https://arxiv.org/abs/1705.04742, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use.'},
- 'fieldsOfStudy': ['Mathematics', 'Biology', 'Psychology'],
- 'authors': [{'authorId': '32783505', 'name': 'E. Wiersma'}],
- 'abstract': 'The human brain processes a wide variety of inputs and does so either consciously or subconsciously. According to the Global Workspace theory, conscious processing involves broadcasting of information to several regions of the brain and subconscious processing involves more localized processing. This theoretical paper aims to expand on some of the aspects of the Global Workspace theory: how the properties of incoming information result in it being processed subconsciously or consciously; why processing can be either be sustained or short-lived; how the Global Workspace theory may apply both to real-time sensory input as well as to internally retained information. This paper proposes that: familiar input which does not elicit intense emotions becomes processed subconsciously and such processing can be continuous and sustained; input that elicits relatively intense emotions is subjected to highly sustainable conscious processing; input can also undergo meta-conscious processing. Such processing is not very sustainable but can exert control over other cognitive processes. This paper also discusses possible benefits of regulating cognitive processes this way.'} it's the data column give should I also download pdf or only use abstract a training model just explain what to do nextShow moreClarified PDF necessity over abstracts for effective model trainingClarified PDF necessity over abstracts for effective model trainingDownload the PDF — abstract alone isn't enough for RAG.
+'externalIds': {'MAG': '2614358123',
+'ArXiv': '1705.04742',
+'DOI': '10.31234/osf.io/e6497',
+'CorpusId': 25130814},
+'title': 'How sustainable are different levels of consciousness',
+'year': 2017,
+'citationCount': 5,
+'openAccessPdf': {'url': 'https://arxiv.org/pdf/1705.04742',
+'status': 'GREEN',
+'license': None,
+'disclaimer': 'Notice: Paper or abstract available at https://arxiv.org/abs/1705.04742, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use.'},
+'fieldsOfStudy': ['Mathematics', 'Biology', 'Psychology'],
+'authors': [{'authorId': '32783505', 'name': 'E. Wiersma'}],
+'abstract': 'The human brain processes a wide variety of inputs and does so either consciously or subconsciously. According to the Global Workspace theory, conscious processing involves broadcasting of information to several regions of the brain and subconscious processing involves more localized processing. This theoretical paper aims to expand on some of the aspects of the Global Workspace theory: how the properties of incoming information result in it being processed subconsciously or consciously; why processing can be either be sustained or short-lived; how the Global Workspace theory may apply both to real-time sensory input as well as to internally retained information. This paper proposes that: familiar input which does not elicit intense emotions becomes processed subconsciously and such processing can be continuous and sustained; input that elicits relatively intense emotions is subjected to highly sustainable conscious processing; input can also undergo meta-conscious processing. Such processing is not very sustainable but can exert control over other cognitive processes. This paper also discusses possible benefits of regulating cognitive processes this way.'} it's the data column give should I also download pdf or only use abstract a training model just explain what to do nextShow moreClarified PDF necessity over abstracts for effective model trainingClarified PDF necessity over abstracts for effective model trainingDownload the PDF — abstract alone isn't enough for RAG.
 Here's the distinction:
 
 Abstract = a 150-word summary of the conclusion. Good for one thing only: deciding "is this paper relevant enough to include" — which is exactly what you're doing right now, looking at it before committing.
@@ -186,7 +182,6 @@ Recommendation
 Don't build this yet. Get the fixed-corpus version working end-to-end first (including your eval step — that's the harder, more valuable part). Once that's solid, adding "upload your own PDF" is a relatively small extension: you're just running your existing pipeline on-demand instead of as a batch job.
 If you do want it eventually, it's genuinely a good v2 feature — it turns "Ask My Papers" from your fixed library into a general research tool, which is a stronger interview story ("built a fixed-corpus RAG, then extended it to arbitrary user documents").
 Want to keep going on the fixed-corpus build first, or are you deciding right now whether to design for both from the start?
-
 
 Full flow (step by step)
 Step 1 — Collect papers
