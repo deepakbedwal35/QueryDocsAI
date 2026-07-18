@@ -1,0 +1,1912 @@
+Journal of Intelligent Manufacturing
+https://doi.org/10.1007/s10845-025-02712-3
+repetitive tasks, human roles shifted toward more com­
+plex, cognitive responsibilities. However, certain tasks that 
+require nuanced decision-making and adaptability remain 
+beyond automation’s reach. In Computer Numerical Con­
+trol (CNC) machining, automation has advanced signifi­
+cantly, yet human operators are still essential for machine 
+setup, monitoring, and corrective actions. While Industry 
+4.0 technologies focus heavily on optimizing workflows and 
+processes such as condition monitoring, anomaly detection, 
+and process control (Zheng et al., 2021), Mohanraj et al. 
+(2021), they often overlook the value of human expertise.
+The concept of learning from humans and transferring 
+that knowledge to machines is not new; it predates Industry 
+4.0 and has long been a core concern in artificial intelligence. 
+Learning from humans can be approached in two main ways: 
+the intelligence design approach and the learning from 
+examples (Kambhampati, 2021). The intelligence design 
+approach involves explicitly modeling human knowledge 
+Introduction
+The industrial sector has undergone four major revolutions, 
+each driven by the pursuit of greater productivity through 
+automation. As automation replaced many manual and 
+	
+ Hoa Thi Nguyen
+hoan@hiof.no
+Øystein Haugen
+oystein.haugen@hiof.no
+Einar Broch Johnsen
+einarj@ifi.uio.no
+1	
+Faculty of Computer Sciences, Engineering and Economics, 
+Høskolen I Østfold University, BRA Veien 4, 1757 Halden, 
+Norway
+2	
+Department of Informatics, University of Oslo, 
+Gaustadalléen 23B, 0373 Oslo, Norway
+Abstract
+Automation in complex industrial processes faces significant challenges due to its heavy reliance on human knowl­
+edge and tacit expertise. This knowledge is typically acquired through years of on-site training, making the transition to 
+automation difficult. While data-driven approaches offer potential solutions by building automation models from expert 
+observations, they often fall short of capturing deeper human understanding and contextual reasoning. In this paper, we 
+introduce Augmentor, a cognitive-inspired framework for context-aware adaptive learning. The framework bridges reac­
+tive learning, which continuously updates models based on incoming data, with context-aware adaptive learning, which 
+incorporates external context and expert knowledge for higher-order reasoning and decision-making. Inspired by theories 
+of consciousness, Augmentor leverages autonomic computing principles through the MAPE-K model and semantic web 
+technologies to create a global workspace for managing knowledge and guiding adaptive learning processes. The approach 
+addresses two key objectives: continuously refining models through reactive learning and enabling experts to inject con­
+textual knowledge to guide the learning process. Human-Gated Data Aggregation is used for data-driven updates, while 
+context-aware adaptive learning ensures the system dynamically adjusts to complex scenarios and evolving industrial 
+conditions. We validate Augmentor through a real-world use case in collaboration with our industrial partner, Mekanisk 
+Service Halden, which specialises in various mechanical services. Experimental results show significant performance 
+improvements across three strategies–static model without relearning, reactive learning, and context-aware adaptive learn­
+ing–demonstrating the advantages of incorporating context-aware strategies to achieve more robust and adaptive control.
+Keywords  Smart manufacturing · Artificial intelligence · Learning system
+Received: 9 May 2025 / Accepted: 8 October 2025
+© The Author(s) 2025
+Augmentor: a cognitive-inspired approach for context-aware adaptive 
+learning with human guidance
+Hoa Thi Nguyen1,2
+ · Øystein Haugen1 · Einar Broch Johnsen2
+1 3
+
+Journal of Intelligent Manufacturing
+and encoding it into formal representations such as docu­
+mentation, ontologies, or Bayesian networks (Rosário et 
+al., 2015). In manufacturing, this method has been more 
+commonly applied to high-level organizational or strategic 
+knowledge, rather than to the operational insights found on 
+the shop floor (Fenoglio et al., 2022). At the shop floor level, 
+learning from examples is more popular. It involves cap­
+turing human behavior patterns through data-driven tech­
+niques like imitation learning (Nguyen et al., 2023), Zhu 
+and Hu (2018), enabling machines to replicate operator 
+actions. However, these methods primarily extract behav­
+ioral patterns and often miss the underlying reasoning, con­
+text-awareness, and nuanced decision-making that skilled 
+operators apply in real-world settings. Both approaches fall 
+short of fully learning how experienced operators think and 
+act. Skilled human operators integrate formal knowledge 
+with situational awareness and hands-on experience. They 
+analyze complex, dynamic situations, connect their actions 
+to broader organizational goals, and apply refined control 
+strategies. This deeper, more contextual understanding to 
+drive learning is still difficult to replicate in current machine 
+learning paradigms, underscoring the need for systems to 
+better incorporate human expertise as a central component 
+rather than a peripheral consideration.
+To address this, we propose the Augmentor system, a 
+human-centric approach that fosters knowledge exchange 
+and collaboration between humans and machine learning 
+algorithms. Our system is designed to emulate human train­
+ing processes by achieving the following objectives: 
+1.	 Objective 1 To continuously refine the learning algo­
+rithms by observing and letting operators adjust their 
+decisions.
+2.	 Objective 2 To incorporate contextual information, 
+environmental understanding, and operator knowledge 
+into the learning system.
+Drawing inspiration from cognitive science and theories of 
+machine consciousness, Augmentor introduces a framework 
+for context-aware adaptive learning, defined as continuous 
+learning enhanced by contextual information. Unlike tra­
+ditional machine learning approaches, which are typically 
+driven by data-centric, context-aware adaptive learning 
+incorporates external knowledge and contextual reason­
+ing to guide the learning process. The framework brings 
+together advances in artificial intelligence and autonomic 
+computing, while also integrating key elements from cogni­
+tive science, to achieve the two core objectives above by: 
+1.	 Facilitating context-aware adaptive learning from data 
+through human-guided mechanisms.
+2.	 Utilizing the Monitoring - Analysing - Planning - Exe­
+cution - Knowledge (MAPE-K) framework as the foun­
+dation for a global workspace, aligned with theoretical 
+perspectives on machine consciousness.
+We present a practical use case in CNC manufacturing 
+developed in collaboration with Mekanisk Service Halden 
+(MSH),1 a company specializing in mechanical services 
+such as welding, industrial maintenance, and parts machin­
+ing. The case addresses the growing challenge of labor 
+shortages in the CNC sector. Scaling up production requires 
+skilled operators, but traditional training often takes 5 to 7 
+years due to the tacit nature of machining expertise, which 
+is acquired primarily through hands-on experience and is 
+difficult to formalize. We collected sensor data from a real 
+industrial CNC machine, Mazak Integrex i500 series. Aug­
+mentor learns from experienced operators by observing their 
+control strategies, such as adjustments to the linear feed rate 
+override. By integrating adaptive policies into its knowledge 
+base in real time, the system accelerates its learning process 
+and improves its responsiveness. Our findings demonstrate 
+that expert human guidance significantly enhances learning 
+efficiency, reduces error rates, and improves system perfor­
+mance. By capturing control patterns directly from opera­
+tors, Augmentor aims to modernize traditional monitoring 
+processes and support operators in overseeing multiple 
+machines or focusing on higher-level tasks. Through skill-
+level–adapted decision support, the system contributes to 
+increased productivity, reduced production errors, and the 
+development of a more resilient and capable workforce.
+The structure of this paper is as follows: Sect. 2 intro­
+duces our industrial use case in CNC machining, which 
+serves as both the inspiration and validation for our work. 
+Section 3 outlines key foundational concepts. Section 4 
+details the Augmentor framework, grounded in the prin­
+ciples of machine consciousness. Section 5 demonstrates 
+the application of Augmentor within our industrial use case. 
+Section 6 presents the results of our experiment, while Sect. 
+7 analyses these findings and explores actionable insights 
+within a broader application context. Section 8 concludes 
+the paper with a summary of findings and potential future 
+directions.
+Motivation scenario
+As part of its production expansion, MSH has acquired sev­
+eral state-of-the-art CNC machines, including the Mazak 
+Integrex i500 series. These machines are equipped with 
+modern sensor technology that supports the monitoring 
+1  https://www.mekservice.no/
+1 3
+
+Journal of Intelligent Manufacturing
+process. Figure 1 shows the control interface displaying 
+sensor data from the CNC machine, allowing operators to 
+monitor the machine’s status and make informed decisions 
+to adjust and optimize the process.
+Our research leverages the digitalization of CNC machine 
+data through sensors and operator interactions with the con­
+trol interface to develop a learning algorithm capable of 
+predicting when operator intervention is necessary. One key 
+action we focus on is the adjustment of the machine’s linear 
+feed rate, which controls how fast the tool moves in the lin­
+ear directions (x, y, z) within the Cartesian coordinate sys­
+tem, which is shown in Fig. 2. In CNC machines, the feed 
+rate is predefined in the CNC code. For example, the code 
+G1 Z−1.017 F1500 directs the tool to move along the Z-axis 
+at a feed rate of 1500 units per minute. However, real-world 
+conditions often require custom adjustment. For example, if 
+the raw material surface is too rough, using the predefined 
+feed rate might be unsafe, necessitating a customized speed 
+adjustment for each specific workpiece. Similarly, tool wear 
+conditions may also demand feed rate changes. Feed rate 
+override (Fovr) allows operators to adjust the feed rate 
+using knobs and buttons on the control interface (Fig. 1). 
+At 100%, the machine operates at the speed set by the CNC 
+program, while reducing Fovr to 0% halts the machine. This 
+ability to manually adjust Fovr underscores the importance 
+of operator expertise, as human judgment and flexibility are 
+crucial for making nuanced decisions in response to varying 
+production conditions.
+The Mazak Integrex i500 is equipped with several built-
+in sensors that stream data via the MTConnect protocol in 
+XML format. While there are a total of 127 signals, our 
+hypothesis assumes that only the signals available on the 
+control interface, which operators use for monitoring, serve 
+as key information sources influencing their decisions. 
+Therefore, we selected 20 relevant signals, as shown in 
+Table 1, to use as input for our models. These signals can be 
+categorized into four main groups, each reflecting critical 
+properties of the cutting tools during the machining process. 
+1.	 Linear and rotational positions of the cutting tool and 
+workpiece, which provide information about the geom­
+etry and dimensions of the machined part.
+2.	 Linear and rotational feed rates, which describe the 
+machine’s motion.
+3.	 Spindle and axis load data, which can offer insights into 
+the material properties, surface finish quality, and the 
+condition or wear level of the cutting tool.
+4.	 Temperature is regulated to remain stable during the 
+machining process. However, different materials have 
+different optimal temperature ranges for effective and 
+safe machining.
+Fig. 2  Turning spindle speed and feed rate. Figure adapted by the 
+authors from CustomPartNet: speed-feed-turning (2008)
+ 
+Fig. 1  The control interface for Mazak Integrex i500. The yellow box 
+shows the current commands. The green box displays cutter positions. 
+The pink box shows cutter loads. The blue box contains knobs to 
+adjust engagement rates
+ 
+1 3
+
+Journal of Intelligent Manufacturing
+of variabilities and allowed us to examine the feasibil­
+ity of using imitation learning to learn the control patterns 
+from data collected from operators. Our results showed 
+that behavioral cloning is capable of capturing the control 
+patterns from the collected dataset. Even though ensemble 
+models such as Random Forest were comparative to Long 
+Short Term Memory (LSTM), we opted to use the LSTM 
+model acquired from the first phase in this study. This is 
+because LSTMs are built to handle temporal dependencies 
+and are more suitable for sequential modeling, which is our 
+use case.
+Behavioral cloning carries a significant risk of distribu­
+tional shift, which occurs when the collected dataset fails to 
+represent the full range of possible scenarios (Hussein et al., 
+2017). In our previous study, we developed a seed model 
+that captured certain control patterns within a limited set of 
+environmental variations. To mitigate distributional shifts, 
+it is essential to collect more data across a broader range of 
+scenarios to better account for variability. In manufactur­
+ing, with CNC machining as an example, both knowledge 
+and process variability are constantly evolving, driven by 
+new products and changing requirements. As a result, batch 
+training with large, static datasets becomes impractical. 
+Instead, there is a need for learning algorithms that can con­
+tinuously adapt and update in real-time while learning from 
+human operators. This need forms the basis and objectives 
+of the current study, as discussed in Sect. 1.
+Background
+Imitation learning in human-centric systems
+Imitation Learning (IL) is a machine learning technique 
+designed for learning directly from human behavior (Hus­
+sein et al., 2017). Instead of defining explicit rules or reward 
+functions, IL enables a model to learn a task by observing 
+and replicating demonstrations provided by human experts 
+(Schaal, 1996). IL is particularly effective in domains where 
+explicitly defining task objectives or reward functions is 
+challenging, but expert behavior can be recorded. However, 
+traditional IL often relies on static datasets, which limits its 
+ability to adapt to new or unforeseen situations, leading to 
+issues such as distributional shift, where the model encoun­
+ters states not represented in the original demonstrations 
+(Ross & Bagnell, 2010). A common solution to this prob­
+lem is online learning to update learning policies continu­
+ously. In imitation learning, this involves keeping experts 
+in the loop to provide ongoing guidance and new informa­
+tion. Active Learning improves data efficiency by involving 
+humans in the labeling process more strategically. Instead 
+of labeling all data, humans are asked to annotate only the 
+We define the objective function for behavioral cloning in 
+this study as follows:
+yt+g = π(Xt)
+in which:
+	
+●
+Xt ∈RN×M is a vector Xt = (xt, xt−1, ..., xt−N)T , xt 
+is a vector with M features at timestep t; In this case, 
+M = 20 which are the 20 feature signals shown in Ta­
+ble 1. The feature signals contain information regard­
+ing movements, temperatures, and loads on the cutting 
+tools. They match the information on the control inter­
+face (Fig. 1). N is the window size.
+	
+●
+yt is a vector yt = Fovrt; g is the time into the future 
+that the model forecasts. The AI models predict opera­
+tors’ decisions after the g time gap. This is to prevent 
+shortcut learning and to accommodate the decision sup­
+port system. g is set to one second in the experiment.
+In our previous work, we focused on investigating imita­
+tion learning (Hussein et al., 2017) as a way to learn how 
+to control Fovr from experienced operators (Nguyen et al., 
+2023), Nguyen et al. (2024). In these works, we used behav­
+ioral cloning (Bratko et al., 1995), the simplest and most 
+straightforward form of imitation learning, to quickly cap­
+ture the core patterns in the dataset we collected from the 
+Mazak machine. Our previous work focused on exploring 
+batch learning using data collected from one month of pro­
+duction at MSH. During this time, MSH produced several 
+instances of the same products. This reduced the amount 
+Table 1  List of input sensor signals
+Signal
+Unit
+Description
+X
+mm
+Linear positions of the cutting tools
+Y
+mm
+Z
+mm
+B
+degree
+B angle of the cutting tools
+C
+degree
+C angle of the workpiece
+X_frt
+mm/s
+Linear feed rate of the cutting tools
+Y_frt
+mm/s
+Z_frt
+mm/s
+MS_rpm
+rpm
+Milling spindle’s rotary velocity
+TS_rpm
+rpm
+Turning spindle’s rotary velocity
+X_load
+%
+Linear load on the cutting tools
+Y_load
+%
+Z_load
+%
+MS_load
+%
+Milling spindle’s load
+TS_load
+%
+Turning spindle’s load
+X temp
+celsius
+Temperature of X servo motor
+Y temp
+celsius
+Temperature of Y servo motor
+Z temp
+celsius
+Temperature of Z servo motor
+MS temp
+celsius
+Temperature of milling spindle motor
+TS temp
+celsius
+Temperature of turning spindle motor
+1 3
+
+Journal of Intelligent Manufacturing
+observations from experts but also to allow the transfer of 
+full control to the experts when necessary.
+πi(Xt) = g(Xt)πexp(Xt) + (1 −g(Xt)ˆπNi−1(Xt)
+(2)
+Learning from multiple experts
+Learning from multiple experts has been extensively stud­
+ied, particularly in the context of offline learning, where the 
+entire dataset is available from the beginning. In these set­
+tings, the learner can optimize its training process with full 
+knowledge of the data. In contrast, online learning, where 
+data arrives sequentially, presents additional challenges. 
+One key difficulty is designing a no-regret algorithm, which 
+aims to perform nearly as well as the best fixed strategy in 
+hindsight, even without prior access to all the data. Algo­
+rithms like DAgger must carefully evaluate the reliability of 
+expert feedback against predefined safety criteria to avoid 
+accumulating poor decisions over time. To address this, Sun 
+et al. proposed Multiple-Expert-GAted DAgger (MEGA-
+DAgger), which uses a Control Barrier Function as a gating 
+mechanism to enforce safety constraints (Sun et al., 2024). 
+Expert observations that violate these safety conditions are 
+excluded from the aggregated dataset, preventing unsafe 
+behaviors from being incorporated into the training process.
+The approach used in MEGA-DAgger emphasizes the 
+safety of critical systems but overlooks the nuances of 
+human operators’ behaviors. Operational styles are far more 
+varied and complex. A less assertive operational style may 
+not be critical to system safety but could result in subopti­
+mal production outcomes, such as longer machining times. 
+While these observations are less valuable than those from 
+more attentive or skillful operators, they still contribute 
+valuable data to the learner model. However, the contribu­
+tions from different operators should not be treated equally; 
+instead, they should be weighted differently based on their 
+impact and relevance to the learning process.
+Autonomic computing
+Autonomic computing, introduced by IBM in 2001, was 
+proposed as a framework for developing self-managing and 
+self-adaptive computer systems (Corporation, 2001). This 
+paradigm draws inspiration from biological organisms, 
+particularly the autonomic nervous system, which oper­
+ates autonomously to manage and adapt to environmental 
+changes. For instance, essential functions like heartbeat 
+regulation and sweating are controlled seamlessly without 
+conscious recognition or effort on the part of humans. IBM 
+envisioned computer systems achieving a similar level of 
+most informative samples selected by the model (Settles, 
+2011). Interactive Machine Learning goes a step further by 
+making the human an active collaborator in the learning 
+process. Humans are not limited to labeling data. Instead, 
+they can provide real-time corrections and feature guidance, 
+which allow adjustments to the model’s behavior (Amershi 
+et al., 2014).
+Active Learning and Interactive Machine Learning pri­
+marily involve human input in the form of labels or feed­
+back, but do not typically allow humans to modify the 
+learning algorithm itself (Mosqueira-Rey et al., 2023).
+Dataset aggregation
+A widely used interactive machine learning technique for 
+addressing distributional shift in imitation learning is the 
+Dataset Aggregation (DAgger) algorithm (Ross et al., 2011). 
+DAgger reduces distributional shift by allowing the model 
+to perform actions while a human expert provides correc­
+tive labels for the states it encounters. These expert-labeled 
+instances are incrementally added to the training dataset, 
+allowing the policy to adapt and improve iteratively. By 
+combining autonomous execution with continuous expert 
+guidance, DAgger demonstrates how interactive learning 
+can lead to more robust and adaptive models in dynamic, 
+real-world environments.
+The data-gathering process in DAgger employs a prob­
+ability-based strategy that alternates between expert and 
+novice behaviors (Eq. 1). Here, β ∈[0, 1] represents the 
+probability that the system will choose the expert policy 
+(πexp) or the novice policy (π) when adding to the new 
+training dataset. The meta-algorithm for determining the 
+parameter β can follow various statistical strategies, such as 
+weight decay, where the probability of using expert policies 
+is initially high but gradually shifts towards novice policies 
+as the novice’s accuracy improves.
+πi(Xt) = βiπexp(Xt) + (1 −βi)ˆπNi−1(Xt)
+(1)
+When β = 1, the system exclusively uses expert policies, 
+while β = 0 indicates that novice policies have full control 
+of the system. In practice, the system follows a predefined 
+schedule for β, where experts provide guidance without 
+having complete control over the system.
+Human-gated dataset aggregation
+Human Gated-DAgger (HG-DAgger) introduces a new 
+implementation model that underscores the critical role of 
+human operators in safeguarding the system (Equation 2). 
+The gating function g(Xt) is designed not just to collect 
+1 3
+
+Journal of Intelligent Manufacturing
+Machine consciousness
+Computational neuroscience and artificial intelligence 
+(AI) have long been closely connected, sharing a common 
+goal of understanding and replicating learning processes 
+observed in the human brain. Computational neuroscien­
+tists aim to decipher how the brain processes information, 
+uncovering the mechanisms behind biological learning and 
+memory. AI researchers then apply these insights to develop 
+effective algorithms. For instance, convolutional neural net­
+works (CNNs) for vision tasks (Fukushima, 1980), Lecun 
+et al. (1998) and recurrent neural networks (RNNs) for 
+sequential processing (Hochreiter & Schmidhuber, 1997) 
+draw inspiration from biological neural models, achieving 
+remarkable success in their respective domains (Dong et al., 
+2021). By exploring machine consciousness within cogni­
+tive neuroscience, we aim to deepen our understanding of 
+human learning processes, which can, in turn, be translated 
+into advanced machine learning algorithms that foster a 
+more nuanced model of human-augmented learning.
+Cognitive processes
+The definition of consciousness remains a topic of debate, as 
+different fields interpret it uniquely from their own perspec­
+tives. In computational neuroscience, one widely accepted 
+definition involves the Global Workspace Theory (GWT) 
+proposed by Baars (1988). GWT is a framework in cogni­
+tive science for understanding consciousness. It suggests 
+that consciousness emerges when information is broadcast 
+across a centralized "global workspace" in the brain. This 
+workspace enables the integration of information from vari­
+ous unconscious processes–such as perception, memory, 
+and reasoning, making it simultaneously accessible to 
+multiple brain regions. Under this framework, information 
+processing is divided into two categories: unconscious and 
+conscious processing.
+	
+●
+Unconscious Processing Many complex mental tasks, 
+such as recognizing faces or understanding speech, are 
+carried out automatically by the brain without conscious 
+awareness. When the output of such a process becomes 
+strong or relevant enough, it crosses a threshold and 
+enters the global workspace. This transition transforms 
+the previously unconscious activity into a conscious 
+process, allowing it to be accessed and used by other 
+cognitive functions (Dehaene et al., 2003), Mashour et 
+al. (2020).
+	
+●
+Conscious Processing Information is considered con­
+scious when it becomes globally accessible–that is when 
+it can be shared across various cognitive systems such 
+as memory, attention, language, and decision-making. 
+autonomy, capable of self-governance and adaptation within 
+their own environments.
+To realize this vision, IBM proposed a control loop com­
+posed of five key building blocks: Monitoring, Analysing, 
+Planning, Execution, and Knowledge. IBM’s MAPE-K 
+model and their vision of autonomic computing systems 
+did not follow the conceptual model of machine conscious­
+ness, thus it does not differentiate between conscious and 
+unconscious processes. Previous studies have proposed 
+incorporating learning processes, such as reinforcement 
+learning, into the MAPE-K framework. For instance, Tes­
+auro suggested integrating reinforcement learning as a core 
+component of the MAPE loop, enhancing each phase with 
+a dynamic, learning-based approach to self-management 
+(Tesauro, 2007). However, this approach constrained the 
+MAPE loop to address specific functionalities within the 
+system, rather than integrating knowledge and information 
+across multiple processes or functionalities. 
+1.	 Monitoring-block collects information from external 
+sources, such as sensors, and internal sources, including 
+reactive processes, to provide a comprehensive view of 
+the system’s state.
+2.	 Analysing-block processes the data received from the 
+Monitor Block to generate actionable insights and a 
+deeper understanding of the environment.
+3.	 Planning-block uses the knowledge constructed by the 
+Analyze Block and its own understanding of the envi­
+ronment to develop rational strategies, guiding the sys­
+tem toward optimal performance.
+4.	 Execution-block implements the strategies devised by 
+the Plan Block by disseminating information to the 
+appropriate sub-processes for execution.
+5.	 Knowledge-blocks serves as a repository for storing 
+information, enabling future iterations of the MAPE-K 
+loop to leverage past experiences. It facilitates the cre­
+ation of new knowledge, which influences other blocks 
+to adapt and refine their behavior over time.
+Machine learning has been introduced several times in the 
+past. One of the earliest attempts was to transform the entire 
+MAPE-K loop into a reinforcement learning loop (Tesauro, 
+2007). Machine learning is commonly used to enhance 
+various components of the MAPE-K loop in self-adaptive 
+systems (Gheibi et al., 2021). It supports monitoring by 
+improving data interpretation, analysis through prediction 
+and anomaly detection, planning by optimizing adaptation 
+strategies, and, in rare cases, execution by selecting appro­
+priate actions. The choice of where ML is applied depends 
+on the system’s goals and the nature of the adaptation 
+problem.
+1 3
+
+Journal of Intelligent Manufacturing
+Learning theory
+Learning is the process of acquiring new knowledge through 
+experiences. Evidence of learning is typically demonstrated 
+by a change in behavior. However, behavior changes can 
+be caused by other factors, like system disruption. To dif­
+ferentiate, the learning process is specified as changes in 
+behavior through experiences (Lefrancois, 2019). Research­
+ers from different disciplines might have different theories 
+for learning. Still, they all agree that learning is incremental 
+and iterative, which means that knowledge is gathered and 
+accumulated via repeating cycles.
+The learning process happens at both unconscious and 
+conscious levels, each approaches in different ways to 
+acquire and refine knowledge and skills.
+	
+●
+In the unconscious level, learning is characterized as 
+an automatic and background process. The brain pas­
+sively absorbs patterns, updating its internal models 
+without conscious intervention. Some of the automatic 
+learning models that have been agreed upon across dif­
+ferent disciplines include subliminal priming (Kouider 
+& Dehaene, 2007), reinforcement learning (Thorndike, 
+1933), and latent learning (Lefrancois, 2019), Tolman 
+and Honzik (1930).
+Conscious processing typically involves active regula­
+tion, requiring deliberate attention, focused effort, or in­
+tentional choices beyond automatic responses. Equally 
+essential is the second dimension of consciousness: 
+self-awareness (Dehaene et al., 2017). This allows us 
+to monitor and reflect on our own thoughts, recall past 
+experiences, and engage in higher-level reasoning and 
+complex problem-solving.
+Building upon GWT, the Global Neuronal Workspace 
+(GNW) model offers a more neuroscience-grounded per­
+spective, suggesting that certain brain regions, particularly 
+the prefrontal and parietal cortices, form a network that 
+facilitates conscious processing (Dehaene et al., 1998), 
+Mashour et al. (2020). The GNW highlights how specific 
+brain areas act as hubs for integrating sensory and cogni­
+tive information, leading to the emergence of conscious 
+awareness (Fig. 3). This concept has significant implica­
+tions for AI research, as it provides a model for creating 
+systems capable of managing and integrating vast amounts 
+of information while prioritizing relevant data, ultimately 
+moving AI closer to more human-like awareness and cogni­
+tive flexibility.
+Fig. 3  Global Neuronal Workspace 
+representation with five main types 
+of processors (Dehaene et al., 
+1998)
+ 
+1 3
+
+Journal of Intelligent Manufacturing
+shapes the learning trajectory, enabling the system to adapt 
+more effectively and make informed decisions.
+Reactive learning
+This section addresses Objective 1 by introducing a con­
+tinuous learning algorithm. The algorithm incrementally 
+refines the behavioral cloning models developed in our pre­
+vious work, where models were trained on a fixed dataset 
+(Nguyen et al., 2023). This approach allows refinement by 
+observing expert behavior in real-time.
+Definition 1  Reactive learning refers to a continuous, data-
+driven process in which learning algorithms automatically 
+update their parameters based on incoming data, triggered 
+by predefined conditions.
+DAgger and other online machine learning algorithms 
+are examples of reactive learning algorithms because 
+they respond to predefined triggers. These triggers can be 
+condition-based, such as a confidence threshold in DAg­
+ger, which reflects how closely the algorithm’s predictions 
+match the expert policy. Alternatively, reactive learning 
+can also be continuous, where the trigger is a predefined 
+number of iterations or the sampling strategy. In DAgger, 
+this involves alternating between the expert policy and 
+the current learned policy, with learning triggered periodi­
+cally as the system collects new samples according to the 
+implementation strategy. In manufacturing environments, 
+data is gathered from a broad range of experts rather than 
+a select few. This approach offers the benefit of capturing a 
+diverse array of experiences and scenarios, making data col­
+lection easier and reducing the risk of distributional shifts. 
+However, a significant challenge arises from the variabil­
+ity in operational styles among different operators, shaped 
+by their personal preferences and production needs. For 
+instance, within the same production environment, some 
+operators might adopt a cautious approach, slowing down 
+machine speeds in advance to minimize risks, while oth­
+ers may take a more active approach, making real-time 
+adjustments based on situational demands. Each style has 
+its own advantages and drawbacks. The cautious approach 
+helps preserve tools, reduces workload, and provides peace 
+of mind for operators but at the cost of slower production 
+speeds. On the other hand, the active approach optimizes 
+production speed and maintains tool efficiency but demands 
+greater attention and skill from operators. These human fac­
+tors significantly influence the data collected, presenting 
+challenges for machine learning algorithms to discern opti­
+mal patterns from the varied evidence available.
+We propose a more nuanced version of Human-Gated 
+DAgger that accounts for these variations by incorporating 
+	
+●
+Conscious learning reflects active, intentional learning. 
+The process requires focus, attention, and mental effort 
+(Dehaene et al., 2017). Active learning is an integral 
+part of consciousness. It requires global accessibility of 
+knowledge, information filtering, and memory recall. 
+By reflecting on the information via abstract thinking 
+and complex reasoning, it facilitates the creation of new 
+knowledge, more nuanced and deeper. Conscious learn­
+ing also includes meta-cognitive reflection allows our 
+own learning process to identify errors, adjust strategies, 
+and refine our approach based on this self-assessment.
+The majority of human knowledge operates at the uncon­
+scious level (Baars, 1997), making it inherently difficult to 
+formalize or articulate explicitly. This form of knowledge 
+was first described as “tacit knowledge” by Michael Polanyi 
+in 1966 (Polanyi, 1966). According to Baars, while actual 
+encoding and processing of patterns happens implicitly, 
+conscious awareness is required to trigger learning and the 
+selection of learning materials (Baars, 1997).
+The reinforcement learning mechanism in machine learn­
+ing is the direct inspiration of its counterpart in biology. In 
+this paradigm, agents interact with an environment, making 
+decisions to maximize cumulative rewards over time (Sut­
+ton & Barto, 1998). Bayesian learning is a computational 
+framework based on Bayes’ Theorem, which provides a 
+principled way to update beliefs in light of new evidence 
+(MacKay, 2002). Though not a direct model of biological 
+learning, Bayesian learning closely aligns with cognitive 
+theories suggesting that humans and animals often make 
+decisions by weighing probabilities and updating expecta­
+tions based on experience (Tenenbaum et al., 2006). These 
+learning algorithms, however, focus on the unconscious 
+learning process, facilitating an automatic, rigid framework 
+to refine the established cognitive models rather than con­
+structing more nuanced knowledge through reasoning or 
+introspection.
+Augmentor
+Building on theoretical frameworks of machine conscious­
+ness (Sect. 3.3), we align the first objective with reactive 
+learning (Sect. 4.1), where the system passively refines 
+its behavior through continuous observation and opera­
+tor adjustments without explicit awareness. This process 
+resembles how the human brain unconsciously absorbs pat­
+terns and regularities from the environment, automatically 
+updating internal models. In contrast, the second objective 
+aligns with context-aware adaptive learning (Sect. 4.2), 
+where the system incorporates new insights and a deeper 
+understanding of its environment. Expert input actively 
+1 3
+
+Journal of Intelligent Manufacturing
+In the early stages, we set a high temperature of accepting 
+both high and low-confidence samples to allow the model to 
+explore different possibilities and gather diverse data. As the 
+model becomes more stable, we reduce the probability of 
+accepting high-confidence samples, but still always accept 
+low-confidence samples to allow the model to learn from 
+uncertain or difficult cases. A cooling schedule is used to 
+decrease temperature T over time to reflect growing stability 
+in the training progress:
+Tnew = Told × α
+α is a decay factor that gradually reduces the temperature 
+over time. This cooling schedule will guide how the system 
+shifts from a more exploratory phase to a more selective 
+phase.
+Context-aware adaptive learning
+To achieve Objective 2 of incorporating contextual informa­
+tion, environmental understanding, and operator knowledge 
+into the learning system, we adapt the Global Workspace 
+Theory and conscious learning theory to guide our learning 
+algorithms.
+Our enhanced HG-DAgger algorithm corresponds to 
+a reactive learning process. The result of the process still 
+needs a global workspace to allow broadcast to different 
+computational processes and to be influenced by other pro­
+cesses in return. In the context of the Augmentor system, 
+the two dimensions of consciousness can be reinterpreted 
+as follows: 
+1.	 Global accessibility: a common knowledge represen­
+tation that all computational processes must adhere to 
+before their information can enter a global workspace. 
+The global workspace functions as a centralized frame­
+work with defined rules that manage how knowledge 
+is received, selectively focused upon, and broadcast to 
+other computational processes. This enables the system 
+to prioritize and integrate information, akin to selective 
+attention in humans, where relevant details are empha­
+sized while irrelevant ones are suppressed.
+2.	 Self-Awareness: is represented by a rule set that enables 
+self-reflection and the generation of new knowledge. 
+This involves the system’s ability to monitor its pro­
+cesses, evaluate past actions, and adapt to new chal­
+lenges through iterative learning and reasoning. Unlike 
+its biological counterpart, self-awareness in computa­
+tional systems does not aim to replicate human intro­
+spection directly but rather serves as a functional 
+abstraction to facilitate adaptive decision-making and 
+complex problem-solving.
+them into the learner model through an instance weighting 
+learning algorithm. In standard DAgger, the objective is to 
+minimize the loss function over the aggregated dataset
+min
+π
+∑
+(xt,at)∈D
+ℓ(π(xt), at)
+(3)
+where ℓ(π(xt), at) is the loss incurred by the policy π when 
+it chooses action π(xt) at state xt compared to the expert 
+action at. When incorporating instance weighting, the loss 
+function is modified to weigh each instance according to the 
+experts’ importance.
+min
+π
+∑
+(xt,at)∈D
+w(xt, at) · ℓ(π(xt), at)
+(4)
+Experts play a pivotal role in guiding the learning algorithm 
+and intervening when necessary. The learning algorithm is 
+assigned a confidence score, denoted as C. When experts 
+do not intervene, C is high, indicating strong confidence in 
+the algorithm’s decision-making. Conversely, when experts 
+intervene, the learning algorithm evaluates its decision-
+making by comparing it to the experts’ behavior. In this 
+case, the confidence score C becomes inversely proportional 
+to the error rate between the algorithm’s decisions and the 
+experts’ actions. From our experiments we found that mini-
+batch learning achieves faster convergence compared to sto­
+chastic learning. Instead of relying on a predefined threshold 
+to trigger the learning process, we incorporate samples into 
+the mini-batch for training based on the confidence score C. 
+This approach ensures a more efficient and adaptive learn­
+ing process. We adopt simulated annealing to control the 
+inclusion of learned policy actions into the training data­
+set. It is to balance exploration—accepting learned policy 
+actions, and exploitation—relying on expert corrections. 
+The idea is to start by heavily favoring the expert’s actions 
+and gradually increase the probability of including learned 
+policy actions as the training progresses, guided by a simu­
+lated annealing schedule. If the expert does not correct the 
+learned policy’s action, it means the learned action is already 
+correct in that context. Including the learned policy’s action 
+in the dataset under these circumstances ensures that the 
+policy remains consistent with its previously learned behav­
+iors. This can help mitigate the risk of overfitting to changes 
+in the expert’s policy or potential inconsistencies in expert 
+demonstrations. The probability of accepting a sample with 
+a high confidence score C should depend on both the current 
+temperature T and the confidence score:
+Paccept(C) = exp
+(
+−C
+T
+)
+1 3
+
+Journal of Intelligent Manufacturing
+variants commonly used in active learning. Unlike tradi­
+tional approaches that rely solely on expert demonstrations, 
+Augmentor enables adaptive learning through contextual 
+reasoning, elevating the expert’s role from a mere label pro­
+vider to a source of semantic and procedural knowledge. 
+This shift transforms the expert’s involvement from sim­
+ply supplying labels to contributing richer semantic and 
+procedural input. Additionally, Augmentor introduces a 
+mechanism for sharing information across different learning 
+processes through a global workspace, allowing multiple 
+learners to benefit from each other’s experiences–resem­
+bling the learning systems found in human cognition.
+Experiment
+The experiment was designed to validate the two main 
+objectives of developing a context-aware adaptive learning 
+mechanism.
+Data preparation
+For our experiment, we collected data from the Mazak Inte­
+grex i500 at MSH over four months, spanning October 2023 
+to January 2024. During this period, the machine produced 
+multiple product series.
+Definition 3  An episode refers to the period during which 
+the CNC machine produces a unit of the product design. 
+This concept is adapted from reinforcement learning, where 
+an episode represents a complete sequence of interactions 
+between an agent and its environment, beginning in an ini­
+tial state and concluding in a terminal state (Sutton & Barto, 
+1998).
+A chuck is a tool that holds and rotates the workpiece dur­
+ing machining. The machine operates only when the chuck 
+is in the CLOSED state. We used the ChuckState signal to 
+divide the sensor data stream into separate episodes. When 
+the ChuckState transitions from OPEN to CLOSED, 
+it marks the start of an episode. Conversely, when the 
+ChuckState transitions from CLOSED to OPENED, it sig­
+nifies the end of the episode, as the operator removes the 
+finished part from the chuck grip. Episodes are grouped into 
+a series if they share the same sequence of tool numbers and 
+their timestamps are within a close interval, within one day 
+or one week.
+Definition 2  Context-aware adaptive learning involves 
+global accessibility of knowledge, integrating both reac­
+tive learning and contextual information. It requires self-
+reflective properties to derive new knowledge that actively 
+enhances the reactive learning process.
+We leverage the conceptual model of autonomic comput­
+ing to design our computational global workspace. While 
+Baars (1988) provided a theoretical framework explaining 
+brain function through the division of unconscious and sub­
+conscious processes, IBM’s autonomic computing can be 
+utilized to translate the concept into a computational frame­
+work and outline how such systems could be realized in 
+computer architecture. We build upon these foundations by 
+integrating concepts from machine consciousness with tech­
+nical frameworks from autonomic computing and machine 
+learning to create a more nuanced version of the MAPE-K 
+loop. In our design, computational processes are classified 
+as follows: 
+1.	 Reactive processes These include learning models 
+driven by data, such as online learning, pattern recogni­
+tion, and other data-driven mechanisms.
+2.	 Context-aware adaptive Processes These occur within 
+the MAPE-K loop and actively influence reactive pro­
+cesses through the Execute block, ensuring adaptive 
+and context-aware interactions.
+Policies in the system can be created through two approaches: 
+human-defined policies, where operators inject explicit pol­
+icies based on their expertise and operational knowledge to 
+guide system adaptation, and synthesized policies, where 
+the system autonomously generates policies by analyzing 
+accumulated evidence and contextual data, enhancing reac­
+tive processes with learned adaptations.
+The MAPE-K in the Augmentor system becomes the 
+global workspace for context-aware adaptive processes. 
+The MAPE-K loop itself provides a mechanism for global 
+accessibility between reactive processes. While the Anal­
+yse and Plan block utilizes information from the Knowl­
+edge storage to achieve the self-awareness dimension of 
+machine consciousness (Fig. 4). SPARQL and semantic 
+web technologies are used to implement adaptation policies 
+within MAPE-K. Unlike previous approaches to integrat­
+ing machine learning into MAPE-K (Gheibi et al., 2021), 
+our design treats learning algorithms as distinct reactive 
+processes that report their outputs to the global workspace 
+component of the MAPE-K loop. This separation of con­
+cerns enables modular scalability, enabling the integration 
+of multiple models and processes seamlessly.
+Table 2 presents a comparative summary of context-
+aware adaptive process learning alongside various DAgger 
+1 3
+
+Journal of Intelligent Manufacturing
+value. Feedback from operators for these episodes is given 
+greater weight compared to others. Table 3 lists the series 
+selected for our experiment. The selected series includes 
+at least four episodes and involves the use of at least four 
+different cutting tools. The benefits of organizing data 
+sequences into episodes and series include: 
+Definition 4  A series is a collection of episodes in which 
+the CNC machine produces similar parts based on the same 
+design.
+For each episode, we measure the production time for 
+during which the Execution status is ACTIVE. Episodes 
+with shorter production times are assumed to be of higher 
+Table 2  Comparative summary of different learning algorithms
+DAgger
+HG-DAgger
+MEGA-DAgger
+Augmentor
+Goal
+Reduce compound­
+ing errors
+Improve safety via 
+gating
+Filter unsafe/conflicting 
+data
+Adapt using context and semantics
+Learning source
+Expert demonstra­
+tions only
+Expert demonstrations 
+gated by safety
+Filtered input from mul­
+tiple imperfect experts
+Combines expert actions with contex­
+tual and domain knowledge
+Expert role
+Full demonstrator
+Safety gate
+Imperfect label provider
+Context source and adaptive guide
+Context use
+None
+Partial (safety only)
+Scenario-specific
+Deep, semantic, task-aware
+External knowledge use
+None
+Minimal (safety 
+judgment)
+Task-specific heuristics
+Actively integrates semantic, environ­
+mental, and task-level context
+Cross-agent knowledge 
+sharing
+None
+None
+None
+Multiple learners influence each other 
+via shared context and global workspace
+Fig. 4  Overview architecture of Augmentor, which serves as a knowl­
+edge preservation tool by learning from experts through both reactive 
+learning and expert-guided input. The system passively refines its 
+behavior through continuous observation and operator adjustments 
+(Reactive processes), while actively incorporating new insights and 
+contextual understanding to enhance decision-making and perfor­
+mance (Context-aware Global Workspace). Knowledge gained can 
+be transferred to other trainees or experts in the form of actionable 
+recommendations
+ 
+1 3
+
+Journal of Intelligent Manufacturing
+the CNC machine, products, and operators while provid­
+ing a controlled environment for testing and validating our 
+algorithms.
+For the experiment, we assume that operators observe the 
+current data, there will be a small time gap for their reac­
+tion in their reactions. Actiont+g = f(Statet). Emulation 
+replay data as recorded. Augmentor will use current replay­
+ing data to make a prediction of what would be the appropri­
+ate reaction after g time Predt+g = Augmentor(Statet). 
+The emulation then compares the Actiont+g and Predt+g.
+Comparing Actiont+g and Predt+g, if the error margin 
+is smaller than threshold, we assume that the operators fol­
+low the predictions from Augmentor. If the error margin is 
+bigger than threshold, we assume that operators intervene 
+and inject their knowledge about the situations. Augmentor 
+will then try to update the models.
+The confidence score C of Predt+g is calculated:
+C = 1 −normalized(abs(Predt+g −Actiont+g))
+which gives the absolute confidence of 1 when the predic­
+tion matches the action from the expert.
+Evaluation metric
+Regret is a key concept used to evaluate the performance of 
+online learning algorithms (Ross et al., 2011). It is defined 
+as the difference between the average loss incurred by the 
+sequence of learned policies and the average loss incurred 
+by the best policy in hindsight.
+Regret =
+N
+∑
+i=1
+li(πi) −min
+π∈Π
+N
+∑
+i=1
+l∗
+i (π)
+(5)
+where
+	
+●
+l(π(xt)) is the loss incurred by the policy π learned by 
+the DAgger algorithm in iteration i.
+	
+●
+π∗ is the expert policy or the best policy in hindsight that 
+minimizes the cumulative loss
+	
+●
+N is the total number of iterations or time steps
+A no-regret algorithm is one for which the average regret 
+converges to zero as the number of iterations grows (Ross 
+et al., 2011).
+RegretN = 1
+N Regret ≤γN for limN→∞γN = 0
+Regret quantifies the performance gap due to making deci­
+sions without knowing future data (Ross et al., 2011). If the 
+1.	 By separating the data into episodes, we can concentrate 
+on meaningful periods when the machine is actively 
+working, effectively eliminating idle times such as 
+breaks or pauses.
+2.	 Typically, when operators begin working on a new 
+design or series, the initial episodes are longer and more 
+error-prone as operators adapt their strategies and refine 
+their approach to the new requirements. This separation 
+helps identify and analyze these learning phases.
+3.	 Different series often come with varying requirements, 
+leading to variations in the quality and type of skills 
+operators invest in. By grouping data into series, we can 
+better understand these differences and their impact on 
+production outcomes.
+Emulation
+We conducted our experiment using emulation instead of 
+real-time data for the following reasons: 
+1.	 The CNC machine at MSH is an industrial machine, and 
+its scheduling is beyond our control, being dependent 
+on the ongoing business operations at MSH.
+2.	 Machining times vary significantly depending on the 
+specific requirements. In some cases, the machining 
+process can be extremely slow to ensure the highest 
+quality of the products, which may not align with the 
+timelines of our experiment.
+3.	 The CNC machine is expensive and operates under 
+strict rules. Since our learning algorithms are still in the 
+experimental phase, direct testing on the machine poses 
+a significant risk of causing damage to the machine, the 
+products, and potentially the human operators.
+We developed an emulation system that replays the 
+recorded data stream, enabling us to conduct experiments 
+at an accelerated pace. This approach ensures the safety of 
+Table 3  List episodes used for experiment, duration and active time 
+in minutes
+N. Eps
+Duration
+Active time
+N. Tools
+11
+22.62
+12.95
+8
+6
+73.56
+46.98
+7
+7
+171.67
+133.34
+10
+9
+30.16
+22.26
+6
+5
+18.85
+8.91
+9
+5
+24.64
+15.31
+5
+5
+8.35
+7.63
+6
+16
+41.68
+31.72
+8
+17
+64.94
+53.45
+5
+11
+19.20
+10.94
+6
+12
+36.23
+13.59
+4
+11
+19.64
+6.62
+4
+1 3
+
+Journal of Intelligent Manufacturing
+received data from the emulator in real-time and processed 
+it to learn control patterns. Three learning algorithms were 
+executed in parallel within our learning system: 
+1.	 Static model was created from our previous work 
+(Nguyen et al., 2023).
+2.	 Reactive models build upon the static model as its ini­
+tial foundation. It then continuously updates itself using 
+our enhanced HG-DAgger algorithm, as described in 
+Sect. 4.1. This process operates as a reactive learning 
+mechanism.
+3.	 Context-aware adaptive models follow the same proce­
+dure as the learning model but are monitored and regu­
+lated by the global workspace MAPE-K, as detailed in 
+Sect. 4.2. This process represents a context-aware adap­
+tive learning mechanism.
+We measure regrets to evaluate the effectiveness of the 
+learning models. Hypothetically, as our learning algorithms 
+evolve through feedback from operators, we expect to 
+observe the following outcomes: 
+1.	 How the learning happens across episodes in the same 
+series: The extent to which the algorithms learn from 
+earlier episodes compared to later episodes within the 
+same series. This will help us assess how well the algo­
+rithms capture and leverage operator strategies as they 
+refine their approach over time.
+2.	 How the learning adapts across series: The level of adap­
+tation required to transition from one series to another 
+with different requirements. This observation will allow 
+us to evaluate the algorithms’ ability to generalize and 
+effectively adapt to changes in production scenarios and 
+requirements.
+The comparison between reactive models and the static 
+model demonstrates the proposed system’s effectiveness 
+with respect to Objective 1. Context-aware adaptive models 
+address both objectives; therefore, comparing the context-
+aware adaptive model with the reactive model highlights the 
+proposed system’s effectiveness with respect to Objective 2 
+(Sect. 1).
+Initial static model
+In our previous work, the original dataset used for creating 
+the static model was gathered over a month from the Mazak 
+Integrex i500 (Nguyen et al., 2023). During this period, the 
+CNC machine produced identical units of the same product. 
+The maximum data frequency was set at 4Hz, with sensor 
+data only updating upon changes. This occasionally led to 
+inconsistent data frequencies. To standardize the data, it was 
+learner has high regret, its policies are significantly worse 
+than the expert policy, and it has not learned effectively 
+from the expert’s corrections. Low regret indicates that the 
+learner is performing close to the expert’s level and is effec­
+tively learning from feedback, approaching expert-level per­
+formance over time. In Eq. (5), regret is measured against a 
+single fixed action that is optimal in hindsight. This limits its 
+ability to capture the adaptability of an algorithm in chang­
+ing settings. Dynamic regret allows evaluation against a 
+sequence of comparators that can vary over time, making it 
+better suited for dynamic environments (Zhang et al., 2018).
+Regret =
+N
+∑
+i=1
+li(πi) −
+N
+∑
+i=1
+li(π∗
+i )
+In the context of DAgger, the expert policy at each timestep, 
+π∗
+i , is assumed to produce the optimal action. Consequently, 
+the expert’s loss is typically considered zero or negligible 
+when making comparisons.
+RegretN = 1
+N
+N
+∑
+i=1
+li(πi)
+The loss l(πt) for the learner policy πt at time t is typi­
+cally computed using the chosen metric. In our case, we use 
+mean squared error (MSE) between the actions taken by the 
+learner and the actions taken by the expert on a dataset of 
+states st:
+li(πi) = 1
+m
+m
+∑
+j=1
+(πi(xj) −aj)2
+where πi(xj) is the action taken by the learner policy πt on 
+state xj, and aj is the action taken by the expert on the same 
+state, and m is the total number of samples.
+One limitation of using regret as a performance measure 
+is that its interpretability can become less straightforward 
+when dealing with subtle differences across large datasets 
+or multiple objectives (Rakhlin et al., 2011). In this study, 
+the data were broken down into modular levels, series, and 
+episodes, allowing for closer inspection of how different 
+conditions or phases affect learning.
+Experimental procedure
+In our experiment, we used the emulator to replay the epi­
+sodes listed in Table 3 sequentially within the same series, 
+following their chronological order. The series themselves 
+were replayed in random order. Our learning system 
+1 3
+
+Journal of Intelligent Manufacturing
+paired with smart sampling or data selection strategies, deep 
+models can also deliver strong performance in active learn­
+ing scenarios (Shen et al., 2017).
+Reactive learning processes
+The learning model follows our enhanced HG-DAgger 
+algorithm in Sect. 4.1. It starts with a high temperature T0 
+and a high probability of accepting both high and low-con­
+fidence samples. As temperature decreases, high-confidence 
+samples are rarely accepted, but low-confidence samples are 
+always accepted. The model focuses more on refining its 
+understanding of the control patterns presented in the time 
+series data. One key performance metric in CNC production 
+is active time, with shorter durations being preferable. As 
+a result, data from episodes with shorter active times are 
+assigned higher sample weights compared to those with lon­
+ger production times within the same series.
+Our DAgger algorithm exhibits elements of subliminal 
+priming learning. It passively absorbs information from 
+stimuli when the mini-batch dataset becomes available for 
+updating the model. In the absence of contextual input from 
+the global workspace, DAgger operates according to its 
+default algorithm, with sample weights maintaining their 
+standard value of one.
+Context-aware adaptive learning processes
+During the initial phase of generating the static model, we 
+inadvertently integrated contextual knowledge into the 
+learning process through data preprocessing to create the 
+training dataset. However, two key contextual elements are 
+inherently absent from the reactive learning process:
+	
+●
+The model does not perform updates using data collect­
+ed when the machine is not in an ACTIVE state.
+interpolated to a steady 4Hz frequency. The CNC machine 
+could be paused during the machining process, such as dur­
+ing lunch breaks. To exclude these inactive intervals, we 
+used the Execution signal to filter out the periods when Exe­
+cution was not ACTIVE.
+A cutting path is defined as the interval beginning when 
+the cutting tools engage the workpiece and ending when 
+they lift and rapidly advance to the next cutting position. 
+During the movement to the next position, the load on 
+the turning spindle drops almost to zero, while movement 
+speed and feed rates spike briefly. These intervals are con­
+sidered transient periods, which can increase the variance 
+of our dataset. We removed these segments from the train­
+ing dataset. Identifying sudden shifts in time series behavior 
+is known as change point detection. For this, we applied 
+the PELT (Pruned Exact Linear Time) algorithm from the 
+ruptures library (Truong et al., 2020). PELT detects an 
+unknown number of change points, assuming they occur 
+linearly (Killick et al., 2012). Abrupt changes in spindle 
+load can also result from irregular surfaces. To differentiate 
+between cutting paths and transient periods, segments with 
+a quantile below ten between change points are labeled as 
+transient and discarded (Fig. 5)
+While our previous study found that Random Forest per­
+formed similarly to Long Short-Term Memory (LSTM) on 
+our offline dataset (Nguyen et al., 2023), deep neural net­
+works (DNNs) tend to offer greater advantages when work­
+ing with time series data, especially in the context of active 
+learning. One key benefit is that DNNs can learn useful fea­
+tures directly from raw input without the need for manual 
+feature engineering or transformation (Ismail Fawaz et al., 
+2019). This is particularly useful in situations where domain 
+knowledge is hard to formalize, and where relying on data 
+alone becomes necessary. Moreover, DNNs family can be 
+trained more efficiently on GPUs, which makes them bet­
+ter suited for handling high-dimensional time series data in 
+online learning settings (Ismail Fawaz et al., 2019). When 
+Fig. 5  The green line visualizes 
+the toolpath on Z-axis. Transient 
+periods are highlighted as light 
+pink when the cutter quickly 
+moves to the next position for the 
+cutting path
+ 
+1 3
+
+Journal of Intelligent Manufacturing
+demonstrates the system’s ability to assign varying lev­
+els of importance to knowledge from different episodes. 
+The importance of each episode is classified based on 
+productive time, with shorter productive times indicat­
+ing higher experimental quality, which in turn contrib­
+utes to higher sample weights.
+	
+●
+Global Accessibility: in the initial creation of the static 
+model, transient periods were identified using the PELT 
+algorithm (Killick et al., 2012). It is an offline algorithm 
+requiring the observation of the entire time series to 
+detect change points. To address this limitation, we de­
+veloped a separate reactive process for transient recog­
+nition using machine learning (Fig. 4). The PELT algo­
+rithm was employed to label samples as transient or not, 
+creating a labeled dataset. This dataset was then used 
+	
+●
+The model recognizes the variance introduced during 
+transient periods and excludes such data from the train­
+ing dataset.
+In the Augmentor system, MAPE-K serves as the global 
+workspace, functioning as the central hub for contextual 
+information and active awareness.
+	
+●
+Context-awareness: we implemented a set of rules using 
+SPARQL and semantic web technologies to enable con­
+textual awareness, transforming reactive learning into 
+context-aware adaptive learning. Figure 6 illustrates 
+how the system informs the reactive learning process to 
+identify idle periods when the machine is inactive and 
+exclude such data from the learning process. Figure 7 
+Fig. 7  Adjust the sample weights 
+based on how importance the 
+experiences
+ 
+Fig. 6  When the machine is not 
+active, do not update the learning 
+models
+ 
+1 3
+
+Journal of Intelligent Manufacturing
+ability to learn over time significantly improves decision-
+making performance and adaptability.
+Figure 10 provides a zoomed-in view of the learning 
+model trajectories, highlighting the benefit of incorporating 
+context-awareness into the learning process. The adaptive 
+model, which leverages contextual information, achieves a 
+lower regret slope than the reactive model, reflecting more 
+accurate and consistent decision-making over time.
+Figure 11 presents the average regret trajectories of 
+the learning models. Both models initially exhibit a sharp 
+decrease in average regret after the first series, followed by a 
+sudden increase, suggesting overfitting to the early episodes. 
+However, both models eventually adapt, and their average 
+regrets show a trend toward zero, consistent with the no-
+regret property. Moreover, the adaptive model demonstrates 
+less volatility than the reactive model, indicating improved 
+robustness and stability through context-awareness.
+The light gray vertical lines represent the division of 
+time into episodes, whereas the black vertical lines provide 
+additional subdivisions within each episode, forming series 
+(Figs. 9, 10, 11, 12, 13). Across episodes within the same 
+series, a consistent trend emerges: regret initially increases 
+sharply at the beginning of each series and then levels off in 
+later episodes (Fig. 10). This pattern reflects the behavior of 
+to train a pattern recognition model capable of identi­
+fying whether a given data sample is transient. We use 
+Random Forest as the classifier for transient recognition 
+(Liaw & Wiener, 2002). During the experiment, tran­
+sient recognition operates as an independent reactive 
+process, reporting its findings to the MAPE-K system. 
+MAPE-K uses this information to determine and broad­
+cast appropriate adaptation policies. It decides whether 
+the learning process should proceed with updates based 
+on the transient recognition results, as illustrated in Fig. 
+8.
+Results
+Figure 9 illustrates the accumulated regret trajectories for 
+the static, reactive, and context-aware adaptive models. The 
+static model exhibits the worst performance, with a steadily 
+increasing regret trajectory of much higher magnitude than 
+those of the learning models. This pattern suggests that the 
+static model, trained on a limited set of real-life scenarios, 
+fails to generalize and adapt, resulting in a persistently high 
+error rate. In contrast, the learning-enabled models exhibit 
+substantially flatter regret trajectories, indicating that the 
+Fig. 9  Regret trajectories of different models. Light gray vertical lines indicate the division of time into episodes, while black vertical lines further 
+subdivide the episodes into series
+ 
+Fig. 8  Only update the models 
+using samples that are not transient
+ 
+1 3
+
+Journal of Intelligent Manufacturing
+Fig. 13, which shows the growth rates of regret across epi­
+sodes. Within a single series, growth rates are highest dur­
+ing the first few episodes and decrease significantly in later 
+episodes. However, the slope of regret increase between 
+series diminishes in later series compared to earlier ones, 
+human operators as they gradually adapt their knowledge 
+to a specific series. The result is a staircase-like trajectory, 
+where regret spikes at the start of each new series, indicat­
+ing that the current learning model struggles to generalize 
+effectively across all scenarios. This trend is highlighted in 
+Fig. 12  Prediction horizon of the reactive model with g = 1 second, and informed models with g of 1, 5, and 10 s. Light gray vertical lines indi­
+cate the division of time into episodes, while black vertical lines further subdivide the episodes into series. The y-axis is plotted using a log scale
+ 
+Fig. 11  The average regret trajectories of the learning models. Light gray vertical lines indicate the division of time into episodes, while black 
+vertical lines further subdivide the episodes into series
+ 
+Fig. 10  The zoomed-in view of Fig. 9, focusing on the learning models. Light gray vertical lines indicate the division of time into episodes, while 
+black vertical lines further subdivide the episodes into series
+ 
+1 3
+
+Journal of Intelligent Manufacturing
+While a longer time gap facilitates long-term planning, it 
+reduces the model’s prediction accuracy. However, when 
+compared to the regret trajectory of the reactive model, the 
+reactive model with a time gap of g = 1 still exhibits sig­
+nificantly higher regret. This indicates poorer performance 
+compared to the adaptive models with time gaps of g = 5 
+and g = 10. This emphasizes the importance of knowledge 
+enrichment in the learning process, which helps compensate 
+for a longer prediction horizon. These findings demonstrate 
+another practical application of knowledge enrichment–by 
+increasing the prediction horizon, additional context infor­
+mation can be provided to offset the challenges of making 
+further predictions.
+Discussion
+Regarding the main objectives
+Objective 1 aimed to continuously refine the imitation learn­
+ing algorithm by learning from operators’ actions in real-
+time. This was achieved through the enhanced HG-DAgger 
+algorithm, which incrementally updated behavioral cloning 
+suggesting that the knowledge gained by the learning algo­
+rithm is progressively contributing to improved perfor­
+mance in subsequent series. Transitioning from one series to 
+another requires adaptation, leading to a temporary increase 
+in growth rates (Fig. 13). Nonetheless, Fig. 14 shows a 
+broader downward trend in regret across series, with later 
+series exhibiting lower regret growth rates compared to ear­
+lier ones. This demonstrates the learning model’s gradual 
+improvement in adapting to new series over time.
+The key difference between the reactive learner and the 
+adaptive learner lies in the incorporation of additional con­
+textual knowledge, which introduces bias or information 
+gain. This contextual knowledge can take the form of rules 
+or policies derived from human understanding or inferences 
+generated directly from the knowledge base.
+Regretcontext_aware = Regretreactive −bias
+Figure 12 illustrates the impact of varying the time gap g, 
+which determines how far into the future the model predicts. 
+As the time gap g increases, accumulated losses, represented 
+as regrets, also grow. This reflects a trade-off between pre­
+diction accuracy and the length of the prediction horizon. 
+Fig. 14  Growth-rates of regrets over series. The dots indicate individual series
+ 
+Fig. 13  Growth-rates of regrets over episodes. The dots indicate individual episodes. Black vertical lines divide the episodes into series
+ 
+1 3
+
+Journal of Intelligent Manufacturing
+and opens new possibilities for designing AI systems 
+that mirror human cognitive structure.
+	
+●
+Traditional online learning systems treat all observations 
+equally, often failing to account for environmental con­
+text or operational relevance. By incorporating a context 
+filter and dynamic sample weighting, our approach al­
+lows learning algorithms to prioritize meaningful data, 
+ignore irrelevant signals, and adapt more effectively. 
+This breaks the rigidity of typical online updates and 
+demonstrates a path toward more intelligent, context-
+sensitive learning.
+	
+●
+The experimental framework allows different learning 
+processes to contribute and access shared knowledge 
+in a coordinated way. This illustrates how multimodal 
+learning–including signals from environment states, 
+expert actions, and contextual rules–can be integrated 
+through a central knowledge base, allowing the system 
+to learn more efficiently and act with greater coherence.
+	
+●
+The enhanced Human-Gated DAgger algorithm under­
+scores the importance of keeping humans in the loop–
+not simply as data sources, but as active collaborators 
+in guiding and correcting the learning process. By em­
+bedding human feedback into the system’s adaptation 
+cycle, this cooperative model ensures that humans grow 
+and adapt alongside the system, fostering a mutually re­
+inforcing learning relationship. Rather than seeking to 
+replace human involvement, the design encourages con­
+tinuous co-evolution, where the system aligns with hu­
+man goals while empowering users to remain engaged, 
+informed, and in control.
+Challenges and future directions
+This study concentrates on offline imitation learning. 
+While it doesn’t offer the flexibility of interactive, real-
+time approaches, it comes with clear benefits–especially 
+in terms of safety, repeatability, and ease of deployment. 
+These strengths make it well-suited for situations where live 
+system access is limited or where safety concerns prevent 
+direct experimentation. In future work, we plan to bring 
+these algorithms into real-world deployment, allowing them 
+to actively influence the system’s behavior and adapt based 
+on real-time feedback.
+This study concentrated on one specific operator task: 
+adjusting the override feed rate. In practice, however, CNC 
+operators are responsible for a range of other activities, such 
+as changing tools, clearing chips, and responding to unex­
+pected events. These tasks often require operators to rely on 
+multiple sources of information, including what they hear 
+and see during machine operation. Expanding this work 
+to better capture the full scope of operator behavior would 
+therefore require incorporating multimodal data. Recent 
+models based on incoming data and expert feedback. The 
+results show that the reactive learner, when compared to the 
+static model, significantly reduced cumulative regret over 
+time. This demonstrates that the model effectively assimi­
+lated operator behavior and refined its control policies 
+through repeated exposure and feedback. The staircase pat­
+tern in regret across episodes further confirms this learning 
+dynamic–each new series initially incurred high regret that 
+gradually decreased as the model adapted, illustrating how 
+learning accumulated and improved through experience.
+Objective 2 focused on incorporating contextual knowl­
+edge, environmental understanding, and operator insight into 
+the learning system. This was addressed through the con­
+text-aware adaptive learning framework, which augmented 
+reactive learning with information broadcast through a cen­
+tralized global workspace based on the MAPE-K architec­
+ture. Unlike the reactive model, the context-aware model 
+was able to selectively filter irrelevant or noisy data dur­
+ing machine inactivity or transient states, and dynamically 
+adjust sample weights based on contextual relevance. These 
+context-sensitive adaptations led to a further reduction in 
+regret compared to the reactive learner alone, validating the 
+effectiveness of integrating high-level expert knowledge 
+and reasoning into the learning loop.
+Together, these results demonstrate that the Augmen­
+tor system meets both objectives–reactively learning from 
+expert demonstrations and adaptively improving through 
+structured, context-aware reasoning.
+Actionable insights
+The study focused on a specific form of tacit knowledge 
+involved in controlling feed rate. It showed how this type 
+of knowledge can be modeled as a reactive, data-driven 
+process within Augmentor which is functionally equiva­
+lent to unconscious learning in Baar’s Global Workspace 
+Theory (GWT) (Baars, 1988). In line with Baars’ theory 
+(Baars, 1997), the triggering of learning and the reception 
+of relevant input through the global workspace reflect how 
+conscious access guides what is learned, while the actual 
+processing remains unconscious.
+The experimental results not only validate the effective­
+ness of the proposed learning framework but also offer sev­
+eral insights that can inform the design of future adaptive 
+systems:
+	
+●
+Inspired by the Global Workspace Theory, this study 
+shows that learning processes can be organized as modu­
+lar, reactive agents whose outputs are selectively broad­
+cast and coordinated through a shared global workspace. 
+This architecture facilitates learning across processes, 
+enabling multimodal integration and information reuse, 
+1 3
+
+Journal of Intelligent Manufacturing
+1.	 Reactive processes: These include data-driven algo­
+rithms such as learning models and pattern recognition 
+techniques. Their primary function is to refine model 
+parameters and adapt to new information embedded in 
+the data.
+2.	 Context-aware adaptive processes: These processes 
+manage and integrate contextual information through 
+the global workspace. They ensure global accessibility 
+and facilitate the formation of new knowledge through 
+human guidance and knowledge injection, enhancing 
+the system’s adaptability and decision-making.
+We demonstrated the application of the Augmentor frame­
+work through an industrial use case focused on digitizing 
+tacit knowledge from human operators. The system achieves 
+two key objectives: 
+1.	 Continuous updates to learning algorithms with new 
+evidence from expert interventions: To meet this objec­
+tive, we proposed an enhanced version of the DAgger 
+algorithm that incorporates global accessibility to the 
+global workspace, facilitating the fulfillment of the sec­
+ond objective.
+2.	 Integration of contextual knowledge into the learning 
+system: Leveraging the autonomic computing approach 
+with MAPE-K, we created a global workspace capa­
+ble of broadcasting information from various reactive 
+processes into the learning algorithm. The knowledge 
+base within this workspace enables knowledge injec­
+tion from experts and the generation of new contextual 
+knowledge using semantic web technologies.
+Our experimental results demonstrate that the Augmentor 
+framework with context-aware adaptive learning signifi­
+cantly outperforms traditional reactive DAgger, with the 
+performance improvement equal to the knowledge bias 
+introduced by expert contributions to the system.
+Beyond the quantitative improvements, our study offers 
+several actionable insights for the design of human-centered 
+AI systems. Drawing inspiration from cognitive theory, we 
+demonstrate how structuring learning architectures around 
+concepts like global accessibility and modular process 
+coordination enables more flexible and scalable adapta­
+tion. Context-aware learning further enhances adaptability 
+by softening the rigidity of traditional online algorithms, 
+allowing them to filter, prioritize, and integrate informa­
+tion based on operational relevance and expert input. 
+Most importantly, by including humans in the learning 
+loop–not as passive data providers but as active collabora­
+tors–the system fosters a cooperative model of continuous 
+co-evolution, where both humans and machines improve 
+together. These findings suggest that AI systems grounded 
+developments in sensing hardware and multimodal large 
+language models (MLLMs) (Zhang et al., 2024) make it 
+increasingly feasible to gather and interpret data from vari­
+ous channels, such as sound, video, and temperature read­
+ings. While this study relied on manually defined SPARQL 
+rules to represent contextual information, MLLMs offer a 
+compelling alternative to the traditional knowledge base in 
+the MAPE-K loop, which serves as the core of the global 
+workspace. MLLMs have the potential to automatically 
+derive contextual rules from unstructured sources such as 
+maintenance logs and operator notes, while maintaining 
+semantic alignment with sensor data and supporting consis­
+tent, context-aware reasoning. However, these models still 
+lack reliable checking mechanism to ensure the accuracy 
+and safety of the knowledge they generate (Chen & Shu, 
+2024). The primary challenge in implementing the MAPE-
+K framework as a global workspace lies in constructing the 
+internal knowledge base, particularly in managing domain-
+specific knowledge, which still requires the guidance of 
+domain experts.
+Our industry partner, MSH, has pointed to the increas­
+ing shortage of skilled CNC operators as a pressing chal­
+lenge. One proposed solution is to allow a single operator 
+to supervise multiple machines at the same time. To support 
+this kind of scalability, the system would need to adopt a 
+multi-agent design, where each Augmentor unit can make 
+decisions independently while still coordinating through 
+a shared global workspace. Implementing this would 
+involve complex scheduling and possibly planning strate­
+gies (Wooldridge, 2009) to manage decision-making across 
+machines, or even across multiple factory locations. Fur­
+thermore, incorporating data on energy consumption and 
+tool wear into the framework would make it more useful for 
+addressing goals related to sustainability and cost control, 
+which are becoming more important in modern manufactur­
+ing environments.
+By addressing these challenges and leveraging the 
+strengths of modularity, formal knowledge representation, 
+and adaptive learning, the outlined framework holds signifi­
+cant potential for generalization across diverse and complex 
+domains.
+Conclusion
+In this paper, we introduced the Augmentor framework 
+for context-aware adaptive learning, which enables the 
+integration of contextual knowledge into online learning 
+algorithms. Drawing on conceptual theories of machine 
+consciousness, we categorized computational processes into 
+two distinct types: 
+1 3
+
+Journal of Intelligent Manufacturing
+Proceedings of the National Academy of Sciences, 95(24), 
+14529–14534. ​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​0​7​3​/​p​n​a​s​.​9​5​.​2​4​.​1​4​5​2​9
+Dehaene, S., Lau, H., & Kouider, S. (2017). What is consciousness, 
+and could machines have it? Science, 358(6362), 486–492. ​h​t​t​p​s​:​
+/​/​d​o​i​.​o​r​g​/​1​0​.​1​1​2​6​/​s​c​i​e​n​c​e​.​a​a​n​8​8​7​1
+Dehaene, S., Sergent, C., & Changeux, J.-P. (2003). A neuronal net­
+work model linking subjective reports and objective physiologi­
+cal data during conscious perception. Proceedings of the National 
+Academy of Sciences, 100(14), 8520–8525. ​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​0​7​
+3​/​p​n​a​s​.​1​3​3​2​5​7​4​1​0​0
+Dong, S., Wang, P., & Abbas, K. (2021). A survey on deep learning and 
+its applications. Computer Science Review, 40, Article 100379. ​h​t​
+t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​0​1​6​/​j​.​c​o​s​r​e​v​.​2​0​2​1​.​1​0​0​3​7​9
+Fenoglio, E., Kazim, E., Latapie, H., & Koshiyama, A. (2022). Tacit 
+knowledge elicitation process for industry 4.0. Discover Artifi­
+cial Intelligence, 2(1), 6. ​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​0​0​7​/​s​4​4​1​6​3​-​0​2​2​-​0​0​
+0​2​0​-​w
+Fukushima, K. (1980). Neocognitron: A self-organizing neural net­
+work model for a mechanism of pattern recognition unaffected by 
+shift in position. Biological Cybernetics, 36(4), 193–202. ​h​t​t​p​s​:​/​/​
+d​o​i​.​o​r​g​/​1​0​.​1​0​0​7​/​B​F​0​0​3​4​4​2​5​1
+Gheibi, O., Weyns, D., & Quin, F. (2021). Applying machine learn­
+ing in self-adaptive Systems: A systematic literature review. ACM 
+Transactions on Autonomous and Adaptive Systems (TAAS), 
+15(3), 9–1937. ​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​1​4​5​/​3​4​6​9​4​4​0
+Hochreiter, S., & Schmidhuber, J. (1997). Long short-term memory. 
+Neural Computation, 9, 1735–80. ​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​1​6​2​/​n​e​c​o​.​1​
+9​9​7​.​9​.​8​.​1​7​3​5
+Hussein, A., Gaber, M. M., Elyan, E., & Jayne, C. (2017). Imitation 
+learning: A survey of learning methods. ACM Computing Sur­
+veys, 50(2), 21–12135. ​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​1​4​5​/​3​0​5​4​9​1​2
+Ismail Fawaz, H., Forestier, G., Weber, J., Idoumghar, L., & Muller, 
+P.-A. (2019). Deep learning for time series classification: A 
+review. Data Mining and Knowledge Discovery, 33(4), 917–963. ​
+h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​0​0​7​/​s​1​0​6​1​8​-​0​1​9​-​0​0​6​1​9​-​1
+Kambhampati, S. (2021). Polanyi’s revenge and AI’s new romance 
+with tacit knowledge. Communications of the ACM, 64(2), 31–32. ​
+h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​1​4​5​/​3​4​4​6​3​6​9
+Killick, R., Fearnhead, P., & Eckley, I. A. (2012). Optimal detection 
+of changepoints with a linear computational cost. Journal of the 
+American Statistical Association, 107(500), 1590–1598. ​h​t​t​p​s​:​/​/​d​
+o​i​.​o​r​g​/​1​0​.​1​0​8​0​/​0​1​6​2​1​4​5​9​.​2​0​1​2​.​7​3​7​7​4​5
+Kouider, S., & Dehaene, S. (2007). Levels of processing during 
+non-conscious perception: A critical review of visual masking. 
+Philosophical Transactions of the Royal Society B: Biological 
+Sciences, 362(1481), 857–875. ​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​0​9​8​/​r​s​t​b​.​2​0​0​
+7​.​2​0​9​3
+Lecun, Y., Bottou, L., Bengio, Y., & Haffner, P. (1998). Gradient-based 
+learning applied to document recognition. Proceedings of the 
+IEEE, 86(11), 2278–2324. ​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​1​0​9​/​5​.​7​2​6​7​9​1
+Lefrancois, G. R. (2019). The Psychology of Learning, pp. 5–8. Cam­
+bridge University Press, Cambridge, UK
+Liaw, A., & Wiener, M. (2002). Classification and regression by ran­
+domforest. JR News, 2, 18–22.
+MacKay, D. J. C. (2002). Information Theory. USA: Inference & 
+Learning Algorithms. Cambridge University Press.
+Mashour, G. A., Roelfsema, P., Changeux, J.-P., & Dehaene, S. (2020). 
+Conscious processing and the global neuronal workspace hypoth­
+esis. Neuron, 105(5), 776–798. ​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​0​1​6​/​j​.​n​e​u​r​o​n​.​
+2​0​2​0​.​0​1​.​0​2​6
+Mohanraj, T., Yerchuru, J., Krishnan, H., Nithin Aravind, R. S., & 
+Yameni, R. (2021). Development of tool condition monitor­
+ing system in end milling process using wavelet features and 
+hoelder’s exponent with machine learning algorithms. Measure­
+ment, 173, Article 108671. ​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​0​1​6​/​j​.​m​e​a​s​u​r​e​m​e​n​
+t​.​2​0​2​0​.​1​0​8​6​7​1
+in cognitive principles and designed for contextual reason­
+ing and human collaboration are better suited to meet the 
+challenges of dynamic, real-world environments.
+Acknowledgements  The research activities were carried out with the 
+data and information received from Mekanisk Service Halden. We are 
+grateful for their support and constructive discussions.
+Funding  Open access funding provided by Ostfold University College
+Data availability  The data that support the findings of this study are 
+proprietary and were provided by Mekanisk Service Halden under 
+a confidentiality agreement. Due to the sensitive nature of the data, 
+which may reveal confidential information about the design of the 
+company’s machine parts, the data are not publicly available.
+Declarations
+Conflict of interest  The authors have no relevant financial or non-fi­
+nancial interests to disclose.
+Open Access  This article is licensed under a Creative Commons 
+Attribution 4.0 International License, which permits use, sharing, 
+adaptation, distribution and reproduction in any medium or format, 
+as long as you give appropriate credit to the original author(s) and the 
+source, provide a link to the Creative Commons licence, and indicate 
+if changes were made. The images or other third party material in this 
+article are included in the article’s Creative Commons licence, unless 
+indicated otherwise in a credit line to the material. If material is not 
+included in the article’s Creative Commons licence and your intended 
+use is not permitted by statutory regulation or exceeds the permitted 
+use, you will need to obtain permission directly from the copyright 
+holder. To view a copy of this licence, visit ​h​t​t​p​:​/​/​c​r​e​a​t​i​v​e​c​o​m​m​o​n​s​.​o​
+r​g​/​l​i​c​e​n​s​e​s​/​b​y​/​4​.​0​/.
+References
+Amershi, S., Cakmak, M., Knox, W. B., & Kulesza, T. (2014). Power 
+to the people: The role of humans in interactive machine learn­
+ing. AI Magazine, 35(4), 105–120. ​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​6​0​9​/​a​i​m​a​
+g​.​v​3​5​i​4​.​2​5​1​3
+Baars, B. J. (1988). A Cognitive Theory of Consciousness. UK: Cam­
+bridge University Press.
+Baars, B. J. (1997). In the theatre of consciousness: Global workspace 
+theory, a rigorous scientific theory of consciousness. Journal of 
+Consciousness Studies, 4, 292–309.
+Bratko, I., Urbancic, T., & Sammut, C. (1995). Behavioural cloning: 
+Phenomena, results and problems. IFAC Proceedings Volumes, 
+28(21), 143–149. ​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​0​1​6​/​S​1​4​7​4​-​6​6​7​0​(​1​7​)​4​6​7​1​
+6​-​4
+Chen, C., & Shu, K. (2024). Combating misinformation in the age of 
+LLMs: Opportunities and challenges. AI Magazine, 45(3), 354–
+368. ​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​0​0​2​/​a​a​a​i​.​1​2​1​8​8
+Corporation, I. B. M. (2001). Autonomic computing: IBM’s perspec­
+tive on the state of information technology. IBM: White paper.
+CustomPartNet: speed-feed-turning. [Online; accessed April 13, 2023] 
+(2008). ​h​t​t​p​s​:​/​/​w​w​w​.​c​u​s​t​o​m​p​a​r​t​n​e​t​.​c​o​m​/​c​a​l​c​u​l​a​t​o​r​/​t​u​r​n​i​n​g​-​s​p​e​e​
+d​-​a​n​d​-​f​e​e​d
+Dehaene, S., Kerszberg, M., & Changeux, J.-P. (1998). A neuro­
+nal model of a global workspace in effortful cognitive tasks. 
+1 3
+
+Journal of Intelligent Manufacturing
+Sun, X., Yang, S., Zhou, M., Liu, K., & Mangharam, R. (2024). 
+MEGA-DAgger: Imitation learning with multiple imperfect 
+experts . arXiv:abs/2303.00638
+Sutton, R. S., & Barto, A. G. (1998). Reinforcement learning: An intro­
+duction. IEEE Transactions on Neural Networks, 9(5), 1054–
+1054. ​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​1​0​9​/​T​N​N​.​1​9​9​8​.​7​1​2​1​9​2
+Tenenbaum, J. B., Griffiths, T. L., & Kemp, C. (2006). Theory-based 
+Bayesian models of inductive learning and reasoning. Trends in 
+Cognitive Sciences, 10(7), 309–318. ​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​0​1​6​/​j​.​t​i​c​
+s​.​2​0​0​6​.​0​5​.​0​0​9
+Tesauro, G. (2007). Reinforcement learning in autonomic computing: 
+A manifesto and case studies. IEEE Internet Computing, 11(1), 
+22–30. ​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​1​0​9​/​M​I​C​.​2​0​0​7​.​2​1
+Thorndike, E. L. (1933). A proof of the law of effect. Science, 77(1989), 
+173–175. ​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​1​2​6​/​s​c​i​e​n​c​e​.​7​7​.​1​9​8​9​.​1​7​3​-​a
+Tolman, E. C., & Honzik, C. H. (1930). Introduction and removal of 
+reward, and maze performance in rats. University of California 
+Publications in Psychology, 4, 257–275.
+Truong, C., Oudre, L., & Vayatis, N. (2020). Selective review of offline 
+change point detection methods. Signal Processing, 167, Article 
+107299. ​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​0​1​6​/​j​.​s​i​g​p​r​o​.​2​0​1​9​.​1​0​7​2​9​9
+Wooldridge, M. (2009). An Introduction to MultiAgent Systems (2nd 
+ed.). Chichester, UK: John Wiley & Sons.
+Zhang, L., Lu, S., & Zhou, Z.-H. (2018). Adaptive online learning in 
+dynamic environments. In: Proceedings of the 32nd International 
+Conference on Neural Information Processing Systems. NIPS’18, 
+pp. 1330–1340. Curran Associates Inc., Red Hook, NY, USA
+Zhang, D., Yu, Y., Dong, J., Li, C., Su, D., Chu, C., & Yu, D. (2024). 
+MM-LLMs: Recent Advances in MultiModal Large Language 
+Models. In: Findings of the Association for Computational Lin­
+guistics: ACL 2024, pp. 12401–12430. Association for Computa­
+tional Linguistics, Bangkok, Thailand . ​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​8​6​5​3​/​
+v​1​/​2​0​2​4​.​f​i​n​d​i​n​g​s​-​a​c​l​.​7​3​8
+Zheng, T., Marco, A., Andrea, B., & Perona, M. (2021). The applica­
+tions of Industry 4.0 technologies in manufacturing context: A 
+systematic literature review. International Journal of Production 
+Research, 59(6), 1922–1954. ​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​0​8​0​/​0​0​2​0​7​5​4​3​.​2​
+0​2​0​.​1​8​2​4​0​8​5
+Zhu, Z., & Hu, H. (2018). Robot learning from demonstration in 
+robotic assembly: A survey. Robotics, 7(2), 17. ​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​
+0​.​3​3​9​0​/​r​o​b​o​t​i​c​s​7​0​2​0​0​1​7
+Publisher's Note  Springer Nature remains neutral with regard to juris­
+dictional claims in published maps and institutional affiliations.
+Mosqueira-Rey, E., Hernández-Pereira, E., Alonso-Ríos, D., & 
+Bobes-Bascarán, J. (2023). Fernández-Leal: Human-in-the-loop 
+machine learning: A state of the art. Artificial Intelligence Review, 
+56(4), 3005–3054. ​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​0​0​7​/​s​1​0​4​6​2​-​0​2​2​-​1​0​2​4​6​-​w
+Nguyen, H. T., Haugen, Ø., & Olsson, R. (2023). Imitation learning 
+from operator experiences for a real time cnc machine control­
+ler. In: 2023 IEEE 21st International Conference on Industrial 
+Informatics (INDIN), pp. 1–8 . ​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​1​0​9​/​I​N​D​I​N​5​1​
+4​0​0​.​2​0​2​3​.​1​0​2​1​8​1​6​4
+Nguyen, H. T., Olsson, R., & Haugen, Ø. (2024). Automatic synthe­
+sis of recurrent neurons for imitation learning from cnc machine 
+operators. IEEE Open Journal of the Industrial Electronics Soci­
+ety, 5, 91–108. ​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​1​0​9​/​O​J​I​E​S​.​2​0​2​4​.​3​3​6​3​5​0​0
+Polanyi, M. (1966). The Tacit Dimension. London: Routledge & 
+Kegan Paul.
+Rakhlin, A., Sridharan, K., & Tewari, A. (2011). Online learning: 
+Beyond regret. In: Proceedings of the 24th Annual Conference 
+on Learning Theory. Proceedings of Machine Learning Research, 
+vol. 19, pp. 559–594. PMLR, Budapest, Hungary
+Rosário, C. R., Kipper, L. M., Frozza, R., & Mariani, B. B. (2015). 
+Modeling of tacit knowledge in industry: Simulations on the vari­
+ables of industrial processes. Expert Systems with Applications, 
+42(3), 1613–1625. ​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​0​1​6​/​j​.​e​s​w​a​.​2​0​1​4​.​0​9​.​0​2​3
+Ross, S., & Bagnell, D. (2010). Efficient reductions for imitation learn­
+ing. In: Proceedings of the Thirteenth International Conference 
+on Artificial Intelligence and Statistics. Proceedings of Machine 
+Learning Research, vol. 9, pp. 661–668. PMLR, Sardinia, Italy
+Ross, S., Gordon, G., & Bagnell, D. (2011). A reduction of imitation 
+learning and structured prediction to No-Regret online learning. 
+In: Proceedings of the Fourteenth International Conference on 
+Artificial Intelligence and Statistics, vol. 15, pp. 627–635. JMLR 
+Workshop and Conference Proceedings, Fort Lauderdale, FL, 
+USA
+Schaal, S. (1996). Learning from demonstration. In: Proceedings of the 
+10th International Conference on Neural Information Processing 
+Systems. NIPS’96, pp. 1040–1046. MIT Press, Cambridge, MA, 
+USA
+Settles, B. (2011). From theories to queries: Active learning in prac­
+tice. Proceedings of Machine Learning ResearchActive Learning 
+and Experimental Design Workshop In Conjunction with AIST­
+ATS 2010 (Vol. 16, pp. 1–18). Sardinia, Italy: PMLR.
+Shen, Y., Yun, H., Lipton, Z., Kronrod, Y., & Anandkumar, A. (2017). 
+Deep active learning for named entity recognition. In: Proceed­
+ings of the 2nd Workshop on Representation Learning For NLP, 
+pp. 252–256. Association for Computational Linguistics, Vancou­
+ver, Canada . ​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​8​6​5​3​/​v​1​/​W​1​7​-​2​6​3​0
+1 3

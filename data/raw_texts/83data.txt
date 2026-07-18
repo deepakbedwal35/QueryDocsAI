@@ -1,0 +1,1019 @@
+Activitas Nervosa Superior 2009;52:2,85-93 
+ 
+ 
+85 
+ 
+ 
+ 
+ 
+ 
+IMPLICATIONS OF A FUNDAMENTAL CONSCIOUSNESS 
+ 
+Copthorne Macdonald* 
+ 
+Charlottetown, Prince Edward Island, 
+C1A 8C5 Canada   
+Received June 22, 2010; accepted June 27, 2010 
+ 
+ 
+Abstract 
+ 
+The author postulates a universe in which mentality is as fundamental as physicality, explores the implications of that, 
+and presents hypotheses concerning the evolution and functioning of human cognitive systems in such an environment. 
+Of the several interpretations of reality which consider the physical and the mental to be equally real and equally funda-
+mental, two compatible interpretations are discussed in detail. These are Ervin Laszlo's biperspectival system theory, and 
+an elaboration of the perennial philosophy view which incorporates the concepts of algorithm, information, informational 
+modulation, and evolution. In this latter view, reality comprises an enduring protophysical, protomental medium mod-
+ulated by transient informational patterns. Chance-and-necessity evolution, guided by intrinsic "laws-of-nature" algo-
+rithms, produces systems that may be non-functional, physically functional, or physically and mentally functional. Given 
+such a reality, the author concludes that human mentality evolved in bottom-up fashion, with mind-associated neuronal 
+systems not so much creating mind as organizing a pre-existing propensity for awareness into useful, functional aware-
+ness, and providing for its modulation by useful information. 
+The author hypothesizes that discrete, localized occurrences of awareness accompany the functioning of relatively simple 
+neuronal systems within the columnar structure of the brain's sensory cortex, and that each of these systems information-
+ally modulates its associated awareness to create an elemental quale. Together, the awareness elements of a given sensory 
+modality constitute a subjective field which, through brain activity not yet fully understood, becomes topologically re-
+lated to the body image. The several superposed fields simulate a unified, multi-modal consciousness and constitute a 
+global workspace. Selective attention to the qualia in these superposed fields activates neural correlates which facilitate 
+situation evaluation and decision making. 
+ 
+Key words: Brain; Consciousness; Physics; Qualia 
+ 
+ 
+INTRODUCTION 
+As we assess progress on solving the "hard problem" in 
+consciousness studies, certain contributions of David 
+Chalmers and Bernard Baars seem particularly signifi-
+cant. In his recent writings, Chalmers has resurrected 
+the call of earlier writers (e.g., Russell, 1921; Laszlo, 
+1972a) to break with the physicalist view of reality. 
+Chalmers (1995a) proposed "that conscious experience 
+be considered a fundamental feature, irreducible to any-
+thing more basic," and suggested (1996) that perhaps 
+some form of constrained double-aspect theory is ap-
+propriate. Baars' contribution (1988, 1997a, b) is a 
+comprehensive "global workspace" model of cognitive 
+functioning based on observed psychological and neuro-
+logical information flows. It is a model which, in this 
+author's view, is compatible with a fundamental mental-
+ity and with the hypotheses advanced here. 
+In this paper I postulate a universe in which mentality is 
+as fundamental is physicality, explore the implications 
+of that, and present hypotheses about the evolution and 
+functioning of human cognitive systems in such an en-
+vironment. Regarding the hard-problem element in 
+Baars' theory, I address the dynamics of information 
+transfer in both directions between physically-embodied 
+and mentally-embodied information. 
+ 
+PRIMAL REALITY: PHYSICAL-ONLY, OR 
+MENTAL-PHYSICAL? 
+One of the axioms of physicalist science is that the fun-
+damental reality of the universe has only a physical  na-  
+ACTIVITAS 
+NERVOSA 
+SUPERIOR 
+IDEAS  
+&  
+PERSPECTIVES 
+*Correspondence to: C.  Macdonald, email: cop@copmacdonald.com 
+
+Activitas Nervosa Superior 2010;52:2,85-93 
+ 
+86 
+ 
+ture — that reality has no mental or protomental quali-
+ties. We know that research in the highly-physical 
+branches of science has flourished with this axiom in 
+place. Doesn't this prove that it belongs there? Not nec-
+essarily. No problems arose, I would suggest, because 
+in the fields of physics and chemistry the axiom was 
+never really challenged. Where experiments involve 
+overwhelmingly physical phenomena, it simply doesn't 
+matter whether mentality exists or not. In those fields, 
+the "everything is physical" assumption had little or no 
+effect on the choice of experiments, or on the interpreta-
+tion of experimental results. In trying to understand 
+what the brain is up to, on the other hand, the assump-
+tions made about primal reality matter a great deal. 
+Most importantly, perhaps, they limit the range of hypo-
+theses that are likely to occur to experimenters and 
+theorists — or to be taken seriously by them if proposed 
+by others. 
+For a long time there have also been interpretations of 
+reality that see the physical and the mental as being 
+equally real and equally fundamental. Forms of this 
+perspective appeared first in the perennial philosophy 
+traditions, later as dual-aspect monism and the bipers-
+pectival systems view, and most recently as panexpe-
+rientialism.1 It is a way of looking at things that has 
+been advocated for some time as a possible basis for 
+solving the mind-body problem (Russell, 1921; Globus, 
+1976). 
+Globus (1973, p. 154) articulated the view this way: 
+"mind is but one aspect of a fundamental neutral reality 
+with matter being a second aspect, both aspects having 
+equal importance, as two sides of a coin." Wald (1988, 
+p. 9) used these words: "[Consciousness] is not some 
+iffy phenomenon that we just project on reality; it is at 
+the base, at the foundations." Wald also quoted Pauli: 
+"To us...the only acceptable point of view appears to be 
+one that recognizes both sides of reality — the quantita-
+tive and the qualitative, the physical and the psychical 
+— as compatible with each other, and can embrace 
+them simultaneously. It would be most satisfactory if 
+physis and psyche (i.e., matter and mind) could be seen 
+as the complementary aspects of the same reality." (p. 
+11) 
+Rensch (1971, p. 297) said: 
+"There is no contrast between mind and matter. We 
+must recognize that all "matter" is protopsychical in 
+character." 
+Like the statements above, most statements about psy-
+cho-physical reality tell us little about how fundamental 
+consciousness might actually work. System theorist 
+Ervin Laszlo's biperspectival systems theory (1972a) is 
+more specific. Laszlo, too, considered mentality to be 
+fundamental. But he also held that specific expressions 
+of mentality occur in a systems context, and that each 
+system experiences "sensations appropriate to the or-
+ganization of the system" (1972a, p. 172). Just as Laszlo 
+saw consciousness going all the way down, he also saw 
+systems going all the way down. In the view he articu-
+lated, the universe is a hierarchy of "natural systems" 
+with the systemic structures at one level in the hierarchy 
+being components in the systems at the next, more 
+complex level. His hierarchy included atoms, mole-
+cules, inorganic crystals, organic cells, multi-cellular 
+systems within organisms, and whole organisms. Indi-
+vidual systems at all levels are "biperspectival". That is, 
+each system can be experienced objectively from the 
+outside as a physical entity. But each is also capable of 
+experiencing aspects of its own functioning. Laszlo 
+ascribed subjectivity to systems as simple as atoms and 
+molecules, and speculated that an atom would expe-
+rience major events such as an electron jumping from 
+one orbit to another or the fission of its nucleus. 
+Laszlo also called attention to those much more com-
+plex systems which play a subjective role in cognition. 
+He called these latter systems "natural-cognitive" sys-
+tems, and said of them: 
+"[Natural-cognitive systems] are . . . 'biperspectival': 
+They are single, self-consistent systems of events, ob-
+servable from two points of view. When 'lived' such a 
+system is a system of mind-events, viz., a 'cognitive 
+system'. When looked at from any other viewpoint, the 
+system is a system of physical events, i.e., a 'natural 
+system'. The physical and mental sets of events are cor-
+relates . . ." (1972a, p. 154) 
+In such a cognitive system there would be closed, inac-
+cessible subjectivities within each component of the 
+system — each atom, molecule, and cell — as well as 
+the "mind-event" subjectivity associated with the sys-
+tem as a whole. 
+When we contemplate psycho-physical theories such as 
+Laszlo's, it is important that we don't anthropomorphize. 
+Although all physically eventful systems will also be 
+mentally eventful, the mental events of most systems 
+are not going to be anything like human mental events. 
+Nor are they likely to be useful. This is obviously true 
+of the physical utility of systems. If I take a handful of 
+electronic parts at random, interconnect them in some 
+unplanned way, and apply a voltage between two 
+points, something electrical will probably happen. A 
+current may flow; parts may heat. But nothing particu-
+larly useful is likely to happen. Only a tiny percentage 
+of possible systemic structures and energizing arrange-
+ments allow interesting and useful physical happenings. 
+We must expect the same to be true of the mental aspect 
+of physical systems. Even if a system has been carefully 
+designed for physical utility, there is no reason to sus-
+pect that its mental aspect will serve any sort of useful 
+function. The analytical challenge is to find out what 
+sort of physical arrangements give rise to useful mental-
+ity. Later in this paper I share some of my own analysis, 
+and discuss what I consider to be the systemic roots of 
+the human "global workspace" mental environment. 
+
+Activitas Nervosa Superior 2010;52:2,85-93 
+ 
+ 
+ 
+ 
+ 
+87 
+ 
+Laszlo's theory gives us a rough sense of mental hap-
+penings at the whole-system level, but very few details. 
+Fortunately, a recent elaboration of the perennial phi-
+losophy view — one that incorporates the concepts of 
+algorithm, information, informational modulation, and 
+evolution — allows us to see more. Laszlo's theory and 
+this other view are based on similar assumptions about 
+primal reality, and both focus on the role of systems. 
+But this new perspective's kit of conceptual tools helps 
+us to explore more deeply the why and how of psycho-
+physical systems, and to better understand the processes 
+going on within them. 
+The perennial philosophy perspective was first intro-
+duced to many English-speaking readers by Aldous 
+Huxley (1945), but the view has long been espoused by 
+Vedanta, Taoism, the Zen and Dzogchen branches of 
+Buddhism, and Christian mysticism. It is "a view which 
+holds that underlying the transient, ever-changing realm 
+of manifest existence is an eternal unmanifested 
+Ground, a protophysical, protomental oneness that in-
+terpenetrates existence and enables it to be." (Macdo-
+nald, 1994, p. 136) 
+The ancients were able to apprehend this perspective 
+intuitively, but had difficulty expressing it clearly in 
+words because they lacked certain key concepts that we 
+now have. The present "information age" or postmodern 
+refinement of the perspective had to wait until these 
+concepts emerged and became part of our cultural voca-
+bulary — concepts like medium and message, carrier 
+and modulation, algorithm and information. It had to 
+wait, for instance, until Claude Shannon (1948) demon-
+strated that the fuzzy concept of information could have 
+a solid, quantifiable meaning. It had to wait until DNA 
+research in the 1950s showed that organisms and other 
+physical structures are in fact informational structures. 
+It had to wait until the role of algorithms in information 
+processing became clear in the 1960s and 1970s, and 
+until ideas about parallel processing began to emerge in 
+the 1980s. In essence, the interpretation is this: 
+Reality consists of an enduring medium modulated by 
+transient informational patterns. 
+• The medium has a physical aspect, a mental aspect, 
+and an algorithmic aspect. 
+• Physically, the primal medium is energy or proto-
+energy — the ground of the physical universe. 
+• Mentally, the primal medium is awareness or proto-
+awareness — the ground of mind and subjective expe-
+rience. 
+• Algorithmically, the medium is the home of "laws of 
+nature" algorithms which, during the life of the un-
+iverse, allow mental/physical potentials to become actu-
+alized. These algorithms, these laws, are the intrinsic 
+rules that guide physical, chemical, geological, and bio-
+logical change. It is the moment-to-moment functioning 
+of these algorithms that form patterns, and modulates 
+the primal medium with information — creating, as it 
+does, that hierarchy of systems we call the universe. In 
+information processing terms, the universe is equipped 
+with built-in recursive algorithms which repeatedly take 
+the informational situation that exists at this instant and 
+transform it into a new informational situation in the 
+next. (Macdonald, 1994, p. 136) 
+At t = 0, the instant of the Big Bang, our universe is 
+generally conceived as just the medium with no, or al-
+most no, informational patterning. Within a small frac-
+tion of a second after t = 0, however, the informational 
+patterning or modulating began (Barrow & Silk, 1980). 
+This information-creating, system-building process has 
+been described for the early universe by Weinberg 
+(1988), for the later universe by Laszlo (1972a, 1972b, 
+1987), and overall in narrative form by Swimme and 
+Berry (1992). A hierarchy of natural systems evolved in 
+response to the guidance offered by those intrinsic algo-
+rithms. 
+In this view, the physical universe is seen to be an in-
+formational patterning of energy. At the submicroscopic 
+level that patterning appears as varieties of ener-
+gy/matter quanta, and as atomic and molecular struc-
+ture. At micro-, meso-, and macroscopic levels it ap-
+pears as the space-time patterning of those components 
+in complex geological, biological, and astronomical 
+systems. The enduring reality is the energy itself (it 
+cannot be created or destroyed), but what makes the 
+universe so interesting is the ever-changing informa-
+tional patterning which energy undergoes as evolution 
+proceeds. 
+  
+INFORMATION, AWARENESS, QUALIA, MIND, 
+AND ATTENTION 
+The essence of information is difference, or as Gregory 
+Bateson put it: "any difference which makes a differ-
+ence" (1975, p. 381). Plato may have imagined disem-
+bodied information, perfect patterns existing all by 
+themselves on some ethereal plane. But real-world in-
+formation is not like that; differences that make a dif-
+ference must be differences in something. Information 
+must have its medium or carrier. So information isn't a 
+thing-in-itself, it is a pattern of significant differences 
+impressed upon some substrate or medium that serves 
+as its carrier. There are both encoded information and 
+embodied information. Examples of encoded informa-
+tion include written language, DNA, and the ones and 
+zeros of computer data. Examples of embodied informa-
+tion include the shape of an ocean wave, the structural 
+and functional organization of a living organism, and 
+the details of a conscious experience. Viewing physical 
+
+Activitas Nervosa Superior 2010;52:2,85-93 
+ 
+88 
+ 
+existence as informationally-patterned energy meets 
+little resistance these days. Mathematician Rudy Rucker 
+has said: "It is now considered reasonable to say that, at 
+the deepest, most fundamental level, our world is made 
+of information. . . . For postmodern people, reality is a 
+pattern of information, a pattern in fact space" (1987, p. 
+31). Physicist John Wheeler put it this way: "all things 
+physical are information-theoretic in origin" (1994, p. 
+296), and added, "Tomorrow we will have learned to 
+understand and express all physics in the language of 
+information" (1994, p. 298). 
+In addition to being a carrier of physical information, a 
+psycho-physical primal reality is also a carrier of mental 
+information. We have labels for its mental-carrier as-
+pect: awareness, sentience, pure subjectivity, con-
+sciousness without content.2 I use the term awareness 
+because there are few one-word alternatives, and be-
+cause much of the perennial philosophy literature uses 
+it.3 Beyond labeling this carrier, we can refer to its roles 
+and functions: Awareness and energy are the two faces 
+of the primal reality, and in the same sense that energy 
+is the enabler of physical activity, awareness is the 
+enabler of mental activity. Awareness is the ground, 
+medium, and carrier of mind. Awareness is what per-
+mits conscious experience. Awareness is the subjective 
+capability that is present during ARAS (ascending reti-
+cular activating system) arousal. Awareness is the sen-
+tient medium that when modulated by neuronally-
+generated information becomes mental qualia, mind 
+with informational content. But because awareness is 
+primal and unique, our powers of definition are limited. 
+As with other one-of-a-kind aspects of primal reality 
+(energy, time, space), a detailed analogic definition of 
+awareness is not possible. 
+Traditionally, definitions of primal entities have left 
+much to be desired. Asked to define time, Einstein is 
+supposed to have said: "Time is what clocks measure." 
+A widely-accepted definition of energy is: "Energy is 
+the capacity to do work." About awareness we might 
+say: "Awareness is the capacity to present information 
+subjectively." Each definition is saying something inter-
+esting about the primal entity it attempts to define, but 
+each falls short of letting us look at the intrinsic nature 
+of that entity. To me, this difficulty in defining aware-
+ness is itself strong evidence that this aspect of reality 
+which I'm labeling awareness — like those other as-
+pects: energy, time and space — is fundamental, not 
+derivative. 
+In the view presented here, awareness and its informa-
+tional modulations are intimately associated. This inti-
+macy is analogous to the intimacy between the ocean 
+and its wave modulations or a radio station's energy 
+carrier and its program modulations. In this view there 
+is no observer/observed duality, no "ghost in the ma-
+chine." There is no experiencer separate from expe-
+rience; there is just experiencing. The casual observer of 
+mind does see a subject/object duality, but adepts in 
+advanced perennial philosophy traditions such as Zen 
+and Dzogchen have seen through the apparent duality 
+and have become cognizant of the inherently non-dual 
+nature of mental experience.4 Varela also commented 
+on this: 
+"One of the originalities of the phenomenal attitude is 
+that it does not seek to oppose the subjective to the ob-
+jective, but to move beyond the split into their funda-
+mental correlation." (1996, p. 339) 
+Those accomplished meditators and Western phenome-
+nologists who have paid the price in time and effort to, 
+in Wilber's words, "become adequate to the postformal 
+data" represent a "validating community of competent 
+subjects" who attest to this.5  
+Before proceeding, I'd like to clarify my use of three 
+other terms. Qualia are awareness-associated informa-
+tional artifacts. They are components of the informa-
+tional totality which constitutes conscious experience. 
+They are specific instances of informationally-
+modulated awareness. They are mind content. Edelman 
+has said: "Qualia constitute the collection of personal or 
+subjective experiences, feelings, and sensations that 
+accompany awareness. They are phenomenal states — 
+"how things seem to us" as human beings. For example, 
+the "redness" of a red object is a quale. Qualia are dis-
+criminable parts of a mental scene that nonetheless has 
+an overall unity. They may range in intensity and clarity 
+from "raw feels" to highly refined discriminada." (1992, 
+p. 114) 
+In another sense, qualia are mental metaphors that sym-
+bolize the modulating stimulus, or are elements of a 
+mental analog of some perceived reality (Jaynes, 1982). 
+For example, specific odors are mental metaphors for 
+specific air-borne molecules. And visual experience is a 
+reasonably accurate mental analog (map) of the optical 
+scene projected on the retinas. 
+Mind is the space-like awareness environment in which 
+qualia appear, the subjective global workspace, the 
+composite experiential field. Attention is a condition of 
+mind and brain marked by heightened, and usually se-
+lective, noting of qualia. Research tells us that selective 
+attention is not caused by varying the intensity of 
+awareness — which is simply present during periods of 
+arousal and not present during deep sleep — but by 
+selectively gating neuronal information.6 The usual hu-
+man pattern is to attend intently to one quale or aspect 
+of a quale at a time, although wide-focus, multi-qualia 
+modes of attending can be learned (Fehmi and Fritz, 
+1980). 
+ 
+WHY EVOLVE A MIND? 
+I agree with Chalmers when he said, "For a satisfactory 
+theory, we need to know more than which processes 
+give rise to experience; we also need an account of why 
+and how. A full theory of consciousness must build an 
+
+Activitas Nervosa Superior 2010;52:2,85-93 
+ 
+ 
+ 
+ 
+ 
+89 
+ 
+explanatory bridge" (1995b). The model of conscious 
+functioning that my own mind-watching and literature-
+review activities have led me to adopt is a theater mod-
+el, similar to, and I believe largely compatible with, 
+Bernard Baars Global Workplace Theory (Baars, 1988, 
+1997a, b; Newman and Baars, 1993). What I propose to 
+contribute to that view is some insight into why and 
+how the global workplace came into existence, and per-
+haps a few fresh thoughts about its functioning. 
+Let's begin with the key question posed in Vol. 1, No. 2 
+of the Journal of Consciousness Studies: "Why, in prin-
+ciple, should a neuronal system of any degree of com-
+plexity give rise to the phenomenal experience of con-
+sciousness?" My answer has two parts: If we start with 
+radical physicalist assumptions about the nature of reali-
+ty, then there is no reason why, "in principle". a neuron-
+al system should give rise to conscious experience. If, 
+however, we start with the assumption that primal reali-
+ty is as described in this paper, then the arising of con-
+scious experience is not astonishing at all. It's just what 
+we might expect. If reality is this second way, then the 
+role of the neuronal system is not to mysteriously create 
+awareness and mind from alien substance. Rather, it is 
+to organize a pre-existing propensity for awareness into 
+useful, functional awareness, and provide for its mod-
+ulation by useful information. Again we face the utility 
+issue. If awareness is as primal and ubiquitous as ener-
+gy, then it will be present in every system. But whether 
+or not it plays a functional role will depend on how a 
+particular system has been configured, and the nature of 
+its connections to the world outside it. 
+It is quite possible that during pre-biological evolution 
+(the cosmological and geological phases of evolution) 
+awareness played no functional role. It is clear, howev-
+er, that at some point during biological evolution, 
+awareness was harnessed and put to work. If, today, we 
+humans were given the task of designing systems that 
+have useful mental characteristics, we quite literally 
+would not know where to begin. Yet evolution — with 
+its slow, plodding, and chance-and-necessity genius— 
+did a magnificent job of it. As I see it, this was possible 
+because the medium on which the cosmic algorithms 
+have been operating is a mental-physical medium, not 
+just a physical one. 
+Early in the evolution of living things, organisms exhi-
+bited sensitivity to their environments, and some were 
+able to respond to environmental changes. Many types 
+of plants align themselves to maximize their exposure to 
+light. Paramecia move away from irritating stimuli. 
+These behaviors appear to most scientists to arise from 
+totally physical, reflex-like mechanisms. They feel that 
+subjectivity and mind play no functional role, and this 
+may well be true. It may even be true of amphibians. In 
+the classic Lettvin, J. et al. (1965) study of "What the 
+frog's eye tells the frog's brain". the frog's eye is re-
+ported to have different types of retinal sensors that give 
+rise, quite automatically it seems, to a limited set of 
+stereotyped behaviors. If a small dark object passes 
+across the frog's field of vision (a fly, perhaps?), the 
+frog's tongue reflexively darts out. If the overall light 
+level suddenly drops (the shadow of a hawk, perhaps?) 
+the frog reflexively jumps off the lily pad. Whether or 
+not these organisms have a functional consciousness 
+may become clear when we finally understand how 
+human mentality works at the neural level. 
+As evolution progressed, species proliferated and eco-
+systems became more complex. Increasingly intricate 
+forms of animal life emerged to take advantage of new-
+ly created environmental niches. Increasingly sophisti-
+cated sensory systems evolved. New survival opportuni-
+ties opened up; but so did new threats to survival. As a 
+result of all this, evolutionary pressure arose for better 
+situation-analysis and decision-making capabilities. 
+With just one perceptual mode (say chemical sensitivity 
+or taste) and a limited number of action modes (say 
+eating and flight), purely physical, reflex-type control of 
+behavior would appear to be adequate. But in organisms 
+equipped to receive several different kinds of highly-
+detailed sensory information simultaneously, and to 
+respond in many different ways, the demands on the 
+control system increase dramatically. To avoid beha-
+vioral chaos or gridlock from competing information, 
+sophisticated analysis and decision-making systems 
+were needed, and eventually evolved. 
+Artificial intelligence research has shown that it is not 
+easy to sort out the relevant from the irrelevant, or even 
+to make figure/ground discriminations using physical-
+only approaches (Hurlbert and Poggio, 1986). I am sug-
+gesting that mentality — and selective attention in par-
+ticular — was evolution's way of solving this problem. I 
+am not saying that it is impossible, in principle, to per-
+form these same tasks using only the physical aspect of 
+systems and computational techniques. Rather, I'm hy-
+pothesizing that this is not what evolution did. If we 
+human designers were given the task, we would be 
+forced to take an all-physical approach (the only one 
+with which we are currently familiar), and given suffi-
+cient time and resources we might eventually succeed in 
+solving the problem that way. Evolution, however, had 
+another design option, one not yet open to us: the option 
+of incorporating mentality as well as physicality into its 
+designs. This, of course, is not a new idea. Baars 
+(1997a) notes William James's comment: "The study . . 
+. of the distribution of consciousness shows it to be ex-
+actly such as we might expect in an organ added for the 
+sake of steering a nervous system grown too compli-
+
+Activitas Nervosa Superior 2010;52:2,85-93 
+ 
+90 
+ 
+cated to regulate itself" (James, 1890/1983, p. 141). 
+Theorist of evolution Harry Jerison put it this way: "I 
+regard the mind and conscious experience as construc-
+tions of nervous systems to handle the overwhelming 
+amount of information that they process" (1973, p. 4). 
+Evolution's mental-physical approach seems to have 
+been this: Create neuronal systems that generate mental 
+metaphors or analogs of the immediate physical situa-
+tion, and bring them together in one mental "space." 
+Combine this with a selective attention mechanism 
+which allows the superposed mental fields to be 
+scanned for qualia that have survival or reproductive 
+significance, and arrange for the neuronal correlates of 
+attended-to qualia to become available for unconscious 
+computational processing.7  
+In humans, if the processing deems the quale to be ex-
+tremely significant it will occasionally give rise to an 
+automatic reaction, as when someone jumps immediate-
+ly to save a child in danger. Usually, however, the com-
+putational processing simply suggests a course of ac-
+tion. It does this by causing a thought, feeling, or emo-
+tion to appear in the mind along with the information 
+already present there. A third possibility arises when the 
+processing decides that the quale being attended to is 
+not significant. In that case, an unconscious instruction 
+restarts attentional scanning. 
+In this view, the conscious field is the great simplifier. 
+The creation of a mental "workspace" allows large 
+amounts of relevant and irrelevant information to be 
+brought together in one subjective arena. Selective at-
+tention then allows that mass of data to be rapidly sur-
+veyed in serial fashion. Neuronal correlates of items 
+attended to are checked computationally for relevance. 
+Different kinds of relevance cause different kinds of 
+data-processing outputs to appear in the mind: mental 
+images; thoughts; and feelings of pleasure, pain, fear, 
+anger, hate, or tenderness, for example. These newly-
+arisen qualia are themselves then available for possible 
+selection by attention, and if selected, their neuronal 
+correlates would be used as input data for further 
+processing. At the end of all the processing, the ultimate 
+behavioral decision is frequently accompanied by a 
+mental correlate of its own — a YES feeling, a NO feel-
+ing, fear, anger, etc. 
+This kind of analysis-and-control system is flexible. 
+Because evolution's behavioral suggestions — lust, fear, 
+hunger, anger, a liking for sugar, etc. — are presented 
+mentally, they are not hard-wired action imperatives. 
+Priorities can be accommodated; "Flee the tiger rather 
+than grab the fruit". And learning can override evolutio-
+nary messages; "I'm already overweight, so I'll ignore 
+the impulse to have dessert." Through our immersion in 
+culture we acquire a learned hierarchy of values which 
+can, in various circumstances, override evolution's de-
+fault hierarchy. If our learning has been appropriate to 
+our reality, then we will behave appropriately and wise-
+ly in a much wider range of circumstances than if our 
+control system had been hard wired in another era. 
+ 
+SOME NEUROLOGICAL SPECULATIONS 
+Postulating that we live in a two-aspect, biperspectival 
+universe allows us to take seriously the possibility that 
+for a relatively primitive mentality to come into exis-
+tence, an extremely complex brain is not needed. If sub-
+jectivity is fundamental, then we should expect that 
+relatively simple forms of mind would require only rela-
+tively simple systems for their arising. It appears that 
+even in the human brain, awareness may not arise as 
+one unified whole, but through the integration of many 
+localized instances of awareness, each of which is asso-
+ciated with the functioning of a relatively simple local 
+system. 
+Although human awareness seems unified, research 
+during the past few decades indicates that it is not. Hebb 
+(1980, p. 40), in referring to the split-brain patients of 
+Bogen, Gazzaniga and Sperry, notes that after the two 
+brain hemispheres were separated surgically "a patient 
+might seem to have two minds, a left-hand and a right-
+hand mind." MacLean (1977, p. 313) saw "three men-
+talities." He felt that each part of the "triune brain" (rep-
+tilian brain, limbic system, and neocortex) has "its own 
+subjectivity." Jackendoff (1990, p. 52) saw yet another 
+"disunity in awareness" — a disunity in which each 
+sensory modality has its own separate awareness. 
+I am suggesting that the separate subjective fields asso-
+ciated with vision, somatosensory experience, hearing, 
+smell, and taste are each made to relate topologically to 
+the body image by processes of arrangement and bind-
+ing not yet fully understood. The effect is a superposi-
+tioning of the individual fields. They overlay and over-
+lap much like multiple transparencies laid on an over-
+head projector, with all five sensory fields occupying 
+roughly the same subjective space.8 Together, the su-
+perposed fields simulate a unified multi-modal con-
+sciousness, and constitute a subjective global work-
+space. 
+I am also suggesting that even within a single brain re-
+gion or sensory modality, awareness may not be unified. 
+Let us think for a moment about the discrete nature of 
+the information involved in visual perception. Although 
+human visual experience seems smooth and continuous, 
+we know that the information which gives rise to it is 
+actually discrete, segmented, elemental. Being derived 
+from the outputs of discrete retinal neurons, visual ex-
+perience is like a computer image or newspaper picture 
+in that it contains a limited number of visual elements. 
+Visual experience seems continuous because the ele-
+ments are tightly packed, and because there are so many 
+of them. But it is not continuous. The seemingly smooth 
+and continuous experiences of sound and touch also 
+originate in impulses from discrete sensory neurons in 
+the cochlea and skin. If the information that fills the 
+
+Activitas Nervosa Superior 2010;52:2,85-93 
+ 
+ 
+ 
+ 
+ 
+91 
+ 
+various sensory fields seems continuous but isn't, why 
+assume that the awareness associated with that informa-
+tion is continuous? I am suggesting that it is more rea-
+sonable from an evolutionary and systems point of view 
+to assume that each element of conscious data is asso-
+ciated with its own element of awareness. 
+My hypothesis is that in the visual, auditory, and soma-
+tosensory cortex of the human brain there exist a multi-
+tude of relatively simple neuronal systems, each of 
+which organizes the medium's inherent subjective ca-
+pacity into a functioning elemental awareness. If an 
+appropriate neuronal signal is received from an external 
+source, each of these mind-element systems also infor-
+mationally modulates its elemental awareness, creating 
+in the process an elemental quale — a pictorial element 
+in the case of visual perception, part of an auditory ex-
+perience, or a localized sensation in the somatic sensory 
+field. The binding and orienting problems still need to 
+be solved, but it may turn out that what is being bound 
+and oriented are a large number of quite small elements 
+of awareness — each with its associated informational 
+modulation. 
+The visual system has been more extensively studied 
+than the auditory or somatosensory systems, and to sup-
+port "the involvement of early parts of visual cortex in 
+visual consciousness." Baars (1997a) presented four 
+"convergent lines of evidence" (p. 68): 
+First, when Area V1 is lost, people report a loss of visu-
+al conscious experience, though they can still "guess" at 
+the objects their eyes are looking at. Second, when the 
+early visual areas are stimulated by a gentle current, 
+people report conscious visual flashes (phosphenes). 
+Third, when people are conscious of a visual object, we 
+can see the early visual areas "light up" in PET scans, 
+indicating a distinct increase in neural activity. Fourth, 
+recording of single cells in visual cortex indicates that 
+there is a difference between the conscious and uncons-
+cious flows of stimulation (pp. 100-01). 
+Cortical areas A1 and S1 play roles in auditory and so-
+matosensory perception analogous to V1's role in vi-
+sion. The bilateral destruction of A1 produces cortical 
+deafness (Aitkin, 1990), and the destruction of S1 re-
+sults in the inability to consciously perceive stimuli at 
+the body surface (Schmidt, 1986). Thus, it seems likely 
+that A1 and S1 are where the space-like fields of audito-
+ry and somatosensory awareness and qualia are generat-
+ed — although secondary processing areas might also 
+be involved. The neural columns which are present in 
+these sensory processing areas seem likely candidates 
+for those awareness-organizing, awareness-modulating 
+subsystems mentioned above. One suggestive piece of 
+data is that the observed resolution of visual data in V1 
+is similar to column spacing. F.T. Hambrecht (1992) 
+electrically stimulated the foveal region of V1 and de-
+termined that phosphenes produced by simultaneous 
+stimulation through two electrodes 500 microns apart 
+appeared as two separate phosphenes, but as just a sin-
+gle phosphene when electrodes were 250 microns apart. 
+Another reason for highlighting these neural columns is 
+that cortical levels 2, 3, and 4 appear to be involved in 
+the processing of sensory data, and levels 5 and 6 ap-
+pear to be involved in arousal and the presence or ab-
+sence of consciousness.9 This suggests the possibility 
+that neurons in layers 5 and 6 may be involved in orga-
+nizing awareness tendencies into useful awareness, and 
+that neurons in the middle layers may be involved in 
+modulating that awareness with sensory data and "sen-
+sory-like" imagined or remembered data. 
+It is also possible to describe the situation from Laszlo's 
+"biperspectival system" point of view. From that pers-
+pective, those small awareness-organizing neuronal 
+systems are subsystems of the overall "global work-
+space" cognitive system, and their functioning is an 
+integral part of the larger system's functioning. As mod-
+ulating signals from the computational environment are 
+processed by the columnar subsystems, subsystem 
+physical states constantly change — elemental physical 
+events occur. Those physical changes are accompanied 
+by correlated changes in subsystem subjective states — 
+elemental mental events occur. 
+The many mind-element subsystems, together with 
+those brain subsystems responsible for their topological 
+organization, constitute a single "natural-cognitive sys-
+tem" whose interior state is the subjective global work-
+space. Human consciousness is this system's self-
+experience. 
+ 
+NEXT STEPS 
+What's next? What can be done to investigate bottom-
+up hypotheses such as those put forth here? How can we 
+test their validity and determine their worth? A few 
+thoughts: 
+• First, previous experimental work could be reconsi-
+dered with the present set of ideas in mind. Would this, 
+in at least a few situations, lead to a different interpreta-
+tion of the original data? Is there previous experimental 
+work that clearly refutes the speculations and hypothes-
+es put forth in this paper? Is there work that lends sup-
+port or confirmation? 
+• Could an experiment be devised to temporarily block 
+arousal in a portion of V1 without interfering with in-
+formation processing activities in the blocked region? 
+How would this affect subjective experience? And what 
+would the change in subjective experience tell us about 
+the validity of the ideas presented here? Obviously, it is 
+important to continue work on the binding problem, and 
+
+Activitas Nervosa Superior 2010;52:2,85-93 
+ 
+92 
+ 
+to search for the mechanism which aligns whole fields 
+of awareness elements with the body image. Equally 
+obvious is the importance of lesion analysis and brain-
+scan technology in shedding light on brain/mind corre-
+lations. The eventual task will be to "reverse-engineer 
+the wetware" to determine, in detail, how neural func-
+tioning actually does give rise to subjective experience. 
+But first we need to know that we are heading in the 
+right direction. We need experiments that help deter-
+mine whether or not consciousness really is a bottom-up 
+phenomenon, a fundamental feature of the universe. 
+  
+NOTES 
+1 For a discussion of panexperientialism see de Quincey 
+(1994).  
+2 Can we really talk about consciousness without con-
+tent, awareness without informational modulation, mind 
+without qualia? Absence of mind content is not part of 
+our everyday experience, but accomplished meditators 
+approach this condition. They find that during pro-
+longed periods of meditation, mind content drops to-
+ward the asymptotic limit of no content. They also find 
+that awareness remains present, irrespective of the level 
+of mental information. At some point in their practice, 
+many advanced practitioners experience a cognitive 
+shift in which awareness becomes figure rather than 
+ground, and is thereafter recognized as a tangible reality 
+in its own right.  
+3 I do realize that the term is also used in other senses 
+— Chalmers" use, for example (1996, p. 28).  
+4 Varela has suggested that both Western Phenomenol-
+ogy (1996) and Buddhist meditation (Varela, et al., 
+1991) are useful techniques for the serious investigation 
+of conscious experience. Wilber (1997a, b) and I (Mac-
+donald, 1996) have made similar suggestions. Discip-
+lines that I have found particularly fruitful are the Vi-
+passana and Dzogchen varieties of Buddhist meditation, 
+and the Western practice called Open Focus (Fehmi and 
+Fritz, 1980).  
+5 Where appropriate, researchers will have to engage in 
+various injunctions that transform their own conscious-
+ness if they are to be adequate to the postformal data. 
+You cannot vote on the truth of the Pythagorean Theo-
+rem if you do not learn geometry (the injunction); like-
+wise, you cannot vote on the truth of Buddha Nature if 
+you do not learn meditation. All valid knowledge has 
+injunction, apprehension and confirmation; the injunc-
+tions are all of the form, "if you want to know this, you 
+must do this" — and thus, when it comes to conscious-
+ness studies itself, the utterly obvious but much-resisted 
+conclusion is that certain interior injunctions have to be 
+followed by the researchers themselves. If we do not do 
+this, then we will not know this (1997a, p. 91).  
+6 Newman and Baars (1993) report that "virtually all 
+information conveyed to the cortex from visual, audito-
+ry, and somatosensory pathways is relayed through the 
+thalamus" and that "gatelets" in the reticular nucleus of 
+the thalamus regulate the "flow of information from the 
+thalamus to the cortex." They report that these gatelets 
+are opened and closed in response to control signals 
+from various regions of the cortex.  
+7 A number of researchers have presented results that 
+link conscious experience and the attentional process to 
+specific physical brain correlates. For example, Wurtz, 
+Goldberg, and Robinson, reporting on their primate 
+research, said: If the monkey is alert, but not attending 
+to anything in particular, the response of the nerve cells 
+in [the posterior parietal cortex] is relatively uniform. 
+When the monkey begins to attend to some object, 
+however, the nerve cells in the posterior parietal cortex 
+that are related to the object because it is in their recep-
+tive field begin to discharge more intensely. . . . We do 
+not know how the enhancement arises, and in the ab-
+sence of this knowledge it is tempting to say that the 
+enhanced response amounts in itself to visual attention. 
+It remains quite possible, however, that the enhance-
+ment is only a correlate of visual attention (1982, p. 
+124). 
+It is also possible to pay attention to visual attributes 
+other than position, and to detect, in the secondary visu-
+al processing areas, physical correlates of that kind of 
+attending. As Corbetta, Miezin, Dobmeyer, Shulman, 
+and Petersen found: "Attention to basic visual attributes 
+such as shape, color, or velocity appears to influence . . . 
+physiological measures of visual processing. . . . Phy-
+siologically, neural activity is increased in extrastriate 
+regions specialized for processing information related to 
+the selected visual attribute" (1990, p. 1556).  
+8 Should you wish to investigate this for yourself, I 
+have elsewhere (Macdonald 1993) described a little 
+experiment: "If I look straight ahead and move my 
+hands around to find the edges of the visually-active 
+part of the field, I conclude that it's about one unit high 
+and three or four wide. If I then put a bottle of perfume 
+under my nose, the experience of odour fills much of 
+this same field — being most intense in the centre, less 
+so at the edges. If I next bite into a piece of fruit and 
+pay attention to my experience of taste as I chew it, I 
+find that taste occupies a more sharply defined zone 
+than odour. Taste sensations appear in a horizontally-
+oriented oval located below the centre of visual data. 
+Touch, body sensations, and sounds also appear in the 
+awareness field, sometimes extending beyond the edges 
+of the visual data. The location of most body feelings 
+and sensations is sharply defined, while the direction of 
+most sounds is just roughly indicated" (pp. 25-6).  
+9 See, for example, Livingstone and Hubel (1981). 
+  
+REFERENCES 
+Aitkin, L. (1990). The Auditory Cortex: Structural and func-
+tional bases of auditory perception. London: Chapman and 
+Hall. 
+
+Activitas Nervosa Superior 2010;52:2,85-93 
+ 
+ 
+ 
+ 
+ 
+93 
+ 
+Baars, B.J. (1988). A cognitive theory of consciousness. Cam-
+bridge: Cambridge University Press. 
+Baars, B.J. (1997a). In the Theater of Consciousness: The 
+Workplace of the Mind. New York: Oxford University Press. 
+Baars, B.J. (1997b). In the Theatre of Consciousness: Global 
+Workspace Theory, A Rigorous Scientific Theory of Con-
+sciousness. Journal of Consciousness Studies, 4, 292-309. 
+Barrow, J. D., & Silk, J. (1980). The Structure of the Early 
+Universe. Scientific American, 242, 118-128. 
+Bateson, G. (1975). Steps to an Ecology of Mind. New York: 
+Ballantine Books. 
+Chalmers, D.J. (1995a). The puzzle of conscious experience, 
+Scientific American, December, 80-86. 
+Chalmers, D. J. (1995b). Facing up to the problem of con-
+sciousness. Journal of Consciousness Studies, 2, 200-19. 
+Chalmers, D.J. (1996). The Conscious Mind: In Search of a 
+Fundamental Theory. New York: Oxford University Press. 
+Corbetta, M., Miezin, F. M., Dobmeyer, S., Shulman, G.L., & 
+Petersen, S. E. (1990). Attentional Modulation of Neuronal 
+Processing of Shape, Color, and Velocity in Humans. Science, 
+248, 1556-1559. 
+de Quincey, C (1994). Consciousness All the Way Down? An 
+Analysis of McGinn’s Critique of Panexperientialism. Journal 
+of Consciousness Studies, 1, 217-229. 
+Edelman, G.M. (1992). Bright Air, Brilliant Fire: On the Mat-
+ter of the Mind.  New York: Basic Books. 
+Fehmi, L. G. & Fritz, G. (1980). Open Focus: The Attentional 
+Foundation of Health and Well-Being. Somatics, 2, 4-30. 
+Globus, G. (1973). Consciousness and Brain I, The Identity 
+Thesis. Archives of General Psychiatry, 8,  153-160. 
+Globus, G. (1976). Mind Structure and Contradiction. In G. 
+Globus, G. Maxwell, & I. Savodnik, (Eds.). Consciousness 
+and the Brain: A Scientific and Philosophical Inquiry. New 
+York: Plenum Press. 
+Hambrecht, F. T. et al. (1992). Feasibility of a Visual Prosthe-
+sis for the Blind Utilizing Intracortical Microstimulation. (Au-
+thor-paginated reprint), Proceedings of the 4th Vienna Interna-
+tional Workshop on Functional Electrostimulation, Baden, 
+Austria: Department of Biomedical Engineering and Physics, 
+University of Vienna. 
+Hebb, D.O. (1980). Essay on Mind. Hillsdale, NJ: Lawrence 
+Erlbaum Associates. 
+Humphrey, N. (1992). A History of the Mind: Evolution and 
+the Birth of Consciousness. New York: Simon and Schuster. 
+Hurlbert, A. & Poggio, T. (1986). Do Computers Need Atten-
+tion? Nature, 321, 651. 
+Huxley, A. (1945). The Perennial Philosophy. New York and 
+London: Harper and Brothers. 
+Jackendoff, R. (1990), Consciousness and the Computational 
+Mind. Cambridge, MA: MIT Press. 
+James, W. (1890/1983), The Principles of Psychology. Cam-
+bridge, MA: Harvard University Press. 
+Jaynes, J. (1982). The Origin of Consciousness in the Break-
+down of the Bicameral Mind. Boston: Houghton-Mifflin. 
+Jerison, H. J. (1973). Evolution of the Brain and Intelligence. 
+New York: Academic Press. 
+Laszlo, E. (1972a). Introduction to Systems Philosophy: To-
+ward a New Paradigm of Contemporary Thought. New York: 
+Gordon and Breach. 
+Laszlo, E. (1972b). The Systems View of the World. New 
+York: George Braziller. 
+Laszlo, E. (1987). Evolution: The Grand Synthesis. Boston: 
+Shambhala. 
+Lettvin, J. et al (1965). What the frog’s eye tells the frog’s 
+brain. In W. McCullock, Ed., Embodiments of Mind. Cam-
+bridge, MA: MIT Press. 
+Livingstone, M. S. & Hubel D. H. (1981). Effects of sleep and 
+arousal on the processing of visual information in the cat. 
+Nature, 291, 554-561. 
+Macdonald, C. (1993). Toward Wisdom. Toronto: Hounslow 
+Press. 
+Macdonald, C. (1994). An Energy/Awareness/ Information 
+Interpretation of Physical and Mental Reality’, Zygon: Jour-
+nal of Religion and Science, 29, 135-151. 
+Macdonald, C. (1996). The necessity for developing skill at 
+mind-process observation, and a suggested methodology. 
+Presented at the Tucson II Toward a Science of Consciousness 
+1996 conference. 
+MacLean, Paul (1977), On the Evolution of Three Mentalities. 
+In S. Arieti and G. Chzanowki (Eds.), New Dimensions in 
+Psychiatry: A World View, Vol. 2, chap. 15. New York: John 
+Wiley and Sons. 
+Newman, J. & Baars B. J. (1993). A Neural Attentional Model 
+for Access to Consciousness: A Global Workspace Perspec-
+tive. Concepts in Neuroscience, 4, 255-90. 
+Rensch, B. (1971). Biophilosophy. New York: Columbia Uni-
+versity Press. 
+Rucker, R. (1987). Mind Tools: The Five Levels of Mathemat-
+ical Reality. Boston: Houghton Mifflin Co. 
+Russell, B. (1921). The Analysis of Mind. London: George 
+Allen and Unwin. 
+Schmidt, R. F. (Ed.) (1986). Fundamentals of Sensory Physi-
+ology. Berlin: Springer-Verlag. 
+Shannon, C.E. (1948). A mathematical theory of information. 
+Bell System Technical Journal, 27, 379-423, and 623-656. 
+Swimme, B., & Berry, T. (1992). The Universe Story. San 
+Francisco: Harper San Francisco. 
+Varela, F.J., Thompson, E., & Rosch, E. (1991). The Embo-
+died Mind: Cognitive Science and the Human Experience. 
+Cambridge, MA: MIT Press. 
+Varela, F.,J. (1996). Neruophenomenology: A methodological 
+remedy for the hard problem. Journal of Consciousness Stu-
+dies, 3, 330-49. 
+Wald, G. (1988). Cosmology of life and mind. Los Alamos 
+Science: Fellows Colloquium, Issue 16. 
+Weinberg, S. (1988). The First Three Minutes: A Modern 
+View of the Origin of the Universe. (Updated ed.) New York: 
+Basic Books. 
+Wheeler, J.A. (1994). At Home in the Universe. Woodbury, 
+NY: American Institute of Physics Press. 
+Wilber, K. (1997a). An Integral Theory of Consciousness. 
+Journal of Consciousness Studies, 4, 71-92. 
+Wilber, K. (1997b), The Eye of Spirit: An Integral Vision for 
+a World Gone Slightly Mad. Boston: Shambhala. 
+Wurtz, R. W., Goldberg, M. E., & Robinson, D. L. (1982). 
+Brain Mechanisms of Visual Attention. Scientific American, 
+246, 124-135. 
+ 

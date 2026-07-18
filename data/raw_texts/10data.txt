@@ -1,0 +1,5181 @@
+University of Groningen
+Consciousness in the Universe is Scale Invariant and Implies an Event Horizon of the Human
+Brain
+Meijer, Dirk K. F.; Geesink, Hans J. H.
+Published in:
+Neuroquantology
+DOI:
+10.14704/nq.2017.15.3.1079
+IMPORTANT NOTE: You are advised to consult the publisher's version (publisher's PDF) if you wish to cite from
+it. Please check the document version below.
+Document Version
+Publisher's PDF, also known as Version of record
+Publication date:
+2017
+Link to publication in University of Groningen/UMCG research database
+Citation for published version (APA):
+Meijer, D. K. F., & Geesink, H. J. H. (2017). Consciousness in the Universe is Scale Invariant and Implies
+an Event Horizon of the Human Brain. Neuroquantology, 15(3), 41-79.
+https://doi.org/10.14704/nq.2017.15.3.1079
+Copyright
+Other than for strictly personal use, it is not permitted to download or to forward/distribute the text or part of it without the consent of the
+author(s) and/or copyright holder(s), unless the work is under an open content license (like Creative Commons).
+The publication may also be distributed here under the terms of Article 25fa of the Dutch Copyright Act, indicated by the “Taverne” license.
+More information can be found on the University of Groningen website: https://www.rug.nl/library/open-access/self-archiving-pure/taverne-
+amendment.
+Take-down policy
+If you believe that this document breaches copyright please contact us providing details, and we will remove access to the work immediately
+and investigate your claim.
+Downloaded from the University of Groningen/UMCG research database (Pure): http://www.rug.nl/research/portal. For technical reasons the
+number of authors shown on this cover page is limited to 10 maximum.
+Download date: 16-07-2026
+
+NeuroQuantology | September 2017 | Volume 15 | Issue 3 | Page 41-79| doi: 10.14704/nq.2017.15.3.1079 
+K.F. Meijer D., Consciousness in the Universe is Scale Invariant and Implies an Event Horizon of the Human Brain... 
+eISSN 1303-5150 
+         
+                                                                             www.neuroquantology.com 
+41
+ 
+ 
+Consciousness in the Universe is Scale Invariant 
+and Implies an Event Horizon of the Human 
+Brain 
+ 
+ 
+Dirk K.F. Meijer* and Hans J.H. Geesink** 
+ABSTRACT 
+Our brain is not a “stand alone” information processing organ: it acts as a central part of our integral nervous 
+system with recurrent information exchange with the entire organism and the cosmos. In this study, the brain is
+conceived to be embedded in a holographic structured field that interacts with resonant sensitive structures in the
+various cell types in our body. In order to explain earlier reported ultra-rapid brain responses and effective
+operation of the meta-stable neural system, a field-receptive mental workspace is proposed to be communicating 
+with the brain. Our integral nervous system is seen as a dedicated neural transmission and multi-cavity network 
+that, in a non-dual manner, interacts with the proposed supervening meta-cognitive domain. Among others, it is 
+integrating discrete patterns of eigen-frequencies of photonic/solitonic waves, thereby continuously updating a 
+time-symmetric global memory space of the individual. Its toroidal organization allows the coupling of
+gravitational, dark energy, zero-point energy field (ZPE) as well as earth magnetic fields energies and transmits 
+wave information into brain tissue, that thereby is instrumental in high speed conscious and sub-conscious 
+information processing. We propose that the supposed field-receptive workspace, in a mutual interaction with the
+whole nervous system, generates self-consciousness and is conceived as operating from a 4th spatial dimension 
+(hyper-sphere). Its functional structure is adequately defined by the geometry of the torus, that is envisioned as a 
+basic unit (operator) of space-time. The latter is instrumental in collecting the pattern of discrete soliton 
+frequencies that provided an algorithm for coherent life processes, as earlier identified by us. It is postulated that
+consciousness in the entire universe arises through, scale invariant, nested toroidal coupling of various energy 
+fields, that may include quantum error correction. In the brain of the human species, this takes the form of the
+proposed holographic workspace, that collects active information in a ”brain event horizon”, representing an 
+internal and fully integral model of the self. This brain-supervening workspace is equipped to convert integrated 
+coherent wave energies into attractor type/standing waves that guide the related cortical template to a higher 
+coordination of reflection and action as well as network synchronicity, as required for conscious states. In relation 
+to its scale-invariant global character, we find support for a universal information matrix, that was extensively
+described earlier, as a supposed implicate order as well as in a spectrum of space-time theories in current physics. 
+The presence of a field-receptive resonant workspace, associated with, but not reducible to, our brain, may provide 
+an interpretation framework for widely reported, but poorly understood transpersonal conscious states and 
+algorithmic origin of life. It also points out the deep connection of mankind with the cosmos and our major 
+responsibility for the future of our planet. 
+Key Words: Life algorithm, Scale invariant consciousness, Human Brain Event Horizon, 4-Dimensional brain 
+modeling, Brain hypersphere, Supervening brain workspace, Universal Consciousness, Soliton-guided biology, 
+Toroidal modeling, Field-receptive workspace of brain, Electromagnetic frequency bands, Cosmology and 
+Consciousness, Fractal nested toroidal geometry, Bio-photons 
+DOI Number: 10.14704/nq.2017.15.3.1079
+NeuroQuantology 2017; 15, 3: 41-79
+  Corresponding author: Prof. dr. Dirk K.F. Meijer PhD
+ Address: * Em. Professor in Pharmacokinetics and Drug Targeting, University of Groningen, The Netherlands;                                                       
+** Ir, Previous Project leader Mineral Nanotechnology, DSM, The Netherlands 
+Phone: +0031-50-3180593 
+ e-mail  meij6076@planet.nl 
+Relevant conflicts of interest/financial disclosures: The authors declare that the research was conducted in the absence of any 
+commercial or financial relationships that could be construed as a potential conflict of interest.  
+Received: 10 July 2017; Accepted: 26 July 2017
+ 
+
+NeuroQuantology | September 2017 | Volume 15 | Issue 3 | Page 41-79| doi: 10.14704/nq.2017.15.3.1079 
+K.F. Meijer D., Consciousness in the Universe is Scale Invariant and Implies an Event Horizon of the Human Brain... 
+eISSN 1303-5150 
+         
+                                                                             www.neuroquantology.com 
+42
+Introduction 
+Consciousness can be defined, as a state of a 
+semi-stable system that has developed in a 
+cooperative and cyclic operating mode so that it 
+has become “causally self-observant”. Thereby, it 
+can not only predict aspects of the local 
+environment, but also can integrate memorized 
+information and future-directed projections into 
+a personal worldview that serves individual 
+survival, development and social communication 
+(Forshaw, 2016a, b). Yet, in this paper an even 
+wider context for consciousness is offered, in 
+which our individual mind is seen as a part of a 
+larger 
+universal 
+consciousness, 
+being 
+instrumental in the entire fabric of reality. This 
+concept is based on our earlier consideration of 
+an extended mind (Meijer, 2015) and our recent 
+observation that life processes are sustained by a 
+discrete 
+pattern 
+of 
+electromagnetic 
+wave 
+frequency bands (Meijer and Geesink, 2016). 
+Consciousness, therefore, is not only a human 
+faculty and implies a reflective state that both  
+involves information integration as well as 
+subjectively ”feeling” of past and future events. It 
+requires a graded complexity of life systems to 
+deal with the requirements of multi-tasking and 
+ecological maintenance. This cognitive structure 
+is build up out of coded coherent information in 
+our brain, that is constantly adapted and renewed 
+through integration and superposition of wave 
+information (Meijer, 2015, Geesink and Meijer, 
+2016a and b). Coherence may represent a 
+common denominator of neurophysiological and 
+biophysical approaches to brain information 
+processing, operating at multiple levels of 
+neuronal organization, from which cognition may 
+emerge as its cardinal manifestation (Plankar and 
+Jerman, 2011). Another complementation of the 
+known neuronal communication system is 
+proposed to address the ultra-rapid response 
+times of the brain on the basis of a dedicated 
+photon/soliton mediated information network, 
+that serves to connect the nervous system with a 
+holographic mental workspace (see later).  
+In order to have a better understanding of 
+scientific and artistic endeavor of humanity as 
+treated recently by the first author (Meijer, 
+2017), it is obviously necessary to address the 
+item 
+of 
+human 
+consciousness 
+and 
+self-
+consciousness, since these phenomena lie at the 
+common basis of both activities (see for a 
+comprehensive review on the character of 
+consciousness, Annila, 2016. A central item in 
+brain 
+research 
+is 
+the 
+question 
+whether 
+consciousness should be conceived solely as an 
+emergent phenomenon, as related to the extreme 
+neurological complexity of the brain or rather 
+that the central nervous system is embedded in a 
+much wider context in which it also receives 
+(quantum) wave information, parlty unrelated to 
+the known senses. However, it remains an 
+obvious question how humans develop self-
+consciousness and obtain basic knowledge of the 
+type called qualia (Chalmers, 1995). The hard 
+problem of consciousness is the problem of 
+explaining 
+how 
+and 
+why 
+we 
+have qualia or phenomenal experiences and how 
+sensations acquire characteristics, such as colors 
+and tastes.  
+Human consciousness is characterized by 
+awareness, volition and cognitive reflection, 
+operating within a neural workspace. The latter 
+is conceived as a nested organization of 
+biophysical sites on the micro- to macro-levels of 
+the brain (Meijer, 2014b). Within this workspace, 
+a bicyclic flow of information was envisioned, of 
+which the deep vertical aspect is related to a flux 
+from sub-atomic particles up to atoms, molecules, 
+cellular 
+organelles, 
+neurons, 
+to 
+neuronal 
+networks. This process acts in concert with a 
+second, lateral horizontal, flux in the brain, in 
+which non-local quantum entanglement as well 
+as holographic projection may play a role. This 
+double rotational (toroidal) information flow 
+may explain neural binding and instantaneous 
+connections with other parts of the body. Both 
+types of information flow provide the basis for 
+integration of active information that returns to 
+itself (a modality of self-consciousness), including 
+modalities of universal consciousness. 
+Toroidal information flux (see Fig. 1) is 
+postulated by us to provide the basis for the 
+existence of consciousness at the different scales 
+of the Universe. There are distinct reasons to 
+choose 
+the 
+multidimensional 
+symmetrical 
+aspects of the double vortex torus, a geometry 
+that may mimic a combination of transversal, 
+longitudinal and circular waves (Haramein, 2014; 
+Bjerve, 2015, see Fig. 1). The nature of 
+electromagnetic toroidal excitations as developed 
+in physics wss reviewed by Papasimakis et al, 
+2016, and their interactions with inorganic 
+matter by Tsytovich et al, 2007, while potential 
+role as information collectors and carriers in life 
+systems have been discussed by us earlier 
+(Meijer and Geesink, 2016). We consider the 
+following aspects: 
+- The torus has a topology, with its internal 
+channel-like structure (see Fig. 1), in which 
+various types of information carrying waves 
+
+NeuroQuantology | September 2017 | Volume 15 | Issue 3 | Page 41-79| doi: 10.14704/nq.2017.15.3.1079 
+K.F. Meijer D., Consciousness in the Universe is Scale Invariant and Implies an Event Horizon of the Human Brain... 
+eISSN 1303-5150 
+         
+                                                                             www.neuroquantology.com 
+43
+allow the coupling of different modalities of wave 
+information such as photons, solitons and 
+electrons (Meijer and Geesink, 2016 a and b).  
+- The torus is a favored geometric structure in 
+physics and is applied for the description of 
+elementary particles from the micro- to macro- 
+scale of the entire universe (Papasimakis et al, 
+2016; Williamson, 1997; Tozzi, 2015; Merali, 
+2008; 
+Poplawski, 
+201; 
+van 
+Putten, 
+2002; 
+Haramein and Rauscher, 2007). 
+-Nested torus geometry shows similarities with 
+twistor theory of Penrose (see Fig, 1), that have 
+for instance been applied as a space-time unit in 
+string or M-theories (Witten, 2003), thereby 
+reducing the large number of extra dimensions 
+common in string theories. 
+- The torus model integrates the present time as 
+resulting from past and future wave projections, 
+Baez and Vicari, 2014 (see Fig. 2), and the 
+negative energy of its inner channel/wormhole 
+may allow retro-causal effects and reversed flow 
+of time (Ford and Roman, 2003).  
+- Toroidal processing of data offers the advantage 
+of de-coherence protection and quality control of 
+information (Van de Bogaart, Forshaw, 2015) and 
+is used in music theory. The Toric code is an 
+efficient method for topological quantum error 
+correction that requires a 4th spatial dimension 
+(see Wikipedia, Quantum error correction). This 
+aspect could play a pertinent role in  the 
+supervening mental workspace, conceived as an 
+event 
+horizon 
+equipped 
+hyper-sphere, 
+as 
+proposed in the present paper. 
+-The (double)nested torus represents unity in 
+diversity, and its entangled fractal character 
+shows the features of a multifold building block 
+of space-time, as an interacting configuration of 
+various wave fields that influence life organisms 
+(see for illustrations Haramein, 2016; Brown, 
+2016; Thomson and Bourassa, 2016; Bjerve, 
+2016). 
+ 
+2. Torus geometry can model consciousness at 
+all fractal levels of the universe 
+The torus model, apart from micro-physics, has 
+been extensively used in current cosmology. The 
+well known “doughnut” torus shape, created by 
+energy vortices.   
+ 
+NASA (2004) discovered that so-called black 
+holes in our universe seem to exhibit a doughnut 
+shaped torus formations (Holzhey, 1994). It is 
+also interesting to note that recent developments 
+in string theory predict that black holes (Fig. 2) 
+can exist at any scale: from the microcosmic scale
+ 
+   
+ 
+Figure 1. Various modalities of toroidal geometry: A: Nested torus structure B: Torus trajectory (red) 
+C: Atomic structure as double torus, D: Filled space-time structure with singularity, E: Torus network, 
+F: Dirac spherical rotation showing toroidal trajectories in relation to time G: Donut model of the 
+universe, H: Knot structure in torus as metaphor for attractor/standing wave, I: cartoon of a twistor as 
+a supposed space-time unit. 
+
+NeuroQuantology | September 2017 | Volume 15 | Issue 3 | Page 41-79| doi: 10.14704/nq.2017.15.3.1079 
+K.F. Meijer D., Consciousness in the Universe is Scale Invariant and Implies an Event Horizon of the Human Brain... 
+eISSN 1303-5150 
+         
+                                                                             www.neuroquantology.com 
+44
+of particles to the macroscopic huge scales of 
+black holes, as observed in remote galaxies. In 
+fact at CERN in Switzerland the Large Hadron 
+Collider might be capable to spawn black holes. 
+ 
+The 
+connecting 
+principle 
+of 
+quantum 
+information in the material universe  
+We usually talk about two seemingly separate 
+worlds: that of material particles and that of a 
+hidden wave world with its force fields, such as 
+gravity and dark energy. The special feature of 
+the work of Verlinde, 2011, 2016, is that the 
+author brings the two aspects together in the 
+form of quantum information as the most 
+fundamental building block of the universe, as 
+also pointed out earlier by Meijer, 2012. Matter 
+and thus particles can be seen as condensations 
+of force fields that interact and both can be 
+described with quantum information, that is 
+actually a form of energy (see later). The special 
+property is to bring the various types of field 
+information together. In quantum theory, energy 
+is quantized: thus consists of discrete vibrational 
+units (vibrating strings or loops). The space is 
+also quantized according to the theory, thus 
+divided into small space parts. This matrix of 
+such space units is usually called space foam, 
+bearing units that function as operators. Known 
+examples of such elements are twistors (Penrose) 
+related to nested torus geometry. Such units are 
+supposed to operate on every fractal scale, from 
+very small (Planck scale) to very large (black 
+holes), and can be conceived as the collection 
+points of the various force fields: gravity-, dark 
+energy-, zero-point energy-, electromagnetic-, 
+and Higgs fields etc. 
+In this manner, such operators integrate 
+quantum information and store it on the edge of 
+each fractal unit, that in the case of the black hole 
+was called the "event horizon". Quantum 
+information, like energy, is never lost. Verlinde 
+2011, used the holographic principle, invented by 
+the Nobel laureate 't Hooft (see for holography 
+aspects Sieb, 2016; Batiz, 2107; Alfonso-Faus, 
+2011). The leading principle is that every object 
+is fully described with information gathered on a 
+screen around the object (the event horizon). The 
+entire universe and also galaxies, suns, planets 
+and even living systems are to be regarded as 
+toroidal 
+organized 
+information 
+fields 
+each 
+projecting digital information on their respective 
+event horizons. It has been experimentally 
+demonstrated recently that: 
+ 
+1) information is in fact a form of energy: when 
+information is removed from a quantum system, 
+energy is released in the form of heat (entropy), 
+(Bérut et  al, 2012; Toyabe et 2010; Peterson, 
+2016). 
+2) this also applies to the quantum world. Binary 
+units (bits, say a kind of yes/no questions) are 
+then Qbits, but now information can mix 
+(superpose) and can show entanglement with 
+other states of quantum information (Lloyd, 
+2007, Nielsen and Huang, 2000). 
+3) the suggestion of Verlinde, 2011, 2016 and 
+earlier Zeilinger, 2000, 2003, is that the 
+information is intrinsic to matter (and even the 
+source of it!). Consequently atoms and their 
+constituting 
+elementary 
+particles 
+such 
+as 
+electrons contain information, that can be 
+calculated (in Bits of Qbits), forming a deeper 
+information layer of reality that we cannot 
+observe directly (yet).  
+ 
+It should be noted that: 
+a) The information carrier of choice in physics is 
+not the electron but the photon (being particle 
+and wave simultaneously). Photons can have very 
+different energies (vibration frequency), they can 
+be in different spin states (kind of spinning 
+motion) that can occur in various rotation axis, 
+they 
+can 
+be 
+polarized 
+(various 
+vibration 
+directions) and they have momentum (speed and 
+direction 
+of 
+movement). 
+The 
+number 
+of 
+variations in the above-mentioned combination 
+of properties is very large! One could call the 
+entangled properties of each photon a kind of 
+particle information (Zeilinger, 2000, 2003). It is 
+of interest that attractive forces between photons 
+perse, may lead to polarization entangled photon 
+pairs and solitons as a sort of quantum matter 
+(Firstenberg et al, 2013). 
+ 
+b) Photons may interact with atoms and thereby 
+share their intrinsic information. These elements 
+can store the interaction effects as entangled 
+information, registering the subtle changes in the 
+characteristics listed above, and thereby create a 
+kind of particle/wave "memory" (Nielsen and 
+Chuang, 2000, Lloyd, 2007, Lugo et al, 2015). 
+ 
+ 
+ 
+ 
+ 
+
+NeuroQuantology | September 2017 | Volume 15 | Issue 3 | Page 41-79| doi: 10.14704/nq.2017.15.3.1079 
+K.F. Meijer D., Consciousness in the Universe is Scale Invariant and Implies an Event Horizon of the Human Brain... 
+eISSN 1303-5150 
+         
+                                                                             www.neuroquantology.com 
+45
+ 
+Figure 2.  A tentative cosmological torus model for describing the re-bounce of the universe in a circular universe 
+concept. This geometric approach models the information Universe at fractal scales. The surface trajectory of information 
+quanta is shown in grey patterns (see also inset left above), including their interactive processing in the inner core of the 
+torus with potential wave coupling/conjugation by superposition (see inset right middle). The nested (self similar) aspect 
+and 4-D dimension of the torus are indicated via the insets left below. The dynamics of the torus is implicit by an inherent 
+rotation axis and recurrent flow of wave information in a bi-spiral flow pattern. The integral state of the torus depicts a 
+supposed stage of our universe in which all information is collected and gravitationally compressed into a terminal black 
+hole, in which all information is holographically projected on a virtual screen (its event horizon). Information is projected 
+on the black hole horizon and proposed to be passed through a wormhole structure that is inherently connected to a 
+white hole. The latter is instrumental in dispersing the particular information into a next (nested) version of a cyclic 
+universe (Meijer, 2015). Aspect of time in the model is represented by the colored triangle planes: red plane depicts the 
+present time as a back projection of past and future waves, according to the transactional interpretation of quantum 
+physics by John Cramer, green plane below indicates the past time, and green plane above the future time, (figure 
+modified from Stan Tenen, 2002 as shown in a PPT presentation of Amoroso, on Dirac spherical rotation). 
+ 
+c) 
+Thus, 
+information 
+always 
+arises 
+from 
+interactions 
+and 
+according 
+to 
+classical 
+information 
+theory, 
+information/entropy 
+represents the potential to ask yes/no questions 
+in such an event with regard to a particular 
+system (Lloyd, 2007, Meijer, 2013). According to 
+these concept information is in fact the sum of 
+expected information obtained from such yes/no 
+questions. An example is DNA in our cells which 
+in itself contains a lot of potential information 
+(digitally expressed in Bits), yet is only clearly 
+expressed in the cell in relation with RNA and 
+proteins. 
+d) The intrinsic (hidden), information of an object 
+is therefore the result of the entanglement of the 
+stored (individual) information from the various 
+constituting particles, providing a sort of global 
+information by converting all of this information 
+into a coherent information matrix, that is 
+dynamic in time (Keppler, 2013, 2016). Some link 
+this matrix with the so called zero point energy 
+field. (Laszlo, 2007, 2012; Setterfield, 2002; 
+Nation et al, 2012). 
+e) That we cannot directly perceive this 
+information aspect, is traditionally ascribed to a 
+hidden 4th spatial dimension (not the dimension 
+time!), which cannot be observed in our 3D 
+world, but can be mathematically derived. Such 
+supposedly compact 4th dimension could also 
+explain the creation of dark matter in our 3-D 
+world through selective wave exclusion in the 
+ZPE field, according to the so-called Casimir effect 
+(Wongyun, 2013; Green and Levin, 2007).  
+f) Recently it has also become clear that even 
+space-time itself may be derived from the above-
+mentioned quantum fluctuation field and, in 
+
+NeuroQuantology | September 2017 | Volume 15 | Issue 3 | Page 41-79| doi: 10.14704/nq.2017.15.3.1079 
+K.F. Meijer D., Consciousness in the Universe is Scale Invariant and Implies an Event Horizon of the Human Brain... 
+eISSN 1303-5150 
+         
+                                                                             www.neuroquantology.com 
+46
+particular, through the entanglement of quantum 
+information that is locked in. Instrumental in this 
+respect are a sort of “short cuts” in space, that 
+connect one part of the space with another, via a 
+so-called wormhole structure. This concept is 
+called EP = EPR conjecture. (Maldacena and 
+Susskind, 2013; Susskind, 2016; van Raamsdonk, 
+2010). This wormhole concept (geometrically 
+quite similar to the central channel of the torus) 
+was already known from the physics of black 
+holes, but now appears to be present at every 
+fractal scale in the universe up to the Planck scale 
+where it constitutes the aforementioned quantum 
+foam (Haramein, 2016; Ford and Roman, 2000; 
+Lloyd, 2007; Loll, 2011, Wikipedia/quantum 
+foam).  
+It is assumed that information entering a 
+black hole from the outside is not lost, but, as 
+mentioned above, rather is being projected on its 
+outer 
+screen, 
+called 
+the 
+“event 
+horizon” 
+(Maldacena and Susskind, 2013; Pourhasan, 
+2013; Haggard and Rovelli, 2014; Susskind, 2016; 
+Lloyd, 2007). From this information-radiating 
+screen, 
+the 
+collective 
+2-D 
+information 
+of 
+entangled black holes can be holographically 
+projected into the 3D representation of our 
+world. It is presently discussed whether the 
+emitted 
+waves 
+either 
+represent 
+chaotic 
+information or coherent information. The latter 
+could, 
+for 
+example, 
+arise 
+by 
+constructive 
+interference with existing information in the 
+universe and the resulting updated information 
+could be integrated in a general knowledge field 
+(Bohm et al. 1980, 1987, 1993). Such a field  may 
+function as template for a supposed simulation of 
+the universe (for references see Meijer, 2015). A 
+recent theory (Pourhasan, 2013; Haggard and 
+Rovelli, 2014) claims that information can also 
+pass through the black hole structure, via a 
+connecting wormhole (a sort of short cut in 
+space-time) to an intrinsic ”white hole”, that 
+instead has an anti-gravitational character, that 
+can disperse the stored integral information in 
+order to start a new version of our cyclic 
+operating universe (see Fig. 2).  This model for 
+the final fate of our Universe (the so called big 
+bounce, Meijer, 2015) might predict that 
+information of a newly formed universe is 
+integrated in a nested configuration with the 
+preceding one (Haggard and Rovelli, 2014; 
+Poplawski, 2010). 
+ 
+Information and Life processes 
+Life is not possible without a continuous 
+integration of internal and external information. 
+Information from the outside world is essential to 
+the maintenance of vital processes, since all 
+biological 
+systems 
+"feed" 
+on 
+information. 
+(Grandpierre, 2014; Farnsworth, 2013). It should 
+be realized in this respect that a living system 
+does not just detect and generate information, it 
+also transforms it. Such biological cybernetics 
+should display the following features: it should 
+be: a) instantaneous and generalized; it cannot be 
+a gradual "diffusion" of information through the 
+system, as that would work too slowly; b) capable 
+of receiving every type of information from the 
+environment (electromagnetic, acoustic, thermal, 
+chemical, mechanical, gravitational); c) able to 
+receive the same information selectively over 
+different 
+fractal 
+biological 
+orders 
+of 
+magnitude; d) it must incorporate information of 
+various parts of the organism and the whole 
+configuration at the same time; e) it should be 
+protected against an excess of information and 
+apply some kind of information quality control; 
+and f) it must ensure minimal loss and distortion 
+of information, and therefore ensure a maximum 
+fidelity of transmission. 
+ 
+3. The nested torus in modeling fractal 
+aspects of the cognitive process 
+To model deeper levels of brain function, fractal 
+conditions are required in geometric terms 
+(Gardiner et al, 2010; Bieberich, 2012; Freeman, 
+2006; Kida et al 2015; Meijer, 2014). The present 
+authors prefer to postulate a nested torus 
+modality in modelling cognition (see Fig. 1 a), 
+indicating deeper layers of the self-similarity and 
+recursive elements. This in the framework of a 
+scale relativity space-time concept (see for an 
+introduction Wikipedia/Scale relativity), and 
+further highlighted in toroidal terms in the 
+concept 
+of 
+a 
+fractal-holographic 
+universe 
+(Haramein, 2007, 2016; Bjerve, 2016), see Fig. 3.  
+ 
+           This, mathematically substantiated, self-
+similar cosmic character was also described as a 
+cellular universe (Anjamrooz, 2011).  Fractal 
+properties may also provide a link to deeper 
+layers of information processing in the brain 
+(Vitiello, 2015; Reddy and Pereira, 2016; King, 
+2003; Gardiner et al, 2010). Examples of 
+subliminal information (see Wikipedia) are 
+intuition and serendipity, that are supposed to 
+arise from the sub-conscious domain of the 
+human mental apparatus (Bernstein, 2005, 
+Rousseau, 2011). The human body and brain 
+have earlier been described in fractal terms (self-
+similar 
+repeats), 
+that 
+imply 
+deep 
+layer 
+
+NeuroQuantology | September 2017 | Volume 15 | Issue 3 | Page 41-79| doi: 10.14704/nq.2017.15.3.1079 
+K.F. Meijer D., Consciousness in the Universe is Scale Invariant and Implies an Event Horizon of the Human Brain... 
+eISSN 1303-5150 
+         
+                                                                             www.neuroquantology.com 
+47
+holographic communication (Pribram, 2004). The 
+latter may not only explain the extremely rapid 
+reactions of the nervous system (Meijer and Korf, 
+2013), but also the coupling of conscious 
+knowledge to sub-consciously induced intuitive 
+impulses, and mental states.  
+The nested torus in this respect is seen by 
+us as a fundamental aspect of quantized 
+spacetime. Interestingly, twistor geometry, that 
+was intended to unify quantum mechanics and 
+general relativity and to define gravitation, can 
+also be used for solving non-linear Schrödinger 
+equation to obtain solutions for soliton wave 
+phenomena (Dunajzki et al, 2004). Recently, 
+Haramein et al, 2016, postulated a collective 
+wormhole background on the Planck scale (see 
+Fig.10) that may underly our reality and could 
+explain the partially directed character of 
+biological and cosmic evolution, as have also be 
+indicated by Melkickh and Khrennikov, 2016. 
+Dynamical systems in the physical world tend to 
+arise 
+from dissipative 
+(actively 
+spreading) systems, 
+always 
+including 
+some 
+driving force, that maintains the motion. The 
+dissipating driving force tends to balance the 
+initial transients and settle the system into a 
+typical, future directed, behavior, known as an 
+attractor (Keppler, 2013, 2016). An attractor can 
+even 
+constitute 
+a 
+complex 
+set 
+with 
+a fractal structure, known as a strange attractor 
+(Wikipedia).  The latter aspect promotes a 
+collective and coherent behavior that can lead to 
+flux-maximization. 
+ 
+In the framework of the present model, 
+both the subjective unconscious and conscious 
+aspects (Tammietto, 2010, Jahn and Dunne, 2004; 
+Bernstein, 2005; Schwartz et al 2005; Rousseau, 
+2011) 
+can, 
+in 
+principle, 
+be 
+modeled 
+as 
+information flow and recurrent storage, taking 
+place in a nested toroidal setting, since the 
+human 
+brain 
+organization 
+clearly 
+shows 
+functional 
+circuitries 
+and 
+obvious 
+fractal 
+properties (Gardiner et al, 2010; Bieberich, 
+2012). In addition, highly subjective elements 
+such as intuition and serendipity, that may 
+represent crucial elements in most of the major 
+scientific breakthroughs and/or technological 
+innovations (Meijer, 2017a), should be taken into 
+account. In this respect, breaking the barriers or 
+removing the “filtering” between the conscious 
+and unconscious is widely discussed in relation to 
+meditation and induced dream states. (Jahn and 
+Dunne, 2004; Bernstein, 2005; Schwartz et al 
+2005; Rousseau, 2011). 
+ 
+ 
+Figure 3. Toroidal geometry shows identified structures in the whole cosmos, from macro-(left above) to 
+micro (right below) scales of the fabric of reality. The inset, left below, depicts the supposed nested toroidal 
+geometry of the human body, heart and brain. 
+
+NeuroQuantology | September 2017 | Volume 15 | Issue 3 | Page 41-79| doi: 10.14704/nq.2017.15.3.1079 
+K.F. Meijer D., Consciousness in the Universe is Scale Invariant and Implies an Event Horizon of the Human Brain... 
+eISSN 1303-5150 
+         
+                                                                             www.neuroquantology.com 
+48
+ 
+In 
+this 
+framework, 
+it 
+is 
+presently 
+discussed whether biological evolution was a 
+purely random process or that it rather 
+constituted a partly guided event on the basis of 
+primordial information that was expressed 
+through electromagnetic wave patterns that were 
+present from the very start of our universe 
+(Melkikh, 2014, 2016). It is of interest, in this 
+respect, that the pattern of EM frequency 
+radiation bands that were shown by us to 
+promote life processes, can be mathematically 
+approached by a selected tempered Pythagorean 
+acoustic scale (Geesink and Meijer, 2016 a) and 
+that a phonon-guided mechanism (phonon is an 
+acoustic wave) is a plausible mechanism in a 
+biological field context (Meijer and Geesink, 
+2016). 
+ 
+4. 
+Multi-dimensional 
+space-time 
+in 
+the 
+toroidal brain model: consciousness models, 
+including a 4th spatial dimension 
+Several previous studies have postulated that to 
+understand integral brain function, a fourth 
+spatial dimension is required (see table 1 below 
+and also Wesson, 2014). These proposals are 
+related to a long standing discussion in physics 
+on the dimensional structure of reality, that in 
+fact was initiated by Minkowsky and Einstein, 
+who instead of the usual 3+1 space time model, 
+with 
+a 
+non-symmetrical 
+time 
+dimension, 
+proposed a 4th symmetrical time dimension in 
+addition to the three spatial ones (Block 
+universe).  
+            All of the really fundamental physical 
+dynamical laws are invariant under time 
+translation and time reversal. Moreover, the 
+concept of the “now”, the brief interval that 
+divides the past from the future, is absent in all 
+fundamental mathematical formulations, both in 
+classical physics and in quantum physics. In the 
+block universe according to Minkowski, our 
+actual universe, being all our moments, past, 
+present and future, coexist, but we can’t directly 
+see or experience that fact. We experience our 
+moments serially, one after the other, such that 
+only the present moment is what’s actual for us. 
+The Wheeler-DeWitt equation also suggests a 
+model in which all of time is laid-out (just as the 
+space dimension is laid-out), and all times are 
+equally real: the movement of time is considered 
+to be just an illusion of human perception (see 
+Meijer, 2015).  
+In 1921-1926, Kaluza and Klein proposed 
+the Kaluza–Klein theory, being a unified field 
+theory of gravitation and electromagnetism, built 
+around the idea of a fifth dimension beyond the 
+usual four of space and time. It is considered to 
+be an important precursor to string theory 
+(Miller, 2013). In 1926, Oskar Klein gave Kaluza's 
+classical five-dimensional theory a quantum 
+interpretation, to accord with the then-recent 
+discoveries of Heisenberg and Schrödinger.  
+More recently, Randall postulated the 
+Randall–Sundrum 
+model 
+(also 
+called 5-
+dimensional warped geometry theory, Gabella, 
+2006), imagining that the real world is a higher-
+dimensional 
+universe 
+described 
+by warped 
+geometry.  
+According to Carter, 2014a and b, the 
+demonstration of time-like non-locality, logically 
+requires that time is more fundamentally a 
+dimension of space. While our classical universe 
+appears consigned to constant motion along that 
+spatial dimension, the quantum world seems not 
+so constrained:  the wave function reaches across 
+time as it reaches across space. An imaginary 
+spatial dimension is considered an actual 
+“direction” in the universal spatial fabric, 
+orthogonal to the real dimensions and measured 
+in imaginary units.  
+ 
+Table 1: Four spatial dimensions (hyper-
+dimension) and one symmetrical time dimension 
+are required for defining (self)- consciousness: 
+current literature (author/shortened title) 
+ 
+Sirag, 1981: Consciousness, a hyperspace view 
+Tiller, 1999: Predictive model of subtle domain 
+connections 
+Smithies, 2003: Space, time & consciousness 
+Carter, 2014:  Consciousness and perception of higher-
+dimensional quantum space-time 
+Meijer and Geesink, 2016: Phonon-guided Biology in 
+4-D toroidal geometry 
+Beichler, 2012c: The Evolutionary Imperative of 
+Consciousness  
+Tozzi, 2016: Towards a fourth spatial dimension of 
+brain activity.  
+Hardy, 
+2016: 
+Non-local 
+processes 
+and 
+cosmic 
+hyperdimension of consciousness 
+Irwin, 2014: Consciousness in quantized spacetime 
+Wesson, 2014: Looking for the fifth dimension 
+Brandenburg and Hardy, 2015: Entropic gravity in 
+pre-spacetime 
+Fingelkurts, 2014: Present moment, Past and Future: 
+Mental Kaleidoscope 
+ 
+Similarly, Kaluza’s theory (Gabella, 2006) 
+derives the electromagnetic field extending 
+
+NeuroQuantology | September 2017 | Volume 15 | Issue 3 | Page 41-79| doi: 10.14704/nq.2017.15.3.1079 
+K.F. Meijer D., Consciousness in the Universe is Scale Invariant and Implies an Event Horizon of the Human Brain... 
+eISSN 1303-5150 
+         
+                                                                             www.neuroquantology.com 
+49
+throughout the first three dimensions of a 4-
+space.  
+It was postulated that only a 4+1 space 
+time structure, (thus with an extra spatial 
+dimension), allows a unity of relativistic and 
+quantum physical reality (Beichler, 2012c), 
+including 
+time-symmetric 
+operation 
+and 
+backward causation (Meijer, 2012 and 2015). 
+This 
+also 
+allows 
+causal 
+and 
+tensed-time 
+modalities, 
+that 
+are 
+essential 
+for 
+self-
+consciousness and reflection (Carter, 2014).  
+Quantum information mechanisms were 
+recently used to model human consciousness as 
+well as the unconscious in relation to conscious 
+perception (Martin et al, 2013), in which various 
+modalities of non-locality were discussed. Of 
+note, entanglement and non-locality may not only 
+apply to spatial separation, but also a temporal 
+one. It was proposed by Martin et al, 2013; 
+Baaquie and Martin, 2005 that archetypical 
+information 
+can 
+be 
+stored 
+as 
+quantum 
+information in appropriate fields and that 
+consciousness may be controlled by quantum 
+entanglement from outside the classical 4-D 
+space-time configuration, (see also Luminet, 
+2016).  
+We hypothesize, in this respect, that 
+gravity, in a concerted action with the opposing 
+dark energy (anti-gravity), is partly instrumental 
+in the manifestation of consciousness at all levels 
+of the Universe, including the human brain (see 
+Fig. 9). This principle of recurrent information 
+flow, in this view, can be extended to the entire 
+scale of the extremes of spin networks, life 
+organisms and our planet, as well as the macro-
+cosmos (entire universe, Fig. 3). Recent progress 
+in physics/cosmology have been attained in the 
+further defining of the nature of space-time 
+(Maldacena and Susskind; Green and Levin, 2007, 
+Susskind, 2016). Another major finding is that 
+physical information should be seen as a 
+modality of energy and that information and 
+energy can be mutually converted to each other 
+(Bérut et al, 2012; Toyabe, 2010; Peterson et al 
+2016), confirming previous ideas on three 
+fundamental building blocks for the fabric of 
+reality (Meijer, 2012): matter, energy and 
+information. A recent study of Aharonov et al, 
+2013, even indicates that information can be 
+physically separated from the matter it describes. 
+ 
+The 
+information 
+generated 
+in 
+the 
+universe is supposed to be holographically 
+projected in so called event horizons and in turn 
+also broadcasted from these virtual screens by 
+ bidirectional (forward/retrograde) projection, 
+(Fig.2). Event horizons, collectively may thereby 
+contain all integral information reflecting the 
+integral history of the fabric of reality (Luminet, 
+2016; Haggard and Rovelli, 2014). According to a 
+fractal-holographic view the same patterns are 
+repeated at each scale and the whole is present 
+everywhere at all times, in a unified geometric 
+field as earlier proposed by Wheeler and 
+Feynman, 1945.  
+                                                                                     
+5. Electromagnetic aspects of dynamic models 
+of consciousness 
+Many scientists have earlier suggested that basic 
+information reaches our brain from outside 
+(Persinger, 2008, 2015; Grof, 1987, Jahn and 
+Dunne, 2004), since the nervous system may also 
+function as a receiver of subliminal signals. One 
+could regard this as a physically defined 
+“extrasensory perception”. Yet, the alternative 
+view is that we have to take into account a “sixth” 
+sense in the form of a vibrational, resonance 
+sensitive macromolecular apparatus in each of our 
+cells (Hameroff and Tuzcinsky, 2015). 
+               These 
+receivers 
+act 
+as 
+vibrational, 
+resonance sensitive elements in cells and act as 
+receptors 
+and 
+as 
+emitters 
+of 
+quantum 
+information, 
+which 
+functions 
+as 
+resonant 
+oscillators with specific resonance frequencies, 
+which are coupled with a natural quantum field 
+(Rouleau, 2014). The particular cellular sensors 
+are composed of flexible three dimensional 
+structures of proteins, oligo-nucleotides and 
+elements of the cell skeleton, that mutually 
+communicate through discrete wave resonances 
+and are sensitive to fluxes of photons, phonons, 
+excitons and related quasi particles such as 
+polarons (solitons) and polaritons. This bio-
+sensing apparatus, situated in an apparently 
+electromagnetic cell, was tentatively called 
+electrome (de Loof, 2016), and is under the 
+continuous 
+influence 
+of 
+natural 
+occurring 
+internal as well as external electromagnetic fields 
+(Meijer and Geesink, 2017).  
+The latter potentially include interaction 
+with either the all pervading zero-point energy 
+field (Setterfield, 2002; Laszlo, 2007; Keppler, 
+2012; Caligiuri, 2015), or to physically defined 
+mental dimensions (Grof, 1987; Jahn and Dunne, 
+2004; Beichler, 2012b). Also, bio-photonic type of 
+communication (Dotta, 2013), gravitationally 
+sensing of information present at the Planck scale 
+(Penrose, 2014) and even information projected 
+from event horizons of black holes have been 
+implied (Maldacena and Susskind, 2013). In this 
+
+NeuroQuantology | September 2017 | Volume 15 | Issue 3 | Page 41-79| doi: 10.14704/nq.2017.15.3.1079 
+K.F. Meijer D., Consciousness in the Universe is Scale Invariant and Implies an Event Horizon of the Human Brain... 
+eISSN 1303-5150 
+         
+                                                                             www.neuroquantology.com 
+50
+respect it is worthwhile to mention that, based on 
+quite solid evidence, the brain has been described 
+as an electromagnetic workspace (McFadden, 
+2007; Pocket, 2012; John, 2001, Fig. 4).  
+The 
+collective 
+field 
+concepts 
+may 
+constitute an interpretation framework for 
+poorly understood phenomena such as mental 
+states such as intuition, telepathy, far distance 
+observation as well as near death experiences 
+(see Radin, 1997)  as well as near death 
+experiences (Beichler, 2012c; Bókkon et al, 2013) 
+and Psi phenomena (Radin, 1997; Beichler, 
+2012b; Rousseau, 2011), to mention only some of 
+the many studies available on this topic.  
+“The universal force of electromagnetism 
+controls all biological response” as Hawking 
+noted in “A Brief History of Time”. Indeed, living 
+systems are under the continuous influence of 
+electromagnetic fields and it is proposed in the 
+present paper that the native, non-trivial, 
+photon/electron vibrations exhibited by such 
+scalar fields are shared with resonating proteins 
+and nucleotides that control cell function 
+throughout the hierarchy of living systems. 
+ This research area was pioneered by 
+Fröhlich (coherency in molecular vibrations, only 
+recently directly demonstrated by Lundholm et 
+al, 2015) and Popp (impact of bio-photons in life 
+processes).  In the two preceding decades, the 
+biofield concept rapidly expanded to in vivo 
+experimentation and multiple clinical approaches 
+(Reite et al, 1994; Battleday, 2014; F. Frölich and 
+Mc Cormick; 2013; Foffani, 2003). Abundant 
+information on this dynamic research field can be 
+found in: Fröhlich, 1968; Addey, 1993; Sedlak, 
+1993; Davydov, 1977; Cosic, 1997; Popp, 2005; 
+Prakash, 2008; Funk, 2009; Cifra et al, 2010; 
+Levin, 2012; Plankar et al, 2011; Bischoff and Del 
+Giudice, 2013; Brizhik, 2013;  Fröhlich, 2014;  
+Muehsam, 2014; Rouleau and Dotta et al, 2014; 
+Belyaev, 2015; Pang, 2016; Hammerschlag, 2015 
+and Liboff, 2017.  
+An integral model for harmony-like 
+resonance 
+as 
+an 
+explanation 
+for 
+self-
+consciousness was earlier proposed by Lehar, 
+2003, 2012, proposing that the synchrony 
+observed between cortical neurons is not a signal 
+in its own right, but rather a manifestation of a 
+larger standing wave pattern that spans the 
+cortical region in question, and that the structure 
+of the standing wave encodes certain aspects of 
+the structure of the perceived object or grouping 
+percept. 
+ 
+ 
+ 
+Figure 4. Current models of consciousness on the basis of long-range electromagnetic fields that may 
+explain the simultaneous binding of distant brain nuclei involved in integral perception processes 
+
+NeuroQuantology | September 2017 | Volume 15 | Issue 3 | Page 41-79| doi: 10.14704/nq.2017.15.3.1079 
+K.F. Meijer D., Consciousness in the Universe is Scale Invariant and Implies an Event Horizon of the Human Brain... 
+eISSN 1303-5150 
+         
+                                                                             www.neuroquantology.com 
+51
+ 
+A dynamic electromagnetic network was 
+earlier revealed bu us in a meta-analyses of 250 
+biological/medical studies that showed discrete 
+EM frequency bands that promote or sustain life 
+conditions (Geesink and Meijer, 2015, 2017; 
+Meijer and Geesink, 2016, 2017). The interplay of 
+such 
+discrete 
+electromagnetic 
+radiation 
+frequencies in the guiding of cellular function, 
+also makes clear that life systems can, in 
+principle, obtain sufficient external information 
+to further explain their integral life complexity. A 
+torus model was proposed in these studies for a 
+coupled bio-photon/phonon/soliton guided life 
+principle, (Geesink and Meijer, 2015, 2016; 
+Meijer and Geesink, 2016).  
+Since the particular EM field pattern was 
+recently fully confirmed analysing 110 reports on 
+radiation therapy for a range of cancer disorders 
+(Geesink and Meijer, 2017),  and also in traumatic 
+brain injury, pain relieve as well as tissue and 
+bone regeneration, a novel biophysical principle 
+seems at stake, (see Geesink and Meijer, 2017). 
+Moreover, the particular discrete EM field 
+frequencies were also shown by us in inanimate 
+nano-materials and sound induced geometric 
+resonance patterns (Geesink and Meijer, 2015) 
+and are compatible with music theoretical 
+algorithms (Smoyer, 2005). Such a long distance 
+EM field may provide the very basis for the 
+ordering and functional integration of cells, and 
+operate through an intrinsic connection with 
+physically defined universal information field(s) 
+(Meijer and Raggett; 2015, Meijer, 2012). We 
+postulated that this defined principle can also be 
+instrumental in neural integration of the earlier 
+mentioned qualia and consequently in the 
+development of mental states and human (self) 
+consciousness, Meijer and Geesink, 2016). 
+ 
+Quantum states, as related to discrete far-
+infrared waves, therefore, can also be considered 
+as 
+co-instrumental 
+in 
+the 
+astrocyte/glial/neuronal networks that may play 
+a role in cognitive processes (see: Pereira and 
+Furlan, 2007; Pereira, 2007, Fig. 5). In this 
+respect 
+the 
+inter- 
+and 
+intracellular 
+Ca2+ 
+gradients and ion-oscillations may play a pivotal 
+role since Ca2+, due to its  electron constitution 
+can function as an outstanding information 
+carrier (Pereira and Furlan, 2007; Meijer and 
+Geesink, 2016; Meijer, 2015). Especially the 
+established spiral wave movements of Ca-ions, 
+called cyclotron modes, are highly promoted by 
+terrestrial magnetic fields (Zioutas, 1996). Cells 
+that are normally rather refractory for external 
+EM wave modalities, become very sensitive to 
+such radiation via perturbation of cytosolic Ca2+ 
+oscillations. Rotating spiral Ca2+ waves have 
+been reported in many studies (see for references 
+Zioutas, 1996) and photon energy is transformed 
+in kinetic energy of the gyrating ion (gyro-
+resonance).  
+The pivotal role of Ca2+- ions as 
+informational 
+second 
+messengers 
+in 
+brain 
+function, related these studies, have been 
+described at micro and macro levels (Pereira and 
+Furlan 2007; Pereira, 2017; Marcoli, 2015; 
+Hagenston, 2015). Neuron/astrocyte mediated Ca 
+2+ flux lead to activation of Calmodulin 
+associated kinases (CMK11), calmodulin, NMDA-
+receptor/channel 
+proteins 
+and 
+quantum 
+resonance within Ca-channels that may stimulate 
+synaptic neurotransmitter exocytosis (Fig.5) 
+Calcium ions couple extracellular stimuli to 
+cellular responses and the generated Ca2+ waves 
+can carry encoded photon wave information (Rao 
+et al, 2008) and likely includes the generation 
+and flux of biophotons and thereby provide a 
+fundamental basis for a partially phonon and 
+soliton guided conscious perception (Meijer and 
+Geesink, 2016). 
+Very similar EMF frequency bands were 
+detected in clay minerals that are known to 
+possess semi- conducting and quantum wave 
+transforming properties (Geesink and Meijer, 
+2016), as well as in distinct sound induced 
+geometric patterns as produced by Chladni and 
+analyzed by Ritz (see Geesink and Meijer, 2015, 
+2016: Meijer and Geesink, 2016). This indicates 
+that 
+this 
+biological/physical 
+principle 
+may 
+operate in both animated and non-animated 
+systems. Such electromagnetic fields may also 
+have bridged information processing required for 
+the 
+creation 
+of 
+first 
+life 
+(Davies, 
+2014; 
+Farnsworth et al, 2013; Melkikh et al, 2014 and 
+2016).  
+Cellular 
+plasma 
+water 
+is 
+generally 
+supposed to act as a transfer medium for internal 
+and externally applied electromagnetic waves to 
+biomolecules (Del Giudice, 2010; Sahu et al, 
+2013; Fuxreiter, 2005; Zhang et al, 2009; Bono et 
+al, 2012). The cellular plasma exhibits a highly 
+arranged 3-D geometric structure and under the 
+influence of EM fields act as a liquid crystal, that 
+exhibits 
+surface 
+interactions 
+with 
+macromolecular structures such as DNA and 
+proteins (Meijer and Geesink, 2017).  
+ 
+
+NeuroQuantology | September 2017 | Volume 15 | Issue 3 | Page 41-79| doi: 10.14704/nq.2017.15.3.1079 
+K.F. Meijer D., Consciousness in the Universe is Scale Invariant and Implies an Event Horizon of the Human Brain... 
+eISSN 1303-5150 
+         
+                                                                             www.neuroquantology.com 
+52
+ 
+ 
+Figure 5. Ca2+-mediated information processing in communicating brain syncitia of neurons, astroglial 
+cells that may result in rotational information flux at various fractal scales of brain networks that can be 
+modelled by toroidal trajectories of information energies. 
+ 
+ 
+The absorption spectrum between 0.1 
+THz and 100 THz of solvated bio-molecules is 
+remarkably sensitive to changes in fast EM 
+fluctuations of the water network. There is a long 
+range influence on the hydration bond dynamics 
+of the water around binding sites of proteins, and 
+cellular water is also shown to assist molecular 
+recognition processes. 
+ “Biological water” supports itself by 
+coherent 
+dipolar 
+excitations 
+and 
+terahertz/femtosecond infrared interactions and 
+these dynamics extends well beyond the first 
+hydration shell of water molecules. (Chaplin, 
+2000; Johnson, 2009; Tielrooij, 2010; Mentré, 
+2012).   
+Recently, 
+Henry, 
+2016, 
+derived 
+the 
+characteristic frequencies involving inorganic 
+ions in aqueous solution. This was done on a 
+universal quantum-mechanical basis, by relating 
+the molecular weight M of any solvent or solute 
+species to a frequency F using the mass-energy 
+equivalence coupled to the Planck-Einstein 
+relationship. Expressed in quantum frequencies, 
+F was transposed to 76 octaves, in order to get a 
+frequency 
+range 
+corresponding 
+to musical 
+sounds. Interestingly, a water molecule was 
+characterized by M=18 g·mol−1, leading to a 
+characteristic frequency F=54 Hz (according to 
+the octave hierarchy this is equal to 432 Hz). 
+Consequently, common inorganic ions in cell 
+plasma and other fluids, can be related to water 
+from a purely harmonic like viewpoint. The 432 
+Hz value of water molecules is remarkably 
+similar to the central frequency in our earlier 
+proposed sequence of coherent eigenfrequencies 
+(Geesink and Meijer, 2015, 2016). In these 
+studies, we identified 12 basic coherent EM 
+frequencies with discrete values of 256, 269.8, 
+288, 303.1, 324, 341.2, 364.7, 384, 404.5, 432, 
+455.1, 486 Hz, in addition to 12 decoherent 
+frequencies, that were positioned just in between 
+these coherent frequencies: 249.4, 262.8, 278.8, 
+295.5, 313.4, 332.5, 352.8, 374.3, 394.1, 418.0, 
+443.2, 470.3 Hz. As mentioned above, all 
+additional frequencies of the entire wave range, 
+either below or exceeding the above mentioned 
+values can be derived by octave hierarchy (see 
+for details of the calculations Meijer and Geesink, 
+2016). It is of interest that Gramowski et al, 2015 
+reported on the enhancement of cortical network 
+
+NeuroQuantology | September 2017 | Volume 15 | Issue 3 | Page 41-79| doi: 10.14704/nq.2017.15.3.1079 
+K.F. Meijer D., Consciousness in the Universe is Scale Invariant and Implies an Event Horizon of the Human Brain... 
+eISSN 1303-5150 
+         
+                                                                             www.neuroquantology.com 
+53
+activity, 
+being 
+important 
+for 
+conscious 
+perception, by stimulation with selective EM 
+fields 
+that 
+fully 
+confirmed 
+the 
+frequency 
+algorithm proposed in our studies (Geesink and 
+Meijer, 2015, 2016, Meijer and Geesink, 2016, 
+2017).  
+The 
+identified 
+electromagnetic 
+life-
+steering 
+modality 
+resembles 
+the 
+pilot 
+wave/implicate order concept of David Bohm, 
+1980, 1987, that also has physically be defined by 
+others (Laszlo, 2007) as the zero-point energy 
+field, and is known from the field stochastic 
+electrodynamics (Keppler, 2012, 2016; Caligiuri, 
+2015). Understanding and further exploiting the 
+involved morphogenetic code, especially its 
+highly regulative aspects, requires to understand 
+not only the molecules and genes involved, but 
+also the algorithms and computations that are 
+performed by cellular networks in making 
+decisions about anatomical growth and form 
+(Levin, 2016). We hope that our hypothesis will 
+further invite studies into the conformational 
+states and functional information networks of 
+living cells and thereby, in the future, will provide 
+a further physical basis for the suggested 
+phenomenon 
+of 
+morphogenesis 
+(Sheldrake, 
+2009; Pokorny, 2013; Levin, 2016).  
+ 
+6. Evidence for a supervening resonant 
+mental workspace  
+Subjective 
+conscious 
+experience 
+exhibits 
+a 
+unitary and integrated nature that seems 
+fundamentally at odds with the fragmented 
+functional architecture of the brain that have 
+been identified in neurophysiological studies, an 
+issue which has come to be known as the binding 
+problem. In the construction of following 
+hypothesis we implicitly leave behind the 
+differentiation between the assumed conscious 
+and un- or subconscious parts of human 
+awareness, simply since we believe that any 
+perception-experience-action cycle must contain 
+varying proportions of information related to 
+both aspects. It is generally agreed that the 
+supposed boundaries between these classical 
+”mental compartments” are arbitrary and that 
+intentional and especially emotional factors 
+influence the relative involvement of deeper 
+layers of mind (also see for this aspect Schwartz 
+et al, 2005, Tammietto and de Gelder, 2010; Jahn 
+and Dunne 2004, Rousseau,2011). This has 
+become evident in a large variety of conscious 
+states as influenced, for example: by emotional 
+feelings, meditation, hypnosis, vivid dream states, 
+rhythmic sound exposure, use of psycho-active 
+agents and life threatening events that induce 
+near death experiences. 
+Furthermore we postulate earlier that a 
+dedicated part of the total brain activity is 
+employed 
+for 
+the 
+dynamic 
+and 
+ongoing 
+construction 
+of 
+an 
+integral 
+personal 
+universe/worldview (Meijer and Korf, 2014), in 
+which 
+consciousness 
+represents 
+a 
+meta-
+phenomenon (Linton, 2015). Such an integrated 
+representation of the outer world should not only 
+include our individual ”autobiography” but also 
+the intrinsic interactions with the external world, 
+including the physical laws that determine it. It 
+requires that we recognize our memories as true 
+events as having relevance and significance for 
+the present. The latter recognition aspect can 
+only be realized if we see the present not only as 
+a product of the past, but also as the anticipated 
+(simulated) 
+outcomes 
+of 
+multiple 
+future 
+projections. In other words there is no worldview 
+of the present without probabilistic projection of 
+our potential future and the latter implicitly 
+signifies our long-term freedom of choice.  
+Such an internal impression of the self, 
+however, should be permanently validated via an 
+integral and versatile external “state of art” of our 
+Self that also should include potential subliminal 
+and unconscious interactions, including time-
+retrograde (backward) projections of future 
+events. The latter could be called ”remembering” 
+of the future, a process that have been physically 
+defined and experimentally demonstrated earlier 
+by Aharonov, 2010, in so called soft-stimulation 
+quantum experimentation.  
+We postulate therefore that an external 
+memory workspace is operating in the human 
+brain in a 4-D setting. The latter can take into 
+account the hidden interaction with all natural 
+forces/fields and also can integrate symmetric 
+time and thus an aspect of backward causation. 
+The 
+proposed 
+field-sensitive 
+information 
+workspace could function as a non-material and 
+wave field-like simulation domain for a spectrum 
+of mental representations. These may undergo a 
+superposition with the internal worldview, in 
+order to monitor the quality of our individual 
+being 
+(Fig.9) 
+This 
+“software-like” 
+mental 
+program should exhibit an extremely fast 
+response time, make immediate selection within 
+a spectrum of multiple simulations possible. It 
+also should offer the integral organism an 
+optimal qualitative and quantitative impression 
+of the current state of the whole body as 
+embedded 
+in 
+its 
+environment 
+and 
+its 
+development. 
+
+NeuroQuantology | September 2017 | Volume 15 | Issue 3 | Page 41-79| doi: 10.14704/nq.2017.15.3.1079 
+K.F. Meijer D., Consciousness in the Universe is Scale Invariant and Implies an Event Horizon of the Human Brain... 
+eISSN 1303-5150 
+         
+                                                                             www.neuroquantology.com 
+54
+We envision such a monitoring system as 
+supervening the basic neuronal communication 
+networks, in order to generate a global type of a 
+mental field. By this guiding space-time domain, 
+synchronic oscillations in the cortico-thalamic 
+region of the brain would be induced through 
+resonant 
+coherent 
+and 
+condensed 
+electromagnetic vibrations (standing waves) 
+and/or attractor type of quantum information. 
+The latter could, for example, be derived from 
+non-linear and bidirectional interaction with the 
+stochastic zero-point energy field (Keppler, 2012; 
+Caligiuri, 2015). Yet, it should be mentioned here 
+that the ”binding by synchrony” concept is not 
+without problems (see relevant overview in 
+Wikipedia/binding 
+problem). 
+Instead 
+of 
+synchrony perse, the proposed supervening 
+workspace could induce an adjustment of the 
+timing of action potentials relative to the 
+oscillation cycles, and this can lead to a drastic 
+acceleration of processing speed. This model for a 
+perceptions-guiding radiant workspace, also 
+provides an interpretation network for as yet, 
+poorly understood phenomena such as pre-
+stimulus brain responses, psi phenomena and 
+intuition (Tiller, 1990, Grof, 1987; Jahn and 
+Dunne, 2004; Hameroff, 2012; Rousseau, 2011). 
+  
+Our field- receptive mental resonance model 
+is based on the following considerations:  
+ -Ultra-rapid brain responses. In earlier work 
+(Meijer and Korf; 2014, Meijer, 2015), it was 
+reported that our brain, studied under a wide 
+variety 
+of 
+experimental 
+condition, 
+shows  
+extremely rapid response times, that are not 
+compatible with the known  time frame of 
+synaptic transmission and processing of action 
+potentials: a) even subliminal stimulations of less 
+than 50 milliseconds  informing the perceiver 
+were reported (in e.g. hidden advertisements), b) 
+linguistic studies illustrate the extreme speed of 
+cognition: meaningful as opposed to nonsense 
+words can already be distinguished within 50 
+milliseconds c) The time-lag of “unconscious” to 
+”conscious” experience ranges from 0.3 - 0.5 sec 
+(Libet, 1994, 1996). The latter observations 
+collectively show that complicated, culture-
+specific, information is recognized in our brain 
+prior to reaching conscious perception of these 
+events (see also Radin, 1997). In general, this 
+implies that information processing by the brain 
+is much faster than the rate of overall neuronal 
+transmission/action potential propagation, as 
+well 
+as 
+post-activity 
+restoring 
+metabolic 
+processes as reasoned by Rahnama et al, 2010.   
+Two 
+alternative 
+mechanisms 
+were 
+proposed to deal with this discrepancy: a) it has 
+been shown that during a nerve impulse multiple 
+sodium-channels are opened over a whole axon 
+region at the same time, by which the speed of 
+propagation is largely increased compared to 
+classical concepts. (Helias et al, 2010, see also 
+Wolf, 
+2006). 
+Waldhauser 
+et 
+al, 
+2016, 
+interestingly, reported that episodic memory 
+retrieval operates through an extremely rapid 
+reactivation of sensory information, a sort of 
+mental time travel that, interestingly, can be 
+influenced by transcranial magnetic stimulation. 
+The present field-receptive workspace model 
+may therefore provide a more definite answer, 
+since 
+it 
+postulates 
+a 
+bidirectional 
+phase-
+conjugating holographic communication on the 
+basis of photon/soliton wave transmission (see 
+later). 
+ 
+-Fractal and Cyclic workspace. In a previous 
+study (Meijer, 2015) cognitive brain activity was 
+modeled within a fractal and bi-cyclic operating 
+workspace that exhibits two orthogonal streams 
+of bi-directional information: In addition a third 
+information channel was suggested  to be 
+operating between a supposed magnetic brain 
+field and global external electromagnetic fields, 
+either related to atmospheric magnetic fields or 
+to 
+interaction 
+with 
+vortex-like 
+quantum 
+fluctuations of the all pervading zero-point 
+energy field, as for instance put forward by 
+Keppler, 2012 and Caligiuri, 2015 (see Fig. 9). 
+Several studies indicate that the total brain 
+exhibits a fractal organization, housing non-linear 
+type of information processing (Freeman, 2006; 
+Bieberich, 2012 and Gardiner, 2010; Reddy and 
+Pereira, 2016) that explains various observations 
+on periodicity in electromagnetic activity, as 
+shown for example in EEG registration.  
+ 
+-Toroidal organization of the brain. We 
+postulate here that toroidal geometry is an 
+essential feature of the proposed field-sensitive 
+resonant workspace, taking into account the 
+known information integrating and coupling 
+potential of the torus as well as its divergence 
+aspect, resulting in an externally directed 
+radiation of information (Meijer and Geesink, 
+2016). There are recent studies using fMRI 
+scanning indicating the involvement of toroidal 
+geometry in various aspect of specific brain parts 
+with topological and spatial mechanisms and 
+even indications that the whole brain brain is 
+embedded in a hypersphere, as a model for a 
+
+NeuroQuantology | September 2017 | Volume 15 | Issue 3 | Page 41-79| doi: 10.14704/nq.2017.15.3.1079 
+K.F. Meijer D., Consciousness in the Universe is Scale Invariant and Implies an Event Horizon of the Human Brain... 
+eISSN 1303-5150 
+         
+                                                                             www.neuroquantology.com 
+55
+higher 4th dimension (Tozzi and Peters, 2015, 
+2016 a, b; Knierim and Zhang, 2012). Certain 
+repeating patterns may be related to a toroidal 
+architecture of attractors (Mc Naughton et al, 
+2006; Akhmet and Fen, 2014) and the known 
+alpha, beta, gamma and delta brain waves may 
+reflect preferred frequency bands as related to 
+toroidal eigenvalues (see later).  
+  
+-Top- down resonance. It has been proposed by 
+others (Lehar, 2003 2008) that a global (non-
+local) standing wave patterns in the brain exhibit 
+a 
+top-down 
+operating 
+harmonic 
+resonance 
+property of neuro-computation, that encodes 
+complex spatial patterns in the brain and induces 
+the synchronicity of neuronal networks required 
+for conscious perception. This author illustrated 
+this with the earlier mentioned geometric 
+patterns of Chladny, like we did also more 
+recently (Meijer and Geesink, 2016). However no 
+distinct frequency band were identified in Lehar’s 
+studies. We have shown that these patterns may 
+be linked with solitonic wave resonances, 
+according to a sequence of coherent EM 
+frequencies, suggesting a sort of harmonic-like 
+kaleidoscope. Many examples of distinct EM 
+frequency bands of brain cells, neurons and 
+different glands have been identified (see 
+Persinger, 2016, and Hartwich,2009; Gramowski 
+et al, 2015), that resemble some of the individual 
+eigen fequencies of the geometric/acoustic 
+pattern proposed by us, supporting the idea that 
+communication of life information through 
+coherent EM radiation is a widely spread 
+phenomenon.  
+We 
+propose 
+that 
+the 
+pro-life 
+EM 
+frequency bands identified by us may literally act 
+in concert as “tonal octave-based symphony” to 
+provide living systems including the brain with 
+such a harmonic like resonance patterns. Such 
+“tonal” projections, that in a global manner, 
+organize synchronicity spatially and temporally  
+in essential organs in the body (heart and brain), 
+may originate from a supervening resonance 
+field, that imposes a coherent vibrating 3-D 
+imprint in the cortical region, producing an 
+integral modality of consciousness. 
+ 
+Universal/Cosmic Consciousness. The presence 
+of a “steering” functional mind field may provide 
+an interpretation framework for phenomena that 
+still seem to escape scientific verification. A most 
+important aspect is the often mentioned modality 
+of Universal consciousness also called Cosmic 
+Consciousness. This concept, that information can 
+take 
+a 
+universal 
+character 
+and 
+that 
+all 
+information is stored in a general knowledge field 
+or universal consciousness, can be treated from a 
+number 
+of 
+backgrounds 
+and 
+perspectives 
+(reviewed recently by Meijer, 2017). The concept 
+is well known from the work of David Bohm, 
+1980, 1987, who coined the term implicate order 
+and Erwin Laszlo, 2007, who introduced the 
+Akashi field concept. The latter author linked his 
+concept with the physics of the zero-point energy 
+field (ZPE) that, as previously mentioned, was 
+later also applied in stochastic electrodynamic 
+models for consciousness by Keppler, 2012; 
+Caligiuri, 2015 and De la Pena,1994. Such an, all 
+pervading, cosmic field can in principle exchange 
+information with the supposed 3-D and 4-D 
+workspaces associated with the brain (see Fig. 4 
+and 8 respectively). An important recent study 
+from Princeton showed that two, and possible 
+more, brains can become interconnected, looking 
+at the brain f-MRI scans of speaker and listener. It 
+was shown that the brain activity patterns of 
+such a communicating couple are clearly 
+correlated in a sort of wave resonance, mirroring, 
+effect (Hasson et al, 2012, Wackerman et al, 2003, 
+Radin, 2004, Richards et al, 2005, Standish et al, 
+2004, Pizzi et al, 2004)). This study also invites 
+further 
+investigation 
+into 
+mechanisms 
+of 
+telepathy and so called synchronicity (Schwartz 
+et al, 2005, Jahn and Dunne, 2004, Grof, 1987, 
+Rousseau, 2011). 
+ 
+-PSI framework. A closely related aspect of a 
+event horizon memory workspace is labeled with 
+the term psi phenomena such as clairvoyance, 
+distant viewing, telepathy, psychokinesis and 
+near death experiences (NDE). The latter aspect 
+is documented in thousands of international 
+reports and nowadays open to scientific inquiry 
+(Lake, 2015; Greyson, 2010; Schwartz et al, 2005, 
+Bókkon et al, 2013). The specific components of 
+this experience, often with a long lasting psychic 
+impact on the recovered patient, include so called 
+out of the body experiences, tunnel visions, and a 
+remarkable clear and holistic state of awareness, 
+verbally reported by the particular patients in 
+retrospect. This is claimed to occur in the absence 
+of the cortical activity that are normally shown in 
+EEG’s during vivid dream states. The typical 
+descriptions of a felt dissociation from the body, 
+in addition to an experienced total life-panorama 
+(Lake, 2015, Greyson, 2010, Schwartz et al, 2005, 
+Pereira and Reddy, 2016), as reported by a part 
+of the NDE cases, may point at the existence of 
+the radiant resonance mind field (Meijer, 2013), 
+
+NeuroQuantology | September 2017 | Volume 15 | Issue 3 | Page 41-79| doi: 10.14704/nq.2017.15.3.1079 
+K.F. Meijer D., Consciousness in the Universe is Scale Invariant and Implies an Event Horizon of the Human Brain... 
+eISSN 1303-5150 
+         
+                                                                             www.neuroquantology.com 
+56
+as considered in the present study. Such a 
+”personal double” (Vitiello, 2001) that can largely 
+influence cognitive brain function, is somehow 
+persisting while other brain functions seem 
+defective. This overall picture may indeed point 
+at a supervening field character that is not 
+directly dependent on normal brain activity and 
+is open to the input of huge amounts of personal 
+information apparently originating from an 
+external data source. In our model such a 
+potential 
+universal 
+knowledge 
+field 
+would 
+involve a fourth spatial dimension (see Fig. 9). 
+ 
+-Non-material mental aspect. The implicit 
+suggestion of a non-material and extra-corporal 
+mental workspace, that supervenes our neural 
+system and provides the dominant part of self-
+consciousness (the big ”I”), that   acts in addition 
+to our daily experienced conscious state (called 
+the small ”I”),  is supported by earlier and also 
+more recent observations in fNMR studies that 
+long term memory is not correlated with scaled 
+sizes of the brain. Savants with normal brain size 
+can 
+demonstrate 
+a 
+huge, 
+disproportional, 
+memory space (entire novels and even contents 
+of telephone books are memorized in detail). 
+Hydrocephalic patients that have only 5% of 
+normal brain volume (micro-cephaly) can show 
+quite normal intelligence and social behavior 
+(Forsdyke, 2014). Other striking examples are 
+patients with a largely destroyed forebrain that 
+maintain a quite normal life (Sasal et al, 2016). 
+Even the known split-brain patients that seem to 
+develop two different types of consciousness in, 
+the isolated, right and left halves of the brain, in 
+fact show this aspect. In addition, split-brain 
+patients with disconnected hemispheres even 
+perform better at some cognitive tests (see Sasai 
+et al, 2016). In more general terms, the aspect of 
+non-material mental aspects of consciousness 
+have been strongly pursued from neurological 
+(Nagel, 2012), bio-physical (Keppler, 2016), 
+philosophical (Kadrup, 2016), quantum-physical 
+(Henry, 2005) and evolutionary viewpoints 
+(Grandpierre, 2014). 
+ 
+-Alternative consciousness states. A recent 
+paper 
+of 
+Tononi 
+(2016), 
+reviewing 
+the 
+integration of information consciousness concept, 
+mentioned an interesting view of Sullivan (1996), 
+that another type of consciousness becomes 
+manifest in meditative states that in fact can be 
+considered as rather information content-less, 
+and could reveal a normally hidden part of 
+consciousness that is normally masked or filtered 
+away by the busy default activity of our brain 
+(see also Jahn and Dunne, 2004; Rousseau, 2011; 
+Martin, 2013 and Schwartz et al, 2005). 
+Disembodied NDE information related to dark 
+energy/matter has been proposed also recently 
+by Gaiseanu, 2017. 
+ 
+-Requirement 
+of 
+rapid 
+photonic 
+brain 
+communication. The ultra-rapid monitoring 
+system that is implied in the brain and is 
+supervened by the supposed field-receptive 
+workspace, is, as mentioned above, unlikely a 
+direct 
+product 
+of 
+the 
+known 
+synaptic 
+transmission 
+and 
+axonal 
+nerve 
+impulse 
+propagation: it rather requires a versatile high 
+speed communication system.  As an example, it 
+has been shown theoretically that the biological 
+brain has the possibility to achieve  quantum bit 
+computing at room temperature, superior when 
+compared with the conventional processors 
+(Musha,2009). Sun et al. (2010) experimentally 
+demonstrated that neurons can conduct photon 
+signals. They suggested that bio-electronic and 
+bio-photonic processes are not independent 
+biological events in the nervous system, and their 
+synergistic action may play a significant role in 
+neural signal transductions. Importantly, Wang et 
+al (2010) presented the first experimental proof 
+of the existence of spontaneous biophoton 
+emission and visible light induced delayed ultra-
+weak photon emission. In their experiments they 
+used in vitro freshly isolated rat’s whole eye, lens, 
+vitreous humor and retina. As a consequence of 
+their 
+findings 
+they 
+proposed 
+that 
+the 
+photochemical source of retinal discrete noise, as 
+well as retinal phosphenes, may originate from 
+natural bioluminescent photons within the eyes 
+(Bokkon,2009, 2013). Thus, a potential candidate 
+is a photon/phonon-instrumented messaging 
+network, that may operate parallel with neuronal 
+transmission apparatus, as described extensively 
+by Dotta et al (2013) and Bókkon et al (2009) and 
+on 
+an 
+electromagnetic 
+basis. 
+The 
+earlier 
+mentioned classical work of Popp (2010) and 
+Fröhlich (1968) on the morphogenetic guiding 
+role 
+of 
+bio-photons 
+and 
+phonon/solitons 
+respectively, in cell systems seem to be 
+compatible with each other (Meijer and Geesink, 
+2016). Rouleau and Dotta (2015) and Muehsam 
+and Ventura (2014) pointed out that, at atomic 
+and sub-atomic scales, biological systems can be 
+influenced by subtle energies and that these 
+enable a higher order discourse that influences 
+the metabolic and electromagnetic output of cells. 
+This system can principally interact with outer 
+
+NeuroQuantology | September 2017 | Volume 15 | Issue 3 | Page 41-79| doi: 10.14704/nq.2017.15.3.1079 
+K.F. Meijer D., Consciousness in the Universe is Scale Invariant and Implies an Event Horizon of the Human Brain... 
+eISSN 1303-5150 
+         
+                                                                             www.neuroquantology.com 
+57
+electromagnetic fields such as the earth magnetic 
+field (Rouleau and Dotta, 2015; Persinger, 2016) 
+and is orders of magnitude more rapid than the 
+neuronal transmission system.  The efficacy of 
+such a non-chemical communication system are 
+fully in line with recent findings on bio-photonic 
+information 
+processing 
+in 
+microtubuli 
+(Mavromatos et al, 2002; Rahnama et al 2010; 
+2012; Bandyopadhyay, 2013; Sahu et al,2013, 
+2014).  
+ 
+-ZPE 
+field/ 
+brain 
+interactions. 
+Dynamic 
+coupling of the brain with ZPE field modes has 
+recently 
+been 
+proposed 
+as 
+a 
+universal 
+mechanism 
+underlying 
+conscious 
+systems, 
+(Keppler, 2016), on the basis of stable attractor 
+dynamics by which the ZPE, in fact, becomes a 
+substrate of consciousness. In this framework the 
+brain, as a resonant oscillator, extracts or rather 
+filters a wide variety of phenomenal nuances 
+from an all  pervasive stochastic radiation field in 
+the form of phase-locked ZPE wave information 
+states, that are supposedly linked with or 
+correspond to conscious states (indicated in Fig. 
+6 and 9). Thus, Keppler envisions discrete long 
+range EM frequencies, that are expressed in brain 
+in the well known gamma and theta oscillations 
+and according to the author are related to 
+coherent oscillations in cell water, resulting in 
+information integration as conceptualized by 
+Tononi et al, 2008, 2015, 2016. ZPE field has 
+traditionally be seen as the domain for quantum 
+fluctuations of pairs of wave/particles and their 
+antipodes (Daywitt, 2009; Setterfield, 2002). Of 
+note, a virtual photon (electromagnetic) part, 
+that, among other effects, is instrumental in the 
+generation of van de Waals forces, and a 
+particle/antiparticle pair part (Dirac Sea) should 
+be distinguished here.  Both originate from the 
+Planck vacuum, composed of dipoles that start to 
+rotate due to interaction with moving charges, by 
+which a magnetic induction field is produced. 
+Thus free charges perturb the vacuum by 
+polarization and exerting a van der Waals 
+attractive force on the Planck particles (Daywitt, 
+2009).  
+Generally, neurologists are hesitant to 
+accept an extra messenger system along with the 
+prevailing related assumptions of the neuron 
+doctrine. Yet in physics the photon is the 
+generally recognized carrier of information 
+between atoms and molecules and (not only for 
+this reason) perfectly fits into the context of a 
+versatile and dynamic brain structure. This is 
+certainly the case if photonic wave information 
+would be protected against de-coherence in the 
+brain environment through the influence of low- 
+frequency phonons, realizing that a dominant 
+aspect of de-coherence is via phonon coupling 
+with the environment and that an acoustical 
+mismatch between the immediate and wider 
+environment of the quantum system could largely 
+prolong coherent states at low frequencies 
+(Davies, 2009; Lambert, 2013). 
+ 
+Creation of matter and bidirectional flow of 
+matter. 
+ 
+Recent 
+studies 
+(Dupays, 
+2013; 
+Wongyun, 2013 and Lamoreaux, 2007) indicate 
+that virtual quantum wave/particles of the field 
+may be converted in real particles in so called 
+compacted spaces/cavities, in which a Casimir 
+effect leads to quantum wave squeezed states 
+that produce various types of elementary and 
+dark particles (Fig. 6). Since ZPE and dark energy 
+fields are present throughout the cosmos they 
+should also influence life systems and human 
+organisms. In our brain tissue compacted 
+spaces/cavities are abundantly present, such as 
+synaptic clefts in addition to micro-tubular, DNA 
+string and membrane compartments (Persinger, 
+2008, 2014, see Fig. 6).  
+               The 
+latter 
+schematic 
+representation 
+illustrates this process and the generated 
+wave/particles involved. Apart from photons and 
+electrons, 
+also 
+mixed 
+states 
+of 
+these 
+wave/particles 
+(Solitons/polarons 
+and 
+polaritons) can be formed by toroidal coupling. 
+Tachyons and Majorana particles that are 
+supposed to travel back in time, may be 
+responsible for supposed backward causation, 
+observed in double split quantum interference 
+experiments by Wheeler (see Meijer, 2015). The 
+phenomenon of backward or retro-causation was 
+also critically discussed by Davies, 2014; Murphy 
+2011; Auletta et al, 2008; Hameroff, 2012; 
+Sheehan, 2011; Torday and Miller, 2016; 
+Tabaczeck, 2015; Campbell and Bickhard; 2010 
+Wolf, 1989, and Shoup, 2011. Retro-causation 
+could play a role in the post-stimulus time delay 
+in conscious detection as established by Libet, 
+1993, that was explained by him through so-
+called back-referral mechanisms (Libet, 1994, 
+1996; Hameroff, 1999). As mentioned before, 
+future states of quantum waves can actually 
+influence 
+past 
+states, 
+was 
+experimentally 
+demonstrated by Aharonov, 2010, in so called 
+soft stimulation experiments, a procedure that 
+prevents wave collapse by usual measurements. 
+ 
+
+NeuroQuantology | September 2017 | Volume 15 | Issue 3 | Page 41-79| doi: 10.14704/nq.2017.15.3.1079 
+K.F. Meijer D., Consciousness in the Universe is Scale Invariant and Implies an Event Horizon of the Human Brain... 
+eISSN 1303-5150 
+         
+                                                                             www.neuroquantology.com 
+58
+ 
+ 
+Figure 6. Interaction of neural structures with the all pervading zero-point energy field. A neuronal synapse is 
+shown, with a synaptic cleft that exhibits compacted space dimensions that enable the spatial conversion of a 
+spectrum of matter/antimatter ZPE virtual particles (Casimir effect, inset right below) to various types of real 
+particles such as neutrino’s, bio-photons, electrons and dark particles. The latter enable extremely rapid 
+photon fluxes in a time reversed mode enabling backward causation. The toroidal background of a quantized 
+4+1-dimensional spacetime (middle below) can integrate repulsive and gravitational forces to 
+electromagnetic energy flux.  
+                           
+ 
+- Integration of Dark energy/matter in brain 
+function. Apart from electromagnetic and ZPE 
+fields, two other major fields should be taken into 
+account: 
+that 
+of 
+gravitation 
+and 
+dark 
+energy/matter. The latter supposed cosmic anti-
+gravity force, that together with gravity, is 
+assumed to pervade cosmic space at all fractal 
+levels, including human life. Gravity (an attractive 
+or 
+conversing 
+force) 
+can, 
+apart 
+from 
+consciousness, be regarded as a phenomenon 
+that we are implicitly aware of throughout our 
+life. It’s counterpart dark energy (repulsive or 
+diversing force) may not only drive expansion of 
+our universe, but also at the human level may 
+exert an entropic force that produces physical 
+information. Both forces have been linked to 
+perturbations of the zero-point energy field 
+(Green and Levin, 2007). As treated above, 
+gravity 
+has 
+been 
+conceptualized 
+as 
+a 
+compensatory 
+entropic 
+reaction 
+to 
+the 
+displacement 
+of 
+holographically 
+stored 
+information, a phenomenon that accompanies the 
+related movement of material objects in the 
+universe (Verlinde, 2011, 2016, Jacobson, 1995, 
+and Padmanhadan, 2oo8).  Recently, Verlinde, 
+2016, suggested that the cosmic dark matter may 
+reflect a type of information displacement that 
+does not only occur in the related holographic 
+information screen, but also in the bulk of 
+spacetime (Verlinde, 2016). McCoss, 2017, on the 
+basis of entropic gravity  recently proposed that 
+the 
+universe 
+exhibits 
+nested 
+small-world 
+networks at all of its scales and that intelligent 
+life (agency of life) is instrumental in producing 
+neg-entropic entangled information that is 
+wrongly attributed to dark matter. Interestingly, 
+Brian Green (see Green and Levin, 2007) made 
+clear that dark energy, apart from sustaining the 
+known three large dimensions, may be involved 
+in the stabilization of the potential of multiple 
+
+NeuroQuantology | September 2017 | Volume 15 | Issue 3 | Page 41-79| doi: 10.14704/nq.2017.15.3.1079 
+K.F. Meijer D., Consciousness in the Universe is Scale Invariant and Implies an Event Horizon of the Human Brain... 
+eISSN 1303-5150 
+         
+                                                                             www.neuroquantology.com 
+59
+compacted dimensions, that according to these 
+authors, have a toroidal character and that these 
+hidden space-time structures may provide a link 
+between topological and geometric properties. 
+This supports our idea of an information 
+integrating 
+torus/twistor 
+geometry 
+as 
+a 
+fundamental building block of space-time at all 
+levels of reality, by some called small-world 
+networks.   
+Some authors have suggested that dark 
+energy/matter plays a crucial role in cognitive 
+and conscious states in the brain. Benjamin 
+(2003, 2007) argued that in living matter three 
+different axions (supposed candidate for dark 
+matter) exist parallel to electron, proton and 
+neutron, respectively. Pitkanen, 2010 suggested 
+that axions can form condensates that can 
+transmit information to any other wave/particle 
+and make them suitable as pilot waves in the 
+Bohmian sense (Bohm, 1980, 1987, 1993). It is 
+thus possible that the entire visible body, is 
+permeated by an invisible body of dark 
+matter/energy, that contributes to creation of 
+(self)-consciousness, as a product of mutually 
+recognizing resonant structures in brain and 
+associated fields. Kozlowska and Kozlowski, 
+2016, calculated the energies of heavy photons 
+and neutrino’s as candidates for dark matter and 
+concluded that these are located in a 4-D timeless 
+space-time, being in interaction with the human 
+brain. In addition, ring dark solitons in toroidal 
+Bose-Einstein condensates have been discussed 
+by Toikka et al, 2013.  
+ 
+-Information conservation in NDE in Life 
+panorama’s. As mentioned above, some NDE 
+patients experience and report a panoramic and 
+holistic overview of their entire life in stunning 
+detail, and some reported the meeting with 
+persons that died earlier, of which it was 
+validated that the particular patient could not 
+have obtained any information on their prior 
+death (Greyson, 2010). All this occurs in the 
+absence of cortical brain activity, as measured by 
+EEG, putting the question: where did all this 
+information come from? (Lake, 2015; Greyson, 
+2010, Pereira and Reddy, 2016; Bókkonet al, 
+2013). A striking example of NDE experiences 
+was reported by Ring and Cooper (1997), 
+investigating the NDE reports of 30 individuals 
+that were completely blind from birth and thus 
+could not build up a normal visual memory. They 
+verbally described their NDE in vivid and 
+transparent visual terms that matched such 
+experiences of NDE cases with normal sight. The 
+presently hypothesized field receptive workspace 
+may function here as the connecting information 
+matrix 
+between 
+the 
+photon/phonon/soliton 
+communication system in the brain, and the 
+assumed universal consciousness field, that 
+thereby enables the sensing of subliminal 
+information and also may explain mental 
+capabilities and trans-personal experiences such 
+as NDE.  
+The present authors stipulate that NDE 
+experiences in themselves do not provide a real 
+proof for life after death. Yet, some speculate that 
+an extra-corporal resonant personal workspace 
+may contain information that, after decoupling 
+from the dying brain, is preserved after bodily 
+death. This may be due to known principles in 
+quantum physics, that information cannot be 
+destroyed. Readers interested in this type of 
+issues should read the scientifically objective 
+book of Braude, 2003, on “Immortal Remains” or 
+study a special issue on this topic of the Journal of 
+Consciousness Exploration & Research with 
+papers of Pregnolato and Pereira, 2016, Kastrup, 
+2016 and Pereira and Reddy, 2016, among many 
+others. In the latter publications a cell-soul 
+pathway 
+is 
+proposed 
+on 
+the 
+basis 
+of 
+electromagnetic radiation properties. Hardy, 
+2016 takes a space-time approach by positioning 
+individual consciousness and the Self in a hyper-
+dimension in which death is the just the severing 
+of the link between this domain and the 
+brain/body, 
+leading 
+to 
+an 
+independent 
+holographic semantic field on a personal basis. 
+The latter resembles the proposal of Irwin, 2014, 
+seeing consciousness as a quantized space-time 
+language that can be described by quasicrystal 
+mathematics of the E8 geometry. It was also 
+suggested that that self-consciousness could 
+continue outside the body, but remains at the 
+level of Planck-scale geometry, as related to 
+generation of biophotons in which visual 
+imageries are coupled to long term visual 
+memory an NDE seems driven by visual 
+processes (Bókkon et al, 2013).  
+ 
+7. The concept of field-receptive, resonant, 
+memory workspace: the event horizons of the 
+brain 
+ 
+-Supervening toroidal mental workspace. 
+From the abovementioned phenomena it is 
+obvious that a “final theory” in physics in the 
+future, should describe both the material and 
+mental aspects of reality and consequently must 
+integrate a testable model of consciousness and 
+
+NeuroQuantology | September 2017 | Volume 15 | Issue 3 | Page 41-79| doi: 10.14704/nq.2017.15.3.1079 
+K.F. Meijer D., Consciousness in the Universe is Scale Invariant and Implies an Event Horizon of the Human Brain... 
+eISSN 1303-5150 
+         
+                                                                             www.neuroquantology.com 
+60
+self-consciousness. Such a comprehensive model 
+of the whole should also be based on a 
+mathematical and geometric framework and be 
+compatible with a completed theory of quantum 
+mechanics as well as an integrated description of 
+the cosmos at the micro- and macro scale. The 
+hypothesis that toroidal information flux is a 
+fundamental aspect of our universe from macro- 
+to micro scales and that gravitational integration 
+and compression leads to a universal memory 
+space 
+of 
+which 
+individual 
+human 
+self-
+consciousness is a discrete part, should be 
+further investigated (see for more information on 
+this aspect Haramein et al, 2016).  
+ 
+           We hypothesize here that the human brain 
+is supervened by a 4-D field-receptive resonant 
+workspace containing nested 2-D holographic 
+information 
+screens 
+(event 
+horizons), 
+and 
+thereby is able to simulate 3-D representations of 
+the personal functional state in the brain. This 
+dynamic knowledge field is hypothesized to 
+function as a general reference source that 
+entertains a bidirectional information flow with 
+the entire organism (see Fig. 4 and 9). It should 
+also be defined as an internal model of the self, 
+that is instrumental in quality control and 
+function as a “back-up system” for the whole 
+organism. The present hypothesis, may for some 
+imply that a part of our memory is external 
+(extra-corporal and non-material), but it should 
+be realized that we situate this workspace in an 
+extra (fourth) spatial dimension, that is not 
+visible for humans, so that differentiation 
+between corporal and extra-corporal is trivial. As 
+mentioned above, we consider our concept to be 
+compatible with present neurological and trans-
+personal observations such as brain to brain 
+connection 
+as 
+recently 
+experimentally 
+demonstrated by Hasson et al, 2013, Wackerman 
+et al, 2003, Radin, 2004, Richards et al, 2005, 
+Standish et al, 2004, Pizzi et al, 2004), and the life 
+panorama’s reported in stunning detail by the 
+many registered near death cases. 
+ 
+-Quantum coherence mediated brain function. 
+It was earlier debated if quantum wave 
+information in the brain can really become 
+expressed, taking into account the supposed 
+extremely short coherence times. That is, if there 
+is no efficient shielding from the environment 
+(see discussion on this topic in Hameroff and 
+Penrose, 2013, Hagan et al, 2002). Yet, Sahu et al, 
+2013 a b, 2014, clearly demonstrated quantum a 
+spectrum of coherent vibration bands in isolated 
+micro-tubuli, and suggested this phenomenon as 
+the very basis for information processing in 
+neuronal systems.  
+             Interestingly, 
+it 
+was 
+more 
+recently 
+indicated that coherent quantum processing in 
+the brain can be realized in an additional manner, 
+since singlet state phosphorus spin states are 
+remarkably resistant to de-coherence even in the 
+wet and warm conditions (Fisher, 2015, see Fig. 
+7). 
+Enzymatic 
+hydrolysis 
+of 
+extracellular 
+pyrophosphate, in which phosphorus atoms can 
+be in a quantum entangled singlet state (*P), 
+results in quantum entangled phosphates at 
+distant sites in the brain. This occurs since the 
+entangled phosphates are incorporated into, so 
+called, quantum entangled Posner-molecules, 
+complexed with multiple Ca2+ ions. Two pairs of 
+such Posner molecules can undergo binding 
+reactions to form quantum entangled Posner-
+dimers. Transport of entangled Posner-molecules 
+from the extracellular spaces into glutaminergic 
+neurons can subsequently be mediated by 
+endocytosis into presynaptic vesicles and action 
+of vesicular glutamate transporter (VGLUT). 
+When entangled Posner-molecules in different 
+neurons 
+undergo 
+binding 
+reactions 
+and 
+hydrolysis, this can lead to massive release of 
+calcium within the neuron, mediating glutamate 
+release from pre-synaptic neurons and thus to 
+non-local quantum correlations in postsynaptic 
+firing (Weingarten et al, 2016). 
+ 
+-The role of information transfer in extra-
+neuronal matrix in in brain. In order to define 
+alternative 
+mechanisms 
+for 
+intercellular 
+communication, a number of studies focused on 
+the prominent role of Ca2+ waves in the 
+astroglial space (Marcoli et al, 2015, Pereira, 
+2017), that can now be detected by two-photon 
+microscopy. In this respect the potential relation 
+with ultra-rapid communication routes in the 
+brain via myelinated axons of white matter, that 
+act through guiding of bio-photons or polarons 
+(solitons) and polaritons, was propoped (Kumar 
+et al, 2016; Matsuura and Wasaki, 2014: 
+Lanzalaco, 2012, 2015a, 2015b). White matter, 
+representing at least 45% of the humam brain, 
+contains millions of communication cables that 
+deserve much more interest in this respect 
+(Fields, 2008) and also in relation to connection 
+of the cerebral hemispheres and magneto-
+reception.
+ 
+
+NeuroQuantology | September 2017 | Volume 15 | Issue 3 | Page 41-79| doi: 10.14704/nq.2017.15.3.1079 
+K.F. Meijer D., Consciousness in the Universe is Scale Invariant and Implies an Event Horizon of the Human Brain... 
+eISSN 1303-5150 
+         
+                                                                             www.neuroquantology.com 
+61
+Figure 7.  Quantum coherence in the human brain: quantum entangled phosphate groups (C) exhibit nuclear spin 
+that is remarkably resistant towards decoherence in wet and warm tissue of the brain. Ca- pyrophosphate complexes 
+(A) in extracellular space are endocytosed by neuronal transporters by which entangled spin information is 
+distributed throughout the brain (B). After uptake in neuronal space and breakdown of the complexes, massive 
+release of Ca2+is generated, that in its turn affects neuronal glutamate information processing in a non-local 
+entangled modality.   
+ 
+Magnetic fields have been shown to easily pass 
+skin, skull and brain tissue (Murphy and 
+Persinger, 2011, Nummenmaa et al, 2013, 
+Bonmassar et al 2012, Babbs, 2014) and this have 
+been related to a toroidal computing process of 
+neural oscillations and Ca2+ pulsing, in which all 
+collaborative effort of glia cells also plays a role 
+(see also Pereira and Furlan, 2007; Pereira, 
+2017). These aspects highlight the rising interest 
+for electromagnetic correlates in consciousness 
+studies (Liboff, 2017; Prakash et al 2008), in 
+which, among other mechanisms magnetic 
+activation of slow acting voltage-gated Ca2+ 
+channels could play a prominent role (Bonmassar 
+et al, 2012). Interestingly mitochondria in general 
+could play a significant role in propagation of EM 
+field propagation (Thar and Kuhl, 2004).              
+ 
+-Photon/phonon/soliton-mediated 
+communication. 
+Photons 
+are 
+intrinsically 
+quantum objects and, by their nature, long-
+distance carriers of information. Annila, 2016, 
+stressed 
+their 
+importance 
+in 
+relation 
+to 
+consciousness. Indeed, properties of a molecule 
+cannot be inferred from properties of its 
+constituent atoms alone, since they also rely on 
+photons that couple them to their surroundings. 
+With 
+regard 
+to 
+the 
+proposed 
+ultra-rapid 
+photon/phonon mediated communication, the 
+present model is in line with the recent findings 
+of Bókkon, 2009, Dotta, 2013 and Persinger, 
+2015. Both the particular 4D-mental holograpic 
+domain and the supposed universal consciousness 
+field (defined as implicate order by David Bohm, 
+1980, 1987) and more recently as a ZPE 
+stochastic electro-dynamic field by Laszlo, 2007, 
+Keppler, 2016 and Caligiuri, 2015) should be 
+seen as crucial “steering” modalities that 
+mutually communicate with the whole nervous 
+system of the organism, including its neuronal 
+networks with their conscious and non-conscious 
+aspects. Bidirectional communication between 
+the mind and such an extended mental 
+workspace (formed by multiple event horizons) 
+is proposed to occur by toroidal integration of the 
+abovementioned information spectrum in both 
+the physical and mental domains. Mutual 
+communication is seen as being instrumented by 
+
+NeuroQuantology | September 2017 | Volume 15 | Issue 3 | Page 41-79| doi: 10.14704/nq.2017.15.3.1079 
+K.F. Meijer D., Consciousness in the Universe is Scale Invariant and Implies an Event Horizon of the Human Brain... 
+eISSN 1303-5150 
+         
+                                                                             www.neuroquantology.com 
+62
+magnetic 
+flux 
+and 
+photon/phonon/soliton 
+mediated 
+wave 
+resonance 
+and/or 
+phase 
+conjugation. This process operates between this 
+mental 
+workspace 
+and 
+the 
+associated 
+neuronal/cavity landscape of the material brain 
+(see Fig. 6). It is of considerable interest that 
+individual neurons and connectomes of neural 
+tissue in Alzheimer models, that exhibit memory 
+loss in the hippocampus area, can be reactivated 
+by photonic pulses to corresponding cortical 
+cells, using the technique of optogenetics. This 
+results in restoration of the retrieval of the 
+particular lost information from the engram cells, 
+likely due to formation of new dendritic 
+connections and related protein synthesis, 
+possibly via light sensitive proteins called 
+channelrhodopsins (Tonegawa et al, 2015). This 
+procedure could mimmick the supposed photonic 
+communication from the 4-D mental workpace as 
+proposed in the present paper.   
+ 
+-Binding of brain centers and external forces. 
+The present model may offer a potential solution 
+for the so called binding of distant nuclei within 
+the brain as well as for the interaction with 
+environment in which our organism functions. 
+This, by realizing that all the physical forces in 
+nature are implicitly operating, not only within 
+our 
+skull, 
+but 
+also 
+undergo 
+continuous 
+(bidirectional) interaction with force fields 
+(electromagnetic, zero-point energy, gravity, dark 
+energy, see Fig. 9). Of note, these essential 
+processes may have been manifest from the start 
+of biological evolution. 
+ 
+ 
+Figure 8. Field receptive, event horizon model of consciousness, depicted in various representations: 
+Main picture: postulated double-toroidal field integrating the 4D- hypersphere workspace with the event 
+horizon surface, projecting the integral individual information as an internal model of the self. Note that 
+the 4-D hypersphere is pictured within the skull, but that it can exhibit an extended localization, 
+surrounding the brain or even the whole organism (see also Fig. 9), due to fractal properties and can also 
+be positioned at a micro-scale at or within the brain cells or extracellular space. Embedding of the 3-D 
+toroidal domain of the brain within a 4-D hypersphere is therefore multidimensional and fractal at 
+various levels of organization. Symmetry breaking occurs from the 4-D hypersphere to the 3-D internal 
+brain torus, of which the traces can be detected by series of f-MRI scans of the brain as antipodal activity 
+domains in the brain tissue (inset middle below). Insets at the right A: Supposed broadcasting centers in 
+brain that may explain binding and global synchrony, according to Baars B: Fractal organization of 
+information scales in the extended brain. C: Hemi-spherical anatomy of the brain resembling a toroidal 
+geometry. 
+ 
+
+NeuroQuantology | September 2017 | Volume 15 | Issue 3 | Page 41-79| doi: 10.14704/nq.2017.15.3.1079 
+K.F. Meijer D., Consciousness in the Universe is Scale Invariant and Implies an Event Horizon of the Human Brain... 
+eISSN 1303-5150 
+         
+                                                                             www.neuroquantology.com 
+63
+The toroidal coupling and final integration of 
+these forces generates an integral information 
+platform (to be seen as a back-up model of the 
+self), that by definition enables both the internal 
+and external global binding of the whole neural 
+system. According to Ranama et al, 2010, stated: 
+“It is not possible for a scalp EEG to determine 
+the activity within a single dendrite or neuron.  
+Rather, a surface EEG reading, is the 
+summation of the synchronous activity of 
+thousands of neurons that have similar spatial 
+orientation, 
+radial 
+to 
+the 
+scalp. 
+Synaptic 
+transmission and axonal transfer of nerve 
+impulses are too slow to organize coordinated 
+activity in large areas of the central nervous 
+system, as mentioned before. 
+Sancristobal et al, 2014, suggested that 
+neural gamma oscillations frequency locking is 
+instrumental 
+in 
+the 
+efficient 
+routing 
+of 
+information between two cortical areas, but only 
+if there is a precise and active control of the 
+particular coherent frequencies. Therefore, a 
+dedicated, 
+field 
+receptive, 
+workspace, 
+holographically associated with the human brain 
+seems a prerequisite for such fine tuning. It may 
+act as a fractal series of information storing 
+“event horizons” (Fig. 9 b) and is permanently 
+linked with the brain as an integrating toroidal 
+structure with a nested character, (internal 3D- 
+brain torus within a more extended 4D- torus, see 
+Fig. 9).  
+ 
+-4-Dimensional (hypersphere) aspect of the 
+brain model. A 4-sphere is set of points on the 
+surface of what is known as a hypersphere. The 
+prefix “hyper” refers to 4- (and higher-) 
+dimensional 
+analogues 
+of 
+3D 
+spheres. 
+In 
+mathematical terms, a 4-sphere, also called glome 
+or generically hypersphere, a glome can be built 
+by superimposing two 3-spheres whose opposite 
+edges are abstractly glued together: obtaining a 
+topological structure, the Clifford torus. A Clifford 
+torus is a special kind of torus (donut shape) that 
+is a minimal surface which sits inside a glome and 
+is equipped with intricate rotations, called 
+quaternionic 
+movements 
+(Fig. 
+1). 
+The 
+hypersphere, requiring four dimensions for its 
+definition just as an ordinary sphere requires 
+three, is not detectable in the usual spatial 3-
+dimensions and is thus challenging to assess. Fig. 
+1 shows the possible ways to cope with a 3D 
+visualization of a glome. In the paper of Tozzi and 
+Peters, 2015, it was  hypothesized that brain 
+activity is shaped in guise of an hypersphere 
+which performs 4D movements on the cortical 
+layers, giving rise to a functional Clifford torus 
+where mental operations take place (see Fig. 8). 
+Experimental 
+analysis 
+of 
+fMRI 
+scans 
+and 
+theoretical clues lead the authors to conjecture 
+that the resting brain activities of the brain 
+connectome (a sort of default network, Sporns et 
+al, 2013) may be embedded in a torus lying on 
+the surface of a hypersphere (see section 6).  
+Our hypothesis, of a field receptive 
+toroidal workspace, is fully in line with these 
+recent proposals for toroidal models in the 
+functioning of specific brain cells, neuronal 
+networks, functional parts of the brain as well as 
+the whole brain (Tozzi and Peters, 2015; Knierim 
+and Zhang, 2012). For example, it has been 
+hypothesized that hippocampal “place cells” 
+create 
+donut-like 
+topological 
+templates 
+to 
+represent spatial information. In particular, the 
+findings of Tozzi and Peters, 2016, suggest that 
+nervous structures process information through 
+topological as well as spatial mechanisms. These 
+authors modeled the brain by embedding it in the 
+4-D space of a Clifford torus and by analyzing f-
+MRI and EEG scans of cortical surfaces in time, 
+consistently identified antipodal points or shapes, 
+interpreted as traces or shadows of the 
+symmetric information located in the supposed 
+4-D hypersphere (see section 5 and Fig. 8). By 
+analyzing the fMRI and EEG patterns of 14 
+different 
+patient 
+studies, 
+they 
+observed 
+reproducible topography and signal propagation 
+throughout a subsets of regions that are shared 
+across 
+multiple 
+trajectories. 
+The 
+spherical 
+structure displays a double torus shape, i.e., the 
+trajectory followed by a particle inside the torus 
+is closed. Each energy/information movement on 
+the torus leaves traces on its surface that 
+collectively build up its event horizon.  
+The presence of a glome or hypersphere 
+can be detected invoking the Borsuk-Ulam 
+Theorem 
+(BUT), 
+which 
+states 
+that 
+every 
+continuous map from a hypersphere to a 3D 
+Euclidean space must identify a pair of antipodal 
+points (i.e., points directly opposite each other) 
+(Fig. 8, middle below). This leads naturally to the 
+possibility of a region based, instead of a point-
+based, geometry, in which collections of signals 
+are observed as surface shapes, in which one 
+shape maps to another antipodal one. The 4-D 
+informative projections to 3-D spacetime is 
+supposed to occur by symmetry breaking into 
+single activities (see Fig. 8). Our human time 
+perception, for example results from a symmetric 
+structure in 4-D that contains aspects of past ànd 
+future. 
+In 
+the 
+proposition 
+of 
+this  
+
+NeuroQuantology | September 2017 | Volume 15 | Issue 3 | Page 41-79| doi: 10.14704/nq.2017.15.3.1079 
+K.F. Meijer D., Consciousness in the Universe is Scale Invariant and Implies an Event Horizon of the Human Brain... 
+eISSN 1303-5150 
+         
+                                                                             www.neuroquantology.com 
+64
+hyperspace/toroidal model (Tozzi et al, 2017) 
+the brain is totally embedded in such a 4D 
+hypersphere, that enables the instantaneous 
+global connection between different parts of the 
+brain connectome. The authors suggest that this 
+may also help to solve longstanding questions 
+concerning our psychological activities such as 
+mind-wandering 
+and 
+memory 
+retrieval. 
+In 
+particular it represents the ability to connect 
+past, present and future events, in a single, 
+coherent, toroidal screen, glued together in a sort 
+of mental kaleidoscope. Interestingly, the authors 
+see the model of the brain hypersphere as a 
+fourth spatial brain dimension, where mental 
+operations take place both in physiological and 
+pathological 
+conditions. 
+The 
+connectivity 
+patterns observed in the resting brain might 
+constitute 
+a 
+“signature 
+of 
+consciousness”, 
+reflecting 
+a 
+stream 
+of 
+ongoing 
+cognitive 
+processes.  
+It 
+has 
+also 
+been 
+proposed 
+that 
+spontaneous activity is highly variable among 
+individuals, depending on local brain differences, 
+somato-sensory awareness, age span, race, 
+culture and so on. In this framework it has been 
+proposed that features of a brain signal with 
+spectral peaks in preferred bands (alpha, beta, 
+gamma, delta and so on), see also Plikynas, 2015, 
+and provide a basis for feature vectors in a 4D 
+Euclidean space. In one torus type of mechanism, 
+the periodically repeating pattern of so called 
+grid cells in the brain have been related to a 
+supposed toroidal architecture of the attractors 
+(Mc Naughton et al., 2006). The ultimate test for 
+this model would be direct measurement of the 
+synaptic-connection patterns in the brain and 
+connected glands, which may reveal toroidal 
+patterns in the particular fractal brain regions. 
+It is of interest that Tozzi and Peters, 
+2016b, gave their work a much broader context 
+by applying their hyperspace toroidal model and 
+the Borsuk-Ulam theorem to a cosmological 
+interpretation of evolution of our universe, in 
+which the start of the universe is envisioned as a 
+loss of dimensions from a multi-dimensional 
+symmetric manifold, picturing a pre-big bang 
+scenario. Merali, 2008, earlier commented on the 
+doughnut-shaped universe concept (Aurich et al, 
+2008, see Fig. 1). The striking similarity with the 
+3-D brain as a “personal universe”, supervened 
+from a 4D- toroidal hyperspace domain, again 
+points to a scale invariant symmetry breaking as 
+a dominant feature of reality. In this respect it 
+was put forward earlier that a hyperspherical 
+universe, in which the present universe is nested 
+in surrounding a toroidal hypersphere, can 
+directly be derived from Einstein’s relativity 
+theory on the basis of a re-interpretation of the 
+Klein-Gordon equation, as performed by the 
+famous Italian mathematician Fantappié (see 
+Galloni, 2012, Chiatti, 2007). 
+ 
+8. Comparison with other current models for 
+consciousness  
+In which aspects does our model differ from or 
+resembles to earlier proposed concepts on 
+consciousness 
+and 
+it’s 
+supposed 
+neural 
+correlates?  
+ 
+-Global workspace models. These models are 
+often inspired by the “Global workspace theory” 
+of Baars et al, 2013, Dehaene, et al, 2003. Table 3, 
+left column). The various postulated concepts 
+cannot not be treated in detail here, (see Seth, 
+2007, for a short but adequate review). 
+Interestingly, many of these models are based on 
+an internal self-model in the framework of a 
+supposed global workspace. In the latter models 
+the unresolved problem of instantaneous binding 
+of distant brain nuclei, in relation to our integral 
+observation and sensing of our world is 
+approached by assuming multiple ”broadcasting” 
+hot spots in the neural networks of the brain that 
+according to the authors may communicate via 
+resonance of standing waves, phase coupling or 
+even spiral vortices (see Fig. 8 A). Some even 
+consider 
+the 
+integrating 
+activity 
+of 
+this 
+broadcasting of information as the very process 
+of realization of consciousness (Baars et al 2013; 
+Tononi, 2008, 2014, 2016; Dehaene, et al 2003), 
+in which consciousness is just brain-wide sharing 
+of information, that is, in the global workspace.  
+However some aspects remain to be established:  
+what is the physical mechanism behind this 
+supposed 
+“broadcasting” 
+phenomenon 
+(electromagnetic, holographic, or photonic see 
+Fig. 8 A). In what form is the particular 
+information send and also how is the received 
+information in the cortex integrated to conscious 
+moments with meaning? We propose that such a 
+complex phenomenon requires an internal, 
+information integrating, workspace, in which the 
+broadcasted information can be put into the 
+context of the entire memory space of the 
+organism. It may also function as a workspace 
+that is instrumental in top-down predictive-
+coding, in generating representations of past and 
+potential future events. Thereby it may stabilize 
+sensory input in an attempt to minimize error-
+prediction of free energy, as proposed for a 
+
+NeuroQuantology | September 2017 | Volume 15 | Issue 3 | Page 41-79| doi: 10.14704/nq.2017.15.3.1079 
+K.F. Meijer D., Consciousness in the Universe is Scale Invariant and Implies an Event Horizon of the Human Brain... 
+eISSN 1303-5150 
+         
+                                                                             www.neuroquantology.com 
+65
+default-mode 
+network 
+of 
+the 
+hierarchic 
+organized and wave- interference apparatus of 
+the brain (Carhart-Harris and Friston, 2010; 
+Sengupta et al, 2013), that is build up during life. 
+Yet, our model differs from the supposed default-
+mode system since it is placed in a 4-D setting 
+instead of a 3-D brain neuronal network. Of note, 
+as an alternative for discrete brain networks, a 
+system of cortico-thalamic eigenmodes was 
+proposed by Robinson et al, 2016, which is in line 
+with the toroidal electromagnetic eigenvalues, 
+identified by us (Meijer and Geesink, 2017). 
+ 
+-Relation with connectome and default brain 
+networks. The natural candidate for such a 
+toroidal information flux domain in the brain is 
+the spatially embedded network of the so called 
+human connectome: a non-stationary, highly 
+dynamical structure in the brain, characterized 
+by complex topological geometry (Sporns et al, 
+2013; Carhart-Harris and Friston, 2010). Various 
+additional models have been proposed earlier to 
+deal with the spatial and temporal integration of 
+network activities in the brain (for a short 
+overview see Bressler, 2008 and Wikipedia on 
+Binding problem). It is generally assumed that a 
+default network that operates spontaneously in 
+resting 
+conditions 
+(mind 
+wandering, 
+introspection, monitoring of the mental self, 
+integration of cognitive processes) as a modality 
+of inner awareness and competes with an 
+external awareness network that operates during 
+goal-directed 
+behavior 
+related 
+to 
+external 
+sensory input (Heine et al, 2012, Bekovich-Ohana 
+and Glicksohn, 2014). It is unknown how a 
+functional equilibrium between these two anti-
+correlated systems is executed, but it stands to 
+reason that this should be mediated by a 
+supervening network that contains an updated 
+and 
+integral 
+overview 
+of 
+our 
+total 
+memory/images of past and future events, 
+coupled to personal worldview. Only this may 
+enable 
+top-down 
+predictive 
+coding 
+and 
+contrastive analysis on the basis of both 
+conscious and unconscious states.  
+- A meta-cognitive form of consciousness will 
+contain a graded modality of hierarchically 
+referential ordered and bodily determined 
+working structure that is essential for fully 
+coordinated action, and was earlier called 
+“individuated information utilized in action” 
+(Jonkisz, 2015). Interestingly, such a conscious 
+state space (Bekovich-Ohana and Glicksohn, 
+2014, Brandenburg et al 2016), was modeled by a 
+geometry of two concentric spheres (not unlike 
+our 
+torus 
+model), 
+representing 
+a 
+phenomenological space with three dimensions: 
+time, awareness and emotion. As mentioned 
+above, we tentatively add to this configuration a 
+toroidal fourth dimension of self-consciousness 
+in 
+continuous 
+contact 
+with 
+an 
+extended 
+consciousness or awareness continuum that is 
+defined by us and many others as universal 
+consciousness. The latter aspect rejects the usual 
+framing of a mental workspace as a dualistic 
+concept, since we envision our proposal of the 
+extended brain as being derived from universal 
+consciousness, as the very source of all that exists 
+(see Goswami, 1990). A similar discussion was 
+raised 
+in 
+relation 
+to 
+the 
+very 
+elegant 
+consciousness model of Fingelkurz et al, 2010, 
+2014, called nested operational architectonics of 
+the brain.  In this model it was postulated that an 
+electromagnetic brain field (see also Kida et al, 
+2016, for a fractal representation) connects a 
+mind-subjective space-time to a distant physical 
+space-time.  
+ 
+-Multi-dimensional models. Our model is, at 
+least to some extent, related to earlier proposed 
+quantum/spacetime models of Pribram, 2004 
+and Mitschell and Staretz, 2011 (the holonomic 
+brain), as well as the electromagnetic brain 
+theories of McFadden, 2007 and Pockett, 2012.  
+It also bears some resemblance to the 
+orchestrated objective quantum reduction model 
+of Hameroff and Penrose, 2014, the TGD universe 
+framework of Pitkänen, 2016, and relates to the 
+so called dissipative information brain model of 
+Vitiello et al., 2001, (see table 1, right column), as 
+previously reviewed by Meijer and Raggett, 2014. 
+Implicitly, a major difference with the 
+abovementioned models is, that it is not solely 
+related to the known neuronal/astroglial based 
+central neural-system, but in addition proposes 
+an associated mental workspace in a 4D context 
+(see also Beichler, 2012 a,b,c; Carter, 2014). This 
+workspace mirrors our total of experiences and is 
+sensitive to relevant information derived from 
+various force fields of nature such as geo-
+magnetism, gravity, zero point and dark energy. 
+We presume, as stated before, that it also 
+contains an even larger connecting modality in 
+the sense of a universal consciousness, as it is 
+inferred by us (Meijer, 2017, in preparation). In 
+this sense, our model supports that of Haramein, 
+2007 and 2016 (dual toroidal geometry in 
+physics and cosmology), as well as the model of 
+Hameroff and Penrose, 2014. 
+ 
+
+NeuroQuantology | September 2017 | Volume 15 | Issue 3 | Page 41-79| doi: 10.14704/nq.2017.15.3.1079 
+K.F. Meijer D., Consciousness in the Universe is Scale Invariant and Implies an Event Horizon of the Human Brain... 
+eISSN 1303-5150 
+         
+                                                                             www.neuroquantology.com 
+66
+ 
+ 
+Table 3: Current neurological and neural-correlate models (left) and quantum/spacetime models (right). 
+References to the neuro-correlate models can be found in Seth, 2007, and for Quantum models see Meijer and 
+Raggett, 2014 and references of the present paper. 
+ 
+ 
+                            
+The latter addressed quantum gravity mediated 
+communication with information on the Planck 
+scale. The holonomic models mentioned in table 
+1 of Pribram, 2004, Mitchell and Staretz, 2011, 
+and 
+Amoroso 
+and 
+DiBiase, 
+1999, 
+largely 
+stimulated our concept. 
+ 
+9. Final considerations 
+In the present paper we present the concept of a 
+non-material, field-receptive, resonant, mental 
+workspace, that is part of a universal mechanism 
+of rotational information flow that operates scale 
+invariant at all levels of the fabric of reality 
+ 
+We shortly summarize its backgrounds here: 
+-The extremely rapid functional binding of 
+cortical structures that have been demonstrated 
+requires 
+a 
+non-local, 
+field-like, 
+connective 
+mechanism and cannot be explained by relatively 
+slow neural transmission mechanisms 
+-Multiple external fields to which our brain is 
+exposed and that may influence its function, 
+require an orchestrated receptive apparatus 
+having both wave receiving and transmitting 
+properties. Receptive here thus has a double 
+meaning: that of receipt and recipe. 
+- The toroidal coupling and integration of very 
+different wave energies can produce strong 
+attractor/standing waves that are powerful 
+enough to induce coherent resonance patterns 
+with cortical brain structures known to be 
+correlated with conscious states 
+- The proposed mental workspace is regarded to 
+be non-material, but in relation to the individual 
+brain, entertains a non-dual wave/particle 
+relation 
+according 
+to 
+quantum 
+physical 
+principles: it is directly dependent on the brain 
+physiology but not reducible to it 
+- The bidirectional flow of information between 
+internal and external electromagnetic fields 
+enables to build up a personal mental model that 
+is instrumental in simulations of actualized 
+representations of the individual status as a basis 
+for quality control of the whole organism 
+- The proposed mental workspace collects the 
+complete experiential spectrum of information of 
+an individual, within a system of nested event 
+horizons as part of a 4-dimensional toroidal 
+hyperspace that enables continuous updating and  
+
+NeuroQuantology | September 2017 | Volume 15 | Issue 3 | Page 41-79| doi: 10.14704/nq.2017.15.3.1079 
+K.F. Meijer D., Consciousness in the Universe is Scale Invariant and Implies an Event Horizon of the Human Brain... 
+eISSN 1303-5150 
+         
+                                                                             www.neuroquantology.com 
+67
+ 
+ 
+Figure 9. Modeling of brain/ mind relation in a 4+1-dimensional space-time framework (4+1 implies 4 spatial 
+dimensions and one single dimension of time, on the basis of energy trajectories in a nested toroidal geometry. 
+The opposing forces of Dark energy (diverging force) and Gravity (converging force) as well as discrete wave 
+frequencies of electromagnetic fields, are instrumental in the generation and compression of individual life 
+information. The human brain may receive quantum wave information directly derived from the Planck space-
+time level (left above) through quantum gravity mediated wave reduction, as well as through resonance with 
+the ZPE field (right above). Our brain can perceive only 3+1 dimensions with a one-directional arrow of time. 
+The material brain and its 4+1-D supervening field-receptive mental workspace should be seen as an integral 
+whole, until bodily death of the organism. The 4th spatial dimension allows individual self-consciousness since 
+an extra degree of freedom is required for self-observation and reflection, while in the mental context the time 
+dimension is symmetrical, allowing to integrate past and future- anticipating events. The 4th spatial dimensions 
+is also assumed to accommodate the bidirectional flow of information between the domains of self-
+consciousness and universal consciousness. Bottom-up information flow from the Planck scale, combined with 
+top-down information conjugation from the ZPE field, constitute the event horizon of the brain, also integrating 
+gravitational and dark energy related force fields, and supervenes the physical brain. Event horizons of brain 
+and whole body are depicted in red ellipse and circle respectively. 
+ 
+quality 
+control 
+of 
+internal 
+and 
+external 
+information. 
+The 
+particular 
+holographic 
+type 
+of 
+consciousness, situated in the particular event 
+horizons as a sort of bordering memory domains, 
+can effectively function as a nested information 
+workspace, that in humans is instrumental in 
+constructing a mental model of reality for internal 
+use in each individual, thus functioning as a global 
+reference system. It is instrumental in the overall 
+monitoring of each individual (of any intelligent 
+species that inhabits our universe). In addition, it 
+should therefore be involved in the fine tuning 
+with and updating of a supposed universal 
+consciousness.  The feature of quantum back-
+propagation can effectively implement a form of 
+adaptive error correction (Goncalves, 2017), as 
+has also been shown in the generation of 
+cyclic/toroidal chaos by Hopfield networks 
+(Akhmet and Fen, 2014). 
+The present model thus postulates a 
+mental workspace in close connection to our 
+brain. This raises a number of central questions:  
+1) is there a physical basis for such a workspace 
+or should it be seen as an intrinsic mind/matter 
+dualistic approach 2) If such a disembodied 
+aspect of consciousness exists, how does it 
+communicate with the physical brain? 3) If our 
+
+NeuroQuantology | September 2017 | Volume 15 | Issue 3 | Page 41-79| doi: 10.14704/nq.2017.15.3.1079 
+K.F. Meijer D., Consciousness in the Universe is Scale Invariant and Implies an Event Horizon of the Human Brain... 
+eISSN 1303-5150 
+         
+                                                                             www.neuroquantology.com 
+68
+brain is supervened by an updated inner 
+projection of the outside world, and thereby 
+tends to reduce “surprise”, how does this affect 
+free will (choice). 
+       With regard to the potential dualistic aspect, 
+we stipulate that we consider our model as 
+clearly non-dualistic and in this sense, agree with 
+the Operational Architecture model of Fingelkurz 
+and 
+Fingelkurtz, 
+2010, 
+2014 on 
+separate 
+phenomenal and neuro-physical aspects of 
+consciousness, stating that both aspects have an 
+ontological relation but are not reducible to each 
+other. We respect the related concept of Libet, 
+1994, 1996, of a mind field, especially in relation 
+to the aspect of retro-causality in conscious 
+experience, but tend to disagree on his suggestion 
+that such a field it is defined by physics that 
+should be entirely different from presently 
+known physical mechanisms (see discussion by 
+Pockett, 2012, 2013). 
+              In fact we are convinced that the mind 
+field or field-receptive mental workspace that we 
+assume, can be adequately described in terms of 
+current physics. We do not think however that 
+such physics can be fully characterized by 
+stochastic electrodynamics (that is classical 
+physics extended with zero-point energy) as 
+proposed by Keppler, 2016. This is, since we see 
+individual consciousness as a reflection of cosmic 
+consciousness that, apart from ZPE field, should 
+include all other relevant force field such as 
+gravity and dark energy, although we agree on 
+the importance of electromagnetic and quantum 
+resonance mechanisms. In our model, the fractal 
+geometry of the torus takes a central position in 
+brain physiology, as was also put forward by 
+Tozzi et al, 2015, 2016, 2017 and Knierim and 
+Zhang,2012. The toroidal generation (scattering) 
+of quasi wave/particles such as polaritons and 
+polarons (solitons) is a crucial aspect of 
+information integration of the various force fields 
+that are involved. Solitons have been proposed 
+widely as axonal information carriers in the brain 
+(Wikipedia), in which myelinated nerve fibres 
+function as light guides for solitons and bio-
+photons in this manner bridging electromagnetic 
+and spin aspect of neural information processing 
+(Kumar, 2016).  
+With regard to the second point on the 
+communication item, we propose a multi-
+factorial informational connection on the basis of 
+quantum holographic principles (see Fig. 9). Yet, 
+all of the various communication mechanisms 
+mentioned here are clearly interrelated. They 
+include long range and bidirectional correlations 
+of the supervening mental workspace with the 
+physical 
+brain 
+through 
+entanglement 
+and 
+quantum 
+tunnelling. 
+This, 
+in 
+addition 
+to 
+holonomic sharing of  quantum information 
+through 4-D to 3-D projection and phase-
+conjugation (Mitchhell and Staretz, 2011). A 
+similar multifactorial process has been proposed 
+in relation to information conservation by event 
+horizons of black holes (van Raamsdonk, 2010; 
+Pourhasan et al, 2013; Verlinde 2011, 2016). The 
+4-D hyperspace aspect has earlier be used for the 
+geometric characterization at the scale of the 
+entire universe, in line with the scale invariant 
+modality of information flux as well as the fractal 
+or cellular organization of the cosmos. The 4-
+dimensional aspect of the brain was included by 
+us in relation to the aspect of self-consciousness 
+and can also be modelled by toroidal geometry, 
+Meijer and Geesink, 2016.  
+Torus-like trajectories and knots of 
+information with meaning could, through their 
+recurrent 
+(rotational) 
+information 
+flux 
+configuration, even be seen as an operational 
+form of a neural network in which spatio-
+temporal 
+neuronal 
+synchronicity 
+can 
+be 
+functionally guided to high efficiency. Recently, 
+Tozzi et al, 2017, suggested that a modular 
+oscillation may underlie human brain electric 
+activity, and in particular the known EEG 
+rhythms, alpha, beta, gamma, delta and theta 
+rythms that might have physical counterparts in 
+microscopic features of the universe such as the 
+string theories. They speculate that in the brain 
+this may be related to hidden spatial nervous 
+dimensions 
+and 
+multidimensional 
+torus 
+movements, where take place in guise of particles 
+trajectories travelling on torus-like manifolds. 
+The communication between the 4-D event 
+horizon workspace proposed by us and our 3-D 
+brain could very well be represented by the 
+hippocampus area as a 3-D shadow of the 4-D 
+memory space.  
+             Burke and Persinger, 2013, pointed out 
+that: “consciousness is determined by the 
+physical laws of matter and energy  in producing 
+energy and matter. Within the quantum domain 
+that includes Casimir phenomena, whereby 
+virtual particles can be transformed under 
+optimal conditions to particles with mass, there 
+are other perspectives. Consciousness is a 
+boundary condition between a singularity (black 
+hole) and space within the brain. Within the 
+human 
+brain 
+the 
+hippocampus 
+has 
+been 
+considered the gateway to personal memory and 
+to 
+the 
+representation 
+of 
+experience 
+as 
+
+NeuroQuantology | September 2017 | Volume 15 | Issue 3 | Page 41-79| doi: 10.14704/nq.2017.15.3.1079 
+K.F. Meijer D., Consciousness in the Universe is Scale Invariant and Implies an Event Horizon of the Human Brain... 
+eISSN 1303-5150 
+         
+                                                                             www.neuroquantology.com 
+69
+electromagnetic 
+phenomena 
+within 
+intra-
+cerebral and extra-cerebral space. The structure 
+of the human hippocampus is similar to two 
+interlocking 
+C-shaped 
+structures 
+that 
+are 
+congruous 
+geometrically 
+with 
+the 
+smaller 
+spherical condenser wrapped and partially 
+interfaced by a larger spherical condenser. The 
+particular geometry is similar in shape to a toroid 
+with a gap that allows a discrete, because of the 
+dimensions of the gap, leakage of magnetic flux. It 
+is affected by the polarization or phase vector of 
+the accompanying electromagnetic field that can 
+be matched within the same order of magnitude 
+as the scalar potential for the representation of 
+the geomagnetic field within this space.”’  
+As to the third question on the realization 
+of free choice: our model assumes dynamic 
+bidirectional information exchange between the 
+proposed mental field that informs the individual 
+with regard to the state of the world and the 
+brain.  If consciousness and in particular self-
+consciousness is related to permanent contact 
+with the 4-D hypersphere information workspace 
+(see also Prakash et al, 2008, Sieb, 2016, 
+Taneichi, 2015) by which probability is converted 
+to meaning, this can be envisioned as a 
+“storyline”, implying that consciousness can 
+observe itself from a geometric distance. This 
+aspect is crucial in the understanding of the 
+earlier suggestion made by Penrose, that 
+consciousness 
+contains 
+an 
+intrinsic 
+non-
+computable component. Zizzi and Pregnolato, 
+2013, stated in this respect that to approach the 
+non-computable aspect, a sort of mathematical 
+meta-language will be required. In other words: if 
+self-consciousness observes the brain memory 
+and awareness states, by this very act it changes 
+both of them.  
+The only possibility to address this 
+paradox seems the potential to link or integrate 
+past and future events in the framework of 
+quantum approaches. Relevant examples are the 
+transactional interpretation of quantum physics 
+of Cramer, and the, so called, soft quantum wave 
+stimulation concept of Aharonov, in which future 
+states interact with the past states to create the 
+present, (treated in Meijer, 2012). In the 
+bidirectional flow of energy according to re-
+interpretation 
+of 
+the 
+Gordon-Klein 
+mass/momentum/energy equation of Fantappié 
+and the retro-causality considerations of Auletta 
+and Ellis, (reviewed by Meijer, 2012) such a 
+mechanism is plausible.  
+The present study adds to all this the 
+rotational aspect of torus geometry and negative 
+energy of wormhole structure, combined with 
+strange attractors and the universality of fractal 
+dimensions.  It is of interest that recent 
+calculations 
+of 
+Song, 
+2007, 
+indicate 
+that 
+consciousness should, at least partly, reside 
+outside the brain and that it is applied to the brain 
+than rather than generated by it, as also discussed 
+earlier by Tonneau, 2004. This is so, since the 
+conscious activity of an observer observing the 
+change of an observable is, per definition 
+mathematically not computable (Song, 2007). 
+This implies the involvement of the typical type 
+of probability of a quantum system, that will not 
+endanger free choice and intention of the 
+individual. 
+An important question was posted by 
+Pitkänen, 2016, in a comment on our previous 
+papers on discrete EM frequency bands (Geesink 
+and Meijer, 2016, 2017), that apparently promote 
+life conditions: “What could be the physical origin 
+of the Pythagorean scale on which the EM 
+frequency bands can be positioned and: …..”this 
+give excellent reasons to ask whether the 12 note 
+scale could be realized as some physical system. 
+One might hope that this system could be 
+somehow universal and a geometric realization in 
+terms of wave equations would be possible”. 
+Recently, our hypothesis was integrated in a 
+comprehensive study on electronic music and 
+universal consciousness (Van De Bogart, 2017, 
+stipulating the relation with music theory and 
+support the observation that the human brain 
+network functions through connectome-specific 
+harmonic waves (Atasoy et al., 2016). In line with 
+our concept, Tozzi and Peters, 2017, reported 
+that a repetitive modular oscillation function can 
+be inferred from the EEG wave patterns and that 
+this constitutes a hidden rhythm that dictates 
+oscillatory activities in biological systems. The 
+hidden aspect was related to long distance 
+interactions based on an additional (4th) spatial 
+dimension as exhibited in multidimensional 
+toruses, where trajectories take place in guise of 
+wave/particles on donut-like manifolds.   
+We agree that these questions and 
+suggestions provide the very challenge for 
+further substantiation of our hypothesis and this 
+may also be related to our previous suggestion 
+(Meijer and Geesink, 2016) that the apparent 
+musical harmony- like aspect may reveal  hidden 
+variables of the so called implicate order as 
+supposed to underlie our daily reality by David 
+Bohm, 1980, 1987. The latter was later ascribed 
+to zero-point energy field by Lazslo, 2007, 2012). 
+If so, this implies that bio-molecular brain 
+
+NeuroQuantology | September 2017 | Volume 15 | Issue 3 | Page 41-79| doi: 10.14704/nq.2017.15.3.1079 
+K.F. Meijer D., Consciousness in the Universe is Scale Invariant and Implies an Event Horizon of the Human Brain... 
+eISSN 1303-5150 
+         
+                                                                             www.neuroquantology.com 
+70
+processes are coupled to a fine-scale structure of 
+the universe, as suggested earlier by Penrose, 
+2014, and further defined in more detail by 
+Haramein, 2016, as a unified, micro-wormhole 
+entangled matrix on the Planck scale. This all-
+pervading system represents a non-local and 
+retro-causal 
+space 
+memory, 
+operating 
+via 
+recursive information feed-back/feed forward 
+processing of polarizable electromagnetic quanta 
+of the vacuum (Brown, 2016).  We may speculate 
+that this represents a pre- big bang information 
+domain, 
+in 
+the 
+framework 
+of 
+biological 
+cosmogenesis. Such a pilot wave system may also 
+have exerted an ordering influence during (pre)-
+biological evolution, at all scales of the universe.  
+The present, nested, scale invariant, event 
+horizon concept, thus, implicitly has broader 
+implications than only for brain function. In our 
+earlier work we applied this holographic memory 
+space model also to single cells in relation to the 
+aspect of soliton- mediated protein folding 
+mechanisms (Meijer and Geesink, 2017). We 
+argued that cellular proteins are never alone, not 
+only due to all kinds of molecular interactions in 
+the crowded intracellular space, but also due to 
+the external influence of short and long distance 
+electromagnetic, as well as other type of force 
+fields. Realizing that the extremely complex cell 
+can be seen as a bundling of neg-entropic and life 
+sustaining information, through an ongoing 
+correlation with its environment, each life cell 
+may have acquired a self-referential mode by 
+which it is able to manage its needs, thereby 
+obtaining problem-solving, “cognitive” abilities.  
+The latter can be seen in the framework 
+of the so called extended evolutionary synthesis 
+concept (Laland et al, 2017) and pervasive 
+information field model of Miller, 2016), both 
+innovative articles that stipulate the major 
+importance of epi-genetic instead of genomic 
+inheritance. We propose that the mechanism of 
+this informational aspect can be readily explained 
+by a holographic memory space that contains the 
+total history and future probability states of the 
+particular cell, that, in our view, surrounds the 
+cell in a hyperspace toroidal modality. We also 
+discussed the potential role of our EM life 
+algorithm in the creation of first life at the edge of 
+pre-biotic evolution (Geesink and Meijer, 2014).  
+In this respect Walker and Davies, 2013, 
+suggested that the origin of life may be related to 
+a physical transition or shift in causal structure, 
+where the integral cell obtains a bi-directionally 
+operating flux of information, including a 
+backward causation (blue print type) aspect. 
+Such an “supervisory” unit associated with the 
+cell could well be conceptualized as being created 
+during the abovementioned causal transition, in 
+the form of an event horizon, field-receptive, 
+workspace. 
+This, 
+since 
+the 
+holographic 
+information storage is a universal mechanism, 
+and in this case, being instrumental in order to 
+effectively 
+deal 
+with 
+the 
+steadily 
+rising 
+complexity of evolutionary structures. 
+It is of great interest also that recent studies 
+indicate that some black holes may predate the 
+Big Bang on the basis of Bohmian quantum 
+trajectories, do not exhibit a singularity and can 
+function as a portal to another universe, by which 
+implicitly the so called loss of information 
+paradox is overcome (Gambini and Pullin, 2013). 
+One of the models that was constructed presents 
+the three-dimensional universe floating as a 
+membrane (or brane) in a “bulk universe” that 
+has four dimensions. The 4-D black hole would 
+have an “event horizon” just like the known 3-D 
+ones. The event horizon is the boundary between 
+the inside and the outside of a black hole. In a 3-D 
+universe, the event horizon appears as a two-
+dimensional surface. So, in a 4 D universe, the 
+event horizon would be a 3-D object called a 
+hypersphere (Pourhasan et al., 2013). That 
+evolution is encoded in a 4-D information 
+structure have also been proposed recently by 
+Sorli, et al., 2017, an article in which  our 
+phonon/soliton guided principle of life was 
+discussed and supported. 
+           
+            The present life principle of EM-guided 
+biology, hypothesized by us, is in principle 
+testable. For example, such specific and scalar EM 
+radiation frequencies could be externally applied 
+in in vitro and in vivo studies, in order to induce a 
+potential beneficial resonance of oscillating cell 
+components, 
+such 
+as 
+proteins 
+and 
+oligo-
+nucleotides, that may sustain life. In this 
+framework, the influence of endogenous and 
+exogenous electromagnetic fields in relation to 
+brain function and consciousness, as have been 
+reported in a wide spectrum of previous neuro-
+physiological studies (McFadden, 2007; Pockett, 
+2012; Libet, 1993; John, 2001) that could be 
+further extended.                          
+Our paper, may directly contribute to an 
+answer on the famous question of Chalmers, 
+1995: how can something immaterial like 
+subjective experience and self-consciousness 
+arise from a material brain? Yet, the present
+ 
+
+NeuroQuantology | September 2017 | Volume 15 | Issue 3 | Page 41-79| doi: 10.14704/nq.2017.15.3.1079 
+K.F. Meijer D., Consciousness in the Universe is Scale Invariant and Implies an Event Horizon of the Human Brain... 
+eISSN 1303-5150 
+         
+                                                                             www.neuroquantology.com 
+71
+authors prefer to rather rephrase this question: if 
+consciousness is indeed the most fundamental 
+aspect of reality (Zeilinger, 2003; Davies, 2010), 
+how 
+does 
+consciousness 
+result 
+in 
+the 
+manifestation of matter? This implies that, so 
+called, panpsychism, at first sight, may be a 
+logical solution to Chalmers question, as put 
+forward in the information integration concept of 
+Tononi et al, 2016. Yet the latter may rather be 
+seen as a reductionist approach in the line of 
+current materialistic physics, since one fails to 
+envision the issue from the point of view of 
+consciousness as primary (Goswami, 1990; 
+Kastrup, 2016; Keppler, 2016; Struppa et al, 
+2002; Pereira et al, 2015).  
+The central postulate of the present 
+paper, in this respect, is that consciousness can 
+be regarded as the most basic building block of 
+nature and consequently is present at all levels of 
+the fabric of reality (see also Meijer 2012, 2014). 
+It can be expressed at each level as a dynamic 
+recurrent informational structure, since nature is 
+equipped 
+with 
+a 
+dedicated 
+quantized 
+background, consisting of a fractal matrix of 
+interconnected 
+(entangled) 
+toroidal 
+wave/wormhole structures, that enables the 
+coupling and integration of various modalities of 
+various 
+modalities 
+of 
+field 
+information, 
+(Harramein, 2016; Brown, 2016). 
+It may also provide the potential for 
+extra-sensory inter-individual communication 
+and correlated brain signals (Hasson, 2012, 
+Wackerman et al, 2003, Radin, 2004, Richards et 
+al, 2005, Standish et al, 2004, Pizzi et al, 2004), 
+since the postulated holographic workspace, 
+projects its active information from a dedicated 
+virtual screen in our brain, as described for event 
+horizons in current cosmology. These projected 
+multi-level fractal wave structures thereby 
+contribute to the integral wave function of our 
+universe. The latter, in the form of the ultimate 
+compressed information, in turn provides the 
+necessary recipe for further evolution and a 
+future rebirth of our universe, also operating in a 
+toroidal rebound context, as treated earlier 
+(Meijer, 2012, 2015).  
+Through deep insights, contemplations, 
+meditation and reasoning we can recognize some 
+intrinsic aspects of such an all-embracing 
+universal consciousness. However, our limited 
+minds, being individual parts of the cosmic 
+consciousness, operate in time-space-energy 
+constraints and inner conditioning, that only 
+partly can reflect the true nature of reality. In 
+spite of this handicap, humanity should realize 
+that faithful honoring of such a connecting 
+principle may provide a potential to preserve our 
+precious planet and guarantee a real future for 
+mankind.  
+ 
+References 
+Adey WR. Biological effects of electromagnetic fields. J. 
+Cellular Biochemistry 1993; 51: 410-416. 
+Aharonov Y, Popescu S, Rohrlich D, Skrzypczyk P. Quantum 
+Cheshire Cats. New J. of Physics 2013; 15, 1-8. 
+Aharonov Y, Popescu S, Tollaksen J. 2010. A time-symmetric 
+formulation of quantum mechanics, Physics Today, 
+November 2010; 27-32. 
+Akhmet MA, Fen M O. Generation of cyclic/toroidal chaos by 
+Hopfield Neural Networks Neurocomputing, 2014; 145, 
+230-239.  
+Alfonso-Faus A. Cosmology, holography, the brain and the 
+quantumvacuum,2011.https://arxiv.org/ftp/arxiv/pape
+rs/1102/1102.0443.pdf 
+Amoroso RL. An Introduction to the Noetic Field Theory: the 
+Quantization of Mind.  Noetic  Journal 1999; vol.2, 18-37. 
+Anjamrooz et al. The Cellular Universe: A New Cosmological 
+Model Based on The Holographic Principle. Int. J. phys. 
+Sciences, 2011; 6, 2175-2183. 
+Annila A. On the Character of Consciousness.  Front. Syst. 
+Neuroscience, 2013 March; arXiv:1308.4802v3 [hep-th] 
+7. 
+Auletta G, Ellis GFR and Jaeger L. Top-down causation by 
+information control: from a philosophical problem to a 
+scientific research programme. J. R. Soc. Interface 2008; 
+vol. 5, no. 27, 1159-1172. 
+Aurich, R, Janzer HS, Lustig S. & Steiner F. Do we live in a 
+small 
+universe? 
+Class. 
+Quant, 
+2008; 
+Grav://arxiv.org/abs/0708.1420. 
+Baaquie BE, Martin F. Quantum Psyche. Quantum Field 
+Theory of the Human Psyche. NeuroQuantology 2005; 
+issue 1, 7-42. 
+Baars BJ, Franklin S, Zoege Ramsoy T. Global Workspace 
+dynamics: cortical binding and propagation enables 
+conscious contents. Frontiers in Psychology 2013; 4, 1-
+22. 
+Babbs. A compact theory of magnetic nerve stimulation: 
+predicting how to aim. Biomedical Engineering 2014, 13, 
+53. 
+Baez J, Vicary J. Wormholes and entanglement. Classical and 
+Quantum Gravity 2014; 31:11. 
+Bandyopadhyay A. Multi-level memory-switching properties 
+of a single brain microtubule. Applied Physics Letters 
+2013; 123701: 102-114. 
+Batiz Z, Milovanovic D. Quantum Holography and Agency: 
+Toward a Formalism of Schema QD. NeuroQuantology 
+2017; 15, 45-59 
+Battleday RM, Muller T, Clayton MS, Cohen Kadosh R. 
+Mapping the mechanisms of transcranial alternating 
+current 
+stimulation. 
+Front. Psychiatry 
+2014; 
+http://dx.doi.org/10.3389/fpsyt.2014.00162 
+Beichler 
+JE. 
+The 
+Evolutionary 
+Imperative 
+of 
+Consciousness Journal of Biological Physics, 2012; 
+Volume 38, pp. 113-120. 
+Beichler, James E. “The neurophysics of mind and 
+consciousness: A theoretical model of emergence, 
+evolution, psi and survival.” A presentation made at the 
+SMN/SSE Conference at An Grianan AEC, Ireland,October 
+2012, “http://www.neurocosmology.net”.  
+Beichler, James E. The neurophysical basis of mind and 
+consciousness: An electromagnetic model of the neuron. 
+
+NeuroQuantology | September 2017 | Volume 15 | Issue 3 | Page 41-79| doi: 10.14704/nq.2017.15.3.1079 
+K.F. Meijer D., Consciousness in the Universe is Scale Invariant and Implies an Event Horizon of the Human Brain... 
+eISSN 1303-5150 
+         
+                                                                             www.neuroquantology.com 
+72
+A presentation at the annual Spring Meeting of the 
+OSAPS, 
+Ohio 
+State 
+68 
+University, 
+April 
+2012. 
+“http://www.neurocosmology.net”.  
+Belyaev 
+I. 
+Biophysical 
+Mechanisms 
+for 
+Nonthermal 
+Microwave Effects. In: Electromagnetic Fields In Biology 
+and Medicine. 2015; pp 49-67. 
+Benjamin 
+P. 
+Dark 
+matter 
+and 
+psychic 
+spin 
+pixel, 
+NeuroQuantology 2007; 197-204. 
+Benjamin 
+P. 
+Dark 
+chemistry 
+and 
+the 
+paranormal 
+phenomena. Int. J. Applied Science and Computations 
+2010; 17, 16-31. 
+Berkovich-Ohana A, Glicksohn J. The Consciousness State 
+Space (CSS)-a Unifying Model for Consciousness and Self. 
+Front. Psychol; 2014. 
+Bernstein P. Intuition: What science says (so far) about how 
+and 
+why 
+intuition 
+works.in: 
+Endophysics, 
+Time, 
+Quantum and the Subjective, ed. by Rosolino Buccheri et 
+al., World Scientific Publishing, Singapore 2015. 
+Bérut A B, Arakelyan A, Petrosyan A,  Ciliberto S, 
+Dillenschneider R,  Lutz E. Experimental verification of 
+Landauer’s 
+principle 
+linking 
+information 
+and 
+thermodynamics, N AT U R E Letters 2012; 483, p 187-
+190. 
+Bieberich E. Introduction in the Fractality Principle of 
+Consciousness and the Sentyon Postulate. Cognit 
+Comput., 2012; 4, 13-28. 
+Bischof M, Del Giudice E. Communication and the Emergence 
+of Collective Behavior in Living Organisms: A Quantum 
+Approach. Molecular Biology International Article 2012; 
+ID 987549. 
+Bjerve, 
+A. 
+The 
+Fractal-holographic 
+Universe, 
+2016. 
+http://holofractal.net/the-holofractographic 
+Bohm D. Wholeness and the implicate order. London: 
+Routledge & Kegan Paul, 1980. 
+Bohm D, FD Peat Science, Order and Creativity, Routledge, 
+2nd ed. 2000 (transferred to digital printing 2008, 
+Routledge): ISBN 0-415-17182-2. 
+Bohm, D, Hiley BJ. The undivided universe. An ontological 
+interpretation of quantum theory, 1993. London: 
+Routledge.  
+Bókkon I, Mallick BN, Tuszynski JA. Near death experience: a 
+multidisciplinary 
+hypothesis. 
+Frontiers 
+in 
+Human  
+Neuroscience 2013; 7, 1-11. 
+Bókkon I, D'Angiulli A. Emergence and transmission of visual 
+awareness through optical coding in the brain: a redox 
+molecular hypothesis on visual mental imagery. Biosci. 
+Hypotheses 
+2, 
+2009; 
+226–
+232.10.1016/j.bihy.2009.01.009. 
+Bonmassar G, Lee SW, Freeman DK, Polasek M, Fried SI,  Gale 
+JT, "Microscopic magnetic stimulation of neural tissue," 
+Nature communications, 2012; 3, p. 921. 
+Bono I, Del Giudice E, Gamberale L, Henry M. Emergence of 
+the Coherent Structure of Water. Water 2012; 4, 510-
+532. 
+Brandenburg JE, Hardy, CH. Entropic gravity in pre-
+spacetime & the ISS theory of a cosmic information field. 
+Pre-spacetime Journal 2016; 7, 828-838. 
+Braude SE. Immortal Remains. The Evidence for Life after 
+Death. 2003, Rowman & Littlefield Publ., Oxford, UK 
+Bressler SL. Neurocognitive networks. Scholarpedia 2008; 3: 
+1567. 
+Brizhik L. Biological effects of pulsating magnetic fields: role 
+of solitons, 2013; arxiv.org/pdf/1411.6576. 
+Brown W.  How Quantum gravity describes the inner 
+workings 
+of 
+particle 
+physics, 
+2016; 
+http://hiup.org/quantum-gravity-describes-inner-
+workings-particle-physics/. 
+Bryan KLH,  Medved AJM.  Black Holes and Information: A 
+New Take on an Old Paradox. Progress in Physics 2013; 
+61: 
+781-811, 
+https://www.hindawi.com/journals/ahep/2017/75784
+62/ref/. 
+Burke RC, Persinger MA Convergent Quantitative Solutions 
+Indicating the Human Hippocampus as Singularity and 
+Access to Cosmological Consciousness. 2013;11,1-7 
+Caligiuri LM. Zero-Point Field, QED Coherence, Living 
+Systems and Biophoton Emission. Open Journal of 
+Biophysics 2015; 5: 21-34. 
+Campbell RJ, Bickhard MH. Physicalism, Emergence and 
+Downward 
+causation 
+2010; 
+http://www.lehigh.edu/~mhb0/physicalemergence.pdf 
+Cardin JA, Carlén M, Meletis K, Knoblich U, Zhang F, 
+Deisseroth K, Tsai LH, Moore CI. Driving fast-spiking 
+cells induces gamma rhythm and controls sensory 
+responses. Nature 2009; 459:663- 667. 
+Carhart-Harris RL, Friston KJ. The default-mode, ego-
+function and free energy: a neurobiological account of 
+Freudian ideas. Brain 2010; 133: 1265-1283. 
+Carter 
+PJ. 
+Quantum 
+Spacetime 
+and 
+Consciousness. 
+NeuroQuantology 2014; 12: 46-75. 
+Chaplin MF. A proposal for the structuring of water. Biophys 
+Chem. 2000; 24, 83(3): 211-21. 
+Chalmers 
+D. "Facing 
+Up 
+to 
+the 
+Problem 
+of 
+Consciousness". Journal of Consciousness Studies 1995; 
+2 (3):200-219. http://consc.net/papers/facing.pdf. 
+Chiatti L.  Fantappié-Arcidiacono Theory of Relativity Versus 
+Recent 
+Cosmological 
+Evidences 
+: 
+A 
+Preliminary 
+Comparison, 
+2007, 
+https://arxiv.org/ftp/physics/papers/0702/0702178.p
+df. 
+Cifra M, Fields JZ, Farhadi A. Electromagnetic cellular 
+interactions. Progress in Biophysics and Molecular 
+Biology 
+2010; 
+1-24, 
+doi:10.1016/j.pbiomolbio.2010.07.003. 
+Cosic I. The Resonant Recognition Model of Macromolecular 
+Bioactivity Theory and Applications, 1997; ISBN: 978-3-
+0348-7477-9.  
+Damasio A, Carvalho, GB. "The nature of feelings: 
+Evolutionary 
+and 
+neurobiological 
+origins". Nature 
+Reviews. Neuroscience 2013; 14 (2): 143–52. 
+Davies  PCW. The Quantum Life. Physics World. 2009; July, 
+pp 24-28. 
+Davies PCW. The implications of a Cosmological Information 
+Bound for Complexity, Quantum Information and Nature, 
+2007; 
+http://power.itp.ac.cn/~mli/pdavies.pdf 
+of 
+Physical Law, http://power.itp.ac.cn/~mli/pdavies.pdf. 
+Davies PCW. Does quantum mechanics play a non-trivial role 
+in life?" BioSystems 2014; 78: pp. 69–79. 
+Davydov AS. Solitons and energy transfer along protein 
+molecules. Journal of Theoretical Biology 1977; 66 (2): 
+379–387, doi: 10.1016/0022-5193(77)90178-3. PMID 
+886872. 
+Daywitt, WC. The Planck Vacuum. Progress in Physics 2009; 
+1, 20- 26. 
+De la Peña L, Cetto AM. Quantum Phenomena and the Zero 
+point Radiation Field. Foundations of Physics 1994; 24.6: 
+917-48. 
+De Loof A. The cell's self-generated “electrome”: the 
+biophysical essence of the immaterial dimension of Life? 
+2016; 
+https://www.researchgate.net/publication/304712940 
+Dehaene S, Sergent C, Changeux, JP. A neuronal network 
+model 
+linking 
+subjective 
+reports 
+and 
+objective 
+physiological data during conscious perception. Proc. 
+
+NeuroQuantology | September 2017 | Volume 15 | Issue 3 | Page 41-79| doi: 10.14704/nq.2017.15.3.1079 
+K.F. Meijer D., Consciousness in the Universe is Scale Invariant and Implies an Event Horizon of the Human Brain... 
+eISSN 1303-5150 
+         
+                                                                             www.neuroquantology.com 
+73
+National Academy of Science (USA) 2003; 100. 14: 8520-
+8525. 
+Del Giudice E, Spinetti PS, Tedeschi A.  Water Dynamics at 
+the Root of Metamorphosis in Living Organisms. Water, 
+2010; 2: 566-586.  
+Dotta, BT. Ultraweak photon emission in cells: coupling to 
+molecular pathways, applied magnetic fields, and 
+potential non-locality, thesis, 2013. 
+Dunajzki, M. Twistor theory and differential equations. J. 
+Phys. A: Math. Theor. 2009; 42: 404004. 
+Dupays A, Lamine B, Blachard A. Can Dark Energy Merge 
+from Quantum Effects in a Compact Extra Dimension? 
+Astronomy 
+and 
+Astrophysics 
+2013; 
+https://arxiv.org/pdf/1301.1763.pdf. 
+Fadel MA, El-Gebaly RE, Amany A Aly, AA, Ibrahim FF. 
+Control of Ehrlich Tumor Growth by Electromagnetic 
+Waves at Resonance Frequency (In Vivo Studies). Taylor 
+& Francis 2005; 24, 1: 9–21. 
+Farnsworth KD, Nelson J, Gershenson C. Living is 
+information processing: from molecules to 2 global 
+systems, 2013; arXiv:1210.5908v2 [cs.IT] 1 March. 
+Fields RD. White Matter. Sci. Am., 2008; pp 54-61. 
+Fingelkurts AA, Fingelkurts AA, Neves CFH. Emergent 
+Monism, Biological Realism, Operation and Brain-Mind 
+Problem. Physics of Life Reviews 2010; 7, 264-268. 
+Fingelkurts AA, Fingelkurts AA. Present moment, past and 
+Future: Mental Kaleidoscope. Front. Psychol. May, 2014. 
+Firstenberg O, Peyronel T, Liang  QY, Gorshkov AV, Lukin V, 
+Vuletic MD, Attractive photons in a quantum nonlinear 
+medium. 
+Nature 
+(London) 
+502, 
+71–75 
+(2013); https://dspace.mit.edu/openaccess-
+disseminate/1721.1/91605  
+Fisher 
+MPA 
+Quantum 
+cognition: 
+The possibility 
+of 
+processing with nuclear spins in the brain, 2015; ArXiv: 
+1508.05929v2 [q-bio.NC]. 
+Foffani G, Priori A, Egidi M, Rampini P, Tamma F, Caputo E, 
+Moxon KA, Cerutti S Barbieri S. 300-Hz subthalamic 
+oscillations in Parkinson's disease. Brain 2003; 126(Pt 
+10): 2153–2163. 
+Ford LH, Roman TA. Negative energy, wormholes and warp 
+drive, Sc. Am. 2003; pp. 84-91. 
+Forsdyke DR. Long-term memory: scaling of information to 
+brain size. Front. Human Neuroscience 2014; 8, 1-4. 
+Forshaw SD. Memory of a universal mind. Galactic structures 
+and their existence as cognitive operators in an emerging 
+universally conscious machine. ResearchGate 2016; 
+309209078. 
+Forshaw SD. The Third State. Towards a quatum theory of 
+consciousness. NeuroQuantology 2016; 14, : 49-61. 
+Freeman WJ, Vitiello G. Nonlinear brain dynamics as 
+macroscopic manifestation of underlying many-body 
+field dynamics. Phys Life Rev 2006; 3:93–118. 
+Fröhlich F, McCormick DA. Endogenous electric fields may 
+guide neocortical network activity. Neuron 2013; 67: 
+129–143. doi:10.1016/j.neuron.2010.06.005. 
+Fröhlich, H. Long-range coherence and energy storage in 
+biological systems. Int. J. Quantum Chem. 1968; 2: 641–
+649. 
+Frölich F. Endogenous and Exogenous electric fields as 
+modifiers of brain activity: rational design of non-
+invasive brain stimulation wirh transcranial alternating 
+current stimulation. Dialogues in Clinical Neuroscience 
+2014; 16, pp 93-102, 
+Funk RHW, Monsees T, Ozkuzur N. Electromagnetic effects- 
+From 
+cell 
+biology 
+to 
+medicine. 
+Progress 
+in 
+Histochemistry and Cytochemistry 2009; 43, 177-264. 
+Fuxreiter M, Mexei M, Simon I, Osman R. Interfacial water as 
+a “hydration fingerprint” in the noncognate complex of 
+BamHI. Biophysical Journal 2005; 89: 903-911. 
+Gabella 
+M. 
+The 
+Randall-Sundrum 
+Model, 
+2006; 
+https://wwwthphys.physics.ox.ac.uk/people/MaximeGa
+bella/rs.pdf. 
+Gabrielli E. Photon propagation in magnetic and electric 
+fields with scalar/pseudo-scalar couplings: a new look, 
+2006; arXiv:hep-ph/0604143v3 12 Sept.  
+Gambini R and Pullin J. Loop Loop Quantization of the 
+Schwarzschild Black Hole, Phys. Rev. Lett. 2013; 110: 
+211301  
+Gardiner, J, Overall R, Marc J. The Fractal Nature of the Brain: 
+EEG Data Suggests That the Brain Functions as a 
+“Quantum 
+Computer” 
+in 
+5-8 
+Dimensions. 
+NeuroQuantology 2010; 8, 137-141. 
+Galloni M. The heresy of Fantappié and Teillard and the 
+converging revolution. Syntropy, 2012; 1: 79-84. 
+Geesink JH, Meijer DKF. Quantum Wave Information of Life 
+Revealed: An Algorithm for Electromagnetic Frequencies 
+that 
+Create 
+Stability 
+of 
+Biological 
+Order, 
+with 
+Implications for Brain Function and Consciousness. 
+NeuroQuantology, 
+ 
+2016a; 
+14: 
+106-125,  
+file:///C:/Users/Dick/Documents/911-2447-1-PB.pdf 
+Geesink JH, Meijer DKF. Novel Integral Soliton Model 
+Describing 
+Distinct 
+Non-thermal 
+ElectromagneticRadiation  Frequency Bands, that Either 
+Stabilize or Destabilize Life Conditions, 2016b;   
+   https://arxiv.org/ftp/arxiv/papers/1610/1610.04855.pdf  
+Geesink JH and Meijer DKF. Cancer Is Promoted by Cellular 
+States of Electromagnetic Decoherence and Can Be 
+Corrected by Exposure to Coherent Non-ionizing 
+Electromagnetic fields.  A Physical Model About Cell-
+sustaining and Cell-decaying Soliton Eigen-frequencies, 
+2017; 
+https://www.researchgate.net/publication/316058728_
+Cancer_is_promoted_by_cellular_states_of_electromagnet
+ic_decoherence_and_can_be_corrected_by_exposure_to_c
+oherent_non-ionizing_electromagnetic_fields 
+Goswami, A. Consciousness in Quantum Physics and The 
+Mind-Body Problem. The Journal of Mind and Behavior, 
+1990; 11, 1, p. 75-96. 
+Gramowski-Voß A, Schwertle HJ, Pielka AM, Schultz L, Steder 
+A, Jügelt K, Axmann J, Pries W. Enhancement of Cortical 
+Network Activity in vitro and Promotion of GABAergic 
+Neurogenesis by Stimulation with an Electromagnetic 
+Field with a 150 MHz Carrier Wave Pulsed with an 
+Alternating 10 and 16 Hz Modulation. Front Neurol.  Jul 
+14;6:158. doi: 10.3389/fneur.2015.00158.  
+Grandpierre A. Biologically Organized QuantumVacuum and 
+the Cosmic Origin of Life. Analecta Husserliana, 2014; 
+116, chapter 1. 
+Green B R, Levin J. Dark energy and stabilization of extra 
+dimensions, 20007; arXiv:0707.1062v2 [hep-th]. 
+Greyson B. Seeing Dead People Not Known to Have Died: 
+“Peak in Darien” Experiencesa Anthropology and 
+Humanism 2010; Vol. 35, Issue 2: pp 159–171, 
+Grof S. Beyond the Brain; Birth, Death and Transcendence in 
+Psychotherapy 1987; New York: State University of New 
+York Press. 
+Hagan S, Hameroff SR, Tuszynski JA. Quantum computation 
+in brain microtubules: Decoherence and biological 
+feasibility, Phys. Rev; 2002: E. 65, 061901. 
+Hagenston AM, Bading H. Calcium Signaling in Synapse-to- 
+Nucleus 
+Communication, 
+ 
+Cold 
+Spring 
+Harbor 
+perspectives in Biology 2015; Sept: 1-31. 
+Haggard HM, Rovelli C. Black hole fireworks: quantum-
+gravity effects outside the horizon spark black to white 
+
+NeuroQuantology | September 2017 | Volume 15 | Issue 3 | Page 41-79| doi: 10.14704/nq.2017.15.3.1079 
+K.F. Meijer D., Consciousness in the Universe is Scale Invariant and Implies an Event Horizon of the Human Brain... 
+eISSN 1303-5150 
+         
+                                                                             www.neuroquantology.com 
+74
+hole tunneling, 2014; arXiv:1407.0989v2 [gr-qc] 6 Jul 
+2014. 
+Hameroff S. How quantum brain biology can rescue 
+conscious free will. Front. Integrative Neuroscience 
+2012; 6: 1-17. 
+Hameroff S, Penrose R. Consciousness in the universe: A 
+review of the 'Orch OR' theory. Phys Life Rev, 2014; Mar 
+11(1):39-78. 
+Hameroff S, Tuszynsky J.  Quantum states in protein 
+assemblies: The essence of Life? 2010;  
+http://www.quantumconsciousness.org/sites/default/files/
+PaperIntlSocOptEngineeringQuantumStatesinProteinsan
+dProteinAssemblies.pdf. 
+Hammerschlag R, Levin M, McCraty R, Bat BA, Ives JA, 
+Lutgendorf, SK, Oschman JL. Biofield Physiology: A 
+Framework for an Emerging Discipline. Global Adv 
+Health Med. 2015; 4 (suppl): 35-41. DOI: 10.7453/gahmj. 
+015. Suppl. 
+Haramein N, Rauscher EA. Spinors, twistors, quaternions 
+and the spacetime torus topology. Int. J. Comput. Anticip.  
+Systems, 2007; pp 1- 18. 
+Haramein N, Brown, WD and Val Baker A. The United 
+Spacememory 
+Network: 
+From 
+Cosmogenesis 
+to 
+Consciousness. NeuroQuantology 2016; 14: 1-15. 
+Hardy CH. ISS Theory: Cosmic Consciousness, Self, and Life 
+Beyond Death in a Hyperdimensional Physics. J. 
+Consciousness Exploration and Research, 7, 2016; issue 
+11: 1012-1035. 
+Hartwich K, Pollak T, Klausberger T. Distinct Firing Patterns 
+of 
+Identified 
+Basket 
+and 
+Dendrite-Targeting 
+Interneurons 
+in 
+the 
+Prefrontal 
+Cortex 
+during 
+Hippocampal Theta and Local Spindle Oscillations. The 
+Journal of Neuroscience, 2009;  29(30):9563–9574. 
+Hasson U, Ghazanfar AA, Galantucci B, Garrod S, Keysers C,. 
+Brain to brain coupling: A mechanism for creating and 
+sharing a social world  Trends Cogn. Sci., 2012;16: 114-
+12. 
+Helias M,  Deger M,  Rotter S,  Diesmann M, Friston KJ. 
+Instantaneous Non-Linear Processing by Pulse-Coupled 
+Threshold Units. PLoS Computational Biology 2010; 6 
+(9): e1000929. 
+Heine L. et al. Resting state networks and consciousness. 
+Front. Psychology 2012; 3, 1-12. 
+Henry RC. The Mental Universe, Nature 2005; 436(7): 29. 
+Holzhey CFE, Wilczek F. Black Holes as Elementary Particles. 
+Nuclear Physics B 380 1992; 447—477. 
+Irwin K.  A New Approach to the Hard problem of 
+Consciousness: A quasi-crystalline language of primitive 
+units of consciousness in quantized spacetime. J. 
+Consciousness Exploration & Research 2014; 5: 483-497. 
+Jacobson Th. Thermodynamics of Spacetime: The Einstein 
+Equation of State". Phys. Rev. Lett. 1995; 75 (7): 1260–
+1263. arXiv:gr-qc/9504004. 
+Jahn RG, Dunne BJ. Sensors, Filters, and the Source of Reality. 
+Journal of Scientific Exploration 2004; 18(4): 547–570. 
+John ER. A field theory of consciousness. Consciousness and 
+Cognition 2001; 10:184-213 
+Jonkisz J. Consciousness: individuated information in action. 
+Front. In Psychology 2015; 6, art nr. 1035: 1-17. 
+Kastrup B. The Idealist View of Consciousness After Death, 
+2016. 
+Keppler JA. Conceptual framework for consciousness based 
+on a deep understanding of matter. Philos. Study 2012; 
+2: 689–703. 
+Keppler JA. A new perspective on the functioning of the 
+brain and the mechanisms behind conscious processes. 
+Frontiers in Psychology, Theoretical and Philosophical 
+Psychology 2013; pp1-6. 
+Keppler JA. On the universal mechanism underlying 
+conscious systems and the foundations for a theory of 
+mind. Open J. of Philosophy 2016; 6: 346-367. 
+Kida T, Tanaka E, Kakigi R. Multi-dimensional dynamics of 
+human electromagnetic brain activity. Front. Human 
+Neuroscience 2016; 9: 1-20. 
+King CC. Chaos, Quantum-transactions and Consciousness, 
+NeuroQuantology, 2003; 1(1): 129-162. 
+Knierim JJ, Zhang K. Attractor Dynamics of Spatially 
+Correlated Neural Activity in the Limbic System Ann. 
+Rev. Neurol. 10.1146/2012; 062111-150351. 
+Kozlowska JM.  Consciousness and Biological Dark Matter, 
+2015; 
+https://www.researchgate.net/publication/309668098_
+Consciousness_and_Biological_Dark_Matter 
+Kozlowski M.  Radiant Consciousness Updated. Progress in 
+Electromagnetic Research 2015; 151: pp 1 -18. 
+Lake J.. The near death experience: implications for a more 
+complete theory of consciousness. Quantum Biosystems, 
+2015; 6: 131-138. 
+Laland K N, Uller T, Feldman MW,  Sterelny K, Muller G B, 
+Mocsek, A Jablonka E, Odling-Smee J. The Extended 
+Evolutionary Synthesis: its Structure, Assumptions and 
+predictions. Proceedings R. Soc. B. 2017; 282:20151019 
+Lambert N, Chen YN, Cheng YC, Li CM, Chen, GY, Franco 
+N. Quantum biology. Nature Physics 2013; 9 (1): 10–18. 
+doi:10.1038/nphys2474. 
+Lamoreaux GK. Casimir forces: still surpising after 60 years. 
+Physics Today 2007, pp 40-45. 
+Lanzalaco 
+F. 
+The 
+integration 
+of 
+a 
+deep 
+structure 
+Neuromorphic 
+Frame 
+work 
+for 
+AGI, 
+2012; 
+https://s3.amazonaws.com/accredible_card_attachment
+s/attachments/43549/original/open-uri20140316-
+15300-pwhobn. 
+Lanzalaco F. Dipole Neurology. The Relativistic Brain, 2015; 
+http://www.lanzalaco.org/2015/06/the-relativistic-
+brain-nicolelis.html. 
+Lanzalaco F. EM solitons proven in the brains axons. One of 
+the primary tenets predicted by Dipole neurology 
+framework,2015; 
+http://www.lanzalaco.org/2015/06/em-solitons-
+proven-in-brains-axons-one.html. 
+László E. The Akashic Field. New York: Dutton, 2007. 
+Laszlo E. Cosmic Symphony: A Deeper Look at Quantum 
+Consciousness,2012; 
+http://www.huffingtonpost.com/ervin-laszlo/cosmic-
+symphony-a-deeper_b_532315.html. 
+Lee KC, Sprague MR, Sussman BJ, Nunn LJ, Jin NK, Champion 
+XMT, Michelberger P, Reim KFD, England JD, Walmsley 
+IA. 
+Entangling 
+Macroscopic 
+Diamonds 
+at 
+Room 
+Temperature. Science 2011;  334: 1253. 
+Lehar S. Harmonic Resonance Theory: An Alternative to the 
+"Neuron Doctrine" Paradigm of Neurocomputation to 
+Address 
+Gestalt 
+properties 
+of 
+perception. 
+Perception; 2003;April 32: 423-448  
+  http://cns-alumni.bu.edu/~slehar/webstuff/hr1/hr1.html. 
+Lehar, S. Directional Harmonic Theory: A Computational 
+Gestalt Model to Account for Illusory Contour and Vertex 
+Formation. Perception, 2008; 32(4): 423-448. 
+Levin M. Molecular bioelectricity in developmental biology: 
+new tools and recent discoveries: control of cell behavior 
+and pattern formation by transmembrane potential 
+gradients. Bioessays. 2012; 34:205–217. 
+Levin, M. Reading and Writing the Morphogenetic Code. 
+Foundational White Paper of the Allen Discovery Center 
+at Tufts University, 2016. 
+
+NeuroQuantology | September 2017 | Volume 15 | Issue 3 | Page 41-79| doi: 10.14704/nq.2017.15.3.1079 
+K.F. Meijer D., Consciousness in the Universe is Scale Invariant and Implies an Event Horizon of the Human Brain... 
+eISSN 1303-5150 
+         
+                                                                             www.neuroquantology.com 
+75
+Libet B. Conscious Mind as a Field  J. theor. Biol. 1996; 178: 
+223–224. 
+Libet B. A testable field theory of mind-brain interaction. J. 
+Consciousness Studies 1994; 1: 119–126. 
+Liboff 
+AR. 
+Magnetic 
+Correlates 
+in 
+Electromagnetic 
+Consciousness,2017; 
+https://www.ncbi.nlm.nih.gov/pubmed/27049696 
+or 
+https://www.researchgate.net/publication/299940996_
+Magnetic_correlates_in_electromagnetic_consciousness. 
+Linton O. Consciousness as a meta-phenomenon, 2015; 
+http://quantum-mind.co.uk/consciousness-as-a-meta-
+phenomenon/. 
+Lloyd 
+NJ. 
+Black 
+hole 
+computers, 
+2007.  
+https://www.scientificamerican.com/.../black-hole-
+computers-2007. 
+Loll R. Quantum Gravity at the Planck scale: getting a hold on 
+spacetime foam, 2011; 
+  http://physics.technion.ac.il/~conf/Waves/RenateLoll.pdf 
+Luminet 
+JP. 
+The 
+holographic 
+Universe, 
+2016; 
+https://arxiv.org/abs/1602.07258. 
+Lundholm IV,  Rodilla H, Wahlgren WY,  Duelli  A,  Bourenkov 
+G,  Vukusic J,  Friedman R,  Stake J,  Schneider T,  Katona 
+G. Terahertz radiation induces non-thermal structural 
+changes associated with Fröhlich condensation in a 
+protein 
+crystal. 
+Struct. 
+Dyn. 2015; 
+.2: 
+054702; http://dx.doi.org/10.1063/1.4931825. 
+Lugo JE, Doti R, Angarwal R, Ray K, Faubert J. Physical 
+analogies in biology: Photons, Phonons, Bloch waves to 
+Non-linear oscillators. Advanced Science Engineering 
+and Medicine 2015; 7: 62-75. 
+Maldacena J, Susskind K. Cool horizons for entangled black 
+holes,  High Energy Physics - Theory (hep-th), 2013; DOI: 
+http://arxiv.org/pdf/1306.0533v2.pdf. 
+Martin F, Carminati F, Galli Carminati. Quantum Information 
+Theory Applied to Unconscious and Consciousness. 
+NeuroQuantology 2013; 11: 16-33. 
+Matsura H, Wasari K. Quantization of artificial neuron 
+(quantum current, model of polariton on axon). Int. J. of 
+Innovative Computing, Information and Control 2014; 3: 
+1121-1133. 
+Mavromatos NE, Mershin A, Nanopoulos DV. QED-cavity 
+model of microtubules implies dissipationless energy 
+transfer 
+and 
+biological 
+quantum 
+teleportation. 
+International Journal of Modern Physics B 2002; 16: 
+3623. 
+Mc Nally JM, Custer EE, Ortiz-Miranda S et al. Functional 
+ryanodine receptors in the membranes of neurophysical 
+secretory granules J. gen. Physiol. 2014;143: 693-702. 
+McFadden J. Conscious electromagnetic (CEMI) field theory. 
+NeuroQuantology 2007; 5(3):262–270.  
+Mc Naughton BL, Battaglia FP, Jensen O, Moser EI, Moser MB. 
+Path integration and the neural basis. Neurosci.2006; 
+7(8):663-78. 
+McCoss A. Agency of life, Entropic Gravity and Phenomena 
+Attributed to Dark Matter; J0urnal of Quantum 
+Information Science 2017: 7 : 67-75 
+Meijer DKF.  The Information Universe. On the Missing Link 
+in Concepts on the Architecture of Reality. Syntropy 
+Journal,2012;1:1-64.  
+http://www.sintropia.it/english/2012-eng-1-1.pdf. 
+Meijer DKF. Immortality: Myth or Becoming Reality? On the 
+Conservation of Information. Syntropy Journal, 2013; 3: 
+166-203.http://www.lifeenergyscience.it/english/2013-
+eng-3-04.pdf. 
+Meijer DKF.  Information: What Do You Mean? Syntropy 
+Journal,2013;3:1-49, 
+http://www.lifeenergyscience.it/english/2013-eng-3-
+01.pdf. 
+Meijer DKF, Korf J.  Quantum Modeling of the Mental State: 
+the Concept of a Cyclic Mental Workspace. Syntropy 
+Journal,2013;1:1-41.  
+http://www.lifeenergyscience.it/english/2013-eng-1-
+1.pdf. 
+Meijer DKF, Raggett S. Quantum Physics in Consciousness 
+Studies. The Quantum Mind Extended, Quantum Mind 
+2014;http://quantum-mind.co.uk/wp-
+content/uploads/2014/11/Quantum-Ph-rev-def-2.pdf. 
+Meijer DKF. The Extended Brain. Cyclic information flow in a 
+quantum physical realm.  NeuroQuantology 2014; 12-2: 
+180-200. 
+Meijer DKF. The Universe as a Cyclic Organized Information 
+System. An Essay on the Worldview of John Wheeler. 
+NeuroQuantology 2015; 1: 1-40. 
+Meijer 
+DKF, 
+Geesink 
+JH. 
+Phonon 
+Guided 
+Biology. 
+Architecture of Life and Conscious Perception are 
+mediated by Toroidal Coupling of Phonon, Photon and 
+Electron 
+Information 
+Fluxes 
+at 
+Discrete 
+Eigenfrequencies. NeuroQuantology 2016; 16, issue 
+4:718-755 
+Meijer D K F., Geesink J.H . Protein folding: the Role of Long- 
+and Short  Range  Electromagnetic Pilot Mechanisms.  
+2017; 
+available 
+at: 
+ResearchGate, 
+march, 
+https://www.researchgate.net/publication/315706536_
+The_Folding_of_a_Life_Proteins_On_the_role_of_long-
+and_short_range_electromagnetic_pilot_mechanisms 
+Meijer 
+DKF. 
+Universal 
+Consciousness 
+Field 
+Models. 
+Collective evidence for a Cosmic Cognition Construct (in 
+preparation), 2017a. 
+Meijer DKF. Science and Art Modeled as a Flux of 
+Information Using Toroidal Geometry (in preparation), 
+2017b.  
+Melkikh AV. Quantum information and the problem of 
+mechanisms of biological evolution. BioSystems 2014; 
+115: 33-45.  
+Melkikh AV. Quantum-like model of partially directed 
+evolution. Progress in Biophysics and Molecular Biology 
+2016; pp 1-16. 
+Merali 
+ 
+Z. 
+Doughnut-shaped 
+Universe 
+bites 
+back. 
+Astronomers say Universe is small and finite. Nature 
+2008; doi:10.1038/news.2008.854. 
+Miller J. A brief summary of Kaluza-Klein Theory, 2013; 
+http://www.thephysicsmill.com/blog/wp-
+content/uploads/jmm_GR2_paper.pdf. 
+Miller W B. Cognition, Information Fields and Hologenomic 
+Entanglement: Evolution in Light and Shadow. Biology 
+2016;5: 2079:1-95  
+Mitchell ED, Staretz R. The Quantum Hologram and the 
+Nature of Consciousness. In R. Penrose, S. Hameroff, & S. 
+Kak (Eds.), Consciousness and the Universe. Cambridge, 
+MA: Cosmology Science Publishers 2011; pp. 933-965. 
+Muehsam D, Ventura C. Life Rhythm as a Symphony of 
+Oscillatory Patterns: Electromagnetic Energy and Sound 
+Vibration Modulates Gene Expression for Biological 
+Signaling and Healing. Glob Adv Health Med. 2014; 3(2): 
+40-55. 
+Murphy N. Avoiding Neurobiological Reductionism: the role 
+of downward causation in complex systems, in Moral 
+Behavior and Free Will. A Neurological and Philosophical 
+Approach, eds Juan José Sanguineti, Ariberto Acerbi, José 
+Angel Lombo, 2014. 
+Murphy T, Persinger M. The God helmet weak magnetic 
+fields,2011;http://www.innerworlds.50megs.com/The_
+God_Helmet_Debate.htm. 
+Musha T. Possibility of High performance Quantum 
+Computation by Superluminal Evanescent Photons in 
+Living Systems. Biosystems 2009: 96:242-245 
+
+NeuroQuantology | September 2017 | Volume 15 | Issue 3 | Page 41-79| doi: 10.14704/nq.2017.15.3.1079 
+K.F. Meijer D., Consciousness in the Universe is Scale Invariant and Implies an Event Horizon of the Human Brain... 
+eISSN 1303-5150 
+         
+                                                                             www.neuroquantology.com 
+76
+Musha T, Sugiyama T. Possibility to Realize Brain-Computer 
+Interface from Quantum Model Based on Superluminal 
+Particles. J. Quantum Information Science 2011;1: 111-
+115 
+Nagel T. Minds and Cosmos. Why the materialist neo-
+darwinian conception of nature is almost certainly false, 
+2012; Oxford Univ. Press. New York. 
+Nation P, Jahansson J, Blencowe M, and Nori F. Stimulating 
+uncertainty: amplifying the quantum vacuum with 
+superconducting circuits. Review of Modern Physics 
+2012; 81(1):1. 
+Nielsen MA, Chuang I.  Quantum  calculation and quantum  
+information. 
+Cambridge 
+University 
+Press, 
+2000; 
+http://www.michaelnielsen.org/qcqi/QINFO-book-
+nielsen-and-chuang-toc-and-chapter1-nov00.pdf. 
+Nummenmaa A, McNab JA, Savadjiev P, Okada Y, Hämäläinen 
+MS, Wang R, Wald LL, Pascual-Leone A, Wedeen  VJ, Raij 
+T. Targeting of white matter tracts with transcranial 
+magnetic stimulation. Brain Stimul.2014;7 (1) :80-4. 
+Padmanabhan T. Thermodynamical Aspects of Gravity: New 
+insights". Rep. 
+Prog. 
+Phys. 2009; 
+73 (4): 
+6901. arXiv:0911.5004. 
+Panagopoulos DJ,  Johansson O, Carlo GL.  Polarization: A Key 
+Difference 
+between 
+Man-made 
+and 
+Natural 
+Electromagnetic Fields, in regard to Biological Activity. 
+Scientific Reports 2015; 
+Article number: 14914 
+doi: 
+10.1038/srep14914. 
+Pang XF, Chen S, Wang X, Zhong L. Influences of 
+Electromagnetic 
+Energy 
+on 
+Bio-Energy 
+Transport 
+through Protein Molecules in Living Systems and Its 
+Experimental Evidence, Int. J. Mol. Sci. 2016; 17: 1130. 
+Papasimakis N, Fedotov VA, Savinov V, Raybould TA, 
+Zheludev NI. Electromagnetic toroidal excitations in 
+matter and free space, Nature Materials 2016; 15: 263–
+271, doi:10.1038/nmat4563. 
+Penrose R. On the Gravitization of Quantum Mechanics 1: 
+Quantum State Reduction". Foundations of Physics 2014; 
+44: 557–575. 
+Pereira A. Astrocyte-Trapped Calcium Ions: the Hypothesis 
+of a Quantum-Like Conscious Protectorate. Quantum 
+Biosystems 2007; 2: 80-92. 
+Pereira A, Furlan FA. Biomolecular Information, Brain 
+Activity and Cognitive Function. In: ARBS Annual Rev of 
+Biomedical Sciences 2007; 9: 12-29. 
+Pereira C. Electromagnetic Radiation, a Living Cell and the 
+Soul, A Collated Hypothesis. NeuroQuantology 2015; 13: 
+426-438. 
+Pereira C, Reddy JSK. Near-Death Cases desegrating Non-
+locality/ 
+Disembodyment 
+vai 
+Quantum 
+Mediated 
+Consciousness.  J. Consciousness Exploration & Research 
+2016; 7: 951-968. 
+Persinger MA, Lavallee CF.Theoretical and experimental 
+evidence of macroscopic entanglement between human 
+brain activity and photon emissions: implications for 
+quantum consciousness and future applications. J. Cons. 
+Explor. Res. 2010; 1: 785–807. 
+Persinger MA, Nirosha J. Murugan, Lukasz M. Karbowski. 
+Combined Spectral Resonances of Signaling Proteins’ 
+Amino Acids in the ERK-MAP Pathway Reflect Unique 
+Patterns That Predict Peak Photon Emissions and 
+Universal Energies. International Letters of Chemistry, 
+Physics and Astronomy 2015; 43: pp 10-25. 
+Persinger MA. On the possible representation of the 
+electromagnetic equivalents of all human memory 
+within the earth’s magnetic field: implications for 
+theoretical biology. Theor. Biol. Insights 2008; 1: 3–11. 
+Persinger, MA. Relating Casimir to Magnetic Energies Results 
+in Spatial Dimensions That Define Biology Systems, 
+2014. 
+Peterson JPS, Sarthour RS, Souza AM, Oliveira I S, Goold J, 
+Modi K, Soares-Pinto DO, Céleri LC. Experimental 
+demonstration of information to energy conversion in a 
+quantum system at the Landauer limit. / Proceedings of 
+the 
+Royal 
+Society 
+A-Mathematical 
+Physical 
+and 
+Engineering Sciences 2016; Vol. 472, No. 2188, 
+20150813, 01.04. 
+Pitkänen M. What could be the physical origin of 
+Pythagorean Scale? 2016;  
+    http://tgdtheory.fi/public_html/articles/geesinkscale.pdf.  
+Pitkänen M. Time, Space-time and Consciousness, 2010. 
+http://www.tgdtheory.fi/public_html/pdfpool/time.pdf. 
+Pizzi R, Fantasia A, Gelain F, Rossetti D, Vescovi A. Non-local 
+correlations between separated neuronal networks. Proc 
+SPIE. 2004;5436:107-17. 
+Plankar M, Jerman I, Krasovec R. On the origin of cancer: Can 
+we ignore coherence? Progress in Biophysics and 
+Molecular Biology 2011;106: 380e390. 
+Plikynas D. Oscillating Agent model: Quantum Approach. 
+NeuroQuantiology 2015, 13: 20-34. 
+Pockett S. The electromagnetic field theory of consciousness: 
+a testable hypothesis about the characteristics of 
+conscious as opposed to non-conscious fields. Journal of 
+Consciousness Studies 2012; 19 (11-12): 191-223. 
+Pockett S. Field theories of consciousness. Scholarpedia 
+2013; 8: 4951. 
+Pokorný 
+J, 
+Pokorný 
+J, 
+Kobilková 
+J. 
+Postulates 
+on 
+electromagnetic activity in biological systems and 
+cancer, Integr Biol (Camb). 2013; Dec; 5(12):1439-46. 
+doi: 10.1039/c3ib40166a. 
+Popławski NJ. Radial Motion into an Einstein-Rosen 
+Bridge. Physics Letters B 2010; 687 (2-3): 110, 
+DOI: 10.1016/j.physletb.2010.03.029. 
+Popp F. "Properties of biophotons and their theoretical 
+implications". Indian Journal of Experimental Biology 
+2003;41: 391–402. 
+Pourhasan R, Afshordi N, Mann RB. Out of the White Hole. 
+The 
+Holographic 
+Origin 
+for 
+the 
+Big 
+Bang. 
+arXiv:1309.1487v2 [hep-th] 22 Sep 2013. 
+Prakash R. Global Workspace Model of Consciousness and its 
+Electromagnetic correlates. Ann. Indian Acad. Neurol. 
+2008; 11: 146-153. 
+Pregnolato M, Pereira A. On the Possible Existence of 
+Quatum Consciousness After Death. J. Consciousness 
+Exploration & Research 2016; 7: 969-991. 
+Pribram KH. Consciousness Reassessed. Mind and Matter 
+2014; 2: 7-35. philpapers.org/rec/PRICR. 
+Putten van MHPM. Theory and astrophysical consequences 
+of a magnetized torus around a rapidly rotating black 
+hole,2002; https://arxiv.org/pdf/astro-ph/0212297.pdf. 
+Pusey MF, Barret J and Rudolph T. On the reality of the 
+quantum state. Nature Physics 2012; 8: 475-478.  
+http://lanl.arxiv.org/abs/1111.3328. 
+Raamsdonk MV.  Building up spacetime with quantum 
+entanglement. General Relativity and Gravitation 2010; 
+42(10): 2323-2329. 
+Radin D. The Conscious Universe. The Scientific Truth of 
+Psychic Phenomena. New York, 1997, HarperEdge. 
+Radin DI. Event-related electroencephalographic 
+      correlations between isolated human subjects. J Altern  
+      Complement Med. 2004;10(2):315-23. 
+Rahnama M,  Tuszynski JA,  Bókkon I,  Cifra M,  Sardar P,  
+Salari V. Emission of Mitochondrial Biophotons and their 
+Effect 
+on 
+Electrical 
+Activity 
+of 
+Membrane 
+via 
+Microtubules,2010; 
+
+NeuroQuantology | September 2017 | Volume 15 | Issue 3 | Page 41-79| doi: 10.14704/nq.2017.15.3.1079 
+K.F. Meijer D., Consciousness in the Universe is Scale Invariant and Implies an Event Horizon of the Human Brain... 
+eISSN 1303-5150 
+         
+                                                                             www.neuroquantology.com 
+77
+https://arxiv.org/ftp/arxiv/papers/1012/1012.3371.pd
+f. 
+Rahnama M,  Bokkon I,  Tuszynski J,  Cifra M, Sardar P,  Salari 
+V.  Emission of Biophotons and Neural Activity of the 
+Brain. 
+2010: 
+1-18   
+https://arxiv.org/vc/arxiv/papers/1012/1012.3371v1.
+pdf 
+Rao VS et al. Non-thermal effects of radiofrequency-field 
+exposure on calcium dynamics in stem cell-derived 
+neurons 
+cells: 
+elucidation 
+of 
+calcium 
+pathways. 
+Radiation research 2008; 169: 319-329. 
+Reddy JSK, Pereira C. On Science & the Perception of Reality, 
+Journal of Consciousness Exploration & Research 2016; 
+7: 333-336 . 
+Reite M, Higgs L, Lebet JP, Barbault A, Rossel C, Kuster N, 
+Dafni U, Amato D, Pasche B. Sleep inducing effect of low 
+energy emission therapy. Bioelectromagnetics. 1994; 
+15(1):67-75. 
+Richards TL, Kozak L, Johnson LC, Standish LJ. Replicable 
+        functional magnetic resonance imaging evidence of  
+        correlated brain signals between physically and sensory  
+        isolated subjects. J Altern Complement  
+       Med.2005;11(6):955-63. 
+Ring K, Cooper C. Near-Death and Out-of-Body Experiences 
+in 
+the 
+Blind: 
+A 
+Study 
+of 
+Apparent 
+Eyeless 
+Vision,1997;http://www.newdualism.org/nde-
+papers/Ring/Ring-Journal%20of%20Near-
+Death%20Studies_1997-16-101-147.pdf. 
+Robinson PA, Zhao X et al. Eigenmodes of brain activity: 
+neural field theory predictions and comparison with 
+experiment. Neurology 2016; 142: 79-98. 
+Rouleau N, Dotta BT. Electromagnetic fields as structure-
+function zeitgebers in biological systems: environmental 
+orchestrations of morphogenesis and consciousness. 
+Frontiers in Integrative Neuroscience 2014; 8: 1-9. 
+Rousseau D. Understanding spiritual awareness in terms of 
+anomalous information access.  The Open Information 
+Science Journal 2011; 3: 40-53. 
+Sahu S, Ghosh B, Aswani K, Hirata K, Fujita D, and 
+Bandyopadhyay A. Atomic water channel controlling 
+remarkable properties of a single brain microtubule: 
+correlating 
+single 
+protein 
+to 
+its 
+supramolecular 
+assembly. Biosensors and Bioelectronics 2013; 47:141-
+148. 
+Sahu S, Ghosh S, Fujita D, Bandyopadhyay A. Live 
+visualizations of single isolated tubulin protein self-
+assembly via tunneling current: effect of electromagnetic 
+pumping during spontaneous growth of microtubule, 
+Scientific 
+Reports 
+2014; 
+4 
+: 
+7303, 
+DOI: 
+10.1038/srep07303, July 2014. 
+Sahu S, Ghosh S, Hirata K, Fujita D, Bandyopadhyay A. Multi-
+level memory-switching properties of a single brain 
+microtubule. Appl Phys Lett 2013; 102:123701. 
+Sancristóbal B, Vicente R, Garcia-Ojalvo J. Role of frequency 
+mismatch 
+in 
+neuronal 
+communication 
+through 
+coherence. J Comput Neurosci. 2014; Oct;37(2):193-208, 
+doi: 10.1007/s10827-014-0495-7.  
+Sasal S, Boly M, Mensen A, Tononi G. Functional split brain in 
+a driving/listening paradigm, 2016; Proc Natl Acad Sci U 
+S A. 2016; Dec 13;113(50):14444-14449, Epub  Nov 28.   
+https://www.ncbi.nlm.nih.gov/pubmed/27911805. 
+Schwartz JM, Stapp HP, Beauregard M. Quantum physics in 
+Neuroscience and Psychology: A Neurophysical Model of 
+Mind-Brain Interaction. Philos Trans R Soc Lond B Biol 
+Sci. 2005; 360(1458):1309-27. 
+Sedlak W. Outline of Biological Magnetohydrodynamics. 
+Neuromagnetic Systems 1993, San Antonia, TX. 
+Seth A. Models of Consciousness. Scholarpedia, 2007; 
+2(1):1328. 
+Setterfield B. Exploring the vacuum. J. Theoretics. 2002; 
+http://www.journaloftheoretics.com/links/papers/sette
+rfield.pdf. 
+Sheehan D. Frontiers of time: quantum retrocausation, 
+theory and experiments. AIP conf. proc. 2011; 1408: 
+255-278 
+https://www.amazon.com/Frontiers-Time-
+Retrocausation-Experiment. 
+Sheldrake R. Morphic Resonance. The Nature of Formative 
+Causation, 2009. Rochester. Park Street Press. 
+Shoup R.Understanding Retrocausality. Can a Message Be 
+Send 
+to 
+the 
+past? 
+2011; 
+https://www.researchgate.net/publication/234885500_
+Understanding_Retrocausality-
+Can_a_Message_Be_Sent_to_the_Past. 
+Sieb RA. Human Conscious Experience is Four-dimensional 
+and has a Neural Correlate, Modeled by Einstein’s Special 
+Theory of Relativity. NeuroQuantology 2016; 14, 630-
+644. 
+Sirag SP. Consciousness, a hyperspace view, 1993; 
+http://www.williamjames.com/Theory/Consciousness.p
+df. 
+Smoyer L. Musical Mathematics, the Mathematical Structure 
+of the Pythagorean and Equal Tempered Scale. In partial 
+fulfilment of the Masters of Science in Teaching 
+Mathematics, 2005. 
+Smythies J. Space, time & consciousness – Journal of 
+Consciousness Studies 2003;  10, (3): 47-5. 
+Sorli A, Fiscaletti D, Mageshwaran M. Advanced Relativity: 
+Unification 
+of 
+Space, 
+Matter 
+and 
+Consciousness. 
+NeuroQuantology, 2016; 14. 
+Sorli A, Dobnikar U, Fiscaletti D, Koroli V. Advanced 
+relativity: Multidimensionality of Consciousness and 
+Mind, Origin of Life, Psi Phenomena. NeuroQuantology, 
+2017;15:109-117 
+Sporns O. Network attributes to segregation and integration  
+in the human brain. Curr. Opinion in Neurobiology 2013; 
+23: 162-171. 
+Standish LJ, Kozak L, Johnson LC, Richards T. 
+       Electroencephalographic evidence of correlated event- 
+       related signals between the brains of spatially and 
+       sensory isolated human subjects. J Altern Complement  
+      Med.2004;10(2):307-14. 
+Struppa DC, Kafatos M, Roy S, Kao G, Amoroso MJ. Noetic 
+Journal, 2002; 3: 271. 
+Sullivan PR. Contentless consciousness and information 
+processing theories of mind. Philosophy, Psychiatry & 
+Psychology 1995; 2: 51-59. 
+Sullivan PR. Are current philosophical  theories of 
+consciousness useful to neuroscientists? Behavior and 
+philosophy 2006; 34: 59-70.  
+Sun Y, Wang C,  Dai J. Biophotons as neural communication 
+signals 
+by 
+in 
+situ 
+biophoton 
+autoradiography. 
+Photochem. Photobiol. Sci 2010; 9: 315-322 
+Susskind L. Copenhagen vs Everett, Teleportation, and 
+ER=EPR, 2016; https://arxiv.org/abs/1604.02589. 
+Tabaczek M. Metaphysics of Downward Causation: New 
+Aristotelianism Versus Non-reductionistic Physicalism, 
+2015;https://www.academia.edu/11813982/Metaphysi
+cs_of_Downward_Causation_New_Aristotelianism_versus
+_NonreductionistPhysicalism. 
+Talbot M. The Universe as a Hologram: Does Objective 
+Reality Exist or is the Universe a Phantasm? 2006; 
+http://homepages.ihug.co.nz/~sai/hologram.html 
+Tammiettto M, de Gelder B. Neural basis of the non-
+conscious perception of emotional signals. Nature 
+Reviews Neurosciences 2010; 1-13. 
+
+NeuroQuantology | September 2017 | Volume 15 | Issue 3 | Page 41-79| doi: 10.14704/nq.2017.15.3.1079 
+K.F. Meijer D., Consciousness in the Universe is Scale Invariant and Implies an Event Horizon of the Human Brain... 
+eISSN 1303-5150 
+         
+                                                                             www.neuroquantology.com 
+78
+Taneichi T. Physical Consciousness Outside the Brain: 
+Parasite Fermion Model for Substance of Consciousness. 
+NeuroQuantology 2015; 13: 134-140. 
+Tegmark M. The mathematical universe. Found Phys 2008; 
+38:101-150, arXiv:0704.0646 [gr-qc]. 
+Tenen S.  The shape of information. The Noetic Journal 2002; 
+3: 173-182  
+     http://www.meru.org/Noetic/ShapeofInfoA3HiTOC.pdf. 
+Thomson A, Swearngin J, Bouwmeester D. Linked and 
+knotted gravitational radiation. J. Phys. A: Math. Theor. 
+2014; 47: 355205 (2014) arXiv:1402.3806 [gr-qc]. 
+Thomson DW, Bourassa JD.  Secrets of the Aether. Unified 
+Force theory, Dark Matter and Consciousness, 2016; 
+https://www.amazon.com/Secrets-Aether-Unified-
+Theory-Consciousness/dp/0972425128. 
+Tielrooij 
+KJ, 
+Garcia-Araez 
+N, 
+Bonn 
+M, 
+Bakker 
+HJ. 
+Cooperativity in Ion Hydration, Science 2010; 328: 
+1006−1009. 
+Tielrooij KJ, Paparo D, Piatkowski L, Bakker HJ, Bonn M. 
+Dielectric Relaxation Dynamics of Water in Model 
+Membranes. Biophys J. 2009; Nov 4;97(9):2484-92. doi: 
+10.1016/j.bpj.2009.08.024. 
+Tiller WA. Towards a predictive model of subtle domain 
+connections in the physical domain of reality. J. Scientific 
+Exploration, 1999; 13: 41-67. 
+Toyabe S, Sagawa T Ueda M Meneyuki, Sano M. 
+Supplementary information fot information heat engine: 
+converting information to energy by feedback control, 
+2010; arXiv:1009.5287v2 [cond-mat.stat-mech]. 
+Toikka LA, Kärki O, Suominen KA. Creation and revival of 
+ring dark solitons in toroidal Bose-Einstein condensates. 
+Journal of Physics B: Atomic, Molecular and Optical 
+Physics 2013; vol. 47. 
+Tonegawa S, Pignatelli M, Roy D S, Ryan TJ. Current Opinions 
+in Neurobiology 2015; 35: 101-109 
+Tonneau F. Consciousness outside the head. Behavior and 
+Philosophy 2004; 32: 97-123. 
+Tononi G. Consciousness as Integrated Information: A 
+Provisional Manifesto. Biol. Bull.2008; 215: 216-242. 
+Tononi G, Boly, M, Massimini M, Koch C. Integrated 
+information theory: from consciousness to its physical 
+substrate. Nature Reviews Neuroscience 2016; pp 1-12. 
+Tononi G, Koch C. Consciousness: here, there and 
+everywhere? Philosophical Transactions R. Soc.2015; 
+370. 
+Toyabe S. Supplementary information for information heat 
+engine: converting information to energy by feedback 
+control, 2015; arXiv:1009.5287v2 [cond-mat.stat-mech] 
+Tozzi A, Peters JF. Brain Activity on a Hypersphere. 
+Quantitative Biology Neurons and Cognition, 2015; 
+arXiv:1512.00036 [q-bio.NC]. 
+Tozzi A, Peters JF. Symmetries, Information and Monster 
+Groups before and after the Big Bang. Information 
+2016a; 7: 73. 
+Tozzi A, Peters JF. Towards a fourth spatial dimension of 
+brain activity. Cognitive Neurodynamics 2016b; 10 (3): 
+189-99 PMID: 27275375. 
+Tozzi A, Peters JF. A Symmetric Approach Elucidates 
+Multisensory Information Integration. Information 2017; 
+8: 4. 
+Tozzi A, Peters JF, Jaušovec N. Repetitive Modular Oscillation 
+underlies human brain electric activity, 2017;  
+http://biorxiv.org/content/biorxiv/early/2016/08/31/072
+538.full.pdf. 
+Tsytovich VN, Morfill GE, Fortov VE, Gusein-Zade NG, 
+Klumov BA, Vladimirov SV. From plasma crystals and 
+helical structures towards inorganic living matter. New 
+Journal of Physics 2007; 9. 
+Van De Bogart W G, Forshaw S. Re-constructing memory 
+using quantized electronic music and a “Toridion 
+byte”quantum algorithm: Creating images using zero 
+logic quantum probabilistic neural networks (ZLQNN), 
+2015; 
+https://www.researchgate.net/publication/281480809. 
+Van De Bogart WG. Consciousness and electronic music 
+applied 
+to 
+xenolinguistics. 
+Available 
+from: 
+https://www.researchgate.net/publication/317328554_
+Consciousness_and_Electronic_music_applied_to_xenolin
+guistics_New_alternatives_in_extraterrestrial_communic
+ation_by_orchestrating_the_harmonic_building_blocks_of
+_the_universe_to_create_space_music 
+Van Raamsdonk. Building up spacetime with quantum 
+entanglement. Gen Relativ Gravit 2010; 42: 2323, 
+https://arxiv.org/pdf/1005.3035.pdf. 
+VerlindeEP.Interview. 
+https://www.uva.nl/.../en/.../interviews/erik-verlinde-
+interview.pdf. 2016. 
+Verlinde EP. On the Origin of Gravity and the Laws of 
+Newton,2011; JHEP. arXiv:1001.0785 Bibcode:2011JHE
+P...04..029V. doi:10.1007/JHEP04(2011)029. 
+Verlinde EP. Emergent gravity and Dark Universe, 2016; 
+https://arxiv.org/abs/1611.02269. 
+Vidal C. Computational and biological analogies for 
+understanding 
+fine-tuned 
+parameters 
+in 
+physics. 
+Foundation of Science 2010; 15(4): 375-393. 
+Vitiello G. My Double Unveiled: The Dissipative Quantum 
+Model of Brain, 2001; John Benjamins Publishing. 
+Vitiello G. The aesthetic experience as a characteristic 
+feature of brain dynamics. Aisthesis. Pratiche, linguaggi e 
+saperi dell’estetico, 2015; [S.l.], v. 8, n. 1, p. 71-89, ISSN 
+2035-8466. 
+Waldhauser GT, Braun V, Hanslmayr S.  Episodic memory 
+retrieval functionally relies on very rapid reactivation of 
+sensory information. The Journal of Neuroscience 2016; 
+36: 260.251. 
+Wackermann J, Seiter C, Keibel H, Walach H. Correlations 
+       between brain electrical activities of two spatially 
+       separated human subjects. NeurosciLett.  
+      2003;336(1):60-4. 
+Walker S I, Davies P C W. The Algorithmic Origin of Life. J R 
+Soc Interface 2013; 10: 20120869 
+Weingarten CP, Doraiswami PM, Fisher MPA. A new spin on 
+neural processing: quantum cognition. Frontiers in 
+Human Neuroscience 2016; 10: art.541. 
+Wang Ch, Bokkon I, Dai J, Antal I. Spontaneous and visible 
+light-induced ultra-weak photon emission from rat eyes. 
+Brain Res. 2010; DOI: 10.1016/jbrauinres.2010. 10.077 
+Wesson PS. Looking for the fifth dimension. Physics 
+International 2014; 5: 5-7. 
+Wheeler and Feynman. Wheeler JA. At Home in the Universe, 
+New York Institute of Physics, 1994. 
+Williamson JG, Mark van der MB. Is the electron a photon 
+with toroidal topology? Annales de la Fondation Louis de 
+Broglie 1997; Volume 22, no.2: 133. 
+Witten E. "Perturbative Gauge Theory As A String Theory In 
+Twistor 
+Space", 
+Communications 
+in 
+Mathematical 
+Physics, 
+2003; 
+252: 
+189–258, 
+arXiv:hep-
+th/0312171, Bibcode:2004CMaPh.252..189W, doi:10.10
+07/s00220-004-1187-3. 
+Wolf FA. On the Quantum Physical Theory of Subjective 
+Antedating. J. Theor. Biol 1989; 136: 13-19. 
+Wolf FA. Why nerve cells work faster than the theories 
+allows,2006; 
+https://www.mpg.de/535717/pressRelease20060418. 
+Wolf FA. The Quantum Physics of Consciousness: Towards a 
+New Psychology. Integr. Psychiatry 1985;3:235:  4-25, 
+
+NeuroQuantology | September 2017 | Volume 15 | Issue 3 | Page 41-79| doi: 10.14704/nq.2017.15.3.1079 
+K.F. Meijer D., Consciousness in the Universe is Scale Invariant and Implies an Event Horizon of the Human Brain... 
+eISSN 1303-5150 
+         
+                                                                             www.neuroquantology.com 
+79
+http://www.fredalanwolf.com/myarticles/integr%20psych.
+pdf. 
+Wongjun. Casimir Dark energy, stabilization of extra 
+dimensions and Gass-Bonet term, 2013. 
+Yang Y, Qin Y, Ding Q, Bakhtina M, Wang L, Tsai MD,  Zhong 
+D. Ultrafast water dynamiccs at the interface of the 
+polymerase—DNA binding complex. Biochemistry 2014; 
+53: 5405-5416. 
+Yepez O. Matter and Light in Flatland, General Physics, 2004; 
+(physics.gen-ph) 
+. 
+http://arxiv.org/pdf/physics/0401153.pdf. 
+Zeilinger 
+A. 
+Quantum 
+Teleportation. 
+Scientific 
+Am. 
+2003;Febr. 
+8-16. 
+Update 
+: 
+http://www.univie.ac.at/qfp/publications3/pdffiles/20
+03-24.pdf. 
+Zeilinger A. Why the Quantum? It from Bit? A Participatory 
+Universe? Three Far-Reaching, Visionary Challenges 
+from John Archibald Wheeler and How They Inspired a 
+Quantum Experimentalist, 2003; Charles L. Harper, 
+Templeton Foundation Press. 
+Zhang L, Yang Y, Kao YT, Wang L, and Zhong D. Protein 
+hydration dynamics and molecular mechanism of 
+coupled water – protein fluctuations. Journal of 
+American Chemical Society 2009; 131: 10677-10691. 
+Zioutas K. On the interaction of extreme-low-frequency 
+(ELF)radiation with living matter’s coherent spiral 
+states, 1996; arXiv:patt-sol/9601001v1. 
+Zizzi P, Pregnolato M. Non-Turing Computable Origin of 
+Cellular Life. Journal of Consciousness Exploration & 
+Research | December 2013; Vol. 4, Issue 10: 1062-1065.
+ 

@@ -1,0 +1,834 @@
+4 January 2024, Preprint v1  ·  CC-BY 4.0
+PREPRINT
+Review Article
+What is it like to be an AI bat?
+David Josef Herzog1, Nitsa Herzog2
+1. Universidade Fernando Pessoa, Portugal; 2. Northumbria University, Newcastle upon Tyne, United Kingdom
+Consciousness is a natural phenomenon, familiar to every person. At the same time, it cannot be
+described in singular terms. The rise of Artificial Intelligence in recent years has made the topic of
+Artificial Consciousness highly debated. The paper discusses the main general theories of
+consciousness and their relationship with proposed Artificial Consciousness solutions. There are a
+number of well-established models accepted in the area of research: Higher Order Thoughts/Higher
+Order Perception, Global Network Workspace, Integrated Information Theory, reflexive,
+representative, functional, connective, Multiple Draft Model, Neural Correlate of Consciousness,
+quantum consciousness, to name just a few. Some theories overlap, which allows for speaking about
+more advanced, complex models. The disagreement in theories leads to different views on animal
+consciousness and human conscious states. As a result, there are also variations in the opinions about
+Artificial Consciousness based on the discrepancy between qualia and the nature of AI. The hard
+problem of consciousness, an epitome of qualia, is often seen as an insurmountable barrier or, at least,
+an “explanatory gap”. Nevertheless, AI constructs allow imitations of some models in silico, which are
+presented by several authors as full-fledged Artificial Consciousness or as strong AI. This itself does
+not make the translation of consciousness into the AI space easier but allows decent progress in the
+domain. As argued in this paper, there will be no universal solution to the Artificial Consciousness
+problem, and the answer depends on the type of consciousness model. A more pragmatic view
+suggests the instrumental interaction between humans and AI in the environment of the Fifth
+Industrial Revolution, limiting expectations of strong AI outcomes to cognition but not consciousness
+in wide terms.
+Correspondence: papers@team.qeios.com — Qeios will forward to the authors
+Qeios
+qeios.com
+doi.org/10.32388/63ELTC
+1
+
+I. Introduction
+The recent rapid advance in the development of Artificial Intelligence renewed an old-age debate about
+the nature of intelligence itself. While many experts are satisfied with identifying it with computational
+power  [1], perception abilities and data processing, not everyone agrees with such a reductionist
+approach  [2]. The wider understanding of intelligence often includes additional options, which are not
+synonymous with enhanced intelligence. The strong or full AI is supposed to possess consciousness.
+There is a debate about the correlation between consciousness and intelligence and the nature of
+consciousness [3]. While weak AI is generally understood on a consensual basis of measurable parameters
+and performed tasks, there is less concord about consciousness itself and the possibility for any non-
+human or non-biological system to have any or all of its characteristics [4].
+The term “Artificial Consciousness” (AC) first appeared in English scientific literature in 1969 [5]. Several
+attributes are presumed necessary for consciousness to be recognized as such. According to different
+opinions, the conscious system has self-awareness, perceptual awareness, intentionality, reflexive
+functions, awakeness state, autopoiesis, self-representation, and self-control  [6][7][8]. A few theories
+which combine these requirements to describe models of consciousness or answer specific questions are
+mentioned above. We will discuss the main theories and try to systematize their answers to comprehend
+the possibility of AC [9] implementation from their point of view.
+The problem of consciousness was formulated as early as the discussion in antiquity about human
+behaviour independent from higher spiritual entities. Philosophers and scholastics proposed a pre-
+scientific vision, which was replaced by nature-philosophic and, today, by a scientific one. However, as
+some researchers think, scientific theories are not free from remnants of previous views or insufficient
+explanatory power [2]. Elements of vitalism, biologism, anthropocentrism, cartesian dualism, mysticism,
+physicalism, psychologism and cognitivism are often criticized and thought to be obstacles in the way of
+fundamental consciousness understanding. Without this understanding, it is impossible to say if
+consciousness applies to machines and if it will be fully understood in the future.
+It is possible to reformulate questions. Let us say that consciousness is a feature of a complex
+information-processing system  [10][11]. Does it mean the system has to be autonomous to be
+conscious  [12]? If consciousness is of a complex nature, which elements are sufficient to be in
+superposition for the system to be recognized as conscious  [13]? If consciousness is a general
+qeios.com
+doi.org/10.32388/63ELTC
+2
+
+phenomenon, not limited by our involuntary anthropocentric understanding, how far goes the
+difference  [14]? Are we able to understand the radically different consciousness or at least appreciate it
+exists  [15]? The question, often asked by experts and non-experts alike, if Artificial Intelligence
+development can lead to the appearance of artificial conscious systems, what are possible ethical and
+general outcomes for the society and future of humankind [12][15]?
+II. Consciousness. Models and Types
+Consciousness is a matter of interest for a wide spectrum of disciplines, from philosophy, mathematics,
+anthropology and psychology to sociology, biology, neurophysiology and technology. The ontological
+approach sees the phenomenon of consciousness in the world context of existence [16]. The psychological
+and functional view is focused on frames of cognition, memory, associated emotions, reflective abilities
+and qualia, and complex phenomenal states of mind [17]. Neurophysiology is occupied with physiological
+and biological functional conditions and biological substrate or neural system structures responsible for
+consciousness [16]. The current technological vision of consciousness is a combination of philosophical,
+functional and formal structural approaches, where functions related to biological structures of
+consciousness are less relevant [18]. Autopoiesis, e.g. autonomy of active existence, self-oriented functions
+or evolutionary mechanisms in strictly biological terms  [19] are not directly applicable to technological
+systems. Nevertheless, there are models of consciousness with different importance of these aspects [20].
+There are several significant components of consciousness  [21]. The metacognitive or supervisory
+element is important in several theories. Some models recognize perceptive and cognitive roles as
+essential for functional consciousness. In a functional paradigm, consciousness is the mere ability to
+sense, analyze and adequately reflect and react. The physicalist approach places an accent on the
+underlying physical structures and physical processes of consciousness. Dynamic models underline the
+time frames. Some theories give importance to self-awareness until the level of introspection, others
+prioritize levels of awakeness or intentionality. In any case, there is no simplistic theory with a one-for-
+all explanation.
+The Higher Order (HO) group of theories point out the necessity for a meta-cognitive state for
+consciousness  [22]. The Higher Order Thoughts explanation puts an emphasis on the supervisory part,
+which oversees the Lower Orders of thoughts and operations, the “unconscious” ones  [23]. In the
+conscious state, a person is aware of being conscious and can report it in the first-person account. Self-
+qeios.com
+doi.org/10.32388/63ELTC
+3
+
+awareness is crucial for this model. Introspective thought abilities are important for Higher Order
+Thought theories. The Higher Order Perception theories [22] are more focused on perceptive abilities. For
+example, external perception requires both perceptive and internally intensive acts, with simultaneous
+application to internal sensory data. The perceptive act is a sort of, in the words of Max Clowes,
+“controlled hallucination”  [24], while partial or full loss of control leads to uncontrolled hallucinations.
+There is a discussion between HO theoreticians about [25] the need for intentionality to be conscious. If it
+is not necessary, animals can be conscious in accordance with simple HO requirements. In the case of
+necessity, animals and children are excluded. The Higher Order Global State (HOGS) theory is more
+functionalist and reflective when intentionality is a merely pragmatic necessity produced by perceptive
+stimuli [26][27].
+The Neural Correlate of Consciousness group of theories (NCC) is occupied with consciousness's
+neuroanatomical and neurophysiological basis, avoiding questions of qualia until later. First, this
+approach was proposed by Francis Crick  [28]. The cellular basis is neuronal. There are estimations of
+neurons in the human brain from 8.6×1010 [29] to 1.3×1011. An average number is usually claimed to be 1011
+neurons, which form 1014 connections. The neuron is capable of processing a significant volume of
+information as a separate processing unit and can make up to 1000 connections. Consciousness depends
+on the brain structure and functions of interconnected nuclei fields and lobes. While one group of
+researchers emphasizes the prefrontal and parietal neocortex, others find deeper structures which are
+critically important for the conscious state [30]. The brainstem nuclei in the reticular formation, which
+are not directly involved in the homeostatic functions, are supposed to be the most important part of the
+“proto-self” system, together with basal ganglia, hypothalamus and somatosensory cortical area S2. The
+neural map of “self” is formed by these areas in accordance with signals from exteroceptive and
+interoceptive parts of the brain. The reticular formation reaches the medium brain, the mesencephalon.
+The Mesencephalic Reticular Formation (MRF) is one of the most important elements of consciousness
+formation. It takes part in the production of the ‘gamma’ 35-44 Hz frequency [31], which correlates with
+“conscious” states. There are also theories of two NCCs, phenomenal and access correlates [32].
+Global Workspace Theory (GWT) is an extension of NCC-type theory, with the addition of structural and
+functional elements of a different order. It presumes the existence of the all-brain network, where
+broadcasting forms a temporary “bright spot” of consciousness [33] on the backstage of the unconscious
+contexts. Learning Intelligent Distribution Agent (LIDA) is a supporting part of Global Workspace Theory
+qeios.com
+doi.org/10.32388/63ELTC
+4
+
+(GWT)  [34]. Brain structures produce global cycles with the involvement of different ensembles. These
+cycles are directly related to consciousness and different types of memory. Mechanisms involve the
+CogAff (cognition and affect) framework: reactive, deliberative and meta-management [35]. The updated
+version of GWT, Global Neuronal Workspace (GNW), speaks about the network of specific significant
+areas of the brain  [36], where local networks` “processors” are connected by a global network. The
+complex activity in the GNW is analysed functionally and physiologically. Levels of consciousness can be
+explained by the global connective activity and individual activity levels of local areas or modules. The
+specific modular theory is formulated by Fodor [37], where lower-level information modules are observed
+by higher non-modular cognition levels.
+Multiple Draft Model (MDM) is a conceptual description of the consciousness framework [38]. The model
+criticizes the central representation idea as a Cartesian theatre with a supposed “homunculus” taking a
+central position in the view of changing scenes. MDM denies the necessity for the strictly fixed central
+agent of consciousness. Instead, more active combinations of activated areas of the brain occasionally
+dominate at a certain time, while consciousness is simply a constant change of dominating
+combinations, appearing as a stream and not a static state. Some close theories claim the necessity for
+potential consciousness agents to be in constant Darwinian competition when the most dominating
+process occupies an upper place, similar to one in HO theories. While disagreeing with an obligatory top-
+conscious agent, MDM also denies any place for the so-called “hard problem”. The seminal paper “What
+is like to be a bat?”  [39]  claims the inability of other creatures to experience unique qualia of specific
+phenomenal experience. Non-bats cannot imagine or reproduce, let alone feel and “know” from the
+perspective of first-person anything like that. The hard problem is a fundamental barrier which is
+impossible to overcome  [40][41], or at least it produces an explanatory gap  [42]  in understanding. MDM
+postulates a constant flow of consciousness and conscious agents` combination with no one-for-all top
+stricture with the highest conscious level. According to this model, there is no hard problem at all, and
+the lack of a full explanation is imaginary. There is never a full explanation and no gap between highest-
+order consciousness and qualia. Qualia itself can be distilled into a sensory experience of a different sort,
+with no mystique about it [43].
+An important aspect of consciousness is the level of awareness or activity. There are several well-known
+states of consciousness: nonconsciousness, general anaesthesia, deep sleep, REM sleep, dreamlike state
+and normal awakeness. There are also states of changed or altered consciousness, which are produced by
+meditation, medications, organic influences on the brain or psychoactive substances. According to
+qeios.com
+doi.org/10.32388/63ELTC
+5
+
+Integrated Information Theory (IIT)  [11], the various states of consciousness are registrable and
+measurable. Consciousness in IIT is not just a hierarchical model or stream of states and interactions
+between different brain structures. It is a complex condition with several variables. The level of
+consciousness is possible to quantify, and the state can be described in accordance with experimental
+data. There is an instrumental way to distinguish between levels and states of consciousness by the
+combination of measured parameters and the resulting ‘phi’ value. The IIT theory possesses a developed
+mathematical apparatus and is placed on a physical and physiological basis. At the same time, the
+formulation of the theory allows a wide formal frame for the information blocks and their physical basis.
+Following IIT principles, any suitable physical system has information and is potentially able to unite for
+the consciousness to appear. There is a criticism of this theory as one that uses panpsychism [14] instead
+of an explanation for the phenomenon itself. However, critics also put a controversial argument of
+“philosophical zombie” against any conscious system without qualia, reformulating hard problems for
+lower conscious systems [44][45].
+Quantum Consciousness (QC) is another physicalist solution. The group of theories goes further than IIT
+and postulates a quantum mechanical basis for the functionality of the basic brain processing units.
+Several principles were proposed to support different QC theories. There is a hypothesis about the
+holographic nature of consciousness as a result of multiple quantum processes [46]. According to other QC
+theories [47], the quantum process occurs in the cytoskeletal tubulin microtubes of the cell, specifically
+the neurone, and produces the gamma rhythm. The collapse of wave function leads to “orchestrated
+objective reduction (OrchOR)” and gives an explanation of the consciousness phenomenon that is more
+fundamental than computational or neuro-integrative models. QC can potentially solve the problem of
+free will and explain readiness potential  [48][49]  in experiments of conscious control of movements
+through temporal non-locality. There are even wider quantum consciousness theories, such as “it from
+bit”  [50] or Mathematical Universe  [51]. However, the last hypotheses remain highly theoretical. Table 1
+highlights the characteristics of consciousness theories.
+qeios.com
+doi.org/10.32388/63ELTC
+6
+
+Consciousness
+Theory
+Short Summary
+Variants and Forms
+Important Features
+and Elements
+References
+in Text
+Higher Order group
+of theories (HOT)
+Meta-cognitive state as
+consciousness,
+phenomenal
+HOTT, HOP, HOGS and
+some others
+Metacognitive or
+Metaperceptive element
+[22][23][24]
+[25][26][27]
+Neural Correlate of
+Consciousness
+group of theories
+(NCC)
+Neuroanatomical and
+neurophysiological basis
+of consciousness
+PFC-based,
+S2-based “map of self”,
+MRF “gamma-frequency”-
+based
+Biological brain:
+neurons possibly with
+glial cells, S2, MRF;
+qualia are less
+important
+[29][28][30]
+[31][32]
+Global Workspace
+Theory (GWT)
+All-brain network
+broadcasting forms a
+temporary “bright spot”
+of consciousness
+Non-dualistic “cartesian
+theatre”-like, LIDA-based
+Global Workspace
+Models (GWM),
+Learning Intelligent
+Distribution Agent
+(LIDA), Cogaff, GNW
+[33][34][35]
+[36][37]
+Multiple Draft
+Model (MDM)
+Not-static stream of
+dominating
+combinations with
+constant change
+Phenomenal -Qualia are
+sensory-based;
+Neurophysiological:
+activated brain areas
+competition;
+No “cartesian theatre”,
+no “hard problem” or
+qualia problem, no top
+structure, no higher
+consciousness gap
+[38][39][40]
+[41][42][43]
+Integrated
+Information
+Theory (IIT)
+Hierarchical model,
+stream of states and
+interactions between
+different brain structures
+More
+Physics oriented, Biology
+oriented or Information
+oriented
+Information blocks and
+their physical basis,
+special mathematical
+apparatus; no
+“philosophical zombie”
+[11], [14], [44]
+[45]
+Quantum
+consciousness (QC)
+Holographic nature of
+consciousness is a result
+of multiple quantum
+processes
+Holographic
+consciousness, “it from
+bit”, “Mathematical
+Universe”
+Quantum phenomena,
+Orch OR, temporal non-
+locality
+[46][47][48]
+[49][50][51]
+Table 1. Main consciousness theories
+qeios.com
+doi.org/10.32388/63ELTC
+7
+
+III. Non-human Brain
+Theories strictly focused on the functions of the human brain and unique qualia of human experience are
+criticized as anthropocentric. According to these critics, consciousness has to be seen as a general
+property of neural tissues with a certain level of organization and activity or even as an intrinsic quality
+of physical and information processes. With the narrow definition of the term, not only children [52] and
+mentally disabled  [53]  do not fit into the settings, but also sleeping and people in other levels of low
+awareness and altered states are denied consciousness. Certainly, in this case, animals, even with the
+most developed cognition, cannot possess anything more than pre-consciousness, and machines are not
+qualified for it by default. At the same time, computational intelligence is registered at the lowest levels of
+life. The slime mould Physarum polycephalum [54] is found to be “rational” enough to find the shortest
+way through the maze. Fungal hyphae are found to transmit informative electric impulses  [55]. Their
+ending parts behaviour can be explained as a meeting place for information from outside and inside.
+According to some opinions  [56], sensations of the autonomous organism are private, and they are the
+primary source of consciousness in more complex biological systems. Other authors further claim
+consciousness to be recursive spatio-temporal self-location [57].
+It is difficult to define consciousness in a phrase with a single meaning. The term is much wider, more
+complex and utterly defies simplification. While meta-awareness is a potentially important component,
+awareness itself, perception, self-perception, intentionality, and intelligence are also significant  [58].
+Together with reflexivity, it can be called cognition. Intelligence is often described as information
+processing and can be attributed to non-biological systems  [11][20] or having meta-explanation  [14], but
+can be ascribed to biological systems. Living organisms possess necessary autonomy, and as a result, a
+significant part of intentional behaviour and volition are directed towards the support of internal
+homeostasis and predictability of external events. The ability of the biological system to actively support
+its own operations is called autopoiesis  [19]. Functions that are not directed towards homeostasis,
+perpetual self-reproduction, and autonomy are called allopoietic. All living organisms are autopoietic,
+while artificial machines are generally allopoietic, regardless of the type of production, material or
+cognitive. Living systems are actually homeostatic or homeodynamic [59], with flowing physical matter
+and information, while non-biological computers, at least artificial, mostly receive information through
+electromagnetic flow.
+qeios.com
+doi.org/10.32388/63ELTC
+8
+
+Autopoietic systems, starting from viruses and cells, can actively support and reproduce themselves [19].
+Ensembles of cells are united in tissues, organs, systems and multicellular organisms. Every level of a
+more complex organization is autopoietic by itself. Autonomous organisms are also autopoietic and, with
+sufficient intellectual power and cognition, conscious in wide terms of using the nervous system and
+brain for it. Many researchers have a tendency to explain natural consciousness as an outcome of the
+evolutionary development of a multilevel self-reproducing autopoietic super-system  [16]. Attention
+Schema Theory (AST) postulates self-awareness as an interiorized projection of external models [60][61].
+Social functions, social organization, language and other instruments of communication can also be seen
+as a result of these processes  [30]. In this case, biological consciousness is radically different from any
+proposed machine analogue, with qualia uniquely related to multilevel autopoietic systems and their
+groups. At the same time, human consciousness is just a consequential level of biological development,
+and conscious systems can be potentially more or less developed, depending on the magnitude of the
+phenomenon on a continuous scale.
+Intelligence potentially can be measured by formal quantitative metrics. Several processing units, e.g.
+neurons and a number of synapses, give the average general power of the intelligent system. There are
+105 neurons in the fruit fly brain [62]. The honeybee has a relatively large cephalic ganglion with less than
+106 neurons  [63]. The mouse brain is composed of 70 million neurons, with about 12 million in the
+cortex [64]. The cat's brain holds 1.2 billion neurons, 250 million of which are in the cortex [65]. A dog has
+2.3 billion and 527 million, respectively, a lion 4.7 billion and 545 million, and brown bears – 9.6 billion
+and 250 million, respectively [65]. The elephant brain has 257 billion neurons, but 97.5% or 251 billion are
+in the cerebellum [66]. The human brain looks like a scaled-up primate brain. The density of neurons and
+their relationship with glial non-neuronal brain cells is also important  [67]. Neurons of the cortex can
+code numbers and handle qualitative information because of the distance between neurons with
+different coding results  [68]. By some estimations, the human brain has 5 million GB of RAM  [69], and
+according to the current projections, this computer power barrier will be overtaken after 2029. Table 2
+provides a comparison of neuron numbers in several biological species and humans.
+qeios.com
+doi.org/10.32388/63ELTC
+9
+
+Type
+Number of Neurons
+Cortex Neurons
+Fruit fly
+105
+-
+Honeybee
+106
+-
+Mouse
+7x107
+1.2x107
+Cat
+1.2x109
+25x107
+Dog
+2.3x109
+52.7x107
+Lion
+4.7x109
+54.5x107
+Brown bear
+9.6x109
+25x107
+Elephant
+257x109
+5.6x109
+Homo sapiens
+86x109
+16x109
+Table 2. Number of brain neurons in some biological species
+The human brain possesses from 86 billion to 100 billion neurons but structurally differs from the brains
+of elephants or other species in some aspects despite multiple anatomical and physiological similarities.
+The closest species are hominids. Still, animal brains have enough anatomic and physiological features to
+be comparable with the human brain. Structures responsible for perception, awareness, intentionality,
+self-perception and basic cognition can be found even in insects [63]. Many researchers, however, do not
+see low levels of intelligence and cognition as examples of consciousness  [70]. Cognition and brain
+structure have to reach a critical level of complexity to have it. Others suppose consciousness to be just a
+subset of cognitive activity, and to reach the conscious level, it is necessary to start with low-level
+cognitive activities [71].
+IV. Artificial Consciousness
+Artificial Consciousness (AC) has been a topic of serious debate for the last several decades. Opponents
+insist on the impossibility of AC due to the inability of computers to maintain autopoietic functions, to
+qeios.com
+doi.org/10.32388/63ELTC
+10
+
+experience qualia or to have sufficient multilevel complexity for the consciousness. The “Chinese room”
+thought experiment by Searle  [72] is constructed to disprove the hard problem thesis. According to the
+created imaginary framework, there is no need for the perfect machine to be intelligent, let alone
+conscious, to produce a necessary outcome. A human being cannot be seen as just a biological machine
+with upgraded intellectual functions and their extension as consciousness. No machine will have human
+intelligence and consciousness, no matter how intelligent it is. Hard problem manifestation rules out not
+only AI consciousness but also machine intelligence in human terms. There cannot be any AI bat or
+human-like philosophical zombie.
+Proponents produce several arguments for the case of AC. Philosophical explanations are often based on
+other thought experiments, refusal of sceptical thought experiments, and functional, structural or
+cognitive explanations. The “Chinese room” argument is rejected on the basis of consciousness as
+epiphenomena in the case of the argument itself, while strict functionalism, the absence of real
+interactivity, and the context do not demonstrate strength against AI or AC  [73]. The “Mary`s
+Room” [74] thought experiment is formulated to show no necessity for a really phenomenal experience.
+Abundant descriptive knowledge about the physical phenomena is sufficient to fully understand them.
+There is no need for direct physical experience. The “Brain in Vat” [75] argument has to show the inability
+of the mind to differentiate between the “real” world and the “virtual” world projected into the brain. If
+so, there is no way for the machine not to possess intelligence or even consciousness similar to humans.
+Another famous thought proposition is the Turing test. There are claims that computers passed the test
+while playing “Chess and Go”, and, on some occasions, chatbots impressed panellists enough to be
+recognized as humans. However, the test is recognized as insufficient  [76]. Shannon and McCarthy
+reflected on the Turing proposal with scepticism [77]. Even in the case when there is a machine with all
+possible human-like answers, this is not an intuitive concept of thinking [78]. If it is such a machine, it
+will have no possibility to pass the test. It is nomologically impossible. Some researchers prefer to see the
+Turing test as a metaphor [79]. And if we genuinely want to measure machines or any other intelligence,
+the test must comply with several rules  [80]. It should be non-boolean since intelligence is not a non-
+continuous phenomenon. It has to be factorial because intelligence is multi-dimensional and depends on
+various contexts. The test should be non-anthropomorphic and encompass any possible form of
+intelligence. So, the intelligence itself must be formulated in clear terms and be measurable by universal
+metrics. Problems of consciousness, as long as they are not just a computational function, are more
+extensive and cannot be attributed only to human-like features, evaluated by humans with no external,
+qeios.com
+doi.org/10.32388/63ELTC
+11
+
+“objective” means. Still, this is not an easy approach. There are suggestions that if AC appears, it will
+suffer cognitive and emotional deficits similar to those in newborn children [81]. According to Judea Pearl,
+strong AI will not appear until a 3-year-old child-comparable AI is equipped with mastery of
+causation  [82]. Other authors place different human ages on a scale of growing consciousness
+capabilities [83], where the upper level is occupied by systems with several parallel conscious streams.
+Theories of consciousness, which do not require a biological substrate, are often used for the modelling of
+AC. Higher Order group of theories are suitable candidates. Meta-cognition or first-order representative
+overseeing cognitive function allows constructing an artificial model in silico. However, critics mention
+the possibility of unconscious meta-cognition, which diminishes the role of HOT [84]. Consciousness has
+to be described in objective terms without the limitations of first-person experience [85]. IIT also allows
+the creation of not only an intelligent system but a conscious one from any suitable substrate, regardless
+of its biological or non-biological nature. If consciousness is a product of higher intelligence, a threshold
+should exist for it to appear [86]. GWT, and especially LIDA, create a functional topology for a possible AI-
+conscious system. In any case, neural network architecture or analogue will produce Artificial General
+Intelligence (AGI) or human-level AI powerful and sophisticated enough to have sufficient cognition, re-
+representation, self-awareness, self-perception, meta-cognition and other necessary functions of AC. AGI
+will soon produce AI+ machines that are able to design other, more effective AI++ machines [87]. At this
+moment, AI will overtake humankind intellectually and will be independent enough to possess an
+artificial consciousness. In order to achieve it, parallel computing has to be combined with symbolic
+reasoning [88].
+Quantum computing gives another potential solution for the AC. Quantum consciousness theories
+explain consciousness through processes based on quantum mechanics mechanisms. Quantum
+processes in brain structures can be potentially replicated with an appropriate quantum computer. While
+quantum computers are only in the early stages of development, there is significant progress in the field.
+The principle is based on a certain quantum process, which creates a quantum bit, or qubit, radically
+different from the classical bit of information. Qubit reflects continuous quantum superposition, where 0
+and 1 exist at the same moment of time [89]. This gives quantum computing systems potentially much
+higher performance, significantly overtaking classical computing systems. Photonic, electron-spin, ionic,
+superconducting, and some other types of quantum logical gates allow the building of a quantum
+computing machine, working with the help of special quantum algorithms. Sufficient power and
+appropriate architecture will give quantum computer consciousness, or at least sentience, to solve a hard
+qeios.com
+doi.org/10.32388/63ELTC
+12
+
+problem for machines. Quantum computers do not necessarily need to work based on quantum
+consciousness principles; they can be other AC models replicated in a quantum computing environment.
+The current limitation of quantum computing is the control of operational consistency and quantum
+decoherence errors with a growing number of qubits [89]. The number of qubits for the effective personal
+machine is 103-105, while the number of states or continuous variables would be 21000, around 10300.
+Noisy Intermediate-Scale Quantum (NISQ)  [90]  is supposed to be a future solution for 50-100 qubit
+machines and open possibilities for upscale quantum computers.
+V. Problems and Solution
+Discussion about the possibility of machines possessing consciousness is quite multi-facetious and
+touches on many relatively complex topics. If intelligence is a prerequisite for consciousness, the problem
+looks simplified, but the nature of computational power itself does not translate into intelligence directly.
+Despite this, some researchers claim the ability of machine intelligence to outperform any human
+functions with a sufficient number of neurons, connections and processing power [86]. Another problem
+is the physical and intrinsic operative dissimilarity between neural cells and machine neural network
+neurons. Biological cells, synapses, axons and dendrites are not directly similar to AI neurons and Neural
+Network connections. The closest analogy is the architecture of processing nodes. As mentioned above,
+living organisms are built from autopoietic layers, while artificially intelligent machines are quite
+different in most of their physical aspects. The similarity can be seen as functional and formally
+structural in terms of some theories, such as HOT, IIT, modular GWT, and others. The questions remain
+about the closeness of human, biological, and machine consciousness and if it can be constructed. The
+sheer functionality, weak AI, is certainly easier to achieve.
+The gap between autonomous biological systems and AI systems is quite wide. The evolutionary
+approach postulates a utilitarian explanation for emotions, feelings, needs and rational perception and
+behaviour, which does not leave space for the nonmaterialistic description of all mental states and
+phenomena. Thought experiments and predictions are effective for constructive discussion, but they
+cannot provide conclusive proof. The inability to finally prove or disprove AC by thought experiments or
+predictions somehow dilutes the value of the theoretical schemes. The actual situation with AC can be
+changed by practical experience. Until now, we could speak about achievements in perceptive and
+analytical information processing below the level of animal cognition or sentience. At the same time, AI
+provides instrumental solutions in wide areas of applications.
+qeios.com
+doi.org/10.32388/63ELTC
+13
+
+Automatics and AI appeared as instrumental solutions to the quickly growing number of tasks and
+enormous informational flow. An average person is exposed to 34 GB per day with 5.4% yearly
+growth [91]. Machine data processing capacity is growing steadily, while human brain capacity is limited
+by biological abilities. Historically, Data acceleration times caused initial societal stress  [92]. Adaptive
+technologies have been used over millennia, starting from the first writing systems. The data processing
+was done by specially trained individuals, united by overarching social organizations and enabled with
+special data processing and storing techniques. The distributed network was gradually empowered with
+instruments in a process, which led to computerization and AI development. Today, the processing
+possibilities of machines are necessary to support human intellectual abilities and information
+processing. The general machine capacity will overtake the general humankind brain capacity as an
+inevitable outcome of dataisation. But it certainly does not mean a shift from human control to machines.
+The autopoietic brain CPUs with low energy consumption, around 20 watts, are supported by external
+machines` CPUs with high energy consumption, and it looks more like an instrumental addition. Cell
+neurons have a response time of 10-3 seconds, while an artificial processor's response time is 10-9
+seconds [69]. Machines routinely outperform humans in tasks they are designed for, but they exist only as
+an instrumental extension. The composite network of networks for data processing becomes a human-
+machine complex of distributed cognition [93]. The growing data flow requires specific tools. There is no
+“mind” in Google search or any other internet data source, merely information uploaded by humans, as
+well as no “consciousness” in human-written algorithms or Siri. There is no question about qualia in
+such a machine. The feelings of the AI bat are irrelevant in this case. Concerning instruments, it is only
+possible to ask, “What is it like to be a thermostat?”  [94]  if the connotation of consciousness is about
+strictly predefined information processing without wide perceptive reflection.
+Human interaction with smart machines and a smart environment is important for contemporary and
+future society  [5]. As a human is not fully conscious and intellectual without growing in the cultural
+environment, humankind has to be prepared to exist as a network of networks between AI-empowered
+humans and machine nodes [93]. The general approach, “common sense”, will be supplemented with AI
+power, and “humans should adapt to AI system, nor vice versa”  [95]. There are a wide number of
+initiatives to be prepared for it, from the Cyc [96] project and the Internet of Things to trans-humanistic
+cyborg enhancements. There is still a “knowledge acquisition” bottleneck, as the Cyc project shows.
+However, concerns about the dangers of strong AI can be solved by altered AI with limited abilities. Weak
+qeios.com
+doi.org/10.32388/63ELTC
+14
+
+AI  [97] is sufficient and instrumental enough to be used in the Fifth Industrial Revolution, with cyber-
+biological space created by the interaction of digital and biological/natural twins [98].
+Ethical questions about AI and AC are usually seen as social implications of expanding the circle when
+more creatures are considered suitable for an ethical approach. It is so-called literal altruism [99], opposite
+to utilitarian instrumentalism. There is still a problem, shown in the model Conscious Satisfaction/
+Suffering. These states are not easy to assess, while intelligence can be measured, and intellectual
+abilities can be checked practically. Self-awareness also cannot be measured  [69]. The focus must be
+shifted, at least today, from the moral status of potential AC to the societal and psychological changes
+caused by AI while keeping the responsibility of humans for machine actions. AI with intentionally or
+unintentionally biased data can be of real concern  [95]  because the system inherently lacks ethics.
+Weizenbaum argued in “Computer Power and Human Reason” [100] that machines lack human qualities
+of judgment and empathy, so AI’s decisions must be always controlled by operators. Computers are not in
+a human context [101]. Consciousness is inseparable from function [102], and function is instrumental. AI
+is necessary as an extension of human abilities and not as an uncontrolled phenomenon.
+VI. Conclusion
+The computerization of modern life is an all-encompassing process. With swiftly growing computer
+power and distributed computing, networks of networks, smart environment and automatization, there
+is a place for the expectation of a complex human-machine environment. The discussion about the
+possibility of consciousness appearance in sacrificial intelligent devices is valuable, and constructive
+lessons from it are fruitful. Theoretical debate and practical laboratory research are mechanisms of
+scientific and technological progress. However, any research must be placed into the social context. The
+direct and indirect effects of widespread AI implementation must be measured not only by its narrow
+utilitarian results but also by societal and psychological outcomes. While the possibility of AC is still a
+question, there is no doubt about the transformational influence of new technologies. Modern society
+cannot carry on its functions as before and is not able to give up progressive development because of
+imaginary threats. Balanced collaboration of humankind, empowered with AI instruments in conditions
+of the Fourth and Fifth Industrial Revolutions, is a key to the future.
+qeios.com
+doi.org/10.32388/63ELTC
+15
+
+References
+1. ^D. McDermott, “Artificial intelligence and consciousness,” The Cambridge Handbook of Consciousness, Ca
+mbridge University Press, pp. 117-150, 2007.
+2. a, bD. Dennett, “Are we explaining consciousness yet?” Cognition, vol. 79 no. 1-2, pp. 221-237, 2001. DOI:10.101
+6/S0010-0277(00)00130-X
+3. ^A. Chella and R. Manzotti, "Artificial intelligence and consciousness," Association for the advancement of
+Artificial Intelligence Fall Symposium, pp. 1-8. 2007.
+4. ^G. Meissner, “Artificial intelligence: consciousness and conscience,” AI & SOCIETY, vol. 35 no. 1, pp. 225-235,
+2020. DOI:10.1007/s00146-019-00880-4
+5. a, bA. Chella and R. Manzotti, “Artificial consciousness,” Perception-action cycle (pp. 637-671). Springer, New
+York, NY, 2011.
+6. ^D. Rosenthal, “Two concepts of consciousness,” Philosophical Studies: An International Journal for Philoso
+phy in the Analytic Tradition, vol. 49 no. 3, pp. 329-35, 1986. DOI:10.1007/BF00355521.
+7. ^A. Damasio and K. Meyer, “Consciousness: An overview of the phenomenon and of its possible neural basi
+s,” The neurology of consciousness: Cognitive neuroscience and neuropathology, pp. 3-14, 2009.
+8. ^D. Chalmers, “How can we construct a science of consciousness?” Annals of the New York Academy of Scie
+nces, vol. 1303 no. 1, pp. 25-35, 2013. DOI: 10.1111/nyas.12166.
+9. ^R. Chrisley, I. Aleksander, S. Bringsjord, R. Clowes, J. Parthemore, S. Stuart, S. Torrance and T. Ziemke, “Asse
+ssing artificial consciousness: A collective review article,” Journal of Consciousness Studies, vol. 15, no. 7, pp.
+95-110, 2008.
+10. ^G. Tononi, and G. Edelman, “Consciousness and complexity,” Science, vol. 282, no. 5395, pp. 1846-1851, 199
+8.
+11. a, b, c, dG. Tononi, and C. Koch, “Consciousness: here, there and everywhere?,” Philosophical Transactions of t
+he Royal Society B: Biological Sciences, vol. 370 no. 1668, p. 20140167, 2015.
+12. a, bD. Chalmers, “The singularity: A philosophical analysis,” Science fiction and philosophy: From time trave
+l to superintelligence, pp. 171-224, 2009.
+13. ^J. Searle, “The problem of consciousness,” Consciousness and Cognition, vol 2, no. 4, pp. 310-319, 1993.
+14. a, b, c, dD. Chalmers, “The meta-problem of consciousness,” Journal of Consciousness Studies, vol. 25 no. 9-1
+0, 2018.
+qeios.com
+doi.org/10.32388/63ELTC
+16
+
+15. a, bD. Smith and G. Schillaci, “Why Build a Robot With Artificial Consciousness? How to Begin? A Cross-Disci
+plinary Dialogue on the Design and Implementation of a Synthetic Model of Consciousness,” Frontiers in Ps
+ychology, vol. 12, p. 1107, 2021. DOI:10.3389/fpsyg.2021.530560.
+16. a, b, cT. Niikawa, “A map of consciousness studies: questions and approaches,” Frontiers in Psychology, vol. 1
+1, p. 2524, 2020. DOI:10.3389/fpsyg.2020.530152.
+17. ^M. Velmans, “How to define consciousness: And how not to define consciousness. Journal of consciousness
+studies,” vol. 16, no. 5, pp. 139-156, 2009.
+18. ^M. Minsky, “The age of intelligent machines: thoughts about artificial intelligence,” KurzweilAI. net (en lín
+ea) http://www. kurzweilai. net/meme/frame. html, 1990.
+19. a, b, cF. Varela, H. Maturana and R. Uribe, "Autopoiesis The Organization of Living Systems, Its Characterizat
+ion and a Model," Cybernetics Forum, vol. 10, no. 2-3, pp. 7-13, 1981.
+20. a, bD. Sattin, F. Magnani, L. Bartesaghi, M. Caputo, A. Fittipaldo, M. Cacciatore, M. Picozzi, and M. Leonardi,
+“Theoretical Models of Consciousness: A Scoping Review,” Brain sciences, vol. 11, no. 5, p. 535, 2021. DOI:10.33
+90/brainsci11050535.
+21. ^A. Atkinson, M. Thomas and A. Cleeremans, “Consciousness: mapping the theoretical landscape,” Trends i
+n cognitive sciences, vol. 4, no. 10, pp. 372-382, 2000. DOI: 10.1016/s1364-6613(00)01533-3.
+22. a, b, cR. Brown, H. Lau, and J. LeDoux, Understanding the higher-order approach to consciousness. Trends in
+cognitive sciences, vol. 23, no. 9, pp. 754-768, 2019. DOI:10.1016/j.tics.2019.06.009.
+23. a, bD. Rosenthal, “Consciousness and confidence.” Neuropsychologia, vol. 128, pp. 255-265, 2019. DOI:10.1016/
+j.neuropsychologia.2018.01.018.
+24. a, bA. Sloman, “Experiencing computation: a tribute to Max Clowes,” New horizons in educational computin
+g, pp. 207-219, 1984.
+25. a, bP. Carruthers, “Conscious experience versus conscious thought,” Consciousness and Self-Reference, MIT P
+ress, 2005 DOI:10.1093/0199277362.003.0008.
+26. a, bR. Van Gulick, “Mirror Mirror – Is That All?,” Self-representational approaches to consciousness, pp. 11–3
+9, MIT Press, 2006.
+27. a, bR. Van Gulick, “Reduction, emergence and other recent options on the mind/body problem. A philosophic
+overview,” Journal of Consciousness Studies, vol. 8, no. 9-10, pp. 1-34, 2001.
+28. a, bJ. Saver, “Time is brain—quantified,” Stroke, vol. 37, no. 1, pp. 263-266, 2006. DOI:10.1161/01.STR.0000196
+957.55928.ab.
+qeios.com
+doi.org/10.32388/63ELTC
+17
+
+29. a, bS. Herculano-Houzel, “The human brain in numbers: a linearly scaled-up primate brain,” Frontiers in hu
+man neuroscience, no. 3, p.31, 2009. DOI:10.3389/neuro.09.031.2009.
+30. a, b, cA. Damasio and G. Carvalho, “The nature of feelings: evolutionary and neurobiological origins,” Natur
+e Reviews Neuroscience, vol. 14, no. 2, pp. 143-152, 2013. DOI:10.1038/nrn3403.
+31. a, bD. Lehmann, P. Faber, P. Achermann, D. Jeanmonod, L. Gianotti, and D. Pizzagalli, “Brain sources of EEG
+gamma frequency during volitionally meditation-induced, altered states of consciousness, and experience o
+f the self,” Psychiatry Research: Neuroimaging, vol, 108, no. 2, pp. 111-121, 2001. DOI:10.1016/S0925-4927(01)0
+0116-0.
+32. a, bN. Block, “Two neural correlates of consciousness,” Trends in cognitive sciences, vol. 9, no. 2, pp. 46-52, 2
+005. DOI:10.1016/j.tics.2004.12.006.
+33. a, bB. Baars, “The global brainweb: An update on global workspace theory,” Science and Consciousness Revi
+ew, no. 2. 2003.
+34. a, bS. Franklin, T. Madl, S. D’mello and J. Snaider, “LIDA: A systems-level architecture for cognition, emotion,
+and learning,” IEEE Transactions on Autonomous Mental Development, vol. 6, no. 1, pp. 19-41, 2013. DOI:10.1
+109/TAMD.2013.2277589.
+35. a, bA. Sloman and R. Chrisley, "More things than are dreamt of in your biology: Information-processing in bi
+ologically inspired robots." Cognitive Systems Research, vol. 6, no. 2, pp. 145-174, 2005. DOI:10.1016/j.cogsys.2
+004.06.004.
+36. a, bS. Dehaene and L. Naccache, “Towards a cognitive neuroscience of consciousness: basic evidence and a
+workspace framework,” Cognition, vol. 79, no. 1-2, pp. 1-37, 2001. DOI:10.1016/S0010-0277(00)00123-2.
+37. a, bJ. Fodor, “Precis of the modularity of mind,” Behavioral and brain sciences, vol. 8, no. 1, pp. 1-5, 1985. DOI:1
+0.1017/S0140525X0001921X.
+38. a, bD. Dennett, “Are we explaining consciousness yet?” Cognition, vol. 79, no. 1-2, pp. 221-237, 2001. DOI:10.101
+6/S0010-0277(00)00130-X.
+39. a, bT. Nagel, “What is it like to be a bat?,” Readings in Philosophy of Psychology, no 1, pp. 159-168, 1974. DOI:1
+0.2307/2183914.
+40. a, bD. Chalmers, "Facing up to the problem of consciousness." Journal of Consciousness Studies vol. 2, no. 3, p
+p. 200-219, 1995. DOI:10.1093/acprof:oso/9780195311105.003.0001.
+41. a, bD. Chalmers, “The hard problem of consciousness,” The Blackwell companion to consciousness, pp. 225-2
+35, 2007.
+qeios.com
+doi.org/10.32388/63ELTC
+18
+
+42. a, bJ. Levine, “Materialism and qualia: The explanatory gap,” Pacific Philosophical Quarterly, vol. 64, no. 4, p
+p. 354-361, 1983. DOI:10.1111/j.1468-0114.1983.tb00207.x.
+43. a, bD. Dennett, "Facing up to the hard question of consciousness." Philosophical Transactions of the Royal S
+ociety B: Biological Sciences, vol 373, no. 1755, p. 20170342, 2018. DOI:10.1098/rstb.2017.0342.
+44. a, bK. Frankish, "The Anti‐Zombie Argument," The Philosophical Quarterly, vol. 57, no. 229, pp. 650-666, 20
+07. DOI:10.1111/j.1467-9213.2007.510.x.
+45. a, bR. Kirk, “The inconceivability of zombies,” Philosophical Studies, vol. 139, no 1, pp. 73-89, 2008. DOI:10.10
+07/sl 1098-007-9103-2.
+46. a, bK. Pribram, "Consciousness reassessed." Mind and Matter, vol. 2, no. 1, pp. 7-35, 2004.
+47. a, bS. Hameroff, S. and R. Penrose, “Orchestrated reduction of quantum coherence in brain microtubules: A
+model for consciousness,” Mathematics and computers in simulation, vol. 40, no. 3-4, pp. 453-480, 1996. DO
+I:10.1016/0378-4754(96)80476-9.
+48. a, bB. Libet, "Do we have free will?," Journal of Consciousness Studies, vol. 6, no. 8-9, pp. 47-57, 1999.
+49. a, bS. Hameroff, "How quantum brain biology can rescue conscious free will," Frontiers in integrative neuros
+cience, no. 6, p. 93, 2012. DOI:10.3389/fnint.2012.00093.
+50. a, bJ.A Wheeler, Information, physics, quantum: The search for links, CRC Press, 2018, pp. 309-336.
+51. a, bM. Tegmark, "The mathematical universe," Foundations of Physics, vol. 38, no. 2, pp. 101-150, 2008. DOI:1
+0.1007/s10701-007-9186-9.
+52. ^H. Lagercrantz and J. Changeux, "The emergence of human consciousness: from fetal to neonatal life," Ped
+iatric research, vol. 65, no. 3, pp. 255-260, 2009. DOI:10.1203/PDR.0b013e3181973b0d.
+53. ^A. Revonsuo, S. Kallio and P. Sikka, "What is an altered state of consciousness?" Philosophical Psychology,
+vol. 22, no. 2, pp. 187-204, 2009. DOI:10.1080/09515080902802850.
+54. ^A. Adamatzky, "Slime mold solves maze in one pass, assisted by gradient of chemo-attractants," IEEE Tra
+nsactions on Nanobioscience, vol. 11, no. 2, pp. 131-134, 2012. DOI:10.1109/TNB.2011.2181978.
+55. ^A. Adamatzky, "Towards fungal computer," Interface Focus, vol. 8, no. 6, p.20180029, 2018. DOI:10.1098/rsf
+s.2018.0029.
+56. ^F. Crick, and C. Koch, "Consciousness and neuroscience." Cerebral cortex, vol. 8, no. 2, pp. 97-107, 1998. DOI:1
+0.1093/cercor/8.2.97.
+57. ^F. Peter, "Consciousness as recursive, spatiotemporal self-location." Nature Precedings, vol.1, no. 1 2009. DO
+I:10.1038/npre.2009.2444.2.
+qeios.com
+doi.org/10.32388/63ELTC
+19
+
+58. ^D. Baars, and D. Edelman, "Consciousness, biology and quantum hypotheses," Physics of life reviews, vol.
+9, no. 3, pp. 285-294, 2012. DOI:10.1016/j.plrev.2012.07.001.
+59. ^D. Lloyd, M. Aon and S. Cortassa, "Why homeodynamics, not homeostasis?" The Scientific World Journal,
+no. 1, pp. 133-145, 2001. DOI:10.1100/tsw.2001.20.
+60. ^A. Wilterson, C. Kemper, C. Kim, T. Webb, A. Reblando and M. Graziano, "Attention control and the attentio
+n schema theory of consciousness," Progress in Neurobiology, no. 195, p. 101844, 2020. DOI:10.1016/j.pneurob
+io.2020.101844.
+61. ^M. Graziano, "The attention schema theory: a foundation for engineering artificial consciousness," Frontie
+rs in Robotics and AI, no. 4, p. 60, 2017. DOI:10.3389/frobt.2017.00060.
+62. ^J. Kohl and G. Jefferis, “Neuroanatomy: decoding the fly brain,” Current Biology, vol. 21, no. 1, pp. R19-R20, 2
+011. DOI:10.1016/j.cub.2010.11.067.
+63. a, bC. Klein and A. Barron, "Insects have the capacity for subjective experience," Animal Sentience, vol. 1, no.
+9, p. 1, 2016 1.DOI:10.51291/2377-7478.1113.
+64. ^S. Herculano-Houzel, B. Mota and R. Lent, "Cellular scaling rules for rodent brains," Proceedings of the Nat
+ional Academy of Sciences, vol. 103, no. 32, pp. 12138-12143, 2006. DOI:10.1073/pnas.0604911103.
+65. a, bD. Jardim-Messeder, K. Lambert, S. Noctor, F. Pestana, M. de Castro Leal, M. Bertelsen, A. Alagaili, O. Moh
+ammad, P. Manger and S. Herculano-Houzel, “Dogs have the most neurons, though not the largest brain: tr
+ade-off between body mass and number of neurons in the cerebral cortex of large carnivoran species,” Fron
+tiers in neuroanatomy, no. 11, p. 118, 2017. DOI:10.3389/fnana.2017.00118.
+66. ^S. Herculano-Houzel, K. Avelino-de-Souza, K. Neves, J. Porfírio, D. Messeder, L. Mattos Feijó, J. Maldonado a
+nd P. Manger, “The elephant brain in numbers,” Frontiers in neuroanatomy, no. 8, p. 46, 2014. DOI:10.3389/fn
+ana.2014.00046.
+67. ^S. Herculano‐Houzel, "The glia/neuron ratio: how it varies uniformly across brain structures and species a
+nd what that means for brain physiology and evolution," Glia, vol. 62, no. 9, pp. 1377-1391, 2014. DOI:10.1002/
+glia.22683.
+68. ^E. Kutter, J. Bostroem, C. Elger, F. Mormann and A. Nieder, “Single neurons in the human brain encode num
+bers,” Neuron, vol. 100, no. 3, pp. 753-761, 2018. DOI:10.1016/j.neuron.2018.08.036.
+69. a, b, cG. Buttazzo, "Artificial consciousness: Hazardous questions (and answers)," Artificial Intelligence in Me
+dicine, vol. 44, no. 2, pp. 139-146, 2008. DOI:10.1016/j.artmed.2008.07.004.
+70. ^C. Pennartz, M. Farisco and K. Evers, “Indicators and criteria of consciousness in animals and intelligent m
+achines: an inside-out approach,” Frontiers in systems neuroscience, no. 13, p. 25, 2019. DOI:10.3389/fnsys.20
+qeios.com
+doi.org/10.32388/63ELTC
+20
+
+19.00025.
+71. ^D. Smith and G. Schillaci, "Why Build a Robot With Artificial Consciousness? How to Begin? A Cross-Discipl
+inary Dialogue on the Design and Implementation of a Synthetic Model of Consciousness," Frontiers in Psy
+chology, no. 12, p. 1107, 2021. DOI:10.3389/fpsyg.2021.530560.
+72. ^J. Searle, “Chinese room argument,” Scholarpedia, vol. 4, no. 8, p. 3100, 2009. DOI:10.4249/scholarpedia.310
+0.
+73. ^R. Damper, “The Chinese Room Argument—Dead but not yet Buried,” Journal of Consciousness Studies, vo
+l. 11, no. 5-6, pp. 159-169, 2004.
+74. ^F. Jackson, "What Mary didn't know," The Journal of Philosophy, vol.83, no. 5, pp. 291-295, 1986. DOI:10.230
+7/2026143.
+75. ^H. Putnam, “Brains in a Vat,” Knowledge: Critical Concepts, no. 1, pp. 192-207, 1981.
+76. ^P. Saariluoma and M. Rauterberg, “Turing test does not work in theory but in practice,” Proceedings of the
+17th International Conference on Artificial Intelligence-ICAI, pp. 433-437, 2015.
+77. ^B. Copeland, “The Turing test,” Minds and Machines, vol. 10, no.4, pp. 519-539, 2000. DOI:10.1023/A:1011285
+919106.
+78. ^S. Shieber, “There can be no Turing-Test--passing memorizing machines,” Philosophers' Imprint, vol. 14, n
+o. 16, pp. 1-13, 2014.
+79. ^K. Jantke, R. Knauf, and T. Abel, “The Turing test approach to validation,” 15th International Joint Conferen
+ce on Artificial Intelligence, IJCAI97, Workshop W, vol. 32, pp. 35-45, 1997.
+80. ^J. Hernández-Orallo, “Beyond the Turing test,” Journal of Logic, Language and Information, vol. 9, no. 4, p
+p. 447-466, 2000. DOI:10.1007/s11023-020-09549-0.
+81. ^T. Metzinger, “Two principles for robot ethics,” Robotik und gesetzgebung, pp.247-286, 2013.
+82. ^M. Bishop, "Artificial Intelligence Is Stupid and Causal Reasoning Will Not Fix It," Frontiers in Psychology,
+no. 11, p. 2603, 2021. DOI:10.3389/fpsyg.2020.513474.
+83. ^R. Arrabales, A. Ledezma Espino and M. Sanchis de Miguel, “Criteria for consciousness in artificial intellige
+nt agents,” Proceedings: Adaptive and Learning Agents, p. 57, 2008.
+84. ^R. Brown, H. Lau and J. LeDoux, “Understanding the higher-order approach to consciousness,” Trends in co
+gnitive sciences, vol. 23, no. 9, pp. 754-768, 2019. DOI:10.1016/j.tics.2019.06.009.
+85. ^W. Bechtel, “Consciousness: Perspectives from symbolic and connectionist AI,” Neuropsychologia, vol. 33, n
+o. 9, pp. 1075-1086, 1995. DOI:10.1016/0028-3932(95)00049-9.
+qeios.com
+doi.org/10.32388/63ELTC
+21
+
+86. a, bN. Bostrom, “Quantity of experience: brain-duplication and degrees of consciousness,” Minds and Machi
+nes, vol. 16, no. 2, pp. 185-200, 2006. DOI:10.1007/s11023-006-9036-0.
+87. ^D. Chalmers, “The singularity: A philosophical analysis,” Science fiction and philosophy: From time travel t
+o superintelligence, pp.171-224, 2009.
+88. ^M. Minsky, “Interior grounding, reflection, and self-consciousness,” Information and Computation: Essays
+on Scientific and Philosophical Understanding of Foundations of Information and Computation pp. 287-30
+5, 2011. DOI:10.1142/9789814295482_0011.
+89. a, bM. Dyakonov, “When will useful quantum computers be constructed? Not in the foreseeable future, this p
+hysicist argues. Here's why: The case against: Quantum computing. IEEE Spectrum, vol. 56, no. 3, pp. 24-29,
+2019. DOI:10.1109/MSPEC.2019.8651931.
+90. ^J. Preskill, “Quantum computing in the NISQ era and beyond,” Quantum, no. 2, p. 79, 2018. DOI:10.22331/q-2
+018-08-06-79.
+91. ^R. Bohn and J. Short, “Info Capacity. Measuring Consumer Information,” International Journal of Commun
+ication, no. 6, p. 21, 2012.
+92. ^F. Kaplan and I. di Lenardo, “Big data of the past,” Frontiers in Digital Humanities, no. 4, p. 12, 2017. DOI:10.
+3389/fdigh.2017.00012.
+93. a, bF. Heylighen, “Brain in a vat cannot break out,” Journal of Consciousness Studies, vol. 19, no. 1-2, pp. 126-1
+42, 2012.
+94. ^P. Holzman, “Consciousness and AI: Reformulating the Issue,” Macalester Journal of Philosophy, vol. 20, no.
+1, p. 7, 2011.
+95. a, bR. Schank R. and Bareiss, “What Are You Afraid Of? AI Doesn’t Kill People; People Kill People,” AIofAI’21: 1
+st Workshop on Adverse Impacts and Collateral Effects of Artificial Intelligence Technologies, CEUR Worksh
+op Proceedings, 2021.
+96. ^C. Matuszek, M. Witbrock, J. Cabral, and J. DeOliveira, “An introduction to the syntax and content of Cyc,” U
+MBC Computer Science and Electrical Engineering Department Collection, 2006.
+97. ^A. Seth, “The strength of weak artificial consciousness,” International Journal of Machine Consciousness, v
+ol. 1, no. 01, pp. 71-82, 2009. DOI:10.1142/S1793843009000086.
+98. ^X. Xu, Y. Lu, B. Vogel-Heuser and L. Wang, “Industry 4.0 and Industry 5.0—Inception, conception and perce
+ption,” Journal of Manufacturing Systems, no. 61, pp. 530-535, 2021. DOI:10.1016/j.jmsy.2021.10.006.
+99. ^D. Gunkel, “No Brainer: Why Consciousness is Neither a Necessary nor Sufficient Condition for AI Ethics,” A
+AAI Spring Symposium: Towards Conscious AI Systems. 2019.
+qeios.com
+doi.org/10.32388/63ELTC
+22
+
+100. ^J. Weizenbaum, "Computer power and human reason: From judgment to calculation," p. 1976. ISBN: 97807
+16704638.
+101. ^R. Fjelland, “Why general artificial intelligence will not be realized,” Humanities and Social Sciences Com
+munications, vol. 7, no. 1, pp.1-9, 2020. DOI:10.1057/s41599-020-0494-4.
+102. ^M. Cohen and D. Dennett, “Consciousness cannot be separated from function,” Trends in cognitive science
+s, vol. 15, no. 8, pp. 358-364, 2011. DOI:10.1016/j.tics.2011.06.008.
+Declarations
+Funding: No specific funding was received for this work.
+Potential competing interests: No potential competing interests to declare.
+qeios.com
+doi.org/10.32388/63ELTC
+23

@@ -1,0 +1,4371 @@
+ 
+1 
+  
+1 
+ 
+2 
+ 
+3 
+Leveraging non-human primate multisensory neurons and circuits in assessing consciousness theory 
+4 
+ 
+5 
+ 
+6 
+ 
+7 
+ 
+8 
+ 
+9 
+Jean-Paul Noel1, *, Yumiko Ishizawa2, *, Shaun R. Patel3, Emad N. Eskandar4, #, Mark T. Wallace 5, 6, 7, # 
+0 
+ 
+1 
+ 
+2 
+ 
+3 
+ 
+4 
+ 
+5 
+1  Center for Neural Science, New York University, New York City, New York, USA 
+6 
+ 
+7 
+2  Department of Anesthesia, Critical Care & Pain Medicine, Massachusetts General Hospital, Harvard Medical 
+8 
+School, Boston, USA 
+9 
+ 
+0 
+3 Department of Neurology, Massachusetts General Hospital, Harvard Medical School, Boston, USA 
+1 
+ 
+2 
+4 Leo M. Davidoff Department of Neurological Surgery, Albert Einstein College of Medicine, New York, USA 
+3 
+ 
+4 
+5 Department of Hearing and Speech, Vanderbilt University Medical School, Nashville, USA 
+5 
+ 
+6 
+6 Department of Psychology, Vanderbilt University, Nashville, USA 
+7 
+ 
+8 
+7 Department of Psychiatry and Behavioral Sciences, Vanderbilt Medical School, Nashville, USA 
+9 
+ 
+0 
+* indicates co-first authorship, and # indicates co-senior authorship. 
+1 
+ 
+2 
+ 
+3 
+ 
+4 
+Corresponding Author: 
+5 
+Jean-Paul Noel 
+6 
+Center for Neural Science, New York University 
+7 
+Jpn5@nyu.edu 
+8 
+615-482-1760 
+9 
+ 
+0 
+ 
+1 
+ 
+2 
+Running Title: Multisensory neurons to assess consciousness theory 
+3 
+ 
+4 
+ 
+5 
+ 
+6 
+ 
+7 
+ 
+8 
+ 
+9 
+ 
+0 
+ 
+1 
+ 
+2 
+ 
+3 
+ 
+4 
+ 
+5 
+.
+CC-BY-NC-ND 4.0 International license
+a 
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted March 21, 2019. 
+; 
+https://doi.org/10.1101/584516
+doi: 
+bioRxiv preprint 
+.
+CC-BY-NC-ND 4.0 International license
+a 
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted March 21, 2019. 
+; 
+https://doi.org/10.1101/584516
+doi: 
+bioRxiv preprint 
+.
+CC-BY-NC-ND 4.0 International license
+a 
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted March 21, 2019. 
+; 
+https://doi.org/10.1101/584516
+doi: 
+bioRxiv preprint 
+.
+CC-BY-NC-ND 4.0 International license
+a 
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted March 21, 2019. 
+; 
+https://doi.org/10.1101/584516
+doi: 
+bioRxiv preprint 
+.
+CC-BY-NC-ND 4.0 International license
+a 
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted March 21, 2019. 
+; 
+https://doi.org/10.1101/584516
+doi: 
+bioRxiv preprint 
+.
+CC-BY-NC-ND 4.0 International license
+a 
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted March 21, 2019. 
+; 
+https://doi.org/10.1101/584516
+doi: 
+bioRxiv preprint 
+.
+CC-BY-NC-ND 4.0 International license
+a 
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted March 21, 2019. 
+; 
+https://doi.org/10.1101/584516
+doi: 
+bioRxiv preprint 
+.
+CC-BY-NC-ND 4.0 International license
+a 
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted March 21, 2019. 
+; 
+https://doi.org/10.1101/584516
+doi: 
+bioRxiv preprint 
+.
+CC-BY-NC-ND 4.0 International license
+a 
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted March 21, 2019. 
+; 
+https://doi.org/10.1101/584516
+doi: 
+bioRxiv preprint 
+.
+CC-BY-NC-ND 4.0 International license
+a 
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted March 21, 2019. 
+; 
+https://doi.org/10.1101/584516
+doi: 
+bioRxiv preprint 
+.
+CC-BY-NC-ND 4.0 International license
+a 
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted March 21, 2019. 
+; 
+https://doi.org/10.1101/584516
+doi: 
+bioRxiv preprint 
+.
+CC-BY-NC-ND 4.0 International license
+a 
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted March 21, 2019. 
+; 
+https://doi.org/10.1101/584516
+doi: 
+bioRxiv preprint 
+.
+CC-BY-NC-ND 4.0 International license
+a 
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted March 21, 2019. 
+; 
+https://doi.org/10.1101/584516
+doi: 
+bioRxiv preprint 
+.
+CC-BY-NC-ND 4.0 International license
+a 
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted March 21, 2019. 
+; 
+https://doi.org/10.1101/584516
+doi: 
+bioRxiv preprint 
+.
+CC-BY-NC-ND 4.0 International license
+a 
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted March 21, 2019. 
+; 
+https://doi.org/10.1101/584516
+doi: 
+bioRxiv preprint 
+.
+CC-BY-NC-ND 4.0 International license
+a 
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted March 21, 2019. 
+; 
+https://doi.org/10.1101/584516
+doi: 
+bioRxiv preprint 
+.
+CC-BY-NC-ND 4.0 International license
+a 
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted March 21, 2019. 
+; 
+https://doi.org/10.1101/584516
+doi: 
+bioRxiv preprint 
+
+ 
+2 
+Abstract 
+6 
+ 
+7 
+Both the Global Neuronal Workspace (GNW) and Integrated Information Theory (IIT) posit that highly complex 
+8 
+and interconnected networks engender perceptual awareness. GNW specifies that activity recruiting fronto-
+9 
+parietal networks will elicit a subjective experience, while IIT is more concerned with the functional architecture 
+0 
+of networks than with activity within it. Here, we argue that according to IIT mathematics, circuits converging on 
+1 
+integrative vs. convergent yet non-integrative neurons should support a greater degree of consciousness. We 
+2 
+test this hypothesis by analyzing a dataset of neuronal responses collected simultaneously from primary 
+3 
+somatosensory cortex (S1) and ventral premotor cortex (vPM) in non-human primates presented with auditory, 
+4 
+tactile, and audio-tactile stimuli as they are progressively anesthetized with Propofol. We first describe the 
+5 
+multisensory (audio-tactile) characteristics of S1 and vPM neurons (mean and dispersion tendencies, as well 
+6 
+as noise-correlations), and functionally label these neurons as convergent or integrative according to their 
+7 
+spiking responses. Then, we characterize how these different pools of neurons behave as a function of 
+8 
+consciousness. At odds with the IIT mathematics, results suggest that convergent neurons more readily exhibit 
+9 
+properties of consciousness (neural complexity and noise correlation) and are more impacted during the loss 
+0 
+of consciousness than integrative neurons. Lastly, we provide support for the GNW by showing that neural 
+1 
+ignition (i.e., same trial co-activation of S1 and vPM) was more frequent in conscious than unconscious states. 
+2 
+Overall, we contrast GNW and IIT within the same single-unit activity dataset, and support the GNW. 
+3 
+ 
+4 
+ 
+5 
+ 
+6 
+ 
+7 
+ 
+8 
+ 
+9 
+ 
+0 
+ 
+1 
+ 
+2 
+ 
+3 
+ 
+4 
+ 
+5 
+ 
+6 
+ 
+7 
+ 
+8 
+ 
+9 
+ 
+0 
+ 
+1 
+ 
+2 
+ 
+3 
+ 
+4 
+.
+CC-BY-NC-ND 4.0 International license
+a 
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted March 21, 2019. 
+; 
+https://doi.org/10.1101/584516
+doi: 
+bioRxiv preprint 
+
+ 
+3 
+Introduction 
+5 
+ 
+6 
+Understanding the neural architecture enabling arousal or wakefulness (i.e., level or state of consciousness) 
+7 
+and conscious experience (i.e., content of consciousness) remains a central unanswered question in systems 
+8 
+neuroscience despite its profound clinical implications in coma, vegetative-state, minimal-consciousness, and 
+9 
+general anesthesia [1-3]. While in recent years a number of electrophysiological measures of 
+0 
+consciousness/awareness have been proposed [4-6], these tend to be more practical than principled, and 
+1 
+grounded more in the realm of engineering than neurobiology.  
+2 
+ 
+3 
+Lacking a mechanistic account of consciousness, a number of theorists and researchers have started from 
+4 
+empirical observations or phenomenological axioms to derive consciousness theories. A number of these 
+5 
+theories share many commonalities - as well as a number of practical and conceptual differences – as 
+6 
+exemplified by two of the most prevailing and influential of these theories: Global Neuronal Workspace (GNW; 
+7 
+[7, 8]) and Integrated Information Theory (IIT;[9-11], but see [12-17], for a number of other theories). 
+8 
+ 
+9 
+The GNW posits that an external stimulus will evoke a conscious experience if the associated neural 
+0 
+information is widely distributed across distinct brain areas and networks – most prominently in the pre-frontal 
+1 
+cortex [8]. Rendering sensory information globally available results in a coherent neural assembly of sustained 
+2 
+activity and is most readily indexed via “neural ignition”, the non-linear process whereby in unconscious states 
+3 
+neuronal activation profiles remain encapsulated within their specialized subsystems, whereas in conscious 
+4 
+experiences these activation patterns are widely distributed (see [18] for experimental evidence and [19] for a 
+5 
+recent computational treatise). 
+6 
+ 
+7 
+In a similar manner, IIT is a systems-level theory of consciousness also postulating that complex and highly 
+8 
+interconnected neural networks support subjective experience [11, 20]. In contrast to GNW, however, the 
+9 
+mathematics developed in hand with the IIT [9, 11] are argued to apply to all physical networks, and in turn IIT 
+0 
+is arguably more focused on the architecture of networks rather than the activity within these. In more detail, 
+1 
+Tononi and colleagues argue that each conscious experience is highly informative, as it represents a particular 
+2 
+instance among a vast repertoire of potential experiences, and is highly unified, unable of being deconstructed 
+3 
+.
+CC-BY-NC-ND 4.0 International license
+a 
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted March 21, 2019. 
+; 
+https://doi.org/10.1101/584516
+doi: 
+bioRxiv preprint 
+
+ 
+4 
+into sub-experiences that are each independently perceived [21]. In turn, the IIT specifies that an organism 
+4 
+may support conscious experience if imbued with an information processing architecture that is capable of 
+5 
+supporting both high differentiation (i.e., large repertoire of possible states) and integration (i.e., strong 
+6 
+statistical dependencies between system components). 
+7 
+ 
+8 
+Unfortunately, the neurophysiological data that bears directly on these theories is limited, in particular the IIT 
+9 
+given its computational overhead. Indeed, a strength of the IIT is that it explicitly generates a metric of 
+0 
+consciousness level; phi (Φ). This value, phi, can in principle be computed for any information processing 
+1 
+system, as long as the transition probability matrix between nodes of the system are known, and in essence is 
+2 
+proportional to the amount of information gained by knowing the state of all nodes within the system vs. having 
+3 
+access to a limited purview of the system (see [9] for more detail). Regretably, computing this measure in 
+4 
+complex biological systems is impossible from a practical standpoint due to its combinatorial search problem 
+5 
+(but see [22, 23] for interesting approaches circumventing current computing limitations).  
+6 
+ 
+7 
+In an effort to provide empirical evidence germane to theories of consciousness, we propose here simple 
+8 
+neurophysiological benchmarks for consciousness as derived from the GNW and IIT, and test them empirically 
+9 
+in single unit recordings in non-human primates. Of note, we must emphasize that the predictions derived 
+0 
+below, are according to IIT mathematics and are logical consequence to IIT and GNW literature, yet are not 
+1 
+necessarily put forward explicitly by either IIT or GNW theorists. Further, these predictions bear on the nature 
+2 
+of neural processing according to these theories, and are mute regarding “what it feels like” [24] or the “Hard 
+3 
+Problem” [25] of consciousness. With these caveats in mind, first we formalize the role of multisensory neurons 
+4 
+that integrate information from multiple sensory modalities (operationalized as being driven by multisensory 
+5 
+stimulation than to unisensory stimulation, “AND” gates) vs. those that converge yet do not integrate 
+6 
+(operationalized as responding to multiple sensory modalities but not being further driven by multisensory 
+7 
+conditions, “XOR” gates = “OR” gates – “AND” gates; see [26] for an early characterization of multisensory 
+8 
+neurons as Boolean gates). Interestingly, IIT mathematics suggests that a simple 3-node network (e.g., 
+9 
+unisensory audio node, unisensory tactile node, and multisensory audio-tactile node) merging on an “AND” 
+0 
+gate bears a greater degree of integrated information than one converging on an “XOR” gate (Φ = 0.78 vs. Φ = 
+1 
+.
+CC-BY-NC-ND 4.0 International license
+a 
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted March 21, 2019. 
+; 
+https://doi.org/10.1101/584516
+doi: 
+bioRxiv preprint 
+
+ 
+5 
+0.25, respectively; see Supplementary Information online, Figure S1 & S2). Thus, according to this 
+2 
+mathematical observation, it can be argued that as organisms’ transition from consciousness to 
+3 
+unconsciousness, neurons capable of integration should be those most readily impacted, hence providing us 
+4 
+with the first testable prediction (Prediction #1). Second, again derived from IIT mathematics, it may be 
+5 
+suggested that when organisms are conscious, neurons that integrate information should demonstrate neural 
+6 
+properties that are present during consciousness (see below) to a greater degree than do neurons that simply 
+7 
+convergent information (Prediction #2). Finally, according to GNW, neural ignition, indexed as single trial co-
+8 
+activation, should be more readily apparent in conscious than unconscious states (Prediction #3). 
+9 
+ 
+0 
+To probe these predictions we simultaneously record single units from the primary somatosensory cortex (S1) 
+1 
+and ventral pre-motor cortex (vPM) of non-human primates as they were presented with audio, tactile, or 
+2 
+audio-tactile stimuli. The monkeys were trained to report the presence of a stimulus (regardless of sensory 
+3 
+modality) via button press in order to determine their trial-to-trial alertness during propofol-induced loss of 
+4 
+consciousness (see [27]). We first characterize both the central (e.g., mean) and dispersion (e.g., variance) 
+5 
+tendencies of multisensory responses in S1 and vPM neurons under normal wakefulness, and based on these 
+6 
+responses, divide neurons into integrative or convergent categories. We then describe the impact of 
+7 
+anesthesia on neuronal ascription to these categories as the animals lose consciousness (testing prediction 
+8 
+#1) and the degree to which they exhibit two neurophysiological indices that vary with consciousness - 
+9 
+complexity [28] and noise correlations [29] (testing prediction #2). Finally, the fact that recordings were 
+0 
+performed simultaneously within a known microcircuit (S1 & vPM; [30]) allowed us to examine single trial 
+1 
+neural ignition as a function of consciousness (testing prediction #3).  
+2 
+ 
+3 
+Results 
+4 
+ 
+5 
+Characterizing Multisensory Neurons in S1 and vPM 
+6 
+ 
+7 
+The data, drawn as a subset of a previously published dataset [27], comprise neural responses recorded from 
+8 
+293 single units in S1 (228 from Monkey E and 65 from Monkey H) and 140 single units in vPM (87 from 
+9 
+Monkey E and 53 from Monkey H) recorded across 26 sessions (16 in Monkey E and 10 in Monkey H). 
+0 
+Responses were recorded as the animals were presented with either combined audiotactile (AT), tactile only 
+1 
+.
+CC-BY-NC-ND 4.0 International license
+a 
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted March 21, 2019. 
+; 
+https://doi.org/10.1101/584516
+doi: 
+bioRxiv preprint 
+
+ 
+6 
+(T), auditory only (A), or no (N) stimuli, and monkeys performed a detection task in which they were asked to 
+2 
+press and hold a button for 3 seconds after sensory stimulation. Animals were progressively anesthetized with 
+3 
+Propofol, at a rate determined to induce a loss of consciousness within approximately 10 minutes (see [27], 
+4 
+and Methods). Thus, given the pattern of behavioral responses, trials can be divided into bins according to 
+5 
+whether the animal was in an aware and unaware state (see Methods). 
+6 
+ 
+7 
+ 
+Firing Rates in S1 and vPM neurons 
+8 
+ 
+9 
+Regarding the basic characterization of multisensory neurons in S1 and vPM, firing rates demonstrate 1) a 
+0 
+reliable response to stimulus onset (Figure 1, 1st and 3rd row; colored horizontal bars indicate evoked response 
+1 
+vs. baseline at p<0.01), and 2) a reduction in activity when monkeys were rendered unconscious, both with 
+2 
+regard to spontaneous (i.e., baseline,) and evoked activity (Figure 1, 1st and 3rd row; shaded area represents 
+3 
+the difference between evoked activity when animals were conscious and not at p<0.01). Further, as expected 
+4 
+given the known role of vPM in auditory processing [31], neurons in vPM, but not S1, generally responded to 
+5 
+auditory stimulation (interaction at p<0.01 between 60-210 ms post-stimuli onset).  
+6 
+ 
+ 
+7 
+Fano Factors in S1 and vPM neurons 
+8 
+ 
+9 
+Fano Factors (FF) were calculated to assess inter-trial response variability as a function of brain area, 
+0 
+stimulation type, and state of consciousness. It has been previously reported that FFs are larger in an 
+1 
+unconscious states (~2.2) than in conscious states [29]. Our results support a similar pattern, with FFs values 
+2 
+being on average 1.45 under unconscious conditions and 1.16 under conscious conditions. This pattern fits 
+3 
+nicely with the notion that conscious neural representations are more reproducible than unconscious ones [32]. 
+4 
+The results also show an interesting pattern of variability changes as a function of stimulus onset. Whereas 
+5 
+prior work has shown a reduction in variability upon stimulus onset [33], the current results illustrate larger 
+6 
+reductions in FF upon stimulus presentation in unconscious as opposed to conscious states (see SI for detail). 
+7 
+This observation illustrates that firing rates and FFs are not directly yoked to one another (see [29], for a similar 
+8 
+argument), and thus emphasizes the need to examine both central and dispersion tendencies in the response 
+9 
+profiles of these neural populations. 
+0 
+.
+CC-BY-NC-ND 4.0 International license
+a 
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted March 21, 2019. 
+; 
+https://doi.org/10.1101/584516
+doi: 
+bioRxiv preprint 
+
+ 
+7 
+ 
+1 
+ 
+2 
+Figure 1. Time-resolved firing rates and Fano Factors in S1 and vPM as a function of state of consciousness. 
+3 
+Presentation of audiotactile (AT; purple) and tactile (T; blue) stimuli evoked a reliable response in S1, while additionally 
+4 
+the presentation of auditory (A; red) stimuli evoked a reliable response in vPM but not S1. Catch trials (N; black) did not 
+5 
+evoked an increase in neural responses vis-à-vis baseline firing rate (0 on y-axis). Fano Factors were generally larger 
+6 
+under states of unawareness than awareness (not depicted) and interestingly stimuli onset (0 on x-axis) quenched 
+7 
+variability in S1 (particularly onset of AT and T stimuli) but less so (and not differently between states of consciousness) in 
+8 
+vPM. The time-periods demonstrating a significant difference in evoked activity/FF as a function of state of consciousness 
+9 
+(aware = colored, unaware = gray) are shaded in gray, while periods demonstrating a significant response vis-à-vis 
+0 
+baseline are indicated by horizontal lines in each panel.    
+1 
+ 
+2 
+ 
+3 
+Multisensory Characteristics of S1 and vPM neurons 
+4 
+ 
+5 
+Following the observation that neural responses to stimulus presentation were most robust during the 500 ms 
+6 
+immediately following stimulus onset (above, see SI for detail), we performed a spike count during this interval 
+7 
+to characterize the multisensory properties of neurons recorded (see [34] for a similar approach). The 
+8 
+multisensory integrative responses of these neurons were quantified in two ways: relative to the sum of the 
+9 
+-500
+0
+500
+1000
+-0.5
+0
+0.5
+1
+1.5
+-500
+0
+500
+1000
+-0.5
+0
+0.5
+1
+1.5
+-500
+0
+500
+1000
+-0.5
+0
+0.5
+1
+1.5
+-500
+0
+500
+1000
+-0.5
+0
+0.5
+1
+1.5
+-500
+0
+500
+1000
+-1
+0
+1
+2
+3
+4
+-500
+0
+500
+1000
+-1
+0
+1
+2
+3
+4
+-500
+0
+500
+1000
+-1
+0
+1
+2
+3
+4
+-500
+0
+500
+1000
+-1
+0
+1
+2
+3
+4
+-500
+0
+500
+1000
+-0.3
+-0.2
+-0.1
+0
+-500
+0
+500
+1000
+-0.3
+-0.2
+-0.1
+0
+-500
+0
+500
+1000
+-0.3
+-0.2
+-0.1
+0
+-500
+0
+500
+1000
+-0.3
+-0.2
+-0.1
+0
+-500
+0
+500
+1000
+-0.2
+-0.1
+0
+0.1
+0.2
+-500
+0
+500
+1000
+-0.2
+-0.1
+0
+0.1
+0.2
+-500
+0
+500
+1000
+-0.2
+-0.1
+0
+0.1
+0.2
+-500
+0
+500
+1000
+-0.2
+-0.1
+0
+0.1
+0.2
+Firing Rate (Spikes/s) 
+Fano Factor (slope) 
+Firing Rate (Spikes/s) 
+Fano Factor (slope) 
+S1 
+vPM 
+AT 
+T 
+A 
+N 
+Time (ms) 
+Time (ms) 
+Time (ms) 
+Time (ms) 
+Time (ms) 
+Time (ms) 
+Time (ms) 
+Time (ms) 
+Aware 
+Unaware 
+Aware 
+Unaware 
+Aware 
+Unaware 
+Aware 
+Unaware 
+.
+CC-BY-NC-ND 4.0 International license
+a 
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted March 21, 2019. 
+; 
+https://doi.org/10.1101/584516
+doi: 
+bioRxiv preprint 
+
+ 
+8 
+unisensory responses (i.e., relative to the additive prediction; Supra-Additivity Index), and 2) relative to the 
+0 
+most effective unisensory response (i.e., quantifying the magnitude of the enhancement or depression of 
+1 
+response; Enhancement Index [34, 35]. Here we report both indices for completeness, but operationally define 
+2 
+integrative neurons as those with an enhancement index >1 (as both previous reports and the current dataset 
+3 
+indicate that supra-additivity is rare in cortex (e.g., [36, 37]).  
+4 
+ 
+5 
+ 
+6 
+ 
+7 
+ 
+8 
+Figure 2. Characterizing multisensory neurons. A neuron whose multisensory response is greater than the sum of 
+9 
+unisensory responses is said to be supra-additive (see A), while if it’s greater than the greatest unisensory response it’s 
+0 
+considered to demonstrate multisensory enhancement (see B). A and B illustrate firing rates above a spontaneous rate 
+1 
+(baseline-correction from -500 to 0ms; y-axis = 0). The distribution of supra-additive indices (left column) and 
+2 
+enhancement indices (see Methods for detail) were normally distributed both in S1 (C and D) and vPM  (E and F), 
+3 
+regardless of whether the animals were aware (black) or unaware (gray). 
+4 
+ 
+5 
+From the 293 single units recorded in S1, when the animals were aware 2 had a supra-additive index above 1 
+6 
+(supra-additivity index = 1.23 and 1.01, former depicted in Figure 2a), while another 2 (different neurons) had 
+7 
+1
+0
+1
+2
+3
+1
+0
+2
+4
+6
+8
+0
+0.5
+1
+1.5
+2
+0
+0.5
+1
+0
+0.5
+1
+1.5
+2
+0
+0.5
+1
+0
+0.5
+1
+1.5
+2
+0
+0.5
+1
+0
+0.5
+1
+1.5
+2
+0
+0.5
+1
+S1 
+vPM 
+Aware 
+Unaware 
+T 
+Max Sum 
+AT 
+T 
+Max Sum 
+AT 
+Firing Rate (Spikes/s) 
+S1 supra-additive neuron 
+S1 enhancement neuron 
+Supra-Additive Index 
+(AT/A+T) 
+Normalized Probability Density 
+Normalized Probability Density 
+Enhancement Index 
+(AT/max(A,T)) 
+A 
+A 
+A) 
+B) 
+C) 
+D) 
+E) 
+F) 
+.
+CC-BY-NC-ND 4.0 International license
+a 
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted March 21, 2019. 
+; 
+https://doi.org/10.1101/584516
+doi: 
+bioRxiv preprint 
+
+ 
+9 
+supra-additive responses when the monkeys were rendered unconscious (supra-additivity index=2.01 and 
+8 
+1.01). Thus, supra-additivity is seemingly rare in S1. On the other hand, 100 neurons had enhancement 
+9 
+indices above 1 when the animals were conscious (see Figure 2b, for example), a number that was reduced to 
+0 
+55 when the animals were rendered unconscious (25 of which indicating an Enhancement Index greater than 1 
+1 
+in both aware and unaware states). Regarding vPM neurons, of the 140 neurons recorded, when the animals 
+2 
+were aware 2 had a supra-additive index above 1 (Supra-Additivity Index=1.03 and 1.04), while only a single 
+3 
+neuron was supra-additive when the animals were unconscious (Supra-Additivity Index=1.16, distinct neurons 
+4 
+in aware and unaware cases). Twenty-nine vPM neurons had enhancement indices above 1 when animals 
+5 
+were aware, a number that remained stable at 29 when monkeys were unconscious (2 out of the 29 neurons 
+6 
+were the same in aware and unaware states). Hence, multisensory supra-additivity appears equally infrequent 
+7 
+in S1 as in vPM, and interestingly there are seemingly more neurons demonstrating multisensory 
+8 
+enhancement in S1 than vPM when animals were conscious (S1=34%, vPM=20%) yet approximately equal 
+9 
+proportions when the animals are unconscious (S1=18%, vPM=20%).  
+0 
+ 
+1 
+The distributions of supra-additive and enhancement indices are well described by a Gaussian distribution, 
+2 
+both when monkeys were conscious (chi-square goodness-of-fit test, p=0.28 and p=0.24, respectively) and 
+3 
+unaware (p=0.70, and p=0.90, respectively; see [36] for a similar observation; Figure 2c-f). Given this, we can 
+4 
+readily estimate the mean supra-additivity and enhancement indices associated with each neural population 
+5 
+and consciousness state (see for example [38], for an indication that frequency of multisensory neurons and 
+6 
+degree to which integration occurs may be dissociated). A 2 (recording area; S1 vs. vPM) x 2 (consciousness 
+7 
+state; aware vs. unaware) independent samples ANOVA on supra-additive indices (Figure 2c,e) revealed main 
+8 
+effects both of consciousness state (p=0.015) and recording area (p<0.01), where supra-additivity indices were 
+9 
+larger under aware (M=0.52, S.E.M=0.006) than unaware (M=0.50, S.E.M=0.007) states, and larger in S1 
+0 
+(M=0.52, S.E.M=0.006) when compared with vPM (M=0.48, S.E.M=0.006). There was no interaction between 
+1 
+these variables (p=0.47). On the other hand, a similar analysis with regard to enhancement indices suggested 
+2 
+no distinction between consciousness states (p=0.11), no main effect of recording areas (p=0.30), and no 
+3 
+interaction between these variables (p=0.09). These results highlight that the frequency and magnitude of 
+4 
+multisensory integration may be dissociated (e.g., [38] and that supra-additive – where both unisensory 
+5 
+.
+CC-BY-NC-ND 4.0 International license
+a 
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted March 21, 2019. 
+; 
+https://doi.org/10.1101/584516
+doi: 
+bioRxiv preprint 
+
+ 
+10
+responses are considered – and enhancement indices – where only the maximal unisensory response is 
+6 
+compared to the multisensory response – may provide very different views into integrative capacity. Further, 
+7 
+the findings indicate a highly heterogeneous population. Taking the example of the enhancement indexes in 
+8 
+S1 (from which a representative multisensory integrative pool may be drawn, N=100, vs. N=29 in vPM) this 
+9 
+metric indicates no overall change in the amount of integration at a population-level and across states of 
+0 
+consciousness, yet examination of the classification of particular neurons reveals dramatic differences; shifting 
+1 
+from 100 to 55 neurons in S1, only 25 of which were classified as integrating information both in aware and 
+2 
+unaware states. 
+3 
+ 
+4 
+Fortunately within the current context aimed at examining theories of consciousness (e.g., IIT) we can leverage 
+5 
+this variability to examine the outcome of neurons labeled as integrative or as convergent when animals are 
+6 
+rendered unconscious. Figure 3 depicts the non-mutually exclusive compartmentalization of integrative and 
+7 
+convergent neurons when monkeys were conscious. In this categorization scheme, neurons with an 
+8 
+enhancement index greater than 1 were considered to integrate information. In the conscious state, 43% of 
+9 
+neurons in S1 respond to both audio and tactile stimuli, and thus can be categorized as convergent (figure 3 
+0 
+top left). For vPM, this value is 44% (figure 3 bottom left). When the categorization is done based on integrative 
+1 
+criteria, 52% of neurons in S1 were found to integrate auditory and tactile information (i.e., respond to AT+(AT> 
+2 
+max (A, T); figure 3 top right), while 33% of neurons in vPM were categorized as integrative (figure 3 bottom 
+3 
+right).  
+4 
+ 
+5 
+ 
+6 
+.
+CC-BY-NC-ND 4.0 International license
+a 
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted March 21, 2019. 
+; 
+https://doi.org/10.1101/584516
+doi: 
+bioRxiv preprint 
+
+ 
+11
+ 
+7 
+ 
+8 
+Figure 3. Non-mutually exclusive classification of neurons in S1 (top row) and vPM (bottom row) as convergent, 
+9 
+integrative, unisensory, or non-responsive. Left column; Neurons whose convolved firing rate excited their 
+0 
+spontaneous rate plus 2 standard deviations for at least 10ms between 0ms and 1000ms post-stimuli onset were 
+1 
+responsive. If they responded to both tactile (T) and auditory (A) stimulation, they were considered convergent (black). On 
+2 
+the other hand, if they responded solely to T or A stimulation, they were respectively labeled as tactile (blue) and auditory 
+3 
+(red). Right column; Differently from the case of convergence, in order to characterize a neuron as integrative, their 
+4 
+response profile to audio-tactile (AT) stimulation had to be examined. First, neurons were classified as responsive or not 
+5 
+(white; as above). Next, if the neuron was responsive to AT stimulation (defined as above) we queried whether during 
+6 
+some epoch between 0ms and 1000ms post-stimuli onset their firing rate to AT stimulation was greater than the sum of A 
+7 
+and T firing rates (supra-additivity; orange) or the maximum of A and T firing rates (enhancement; purple). Lastly, if a 
+8 
+neuron was responsive to AT stimulation but responded less to AT than to unisensory stimulation, the neuron was 
+9 
+classified as demonstrating multisensory depression (green). Lastly, if they neuron did not respond to AT or A stimulation, 
+0 
+but did to T, it was labeled as tactile (blue), while if a neuron did not respond to AT or T, but did to A, it was labeled as 
+1 
+auditory (red). 
+2 
+ 
+3 
+ 
+4 
+Importantly, in order to examine how this categorization is changed when animals are rendered unconscious 
+5 
+(Prediction #1) and to quantify the extent to which they exhibit properties of consciousness (Prediction #2), we 
+6 
+created mutually exclusive groups. Neurons that failed to respond to the auditory and tactile stimulus 
+7 
+combination more that to the individual stimuli were classified as strictly convergent (convergent yet not 
+8 
+S1 
+vPM 
+Unisensory Responses 
+Above Baseline 
+Unisensory Responses and 
+Multisensory Properties 
+Responds to A and T (convergent)  
+Responds to T but not A 
+Responds to A but not T 
+Does not respond to T nor A 
+Responds to AT (enhancement; integrative) 
+Responds to AT (supra-additive; Integrative) 
+Responds to AT (depression) 
+Responds to T but not A 
+Responds to A but not T 
+Does not respond to T nor A 
+43% 
+44% 
+30% 
+40% 
+4% 
+10% 
+6% 
+23% 
+49% 
+24% 
+9% 
+3% 
+6% 
+9% 
+32% 
+34% 
+10% 
+1% 
+10% 
+13% 
+.
+CC-BY-NC-ND 4.0 International license
+a 
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted March 21, 2019. 
+; 
+https://doi.org/10.1101/584516
+doi: 
+bioRxiv preprint 
+
+ 
+12
+integrative, or “XOR” gates). Conversely, neurons that responded more vigorously to the multisensory 
+9 
+combination were labeled as integrative neurons, and were operationally categorized as “AND” gates. This 
+0 
+bifurcation of neurons into exclusive groups is important from a statistical perspective (in order not to create 
+1 
+groups that are partially overlapping and overlapping to different extents across states of consciousness and 
+2 
+recordings areas), and most importantly, from a theoretical perspective, creating “AND” and “XOR” neuronal 
+3 
+pools. However, given the initial number of recorded neurons in S1 and vPM, this categorization scheme 
+4 
+yielded a sufficient number of convergent (N=125) and integrative (N=64) neurons in S1, but not in vPM 
+5 
+(convergent, N = 61; integrative, N = 8). Thus, for the analyses specifically probing the difference between 
+6 
+convergent and integrative neurons in light of IIT (Predictions #1 and #2), analyses are restricted to S1. 
+7 
+ 
+8 
+ 
+Testing Consciousness Theory in Multisensory Neurons; Information Integration Theory 
+9 
+ 
+0 
+Prediction #1; Are integrative neurons most readily impacted by loss of consciousness? A first 
+1 
+neurophysiological prediction that may be derived from the IIT is that network structured around an integrative 
+2 
+neuron should lead to a greater degree of consciousness than one structured around a convergent neuron 
+3 
+(see SI and Introduction). Hence, as an organism is rendered unconscious, the prediction is that integrative 
+4 
+neurons should be most impacted.  
+5 
+ 
+6 
+As illustrated in Figure 4a, while a significant portion of S1 neurons labeled as convergent when the monkey 
+7 
+was conscious became responsive exclusively to touch (42.1%) following loss of consciousness, others were 
+8 
+rendered non-responsive (24.1%) or transitioned to responding exclusively to auditory stimulation (2.5%). 
+9 
+31.0% of neurons remained responsive to both auditory and tactile stimulation following loss of consciousness. 
+0 
+On the other hand, of S1 neurons labeled as integrative when the animal was conscious, nearly two-thirds 
+1 
+(62.9%) remained integrative following the loss of consciousness. 18.6% of integrative neurons became 
+2 
+exclusively responsive to tactile stimulation, 2.2% became exclusively responsive to auditory stimulation, and 
+3 
+16.3% became unresponsive. A Chi-squared test demonstrated that these proportions (62.9% remaining as 
+4 
+integrative but only 31.0% remaining as convergent) were significantly different from one another (p=0.001). 
+5 
+Thus, and in contrast to the prediction derived from IIT, convergent neurons were more impacted when 
+6 
+monkeys became unaware. It must be noted that this occurred despite the fact that arguably the requirements 
+7 
+.
+CC-BY-NC-ND 4.0 International license
+a 
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted March 21, 2019. 
+; 
+https://doi.org/10.1101/584516
+doi: 
+bioRxiv preprint 
+
+ 
+13
+for being classified as “integrative” (i.e., responding to AT stimuli beyond their spontaneous and responding to 
+8 
+AT stimuli beyond the maximal unisensory response) was more stringent than the bar required for a neuron to 
+9 
+be classified as “convergent” (i.e., responding to A and T stimuli beyond their spontaneous firing rate).  
+0 
+ 
+1 
+We further examined whether these anesthesia-induced changes in neuronal responsiveness scaled with the 
+2 
+degree to which neurons may be considered to be integrative. While supra-additivity or multisensory 
+3 
+enhancement are considered to be the hallmarks of multisensory integration [27], many multisensory neurons 
+4 
+respond less vigorously to multisensory stimulation than their maximal response to unisensory stimulation (i.e., 
+5 
+multisensory depression; [35]. Nonetheless, these neurons are still considered to play an important role in 
+6 
+multisensory integration [39]. As illustrated in Figure 4b, while 56.4% of neurons exhibiting multisensory 
+7 
+enhancement during consciousness had this enhancement preserved when the animal was rendered 
+8 
+unconsciousness, only 36.8% of neurons that were categorized as exhibiting multisensory depression 
+9 
+remained in that category upon the transition to unawareness. These proportions were significantly different 
+0 
+from what is expected under the null distribution (p=0.04). In sum, not only are integrative neurons not most 
+1 
+readily impacted during the loss of consciousness, but the more a neuron is driven by paired stimulation 
+2 
+toward response enhancement, the more likely it is to retains this enhancement during unconsciousness. 
+3 
+ 
+4 
+ 
+5 
+.
+CC-BY-NC-ND 4.0 International license
+a 
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted March 21, 2019. 
+; 
+https://doi.org/10.1101/584516
+doi: 
+bioRxiv preprint 
+
+ 
+14
+ 
+6 
+ 
+7 
+Figure 4. Transitions of S1 convergent and integrative neurons into distinct categories as monkeys are 
+8 
+anesthetized. A) The largest proportion of convergent neurons when monkeys were aware (black, leftmost) became 
+9 
+responsive solely to tactile stimulation (blue) when monkeys were rendered unconscious (second column), while 31.0% 
+0 
+remained as convergent (black, second column). On the other hand, the majority of integrative neurons when monkeys 
+1 
+were aware (rightmost column) remained as integrative (purple, 3rd column). B) Similar to the contrast between 
+2 
+convergent and integrative neurons, when contrasting neurons exhibiting multisensory depression (i.e., responds to AT 
+3 
+but to a lesser extend than to unisensory stimulation) and enhancement (i.e., responds to AT and to a greater degree than 
+4 
+to unisensory stimulation), results suggests that the larger the multisensory gain, the more neurons remain as integrative 
+5 
+(vs. not) when rendered unconscious. 
+6 
+ 
+7 
+Prediction #2; Do integrative neurons most readily demonstrate neural properties associated with 
+8 
+consciousness? In addition to probing the fate of convergent and integrative neurons as the animals were 
+9 
+rendered unconscious, we also probed the degree to which these neurons exhibit neurophysiological 
+0 
+properties associated with conscious states. The empirical measure most commonly associated with the IIT is 
+1 
+the perturbation complexity index (PCI; [6]) and a component of this index, Lempel-Ziv complexity (LZ; [28]). In 
+2 
+short, PCI is calculated by perturbing the cortex via transcranial magnetic stimulation (TMS) in an attempt to 
+3 
+engage a distributed brain network, and subsequently compressing the spatiotemporal patterns of neural 
+4 
+activity generated by the perturbation (using LZ) to measure the complexity of the response. In theory, the 
+5 
+more distributed and recurrent the network, the larger should be the spatiotemporal complexity evoked by the 
+6 
+perturbation. This empirical measure was directly derived from the IIT [11] and has been shown to successfully 
+7 
+Aware Convergent 
+Aware Integration 
+Unaware 
+Non-Responsive 
+Auditory 
+Tactile 
+Integration 
+Convergence 
+Aware Depression 
+Aware Enhancement 
+Unaware 
+Non-Responsive 
+Auditory 
+Tactile 
+Enhancement 
+Depression 
+A) 
+B) 
+42.1% 
+24.1% 
+31.0% 
+18.6% 
+62.9% 
+16.3% 
+36.8% 
+17.9% 
+21.0% 
+36,8% 
+23.9% 
+56.4% 
+.
+CC-BY-NC-ND 4.0 International license
+a 
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted March 21, 2019. 
+; 
+https://doi.org/10.1101/584516
+doi: 
+bioRxiv preprint 
+
+ 
+15
+differentiate between distinct levels of consciousness [6, 40]. In more simple applications, LZ has also been 
+8 
+applied to resting state [41, 42] and stimulus evoked [43, 44] neural activity (most commonly in scalp EEG 
+9 
+datasets), and similar to PCI, has been shown capable of differentiating between levels of consciousness [41, 
+0 
+42]. Here we first characterize time-resolved LZ complexity in spike trains as a function of consciousness state 
+1 
+and modality of stimulation. The analysis is performed both on baseline-corrected values (in order to compare 
+2 
+the changes evoked by sensory stimulation) and on non-baseline-corrected values (in order to more generally 
+3 
+examine the relationship between LZ complexity in spike trains and level of consciousness). After establishing 
+4 
+predictions based on the state of consciousness in the neural population as a whole, we then bifurcate S1 
+5 
+neurons into convergent or integrative pools, and examine which cohort most faithfully exhibits LZ complexity 
+6 
+values that tracks the animal’s consciousness state.  
+7 
+ 
+8 
+As illustrated in Figure 5A, overall LZ complexity was greater (across the entire epoch, see SI) when monkeys 
+9 
+were unaware (Figure 5, 1st and 3rd rows respectively for non-baseline corrected LZ in S1 and vPM) as 
+0 
+opposed to aware. In addition, stimulus evoked suppression of complexity (Figure 5, 2nd and 4th rows) was 
+1 
+more sustained under conscious than unconscious conditions, particularly in S1 (Figure 5A, shaded areas are 
+2 
+significantly different between consciousness states and horizontal colored lines in baseline corrected panels 
+3 
+show interval of evoked reduction in complexity, see SI for detail). These general properties of LZ complexity 
+4 
+were next indexed in convergent and integrative neurons. As depicted in Figure 5B, a 2 (consciousness state; 
+5 
+aware vs. unaware) x 2 (neuron type; convergent vs. integrative) ANOVA on non-corrected values 
+6 
+demonstrated a main effect of awareness (aware; M=0.80, S.E.M=0.001; unaware; M=0.87, S.E.M=0.002; 
+7 
+p<0.01), yet no main effect of neuron type (all p>0.11). Most interestingly, however, there was a significant 
+8 
+interaction between these variables (p<0.01), as convergent neurons (M=0.79, S.E.M.=0.002) had marginally 
+9 
+lower LZ complexity than integrative neurons (M=0.81, S.E.M.=0.002) when monkeys were aware (p=0.052), 
+0 
+yet this pattern reversed when monkeys loss consciousness (integrative; M=0.86, S.E.M.=0.002; convergent; 
+1 
+M=0.88, S.E.M=0.001, p=0.045). Thus, when quantified using uncorrected LZ values, convergent neurons 
+2 
+tracked the state of consciousness – i.e., they exemplified the LZ behavior expected from a given state of 
+3 
+consciousness (Figure 5A) – better than did integrative neurons. A similar analysis corrected for different 
+4 
+baselines indicated a main effect of consciousness state (p<0.01 between 50ms and 700ms post-stimuli 
+5 
+.
+CC-BY-NC-ND 4.0 International license
+a 
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted March 21, 2019. 
+; 
+https://doi.org/10.1101/584516
+doi: 
+bioRxiv preprint 
+
+ 
+16
+onset), but failed to indicate a difference between neuron types (all p>0.02), or an interaction between these 
+6 
+variables (all p>0.09). Hence, while the overall level of LZ complexity appeared to differentiate between 
+7 
+convergent and integrative neurons, the duration and/or magnitude of the change in LZ complexity during 
+8 
+evoked responses did not.  
+9 
+ 
+0 
+ 
+1 
+ 
+2 
+ 
+3 
+Figure 5. A; Time-resolved evoked Lempel-Ziv Complexity in spiking activity in S1 (top 2 rows) and vPM (bottom 
+4 
+2 rows) neurons as a function of consciousness state (aware = colored; unaware = gray) and sensory stimulation 
+5 
+-500
+0
+500
+Normalized LZ
+0.75
+0.8
+0.85
+0.9
+0.95
+1
+-500
+0
+500
+0.75
+0.8
+0.85
+0.9
+0.95
+1
+-500
+0
+500
+0.75
+0.8
+0.85
+0.9
+0.95
+1
+-500
+0
+500
+0.75
+0.8
+0.85
+0.9
+0.95
+1
+Time (ms)
+-500
+0
+500
+Baseline-corrected
+Normalized LZ
+-0.06
+-0.04
+-0.02
+0
+0.02
+Time (ms)
+-500
+0
+500
+-0.06
+-0.04
+-0.02
+0
+0.02
+Time (ms)
+-500
+0
+500
+-0.06
+-0.04
+-0.02
+0
+0.02
+Time (ms)
+-500
+0
+500
+-0.06
+-0.04
+-0.02
+0
+0.02
+Aware 
+Unaware 
+Aware 
+Unaware 
+Aware 
+Unaware 
+Aware 
+Unaware 
+AT 
+T 
+A 
+N 
+S1 
+-500
+0
+500
+Normalized LZ
+0.75
+0.8
+0.85
+0.9
+0.95
+1
+-500
+0
+500
+0.75
+0.8
+0.85
+0.9
+0.95
+1
+-500
+0
+500
+0.75
+0.8
+0.85
+0.9
+0.95
+1
+-500
+0
+500
+0.75
+0.8
+0.85
+0.9
+0.95
+1
+Time (ms)
+-500
+0
+500
+Baseline-corrected
+Normalized LZ
+-0.06
+-0.04
+-0.02
+0
+0.02
+Time (ms)
+-500
+0
+500
+-0.06
+-0.04
+-0.02
+0
+0.02
+Time (ms)
+-500
+0
+500
+-0.06
+-0.04
+-0.02
+0
+0.02
+Time (ms)
+-500
+0
+500
+-0.06
+-0.04
+-0.02
+0
+0.02
+Aware 
+Unaware 
+Aware 
+Unaware 
+Aware 
+Unaware 
+Aware 
+Unaware 
+vPM 
+Time (ms)
+-400
+-200
+0
+200
+400
+600
+Baseline-corrected
+Normalized LZ
+-0.1
+-0.08
+-0.06
+-0.04
+-0.02
+0
+0.02
+0.04
+Time (ms)
+-400
+-200
+0
+200
+400
+600
+Normalized LZ
+0.75
+0.8
+0.85
+0.9
+Time (ms)
+-400
+-200
+0
+200
+400
+600
+Baseline-corrected
+Normalized LZ
+-0.1
+-0.08
+-0.06
+-0.04
+-0.02
+0
+0.02
+0.04
+Time (ms)
+-400
+-200
+0
+200
+400
+600
+Normalized LZ
+0.75
+0.8
+0.85
+0.9
+Aware 
+Unaware 
+Integration 
+Convergence 
+Integration 
+Convergence 
+Integration 
+Convergence 
+Integration 
+Convergence 
+A) Lempel-Ziv Complexity  
+B) Lempel-Ziv Complexity as a Function of Neuron Type 
+.
+CC-BY-NC-ND 4.0 International license
+a 
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted March 21, 2019. 
+; 
+https://doi.org/10.1101/584516
+doi: 
+bioRxiv preprint 
+
+ 
+17
+(AT = purple, T = blue; A = red; none = back). Most strikingly as illustrated when time-courses were not corrected for 
+6 
+baseline (1st and 3rd rows) results suggest an increase in complexity (y-axis) when monkeys were rendered unconscious. 
+7 
+Further, as better exemplified when correcting for baseline (2nd and 4th rows), the evoked complexity (negative deflection) 
+8 
+is seemingly more sustained when aware than unaware. B; LZ in spiking activity in S1 neurons as a function of 
+9 
+consciousness state (aware = 1st column; unaware = 2nd column) and whether the neuron was determine to 
+0 
+converge (black) or integrate (purple) sensory information when aware. Results suggest that normalized LZ (top row, 
+1 
+y-axis) is higher for integrative than convergent neurons when monkeys are aware (left column) yet this pattern reverses 
+2 
+when monkeys are rendered unconscious (right column). Similarly, the evoked nature of LZ complexity due to AT 
+3 
+stimulation (bottom row) was similarly more sustained for convergent than integrative neurons (particularly when aware; 
+4 
+left column), however there was no significant interaction between consciousness state and neuron type when normalized 
+5 
+LZ complexity was corrected for baseline. 
+6 
+ 
+7 
+These complexity results, just like the observed shifts in the distributions of convergent and integrative neurons 
+8 
+following loss of consciousness, point in a direction counter to IIT – in that they suggest that convergent, as 
+9 
+opposed to integrative, neurons more faithfully exhibit properties of consciousness. However, an important 
+0 
+caveat is that there is relatively little empirical work quantifying LZ complexity in spike trains [45, 46]. Hence, it 
+1 
+may be useful to apply a similar logic – contrasting convergent and integrative neurons as a function of 
+2 
+consciousness – while utilizing a better-characterized neurophysiological measure within the context of 
+3 
+consciousness studies. Thus, we next examined noise correlations.  
+4 
+ 
+5 
+Noise correlations – the degree to which the response of a pair of simultaneously recorded neurons co-vary 
+6 
+after accounting for the signal – were originally considered to originate from shared sensory noise arising in 
+7 
+afferent sensory pathways [47]. However, more recent studies suggest that correlated noise may also reflect 
+8 
+meaningful top-down signals generated internally within the central nervous system [48]. Most interestingly for 
+9 
+the current work, noise correlations have been shown to be strongly dependent upon state of awareness. For 
+0 
+example, one study has demonstrated a six-fold increase in these correlations under an opioid anesthetic 
+1 
+when compared to wakefulness (unaware = 0.05; aware = 0.008; [29]). Accordingly, we examined noise 
+2 
+correlations as a function of recording area (S1 and vPM), type of sensory stimulation (AT, T, A, and N), and 
+3 
+consciousness state (aware and unaware). In addition to their relevance to the predictive framework laid out in 
+4 
+the Introduction (specifically prediction #2), our assessment of noise correlations in our data set has added 
+5 
+importance as it represents the first measure of the impact of propofol on single unit noise correlations in non-
+6 
+human primates.  
+7 
+ 
+8 
+.
+CC-BY-NC-ND 4.0 International license
+a 
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted March 21, 2019. 
+; 
+https://doi.org/10.1101/584516
+doi: 
+bioRxiv preprint 
+
+ 
+18
+As illustrated in Figure 6A, noise correlations demonstrated a striking increase from aware (M = 0.02, S.E.M = 
+9 
+0.001) to unaware (M = 0.11, S.E.M = 0.002) states (F=742.76, p<0.001). This effect was independent of 
+0 
+recording area (p = 0.86) and stimulation type (p = 0.33), nor was there an interaction between variables in 
+1 
+driving the degree to which noise correlated across single units (all p>0.11). Thus, the current dataset (utilizing 
+2 
+Propofol) is in general agreement with the opioid-derived observation [29] in that under anesthesia noise 
+3 
+correlations increase by approximately six-fold. 
+4 
+ 
+5 
+ 
+6 
+Noise Correlation (r)
+-0.5
+0
+0.5
+1
+-0.5
+0
+0.5
+1
+-0.5
+0
+0.5
+1
+-0.5
+0
+0.5
+1
+Noise Correlation (r)
+-0.5
+0
+0.5
+1
+-0.5
+0
+0.5
+1
+-0.4
+-0.2
+0
+0.2
+0.4
+0.6
+0.8
+-0.5
+0
+0.5
+1
+Aware 
+Unaware 
+AT 
+T 
+A 
+N 
+AT 
+T 
+A 
+N 
+S1 
+vPM 
+Aware
+Noise Correlation (r)
+-0.4
+-0.2
+0
+0.2
+0.4
+0.6
+0.8
+Unaware
+Noise Correlation (r)
+-0.2
+-0.1
+0
+0.1
+0.2
+Supra-Additivity Index (ratio)
+0.2
+0.3
+0.4
+0.5
+0.6
+0.7
+0.8
+0.9
+1
+1.1
+Noise Correlation (r)
+-0.2
+-0.1
+0
+0.1
+0.2
+Enhancement Index (ratio)
+0.2
+0.4
+0.6
+0.8
+1
+1.2
+1.4
+1.6
+r = 0.12 
+p = 0.05 
+r = 0.15 
+p = 0.02 
+A) Noise Correlation  
+B) Noise Correlation as a Function of Neuron Type 
+.
+CC-BY-NC-ND 4.0 International license
+a 
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted March 21, 2019. 
+; 
+https://doi.org/10.1101/584516
+doi: 
+bioRxiv preprint 
+
+ 
+19
+Figure 6. A; Noise correlations in S1 (top) and vPM (bottom) as a function of consciousness state and sensory 
+7 
+stimulation. Violin plots colored (purple  = AT, blue = T, red = A, black = N) represent conscious states, while their gray 
+8 
+counterparts illustrate noise correlations when the monkeys were rendered unconscious. White dots emphasize the mean. 
+9 
+Overall, across all sensory modalities, noise correlations are 6-fold greater under unconscious than conscious states. B; 
+0 
+Noise correlations in integrative and convergent S1 neurons. When monkeys are aware (leftmost panel) integrative 
+1 
+neurons (purple) exhibit a higher degree of noise correlations than neuron that integrate (black), while the contrary is true 
+2 
+when monkeys were rendered unaware (2nd column). Further, when monkeys were aware, the more a neuron exhibited 
+3 
+noise correlations (3rd and 4th panel, x-axis) the greater it’s supra-additive (3rd panel, y-axis) and enhancement (4th panel, 
+4 
+y-axis) indices. White dots represent the mean of each distribution. 
+5 
+ 
+6 
+ 
+7 
+When restricting noise correlation analysis to the integrative and convergent neurons, we observed significant 
+8 
+main effects of consciousness state (F=91.56, p<0.001) and neuron type (F=19.59, p<0.001), as well as an 
+9 
+interaction between these variables (F=29.63, p<0.001). The interaction seems to be driven by the fact that 
+0 
+when monkeys were unconscious convergent neurons (M=0.16, S.E.M=0.02) showed a greater degree of 
+1 
+noise correlations than integrative neurons (M=0.068, S.E.M=0.008; p<0.001; see Figure 6B), and this 
+2 
+difference disappeared during consciousness (Convergent: M = 0.018, S.E.M = 0.004; Integrative: M=0.028, 
+3 
+S.E.M=0.008; p = 0.067), significant (p=0.067). Thus, while noise correlations were lower during conscious 
+4 
+rather than unconscious states (in the population as a whole), this pattern is most readily apparent in 
+5 
+convergent rather than integrative neurons.  
+6 
+ 
+7 
+Overall, the results suggest that consciousness is marked by a reduced degree of noise correlations, and that 
+8 
+integrative neurons poorly track level of consciousness as indexed by this measure. In fact, these findings 
+9 
+suggest a potential negative relationship between the degree of noise correlation that is typically associated 
+0 
+with consciousness on one hand and with integration on the other. Namely, neurons that demonstrate the 
+1 
+greatest degree of integration are those that show the greatest degree of noise correlation (in the conscious 
+2 
+state). In support of this hypothesis, and as illustrated in Figure 6B (middle and right panel), both the supra-
+3 
+additivity (r=0.15, p=0.02) and enhancement (r=0.12, p=0.05) indices were positively correlated with the 
+4 
+degree to which a neuron exhibited noise correlations. 
+5 
+ 
+6 
+Testing Consciousness Theory in Multisensory Circuits; Global Neuronal Workspace (Prediction #3). 
+7 
+ 
+8 
+.
+CC-BY-NC-ND 4.0 International license
+a 
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted March 21, 2019. 
+; 
+https://doi.org/10.1101/584516
+doi: 
+bioRxiv preprint 
+
+ 
+20
+Beyond the characterization of single cell properties (i.e., firing rate, Fano Factor, complexity), it is possible to 
+9 
+leverage the fact that neurons in both S1 and vPM – a well-studied microcircuit [30] – were concurrently 
+0 
+recorded to test another prominent theory of consciousness; the GNW theory [8]. This theory states that 
+1 
+sensory stimuli will elicit a conscious percept when the neural activity associated with the stimuli propagates 
+2 
+through a broad fronto-parietal network following neural ignition. Adapting this theoretical framework to the 
+3 
+current experimental design, GNW predicts a higher likelihood of near concurrent neuronal firing in S1 and 
+4 
+vPM (at the single trial level) when animals are in a conscious state (and thus capable of conscious content) 
+5 
+than when they are unconscious (Prediction #3). 
+6 
+ 
+7 
+To test this prediction we define a response threshold as exceeding spontaneous firing by two standard 
+8 
+deviations (see Methods), and then calculate the percentage of trials that result in significant firing in S1, vPM, 
+9 
+or both S1 and vPM, as a function of consciousness and sensory stimulation type. This approach yields 
+0 
+relatively small percentages of trials catalogued as “active”, which is to be expected given Poisson firing (i.e., 
+1 
+the fact that on most trials the firing rates of most neurons change modestly, with relatively few neurons driving 
+2 
+global population changes [33]), the high threshold set for labeling a trial as “active”, and the requirement for 
+3 
+near concurrent firing. This approach, in other words, is statistically conservative. As highlighted in Figure 7 
+4 
+(leftmost panel), results revealed that when animals were conscious, during combined AT stimulation, both S1 
+5 
+and vPM were concurrently active on 1.17% of trials (labeled “Concurrent Activation”). This number is reduced 
+6 
+to 0.96% of trials during T stimulation, to 0.67% of trials during A stimulation, and to 0.28% of catch trials (main 
+7 
+effect of stimulation type during awareness; Friedman Test, χ2 = 135, p < 0.001). The percentage of trials in 
+8 
+which sensory stimulation resulted in the co-activation of S1 and vPM was significantly smaller when animals 
+9 
+were rendered unconscious (main effect of consciousness state, Wilcoxon Test, Z=1135, p<0.001) and did not 
+0 
+differ across stimulation types (Friedman Test during unawareness; χ2=14.32, p=0.64; stimulation type by 
+1 
+consciousness state interaction, Friedman Test of the difference between conscious vs. unconscious as a 
+2 
+function of sensory stimulation type, χ2 =204.78, p<0.001). A similar pattern of results emerged when 
+3 
+examining the number of trials that resulted in the independent activation of S1 and vPM (see SI for detail). 
+4 
+Thus, in S1, 13.2% of AT trials resulted in significant firing when monkeys were conscious, a number that was 
+5 
+reduced to 10.5% in T trials (Wilcoxon, p=1.61e-19), and further reduced to 6.5% in A and 6.1% in N trials (T 
+6 
+.
+CC-BY-NC-ND 4.0 International license
+a 
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted March 21, 2019. 
+; 
+https://doi.org/10.1101/584516
+doi: 
+bioRxiv preprint 
+
+ 
+21
+vs. A, p=1.28e-8; A vs. N, p=0.68). In vPM, interestingly, the main effect of trial type in the conscious condition 
+7 
+(see SI) resulted from AT, T, and A all being different from N trials (all p<5.0e-20), as well as from vPM firing 
+8 
+being most likely due to A stimulation (M=8.4%) than to AT (M=7.4%) or T (M=7.5%) stimulation (all p<2.3e-5). 
+9 
+That is, activation of vPM was more probable due to A stimulation than T or AT stimulation – a stipulation that 
+0 
+was not true (in fact opposite) in S1 or when examining co-activation of S1 and vPM. This finding pinpoints that 
+1 
+auditory information must arrive to vPM via a route that is not the same as how tactile information arrives in 
+2 
+vPM (e.g., via S1), a finding that makes a great deal of sense since vPM is known to be part of the auditory 
+3 
+“what” or ventral pathway [49]. Lastly, on the vast majority of trials sensory stimulation did not result in activity 
+4 
+in either S1 or vPM, a finding that is most prominent in unconscious (M=91.0%) than conscious states 
+5 
+(M=81.3%, Z=37949, p < 0.001). 
+6 
+ 
+7 
+ 
+8 
+ 
+9 
+Figure 7. Percentage of trials that result in significant activation of S1, vPM, both or neither area, as a function of 
+0 
+consciousness state and stimulation type. Concurrent activation is defined as the simultaneous activation of S1 and 
+1 
+vPM (leftmost panel). This phenomenon occurs to a greater degree when animals were conscious than unconscious, 
+2 
+during AT (purple), T (blue), or A (red) stimulation, but not during catch trials (no stimulation). 2nd and 3rd panel 
+3 
+respectively demonstrate the number of trials that result in significant activation of S1 and vPM. Interestingly, while AT 
+4 
+and T stimulation seemingly result in a greater percentage of trial demonstrating neural ignition and S1 activation than A 
+5 
+stimulation, this is not the case for activation of vPM. Namely, auditory information seemingly reaches prefrontal areas via 
+6 
+other routes. Lastly, rightmost panel illustrates the percentage of trials that do not result in significant activation; here the 
+7 
+percentage is greater in unconscious than conscious trials, regardless of type of sensory stimulation. White dots represent 
+8 
+the mean of each distribution.  
+9 
+ 
+0 
+Thus, the overall pattern of results incorporating all cells recorded illustrate that when monkeys were conscious 
+1 
+and sensory stimuli were being presented a greater number of trials resulted in co-activation of both primary 
+2 
+S1 and vPM activation (in percent)
+-1
+0
+1
+2
+3
+4
+5
+6
+7
+S1 activation (in percent)
+10
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+vPM activation (in percent)
+-5
+0
+5
+10
+15
+20
+25
+no activation (in percent)
+0
+20
+40
+60
+80
+100
+Aware 
+Unaware 
+Concurrent Activation 
+Primary Sensory Area 
+Prefrontal Area 
+No Activation 
+AT 
+T 
+A 
+N 
+AT 
+T 
+A 
+N 
+AT 
+T 
+A 
+N 
+AT 
+T 
+A 
+N 
+.
+CC-BY-NC-ND 4.0 International license
+a 
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted March 21, 2019. 
+; 
+https://doi.org/10.1101/584516
+doi: 
+bioRxiv preprint 
+
+ 
+22
+sensory and “associative” areas than when animals were unconscious. The finding is in line with the GNW 
+3 
+theory, but may represent a trivial result given that a larger number of trials also show exclusive activation in 
+4 
+S1 or vPM when the animals were conscious. Hence, for pure probabilistic reasons, co-activation of S1 and 
+5 
+vPM would be more likely under conscious than unconscious conditions. To address this concern, in a second 
+6 
+step of analysis, we multiplied the likelihood of observing activation in S1 by the likelihood of observing 
+7 
+activation in vPM and contrasted this predicted value to that observed (for both conscious and unconscious 
+8 
+conditions). As shown in Figure 8, results demonstrated that in both the aware (M=0.49%, one-sample t-test to 
+9 
+zero, p=2.79e-22) and unaware (M=0.08%, one-sample t-test to zero, p = 2.95e-13) cases, co-activation of S1 
+0 
+and vPM was more likely than what would be predicted by simply multiplying probabilities (Figure 8, y = 0). 
+1 
+More importantly, the degree to which co-activation exceeded this prediction was greater under conscious 
+2 
+conditions than under unconscious conditions (t=6.2, p=6.41e-10).  
+3 
+ 
+4 
+Lastly, as the previous results (Figures 5, 6; testing the IIT) had suggested that convergent neurons exhibited 
+5 
+properties of consciousness to a greater degree than integrative ones, we sought to determine whether this 
+6 
+was also true for these co-activation results. As illustrated in Figure 8 (center and right-most panels) co-
+7 
+activation was generally more common when monkeys were conscious (M=1.5%) than unconscious (M=0.3%, 
+8 
+Mann-Whitney U, p<0.001). Further, these likelihoods interacted with neuron type. Co-activation was not 
+9 
+distinct in convergent and integrative neurons when the animals were aware (convergent, M = 1.8%; 
+0 
+integrative, M = 1.6%, p=0.37). In contrast, convergent neurons demonstrated less co-activation than 
+1 
+integrative neurons when the animals were aware (convergent, M=0.26%; integrative, M=0.31%, p=0.004).   
+2 
+ 
+3 
+-2
+-1
+0
+1
+2
+3
+-.5
+0
+.5
+1
+1.5
+2
+2.5
+-6
+-4
+-2
+0
+2
+4
+6
+8
+10
+ Observed - Expected Neural Ignition (in percent) 
+Aware 
+Unaware 
+.49% 
+.08% 
+Integration 
+Convergence 
+Integration 
+Convergence 
+Aware 
+Unaware 
+Neural Ignition (in percent) 
+-2
+0
+2
+4
+6
+8
+.
+CC-BY-NC-ND 4.0 International license
+a 
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted March 21, 2019. 
+; 
+https://doi.org/10.1101/584516
+doi: 
+bioRxiv preprint 
+
+ 
+23
+Figure 8. Neural ignition as a function of conscious state. A) Difference in the observed percentage of trials resulting 
+4 
+in neural ignition due to AT stimulation from the percentage of trials that would be predicted based on S1 and vPM 
+5 
+activation alone (y = 0), as a function of conscious state (aware = purple; unaware = gray). B) Neural ignition due to AT 
+6 
+stimulation in integrative (purple) and convergent (black) neurons as a function of consciousness state (aware = left; 
+7 
+unaware = right). White dots represent means of the distribution.  
+8 
+ 
+9 
+ 
+0 
+Discussion 
+1 
+ 
+2 
+Detailing the neural mechanisms enabling wakefulness (i.e., consciousness-level) and conscious experiences 
+3 
+(i.e., consciousness-level) is a central question within systems neuroscience [7]. As such, several theoretical 
+4 
+frameworks have been put forth [7, 8, 11-17, 50]. Two of the most influential of these are Information 
+5 
+Integration Theory (IIT; [11, 50]) and Global Neuronal Workspace (GNW; [7, 8]). Unfortunately, these theories 
+6 
+have seldomly been tested neurophysiologically, and never within the same dataset. A series of concrete 
+7 
+predictions can be generated from these theories, and in the current work we sought to generate such 
+8 
+predictions and test them.   
+9 
+ 
+0 
+Starting from IIT mathematics, a strong prediction that can be made is that as an organism transitions from 
+1 
+conscious to unconscious states, central integrative hubs (vs. convergent hubs) of neural networks should be 
+2 
+most impacted. Indeed, IIT states that the greater the information possessed by a network above and beyond 
+3 
+its constituent parts, the more conscious the system [11, 50]. Level of consciousness may be calculated and 
+4 
+represented as the variable phi (Φ). We demonstrate that within a simple three-node network, if the central 
+5 
+node is an integrative (“AND” gate) node as opposed to a convergent (“XOR” gate) node, the value of Φ triples 
+6 
+(see SI). In evaluating the neuronal data, we categorized neurons as either convergent or integrative and 
+7 
+examined which class was most impacted by propofol administration. The assumption here is that cross-modal 
+8 
+neurons in S1 and vPM receive information regarding the different senses from upstream areas, S1 and vPM 
+9 
+in turn being the central node composed of “AND” and “XOR” functionality. Of course, this is an over-simplified 
+0 
+biological neural network, but one that permits testing predictions derived from the IIT from a 
+1 
+neurophysiological perspective. Contrary to our IIT-derived predictions, convergent, as opposed to integrative, 
+2 
+neurons were most impacted by the administration of anesthesia. To further test predictions derived from IIT, 
+3 
+we reasoned that when organisms were conscious, integrative neurons should exhibit neurophysiological 
+4 
+properties of consciousness to a greater extent than convergent neurons (i.e., supporting lower phi-values). 
+5 
+The two measures chosen were Lempel-Ziv complexity and noise correlations, and we examined these as a 
+6 
+.
+CC-BY-NC-ND 4.0 International license
+a 
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted March 21, 2019. 
+; 
+https://doi.org/10.1101/584516
+doi: 
+bioRxiv preprint 
+
+ 
+24
+function of stimulation type and conscious state. It is important to note that we do not aim to explain why neural 
+7 
+complexity or noise correlations are altered by consciousness state, but simply to use these measures as 
+8 
+“features of consciousness” and index how these properties are modulated in integrative vs. convergent 
+9 
+neurons as a function of consciousness. Complexity was chosen as it is the measure most often used within 
+0 
+the IIT framework (e.g., [41, 42] – though the relationship between Φ, Lempel-Ziv complexity, TMS-evoked 
+1 
+complexity (PCI) and stimulus-evoked complexity is far from clear [51]). The study of noise correlations was 
+2 
+chosen as this measure has a stronger tradition within neurophysiology, and prior studies [29] have shown 
+3 
+substantial increases in noise correlations after administration of an opioid anesthetic. Here again, findings 
+4 
+indicated that convergent neurons most closely tracked the animals’ consciousness state. Taken together, the 
+5 
+findings of these neurophysiological analyses fail to provide strong empirical support for the IIT.  
+6 
+ 
+7 
+One of the novel findings of the current study is that under propofol – a GABAA potentiator [52] – noise 
+8 
+correlations are approximately six-fold greater than during wakefulness. This finding is in line with previous 
+9 
+single unit recordings under a different anesthetic (opioid; [29]) and concordant with a recent graph theory 
+0 
+analysis of electrophysiological data showing that a change in local information processing efficiency – a 
+1 
+measure that changes with noise correlations - could differentiate between distinct levels of responsiveness 
+2 
+due to propofol administration [53].  
+3 
+ 
+4 
+The second theory tested was GNW [7, 8]. In GNW the core concept is that during wakefulness a conscious 
+5 
+experience should result in neural ignition – the broadcasting of sensory evidence throughout the brain. 
+6 
+Concordant with the basic tenets of GNW, our results suggest that the co-activation of primary sensory areas 
+7 
+and higher-order areas on a single trial is more likely under conscious than unconscious conditions. 
+8 
+Importantly, the occurrence of this co-activation exceeded the expected values derived from the probability of 
+9 
+noting S1 and vPM activations alone. In addition to these co-activation findings, we analyzed firing rates in a 
+0 
+time-resolved fashion, which allowed us the opportunity to see whether firing rates to sensory stimulation 
+1 
+during consciousness were more sustained than during unconsciousness. As predicted by the GNW and well 
+2 
+established in electroencephalography and electrocorticography [54, 55, 56], neural activity was more 
+3 
+.
+CC-BY-NC-ND 4.0 International license
+a 
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted March 21, 2019. 
+; 
+https://doi.org/10.1101/584516
+doi: 
+bioRxiv preprint 
+
+ 
+25
+sustained when animals were conscious (vs. unconscious). Taken together, our results provide empirical 
+4 
+support (again through the lens of single neurons) for the GNW theory.    
+5 
+ 
+6 
+In addition to providing empirical neurophysiological evidence relevant to two prevailing theories of 
+7 
+consciousness, our results make several novel contributions to the study of multisensory integration. First, to 
+8 
+our knowledge, this is the first report to detail that supra-additivity and enhancement indices are normally 
+9 
+distributed in both vPM and S1 of non-human primates (see [57], for a categorization of S1 neurons 
+0 
+demonstrating enhancement and supra-additivity in rats). Second, we observed a large number of neurons 
+1 
+exhibiting multisensory enhancement in S1 and vPM, yet very few that exhibited supra-additivity. These results 
+2 
+comport well with the known multisensory convergence in vPM [58, 59], but also represent the first evidence 
+3 
+that these neurons can integrate this information. Third, we detail the dispersion tendencies associated with 
+4 
+the firing patterns of (multi)sensory neurons in S1 and vPM. Variance in neuronal firing may be a result of a 
+5 
+variety of causes [33], both internal to the neuron or as a network property. Interestingly, while the Fano Factor 
+6 
+is likely impacted by both these sources, an elevation in noise correlations likely reflects a source of co-
+7 
+modulation. Thus, the current results demonstrating an increase in both Fano Factor and noise correlations 
+8 
+during unconsciousness suggests a dynamical system in which the firing patterns of individual neurons are 
+9 
+becoming more chaotic yet the population as a whole is more synchronously co-activated; an observation that 
+0 
+is in line with reports suggesting a potentiation of slow oscillations and a reduction of high-frequencies during 
+1 
+unawareness [27]. Finally, from the observations that conscious states are seemingly associated with low 
+2 
+noise correlations and that neurons showing multisensory convergence (as opposed to integration) more 
+3 
+faithfully track consciousness according to this metric, we reasoned that perhaps a high degree of noise 
+4 
+correlation is beneficial to multisensory integration. In fact, our results suggest a positive correlation between 
+5 
+the amount a neuron shares noise with its neighbors, and the degree to which it exhibits multisensory 
+6 
+integration. We find this result particularly interesting, as multisensory integration is a special form of 
+7 
+integration – a form that has minimal shared variance at the periphery, since information is transduced by 
+8 
+different sensory organs. This relationship between shared noise and greater multisensory integration may be 
+9 
+a result of larger dendritic arborizations in integrative neurons (see [60, 61]), and may represent the neural 
+0 
+.
+CC-BY-NC-ND 4.0 International license
+a 
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted March 21, 2019. 
+; 
+https://doi.org/10.1101/584516
+doi: 
+bioRxiv preprint 
+
+ 
+26
+instantiation of the postulation that stimulus correlation detection subserves the synthesis of information across 
+1 
+the senses [62-64]. 
+2 
+ 
+3 
+In conclusion, we started from the IIT [11] and the GNW [7, 8] to derive neurophysiological predictions relating 
+4 
+to consciousness. We then leveraged multisensory neurons and circuits to functionally label neurons as 
+5 
+convergent and integrative, and used these categorical distinctions to test IIT and GNW-derived predictions. 
+6 
+The neurophysiological results generally support the GNW and not the IIT. However, important caveats exist. 
+7 
+First, it is possible that the predictions we generated according to the IIT represented a higher bar to clear than 
+8 
+those we generated from the GNW. Indeed, this is a strength of the IIT (i.e., making strong prediction) – and 
+9 
+thus future work should aim at continuing to translate theoretical postulates into concrete hypotheses, and 
+0 
+subsequently testing these hypotheses. Second, the IIT predictions derived and tested here represent the 
+1 
+simplest implementation and interpretation of the theory possible. Only three nodes were used, and only a 
+2 
+single node was changed in calculating different phi values. Further, we have assumed that single unit spiking 
+3 
+activity was a good approximation of the behavior of “nodes” within the IIT. This is far from trivial, as for 
+4 
+example, in the IIT formalism nodes are either “on” or “off”, yet real neurons can show graded levels of activity. 
+5 
+Third, while simultaneously recording from S1 and vPM lends nicely to testing the GNW – given their known 
+6 
+micro-circuitry [30, 31] – it may be argued that these areas are not ideal for testing the IIT. Indeed, Koch and 
+7 
+colleagues [65], researchers supporting the IIT, recently suggest that anatomical correlates of consciousness 
+8 
+are primarily localized to a “posterior hot zone”. Thus, in the future it may be interesting to test similar ideas to 
+9 
+those presented here in the posterior parietal cortex (but see [66] for arguments suggesting that the neural 
+0 
+correlates of consciousness are in the “front” of the brain). Beyond specific objections related to the IIT, it must 
+1 
+be emphasized that the results reported here are exclusive for propofol anesthesia. Hence, generalization of 
+2 
+these results to the broader domain of consciousness must be done with caution. Future work may aim at 
+3 
+replicating the above-described findings during the administration of several distinct anesthetics – the union of 
+4 
+effects safely being able to be ascribed to consciousness. Further, it must be acknowledged that IIT is primarily 
+5 
+a theory of consciousness-level, while GNW primarily focuses of consciousness-content. These different 
+6 
+aspects of consciousness are closely related (as one does not consciously perceive the external environment if 
+7 
+in an unconscious state), but dissociable. Here both aspects were conflated (i.e., it is assumed animals did not 
+8 
+.
+CC-BY-NC-ND 4.0 International license
+a 
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted March 21, 2019. 
+; 
+https://doi.org/10.1101/584516
+doi: 
+bioRxiv preprint 
+
+ 
+27
+hear the auditory tone during unconscious-level), as the primary aim was to contrast IIT and GNW from a 
+9 
+neurophysiological perspective. However, in the future it will be interesting to dissociate these dimensions. 
+0 
+Lastly, the degree to which these findings generalize from macaques to humans is unknown. Regardless of 
+1 
+model organism (macaque, human, or other), we consider that using sensory stimulation from distinct and 
+2 
+multiple sensory modalities (e.g., [44, 67, 68] – as highlighted in the current report - may afford important 
+3 
+leverage in the study of perceptual awareness and consciousness level by allowing functional characterization 
+4 
+of neurons and neuronal ensembles. 
+5 
+ 
+6 
+Materials and Methods 
+7 
+ 
+8 
+ 
+Animal Model 
+9 
+ 
+0 
+Animals were handled according to the institutional standards of the National Institutes of Health (NIH) and an 
+1 
+approved protocol by the institutional animal care and use committee at the Massachusetts General Hospital. 
+2 
+Two adult male monkeys (Macaca mulatta, 10 –12 kg) were used.  
+3 
+ 
+ 
+4 
+ 
+Behavioral Task and Experimental Procedure 
+5 
+ 
+6 
+The animals were trained in a behavioral task wherein following the onset of a start tone (1000 Hz, 100 ms, 
+7 
+see Figure 9A, first row) they were required to initiate each trial by holding down a button with their hand 
+8 
+ipsilateral to the recording hemisphere. In order to successfully launch a trial (before loss of consciousness), 
+9 
+the animals were required to hold the button within 1.5 seconds of the trial onset tone (Figure 9A, second row). 
+0 
+Then, following button press, within a uniform random delay between 1 and 3 seconds (Figure 9, blue shaded 
+1 
+area with dashed contour representing a variable delay) one of four sensory stimulus sets was delivered 
+2 
+(tactile air puffs, T; auditory stimuli, A; simultaneous auditory and tactile, AT; no stimuli, N; Figure 9A depicts 
+3 
+an AT trial, and hence T, A, and N trials are shaded). Air puffs during T trials were delivered at 12 psi to the 
+4 
+lower part of the face contralateral to the recording hemisphere via a computer-controlled regulator with a 
+5 
+solenoid valve (AirStim; San Diego Instruments). The eye area was avoided. Auditory stimuli during A trials 
+6 
+were pure tones at 4000 Hz and at 80 dB SPL generated by a computer and delivered using two speakers 40 
+7 
+cm from the animal. Audiotactile (AT) trials were simply the joint and simultaneous presentation of A and T 
+8 
+trials. N trials were catch trials were no stimulus was presented. White noise (50 dB SPL) was applied 
+9 
+throughout the trial to mask inherent noise derived from air puff and mechanical apparatus. All of the stimulus 
+0 
+.
+CC-BY-NC-ND 4.0 International license
+a 
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted March 21, 2019. 
+; 
+https://doi.org/10.1101/584516
+doi: 
+bioRxiv preprint 
+
+ 
+28
+sets were presented randomly to the animal regardless of their behavioral response throughout the recording 
+1 
+session. Following the presentation of the sensory stimulus the animals were required to keep holding the 
+2 
+button down until the presentation of liquid reward (3 seconds post stimuli onset, Figure 9A bottom row and 
+3 
+second blue interval). The monkeys were trained to perform a correct response on >90% of the trials 
+4 
+consistently for longer than 1.5 hours in an alert condition. The animal’s performance during the session was 
+5 
+monitored and simultaneously recorded using a MATLAB-based behavior control system [69, 70]. Trial-by-trial 
+6 
+behavioral responses were binned as a correct response (button holding until the trial end and release), failed 
+7 
+attempt (early release, late touch, or no release of the button), or no response (Fig. 1C). Loss of 
+8 
+consciousness was defined as the first no-response trial that was consistently followed by a lack of responses 
+9 
+for the rest of anesthesia (see Figure 9B for an exemplar session where the cumulative sum of trials 
+0 
+categorized as correct responses raises quickly initially and then saturates, while the cumulative sum of trials 
+1 
+categorized as no-response is initially stagnant at zero and subsequently raises rapidly following approximately 
+2 
+280 trials).  
+3 
+ 
+4 
+.
+CC-BY-NC-ND 4.0 International license
+a 
+certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made available under 
+The copyright holder for this preprint (which was not
+this version posted March 21, 2019. 
+; 
+https://doi.org/10.1101/584516
+doi: 
+bioRxiv preprint 
+
+ 
+29
+ 
+5 
+Figure 9. Experimental Procedure, Methods, and Neurophysiology Preprocessing. A) Experimental task; animals 
+6 
+were required to press a button within 1.5 seconds following a start tone. Subsequently, following a random delay 
+7 
+between 1 and 3 seconds post button press (dashed blue area) they were presented with a sensory stimulus (audiotactile, 
+8 
+AT (purple); tactile, T (blue); or auditory, A (red)) or not (faded black, N). In this case an AT trial is illustrated, and hence 
+9 
+represented in a continuous line, while T, A, and N are dashed and shaded. After a fixed delay of 3 seconds post stimulus 
+0 
+onset, if the monkey was still holding the button, it was given a liquid reward and allowed to stop pressing the button. The 
+1 
+trial depicted is a correct response trial, but a trial could also be categorized as failed response (e.g., released the button 
+2 
+too soon) or a no-response trial (e.g., the monkey never executed button press). B) Cumulative sum of trial categories 
+3 
+(leftmost; light gray = correct response; center, dark gray = failed response; rightmost, black = no response). Initially all 
+4 
+trials are correct, but as propofol is administered, the animal falls unconscious and does not execute the button press. 
+5 
+Unawareness is defined as the period between the first no-response trial that is consistently followed by a lack of 
+6 
+responses for the rest of anesthesia. C) A schematic of a monkey brain depicting areas S1 and vPM, where neurons were 
+7 
+recorded and example raster plots from a neuron in S1. Responses during an aware period are depicted on the top row, 
+8 
+while the bottom row illustrates activity during unawareness. The first column shows audiotactile trials, the second 
+9 
+illustrates tactile trials, the third shows audio trials, and the last column shows spiking activity during trials with no sensory 
+0 
+stimuli. On the x-axis is time (in seconds, centered at stimuli onset) and on the y-axis is trial number. 
+1 
+ 
+2 
+ 
+Anesthesia  
+3 
+ 
+4 
+Thirty minutes after initiating each recording session, propofol was infused for 60 minutes at a fixed rate (200 
+5 
+g/kg/min for Monkey E, and 230 or 270 g/kg/min for Monkey H) through a vascular access port. The infusion 
+6 
+rate of propofol was a priori determined to induce loss of consciousness in approximately 10 minutes for each 
+7 
+V 
+AT 
+T 
+A 
+N 
+Example S1 neuron (E021012-plxSPK-SPK04b) 
+Trial Number 
+Aware 
+Unaware 
+Trial Number 
+Time (seconds) 
+Time (seconds) 
+Time (seconds) 
+Time (seconds) 
+Acquire Button 
+Delay 
+<1.5 sec 
+1-3 sec 
+Delay 
+3 sec 
+1.5-3 sec 
+ITI 
+: AT 
+: T 
+: A 
+: N 
+Trial Number
+0
+100
+200
+300
+Normalized Cumulative Sum
+0
+0.2
+0.4
+0.6
+0.8
+1
+Correct Response
+Trial Number
+0
+100
+200
+300
+Normalized Cumulative Sum
+0
+0.2
+0.4
+0.6
+0.8
+1
+Failed Response
+Trial Number
+0
+100
+200
+300
+Normalized Cumulative Sum
+0
+0.2
+0.4
+0.6
+0.8
+1
+No Response
+Loss of 
+ consciousness 
+A) 
+B) 
+C) 
+
+ 
+30
+animal. No other sedatives or anesthetics were used during the experiment. The animal’s heart rate and 
+8 
+oxygen saturation were monitored continuously throughout the session (CANL-425SV-A Pulse Oximeter; Med 
+9 
+Associates). The animals maintained >94% oxygen saturation throughout the experiments. 
+0 
+ 
+1 
+ 
+Neurophysiology Data Recording and Preprocessing 
+2 
+ 
+3 
+Before starting the study, a titanium head post was surgically implanted on each of the two animals. A vascular 
+4 
+access port was equally surgically implanted in the internal jugular vein (Model CP6; Access Technologies). 
+5 
+Once the animals had mastered the behavioral task described above, extracellular microelectrode arrays 
+6 
+(Floating Microelectrode Arrays; MicroProbes) were implanted into S1 and vPM through a craniotomy (see 
+7 
+Figure 9C). Microelectrodes were also implanted in S2, but due to insufficient recorded neurons caused by a 
+8 
+technical malfunction, here we focus our report on recordings from S1 and vPM. Each array (1.95x2.50 mm) 
+9 
+contained 16 platinum–iridium recording microelectrodes (0.5 MΩ, 1.5– 4.5 mm staggered length) separated 
+0 
+by 400 µm. Landmarks on cortical surface and stereotaxic coordinates [71] guided the placement of arrays. A 
+1 
+total of five arrays were implanted in Monkey E (two arrays in S1, one in S2, and two in vPM, all in the left 
+2 
+hemisphere) and four arrays in Monkey H (two arrays in S1, one in S2, and one and vPM; all in the right 
+3 
+hemisphere). The recording experiments were performed after 2 weeks of recovery following the array surgery. 
+4 
+All experiments were conducted in a radio frequency shielded recording enclosure. 
+5 
+ 
+6 
+Neural activity was recorded continuously and simultaneously from S1 and vPM through the microelectrode 
+7 
+arrays while the animals were performing the behavioral task. Analog data were amplified, band-pass filtered 
+8 
+between 0.5 and 8 kHz, and sampled at 40 kHz (OmniPlex; Plexon). The spiking activity (see Figure (9C) was 
+9 
+obtained by high-pass filtering at 300 kHz and applying a minimum threshold of 3 standard deviations in order 
+0 
+to exclude background noise from the raw voltage tracings on each channel. Subsequently all action potentials 
+1 
+were sorted using waveform principal component analysis (Offline Sorter; Plexon) and binned into 1 ms bins, 
+2 
+effectively rendering the sampling rate 1kHz. 
+3 
+ 
+4 
+ 
+Neurophysiology Data Analyses 
+5 
+ 
+6 
+Firing Rate and Fano Factor 
+7 
+ 
+8 
+
+ 
+31
+Both central and dispersion tendencies of single-unit spiking activity in S1 and vPM were quantified as a 
+9 
+function of stimulus modality as it is well-established that mean firing rates alone do not fully characterize the 
+0 
+properties of neural activity [33]. Regarding firing rates, spikes were first binned in 1ms intervals, and epochs 
+1 
+were centered on stimuli onset, ranging from 2000ms prior to stimuli onset (i.e., -2000ms), to 2000ms after 
+2 
+stimuli onset. Subsequently spike counts were effectuated within a 100ms window, between -500ms and 
+3 
+1000ms, and in steps of 10ms. It must be noted that this analysis essentially low-passes time, and hence the 
+4 
+exact timing of reported effects should not be emphasized. Analyses of firing rates were conducted both on 
+5 
+baseline-corrected and non-corrected rates. The contrast of non-corrected rates allows for determining the 
+6 
+impact of propofol on baseline firing, while the analysis on baseline-corrected rates allows specifically querying 
+7 
+the evoked-responses to stimuli onset. That is, for the baseline-corrected rates, every spike count function was 
+8 
+centered along the y-axis (i.e., spikes/s) to zero according to their own baseline firing (-500 to 0ms post-stimuli 
+9 
+onset). In this manner, positive deviations from 0 indicate an increased in firing rate, while negative deflections 
+0 
+indicate a silencing in spiking activity post-stimuli onset with respect to baseline. Spike counts were first 
+1 
+averaged within a cell and across trials, and subsequently across neurons. In terms of statistical analyses, as 
+2 
+the temporal dynamics of spiking activity was of interest, in particular within the GNW theory [7, 8] emphasizing 
+3 
+sustained activity in aware and not unaware states, we conducted a time-resolved (at each 10ms time-point, 
+4 
+151 in total) 2 (State; Aware vs. Unaware) x 2 (Area; S1 vs. vPM) x 4 (Stimulation; AT, T, A, N) independent 
+5 
+samples analysis of variance (ANOVA). As spiking rates were not normally distributed (i.e., presence of a true 
+6 
+floor, in that negative spikes are not possible), the ANOVAs for non-baseline corrected rates were conducted 
+7 
+on log-transformed data. On the other hand, the subtraction of evoked activity to baseline activity did yield 
+8 
+normal distributions, and hence this data is analyzed without log-transform. The inter-dependence of 
+9 
+observations is difficult to ascertain within a neural network composed of neurons whose precise connections 
+0 
+are unknown, and thus independent as opposed to dependent ANOVAs were conducted in order to adopt the 
+1 
+most conservative approach (i.e., within-samples ANOVAs are statistically stronger than between-samples 
+2 
+analyses). Similarly, in order to protect against Type I error (i.e., false positives) significant effects were only 
+3 
+considered at α < 0.01 for at least 3 consecutive windows (i.e., 30 time-points; see [44], for a similar approach 
+4 
+with time-series data). 
+5 
+ 
+6 
+
+ 
+32
+Regarding the inter-trial variance in evoked responses associated with the distinct states of consciousness, 
+7 
+stimuli modalities, and brain areas, fano factors (i.e., ratio of spike-count variance to spike-count mean) were 
+8 
+calculated [70]. Indeed, repeated trials do not yield identical responses, and this variance is associated both 
+9 
+with cellular and molecular processes involved in spike generation at the axon hillock (e.g., refractory periods) 
+0 
+and network-level properties [63]. Conveniently the neuron-specific variance is largely consiered to be well 
+1 
+accounted by a Poisson point process (i.e., mean and variance scale), and hence a fano factor of 1 [33, 64]. 
+2 
+Fano factors in excess of 1, thus, may be considered to index variability that is associated with network-level 
+3 
+properties and this variability is typically reduced at stimuli onset. Here, therefore, we report time-resolved fano 
+4 
+factor both corrected for baseline (in order to examine putative network-level decreases in inter-trial variability 
+5 
+as a function of stimuli onset, awareness state and sensory modality), and not corrected for baseline (in order 
+6 
+to assess basal cell-specific and network level inter-trial variability as a function of awareness state). Statistical 
+7 
+analysis is conducted as described above for firing rates. 
+8 
+ 
+9 
+Neural Index of Multisensory Integration 
+0 
+ 
+1 
+The hallmark for multisensory integration at the single unit level is an evoked response to multisensory stimuli 
+2 
+(e.g., AT) that may not be linearly predicted by responses to the constituent unisensory stimuli (e.g., A and T; 
+3 
+[73]. Thus, given the time-resolved results demonstrating sustained activity to sensory stimulation until 
+4 
+approximately 500ms post-stimuli onset, mean spike counts to AT, T, A, and N trials were executed within this 
+5 
+time period (see [34], for a similar approach). Subsequently, the i) supra-additivity and ii) enhancement index 
+6 
+of each neuron was computed (according to Eq. 1 and Eq. 2, respectively). Historically, supra-additivity – the 
+7 
+degree to which a multisensory response exceeds the sum of unisensory responses (Eq. 1) - was considered 
+8 
+the clearest indication of multisensory facilitation); nonetheless this feature is not as prominent in cortex as it is 
+9 
+in sub-cortex [39, 73]. Thus, we supplement the supra-additivity index with the enhancement index – the 
+0 
+degree to which a multisensory response is greater than the maximal response to unisensory stimuli (see Eq. 
+1 
+2). An enhancement index above 1 indicates a neuron that is further driven by multisensory than unisensory 
+2 
+stimulation. Supra-additivity (Eq. 1) and enhancement (Eq. 2) indices were computed as follows;  
+3 
+ 
+4 
+ 
+5 
+𝑆𝑢𝑝𝑟𝑎−𝐴𝑑𝑑𝑖𝑡𝑖𝑣𝑖𝑡𝑦 𝐼𝑛𝑑𝑒𝑥=
+𝐴𝑇!"
+𝐴!" + 𝑇!"
+                    𝐸𝑞. 1 
+
+ 
+33
+ 
+6 
+ 
+7 
+𝐸𝑛ℎ𝑎𝑛𝑐𝑒𝑚𝑒𝑛𝑡 𝐼𝑛𝑑𝑒𝑥=
+𝐴𝑇!"
+𝑚𝑎𝑥𝐴!", 𝑇!"
+                    𝐸𝑞. 2 
+ 
+8 
+where 𝐴𝑇!" is the mean baseline-corrected firing rate for a particular neuron to audiotactile stimulation, 𝑇!" is 
+9 
+the mean baseline-corrected firing rate for the particular neuron to tactile stimulation, and finally 𝐴!" is the 
+0 
+mean baseline-corrected firing rate for the particular neuron to auditory stimulation. 
+1 
+ 
+2 
+Bifurcation Into Convergence and Integration 
+3 
+ 
+4 
+Modeling results based on the IIT specify that a network converging on a neuron that integrates information, as 
+5 
+opposed to responding indiscriminately, ought to support a greater degree to consciousness. Hence, here we 
+6 
+aim at testing two predictions that may follow from the IIT; i) as an organism falls into unconsciousness, the 
+7 
+neurons that are most impacted are those that integrate information (i.e., putatively anesthetics act on these 
+8 
+neurons preferentially), and ii) neurons that integrate information exhibit the properties of consciousness when 
+9 
+the organism is conscious. To test these predictions, we divide our population of neurons into those that 
+0 
+integrate vs. converge (Figure 4 and beyond). However, initially we simply describe the proportion of neurons 
+1 
+that fit within each category (Figure 5) in a non-mutually exclusive fashion. A neuron that converges 
+2 
+information is defined as a neuron that on average (i.e., across trials) responds – spike count from 0 to 500ms 
+3 
+- to both unisensory auditory and tactile information beyond its baseline firing rate (-500ms to 0ms) plus 2 
+4 
+standard deviations. That is, in order to qualify as convergent, the spiking count of a neuron to AT stimulation 
+5 
+does not need to be examined. On the other hand, a neuron that integrates information is defined as a neuron 
+6 
+that is most readily driven by the simultaneous presence of A and T information. Thus, neurons that respond to 
+7 
+AT stimulation (as defined above) and do so to a greater degree than their maximal unisensory response (i.e., 
+8 
+enhancement index above 1) were initially classified as integrative. Importantly, beyond Figure 3 (e.g., to 
+9 
+categorize the fate of neurons when the animal becomes unconscious and quantify neural complexity, noise 
+0 
+correlations, and neural ignition) two mutually exclusive classes are created. Neurons that respond 
+1 
+indiscriminately to sensory stimulation and not preferentially to multisensory vs. unisensory presentations are 
+2 
+classified as convergent, while those that exhibit multisensory enhancement without being considered 
+3 
+convergent are taken to integrate information. Given the initial number of neurons in S1 and vPM, this 
+4 
+bifurcation yielded a sufficient quantity of neurons exclusively categorized as convergent (N = 125) and 
+5 
+
+ 
+34
+integrative (N = 64) in S1, but not in vPM (convergent, N = 61; integrative, N = 8) – thus, for the analyses 
+6 
+specifically probing the difference between convergent and integrative neurons, analyses are restricted to S1. 
+7 
+Further, given the heterogeneity of neuron’s spike trains (see Figures 1-3) for Figure 3 and beyond we 
+8 
+considered a neuron as fitting within a particular category (e.g., A, T, AT convergent, AT integrative) if at some 
+9 
+point between 0ms and 1000ms post-stimuli onset they met the particular criteria for at least 50 consecutive 
+0 
+ms.   
+1 
+ 
+2 
+Equally of note, in Figure 3 neurons that are labeled to integrate auditory and tactile information (purple, 
+3 
+orange, and green) are not first indexed for their unisensory responses. That is, while in S1, 49% of neurons 
+4 
+are classified as responding to a greater extent to AT stimulation than to the maximum unisensory stimulation, 
+5 
+this latter unisensory response is not necessarily different from baseline activity. We consider this approach 
+6 
+appropriate within the current aim of leveraging multisensory responses in querying consciousness theories, 
+7 
+but it must be highlighted that multisensory enhancement may be more strictly considered to apply only when 
+8 
+tactile, auditory, and audiotactile responses are different from baseline, and the latter responses is greater than 
+9 
+the maximal of the former two [27]. Indeed, the categorization here is more in line with the recent emphasis 
+0 
+within the study of multisensory integration to index covert multisensory processes [36], in particular within 
+1 
+classically considered primary sensory areas [74], than with the original description of multisensory integration 
+2 
+in the late eighteens and early nineties [73].  
+3 
+ 
+4 
+Lempel-Ziv Complexity 
+5 
+ 
+6 
+Categorizing the complexity of neural representations – operationalized as the number of distinct patterns 
+7 
+present in data – has become of increasing popularity as of late (e.g., [11; 33]) in particular due to its ability to 
+8 
+differentiate between states of consciousness given scalp electrophysiological data [6] and the belief that 
+9 
+complexity is at least indirectly related to functional differentiation/integration, paramount notions with the IIT 
+0 
+[11]. In order to quantify neural complexity, here we measure the Lempel-Ziv (LZ) complexity [28] associated 
+1 
+with each spike train evoked as a consequence of AT, T, A, or N trials, and as a function of the animals’ 
+2 
+consciousness state. LZ complexity measures the approximate quantity of non-redundant information 
+3 
+contained within a string by estimating the minimal size of the “vocabulary” necessary to describe the entirety 
+4 
+
+ 
+35
+of the information contained within the string in a lossless manner [28]. That is, it is a lossless compression 
+5 
+algorithm (routinely used in ZIP files and TIFF images), and it is utilized to measure the number of distinct 
+6 
+patterns in symbolic sequences, in particular within binary signals. LZ is impacted by the overall entropy within 
+7 
+a signal [45]; i.e., a binary string composed almost exclusively of ‘0’ will not have a high LZ, not due to the 
+8 
+arrangement of those ‘1’, but simply because there are not many of them). Thus, here, to equate entropy 
+9 
+across conditions we first converted spike trains into a continuous measure by convolving each trial with a 
+0 
+Gaussian kernel with σ=50ms, and then binarized each time-point within this trial by assigning a ‘1’ to time-
+1 
+points above the trial mean, and ‘0’ to time-points below the trial mean. Next, LZ was computed (28) in 
+2 
+MATLAB within a sliding window moving between -500ms and 750ms post-stimuli onset, a length of 100ms, 
+3 
+and step size of 50ms. Lastly, the same procedure was executed while randomly shuffling the binary sequence 
+4 
+before calculating LZ. This shuffled LZ time-series represents a theoretical upper bound (i.e., random data has 
+5 
+a higher LZ) and was used to normalize the calculated LZ from the non-shuffled data. Hence, a normalized LZ 
+6 
+of 1 indicates ‘as complex as random noise’, while lower values indicate the presence of structure in the data 
+7 
+(see [43, 44], for a similar approach). Statistical analysis largely followed that of firing rates and fano factors, 
+8 
+which exception that data were never log-transformed as they were normally distributed. Analysis was 
+9 
+effectuated both on baseline-corrected values, in order to compare the negative deflection present during 
+0 
+stimulus onset (see [43] for a similar findings) and most importantly, on non-corrected values, in order to 
+1 
+examine the basal complexity in spiking activity as a function of consciousness and whether neurons were 
+2 
+categorized as convergent or integrative. 
+3 
+ 
+4 
+Noise Correlations 
+5 
+ 
+6 
+While LZ complexity is arguably the most often utilized measure within the IIT framework [11], it is not a 
+7 
+traditional measure within neurophysiology. Thus, we sought to further probe the properties of convergent and 
+8 
+integrative neurons – and their correspondence with the alteration in the particular measure as a function of 
+9 
+consciousness state – with a neurophysiological measure that is well established to alter with consciousness 
+0 
+state. Noise correlations [29] express the amount of covariability in the trial-to-trial fluctuations of responses of 
+1 
+two neurons to repeated presentations of the same stimuli, are central to questions of coding accuracy and 
+2 
+efficiency [75], and are well-established to be altered by consciousness state [29]. Thus, this measure was 
+3 
+
+ 
+36
+computed both in S1 and vPM neurons, as a function of consciousness state and stimuli modality. Noise 
+4 
+correlations where computed as the Pearson correlation between all pairs of neurons recorded simultaneously 
+5 
+within the same session (see [29] for a similar approach). Spike counts were effectuated for each trial on the 
+6 
+500ms immediately following stimuli presentation (defined above as the average time-period of neural 
+7 
+response, and in concert with [29]. We considered the noise correlation for a particular neuron it’s average 
+8 
+correlation with all other neurons recorded in the same session. 
+9 
+ 
+0 
+Neural Ignition 
+1 
+ 
+2 
+The GNW model points to the late amplification of relevant sensory activity, long-distance cortico-cortical 
+3 
+synchronization at beta and gamma frequencies, and ignition of large-scale fronto-parietal networks as neural 
+4 
+measures of consciousness [8]. To test this prediction, we query at the single trial level whether sensory 
+5 
+stimulation leads to co-activation of both primary sensory areas (i.e., S1) and frontal regions (i.e., vPM) more 
+6 
+commonly during conscious than unconscious states. For each neuron (both in S1 and vPM) we specify a 
+7 
+threshold benchmarking reliable neural activity as the average spike count between -500 and 0 ms post-stimuli 
+8 
+onset plus 2 standard deviations. Similarly, the neural response is considered to be the spike-count between 0 
+9 
+and 500 post-stimuli onset. Then, iteratively we pick a neuron from S1 and a neuron from vPM and query 
+0 
+whether on a particular trial did neither area respond, did solely S1 respond, did solely vPM respond, or did 
+1 
+both S1 and vPM respond. A particular S1 neuron is subsequently paired with all neurons in vPM recorded 
+2 
+during the same session, and finally it’s mean activation patterns (e.g., S1 and vPM active, vPM active, S1 
+3 
+active, or none) as a function of consciousness state and sensory stimulation are quantified. The same 
+4 
+procedure is applied to vPM neurons. It must be highlighted that routinely mean firing rates are largely driven 
+5 
+by strong responses in a few trials [33], for example), and hence demanding a response within a particular trial 
+6 
+to exceed baseline plus 2 standard deviations is a conservative approach yielding a great number of no-
+7 
+response trials. Nonparametric statistics are used in this analysis as data did not confirm to the assumptions 
+8 
+made by parametric inference statistics.  
+9 
+ 
+0 
+Acknowledgements 
+1 
+ 
+2 
+JPN was supported by F31MH112336. The authors thank Dr. Randolph Blake for insightful comments on an 
+3 
+earlier version of this manuscript. 
+4 
+
+ 
+37
+ 
+5 
+Author Contributions 
+6 
+ 
+7 
+JPN, EE and MW conceived of the experiment. YI and SP collected all experimental data. JPN performed the 
+8 
+computational work. YI and SP performed data pre-processing and JPN analyzed the data. JPN drafted the 
+9 
+initial version of the manuscript. All authors edited the manuscript and approved of the final version. 
+0 
+ 
+1 
+Declaration of Interests 
+2 
+ 
+3 
+The authors declare no competing interests. 
+4 
+ 
+5 
+References 
+6 
+ 
+7 
+1. 
+Laureys S, Owen AM, Schiff ND. Brain function in coma, vegetative state, and related disorders. Lancet 
+8 
+Neurol. 2004;3(9):537-46. 
+9 
+2. 
+Monti MM, Vanhaudenhuyse A, Coleman MR, Boly M, Pickard JD, Tshibanda L, et al. Willful 
+0 
+modulation of brain activity in disorders of consciousness. N Engl J Med. 2010;362(7):579-89. 
+1 
+3. 
+Giacino JT, Fins JJ, Laureys S, Schiff ND. Disorders of consciousness after acquired brain injury: the 
+2 
+state of the science. Nat Rev Neurol. 2014;10(2):99-114. 
+3 
+4. 
+Owen AM. Disorders of consciousness: Diagnostic accuracy of brain imaging in the vegetative state. 
+4 
+Nat Rev Neurol. 2014;10(7):370-1. 
+5 
+5. 
+Owen AM, Coleman MR, Boly M, Davis MH, Laureys S, Pickard JD. Detecting awareness in the 
+6 
+vegetative state. Science. 2006;313(5792):1402. 
+7 
+6. 
+Casali AG, Gosseries O, Rosanova M, Boly M, Sarasso S, Casali KR, et al. A theoretically based index 
+8 
+of consciousness independent of sensory processing and behavior. Sci Transl Med. 2013;5(198):198ra05. 
+9 
+7. 
+Dehaene S, Lau H, Kouider S. What is consciousness, and could machines have it? Science. 
+0 
+2017;358(6362):486-92. 
+1 
+8. 
+Dehaene S, Changeux JP. Experimental and theoretical approaches to conscious processing. Neuron. 
+2 
+2011;70(2):200-27. 
+3 
+9. 
+Oizumi M, Albantakis L, Tononi G. From the phenomenology to the mechanisms of consciousness: 
+4 
+Integrated Information Theory 3.0. PLoS Comput Biol. 2014;10(5):e1003588. 
+5 
+10. 
+Tononi G. Integrated information theory of consciousness: an updated account. Arch Ital Biol. 
+6 
+2012;150(4):293-329. 
+7 
+11. 
+Tononi G, Boly M, Massimini M, Koch C. Integrated information theory: from consciousness to its 
+8 
+physical substrate. Nat Rev Neurosci. 2016;17(7):450-61. 
+9 
+12. 
+Block N, Carmel D, Fleming SM, Kentridge RW, Koch C, Lamme VA, et al. Consciousness science: 
+0 
+real progress and lingering misconceptions. Trends Cogn Sci. 2014;18(11):556-7. 
+1 
+13. 
+Lau H, Rosenthal D. Empirical support for higher-order theories of conscious awareness. Trends Cogn 
+2 
+Sci. 2011;15(8):365-73. 
+3 
+14. 
+Graziano MS, Webb TW. The attention schema theory: a mechanistic account of subjective awareness. 
+4 
+Front Psychol. 2015;6:500. 
+5 
+15. 
+Graziano MS, Kastner S. Human consciousness and its relationship to social neuroscience: A novel 
+6 
+hypothesis. Cogn Neurosci. 2011;2(2):98-113. 
+7 
+16. 
+Blanke O, Metzinger T. Full-body illusions and minimal phenomenal selfhood. Trends Cogn Sci. 
+8 
+2009;13(1):7-13. 
+9 
+17. 
+Noel JP, Blanke O, Serino A. From multisensory integration in peripersonal space to bodily self-
+0 
+consciousness: from statistical regularities to statistical inference. Ann N Y Acad Sci. 2018. 
+1 
+18. 
+van Vugt B, Dagnino B, Vartak D, Safaai H, Panzeri S, Dehaene S, et al. The threshold for conscious 
+2 
+report: Signal loss and response bias in visual and frontal cortex. Science. 2018. 
+3 
+19. 
+Joglekar MR, Mejias JF, Yang GR, Wang XJ. Inter-areal Balanced Amplification Enhances Signal 
+4 
+Propagation in a Large-Scale Circuit Model of the Primate Cortex. Neuron. 2018;98(1):222-34 e8. 
+5 
+20. 
+Tononi G, Edelman GM. Consciousness and complexity. Science. 1998;282(5395):1846-51. 
+6 
+
+ 
+38
+21. 
+Tononi G, Koch C. Consciousness: here, there and everywhere? Philos Trans R Soc Lond B Biol Sci. 
+7 
+2015;370(1668). 
+8 
+22. 
+Toker D, Sommer F. Moving Past the Minimum Information Partition: How To Quickly and Accurately 
+9 
+Calculate Integrated Information. arXiv:160501096. 2016. 
+0 
+23. 
+Toker D, Sommer FT. Information Integration In Large Brain Networks. arXiv:170802967. 2017. 
+1 
+24. 
+Nagel T. What Is It Like to Be a Bat. Philos Rev. 1974;83(4):435-50. 
+2 
+25. 
+Chalmers DJ. Facing up to the problem of consciousness. Com Adap Sy. 1996:5-28. 
+3 
+26. 
+Hartline PH, Kass L, Loop MS. Merging of modalities in the optic tectum: infrared and visual integration 
+4 
+in rattlesnakes. Science. 1978;199(4334):1225-9. 
+5 
+27. 
+Ishizawa Y, Ahmed OJ, Patel SR, Gale JT, Sierra-Mercado D, Brown EN, et al. Dynamics of Propofol-
+6 
+Induced Loss of Consciousness Across Primate Neocortex. J Neurosci. 2016;36(29):7718-26. 
+7 
+28. 
+Lempel A, Ziv J. On the Complexity of Finite Sequences. IEEE Trans Inf Theor. 1976;22(1):75-81. 
+8 
+29. 
+Ecker AS, Berens P, Cotton RJ, Subramaniyan M, Denfield GH, Cadwell CR, et al. State dependence 
+9 
+of noise correlations in macaque primary visual cortex. Neuron. 2014;82(1):235-48. 
+0 
+30. 
+de Lafuente V, Romo R. Neural correlate of subjective sensory experience gradually builds up across 
+1 
+cortical areas. Proc Natl Acad Sci U S A. 2006;103(39):14266-71. 
+2 
+31. 
+Lemus L, Hernandez A, Romo R. Neural encoding of auditory discrimination in ventral premotor cortex. 
+3 
+Proc Natl Acad Sci U S A. 2009;106(34):14640-5. 
+4 
+32. 
+Schurger A, Pereira F, Treisman A, Cohen JD. Reproducibility distinguishes conscious from 
+5 
+nonconscious neural representations. Science. 2010;327(5961):97-9. 
+6 
+33. 
+Churchland MM, Yu BM, Cunningham JP, Sugrue LP, Cohen MR, Corrado GS, et al. Stimulus onset 
+7 
+quenches neural variability: a widespread cortical phenomenon. Nat Neurosci. 2010;13(3):369-78. 
+8 
+34. 
+Ghose D, Maier A, Nidiffer A, Wallace MT. Multisensory response modulation in the superficial layers of 
+9 
+the superior colliculus. J Neurosci. 2014;34(12):4332-44. 
+0 
+35. 
+Murray MM, Wallace MT. The neural bases of multisensory processes. Boca Raton: CRC Press; 2012. 
+1 
+xxv, 771 p. p. 
+2 
+36. 
+Bizley JK, Nodal FR, Bajo VM, Nelken I, King AJ. Physiological and anatomical evidence for 
+3 
+multisensory interactions in auditory cortex. Cereb Cortex. 2007;17(9):2172-89. 
+4 
+37. 
+Sugihara T, Diltz MD, Averbeck BB, Romanski LM. Integration of auditory and visual communication 
+5 
+information in the primate ventrolateral prefrontal cortex. J Neurosci. 2006;26(43):11138-47. 
+6 
+38. 
+Olcese U, Iurilli G, Medini P. Cellular and synaptic architecture of multisensory integration in the mouse 
+7 
+neocortex. Neuron. 2013;79(3):579-93. 
+8 
+39. 
+Kadunce DC, Vaughan JW, Wallace MT, Benedek G, Stein BE. Mechanisms of within- and cross-
+9 
+modality suppression in the superior colliculus. J Neurophysiol. 1997;78(6):2834-47. 
+0 
+40. 
+Sarasso S, Boly M, Napolitani M, Gosseries O, Charland-Verville V, Casarotto S, et al. Consciousness 
+1 
+and Complexity during Unresponsiveness Induced by Propofol, Xenon, and Ketamine. Curr Biol. 
+2 
+2015;25(23):3099-105. 
+3 
+41. 
+Schartner M, Seth A, Noirhomme Q, Boly M, Bruno MA, Laureys S, et al. Complexity of Multi-
+4 
+Dimensional Spontaneous EEG Decreases during Propofol Induced General Anaesthesia. PLoS One. 
+5 
+2015;10(8):e0133532. 
+6 
+42. 
+Schartner MM, Carhart-Harris RL, Barrett AB, Seth AK, Muthukumaraswamy SD. Increased 
+7 
+spontaneous MEG signal diversity for psychoactive doses of ketamine, LSD and psilocybin. Sci Rep. 
+8 
+2017;7:46421. 
+9 
+43. 
+Andrillon T, Poulsen AT, Hansen LK, Leger D, Kouider S. Neural Markers of Responsiveness to the 
+0 
+Environment in Human Sleep. J Neurosci. 2016;36(24):6583-96. 
+1 
+44. 
+Noel JP, Simon D, Thelen A, Maier A, Blake R, Wallace MT. Probing Electrophysiological Indices of 
+2 
+Perceptual Awareness across Unisensory and Multisensory Modalities. J Cogn Neurosci. 2018:1-15. 
+3 
+45. 
+Amigo JM, Szczepanski J, Wajnryb E, Sanchez-Vives MV. Estimating the entropy rate of spike trains 
+4 
+via Lempel-Ziv complexity. Neural Comput. 2004;16(4):717-36. 
+5 
+46. 
+Abasolo D, Simons S, Morgado da Silva R, Tononi G, Vyazovskiy VV. Lempel-Ziv complexity of cortical 
+6 
+activity during sleep and waking in rats. J Neurophysiol. 2015;113(7):2742-52. 
+7 
+47. 
+Shadlen MN, Newsome WT. The variable discharge of cortical neurons: implications for connectivity, 
+8 
+computation, and information coding. J Neurosci. 1998;18(10):3870-96. 
+9 
+48. 
+Cohen MR, Newsome WT. Context-dependent changes in functional circuitry in visual area MT. 
+0 
+Neuron. 2008;60(1):162-73. 
+1 
+
+ 
+39
+49. 
+Rauschecker JP, Tian B. Mechanisms and streams for processing of "what" and "where" in auditory 
+2 
+cortex. Proc Natl Acad Sci U S A. 2000;97(22):11800-6. 
+3 
+50. 
+Tononi G, Koch C. Consciousness: here, there and everywhere? Philos T R Soc B. 
+4 
+2015;370(1668):117-34. 
+5 
+51. 
+Ibanez-Molina AJ, Iglesias-Parro S. A Comparison between Theoretical and Experimental Measures of 
+6 
+Consciousness as Integrated Information in an Anatomically Based Network of Coupled Oscillators. 
+7 
+Complexity. 2018. 
+8 
+52. 
+Brown EN, Lydic R, Schiff ND. General anesthesia, sleep, and coma. N Engl J Med. 
+9 
+2010;363(27):2638-50. 
+0 
+53. 
+Lee M, Sanders RD, Yeom SK, Won DO, Seo KS, Kim HJ, et al. Network Properties in Transitions of 
+1 
+Consciousness during Propofol-induced Sedation. Sci Rep. 2017;7(1):16791. 
+2 
+54. 
+Del Cul A, Baillet S, Dehaene S. Brain dynamics underlying the nonlinear threshold for access to 
+3 
+consciousness. PLoS Biol. 2007;5(10):e260. 
+4 
+55. 
+Del Cul A, Dehaene S, Leboyer M. Preserved subliminal processing and impaired conscious access in 
+5 
+schizophrenia. Arch Gen Psychiatry. 2006;63(12):1313-23. 
+6 
+56. 
+Gaillard R, Dehaene S, Adam C, Clemenceau S, Hasboun D, Baulac M, et al. Converging intracranial 
+7 
+markers of conscious access. PLoS Biol. 2009;7(3):e61. 
+8 
+57. 
+Bieler M, Sieben K, Cichon N, Schildt S, Roder B, Hanganu-Opatz IL. Rate and Temporal Coding 
+9 
+Convey Multisensory Information in Primary Sensory Cortices. eNeuro. 2017;4(2). 
+0 
+58. 
+Fogassi L, Gallese V, Fadiga L, Luppino G, Matelli M, Rizzolatti G. Coding of peripersonal space in 
+1 
+inferior premotor cortex (area F4). J Neurophysiol. 1996;76(1):141-57. 
+2 
+59. 
+Graziano MS, Hu XT, Gross CG. Visuospatial properties of ventral premotor cortex. J Neurophysiol. 
+3 
+1997;77(5):2268-92. 
+4 
+60. 
+Meredith MA, Clemo HR, Corley SB, Chabot N, Lomber SG. Cortical and thalamic connectivity of the 
+5 
+auditory anterior ectosylvian cortex of early-deaf cats: Implications for neural mechanisms of crossmodal 
+6 
+plasticity. Hear Res. 2016;333:25-36. 
+7 
+61. 
+Meredith MA, Clemo HR, Lomber SG. Is territorial expansion a mechanism for crossmodal plasticity? 
+8 
+Eur J Neurosci. 2017;45(9):1165-76. 
+9 
+62. 
+Parise CV, Ernst MO. Noise, multisensory integration, and previous response in perceptual 
+0 
+disambiguation. PLoS Comput Biol. 2017;13(7):e1005546. 
+1 
+63. 
+Parise CV, Ernst MO. Correlation detection as a general mechanism for multisensory integration. Nat 
+2 
+Commun. 2016;7:11543. 
+3 
+64. 
+Parise CV, Spence C, Ernst MO. When correlation implies causation in multisensory integration. Curr 
+4 
+Biol. 2012;22(1):46-9. 
+5 
+65. Koch, C., Massimini, M., Boly, M., Tononi, G., 2016. Neural correlates of consciousness: progress and 
+6 
+problems. Nat. Rev. Neurosci. 17, 307–321. 
+7 
+66. Odegaard, B., Knight, R.T., Lau, H., 2017. Should a Few Null Findings Falsify Prefrontal Theories of 
+8 
+Conscious Perception? J. Neurosci. 37, 9593–9602. 
+9 
+67. 
+Noel JP, Wallace M, Blake R. Cognitive neuroscience: integration of sight and sound outside of 
+0 
+awareness? Curr Biol. 2015;25(4):R157-9. 
+1 
+68. 
+Dykstra AR, Cariani PA, Gutschalk A. A roadmap for the study of conscious audition and its neural 
+2 
+basis. Philos Trans R Soc Lond B Biol Sci. 2017;372(1714). 
+3 
+69. 
+Asaad WF, Eskandar EN. Achieving behavioral control with millisecond resolution in a high-level 
+4 
+programming environment. J Neurosci Methods. 2008;173(2):235-40. 
+5 
+70. 
+Asaad WF, Eskandar EN. A flexible software tool for temporally-precise behavioral control in Matlab. J 
+6 
+Neurosci Methods. 2008;174(2):245-58. 
+7 
+71. 
+Saleem KS L, NK. A combined MRI and histology atlas of the rhesus monkey brain in stereotaxic 
+8 
+coordinates. Ed 2 San Diego: Academic. 2012. 
+9 
+72. 
+Fano U. Ionization Yield of Radiations .2. The Fluctuations of the Number of Ions. Phys Rev. 
+0 
+1947;72(1):26-9. 
+1 
+73. 
+Stein BE, Stanford TR. Multisensory integration: current issues from the perspective of the single 
+2 
+neuron. Nat Rev Neurosci. 2008;9(4):255-66. 
+3 
+74. 
+Ghazanfar AA, Schroeder CE. Is neocortex essentially multisensory? Trends Cogn Sci. 
+4 
+2006;10(6):278-85. 
+5 
+
+ 
+40
+75. 
+Averbeck BB, Latham PE, Pouget A. Neural correlations, population coding and computation. Nat Rev 
+6 
+Neurosci. 2006;7(5):358-66. 
+7 
+  
+8 
+ 
+9 
+ 
+0 
+ 
+1 
+ 
+2 
+ 
+3 
+ 
+4 
+ 
+5 
+ 
+6 
+ 
+7 
+ 
+8 
+ 
+9 
+ 
+0 
+ 
+1 
+ 
+2 
+ 
+3 
+ 
+4 
+ 
+5 
+ 
+6 
+ 
+7 
+ 
+8 
+ 
+9 
+ 
+0 
+ 
+1 
+ 
+2 
+ 
+3 
+ 
+4 
+ 
+5 
+ 
+6 
+ 
+7 
+ 
+8 
+ 
+9 
+ 
+0 
+ 
+1 
+ 
+2 
+ 
+3 
+ 
+4 
+ 
+5 
+ 
+6 
+ 
+7 
+ 
+8 
+ 
+9 
+ 
+0 
+ 
+1 
+ 
+2 
+ 
+3 
+ 
+4 
+ 
+5 
+ 
+6 
+ 
+7 
+ 
+8 
+ 
+9 
+ 
+0 
+
+ 
+41
+SUPPLEMENTARY INFORMATION 
+1 
+ 
+2 
+Rationale and Computation of Integrated Information (Φ) 
+3 
+ 
+4 
+From an information-theoretic perspective information is the reduction of uncertainty (Shannon, 1948). In turn, 
+5 
+information may be quantified by considering how a system in its current state 𝑆! constrains the system’s 
+6 
+potential past and future states. Figure S1 illustrates this principle form within the purview of 𝐶 at time 𝑡 for the 
+7 
+system with an XOR gate. Under this scenario, if 𝐶 is currently active, then at time 𝑡-1 by necessity either A 
+8 
+was active, B was active, A and C were active, or B and C were active (Figure S1, left panel). The probability 
+9 
+distribution of past states that could have been causes of 𝐶= 1 is its cause repertoire 𝑝𝐴𝐵𝐶!"#$ 𝐶= 1 . On 
+0 
+the other hand, if it is unknown in what state 𝐶 is in, 𝑡-1 is unconstrained 𝑝!"(𝐴𝐵𝐶!"#$). A similar rationale 
+1 
+applies to future states wherein the current state of 𝐶 constrains its future potential states, and the effect 
+2 
+repertoire is thus the probability of being in any given state given that 𝐶 is current active, or 
+3 
+𝑝𝐴𝐵𝐶!"#"$% 𝐶= 1 .  The amount of information that 𝐶= 1 specifies about the past is its cause information (CI) 
+4 
+and the amount it specifies about the future is its effect information (EI). CI and EI are respectively measured 
+5 
+as follows,  
+6 
+ 
+7 
+𝐶𝐼= 𝐸𝑀𝐷(𝑝𝐴𝐵𝐶!!! 𝐶! = 1 || 𝑝!"(𝐴𝐵𝐶!!!)           𝐸𝑞. 1 
+ 
+8 
+𝐸𝐼= 𝐸𝑀𝐷(𝑝𝐴𝐵𝐶!!! 𝐶! = 1 || 𝑝!"(𝐴𝐵𝐶!!!)           𝐸𝑞. 2 
+ 
+9 
+where 𝐸𝑀𝐷 refers to earth mover’s distance (Rubner et al., 2000), the minimal cost of reshaping one 
+0 
+distribution (e.g., unconstrained) into the other (e.g., constrained) or area of distribution moved times the 
+1 
+distance moved. Finally, the total amount of cause-effect information (CEI) specified by 𝐶= 1 is the minimum 
+2 
+value between CI and EI. This results from the fact that both CI and EI may act as limiting cases – an 
+3 
+information bottleneck – and hence minimize the CEI of the system as a whole (see Oizumi et al., 2014, for 
+4 
+detail). Finally, while CEI measures information, the IIT conjectures that consciousness is integrated 
+5 
+information. That is, information generated by the system above and beyond that generated by its constituent 
+6 
+parts. Hence, the system as a whole is iteratively partitioned into all possible subsystems or purviews and the 
+7 
+process delineated above is evaluated for each of these components. Similar to CEI, integrated information is 
+8 
+calculated as the 𝐸𝑀𝐷 between the cause-effect repertoire specified by the system as a whole and the cause-
+9 
+effect repertoire of the partitioned system. Φ is the distance between the system as a whole and the system-
+0 
+partitioned that makes the least difference; the minimum information partition. That is, Φ is the degree to which 
+1 
+the cause effect repertoire for the system as a whole differs from the next most informative partition.   
+2 
+ 
+3 
+
+ 
+42
+ 
+4 
+ 
+5 
+Figure S1. Illustration of cause and effect repertoires and the constraints imposed on potential probability 
+6 
+distributions by the fact that C=1. Cause (left) and effect (right) repertoires for a system with three nodes as the one 
+7 
+illustrated in Figure 1, and as a function of whether the past-future is constrained to C=1 (top) or not (bottom). 
+8 
+ 
+9 
+Information integration (phi, Φ) was calculated for the multisensory convergent and integrative networks using 
+0 
+the transitions probability matrices illustrated in Figure S2 (see below) and as implemented in PyPhi (Mayner et 
+1 
+al., 2017) with Python 3.4. 
+2 
+ 
+ 
+3 
+Formalizing the Role of Multisensory Integration in Consciousness 
+4 
+ 
+5 
+To formally ascertain the putative role multisensory integrative (vs. convergent) neurons within a network in 
+6 
+bearing consciousness (according to the IIT), we built two biologically inspired simple neural networks (Figure 
+7 
+S2A). These networks each have 3 nodes, two of which may be considered analogous to unisensory areas 
+8 
+(nodes A and B) and a third (node C), which receives projections from the unisensory areas and may be 
+9 
+considered analogous to a multisensory area. As is well established in biological systems, the multisensory 
+0 
+area equally projected back to unisensory areas (Bizley et al., 2007, Cappe et al., 2009, Ghazanfar and 
+1 
+Schroeder, 2006). The two networks were identical with exception that for one network (Figure S2A, left panel) 
+2 
+node C was an “XOR” gate, while for the other it was an “AND” gate (Figure S2A, right panel). The XOR gate 
+3 
+results in a logical “true” (or ‘1’/ ‘HIGH’) when the number of true inputs is odd. In this case, given the system 
+4 
+architecture, the node C would be active if on the previous time step one and only one of gates A or B was 
+5 
+active. Thus, node C can in principle be active following activity in either node A or B, but importantly does not 
+6 
+respond preferentially when both are active. On the other hand, the other network, where node C is an “AND” 
+7 
+gate, responds exclusively when on the precedent time-step both gates A and B were active. That is, this gate 
+8 
+most faithfully mimics the behavior of integrative multisensory neurons that may or may not overtly respond 
+9 
+indiscriminately to distinct sensory inputs, but importantly are most driven by spatio-temporally coincident 
+0 
+multisensory inputs. Hence, the network formed with an XOR gate (Figure S2A, left) instantiates a network with 
+1 
+neurons that are indiscriminant to the nature of sensory input, while in contrast the network formed with an 
+2 
+AND gate (Figure S2A, right) instantiates a network with neurons that integrate sensory information, i.e., 
+3 
+responds non-linearly to the addition of sensory stimuli from distinct modalities (Stein and Stanford, 2008, 
+4 
+Wallace et al., 2006). The architecture of these systems dictates the composition of transition probability 
+5 
+matrices (TPMs), which guides transitions between states (i.e., neurons that are ‘active’ at different time-
+6 
+points). In Figure S2B these TPMs have been depicted (left and right respectively for the multisensory 
+7 
+convergent and multisensory integrative systems) and highlighted for their distinctive features. Namely, in the 
+8 
+0 
+0 
+0 
+1 
+0 
+0 
+0 
+1 
+0 
+1 
+1 
+0 
+0 
+0 
+1 
+1 
+0 
+1 
+0 
+1 
+1 
+1 
+1 
+1 
+A 
+B 
+C 
+Cause Repertoire 
+Effect Repertoire 
+Cause Repertoire, p(ABCt-1| Ct = 1) 
+Unconstrained Past, puc(ABCt-1) 
+Earth-mover’s Distance (EMD) 
+0 
+0 
+0 
+1 
+0 
+0 
+0 
+1 
+0 
+1 
+1 
+0 
+0 
+0 
+1 
+1 
+0 
+1 
+0 
+1 
+1 
+1 
+1 
+1 
+A 
+B 
+C 
+Effect Repertoire, p(ABCt+1| Ct = 1) 
+Unconstrained Future, puc(ABCt+1) 
+Earth-mover’s Distance (EMD) 
+PURVIEW of Ct (XOR GATE EXAMPLE) 
+
+ 
+43
+case of the convergent network, when ABC nodes are in state 100 (respectively, A, B, and C) or 010 (green 
+9 
+rows), activation of the multisensory node will follow. This is not true if the convergent network is in state 110 
+0 
+(red row). The opposite is true for the network that integrates. Given these TPMs, Φ can be calculated when 
+1 
+the state of the network is ABC = 001 (multisensory node active). Results indicate that in fact a network with a 
+2 
+node with integrative capacity in principle may bear a greater degree of consciousness (Φ = 0.78) than one 
+3 
+that simply responds indiscriminately to stimuli from distinct sensory modalities (Φ = 0.25).  
+4 
+ 
+5 
+ 
+6 
+ 
+7 
+ 
+8 
+Figure S2. Formalizing the role of multisensory integrative neurons in bearing consciousness according to IIT. A) 
+9 
+Depiction of a multisensory convergent (left) and integrative (right) network. There is no connection between A and B 
+0 
+nodes, as these transition probability values are zero. The dashed connections leading to A and B are to illustrate that 
+1 
+these putative unisensory areas receive input from downstream neural areas, yet they play no role in the ITT-driven 
+2 
+model. B) The transition probability matrices (TPM) for a deterministic (e.g., probability is either 0 or 1) convergent (left) 
+3 
+and integrative (right) network are illustrated. State t is represented in the abscissa and t+1 on the ordinate. Green and 
+4 
+red rows are highlighted to emphasize key difference between the convergent and integrative networks, yet these 
+5 
+differences are not exhaustive (however do dictate the rest of differences). C) The Φ value associated with the convergent 
+6 
+(left) and integrative (right) TMPs as determined in PyPhi (Mayner et al., 2017). 
+7 
+ 
+8 
+S1 and vPM Firing Rates as a Function of Sensory Modality and Awareness 
+9 
+ 
+0 
+Regarding the firing rate, analyses on non baseline-corrected activity indicated a clear generalized decrease in 
+1 
+firing rate when monkeys were rendered unconscious (p<0.01 at all time points; Aware; M = 4.43 spikes/s, 
+2 
+S.E.M = 0.008 spikes/s; Unaware; M = 2.44 spikes/s, S.E.M = 0.007), a significant difference in spiking activity 
+3 
+across the areas recorded between 50ms and 160ms post-stimuli onset (p<0.01, S1, M = 5.68 spikes/s, S.E.M 
+4 
+= 0.008 spikes/s; vPM, M = 4.88 spikes/s, S.E.M = 0.006 spikes/s), and a significant main effect of stimulation 
+5 
+type (i.e., AT, T, A, N) between 50ms and 480ms post-stimuli onset (AT, M = 4.14 spikes/s, S.E.M = 0.01 
+6 
+XOR 
+Multisensory Convergence 
+Multisensory Integration 
+A 
+B 
+C 
+0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 
+0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 1 
+0 0 0 1 0 0 0 0 
+t0 
+t1 
+ABC 
+A 
+B 
+C 
+Current State S0 (ABC) = 001 
+000 
+100 
+010 
+110 
+001 
+101 
+011 
+111 
+0 
+0 
+0 
+1 
+0 
+0 
+0 
+1 
+0 
+1 
+1 
+0 
+0 
+0 
+1 
+1 
+0 
+1 
+0 
+1 
+1 
+1 
+1 
+1 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 
+0 0 0 1 0 0 0 0 
+0 0 0 1 0 0 0 0 
+0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 1 
+t0 
+t1 
+ABC 
+A 
+B 
+C 
+Current State S0 (ABC) = 001 
+000 
+100 
+010 
+110 
+001 
+101 
+011 
+111 
+0 
+0 
+0 
+1 
+0 
+0 
+0 
+1 
+0 
+1 
+1 
+0 
+0 
+0 
+1 
+1 
+0 
+1 
+0 
+1 
+1 
+1 
+1 
+1 
+Φ = 0.25  
+Φ = 0.78  
+B)
+C)
+AND 
+A 
+B 
+C 
+A)
+
+ 
+44
+spikes/s; T, M = 4.31 spikes/s, S.E.M = 0.01 spikes/s; A, M = 3.75 spikes/s, S.E.M = 0.006 spikes/s; N, M = 
+7 
+3.28 spikes/s, S.E.M = 0.001 spikes/s). Importantly, a stimulation-type (i.e., AT, T, A, N) by area recorded (i.e., 
+8 
+S1 vs. vPM) interaction was also evident (p<0.01, between 60ms and 210ms post-stimuli onset), driven by the 
+9 
+fact that vPM responded to A stimulation (M = 3.21 spikes/s, S.E.M = 0.10 spikes/s), while S1 did not (M = 
+0 
+2.18 spikes/s, S.E.M = 0.10 spikes/s). Thus, in sum and as expected, these analyses demonstrated that 
+1 
+propofol silenced spiking activity generally, that neurons in S1 and vPM responded differently to distinct 
+2 
+sensory stimuli between 50 and 480ms post-stimuli onset, and that vPM but not S1 responded to auditory 
+3 
+stimulation. The baseline-corrected analyses (depicted in Figure 2, rows 1 and 3) largely demonstrated 
+4 
+analogous results, while indicating that the bifurcation in evoked responses (as opposed to baseline 
+5 
+responses, as indicated above) between states of consciousness occurred (regardless of sensory modality) 80 
+6 
+ms post-stimuli onset (p<0.01, averaged across 80-1000ms post-stimuli onset; Aware, M = 0.48 spikes/s, 
+7 
+S.E.M = 0.04; Unaware, M = 0.09 spikes/s, S.E.M = 0.01 spikes/s) and also highlighting a consciousness state 
+8 
+by sensory modality (p<0.01 between 40-110ms, and 200-380ms) as well as 3-way (modality, state, and area) 
+9 
+interaction (p<0.01, 410-610ms post-stimuli onset). The time-periods demonstrating a significant difference in 
+0 
+evoked activity as a function of state of consciousness are shaded in gray in Figure 1 (main text) separated by 
+1 
+area recorded and sensory stimulation, while the time-periods demonstrating a significant response vis-à-vis 
+2 
+baseline are indicated by horizontal lines in each panel (see Figure 1). 
+3 
+ 
+4 
+S1 and vPM Fano Factors as a Function of Sensory Modality and Awareness 
+5 
+ 
+6 
+Regarding fano factors (FFs), results demonstrated heightened variability under unaware (M = 1.45, S.E.M = 
+7 
+7.3e-4) than aware (M = 1.16, S.E.M = 5.6e-4) conditions (see Ecker et al., 2014 for a similar result), while 
+8 
+both of these were significantly greater than 1 (unaware, p < 4.76e-92; aware, p = 4.76e-92), and hence likely 
+9 
+exhibiting inter-trial variability above and beyond what is presumed to be attributable intrinsically to neurons 
+0 
+(i.e., FF = 1). Similarly, FFs were larger in S1 (M = 1.32, S.E.M = 6.91e-4) than vPM (M = 1.22, S.E.M = 5.70e-
+1 
+4), throughout the post-stimuli period (p<0.01, for exemption of the period between 80ms and 120ms post-
+2 
+stimuli onset. The period between 50ms and 270ms post-stimuli onset demonstrated a significant difference in 
+3 
+FFs as a function of stimulus modality (p<0.01), with the AT (M = 1.29, S.E.M = 0.02) and T (M = 1.28, S.E.M = 
+4 
+0.03) conditions being the less variable (AT vs. T, p = 0.58) than the A (M = 1.31, S.E.M = 0.02) and N (M = 
+5 
+1.33, S.E.M = 0.02) conditions (T vs. A, t = 2.03, p = 0.041; A vs. N, p = 0.43). Importantly, FFs also 
+6 
+demonstrated a consciousness state by recording area interaction (p<0.01, between 200ms and 320ms post-
+7 
+stimuli onset) and a recording area by stimulus modality interaction (p<0.01, between 50ms and 180ms post-
+8 
+stimuli onset). The latter interaction was driven by a main effect of stimuli modality that was sustained in S1 
+9 
+(p<0.01, between 50ms and 250ms, as well as 350ms and 540ms post-stimuli onset) and only transient in vPM 
+0 
+(p<0.01, between 110 and 140ms post-stimuli onset), while the former is attributable to a rapprochement in FF 
+1 
+between consciousness states in S1 and not in vPM. Indeed, this last effect is further appreciable when 
+2 
+correcting FFs for baseline (Figure 1) as a further quenching in variability in S1 (vs. vPM) specifically to AT and 
+3 
+T sensory stimulation (contrasts between aware and unaware conditions; S1; AT, p<0.01 between 160ms-
+4 
+200ms, T, p<0.01 between 180ms-220ms, never for A and N; vPM, never). As for firing rates, the time-periods 
+5 
+demonstrating a significant difference in FF as a function of state of consciousness are shaded in gray in 
+6 
+Figure 1 (main text) separated by area of recording and sensory stimulation type. Time-periods demonstrating 
+7 
+a significant quenching in FF vis-à-vis baseline are indicated by horizontal lines in each panel (see Figure 1).   
+8 
+ 
+9 
+Lempel-Ziv Complexity as a Function of Sensory Modality and Awareness 
+0 
+ 
+1 
+Figure 5A illustrates normalized LZ (see Andrillon et al., 2016, Noel et al., 2018, and Methods), both in its 
+2 
+baseline-corrected and non-corrected format, and as a function of consciousness state (aware = colored; 
+3 
+unaware = gray) and sensory stimulation. Regarding the non-corrected values, a 2 (consciousness state; 
+4 
+aware vs. unaware) x 2 (recording area; S1 vs. vPM) x 4 (stimulation type; AT, T, A, N) ANOVA most strikingly 
+5 
+revealed that unaware states (M = 0.88, S.E.M = 0.003) were generally more complex (p<0.01 at all time-
+6 
+points) than aware states (M = 0.81, S.E.M = 0.004). This analysis also revealed a main effect of recording 
+7 
+area between 50ms and 100ms post-stimuli onset (p<0.01), as well as a main effect of stimulation between 
+8 
+50ms and 250ms (p<0.01). This analysis equally indicated a significant interaction between recording area and 
+9 
+stimulation type (p<0.01 between 50ms and 150ms post-stimuli onset). The interaction was driven by a 
+0 
+significant main effect of stimulation that lasted longer (p<0.01, between 50ms and 250ms post-stimuli onset) 
+1 
+
+ 
+45
+in S1 than vPM (p<0.01 between 100 and 150ms). Once normalized LZ was corrected for baseline, analyses 
+2 
+specified a main effect of consciousness state specifically between 200 and 400ms post-stimuli onset (p<0.01), 
+3 
+indicating that not only was overall LZ different across consciousness states, but the evoked nature of this 
+4 
+measure equally differed. This main effect was driven by the AT and T conditions, where complexity returned 
+5 
+to it’s baseline value more readily under unaware (AT, and T, return to baseline at 300ms) than aware states 
+6 
+(AT and T, return to baseline at 350ms). The rest of statistical contrasts followed the same pattern as for the 
+7 
+non-corrected values. The time-periods demonstrating a significant difference in evoked activity as a function 
+8 
+of state of consciousness are shaded in gray in Figure 5A separated by area recorded and sensory stimulation, 
+9 
+while the time-periods demonstrating a significant response vis-à-vis baseline are indicated by horizontal lines 
+0 
+in each panel (see Figure 5A). In sum, therefore, the state of awareness is seemingly indexed in spiking 
+1 
+activity by an overall lower level of LZ complexity (see Figure 5A, non-corrected normalized LZ), as well as by 
+2 
+a more sustained negative deflection evoked by sensory stimulation (see Andrillon et al., 2016, for a similar 
+3 
+observation).  
+4 
+ 
+5 
+Percentage of Trials Evoking Significant Firing in S1 and vPM as a Function of Sensory Modality and 
+6 
+Awareness 
+7 
+ 
+8 
+The percentage of trials that resulted in significant firing of S1 neuron was altered by the sensory modality of 
+9 
+the stimuli presented and the consciousness level of the monkey. In particular, results demonstrated a main 
+0 
+effect of consciousness state (Z=1294, p<0.001), stimulation modality (χ2=51.52, p<0.001), and an interaction 
+1 
+between these variables (χ2=80.99, p<0.001). The interaction was driven by a significant main effect of stimuli 
+2 
+type during consciousness (χ2 =91.18, p<0.001), but not unconsciousness (χ2=4.07, p=0.19). Regarding 
+3 
+significant activation of pre-frontal cortex neurons, once again results demonstrated further activation 
+4 
+consciously (M=6.9%) than unconsciously (M=3.1%; Z=1319, p<0.001), a main effect of stimulation type 
+5 
+(χ2=105.7, p<0.001), and an interaction between these variables (χ2 = 233.11, p < 0.001). The interaction was 
+6 
+driven by differential trial-activation percentages as a function of stimulation type when the monkeys were 
+7 
+conscious (χ2 =133.7, p<0.001) but not unconscious (χ2= 7.51, p=0.08). 
+8 
+ 
+9 

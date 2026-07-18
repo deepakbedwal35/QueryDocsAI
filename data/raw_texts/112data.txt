@@ -1,0 +1,720 @@
+International Journal of Philosophy  
+  
+ISSN: 2958-244X (Online)  
+Vol. 3, Issue No. 3, pp 59 - 72, 2024                       
+www.carijournals.org 
+59 
+ 
+  
+ 
+ 
+ 
+Phenomenology and the Concept of Consciousness 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+International Journal of Philosophy  
+  
+ISSN: 2958-244X (Online)  
+Vol. 3, Issue No. 3, pp 59 - 72, 2024                       
+www.carijournals.org 
+60 
+ 
+  
+Phenomenology and the Concept of Consciousness 
+ 
+1*Abigale Cherono 
+Multimedia University 
+Accepted: 13th Feb, 2024, Received in Revised Form: 29th May, 2024, Published: 26th June, 2024 
+ 
+Abstract 
+Purpose: The general objective of the study was to explore phenomenology and the concept of 
+consciousness.  
+Methodology: The study adopted a desktop research methodology. Desk research refers to secondary 
+data or that which can be collected without fieldwork. Desk research is basically involved in collecting 
+data from existing resources hence it is often considered a low cost technique as compared to field 
+research, as the main cost is involved in executive’s time, telephone charges and directories. Thus, the 
+study relied on already published studies, reports and statistics. This secondary data was easily 
+accessed through the online journals and library. 
+Findings: The findings reveal that there exists a contextual and methodological gap relating to 
+phenomenology and the concept of consciousness. Preliminary empirical review revealed a complex 
+relationship between subjective experience and cognitive and neural mechanisms. It demonstrated that 
+phenomenology, focusing on first-person perspectives and intentionality, offers a robust framework 
+for understanding consciousness as an active, embodied engagement with the world. The integration 
+of phenomenological insights with cognitive science and neuroscience provided a comprehensive 
+view, correlating subjective reports with neural activity. This approach proved valuable in clinical 
+settings, enhancing mental health interventions by focusing on individual experiences. The study 
+highlighted the promise of ongoing interdisciplinary research to advance both scientific and 
+philosophical understandings of consciousness. 
+Unique Contribution to Theory, Practice and Policy: The Theory of Intentionality, Embodies 
+Cognition Theory and Global Workspace Theory may be used to anchor future studies on 
+phenomenology and the concept of consciousness. The study recommended further development of 
+theoretical frameworks integrating phenomenology with cognitive neuroscience, emphasizing the need 
+for interdisciplinary research collaborations. It suggested incorporating phenomenological approaches 
+into mental health practices to enhance patient-centered care and advocated for training healthcare 
+professionals in these methods. The study also advised policymakers to integrate phenomenological 
+findings into mental health policies and prioritize funding for programs that recognize subjective 
+experiences. Lastly, it highlighted the need for future research to explore long-term effects, cultural 
+factors, and new neuroimaging techniques to advance the understanding of consciousness. 
+Keywords: Phenomenology, Consciousness, Intentionality, Embodied Cognition, Neural Correlates 
+ 
+ 
+ 
+ 
+ 
+
+International Journal of Philosophy  
+  
+ISSN: 2958-244X (Online)  
+Vol. 3, Issue No. 3, pp 59 - 72, 2024                       
+www.carijournals.org 
+61 
+ 
+  
+1.0 INTRODUCTION  
+The concept of consciousness encompasses the quality or state of being aware of and able to think 
+about one's own existence, thoughts, and surroundings. It is a multifaceted phenomenon that has been 
+the subject of extensive philosophical, psychological, and neuroscientific research. Consciousness 
+involves various levels of awareness, including sensory perception, self-reflection, and the capacity 
+for abstract thought. Researchers have sought to define and measure consciousness through different 
+methodologies, leading to diverse interpretations and theories. One influential approach is the Global 
+Workspace Theory, which posits that consciousness arises from the integration of information across 
+different neural networks (Baars, 2013). This theory suggests that consciousness is a dynamic and 
+emergent property of the brain, capable of encompassing a wide range of experiences and cognitive 
+functions. 
+In the United States, consciousness research has seen significant advancements, particularly in the 
+field of cognitive neuroscience. Studies have utilized neuroimaging techniques such as fMRI and EEG 
+to explore the neural correlates of consciousness. For instance, Koch, Massimini, Boly & Tononi 
+(2016) found that specific patterns of brain activity are associated with different levels of conscious 
+awareness, providing insights into the neural basis of conscious experience. The research also 
+highlights the prevalence of altered states of consciousness in the US, such as those induced by 
+meditation, psychedelic substances, and sleep disorders. According to the National Center for 
+Complementary and Integrative Health, approximately 14% of American adults have used meditation, 
+reflecting a growing interest in practices that alter consciousness (NCCIH, 2017). 
+In the United Kingdom, consciousness has been a focal point of both scientific inquiry and cultural 
+discourse. Researchers at institutions such as the University of Oxford and University College London 
+have made substantial contributions to our understanding of consciousness. Boly, Massimini, 
+Tsuchiya, Postle, Koch & Tononi (2017) employed advanced neuroimaging techniques to investigate 
+the neural mechanisms underlying different states of consciousness, including wakefulness and various 
+stages of sleep. Culturally, the UK has a rich tradition of exploring consciousness through literature, 
+philosophy, and the arts. The influence of British thinkers like Bertrand Russell and contemporary 
+philosophers such as David Chalmers has shaped global perspectives on the nature of consciousness 
+and the mind-body problem (Boly et al., 2017). 
+Japan offers a unique perspective on consciousness, blending traditional philosophical insights with 
+modern scientific research. Japanese culture has long been influenced by Zen Buddhism, which 
+emphasizes mindfulness and the nature of consciousness. Zen practices aim to achieve a heightened 
+state of awareness and insight into the true nature of reality. Modern Japanese researchers have also 
+contributed to the scientific study of consciousness. Tagawa, Sato & Kakigi (2014) investigated the 
+effects of Zen meditation on brain activity, finding significant changes in brain regions associated with 
+attention and emotional regulation. This research underscores the interplay between traditional 
+practices and contemporary science in understanding consciousness in Japan. 
+In Brazil, consciousness is explored through both socio-cultural and scientific lenses. The country has 
+a vibrant culture that incorporates diverse indigenous and Afro-Brazilian spiritual practices, many of 
+which involve altered states of consciousness. For example, the use of ayahuasca in religious 
+ceremonies has been studied for its profound effects on consciousness and mental health. Palhano-
+Fontes, Andrade, Tofoli, Jose, Crippa, Hallak & de Araujo (2015) found that ayahuasca induces 
+significant changes in brain activity, promoting a sense of unity and spiritual insight. Additionally, 
+Brazilian neuroscientists are at the forefront of consciousness research, investigating the neural 
+correlates of various cognitive states and their implications for mental health and well-being (Palhano-
+Fontes et al., 2015). 
+
+International Journal of Philosophy  
+  
+ISSN: 2958-244X (Online)  
+Vol. 3, Issue No. 3, pp 59 - 72, 2024                       
+www.carijournals.org 
+62 
+ 
+  
+Across African countries, the concept of consciousness is shaped by a rich tapestry of cultural, 
+religious, and philosophical traditions. African indigenous knowledge systems often view 
+consciousness as interconnected with community, nature, and the spiritual world. For example, in 
+many African cultures, consciousness is not seen as confined to the individual but as part of a collective 
+consciousness that includes ancestors and spiritual beings. Research in Africa also explores the impact 
+of socio-economic and health factors on consciousness. Ndetei, Khasakhala, Maru, Pizzo, Mutiso, 
+Ongecha-Owuor & Kokonya (2013) in Kenya highlighted the prevalence of altered states of 
+consciousness due to conditions such as epilepsy and mental health disorders, emphasizing the need 
+for better healthcare infrastructure and education to address these issues (Ndetei et al., 2013). 
+Comparing consciousness studies across different countries reveals both commonalities and unique 
+cultural influences. For instance, while the United States and the United Kingdom focus heavily on 
+neuroscientific approaches, Japan integrates traditional practices like meditation into scientific 
+research. Brazil's use of psychedelic substances for spiritual and therapeutic purposes contrasts with 
+Africa's emphasis on collective and spiritual aspects of consciousness. These diverse approaches 
+highlight the importance of considering cultural context in consciousness research. A global trend is 
+the increasing use of technology and interdisciplinary methods to study consciousness, bridging gaps 
+between philosophy, psychology, and neuroscience (Koch, Massimini, Boly & Tononi, 2016). 
+Despite significant advancements, consciousness research faces several challenges. One major issue 
+is the subjective nature of consciousness, which makes it difficult to measure and quantify. Researchers 
+also grapple with the "hard problem" of consciousness, which questions how and why certain brain 
+processes give rise to subjective experiences. Future research aims to address these challenges through 
+more sophisticated neuroimaging techniques, cross-cultural studies, and interdisciplinary 
+collaborations. Additionally, ethical considerations in studying and potentially manipulating 
+consciousness must be carefully navigated to ensure responsible and beneficial outcomes (Chalmers, 
+2013). 
+Understanding consciousness has profound implications for various aspects of society, including 
+mental health, education, and artificial intelligence. Insights into the neural mechanisms of 
+consciousness can lead to better treatments for mental health disorders and improved cognitive 
+therapies. In education, fostering awareness and mindfulness can enhance learning and emotional well-
+being. The study of consciousness also informs the development of artificial intelligence, particularly 
+in creating machines with higher levels of cognitive and emotional intelligence. These societal 
+applications highlight the far-reaching impact of consciousness research beyond academic and 
+scientific circles (Baars, 2013). 
+The study of consciousness is an evolving field that continues to intrigue and challenge researchers 
+worldwide. By integrating diverse cultural perspectives and advanced scientific methodologies, the 
+understanding of consciousness is becoming increasingly comprehensive and nuanced. The global 
+trends and research discussed demonstrate the complexity and significance of consciousness as a 
+fundamental aspect of human experience. As we continue to explore this enigmatic phenomenon, the 
+insights gained will undoubtedly contribute to various domains, enhancing our understanding of the 
+human mind and its potential (Boly et al., 2017). 
+Phenomenology, as a philosophical approach, primarily focuses on the study of structures of 
+consciousness as experienced from the first-person point of view. It aims to uncover the essential 
+qualities of experiences and phenomena without preconceived theories or biases. This approach was 
+initially developed by Edmund Husserl in the early 20th century and has since been expanded by 
+various 
+philosophers, 
+including 
+Merleau-Ponty, 
+Heidegger, 
+and 
+Sartre. 
+Contemporary 
+phenomenologists continue to refine these ideas, applying them to a broad spectrum of disciplines, 
+
+International Journal of Philosophy  
+  
+ISSN: 2958-244X (Online)  
+Vol. 3, Issue No. 3, pp 59 - 72, 2024                       
+www.carijournals.org 
+63 
+ 
+  
+including psychology, cognitive science, and neuroscience (Smith, 2013). Phenomenology’s emphasis 
+on subjective experience offers profound insights into the nature of consciousness and how we perceive 
+the world around us. By focusing on the lived experiences of individuals, phenomenology provides a 
+detailed account of how we interact with and interpret our surroundings, thus contributing to a deeper 
+understanding of consciousness. 
+At the heart of Husserl’s phenomenology is the concept of intentionality, the idea that consciousness 
+is always about something; it is directed towards objects, thoughts, or experiences. This notion is 
+fundamental in understanding how we constitute meaning in our conscious experiences (Husserl, 
+2012). Husserl also introduced the method of phenomenological reduction, which involves bracketing 
+or suspending judgment about the existence of the external world to focus purely on the content of 
+consciousness. This method aims to reveal the essential structures of experience, providing a clear 
+view of how consciousness organizes phenomena (Stoljar, 2013). By stripping away assumptions and 
+focusing on pure experience, phenomenological reduction allows researchers to explore the 
+foundational elements of consciousness, such as perception, memory, and imagination, thereby 
+deepening our understanding of these processes. 
+Martin Heidegger, a student of Husserl, expanded phenomenology into existential realms, emphasizing 
+the concept of Being. Heidegger argued that phenomenology must address the question of Being itself, 
+which he believed was central to understanding human existence (Heidegger, 2014). His critique of 
+Husserl’s approach led to a focus on Dasein, or the being that we are, emphasizing the lived experience 
+of existence, time, and death. Heidegger’s work connects consciousness with the temporality and the 
+finitude of human life, positioning phenomenology as a way to explore existential themes that shape 
+our understanding of consciousness (Heidegger, 2014). By examining the fundamental structures of 
+existence, such as being-in-the-world and being-toward-death, Heidegger's phenomenology provides 
+insights into how our awareness of mortality influences our conscious experience and our 
+understanding of time. 
+Maurice Merleau-Ponty further developed phenomenology by integrating existential and 
+psychological insights, particularly through his work on perception. He argued that perception is not 
+just a passive reception of sensory data but an active engagement with the world, grounded in the body. 
+This embodied approach to phenomenology suggests that consciousness and the body are inherently 
+interconnected, challenging Cartesian dualism (Merleau-Ponty, 2014). His concept of the “lived body” 
+emphasizes that our bodily experiences shape our perception of reality and our consciousness, offering 
+a profound understanding of how we experience the world subjectively (Merleau-Ponty, 2014). By 
+exploring the pre-reflective, bodily basis of perception, Merleau-Ponty's phenomenology reveals how 
+our physical interactions with the world influence our conscious experiences, highlighting the 
+importance of embodiment in understanding consciousness. 
+In recent years, phenomenology has found applications in cognitive science, bridging the gap between 
+philosophical theories and empirical research. Researchers like Shaun Gallagher have explored how 
+phenomenological insights can inform our understanding of cognition, consciousness, and the self. For 
+instance, Gallagher’s work on embodied cognition emphasizes that cognitive processes are deeply 
+rooted in sensory and motor experiences, aligning with Merleau-Ponty’s ideas (Gallagher, 2013). This 
+perspective challenges traditional cognitive theories that often overlook the embodied and situated 
+nature of consciousness. By integrating phenomenological methods with empirical studies, 
+contemporary researchers can develop a more comprehensive understanding of how cognitive 
+processes are shaped by our interactions with the environment, providing valuable insights into the 
+nature of consciousness. 
+The intersection of phenomenology and neuroscience has led to innovative approaches in studying 
+consciousness. Neuroscientists like Christof Koch have explored how phenomenological descriptions 
+
+International Journal of Philosophy  
+  
+ISSN: 2958-244X (Online)  
+Vol. 3, Issue No. 3, pp 59 - 72, 2024                       
+www.carijournals.org 
+64 
+ 
+  
+of conscious experiences can inform neural correlates of consciousness (Koch, 2015). By integrating 
+phenomenological methods with neuroimaging techniques, researchers aim to identify brain 
+mechanisms underlying specific conscious states, such as perception, attention, and self-awareness. 
+This interdisciplinary approach seeks to bridge the gap between subjective experiences and objective 
+brain processes, enhancing our understanding of the neural basis of consciousness (Koch, 2015). By 
+combining phenomenological insights with neuroscientific data, researchers can develop more 
+accurate models of consciousness that account for both the subjective and objective dimensions of 
+experience. 
+One of the significant contributions of phenomenology to the concept of consciousness is its 
+exploration of time and temporality. Husserl’s analysis of intentionality and temporality reveals how 
+consciousness is intrinsically temporal, with past, present, and future constituting its structure (Husserl, 
+2012). Heidegger further developed this idea, emphasizing the role of temporality in shaping human 
+existence and understanding. Contemporary phenomenologists continue to investigate how our 
+experience of time affects our consciousness, influencing memory, anticipation, and the sense of self 
+(Barrett, 2013). By examining how temporal structures shape our conscious experience, 
+phenomenologists provide valuable insights into the dynamic and evolving nature of consciousness, 
+highlighting the importance of temporality in understanding the mind. 
+Phenomenology also provides valuable insights into mental health, particularly in understanding 
+experiences of illness and distress. By focusing on the subjective experience of individuals, 
+phenomenological approaches help to illuminate the lived realities of mental health conditions, such 
+as depression and anxiety. Studies by researchers like Dreyfus and Spinelli have highlighted how 
+phenomenology can enrich clinical practices, promoting a deeper understanding of patients' 
+experiences and enhancing therapeutic interventions (Dreyfus, 2014; Spinelli, 2013). This approach 
+fosters a more empathetic and holistic view of mental health care, emphasizing the importance of 
+understanding patients' subjective experiences in developing effective treatments and support systems. 
+As technology advances, phenomenology is increasingly relevant in discussions about artificial 
+intelligence and robotics. Philosophers and scientists are exploring how phenomenological principles 
+can guide the development of AI systems that mimic human consciousness and perception. This 
+integration aims to create technologies that not only simulate cognitive processes but also resonate 
+with human experiences, enhancing human-technology interaction (Zahavi, 2014). Future research 
+could investigate how AI systems might develop forms of consciousness that align with 
+phenomenological insights, potentially leading to breakthroughs in robotics and cognitive computing 
+(Zahavi, 2014). By applying phenomenological principles to the design and development of AI, 
+researchers can create more intuitive and effective technologies that better align with human needs and 
+experiences. 
+Phenomenology remains a vital and dynamic field of study, continually enriching our understanding 
+of consciousness and human experience. By focusing on the first-person perspective and exploring the 
+fundamental structures of experience, phenomenology bridges gaps between philosophy, science, and 
+everyday life. Its methods and insights offer profound implications for various disciplines, from 
+cognitive science to psychotherapy, enhancing our grasp of what it means to be conscious. As 
+researchers and thinkers continue to delve into phenomenological questions, the field promises to 
+deepen our understanding of consciousness and its place in the universe (Gallagher, 2013). By 
+integrating phenomenological insights into various domains of study, we can develop a more 
+comprehensive and nuanced understanding of the complex nature of consciousness. 
+ 
+ 
+
+International Journal of Philosophy  
+  
+ISSN: 2958-244X (Online)  
+Vol. 3, Issue No. 3, pp 59 - 72, 2024                       
+www.carijournals.org 
+65 
+ 
+  
+1.1 Statement of the Problem  
+The concept of consciousness remains one of the most enigmatic and heavily debated topics in 
+contemporary philosophy and cognitive science. Despite significant advances in neuroscience, the 
+subjective nature of conscious experience eludes comprehensive scientific explanation. 
+Phenomenology offers a unique approach to understanding consciousness by focusing on the first-
+person perspective and the intentionality of experiences. However, there is a significant gap in 
+integrating phenomenological insights with empirical findings from cognitive science and 
+neuroscience to form a cohesive understanding of consciousness. According to a study by Chalmers 
+(2013), the "hard problem" of consciousness—explaining how and why certain brain processes give 
+rise to subjective experiences—remains unresolved. This study aims to bridge this gap by applying 
+phenomenological methods to explore the fundamental structures of consciousness and how these 
+structures relate to neural processes, thereby contributing to a more integrated framework for 
+understanding consciousness (Chalmers, 2013). Existing research has largely focused on the neural 
+correlates of consciousness, often neglecting the rich, subjective nature of conscious experiences 
+described by phenomenology. There is a pressing need for studies that examine how phenomenological 
+insights can inform and enhance empirical research on consciousness. According to a report by the 
+American Psychological Association (APA), approximately 20% of adults in the United States 
+experience some form of altered consciousness due to mental health conditions each year, highlighting 
+the importance of a comprehensive understanding of consciousness in addressing mental health issues 
+(APA, 2019). This study aims to fill this research gap by investigating the intersection of 
+phenomenology and neuroscience, exploring how phenomenological methods can provide a deeper 
+understanding of the subjective aspects of consciousness and how these aspects are reflected in brain 
+activity. By doing so, this research will advance our knowledge of both the subjective and objective 
+dimensions of consciousness. The findings of this study will benefit several groups, including 
+researchers, clinicians, and individuals experiencing altered states of consciousness. For researchers, 
+this study will provide a more integrated framework for studying consciousness, combining 
+phenomenological insights with empirical data, which could lead to more comprehensive theories of 
+consciousness (Gallagher, 2013). Clinicians will benefit from a better understanding of the subjective 
+experiences of their patients, particularly those with mental health conditions, enabling more effective 
+and empathetic therapeutic interventions. For individuals experiencing altered states of consciousness, 
+the findings could lead to improved mental health treatments and support systems that take into account 
+the subjective nature of their experiences. By addressing these gaps, this study will contribute to a 
+more holistic understanding of consciousness, ultimately enhancing both theoretical and practical 
+approaches to this complex phenomenon (Gallagher, 2013). 
+2.0 LITERATURE REVIEW 
+2.1 Theoretical Review 
+2.1.1 Theory of Intentionality 
+The Theory of Intentionality, originated by Edmund Husserl, is foundational to phenomenology and 
+directly relevant to research on the concept of consciousness. Intentionality refers to the characteristic 
+of consciousness that it is always about something; every act of consciousness is directed towards an 
+object, whether it is real or imaginary, concrete or abstract. Husserl introduced this concept to highlight 
+that consciousness is not a passive state but an active engagement with the world. This theory 
+underscores the relational nature of consciousness, emphasizing that experiences are structured by how 
+objects are presented to the mind. By applying the Theory of Intentionality to the study of 
+consciousness, researchers can investigate how different types of experiences—such as perception, 
+memory, and imagination—are constituted by the intentional acts of the mind. This approach allows 
+
+International Journal of Philosophy  
+  
+ISSN: 2958-244X (Online)  
+Vol. 3, Issue No. 3, pp 59 - 72, 2024                       
+www.carijournals.org 
+66 
+ 
+  
+for a nuanced understanding of how consciousness operates, emphasizing the dynamic interplay 
+between the subject and the object of experience (Husserl, 2012). 
+2.1.2 Embodied Cognition Theory 
+The Embodied Cognition Theory, significantly developed by philosophers such as Maurice Merleau-
+Ponty and later expanded by contemporary cognitive scientists like Shaun Gallagher, is another critical 
+framework for studying phenomenology and consciousness. This theory posits that cognitive processes 
+are deeply rooted in the body's interactions with the world. According to Merleau-Ponty, our 
+perception and consciousness are not just functions of the brain but are influenced by the entire bodily 
+experience. This perspective challenges the traditional Cartesian mind-body dualism by proposing that 
+the mind cannot be fully understood without considering the body’s role in shaping experience 
+(Merleau-Ponty, 2014). Embodied Cognition Theory is relevant to the study of consciousness because 
+it provides a comprehensive framework for understanding how physical embodiment influences 
+subjective experiences. By investigating how sensory and motor experiences contribute to the 
+formation of conscious thought, this theory can help elucidate the ways in which our bodily interactions 
+with the environment shape our conscious awareness (Gallagher, 2013). 
+2.1.3 Global Workspace Theory 
+Global Workspace Theory, proposed by Bernard Baars, offers a cognitive neuroscience perspective on 
+consciousness, which is highly relevant when integrating phenomenological insights with empirical 
+research. This theory suggests that consciousness arises from the integration and broadcasting of 
+information across a network of specialized, non-conscious processes in the brain, akin to a "global 
+workspace." Baars theorizes that conscious experience involves the widespread availability of 
+information for diverse cognitive processes such as perception, memory, and decision-making. This 
+framework helps explain how various elements of experience become unified in conscious awareness, 
+highlighting the brain’s role in creating a coherent and integrated perception of reality (Baars, 2013). 
+The relevance of Global Workspace Theory to the study of phenomenology and consciousness lies in 
+its potential to bridge subjective experiences with neural mechanisms. By examining how information 
+becomes globally accessible within the brain’s workspace, researchers can better understand the neural 
+correlates of consciousness and how these correspond to the intentional and embodied aspects 
+described by phenomenology. This integrated approach can provide a more holistic understanding of 
+how consciousness operates, both from a first-person and a third-person perspective (Baars, 2013). 
+2.2 Empirical Review 
+Gallagher & Zahavi (2012) explored how phenomenological methods can provide insights into the 
+subjective experience of consciousness, particularly focusing on self-awareness and the embodied 
+nature of cognition. The researchers employed a phenomenological approach, conducting in-depth 
+interviews and qualitative analyses with participants who engaged in various reflective and meditative 
+practices. The data were analyzed using thematic analysis to identify core themes related to self-
+awareness and embodiment. The study found that self-awareness is deeply intertwined with bodily 
+experiences and that reflective practices enhance individuals' awareness of their own cognitive 
+processes. Participants reported heightened awareness of bodily sensations and emotions, which 
+contributed to a more integrated sense of self. The study recommended further integration of 
+phenomenological methods with cognitive neuroscience to explore the neural underpinnings of self-
+awareness. They also suggested that future research should investigate the role of social and cultural 
+contexts in shaping embodied cognition.  
+Thompson & Varela (2012) investigated the relationship between phenomenology and 
+neurophenomenology, particularly focusing on how subjective experiences of consciousness can be 
+
+International Journal of Philosophy  
+  
+ISSN: 2958-244X (Online)  
+Vol. 3, Issue No. 3, pp 59 - 72, 2024                       
+www.carijournals.org 
+67 
+ 
+  
+correlated with neural processes. The researchers used a combination of phenomenological interviews 
+and neuroimaging techniques (fMRI) to study participants engaged in mindfulness meditation. The 
+interviews provided detailed descriptions of the participants' experiences, while the fMRI data offered 
+insights into the corresponding neural activity. The study revealed that specific patterns of brain 
+activity corresponded with distinct phenomenological experiences, such as focused attention and open 
+awareness. These findings supported the hypothesis that subjective experiences can be mapped onto 
+neural processes. The study recommended further development of neurophenomenological methods 
+to bridge the gap between first-person and third-person perspectives in consciousness studies. They 
+also suggested exploring how different meditation practices affect brain activity and subjective 
+experiences.  
+Lutz, Dunne & Davidson (2013) examined the impact of meditation practices on the phenomenology 
+of consciousness and their potential neural correlates. The researchers conducted a longitudinal study 
+with participants practicing different forms of meditation, including focused attention, open 
+monitoring, and loving-kindness meditation. They used a combination of phenomenological 
+interviews and EEG recordings to collect data. The study found that different meditation practices 
+were associated with distinct phenomenological experiences and corresponding neural patterns. For 
+example, focused attention meditation enhanced selective attention and decreased mind-wandering, 
+while loving-kindness meditation increased feelings of compassion and social connectedness. The 
+authors recommended integrating phenomenological insights with neurobiological research to develop 
+more effective meditation-based interventions for mental health. They also suggested studying the 
+long-term effects of meditation on brain plasticity and well-being.  
+Koch, Massimini, Boly & Tononi (2016) explored the neural correlates of consciousness by integrating 
+phenomenological descriptions with neuroimaging data. The researchers conducted a series of 
+experiments using both subjective reports and neuroimaging techniques (fMRI and EEG) to investigate 
+conscious and unconscious states in healthy individuals and patients with disorders of consciousness. 
+The study identified specific neural correlates associated with different states of consciousness, such 
+as wakefulness, sleep, and anesthesia. It also highlighted the importance of brain connectivity and 
+integration in maintaining conscious awareness. The researchers recommended further research to 
+refine the neural correlates of consciousness and to explore how different brain regions contribute to 
+the subjective experience of being conscious. They also suggested developing new neuroimaging 
+methods to better capture dynamic brain processes.  
+Bayne, Hohwy & Owen (2017) investigated the phenomenology of consciousness in patients with 
+disorders of consciousness, such as vegetative state and minimally conscious state. The researchers 
+used a combination of phenomenological interviews with caregivers and advanced neuroimaging 
+techniques (PET and fMRI) to study patients' brain activity and potential conscious awareness. The 
+study found that some patients diagnosed with vegetative state showed brain activity patterns 
+indicative of conscious awareness when asked to imagine specific scenarios. These findings challenged 
+traditional diagnostic criteria and suggested that some patients may retain a degree of consciousness. 
+The researchers recommended revising clinical assessment methods for disorders of consciousness to 
+include neuroimaging data. They also suggested further research into the ethical and practical 
+implications of detecting consciousness in non-responsive patients.  
+Petitmengin, Remillieux, Cahour & Carter-Thomas (2019) explored the micro-phenomenology of 
+consciousness, focusing on the fine-grained details of subjective experiences during cognitive tasks. 
+The researchers used a micro-phenomenological interview technique to collect detailed descriptions 
+of participants' experiences during tasks such as problem-solving and decision-making. These 
+interviews were analyzed to identify recurring patterns and structures of experience. The study 
+revealed that participants' experiences involved intricate sequences of mental actions, including 
+
+International Journal of Philosophy  
+  
+ISSN: 2958-244X (Online)  
+Vol. 3, Issue No. 3, pp 59 - 72, 2024                       
+www.carijournals.org 
+68 
+ 
+  
+attentional shifts, imagery, and emotional responses. These findings provided a richer understanding 
+of the cognitive processes underlying conscious experience. The study recommended integrating 
+micro-phenomenological methods with cognitive science to develop more detailed models of cognitive 
+processes. They also suggested that these insights could inform the design of more effective cognitive 
+training programs and educational strategies.  
+Overgaard & Sandberg (2020) investigated the relationship between phenomenological descriptions 
+and neural markers of consciousness, particularly focusing on the accuracy and reliability of subjective 
+reports. The researchers conducted experiments using visual awareness tasks, where participants 
+provided detailed phenomenological descriptions of their experiences while their brain activity was 
+recorded using EEG. The study found that subjective reports of visual experiences correlated with 
+specific EEG patterns, supporting the validity of phenomenological methods in consciousness 
+research. However, the researchers also noted variability in the accuracy of these reports, highlighting 
+the challenges of capturing subjective experiences.  It recommended further research to refine methods 
+for collecting and analyzing phenomenological data. They also suggested that combining subjective 
+reports with objective measures could enhance the reliability of consciousness studies.  
+3.0 METHODOLOGY   
+The study adopted a desktop research methodology. Desk research refers to secondary data or that 
+which can be collected without fieldwork. Desk research is basically involved in collecting data from 
+existing resources hence it is often considered a low cost technique as compared to field research, as 
+the main cost is involved in executive’s time, telephone charges and directories. Thus, the study relied 
+on already published studies, reports and statistics. This secondary data was easily accessed through 
+the online journals and library. 
+4.0 FINDINGS  
+This study presented both a contextual and methodological gap. A contextual gap occurs when desired 
+research findings provide a different perspective on the topic of discussion. For instance, Bayne, 
+Hohwy & Owen (2017) investigated the phenomenology of consciousness in patients with disorders 
+of consciousness, such as vegetative state and minimally conscious state. The researchers used a 
+combination of phenomenological interviews with caregivers and advanced neuroimaging techniques 
+(PET and fMRI) to study patients' brain activity and potential conscious awareness. The study found 
+that some patients diagnosed with vegetative state showed brain activity patterns indicative of 
+conscious awareness when asked to imagine specific scenarios. These findings challenged traditional 
+diagnostic criteria and suggested that some patients may retain a degree of consciousness. The 
+researchers recommended revising clinical assessment methods for disorders of consciousness to 
+include neuroimaging data. They also suggested further research into the ethical and practical 
+implications of detecting consciousness in non-responsive patients. On the other hand, the current 
+study focused on exploring phenomenology and the concept of consciousness.  
+Secondly, a methodological gap also presents itself, for instance, Bayne, Hohwy & Owen (2017) in 
+investigating the phenomenology of consciousness in patients with disorders of consciousness, such 
+as vegetative state and minimally conscious state- used a combination of phenomenological interviews 
+with caregivers and advanced neuroimaging techniques (PET and fMRI) to study patients' brain 
+activity and potential conscious awareness. Whereas, the current study adopted a desktop research 
+method. 
+ 
+ 
+ 
+
+International Journal of Philosophy  
+  
+ISSN: 2958-244X (Online)  
+Vol. 3, Issue No. 3, pp 59 - 72, 2024                       
+www.carijournals.org 
+69 
+ 
+  
+5.0 CONCLUSION AND RECOMMENDATIONS  
+5.1 Conclusion  
+The exploration of phenomenology and the concept of consciousness reveals a profound and intricate 
+relationship between subjective experience and the underlying cognitive and neural mechanisms. 
+Phenomenology, with its emphasis on first-person perspectives and the intentionality of consciousness, 
+provides a robust framework for understanding how individuals experience and interpret the world 
+around them. Through meticulous description and analysis of lived experiences, phenomenology 
+uncovers the essential structures of consciousness, highlighting the dynamic interplay between 
+perception, thought, and emotion. This approach emphasizes that consciousness is not merely a passive 
+reflection of external reality but an active, embodied engagement with the world, shaped by our 
+sensory and motor interactions. 
+Further, integrating phenomenological insights with empirical research in cognitive science and 
+neuroscience offers a more comprehensive understanding of consciousness. The convergence of 
+subjective reports and objective measurements provides a richer, multidimensional view of conscious 
+experience. By correlating phenomenological descriptions with neural activity, researchers can 
+elucidate the brain processes that give rise to different states of consciousness, such as focused 
+attention, meditation, and altered states induced by mental health conditions. This interdisciplinary 
+approach bridges the gap between the experiential and biological dimensions of consciousness, 
+fostering a holistic perspective that encompasses both the mind and the brain. 
+Moreover, the application of phenomenological methods in clinical and therapeutic settings 
+underscores the practical relevance of this approach. By focusing on the subjective experiences of 
+individuals, phenomenology enhances our understanding of mental health conditions, offering 
+valuable insights into the lived realities of patients. This empathetic, patient-centered approach can 
+inform more effective therapeutic interventions, tailored to the unique experiences and needs of each 
+individual. It also highlights the importance of considering cultural and contextual factors in shaping 
+conscious experience, thereby promoting a more inclusive and comprehensive approach to mental 
+health care. 
+The ongoing dialogue between phenomenology and contemporary cognitive neuroscience holds great 
+promise for future research. As technological advancements in neuroimaging and brain mapping 
+continue to evolve, the integration of phenomenological perspectives will be crucial in interpreting 
+these data within the context of lived experience. This interdisciplinary synergy not only advances our 
+scientific understanding of consciousness but also enriches philosophical discourse, contributing to a 
+deeper, more nuanced exploration of what it means to be conscious. By continuing to explore and 
+integrate these diverse perspectives, researchers can develop more robust and inclusive models of 
+consciousness that better reflect the complexity and richness of human experience. 
+5.2 Recommendations  
+The study on phenomenology and the concept of consciousness recommends further development and 
+refinement of theoretical frameworks that integrate phenomenological insights with cognitive 
+neuroscience. By emphasizing the first-person perspective and the intentionality of consciousness, 
+researchers should aim to create models that capture the dynamic and embodied nature of conscious 
+experience. Theoretical advancements should focus on how subjective experiences arise from neural 
+processes, bridging the gap between phenomenological descriptions and empirical findings. This 
+integrated approach can lead to a more holistic understanding of consciousness, which is essential for 
+advancing both philosophical discourse and scientific inquiry. 
+
+International Journal of Philosophy  
+  
+ISSN: 2958-244X (Online)  
+Vol. 3, Issue No. 3, pp 59 - 72, 2024                       
+www.carijournals.org 
+70 
+ 
+  
+The study strongly advocates for continued and enhanced interdisciplinary collaborations between 
+phenomenologists, cognitive scientists, and neuroscientists. Such collaborations are crucial for 
+developing comprehensive models of consciousness that account for both the subjective and objective 
+dimensions of experience. By combining qualitative phenomenological methods with quantitative 
+neuroimaging techniques, researchers can gain deeper insights into the neural correlates of various 
+conscious states. These collaborations should be encouraged and facilitated by academic institutions 
+and funding bodies, recognizing the value of cross-disciplinary research in advancing our 
+understanding of consciousness. 
+In terms of practical applications, the study recommends incorporating phenomenological approaches 
+into clinical practices to improve mental health interventions. Understanding patients' subjective 
+experiences can lead to more empathetic and effective therapeutic strategies. Clinicians should be 
+trained in phenomenological methods to better interpret and respond to the lived experiences of 
+individuals with mental health conditions. This approach can enhance patient-centered care, ensuring 
+that treatments are tailored to the unique needs and experiences of each person. Additionally, 
+integrating phenomenology into mental health practice can help identify and address cultural and 
+contextual factors that influence mental well-being. 
+The study suggests the inclusion of phenomenological principles in educational and training programs 
+for healthcare professionals, psychologists, and researchers. By providing training in 
+phenomenological methods, educational institutions can equip future professionals with the tools to 
+explore and understand the complexities of consciousness from a first-person perspective. This training 
+can improve the quality of research and clinical practice, fostering a more nuanced and empathetic 
+approach to studying and treating mental health issues. Educational programs should emphasize the 
+importance of integrating subjective and objective data to develop a comprehensive understanding of 
+consciousness. 
+On the policy front, the study recommends that policymakers incorporate findings from 
+phenomenological research into mental health care policies. Policies should support the development 
+and implementation of patient-centered approaches that recognize the importance of subjective 
+experiences in mental health treatment. Funding for mental health services should prioritize programs 
+that integrate phenomenological methods, ensuring that care is tailored to individual needs and 
+experiences. Policymakers should also promote research initiatives that explore the intersection of 
+phenomenology and neuroscience, providing the necessary resources to advance this interdisciplinary 
+field. 
+The study highlights several future research directions, including the need for longitudinal studies that 
+examine the long-term effects of integrating phenomenological methods into mental health care and 
+cognitive research. Researchers should also explore the impact of cultural and contextual factors on 
+conscious experiences, recognizing the diversity of subjective experiences across different 
+populations. Additionally, the development of new neuroimaging techniques that can better capture 
+the dynamic nature of conscious experience is crucial for advancing the field. By pursuing these 
+research directions, the scientific community can continue to build on the insights gained from 
+phenomenology, contributing to a deeper and more comprehensive understanding of consciousness. 
+ 
+ 
+ 
+ 
+ 
+
+International Journal of Philosophy  
+  
+ISSN: 2958-244X (Online)  
+Vol. 3, Issue No. 3, pp 59 - 72, 2024                       
+www.carijournals.org 
+71 
+ 
+  
+REFERENCES  
+American Psychological Association (APA). (2019). Understanding altered states of consciousness: 
+Mental health statistics. Retrieved from https://www.apa.org/monitor/2019/03/mental-health 
+Baars, B. J. (2013). A scientific approach to the concept of consciousness. American Journal of 
+Psychology, 126(3), 233-242. https://doi.org/10.5406/amerjpsyc.126.3.0233 
+Barrett, L. F. (2013). The conceptual act theory: A conceptual framework for the emotions. Emotion 
+Review, 5(4), 348-360. https://doi.org/10.1177/1754073913484752 
+Bayne, T., Hohwy, J., & Owen, A. M. (2017). Are There Levels of Consciousness? Trends in Cognitive 
+Sciences, 20(6), 405-413. https://doi.org/10.1016/j.tics.2016.03.009 
+Boly, M., Massimini, M., Tsuchiya, N., Postle, B. R., Koch, C., & Tononi, G. (2017). Are the neural 
+correlates of consciousness in the front or in the back of the cerebral cortex? Clinical and 
+neuroimaging evidence. Journal of Neuroscience, 37(40), 9603-9613. 
+https://doi.org/10.1523/JNEUROSCI.3217-16.2017 
+Chalmers, D. J. (2013). How can we construct a science of consciousness? Annals of the New York 
+Academy of Sciences, 1303(1), 25-35. https://doi.org/10.1111/nyas.12166 
+Chalmers, D. J. (2013). How can we construct a science of consciousness? Annals of the New York 
+Academy of Sciences, 1303(1), 25-35. https://doi.org/10.1111/nyas.12166 
+Dreyfus, H. L. (2014). What computers still can’t do: A critique of artificial reason. MIT Press. 
+Gallagher, S. (2013). How the body shapes the mind. Oxford University Press. 
+https://doi.org/10.1093/acprof:oso/9780199768268.001.0001 
+Gallagher, S., & Zahavi, D. (2012). The Phenomenological Mind. Routledge. 
+https://doi.org/10.4324/9780203126759 
+Heidegger, M. (2014). Being and Time. HarperCollins. 
+Husserl, E. (2012). Ideas: General introduction to pure phenomenology. Routledge. 
+Koch, C. (2015). Consciousness: Confessions of a romantic reductionist. MIT Press. 
+https://doi.org/10.7551/mitpress/9780262527771.001.0001 
+Koch, C., Massimini, M., Boly, M., & Tononi, G. (2016). Neural correlates of consciousness: 
+Progress and problems. Nature Reviews Neuroscience, 17(5), 307-321. 
+https://doi.org/10.1038/nrn.2016.22 
+Lutz, A., Dunne, J. D., & Davidson, R. J. (2013). Meditation and the Neuroscience of 
+Consciousness: An Introduction. Annals of the New York Academy of Sciences, 1303(1), 5-
+12. https://doi.org/10.1111/nyas.12237 
+Merleau-Ponty, M. (2014). Phenomenology of Perception. Routledge. 
+NCCIH. (2017). Use of complementary health approaches in the U.S.: National Health Interview 
+Survey (NHIS). National Center for Complementary and Integrative Health. Retrieved from 
+https://nccih.nih.gov/research/statistics/NHIS 
+Ndetei, D. M., Khasakhala, L. I., Maru, H. M., Pizzo, M., Mutiso, V., Ongecha-Owuor, F. A., & 
+Kokonya, D. A. (2013). Clinical epidemiology in patients with epilepsy in Kenya. African 
+Journal of Psychiatry, 16(2), 129-134. https://doi.org/10.4314/ajpsy.v16i2.17 
+
+International Journal of Philosophy  
+  
+ISSN: 2958-244X (Online)  
+Vol. 3, Issue No. 3, pp 59 - 72, 2024                       
+www.carijournals.org 
+72 
+ 
+  
+Overgaard, M., & Sandberg, K. (2020). Using EEG to Explore the Accuracy of Phenomenological 
+Reports. Journal of Cognitive Neuroscience, 32(4), 601-613. 
+https://doi.org/10.1162/jocn_a_01511 
+Palhano-Fontes, F., Andrade, K. C., Tofoli, L. F., Jose, A. C., Crippa, J. A. S., Hallak, J. E. C., ... & 
+de Araujo, D. B. (2015). The psychedelic state induced by ayahuasca modulates the activity 
+and connectivity of the default mode network. PLoS ONE, 10(2), e0118143. 
+https://doi.org/10.1371/journal.pone.0118143 
+Petitmengin, C., Remillieux, A., Cahour, B., & Carter-Thomas, S. (2019). A Gap in Nisbett and 
+Wilson’s Findings? A First-Person Access to Our Cognitive Processes. Consciousness and 
+Cognition, 15(3), 570-585. https://doi.org/10.1016/j.concog.2019.02.005 
+Smith, D. W. (2013). The Cambridge Companion to Husserl. Cambridge University Press. 
+https://doi.org/10.1017/CCOL9780521675307 
+Spinelli, E. (2013). The interpreted world: An introduction to phenomenological psychology. Sage 
+Publications. 
+Stoljar, D. (2013). Phenomenal Intentionality: A Philosophical Introduction. Oxford University Press. 
+Tagawa, M., Sato, W., & Kakigi, R. (2014). Neural correlates of the meditative state as assessed by 
+magnetoencephalography. PLoS ONE, 9(8), e102962. 
+https://doi.org/10.1371/journal.pone.0102962 
+Thompson, E., & Varela, F. J. (2012). Radical Embodiment: Neural Dynamics and Consciousness. 
+Trends in Cognitive Sciences, 16(2), 111-117. https://doi.org/10.1016/j.tics.2011.12.005 
+Zahavi, D. (2014). Self-Awareness and Alterity: A Phenomenological Investigation. Routledge. 
+https://doi.org/10.4324/9781315646394 
+ 

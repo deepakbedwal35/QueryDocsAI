@@ -1,0 +1,3001 @@
+1 
+ 
+Title 
+1 
+Neural Correlates of Psychedelic, Sleep, and Sedated States Support Global Theories 
+2 
+of Consciousness 
+3 
+ 
+4 
+Author list 
+5 
+Rui Dai1,2,3, Hyunwoo Jang2,4, Anthony G. Hudetz1,2,3,4, Zirui Huang1,2,3,4,*, George A. 
+6 
+Mashour1,2,3,4,5, * 
+7 
+ 
+8 
+Affiliations 
+9 
+1 Department of Anesthesiology, University of Michigan Medical School, Ann Arbor, MI 48109, 
+10 
+USA 
+11 
+2 Center for Consciousness Science, University of Michigan Medical School, Ann Arbor, MI 
+12 
+48109, USA 
+13 
+3 Michigan Psychedelic Center, University of Michigan Medical School, Ann Arbor, MI, 48109, 
+14 
+USA 
+15 
+4 Neuroscience Graduate Program, University of Michigan, Ann Arbor, MI 48109, USA 
+16 
+5 Department of Pharmacology, University of Michigan Medical School, Ann Arbor, MI, 48109, 
+17 
+USA 
+18 
+* Correspondence should be addressed to Z.H. (email: huangzu@med.umich.edu) and G.A.M. 
+19 
+(email: gmashour@med.umich.edu) 
+20 
+ 
+21 
+ 
+22 
+ 
+23 
+ 
+24 
+ 
+25 
+.
+CC-BY-NC-ND 4.0 International license
+available under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted October 23, 2024. 
+; 
+https://doi.org/10.1101/2024.10.23.619731
+doi: 
+bioRxiv preprint 
+
+2 
+ 
+Abstract 
+26 
+Understanding neural mechanisms of consciousness remains a challenging question in 
+27 
+neuroscience. A central debate in the field concerns whether consciousness arises from 
+28 
+global interactions that involve multiple brain regions or focal neural activity, such as in 
+29 
+sensory cortex. Additionally, global theories diverge between the Global Neuronal 
+30 
+Workspace (GNW) hypothesis, which emphasizes frontal and parietal areas, and the 
+31 
+Integrated Information Theory (IIT), which focuses on information integration within 
+32 
+posterior cortical regions. To disentangle the global vs. local and frontoparietal vs. 
+33 
+posterior dilemmas, we measured global functional connectivity and local neural 
+34 
+synchrony with functional magnetic resonance imaging (fMRI) data across a spectrum of 
+35 
+conscious states in humans induced by psychedelics, sleep, and deep sedation. We found 
+36 
+that psychedelic states are associated with increased global functional connectivity and 
+37 
+decreased local neural synchrony. In contrast, non-REM sleep and deep sedation displayed 
+38 
+the opposite pattern, suggesting that consciousness arises from global brain network 
+39 
+interactions rather than localized activity. This mirror-image pattern between enhanced and 
+40 
+diminished states was observed in both anterior-posterior (A-P) and posterior-posterior (P-
+41 
+P) brain regions but not within the anterior part of the brain alone. Moreover, anterior 
+42 
+transmodal regions played a key role in A-P connectivity, while both posterior transmodal 
+43 
+and posterior unimodal regions were critical for P-P connectivity. Overall, these findings 
+44 
+provide empirical evidence supporting global theories of consciousness in relation to 
+45 
+varying states of consciousness. They also bridge the gap between two prominent theories, 
+46 
+GNW and IIT, by demonstrating how different theories can converge on shared neuronal 
+47 
+mechanisms. 
+48 
+Keywords 
+49 
+consciousness; Global Neuronal Workspace; Integrated Information Theory; fMRI; 
+50 
+functional connectivity; global integration; local synchronization; sedation; anesthesia; 
+51 
+sleep; psychedelics 
+ 
+52 
+.
+CC-BY-NC-ND 4.0 International license
+available under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted October 23, 2024. 
+; 
+https://doi.org/10.1101/2024.10.23.619731
+doi: 
+bioRxiv preprint 
+
+3 
+ 
+Introduction 
+53 
+Consciousness has long been regarded as a philosophical "hard problem" due to the 
+54 
+challenge of explaining how subjective experience arises from the brain (Chalmers, 1995). 
+55 
+Since the 1990s, advances in neuroimaging technologies—particularly functional magnetic 
+56 
+resonance imaging (fMRI)—have enabled the observation of brain activity and its linkage 
+57 
+to various cognitive and conscious states, facilitating the search for the neural correlates of 
+58 
+consciousness (Crick and Koch, 1990; Koch et al., 2016). These developments have 
+59 
+transformed the neuroscientific exploration of consciousness into a vibrant field, 
+60 
+encompassing a wealth of empirical research and inspiring numerous theoretical 
+61 
+frameworks (Crick and Koch, 2003; Dehaene and Changeux, 2011; Koch et al., 2016; 
+62 
+Mashour and Hudetz, 2018; Seth and Bayne, 2022; Storm et al., 2024; Yaron et al., 2022). 
+63 
+One debate in this field is whether consciousness arises from a global process involving 
+64 
+widespread brain networks or from localized neural activity, e.g., in sensory cortices. 
+65 
+Prominent global theories, such as the Global Neuronal Workspace (GNW) hypothesis 
+66 
+(Dehaene and Changeux, 2011; Dehaene and Naccache, 2001; Mashour et al., 2020) and 
+67 
+Integrated Information Theory (IIT) (Tononi, 2008, 2004; Tononi et al., 2016) argue that 
+68 
+consciousness emerges from networks that extend beyond sensory cortex but they differ 
+69 
+markedly in terms of the role of the prefrontal cortex. GNW highlights the global broadcast 
+70 
+of information, particularly between the frontal and parietal regions (Dehaene and 
+71 
+Changeux, 2004; Dehaene and Naccache, 2001). On the other hand, IIT suggests that 
+72 
+consciousness emerges from complex interactions, likely residing in a posterior cortical 
+73 
+"hot zone" (Koch et al., 2016; Oizumi et al., 2014; Tononi, 2004). We refer to both GNW 
+74 
+and IIT as 'global' theories because consciousness is proposed to be a function of complex 
+75 
+interactions across large-scale brain networks rather than generated within a single defined 
+76 
+brain region. In contrast, local theories propose that sensory cortex activity is sufficient for 
+77 
+conscious experience. For instance, the Recurrent Processing Theory (RPT) posits that 
+78 
+horizontal connections and recurrent processing within sensory areas are critical for 
+79 
+consciousness (Lamme et al., 2001; Lamme, 2010, 2006). 
+80 
+In this context of competing theories, a critical question arises: which theoretical 
+81 
+framework offers the most accurate explanation of consciousness? One approach is to 
+82 
+employ adversarial testing, where theories are evaluated based on differential, empirically 
+83 
+.
+CC-BY-NC-ND 4.0 International license
+available under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted October 23, 2024. 
+; 
+https://doi.org/10.1101/2024.10.23.619731
+doi: 
+bioRxiv preprint 
+
+4 
+ 
+testable predictions (Melloni et al., 2023). However, most existing research has focused on 
+84 
+testing individual theories independently, with few studies directly comparing multiple 
+85 
+competing frameworks. Additionally, traditional studies have primarily concentrated on 
+86 
+isolated states, such as sleep, anesthesia, or coma, often employing distinct theoretical 
+87 
+frameworks and methodologies. To address this gap, our study adopts an integrative 
+88 
+approach to assessing select theories of consciousness by examining a broad spectrum of 
+89 
+conscious states, encompassing physiological and pharmacological conditions, from 
+90 
+psychedelic experiences to natural sleep and varying levels of sedation. We implemented 
+91 
+a comprehensive set of methodologies that focus on empirically driven core features 
+92 
+represented in both global and local theories of consciousness. This includes well-
+93 
+established techniques such as functional connectivity and regional homogeneity, as well 
+94 
+as advanced methods like the topological integration (measured by global efficiency) and 
+95 
+machine learning-based feature importance analysis. Specifically, by analyzing fMRI data 
+96 
+across psychedelic states of consciousness (induced by LSD, as well as subanesthetic 
+97 
+ketamine and nitrous oxide) and diminished states of consciousness (induced by sleep or 
+98 
+deep sedation with propofol), we aim to address two fundamental questions: (1) Does a 
+99 
+global or local framework for consciousness provide a more compelling explanation for 
+100 
+the observed variations in the neural correlates of conscious states? and (2) If global 
+101 
+theories are supported, is GNW or IIT a more accurate representation?  
+102 
+In this study, we employed between-network functional connectivity as a global metric, 
+103 
+and regional homogeneity as a local metric. If consciousness is primarily a global 
+104 
+phenomenon, we would expect to see increased connectivity across brain networks during 
+105 
+psychedelic states and a breakdown of global connectivity during states of diminished 
+106 
+consciousness like sleep and deep sedation. Conversely, if consciousness is primarily local, 
+107 
+we would anticipate heightened local neural synchrony during psychedelic states and local 
+108 
+decoherence during sleep or deep sedation (Figure 1a). To further compare and evaluate 
+109 
+the two network-based approaches, GNW and IIT, we not only conducted conventional 
+110 
+functional connectivity analysis but also applied a graph-theoretical metric (specifically, 
+111 
+global efficiency) to quantify functional integration (Jang et al., 2024b). We analyzed the 
+112 
+brain’s functional connectivity along both its anatomical axis (from anterior to posterior 
+113 
+regions) and its functional axis (from unimodal sensory to transmodal integrative regions). 
+114 
+.
+CC-BY-NC-ND 4.0 International license
+available under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted October 23, 2024. 
+; 
+https://doi.org/10.1101/2024.10.23.619731
+doi: 
+bioRxiv preprint 
+
+5 
+ 
+If the GNW framework is accurate, we would predict increased functional connectivity 
+115 
+between anterior and posterior regions during psychedelic states, and a decrease in this 
+116 
+connectivity during sleep or sedative states. On the other hand, if IIT is more accurate, we 
+117 
+would predict a primary increase in functional connectivity within posterior regions during 
+118 
+psychedelic states, and a decrease in connectivity within these same regions during 
+119 
+dreamless sleep or anesthesia (Figure 1b). 
+120 
+ 
+121 
+Figure 1. Theoretical Predictions of Global and Local Connectivity in Different States of 
+122 
+Consciousness. (a) The expected outcomes for global and local theories of consciousness. The 
+123 
+global theory predicts increased between-network functional connectivity (FC) in heightened 
+124 
+consciousness states (e.g., psychedelics) and decreased FC in diminished states (e.g., sleep or 
+125 
+sedation). The local theory predicts the opposite pattern for local connectivity (ReHo). (b) The 
+126 
+.
+CC-BY-NC-ND 4.0 International license
+available under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted October 23, 2024. 
+; 
+https://doi.org/10.1101/2024.10.23.619731
+doi: 
+bioRxiv preprint 
+
+6 
+ 
+expected outcomes for Global Neuronal Workspace (GNW) and Integrated Information Theory 
+127 
+(IIT) related to anterior-posterior (A-P) and posterior-posterior (P-P) functional connectivity across 
+128 
+different states of consciousness. Increased A-P connectivity during psychedelic states and 
+129 
+decreased A-P connectivity during sleep and sedative states would support GNW. Conversely, 
+130 
+increased P-P connectivity during psychedelic states and decreased P-P connectivity during sleep 
+131 
+and sedative states would support IIT. 
+132 
+ 
+133 
+Results 
+134 
+We investigated three classical and non-classical psychedelic agents—LSD (n=15), 
+135 
+ketamine (n=12), and nitrous oxide (n=15)—all known to induce non-ordinary states of 
+136 
+consciousness that can be considered phenomenologically enriched. Sleep and sedation, 
+137 
+which are associated with diminished consciousness, served as comparative conditions. 
+138 
+For sleep, we analyzed non-REM sleep stages N1; n=33 and N2; n=29. For sedation, we 
+139 
+examined the effects of propofol at various effect-site concentrations: 1.0 μg/ml (n=12), 
+140 
+1.9 μg/ml (n=12), 2.4 μg/ml (n=25), and 2.7 μg/ml (n=26). Each altered state of 
+141 
+consciousness was meticulously compared to its corresponding baseline condition to assess 
+142 
+changes in functional connectivity. 
+143 
+We initiated our analysis by examining between-network functional connectivity, a global 
+144 
+measure of brain activity that gauges the correlation between distinct brain networks, 
+145 
+including default-mode, frontoparietal, limbic, ventral attention, dorsal attention, 
+146 
+somatosensory, and visual networks. Our results demonstrated an overall increase in 
+147 
+between-network functional connectivity across all psychedelic conditions (Effect sizes 
+148 
+were calculated using Cohen’s d; LSD: d = 0.65, pFDR = 0.043; ketamine: d = 0.78, pFDR 
+149 
+= 0.041; nitrous oxide: d = 0.60, pFDR = 0.049), suggesting heightened global brain 
+150 
+integration during these altered states. In contrast, during non-REM sleep stage 2, we 
+151 
+observed a significant decrease in between-network functional connectivity compared to 
+152 
+baseline (d = -0.56, pFDR = 0.017), suggesting a diminished state of global integration. 
+153 
+Similarly, under varying doses of propofol, a consistent decrease in between-network 
+154 
+functional connectivity was evident (propofol 1.9 μg/ml: d = -0.73, pFDR = 0.045; 2.4 
+155 
+.
+CC-BY-NC-ND 4.0 International license
+available under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted October 23, 2024. 
+; 
+https://doi.org/10.1101/2024.10.23.619731
+doi: 
+bioRxiv preprint 
+
+7 
+ 
+μg/ml: d = -0.77, pFDR = 0.003; 2.7 μg/ml: d = -1.49, pFDR = 0.0006), further supporting 
+156 
+the hypothesis of reduced global brain integration in states of diminished consciousness 
+157 
+(Figure 2a and 2b; Figure S1). Effect sizes were calculated using Cohen’s d. 
+158 
+Next, we conducted a regional homogeneity (ReHo) (Zang et al., 2004) analysis to 
+159 
+investigate changes in local connectivity. ReHo analysis quantifies the synchronization of 
+160 
+neural activity within localized brain regions by calculating Kendall's W for each voxel 
+161 
+within a 7-voxel neighborhood. The resulting voxel-level W values are then aggregated to 
+162 
+produce region-specific ReHo measures, such as those for primary sensory cortices. Our 
+163 
+analysis of the psychedelic datasets consistently showed a decrease in ReHo (LSD:  d = -
+164 
+1.86, pFDR < 0.0001; ketamine: d = -0.69, pFDR = 0.049; nitrous oxide: d = -0.72, pFDR 
+165 
+= 0.033), indicating reduced local synchrony of neural activity. In contrast, the datasets for 
+166 
+sleep and propofol generally exhibited an increase in ReHo (Sleep N1: d = 0.59, pFDR = 
+167 
+0.006; Sleep N2: d = 0.78, pFDR = 0.0009; propofol 1.9 μg/ml: d = -0.63, uncorrected p = 
+168 
+0.049), suggesting enhanced local synchrony (except for the high doses of propofol) 
+169 
+(Figure 2c and 2d, Figure S2). These results do not support local theory, which predicts 
+170 
+increased local connectivity during psychedelic states and decreased synchrony during 
+171 
+states of diminished consciousness. Instead, the observed patterns suggest that local 
+172 
+connectivity alone may not fully explain the changes in conscious states. 
+173 
+174 
+Figure 2. Global and Local Connectivity in Different States of Consciousness.  (a) Schematic 
+175 
+of between-network functional connectivity. A total of 400 regions of interest (ROIs) were defined 
+176 
+.
+CC-BY-NC-ND 4.0 International license
+available under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted October 23, 2024. 
+; 
+https://doi.org/10.1101/2024.10.23.619731
+doi: 
+bioRxiv preprint 
+
+8 
+ 
+across the brain, spanning seven established functional networks: default-mode (DMN), 
+177 
+frontoparietal (FPN), limbic (LIM), ventral attention (VAN), dorsal attention (DAN), somatomotor 
+178 
+(SMN), and visual (VIS). Time series data from each ROI were used to calculate between-network 
+179 
+functional connectivity by correlating ROIs in one network with those in the other six. The resulting 
+180 
+values were averaged to produce a single between-network functional connectivity for each 
+181 
+network, and these network-specific values were further averaged to derive a global between-
+182 
+network functional connectivity for the entire brain. (b) Effect size of between-network functional 
+183 
+connectivity. The bar graph displays the effect sizes for between-network functional connectivity 
+184 
+across various conscious states. Statistical significance was determined using paired-sample t-tests 
+185 
+based on Fisher z-transformed functional connectivity values. (c) Schematic of regional 
+186 
+homogeneity (ReHo) analysis. This analysis quantifies the similarity of time series data among 
+187 
+neighboring brain voxels. ReHo values, representing the level of synchronization within a given 
+188 
+brain area, are extracted from primary sensory cortices: the primary somatosensory cortex (S1), 
+189 
+primary auditory cortex (A1), and primary visual cortex (V1). (d) Effect Size of ReHo in the 
+190 
+primary sensory cortices. This bar graph shows the effect sizes for ReHo in the primary sensory 
+191 
+cortex across different states of consciousness. Statistical significance was assessed using paired-
+192 
+sample t-tests on Fisher z-transformed ReHo values. Significant differences from baseline are 
+193 
+marked by asterisks (*, FDR-corrected p < 0.05), and significant differences before FDR correction 
+194 
+are indicated by a hash (#, uncorrected p < 0.05). LSD: lysergic acid diethylamide, KTM: ketamine, 
+195 
+N2O: nitrous oxide, SLEEP N1: non-REM sleep stage 1, SLEEP N2: non-REM sleep stage 2, PPF 
+196 
+1.0: propofol 1.0 μg/ml, PPF 1.9: propofol 1.9 μg/ml, PPF 2.4: propofol 2.4 μg/ml, PPF 2.7: 
+197 
+propofol 2.7 μg/ml. 
+198 
+ 
+199 
+With between-network functional connectivity and ReHo data supporting global 
+200 
+approaches to consciousness, we focused our attention on global theories and assessed 
+201 
+whether GNW or IIT provides a more compelling explanation for the changes in conscious 
+202 
+state. While GNW highlights the importance of frontal and parietal connections, and IIT 
+203 
+emphasizes posterior cortical areas, neither theory offers a precise delineation of the 
+204 
+specific brain regions implicated in their frameworks. Given this lack of clarity, we 
+205 
+strategically employed an anatomical division of the brain into two parts based on the 
+206 
+central sulcus: the anterior region, which includes the frontal lobe, and the posterior region, 
+207 
+encompassing the parietal, temporal, and occipital lobes. We then assessed functional 
+208 
+.
+CC-BY-NC-ND 4.0 International license
+available under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted October 23, 2024. 
+; 
+https://doi.org/10.1101/2024.10.23.619731
+doi: 
+bioRxiv preprint 
+
+9 
+ 
+connectivity between anterior and posterior (A-P) brain regions, as well as within anterior 
+209 
+(A-A) and within posterior (P-P) regions (Figure 3a). Effect sizes were calculated using 
+210 
+Cohen’s d. In psychedelic states, we observed a significant increase in P-P functional 
+211 
+connectivity (LSD: d = 0.62, pFDR= 0.041; ketamine: d = 0.76, pFDR = 0.038; nitrous 
+212 
+oxide: d = 0.74, pFDR = 0.028), followed by enhanced A-P functional connectivity for 
+213 
+non-classical psychedelics (ketamine: d = 0.87, pFDR = 0.026; nitrous oxide: d = 0.60, 
+214 
+uncorrected p = 0.037).  
+215 
+In contrast, during sleep and deep sedation, we found pronounced decreases in both A-P 
+216 
+functional connectivity (sleep N2: d = -0.53, pFDR= 0.024; propofol 1.9 μg/ml: d = -0.76, 
+217 
+pFDR= 0.041; propofol 2.4 μg/ml: d = -0.83, pFDR = 0.002; propofol 2.7 μg/ml: d = -1.55, 
+218 
+pFDR < 0.0001) and P-P functional connectivity (sleep N2: d = -0.71, pFDR = 0.002; 
+219 
+propofol 1.9 μg/ml: d = -0.75, pFDR= 0.038; propofol 2.4 μg/ml: d = -0.91, pFDR = 0.0005; 
+220 
+propofol 2.7 μg/ml: d = -1.16, pFDR < 0.0001) (Figure 3b, c, and Figure S3). Notably, 
+221 
+there was no statistical significance for changes in A-A functional connectivity, suggesting 
+222 
+.
+CC-BY-NC-ND 4.0 International license
+available under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted October 23, 2024. 
+; 
+https://doi.org/10.1101/2024.10.23.619731
+doi: 
+bioRxiv preprint 
+
+10 
+ 
+that functional connectivity in frontal cortex alone does not fully account for variations in 
+223 
+conscious state. 
+224 
+Figure 3. Anterior vs. Posterior Connectivity in Different States of Consciousness. (a) 
+225 
+Schematic of the analysis pipeline. Functional connectivity was assessed by dividing the brain into 
+226 
+anterior (A) and posterior (P) regions based on the central sulcus, with time series extracted from 
+227 
+regions of interest (ROIs) across the brain. Functional connectivity matrices were constructed by 
+228 
+calculating pairwise connectivity between all ROIs within anterior regions (A-A), within posterior 
+229 
+regions (P-P), and between anterior and posterior regions (A-P), followed by averaging the 
+230 
+connectivity values within each category. (b) Heat maps display the effect size (Cohen's d) of 
+231 
+functional connectivity changes between each altered state of consciousness and its corresponding 
+232 
+baseline for A-A, A-P, and P-P regions. Warmer colors (red) represent increased connectivity, 
+233 
+while cooler colors (blue) indicate reduced connectivity. Each entry in the 2x2 matrix reflects the 
+234 
+effect size of functional connectivity between the specified region pairs in the given state versus its 
+235 
+baseline. (c) Effect size (Cohen's d) of functional connectivity changes in different states of 
+236 
+consciousness. Bar plots display the effect sizes of functional connectivity changes under different 
+237 
+conditions, including LSD, ketamine (KTM), nitrous oxide (N2O), sleep (N1 and N2), and propofol 
+238 
+(PPF) at various infusion rates, compared to their respective baselines across A-A, A-P, and P-P 
+239 
+regions. Statistical significance was determined using paired-sample t-tests based on Fisher z-
+240 
+transformed functional connectivity values. Significant differences from baseline are marked by 
+241 
+asterisks (*, FDR-corrected p < 0.05), and significant differences before FDR correction are 
+242 
+indicated by a hash (#, uncorrected p < 0.05). 
+243 
+ 
+244 
+To achieve a more refined understanding beyond the anatomical axis from anterior to 
+245 
+posterior cortical regions, we further subdivided these brain regions based on a functional 
+246 
+axis ranging from unimodal (sensory and motor cortices) to transmodal (association 
+247 
+cortices) processing (Margulies et al., 2016). Regions with gradient values greater than 0 
+248 
+were classified as transmodal, and those with values less than 0 as unimodal (see Methods 
+249 
+for details). We then analyzed functional connectivity between and within anterior 
+250 
+transmodal (AT), anterior unimodal (AU), posterior transmodal (PT), and posterior 
+251 
+unimodal (PU) regions (Figure 4a). Overall, opposite changes were observed across the 
+252 
+two classes of states, with increased functional connectivity during psychedelic states and 
+253 
+.
+CC-BY-NC-ND 4.0 International license
+available under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted October 23, 2024. 
+; 
+https://doi.org/10.1101/2024.10.23.619731
+doi: 
+bioRxiv preprint 
+
+11 
+ 
+decreased connectivity during sleep and deep sedation (Figure 4b, c, and Figure S4). A 
+254 
+consistent 'mirror-image' pattern in functional connectivity was observed, particularly in 
+255 
+the AT-PU and PT-PU regions, where connectivity significantly increased during 
+256 
+psychedelic states and decreased during sedative-hypnotic states compared to each baseline. 
+257 
+The effect sizes, measured using Cohen's d, were as follows: For AT-PU, LSD: d = 0.95, 
+258 
+pFDR = 0.009; ketamine: d = 0.92, pFDR = 0.019; nitrous oxide: d = 0.76, pFDR = 0.019; 
+259 
+sleep N2: d = -0.43, pFDR = 0.036; propofol 1.9 μg/ml: d = -0.75, pFDR = 0.036; propofol 
+260 
+2.4 μg/ml: d = -0.60, pFDR = 0.019; propofol 2.7 μg/ml: d = -1.31, pFDR < 0.0001. For 
+261 
+PT-PU, LSD: d = 1.01, pFDR = 0.006; ketamine: d = 0.84, pFDR = 0.021; nitrous oxide: 
+262 
+d = 0.91, pFDR = 0.008; sleep N2: d = -0.64, pFDR = 0.006; propofol 2.4 μg/ml: d = -0.61, 
+263 
+pFDR = 0.011; propofol 2.7 μg/ml: d = -1.41, pFDR < 0.0001. A-P regions, such as AT-
+264 
+PT and AU-PT, along with P-P regions like PT-PT and PU-PU, displayed similar trends of 
+265 
+connectivity, but these lacked consistent statistically significant differences. 
+266 
+267 
+Figure 4. Anterior/Posterior vs. Transmodal/Unimodal Functional Connectivity: (a) 
+268 
+.
+CC-BY-NC-ND 4.0 International license
+available under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted October 23, 2024. 
+; 
+https://doi.org/10.1101/2024.10.23.619731
+doi: 
+bioRxiv preprint 
+
+12 
+ 
+Analytical pipeline for connectivity assessment. The brain was first divided into anterior (A) and 
+269 
+posterior (P) regions based on anatomical structure using the central sulcus as the boundary. These 
+270 
+anterior and posterior regions were then further subdivided based on functional gradients, 
+271 
+separating transmodal (higher-order cognitive) areas from unimodal (sensory-motor) areas. Time 
+272 
+series were extracted from regions of interest (ROIs) across these divisions, and functional 
+273 
+connectivity matrices were calculated between and within anterior transmodal (AT), anterior 
+274 
+unimodal (AU), posterior transmodal (PT), and posterior unimodal (PU) regions. (b) Heatmaps 
+275 
+show the effect size of functional connectivity changes during different states. Each entry in the 
+276 
+4x4 heatmap represents the effect size of functional connectivity between pairs of brain regions: 
+277 
+AT, AU, PT, and PU. Red hues indicate increased connectivity, while blue hues indicate reduced 
+278 
+connectivity. (c) Bar plots display effect sizes of functional connectivity changes under different 
+279 
+conditions: LSD, ketamine (KTM), nitrous oxide (N2O), sleep (N1 and N2), and propofol at various 
+280 
+effect-site concentrations. Statistical significance was determined using paired-sample t-tests based 
+281 
+on Fisher z-transformed FC values. Significant differences from baseline are marked by asterisks 
+282 
+(*, FDR-corrected p < 0.05), and significant differences before FDR correction are indicated by a 
+283 
+hash (#, uncorrected p < 0.05). 
+284 
+ 
+285 
+To provide a comprehensive depiction of anterior vs. posterior and unimodal vs. 
+286 
+transmodal functional connectivity, we created a circular plot highlighting all connections 
+287 
+with strong effect sizes (|Cohen’s d| > 0.8) across all datasets. In this visualization, regions 
+288 
+are arranged from anterior transmodal to posterior unimodal areas, with each region labeled 
+289 
+according to its functional network and anatomical location in the brain. Additionally, we 
+290 
+conducted a meta-analytic approach of cognitive functions associated with each of the AT, 
+291 
+AU, PT, and PU regions to provide insights into the functional roles of brain region groups. 
+292 
+We then examined connectivity density by counting the number of connections (i.e., edges) 
+293 
+between or within region groups. During psychedelic states, we observed a notable increase 
+294 
+in connectivity density, particularly for A-P functional connectivity and P-P functional 
+295 
+connectivity, irrespective of the unimodal vs. transmodal specialization of the areas 
+296 
+involved. In contrast, during sleep and sedation, a marked decrease in connectivity density 
+297 
+was most pronounced in A-P and P-P regions. Additionally, we conducted a detailed 
+298 
+analysis of edge ratios, which quantify the proportion of robust connectivity changes 
+299 
+.
+CC-BY-NC-ND 4.0 International license
+available under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted October 23, 2024. 
+; 
+https://doi.org/10.1101/2024.10.23.619731
+doi: 
+bioRxiv preprint 
+
+13 
+ 
+relative to the maximum possible connections between and within anterior and posterior 
+300 
+regions, including both transmodal and unimodal areas. Our findings indicate that during 
+301 
+psychedelic states, edge ratios were elevated in A-P and P-P regions, suggesting increased 
+302 
+connectivity. Conversely, during deep sleep and sedation, edge ratios were reduced, 
+303 
+particularly in the A-P and P-P regions (Figure 5), underscoring the mirror-image pattern 
+304 
+between enhanced and diminished states of consciousness. 
+305 
+ 
+306 
+.
+CC-BY-NC-ND 4.0 International license
+available under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted October 23, 2024. 
+; 
+https://doi.org/10.1101/2024.10.23.619731
+doi: 
+bioRxiv preprint 
+
+14 
+ 
+307 
+Figure 5. Functional Connectivity Density and Cognitive Correlates Across Anterior-
+308 
+Posterior and Transmodal-Unimodal Brain Regions in Different States of Consciousness. (a) 
+309 
+The brain map illustrates the spatial distribution of regions categorized as anterior transmodal (AT), 
+310 
+anterior unimodal (AU), posterior transmodal (PT), and posterior unimodal (PU). The inner ring of 
+311 
+the circular plot indicates whether each region is unimodal or transmodal, while the outer ring 
+312 
+specifies the functional network to which the regions belong. (b) Circular Plots of Connectivity 
+313 
+Changes: Circular plots present the connectivity changes under various conditions, compared to 
+314 
+their respective baselines. Each connection (i.e., edge) represents a strong effect size (|effect size| > 
+315 
+0.8). (c) Word Clouds of Cognitive Functions: Word clouds depict cognitive functions associated 
+316 
+.
+CC-BY-NC-ND 4.0 International license
+available under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted October 23, 2024. 
+; 
+https://doi.org/10.1101/2024.10.23.619731
+doi: 
+bioRxiv preprint 
+
+15 
+ 
+with brain regions, with font sizes proportional to the correlation coefficient (r) between the 
+317 
+anatomical 
+mask 
+and 
+the 
+meta-analytic 
+map 
+generated 
+by 
+Neurosynth 
+318 
+(https://www.neurosynth.org/) for a given term. The triangle beneath the word clouds indicates the 
+319 
+relationship between font size and correlation coefficient. (d) Edge ratio (% of maximum possible 
+320 
+connections): Heatmaps illustrate the quantified edge ratios, defined as the ratio of robust 
+321 
+connectivity changes to the maximum possible connections. LSD: lysergic acid diethylamide, 
+322 
+KTM: ketamine, N2O: nitrous oxide, Sleep N1: non-REM sleep stage 1, Sleep N2: non-REM sleep 
+323 
+stage 2, PPF 1.0: propofol 1.0 μg/ml, PPF 1.9: propofol 1.9 μg/ml, PPF 2.4: propofol 2.4 μg/ml, 
+324 
+PPF 2.7: propofol 2.7 μg/ml. DMN: default-mode network, FPN: frontoparietal network, LIM: 
+325 
+limbic network, VAN: ventral attention network, DAN: dorsal attention network, SMN: 
+326 
+somatomotor network, VIS: visual network. 
+327 
+ 
+328 
+In addition to the classical functional connectivity method, we incorporated an approach 
+329 
+from graph theory to further assess the topological integration between and within anterior 
+330 
+and posterior regions (Jang et al., 2024b). Specifically, we calculated the normalized multi-
+331 
+level global efficiency (see Methods for detailed definitions), indexing the degree of 
+332 
+relative topological integration, between and within anterior and posterior regions (Figure 
+333 
+6, Figure S5, and S6). Consistent with the functional connectivity results, we observed 
+334 
+increased A-P and P-P efficiency during psychedelic states and decreased A-P and P-P 
+335 
+efficiency during sleep and deep sedation. Within these areas, the AU-PU efficiency, as 
+336 
+well as all within-posterior efficiency (PT-PU, PT-PT, PU-PU), exhibited the most 
+337 
+pronounced changes, suggesting differential engagement of these regions across states of 
+338 
+consciousness. 
+339 
+.
+CC-BY-NC-ND 4.0 International license
+available under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted October 23, 2024. 
+; 
+https://doi.org/10.1101/2024.10.23.619731
+doi: 
+bioRxiv preprint 
+
+16 
+ 
+ 
+340 
+Figure 6. Topological Analysis of Anterior and Posterior Brain Integration Across Different 
+341 
+States of Consciousness (a) Schematic of Global Efficiency (Inverse of Shortest Path Length): 
+342 
+This illustration demonstrates the calculation of the global efficiency, represented by the average 
+343 
+of the inverse of shortest path length between two brain regions. This approach is derived from 
+344 
+network science and is a surrogate for the efficiency of information transfer. As an example, orange 
+345 
+lines indicate a shortest path between a given pair of brain regions. (b) Heatmaps of Global 
+346 
+Efficiency: These heatmaps visualize changes in the global efficiency within anterior regions (A-
+347 
+A), between anterior and posterior regions (A-P), and within posterior regions (P-P) regions. Each 
+348 
+entry in the heatmap represents the change in global efficiency value between brain regions for a 
+349 
+given state relative to its baseline. (c) Effect Sizes of Global Efficiency: Bar plots present the effect 
+350 
+sizes for changes in the efficiency in A-A, A-P, and P-P regions across various conditions (LSD, 
+351 
+KTM, N2O, Sleep N1, Sleep N2, Propofol 1.0, Propofol 1.9, Propofol 2.4, Propofol 2.7). (d) 
+352 
+Heatmaps of global efficiency between and within anterior transmodal (AT), anterior unimodal 
+353 
+(AU), posterior transmodal (PT), and posterior unimodal (PU) regions during different states of 
+354 
+consciousness. Each entry in the heatmap represents the change in global efficiency value between 
+355 
+.
+CC-BY-NC-ND 4.0 International license
+available under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted October 23, 2024. 
+; 
+https://doi.org/10.1101/2024.10.23.619731
+doi: 
+bioRxiv preprint 
+
+17 
+ 
+brain regions for a given state relative to its baseline.  (e) Effect sizes for global efficiency across 
+356 
+AT, AU, PT, PU regions. Statistical analyses were performed for global efficiency values, with 
+357 
+Cohen's d effect sizes reported to illustrate the magnitude of changes. Significant differences from 
+358 
+baseline are marked by asterisks (*, FDR-corrected p < 0.05), and significant differences before 
+359 
+FDR correction are indicated by a hash (#, uncorrected p < 0.05). 
+360 
+ 
+361 
+Finally, to determine which type of functional connectivity (e.g., AT-PU or PT-PU) 
+362 
+explains the greatest variance in the data across various states of consciousness, we 
+363 
+conducted a non-parametric correlation analysis (Spearman correlation). We assigned -3 
+364 
+as deepest sedation (propofol 2.7 μg/ml), -2 as propofol 2.4 μg/ml, -1 as propofol 1.9 μg/ml 
+365 
+and sleep N2, 0 as propofol 1.0 and sleep N1, 1 as ketamine and nitrous oxide, 2 as LSD 
+366 
+(Jang et al., 2024a).  Smaller positive values represent non-classical psychedelics, while 
+367 
+the largest positive value represents classical psychedelic states. We correlated these state 
+368 
+signs and magnitudes with the functional connectivity effect sizes across all states of 
+369 
+consciousness. Our findings reveal that AT-PU explained the greatest variance of states of 
+370 
+consciousness (rho = 0.96, pFDR = 0.001), followed by AT-PT, AU-PT, PT-PU, and PU-
+371 
+PU (rho = 0.94, pFDR = 0.001 for each). These results suggest that both A-P and P-P 
+372 
+connections play a role in differentiating states of consciousness. In addition to correlation 
+373 
+analysis, we employed feature ranking methods from machine learning to assess which 
+374 
+features (i.e., functional connectivity between and within AT, AU, PT, and PU regions) 
+375 
+best differentiate between enhanced consciousness states (psychedelic) and reduced 
+376 
+consciousness states (sleep and sedation). We used two common feature importance 
+377 
+metrics: gain ratio and Gini index. Both metrics identified PT-PU as the top-ranked feature, 
+378 
+followed by AT-PU and AT-PT. This difference can be explained by the fact that Spearman 
+379 
+correlation measures the strength of the monotonic relationship between functional 
+380 
+connectivity and states of consciousness, highlighting AT-PU as the strongest in this regard. 
+381 
+In contrast, feature ranking methods like gain ratio and Gini index assess the contribution 
+382 
+of each connection to the overall classification task, where PT-PU demonstrated the highest 
+383 
+importance in distinguishing between enhanced and reduced states of consciousness. 
+384 
+However, the results are still consistent across these methods, as both highlight the critical 
+385 
+.
+CC-BY-NC-ND 4.0 International license
+available under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted October 23, 2024. 
+; 
+https://doi.org/10.1101/2024.10.23.619731
+doi: 
+bioRxiv preprint 
+
+18 
+ 
+role of A-P and P-P connections in differentiating states of consciousness, even though the 
+386 
+specific rankings may vary slightly. 
+387 
+ 
+388 
+Figure 7. Correlation and Feature Importance of Brain Region Connectivity for Various 
+389 
+States of Consciousness. (a) Spearman Correlation Analysis: Scatter plots show the rank 
+390 
+correlation between different states of consciousness and functional connectivity effect sizes. Bar 
+391 
+chart below highlights the Spearman correlation coefficients for each region pair. (b) Bar plot 
+392 
+displays the feature ranking based on the gain ratio, a machine learning metric used to assess the 
+393 
+importance of functional connectivity features in distinguishing enhanced consciousness 
+394 
+(psychedelic states) from reduced consciousness (sleep and sedation). (c) Gini index, another 
+395 
+feature importance metric. 
+396 
+ 
+397 
+Discussion 
+398 
+In this study, we systematically tested competing theories of consciousness by examining 
+399 
+a broad spectrum of altered conscious states using a robust methodological framework. We 
+400 
+demonstrated that psychedelic states of consciousness are linked to increased global 
+401 
+functional connectivity and decreased local neural synchrony, while diminished states of 
+402 
+.
+CC-BY-NC-ND 4.0 International license
+available under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted October 23, 2024. 
+; 
+https://doi.org/10.1101/2024.10.23.619731
+doi: 
+bioRxiv preprint 
+
+19 
+ 
+consciousness during sleep and sedation displayed the opposite pattern. These findings 
+403 
+suggest that consciousness arises from global brain network interactions rather than 
+404 
+localized activity. This mirror-image pattern between enhanced and diminished states was 
+405 
+observed in both anterior-posterior and within-posterior brain regions but not exclusively 
+406 
+within the anterior part of the brain. Overall, the data (1) support global theories of 
+407 
+consciousness in relation to varying states of consciousness, (2) do not support local 
+408 
+theories of consciousness in either sensory or prefrontal cortex alone, (3) suggest that both 
+409 
+anterior-posterior and posterior-posterior integration are crucial in defining various states 
+410 
+of consciousness. Our findings also bridge the gap between GNW and IIT by highlighting 
+411 
+the critical role of higher-order integrative cortical regions in consciousness.  
+412 
+Our study provides compelling empirical evidence for global theories of consciousness. 
+413 
+While prior research has identified alterations in between-network and within-network 
+414 
+integration during psychedelic states (Dai et al., 2023b; McCulloch et al., 2022; Shinn et 
+415 
+al., 2023; Siegel et al., 2024), sleep (Horovitz et al., 2009; Tagliazucchi and Laufs, 2014), 
+416 
+and sedation (Bonhomme et al., 2016; Boveroux et al., 2010; Huang et al., 2018; Jang et 
+417 
+al., 2024b; Jordan et al., 2013; Palanca et al., 2015; Ranft et al., 2016), our work advances 
+418 
+the field by simultaneously analyzing both global and local connectivity across a diverse 
+419 
+spectrum of altered states. We demonstrate a striking mirror-image pattern: psychedelic 
+420 
+states exhibit increased global functional connectivity and decreased local neural 
+421 
+synchrony, while sleep and deep sedation show the opposite. This pattern, observed in both 
+422 
+anterior-posterior and within-posterior brain regions, highlights the crucial role of global 
+423 
+brain network interactions in supporting conscious experience. Our findings challenge the 
+424 
+adequacy of local theories and bridge the gap between GNW and IIT, which may represent 
+425 
+an important step forward in addressing the unresolved questions about the neural 
+426 
+correlates of consciousness. 
+427 
+Moreover, we introduce a novel approach to the "front vs. back" debate of consciousness 
+428 
+(Boly et al., 2017) by categorizing brain regions along a unimodal-transmodal axis, 
+429 
+reflecting the functional hierarchy from basic sensory processing to higher-order cognitive 
+430 
+integration. By examining connectivity within and between anterior transmodal, anterior 
+431 
+unimodal, posterior transmodal, and posterior unimodal regions, we added a new degree 
+432 
+.
+CC-BY-NC-ND 4.0 International license
+available under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted October 23, 2024. 
+; 
+https://doi.org/10.1101/2024.10.23.619731
+doi: 
+bioRxiv preprint 
+
+20 
+ 
+of specificity in understanding the roles of lower-level sensory versus higher-order 
+433 
+cognitive regions. We found that transmodal areas are more critical in A-P connectivity, 
+434 
+while both transmodal and unimodal areas play key roles in P-P connectivity. This aligns 
+435 
+with previous psychedelic research, which showed enhanced global functional connectivity 
+436 
+in transmodal regions, such as the frontoparietal and default-mode networks during LSD 
+437 
+experiences (Girn et al., 2022; Tagliazucchi et al., 2016). The focus on transmodal areas in 
+438 
+GNW (Dehaene and Changeux, 2011; Dehaene and Naccache, 2001; Mashour et al., 2020) 
+439 
+aligns with our data on connectivity between anterior and posterior transmodal regions. 
+440 
+Within the framework of IIT (Tononi, 2008, 2004; Tononi et al., 2016), the inclusion of 
+441 
+unimodal visual areas in the posterior "hot zone" helps explain the strong posterior 
+442 
+connectivity observed when both transmodal and unimodal areas are considered. Although 
+443 
+GNW underscores the importance of frontal regions, it emphasizes their dynamic 
+444 
+interaction with posterior regions (Mashour et al., 2020). Our observation of a weaker 
+445 
+effect of A-A connectivity suggests that frontal areas alone may be insufficient to sustain 
+446 
+consciousness, further reinforcing this perspective.  
+447 
+We applied the measure of global efficiency (Jang et al., 2024b), calculated based on the 
+448 
+inverse of shortest path length between regions, to assess the relative topological efficiency 
+449 
+of information transfer between anterior and posterior brain regions, providing a deeper 
+450 
+insight into network topology across states of consciousness. While the overall findings for 
+451 
+functional connectivity and topological integration (i.e., global efficiency) are consistent, 
+452 
+subtle differences emerge upon closer examination. For example, changes in efficiency 
+453 
+were more strongly linked to within-posterior regions (i.e., PU-PU, PT-PU, and PT-PT). 
+454 
+Topological integration, as opposed to functional connectivity, normalizes connectivity 
+455 
+strength against a null model, highlighting the efficiency of information transfer 
+456 
+independently of the raw connectivity values. Thus, functional connectivity and 
+457 
+topological integration may provide complementary views on the brain’s functional 
+458 
+organization. 
+459 
+Our rank correlation analysis revealed strong quantitative links between connectivity 
+460 
+changes and levels of consciousness, with specific region pairs (e.g., AT-PU) showing the 
+461 
+strongest correlations with altered states. Finally, feature importance analysis identified 
+462 
+.
+CC-BY-NC-ND 4.0 International license
+available under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted October 23, 2024. 
+; 
+https://doi.org/10.1101/2024.10.23.619731
+doi: 
+bioRxiv preprint 
+
+21 
+ 
+PT-PU as the top-ranked feature in distinguishing between enhanced (psychedelics) and 
+463 
+reduced (sleep, sedation) consciousness. Together, these analyses provided a powerful 
+464 
+quantitative framework for identifying the brain networks critical to altered consciousness. 
+465 
+They revealed a mirror-image pattern, with heightened global integration during 
+466 
+psychedelic states sharply contrasting with the diminished global integration observed 
+467 
+during sleep and sedation, effectively capturing the opposing neural correlates of enhanced 
+468 
+and reduced states of consciousness. 
+469 
+This study has limitations. First, it is important to acknowledge that increased connectivity, 
+470 
+whether local or global, does not always equate to higher levels of consciousness. For 
+471 
+example, excessive connectivity can lead to pathological states, such as seizures, where 
+472 
+neural synchronization is heightened but consciousness is impaired. Second, the reliance 
+473 
+on multiple datasets introduces heterogeneity, which may affect the generalizability of our 
+474 
+results across different experimental settings or populations. Additionally, our results 
+475 
+showed a decrease in ReHo at the highest doses of propofol, indicating reduced local 
+476 
+connectivity. These doses of propofol approach anesthetic levels, going beyond mere 
+477 
+unconsciousness and diverging from sleep-related patterns of increased local connectivity. 
+478 
+Since deep sedation and sleep are more mechanistically similar than anesthesia and sleep, 
+479 
+this divergence at higher propofol doses is expected (Franks and Wisden, 2021; Vanini et 
+480 
+al., 2020). Anesthesia disrupts both global and local connectivity more profoundly, as 
+481 
+supported by previous research (Huang et al., 2018). Lastly, although we analyzed both 
+482 
+global and local connectivity, our results cannot fully support or invalidate local 
+483 
+frameworks for consciousness, such as the Recurrent Processing Theory (Lamme et al., 
+484 
+2001; Lamme, 2010, 2006), which attempts to explain the mechanism for content of 
+485 
+consciousness, particularly in studies that utilize visual tasks. Since our results are based 
+486 
+on resting-state analysis, they cannot capture all the nuances of conscious processes.  
+487 
+Despite these limitations, our methods remain a valuable surrogate for coarse-grained 
+488 
+tracking. By incorporating novel metrics like the topological integration and exploring the 
+489 
+unimodal-transmodal axis, we offer new insights into the topological efficiency and 
+490 
+hierarchical organization of brain networks during various states of consciousness. Our 
+491 
+study advances the field by providing systematic support for global theories of 
+492 
+.
+CC-BY-NC-ND 4.0 International license
+available under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted October 23, 2024. 
+; 
+https://doi.org/10.1101/2024.10.23.619731
+doi: 
+bioRxiv preprint 
+
+22 
+ 
+consciousness and a clearer understanding of how large-scale brain networks and localized 
+493 
+processes contribute to changes in consciousness. This work also bridges the gap between 
+494 
+two competing theories, demonstrating that both anterior-posterior and within-posterior 
+495 
+connectivity are critical for understanding various states of consciousness. Furthermore, 
+496 
+our empirical findings suggest that different theories of consciousness may converge on 
+497 
+the fundamental neuronal mechanisms and can be both compatible and complementary, 
+498 
+despite marked differences in their theoretical foundations. By adopting a unifying, 
+499 
+integration-oriented approach, our study combines valuable elements from various theories, 
+500 
+providing a more comprehensive view of the neural underpinnings of consciousness. 
+501 
+502 
+.
+CC-BY-NC-ND 4.0 International license
+available under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted October 23, 2024. 
+; 
+https://doi.org/10.1101/2024.10.23.619731
+doi: 
+bioRxiv preprint 
+
+23 
+ 
+Methods 
+503 
+Dataset 1: LSD 
+504 
+Fifteen healthy subjects (5 females; mean age ± standard deviation: 38.4 ± 8.6 years) were 
+505 
+sourced from the OpenNEURO database (Carhart-Harris et al., 2016). The study design 
+506 
+involved two experimental sessions, where participants received either a placebo or 75 μg 
+507 
+of intravenous LSD in a counterbalanced order. Each participant completed three scans: 
+508 
+the first and third were eyes-closed resting-state sessions, while the second involved a 
+509 
+music listening task. Each scan duration was 7 minutes. This study utilized a 3T GE HDx 
+510 
+scanner. For echo-planar imaging (EPI), the scan settings were as follows: 35 slices, a 
+511 
+repetition time/echo of 2000/35 ms, 3.4 mm slice thickness, a 220 mm field of view, and a 
+512 
+90° flip angle. High-resolution T1 images were acquired as well.  
+513 
+In addition, only preprocessed data were available in the released dataset, followed by 
+514 
+several steps. Initially, the first three volumes of each scan were removed to ensure stability. 
+515 
+De-spiking was then conducted to correct signal artifacts, followed by slice time correction 
+516 
+to align image acquisition timings. Motion correction was applied to counteract participant 
+517 
+movement, and brain extraction isolated brain tissue from other elements in the images. 
+518 
+The images were aligned to anatomical scans via rigid body registration and further aligned 
+519 
+to a 2mm MNI brain template through non-linear registration. The dataset was then 
+520 
+scrubbed using a FD threshold of 0.4, with a maximum of 7.1% of volumes scrubbed per 
+521 
+scan, replacing them with the mean of surrounding volumes. Further processing included 
+522 
+applying a 6mm kernel for spatial smoothing, filtering the data within the 0.01–0.1 Hz 
+523 
+range, removing signal drifts through linear and quadratic de-trending, and eliminating 
+524 
+motion- and anatomy-related artifacts through regression. 
+525 
+Dataset 2: Ketamine 
+526 
+The research was approved by the Institutional Review Board of Huashan Hospital, Fudan 
+527 
+University, and all participants provided written informed consent (Dai et al., 2023b; 
+528 
+Huang et al., 2020). Twelve right-handed individuals (5 females; mean age ± standard 
+529 
+deviation: 41.4 ± 8.6 years) were enrolled. Participants had no history of neurological 
+530 
+.
+CC-BY-NC-ND 4.0 International license
+available under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted October 23, 2024. 
+; 
+https://doi.org/10.1101/2024.10.23.619731
+doi: 
+bioRxiv preprint 
+
+24 
+ 
+disorders, significant organ dysfunction, or neuropsychiatric medication use, and were 
+531 
+classified as American Society of Anesthesiologists physical status I or II. Intravenous 
+532 
+ketamine was administered while fMRI scans were performed without interruption 
+533 
+throughout the experiment, which spanned 44 to 62 minutes. A 10-minute baseline 
+534 
+recording of the conscious state was conducted at the start, with the exception of two 
+535 
+participants who had shorter baseline durations of 6 and 11 minutes. Ketamine was then 
+536 
+administered at a rate of 0.05 mg/kg per minute over 10 minutes (total dose: 0.5 mg/kg), 
+537 
+followed by an increased rate of 0.1 mg/kg per minute for another 10 minutes (cumulative 
+538 
+dose: 1.0 mg/kg). Two participants only received the second dose. Once the ketamine 
+539 
+infusion was complete, participants naturally regained consciousness. Our analysis focused 
+540 
+on subanesthetic ketamine administration, which is associated with psychedelic 
+541 
+experiences. This study utilized a 3T Siemens MAGNETOM scanner. For EPI, the scan 
+542 
+settings were as follows: 33 slices, a repetition time/echo time of 2000/30 ms, 5mm slice 
+543 
+thickness, a 210 mm field of view, a 64 × 64 image matrix, and a 90° flip angle. High-
+544 
+resolution T1 images were acquired as well. 
+545 
+Dataset 3: Nitrous oxide 
+546 
+Sixteen healthy participants (8 females, mean age ± standard deviation:  24.6 ± 3.7 years) 
+547 
+were recruited for this study, approved by the Institutional Review Board of the University 
+548 
+of Michigan Medical School (HUM00096321), with all participants giving written 
+549 
+informed consent (Dai et al., 2023b, 2023a). All participants were classified as American 
+550 
+Society of Anesthesiologists physical status I, exclusion criteria included any history of 
+551 
+drug abuse, psychosis, and other medical conditions as detailed in the trial registry 
+552 
+(https://www.clinicaltrials.gov/ct2/show/NCT03435055). Two participants were excluded 
+553 
+due to excessive head motion (affecting 50% of their fMRI data) and one due to incomplete 
+554 
+scanning, leaving a final sample of 15 healthy subjects.  
+555 
+The experimental design consisted of two conditions: one conducted prior to and one 
+556 
+during the administration of subanesthetic nitrous oxide (35%). Each condition included a 
+557 
+6-minute resting-state scan, a 3-minute visual task scan, and a 6-minute scan during a cuff-
+558 
+pain stimulus. This study utilized a 3T Philips Achieva scanner. For EPI, the scan settings 
+559 
+were as follows: 48 slices, a repetition time/echo time of 2000/30ms, 3 mm slice thickness, 
+560 
+.
+CC-BY-NC-ND 4.0 International license
+available under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted October 23, 2024. 
+; 
+https://doi.org/10.1101/2024.10.23.619731
+doi: 
+bioRxiv preprint 
+
+25 
+ 
+a 200 mm field of view, and a 90° flip angle. High-resolution T1 images were acquired as 
+561 
+well. 
+562 
+Dataset 4: Sleep 
+563 
+Thirty-three healthy participants (16 females, mean age ± standard deviation:  22.1 ± 3.2 
+564 
+years) were recruited from the OpenNEURO database (Gu et al., 2023, 2022), with 
+565 
+informed consent obtained from all participants. The dataset includes three non-REM sleep 
+566 
+stages (N1, N2, and N3), in addition to an awake resting-state condition. These stages were 
+567 
+identified 
+using 
+electroencephalogram 
+signatures 
+analyzed 
+by 
+a 
+registered 
+568 
+polysomnographic technologist. This study utilized a 3T Siemens Prisma scanner. For EPI, 
+569 
+the scan settings were as follows: 35 slices, a repetition time/echo time of 2100/25 ms, 4 
+570 
+mm slice thickness, a 240 mm field of view, and a 90° flip angle. High-resolution T1 
+571 
+images were acquired as well. Only N1 (n=33) and N2 (n=29) were included in the analysis 
+572 
+due to the limited number of subjects in N3 (n=3).  
+573 
+Dataset 5: Propofol Sedation (1.0 and 1.9 μg/mL Doses) 
+574 
+Fifteen healthy participants (6 females, mean age ± standard deviation:  26.7 ± 4.8 years) 
+575 
+were recruited for this study, approved by the Institutional Review Board of the Medical 
+576 
+College of Wisconsin. All participants provided written informed consent, were classified 
+577 
+as American Society of Anesthesiologists physical status I or II, and were scheduled for 
+578 
+elective surgery to remove pituitary microadenomas. (Huang et al., 2018; Liu et al., 2017). 
+579 
+Three participants were excluded due to excessive movement and MRI technical issues, 
+580 
+leaving 12 participants for analysis.  
+581 
+Behavioral responsiveness was measured using the Observer’s Assessment of 
+582 
+Alertness/Sedation (OAAS) scale. During baseline and recovery, participants were fully 
+583 
+responsive to verbal cues, indicated by an OAAS score of 5. In the light sedation phase, 
+584 
+participants responded lethargically to verbal commands, corresponding to an OAAS score 
+585 
+of 4, while deep sedation was marked by the absence of a response, with OAAS scores 
+586 
+ranging from 1 to 2. Individual propofol target plasma concentrations varied (light sedation: 
+587 
+0.98 ± 0.18 μg/mL; deep sedation: 1.88 ± 0.24 μg/mL), reflecting personal differences in 
+588 
+.
+CC-BY-NC-ND 4.0 International license
+available under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted October 23, 2024. 
+; 
+https://doi.org/10.1101/2024.10.23.619731
+doi: 
+bioRxiv preprint 
+
+26 
+ 
+sensitivity to the anesthetic. Propofol infusion rates were manually adjusted using 
+589 
+STANPUMP to maintain steady sedation, balancing drug accumulation and elimination. 
+590 
+Throughout the study, participants were monitored according to ASA standards, including 
+591 
+electrocardiogram, blood pressure, pulse oximetry, and end-tidal CO2, with supplemental 
+592 
+oxygen provided via nasal cannula. Resting-state data were collected across four 15-minute 
+593 
+scans, each representing a different condition: baseline consciousness, light sedation, deep 
+594 
+sedation, and recovery. This study utilized a 3T GE Signa 750 scanner. For EPI, the scan 
+595 
+settings were as follows: 41 slices, a repetition time/echo time of 2000/25 ms, 3.5 mm slice 
+596 
+thickness, a 224 mm field of view, and a 77° flip angle. High-resolution T1 images were 
+597 
+acquired as well. 
+598 
+Dataset 6: Propofol Sedation (2.4 μg/mL Doses) Twenty-six healthy participants (13 
+599 
+females, mean age ± standard deviation:  25.0 ± 4.1 years) were recruited for this study, 
+600 
+which was approved by the Institutional Review Board of the University of Michigan, and 
+601 
+all participants provided written informed consent (Huang et al., 2023, 2021a, 2021b). All 
+602 
+participants were classified as American Society of Anesthesiologists physical status I, 
+603 
+exclusion criteria included any history of drug abuse, psychosis, and other medical 
+604 
+conditions. One participant was excluded due to excessive movement, leaving 25 
+605 
+participants for analysis. 
+606 
+Before the study, participants fasted for eight hours. On the experiment day, a preoperative 
+607 
+evaluation, including a physical exam, was conducted by an anesthesiologist. Two 
+608 
+anesthesiologists continuously monitored vital signs, including breathing, heart rate, end-
+609 
+tidal CO2, pulse oximetry, and ECG. Noninvasive arterial pressure was recorded using an 
+610 
+MR-compatible monitor. Participants received 0.5 mL of 1% lidocaine for local anesthesia 
+611 
+before intravenous cannula insertion, and oxygen was delivered at 2 L/min through a nasal 
+612 
+cannula. Propofol, chosen for its minimal impact on cerebral blood flow and precise 
+613 
+titration capability, was administered via target-controlled bolus and infusion, based on the 
+614 
+Marsh pharmacokinetic model using STANPUMP (http://opentci.org/code/stanpump). 
+615 
+Dosages increased in 0.4 μg/mL increments until participants showed no behavioral 
+616 
+response, with the target concentration maintained for an average of 21.6 ± 10.2 minutes 
+617 
+before recovery. 
+618 
+.
+CC-BY-NC-ND 4.0 International license
+available under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted October 23, 2024. 
+; 
+https://doi.org/10.1101/2024.10.23.619731
+doi: 
+bioRxiv preprint 
+
+27 
+ 
+Behavioral responsiveness was assessed by a rubber ball squeeze task, with responses 
+619 
+quantified using the BIOPAC MP160 system and AcqKnowledge software. Sixty motor 
+620 
+response trials, spaced 90 seconds apart, were conducted during scanning sessions. 
+621 
+Between trials, participants engaged in mental imagery tasks such as imagining playing 
+622 
+tennis or navigating a space. Further experimental details are available in prior publications. 
+623 
+This study utilized a 3T Philips scanner. For EPI, the scan settings were as follows: 28 
+624 
+slices, a repetition time/echo time of 800/25 ms (MB factor of 4), 4 mm slice thickness, a 
+625 
+220 mm field of view, and a 76°flip angle. High-resolution T1 images were acquired as 
+626 
+well. Four fMRI sessions were conducted as part of the protocol: a 15-minute conscious 
+627 
+baseline, a 30-minute session during and post-propofol infusion, followed by a 15-minute 
+628 
+recovery baseline. 
+629 
+Dataset 7: Propofol Sedation (2.7 μg/mL Doses) 
+630 
+Thirty healthy participants (20 females, mean age ± standard deviation:  24.4 ± 5.2 years) 
+631 
+with complete scan data were included in this study, which was approved by the 
+632 
+Institutional Review Board of the University of Michigan, and all participants provided 
+633 
+written informed consent. All participants were classified as American Society of 
+634 
+Anesthesiologists physical status I, exclusion criteria included any history of drug abuse, 
+635 
+psychosis, and other medical conditions. Four participants were excluded due to excessive 
+636 
+movement and MRI technical issues, leaving 26 participants for analysis. 
+637 
+The anesthetic procedure was similar to Dataset-6, with propofol manually adjusted to 
+638 
+achieve effect-site concentrations of 1.5, 2.0, 2.5, and 3.0 μg/mL. Each level was held for 
+639 
+4 minutes to titrate the dosage and determine the threshold for loss of responsiveness 
+640 
+(LOR). To minimize head motion artifacts, the concentration was maintained one step 
+641 
+higher than the LOR threshold for about 32 minutes (e.g., if LOR occurred at 2.0 μg/mL, 
+642 
+2.5 μg/mL was maintained). In rare cases, if participants remained responsive at 3.0 μg/mL, 
+643 
+the concentration was raised to a maximum of 4.0 μg/mL. The infusion was then stopped, 
+644 
+and participants engaged in behavioral tasks, rest, or listened to music. 
+645 
+.
+CC-BY-NC-ND 4.0 International license
+available under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted October 23, 2024. 
+; 
+https://doi.org/10.1101/2024.10.23.619731
+doi: 
+bioRxiv preprint 
+
+28 
+ 
+Eight fMRI scans, each lasting 16 minutes, were conducted over a 2.5-hour session. These 
+646 
+included baseline scans (Rest1 and Music1), LOR scans (Rest2 and Music2), and recovery 
+647 
+scans (Rest3 and Music3). Between each scan, participants had 1–5 minute breaks. 
+648 
+Resting-state scans required participants to lie still with eyes closed, while music-listening 
+649 
+involved tracks from Jazz, Rock, Pop, and Country genres, played in random order. During 
+650 
+behavioral testing, participants were prompted to squeeze a rubber ball every 10 seconds 
+651 
+for 96 cycles, following an audio cue delivered through headphones. Grip strength was 
+652 
+measured using the BIOPAC MP160 system. Behavioral transitions during propofol 
+653 
+administration were identified by missed and completed squeezes, marking the onset and 
+654 
+recovery of responsiveness. This study utilized a 3T Philips scanner. For EPI, the scan 
+655 
+settings were as follows: 40 slices, a repetition time/echo time of 1400/30 ms (MB factor 
+656 
+of 4), 2.9 mm slice thickness, a 220 mm field of view, and a 76° flip angle. High-resolution 
+657 
+T1 images were acquired as well. 
+658 
+fMRI data preprocessing 
+659 
+For the preprocessing of fMRI data in this study, we utilized the AFNI software. The 
+660 
+procedure encompassed several steps: First, the initial two frames of each scan were 
+661 
+removed to ensure signal stability. This was followed by slice-timing correction to adjust 
+662 
+for temporal differences in the acquisition of slices. Second, head motion correction and 
+663 
+realignment were performed. Head motion was assessed using frame-wise displacement 
+664 
+(FD), calculated as the Euclidean Norm of the six motion parameters. Frames where the 
+665 
+FD exceeded 0.4mm, along with the preceding frame, were excluded from the analysis. 
+666 
+Third, T1 anatomical images were coregistered for precise alignment, followed by spatial 
+667 
+normalization into Talairach space (Talairach and Tournoux, 1988) and resampling to 3 
+668 
+mm isotropic voxels to standardize image coordinates. Fourth, time-censored data 
+669 
+underwent band-pass filtering between 0.01–0.1Hz using AFNI’s 3dTproject. 
+670 
+Simultaneously, linear regression was applied to eliminate unwanted components such as 
+671 
+linear and nonlinear drift, head motion time series and its derivative, as well as mean time 
+672 
+series from white matter and cerebrospinal fluid. Fifth, spatial smoothing (6mm Gaussian 
+673 
+kernel) was performed. Finally, each voxel’s time series was normalized to zero mean and 
+674 
+unit variance to ensure data consistency. 
+675 
+.
+CC-BY-NC-ND 4.0 International license
+available under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted October 23, 2024. 
+; 
+https://doi.org/10.1101/2024.10.23.619731
+doi: 
+bioRxiv preprint 
+
+29 
+ 
+Regional Homogeneity (ReHo) analysis 
+676 
+In our study, ReHo was computed to quantify the local synchronization of neural activity 
+677 
+by examining the time-series similarity within clusters of neighboring voxels. The ReHo 
+678 
+metric was derived using Kendall’s coefficient of concordance (Kendall’s W), which 
+679 
+measures the degree of agreement among the ranks of time series data. The ReHo values 
+680 
+for each voxel were calculated using the following formula: 
+681 
+𝑊=
+12
+𝑘!(𝑛" −𝑛) * +* 𝑟#,%
+&
+%'(
+−𝑘𝑇./
+!
+)
+#'(
+ 
+682 
+Here, 𝑟#,% signifies the rank of the ith time point in the jth voxel, 𝑘 represents the number 
+683 
+of voxels in the cluster, 𝑛 is the number of time points, and 𝑇. is the mean rank across all 
+684 
+voxels and time points. The value of Kendall's W ranges from 0, indicating no agreement, 
+685 
+to 1, indicating complete agreement, thus reflecting the degree of local functional 
+686 
+connectivity. The ReHo maps generated from this analysis provided insights into the 
+687 
+patterns of functional connectivity under various conditions within our study, thereby 
+688 
+enriching our comprehension of the brain's functional organization. After the ReHo 
+689 
+computation, we applied Fisher's z-transformation to the ReHo values. This transformation 
+690 
+standardizes the variance, facilitating more accurate correlation studies and comparisons 
+691 
+across different subjects and conditions.  
+692 
+Between-Network Functional Connectivity  
+693 
+To assess between-network functional connectivity, we utilized a well-established 
+694 
+parcellation scheme (Yeo et al., 2011) to define 400 regions of interest (ROIs) across the 
+695 
+brain, encompassing seven predefined functional networks: the default mode, 
+696 
+frontoparietal, limbic, ventral attention, dorsal attention, somatomotor, and visual networks. 
+697 
+Time series data were extracted from each ROI and used to compute Pearson correlation 
+698 
+coefficients, generating a 400 x 400 functional connectivity matrix. For each of the seven 
+699 
+networks, between-network connectivity was quantified by calculating the Pearson 
+700 
+correlation between the ROIs within the given network and those in each of the other six 
+701 
+networks. The resulting six between-network correlation values were averaged to produce 
+702 
+.
+CC-BY-NC-ND 4.0 International license
+available under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted October 23, 2024. 
+; 
+https://doi.org/10.1101/2024.10.23.619731
+doi: 
+bioRxiv preprint 
+
+30 
+ 
+a single between-network connectivity value for each network. Finally, the global between-
+703 
+network FC for the entire brain was obtained by averaging these network-specific values, 
+704 
+providing an overall index of inter-network connectivity across the brain. Fisher’s z-
+705 
+transformation was applied to the correlation coefficients to normalize the data and ensure 
+706 
+suitability for statistical analyses.  
+707 
+Anterior and Posterior Functional Connectivity 
+708 
+To analyze anterior and posterior functional connectivity, we segmented the brain into two 
+709 
+regions using the central sulcus as the anatomical boundary. The anterior region, which 
+710 
+includes the frontal cortex, consisted of 180 out of the 400 ROIs, while the posterior region, 
+711 
+encompassing the parietal, temporal, and occipital cortices, contained the remaining 220 
+712 
+ROIs. Time series data were extracted from each ROI, and functional connectivity was 
+713 
+assessed across the regions within and between the anterior and posterior areas. 
+714 
+Specifically, these calculations were performed for connectivity within the anterior region 
+715 
+(A-A), between the anterior and posterior regions (A-P), and within the posterior region 
+716 
+(P-P). Pearson correlation was applied to compute the relationships between ROIs, 
+717 
+followed by Fisher's z-transformation for statistical normalization. 
+718 
+Anterior/Posterior vs. Transmodal/Unimodal functional connectivity 
+719 
+Using a gradient-based approach, we assessed functional connectivity across transmodal 
+720 
+(higher-order cognitive) and unimodal (sensory-motor) areas within the anterior and 
+721 
+posterior regions of the brain. This method relies on variations in functional connectivity 
+722 
+strengths between brain regions. Specifically, it calculates a functional connectivity matrix 
+723 
+that captures correlations between the time series data of different brain areas. Gradients 
+724 
+are then extracted using dimensionality reduction techniques, such as diffusion mapping 
+725 
+embedding, which identify gradual shifts in connectivity patterns across the brain. These 
+726 
+gradients organize brain regions along a continuum from lower-level sensory-motor 
+727 
+(unimodal) areas to higher-order cognitive (transmodal) regions. The gradient values were 
+728 
+calculated from data of healthy adult subjects obtained through the Human Connectome 
+729 
+Project by the BrainSpace toolbox. (https://brainspace.readthedocs.io/en/latest/). ROIs 
+730 
+.
+CC-BY-NC-ND 4.0 International license
+available under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted October 23, 2024. 
+; 
+https://doi.org/10.1101/2024.10.23.619731
+doi: 
+bioRxiv preprint 
+
+31 
+ 
+were categorized based on their gradient values, where ROIs with a gradient value greater 
+731 
+than 0 were classified as transmodal, and those with a value less than 0 were classified as 
+732 
+unimodal. To perform this analysis, we divided the ROIs into four groups: (1) anterior 
+733 
+transmodal (AT) regions, comprising ROIs located in the anterior region (frontal cortex) 
+734 
+with gradient values greater than 0; (2) anterior unimodal (AU) regions, comprising ROIs 
+735 
+in the anterior region with gradient values less than 0; (3) posterior transmodal (PT) regions, 
+736 
+consisting of ROIs in the posterior region (parietal, temporal, and visual cortices) with 
+737 
+gradient values greater than 0; and (4) posterior unimodal (PU) regions, containing ROIs 
+738 
+in the posterior region with gradient values less than 0. Time series data were extracted 
+739 
+from these ROIs, and correlation matrices were computed to evaluate functional 
+740 
+connectivity within and between the AT, AU, PT, and PU regions. This approach allowed 
+741 
+for the analysis of functional connectivity patterns both along the anterior-posterior axis 
+742 
+and across transmodal-unimodal regions.  
+743 
+Functional Connectivity Density Analysis 
+744 
+To evaluate the density of functional connectivity between anterior-posterior and 
+745 
+transmodal-unimodal brain regions, we computed the proportion of strong functional 
+746 
+connections (defined as |effect size| > 0.8) for each pair of regions. Connectivity density 
+747 
+was calculated by dividing the number of robust functional connections by the total number 
+748 
+of possible connections within and between anterior transmodal (AT), anterior unimodal 
+749 
+(AU), posterior transmodal (PT), and posterior unimodal (PU) regions. This allowed us to 
+750 
+quantify changes in connectivity density across different consciousness states, including 
+751 
+psychedelic, sleep, and sedative conditions. The resulting connectivity density values were 
+752 
+visualized using circular plots, where lines between regions represented strong connections 
+753 
+with effect sizes exceeding 0.8, providing a clear depiction of altered connectivity patterns 
+754 
+under different conditions. 
+755 
+Cognitive Term Word Cloud Analysis 
+756 
+To explore the cognitive functions associated with the identified brain regions, we used a 
+757 
+meta-analytic approach leveraging data from Neurosynth (https://www.neurosynth.org/). 
+758 
+.
+CC-BY-NC-ND 4.0 International license
+available under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted October 23, 2024. 
+; 
+https://doi.org/10.1101/2024.10.23.619731
+doi: 
+bioRxiv preprint 
+
+32 
+ 
+For each region (AT, AU, PT, PU), we generated meta-analytic maps based on functional 
+759 
+activation patterns, and correlated these maps with the corresponding anatomical masks of 
+760 
+each region. The resulting correlation coefficients (r values) were used to identify cognitive 
+761 
+terms most strongly associated with each region. Word clouds were generated, with the 
+762 
+font size of each cognitive term proportional to its correlation coefficient. This visual 
+763 
+representation highlighted the cognitive functions most relevant to each brain region in the 
+764 
+context of the state of consciousness. A triangle beneath the word clouds was used to 
+765 
+indicate the relationship between font size and the correlation strength, providing an 
+766 
+intuitive understanding of the cognitive roles of different brain regions. 
+767 
+Normalized multi-level global efficiency 
+768 
+We calculated the normalized multi-level global efficiency to assess the topological 
+769 
+integration of the network independently of mere connectivity strength. The global 
+770 
+efficiency of a binary network is defined as the average of the inverse shortest path lengths 
+771 
+between all pairs of regions within the network: 
+772 
+𝐸* =
+1
+𝑁(𝑁−1) *
+1
+d(i, j)
++
+#,%
+ 
+773 
+where N is the number of regions (nodes) in the network, and d(i,j) is the shortest path 
+774 
+length between regions i and j. The shortest path length d(i,j) represents the minimal 
+775 
+number of connections required to transfer information from region i to region j.  
+776 
+To address the weighted nature of the functional connectivity matrices, we adopted a multi-
+777 
+level thresholding methodology (Jang et al., 2024b). The Fisher z-transformed functional 
+778 
+connectivity matrix was binarized at multiple thresholds t ranging from 0 to rmax in 
+779 
+increments of 0.01, where rmax is the largest element in the functional connectivity matrix. 
+780 
+For each thresholded binary matrix, we calculated the global efficiency. The multi-level 
+781 
+efficiency 𝐸!"was then determined by calculating the area under the curve of the global 
+782 
+efficiency as a function of the threshold: 
+783 
+.
+CC-BY-NC-ND 4.0 International license
+available under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted October 23, 2024. 
+; 
+https://doi.org/10.1101/2024.10.23.619731
+doi: 
+bioRxiv preprint 
+
+33 
+ 
+𝐸-. = 2
+𝐸*(𝑡)
+/!"# 
+1
+𝑑𝑡 
+784 
+We normalized the multi-level efficiency by dividing it by the multi-level efficiency of a 
+785 
+corresponding random null model 𝐸-.
+/2)3: 
+786 
+𝐸-.
+)4/5 = 𝐸-.
+𝐸-.
+/2)3 
+787 
+The random null model was generated by randomly rewiring the edges while preserving 
+788 
+the degree distribution, using a custom-modified version of the ‘randmio_und’ function 
+789 
+from the Brain Connectivity Toolbox (https://doi.org/10.1016/j.neuroimage.2009.10.003).  
+790 
+Between-network efficiency was calculated in a similar manner. When selecting pairs of 
+791 
+regions for efficiency calculations, we only considered between-network pairs, of which 
+792 
+the two regions belonged to different networks. Averaging was only performed over these 
+793 
+between-network pairs. Additionally, when generating the random null model for between-
+794 
+network efficiency, we shuffled only the between-network edges, preserving the within-
+795 
+network connectivity structure. 
+796 
+Rank Correlation Analysis of Functional Connectivity Across Conscious States 
+797 
+To investigate the relationship between functional connectivity and changes in conscious 
+798 
+states, we performed a group-level non-parametric rank correlation (Spearman correlation) 
+799 
+analysis between the effect size of changes in functional connectivity and the level of states 
+800 
+of consciousness. States of consciousness were ranked as follows: the most negative value 
+801 
+(-3) represented deep sedation under propofol 2.7 μg/mL, followed by -2 for propofol 2.4 
+802 
+μg/mL, and -1 for propofol 1.9 μg/mL and sleep N2. A value of 0 was assigned to Sleep 
+803 
+N1 and propofol 1.0 μg/mL. Positive values were assigned to psychedelic states, with a 
+804 
+rank of 1 corresponding to non-classical psychedelics (e.g., ketamine and nitrous oxide), 
+805 
+and a rank of 2 corresponding to classical psychedelics (e.g., LSD). Spearman’s correlation 
+806 
+coefficient (rho) was computed. 
+807 
+.
+CC-BY-NC-ND 4.0 International license
+available under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted October 23, 2024. 
+; 
+https://doi.org/10.1101/2024.10.23.619731
+doi: 
+bioRxiv preprint 
+
+34 
+ 
+Feature Ranking of Functional Connectivity for States of Consciousness 
+808 
+Classification 
+809 
+To identify the most important functional connectivity features that differentiate between 
+810 
+enhanced states of consciousness (e.g., psychedelic) and reduced states (e.g., sleep and 
+811 
+sedation), we applied feature ranking techniques from machine learning. Two widely used 
+812 
+feature importance metrics, gain ratio and Gini index, were employed to rank the z-scores 
+813 
+of changes in functional connectivity. Functional connectivity features were derived from 
+814 
+the correlation matrices computed for defined ROI pairs. These features, representing the 
+815 
+strength of connectivity between specific brain regions, were used as input for the ranking 
+816 
+process. Gain ratio, a normalized version of information gain, measures the relevance of 
+817 
+each feature by evaluating how much information about the target variable (state of 
+818 
+consciousness) is gained by splitting on that feature. The Gini index, commonly used in 
+819 
+decision trees, evaluates feature importance based on how well it separates the different 
+820 
+states of consciousness. By applying these feature ranking methods, we identified which 
+821 
+functional connectivity features, within and between the anterior transmodal (AT), anterior 
+822 
+unimodal (AU), posterior transmodal (PT), and posterior unimodal (PU) regions, 
+823 
+contributed the most to distinguishing between different levels of consciousness.  
+824 
+Statistics and Reproducibility 
+825 
+For all functional connectivity (FC) and regional homogeneity (ReHo) analyses, paired t-
+826 
+tests were conducted to compare each condition (psychedelic, sleep, and sedation) to its 
+827 
+respective baseline. Statistical significance was determined using FDR-corrected p-values 
+828 
+(p < 0.05) to account for multiple comparisons. Effect sizes were calculated using Cohen’s 
+829 
+d for paired samples. All statistical tests used in this study were two-sided. 
+830 
+Spearman’s correlation was applied to assess the relationship between ranked states of 
+831 
+consciousness and functional connectivity changes. FDR correction was used to ensure 
+832 
+significance at p < 0.05 across all comparisons. 
+833 
+ 
+ 
+834 
+.
+CC-BY-NC-ND 4.0 International license
+available under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted October 23, 2024. 
+; 
+https://doi.org/10.1101/2024.10.23.619731
+doi: 
+bioRxiv preprint 
+
+35 
+ 
+References  
+835 
+Boly, M., Massimini, M., Tsuchiya, N., Postle, B.R., Koch, C., Tononi, G., 2017. Are the 
+836 
+neural correlates of consciousness in the front or in the back of the cerebral cortex? 
+837 
+Clinical and neuroimaging evidence. J. Neurosci. 37, 9603–9613. 
+838 
+https://doi.org/10.1523/JNEUROSCI.3218-16.2017 
+839 
+Bonhomme, V., Vanhaudenhuyse, A., Demertzi, A., Bruno, M.A., Jaquet, O., Bahri, 
+840 
+M.A., Plenevaux, A., Boly, M., Boveroux, P., Soddu, A., Brichant, J.F., Maquet, P., 
+841 
+Laureys, S., 2016. Resting-state Network-specific Breakdown of Functional 
+842 
+Connectivity during Ketamine Alteration of Consciousness in Volunteers. 
+843 
+Anesthesiology 125, 873–888. https://doi.org/10.1097/ALN.0000000000001275 
+844 
+Boveroux, P., Vanhaudenhuyse, A., Bruno, M.A., Noirhomme, Q., Lauwick, S., Luxen, 
+845 
+A., Degueldre, C., Plenevaux, A., Schnakers, C., Phillips, C., Brichant, J.F., 
+846 
+Bonhomme, V., Maquet, P., Greicius, M.D., Laureys, S., Boly, M., 2010. 
+847 
+Breakdown of within- and between-network resting state functional magnetic 
+848 
+resonance imaging connectivity during propofol-induced loss of consciousness. 
+849 
+Anesthesiology 113, 1038–1053. https://doi.org/10.1097/ALN.0b013e3181f697f5 
+850 
+Brown, R., Lau, H., LeDoux, J.E., 2019. Understanding the Higher-Order Approach to 
+851 
+Consciousness. Trends Cogn. Sci. 23, 754–768. 
+852 
+https://doi.org/10.1016/j.tics.2019.06.009 
+853 
+Carhart-Harris, R.L., Muthukumaraswamy, S., Roseman, L., Kaelen, M., Droog, W., 
+854 
+Murphy, K., Tagliazucchi, E., Schenberg, E.E., Nest, T., Orban, C., Leech, R., 
+855 
+Williams, L.T., Williams, T.M., Bolstridge, M., Sessa, B., McGonigle, J., Sereno, 
+856 
+M.I., Nichols, D., Hellyer, P.J., Hobden, P., Evans, J., Singh, K.D., Wise, R.G., 
+857 
+Curran, H.V., Feilding, A., Nutt, D.J., 2016. Neural correlates of the LSD 
+858 
+experience revealed by multimodal neuroimaging. Proc. Natl. Acad. Sci. U. S. A. 
+859 
+113, 4853–8. https://doi.org/10.1073/pnas.1518377113 
+860 
+Chalmers, D.J., 1995. Facing Up to the Problem of Consciousness. J. Conscious. Stud. 2, 
+861 
+200–219. https://doi.org/10.1093/acprof:oso/9780195311105.003.0001 
+862 
+.
+CC-BY-NC-ND 4.0 International license
+available under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted October 23, 2024. 
+; 
+https://doi.org/10.1101/2024.10.23.619731
+doi: 
+bioRxiv preprint 
+
+36 
+ 
+Crick, F., Koch, C., 2003. A framework for consciousness. Nat. Neurosci. 6, 119–26. 
+863 
+https://doi.org/10.1038/nn0203-119 
+864 
+Crick, F., Koch, C., 1990. Towards a neurobiological theory of consciousness. Semin 
+865 
+Neurosci 1990; 2: 263–75. Acad. Press 2, 263–275. 
+866 
+Dai, R., Huang, Z., Larkin, T.E., Tarnal, V., Picton, P., Vlisides, P.E., Janke, E., 
+867 
+McKinney, A., Hudetz, A.G., Harris, R.E., Mashour, G.A., 2023a. Psychedelic 
+868 
+concentrations of nitrous oxide reduce functional differentiation in frontoparietal 
+869 
+and somatomotor cortical networks. Commun. Biol. 6, 1–10. 
+870 
+https://doi.org/10.1038/s42003-023-05678-1 
+871 
+Dai, R., Larkin, T.E., Huang, Z., Tarnal, V., Picton, P., Vlisides, P.E., Janke, E., 
+872 
+McKinney, A., Hudetz, A.G., Harris, R.E., Mashour, G.A., 2023b. Classical and 
+873 
+non-classical psychedelic drugs induce common network changes in human cortex. 
+874 
+Neuroimage 273, 120097. https://doi.org/10.1016/j.neuroimage.2023.120097 
+875 
+Dehaene, S., Changeux, J.P., 2011. Experimental and Theoretical Approaches to 
+876 
+Conscious Processing. Neuron 70, 200–227. 
+877 
+https://doi.org/10.1016/j.neuron.2011.03.018 
+878 
+Dehaene, S., Changeux, J.P., 2004. Neural mechanisms for access to consciousness. 
+879 
+Cogn. Neurosci. 3, 1145–1158. 
+880 
+Dehaene, S., Naccache, L., 2001. Towards a cognitive neuroscience of consciousness : 
+881 
+basic evidence and a workspace framework 79, 1–37. 
+882 
+Franks, N.P., Wisden, W., 2021. The inescapable drive to sleep: Overlapping 
+883 
+mechanisms of sleep and sedation. Science (80-. ). 374, 556–559. 
+884 
+https://doi.org/10.1126/SCIENCE.ABI8372 
+885 
+Girn, M., Roseman, L., Bernhardt, B., Smallwood, J., Carhart-Harris, R., Nathan Spreng, 
+886 
+R., 2022. Serotonergic psychedelic drugs LSD and psilocybin reduce the 
+887 
+hierarchical differentiation of unimodal and transmodal cortex. Neuroimage 256, 
+888 
+119220. https://doi.org/10.1016/j.neuroimage.2022.119220 
+889 
+Gu, Y., Han, F., Sainburg, L.E., Schade, M.M., Buxton, O.M., Duyn, J.H., Liu, X., 2022. 
+890 
+.
+CC-BY-NC-ND 4.0 International license
+available under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted October 23, 2024. 
+; 
+https://doi.org/10.1101/2024.10.23.619731
+doi: 
+bioRxiv preprint 
+
+37 
+ 
+An orderly sequence of autonomic and neural events at transient arousal changes. 
+891 
+Neuroimage 264, 119720. https://doi.org/10.1016/j.neuroimage.2022.119720 
+892 
+Gu, Y., Sainburg, L.E., Han, F., Liu, X., 2023. Simultaneous EEG and functional MRI 
+893 
+data during rest and sleep from humans. Data Br. 48, 109059. 
+894 
+https://doi.org/10.1016/j.dib.2023.109059 
+895 
+Horovitz, S.G., Braun, A.R., Carr, W.S., Picchioni, D., Balkin, T.J., Fukunaga, M., Duyn, 
+896 
+J.H., 2009. Decoupling of the brain’s default mode network during deep sleep. Proc. 
+897 
+Natl. Acad. Sci. U. S. A. 106, 11376–11381. 
+898 
+https://doi.org/10.1073/pnas.0901435106 
+899 
+Huang, Z., Liu, X., Mashour, G.A., Hudetz, A.G., 2018. Timescales of Intrinsic BOLD 
+900 
+Signal Dynamics and Functional Connectivity in Pharmacologic and 
+901 
+Neuropathologic States of Unconsciousness. J. Neurosci. 38, 2304–2317. 
+902 
+https://doi.org/10.1523/JNEUROSCI.2545-17.2018 
+903 
+Huang, Z., Mashour, G.A., Hudetz, A.G., 2023. Functional geometry of the cortex 
+904 
+encodes dimensions of consciousness. Nat. Commun. 14, 72. 
+905 
+https://doi.org/10.1038/s41467-022-35764-7 
+906 
+Huang, Z., Tarnal, V., Vlisides, P.E., Janke, E.L., McKinney, A.M., Picton, P., Mashour, 
+907 
+G.A., Hudetz, A.G., 2021a. Anterior insula regulates brain network transitions that 
+908 
+gate conscious access. Cell Rep. 35, 109081. 
+909 
+https://doi.org/10.1016/j.celrep.2021.109081 
+910 
+Huang, Z., Tarnal, V., Vlisides, P.E., Janke, E.L., McKinney, A.M., Picton, P., Mashour, 
+911 
+G.A., Hudetz, A.G., 2021b. Asymmetric neural dynamics characterize loss and 
+912 
+recovery of consciousness. Neuroimage 236, 118042. 
+913 
+https://doi.org/10.1016/j.neuroimage.2021.118042 
+914 
+Huang, Z., Zhang, J., Wu, J., Mashour, G.A., Hudetz, A.G., 2020. Temporal circuit of 
+915 
+macroscale dynamic brain activity supports human consciousness. Sci. Adv. 6, 1–
+916 
+15. https://doi.org/10.1126/sciadv.aaz0087 
+917 
+Jang, H., Dai, R., Mashour, G.A., Hudetz, A.G., Huang, Z., 2024a. Classifying 
+918 
+.
+CC-BY-NC-ND 4.0 International license
+available under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted October 23, 2024. 
+; 
+https://doi.org/10.1101/2024.10.23.619731
+doi: 
+bioRxiv preprint 
+
+38 
+ 
+Unconscious, Psychedelic, and Neuropsychiatric Brain States with Functional 
+919 
+Connectivity, Graph Theory, and Cortical Gradient Analysis. Brain Sci. 14, 880. 
+920 
+https://doi.org/10.3390/brainsci14090880 
+921 
+Jang, H., Mashour, G.A., Hudetz, A.G., Huang, Z., 2024b. Measuring the dynamic 
+922 
+balance of integration and segregation underlying consciousness, anesthesia, and 
+923 
+sleep. bioRxiv  Prepr. Serv. Biol. 87–90. https://doi.org/10.1101/2024.04.12.589265 
+924 
+Jordan, D., Ilg, R., Riedl, V., Schorer, A., Grimberg, S., Neufang, S., Omerovic, A., 
+925 
+Berger, S., Untergehrer, G., Preibisch, C., Schulz, E., Schuster, T., Schröter, M., 
+926 
+Spoormaker, V., Zimmer, C., Hemmer, B., Wohlschläger, A., Kochs, E.F., 
+927 
+Schneider, G., 2013. Simultaneous electroencephalographic and functional magnetic 
+928 
+resonance imaging indicate impaired cortical top-down processing in association 
+929 
+with anesthetic-induced unconsciousness. Anesthesiology 119, 1031–42. 
+930 
+https://doi.org/10.1097/ALN.0b013e3182a7ca92 
+931 
+Koch, C., Massimini, M., Boly, M., Tononi, G., 2016. Neural correlates of 
+932 
+consciousness: progress and problems. Nat. Rev. Neurosci. 17, 307–21. 
+933 
+https://doi.org/10.1038/nrn.2016.22 
+934 
+Lamme, V., Supèr, H., Spekrijse, H., 2001. Two distinct modes of sensory processing 
+935 
+observed in monkey primary visual cortex (V1). Nat. Neurosci. 4, 304–310. 
+936 
+Lamme, V.A.F., 2010. How neuroscience will change our view on consciousness. Cogn. 
+937 
+Neurosci. 1, 204–220. https://doi.org/10.1080/17588921003731586 
+938 
+Lamme, V.A.F., 2006. Towards a true neural stance on consciousness. Trends Cogn. Sci. 
+939 
+10, 494–501. https://doi.org/10.1016/j.tics.2006.09.001 
+940 
+Lau, H., Rosenthal, D., 2011. Empirical support for higher-order theories of conscious 
+941 
+awareness. Trends Cogn. Sci. 15, 365–373. 
+942 
+https://doi.org/10.1016/j.tics.2011.05.009 
+943 
+Liu, X., Lauer, K.K., Douglas Ward, B., Roberts, C., Liu, S., Gollapudy, S., Rohloff, R., 
+944 
+Gross, W., Chen, G., Xu, Z., Binder, J.R., Li, S.J., Hudetz, A.G., 2017. Propofol 
+945 
+attenuates low-frequency fluctuations of resting-state fMRI BOLD signal in the 
+946 
+.
+CC-BY-NC-ND 4.0 International license
+available under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted October 23, 2024. 
+; 
+https://doi.org/10.1101/2024.10.23.619731
+doi: 
+bioRxiv preprint 
+
+39 
+ 
+anterior frontal cortex upon loss of consciousness. Neuroimage 147, 295–301. 
+947 
+https://doi.org/10.1016/j.neuroimage.2016.12.043 
+948 
+Margulies, D.S., Ghosh, S.S., Goulas, A., Falkiewicz, M., Huntenburg, J.M., Langs, G., 
+949 
+Bezgin, G., Eickhoff, S.B., Castellanos, F.X., Petrides, M., Jefferies, E., Smallwood, 
+950 
+J., 2016. Situating the default-mode network along a principal gradient of 
+951 
+macroscale cortical organization. Proc. Natl. Acad. Sci. U. S. A. 113, 12574–12579. 
+952 
+https://doi.org/10.1073/pnas.1608282113 
+953 
+Mashour, G.A., Hudetz, A.G., 2018. Neural Correlates of Unconsciousness in Large-
+954 
+Scale Brain Networks. Trends Neurosci. 41, 150–160. 
+955 
+https://doi.org/10.1016/j.tins.2018.01.003 
+956 
+Mashour, G.A., Roelfsema, P., Changeux, J.P., Dehaene, S., 2020. Conscious Processing 
+957 
+and the Global Neuronal Workspace Hypothesis. Neuron 105, 776–798. 
+958 
+https://doi.org/10.1016/j.neuron.2020.01.026 
+959 
+McCulloch, D.E.-W., Knudsen, G.M., Barrett, F.S., Doss, M.K., Carhart-Harris, R.L., 
+960 
+Rosas, F.E., Deco, G., Kringelbach, M.L., Preller, K.H., Ramaekers, J.G., Mason, 
+961 
+N.L., Müller, F., Fisher, P.M., 2022. Psychedelic resting-state neuroimaging: A 
+962 
+review and perspective on balancing replication and novel analyses. Neurosci. 
+963 
+Biobehav. Rev. 138, 104689. https://doi.org/10.1016/j.neubiorev.2022.104689 
+964 
+Melloni, L., Mudrik, L., Pitts, M., Bendtz, K., Ferrante, O., Gorska, U., Hirschhorn, R., 
+965 
+Khalaf, A., Kozma, C., Lepauvre, A., Liu, L., Mazumder, D., Richter, D., Zhou, H., 
+966 
+Blumenfeld, H., Boly, M., Chalmers, D.J., Devore, S., Fallon, F., de Lange, F.P., 
+967 
+Jensen, O., Kreiman, G., Luo, H., Panagiotaropoulos, T.I., Dehaene, S., Koch, C., 
+968 
+Tononi, G., 2023. An adversarial collaboration protocol for testing contrasting 
+969 
+predictions of global neuronal workspace and integrated information theory. PLoS 
+970 
+One 18, 1–28. https://doi.org/10.1371/journal.pone.0268577 
+971 
+Oizumi, M., Albantakis, L., Tononi, G., 2014. From the Phenomenology to the 
+972 
+Mechanisms of Consciousness: Integrated Information Theory 3.0. PLoS Comput. 
+973 
+Biol. 10. https://doi.org/10.1371/journal.pcbi.1003588 
+974 
+.
+CC-BY-NC-ND 4.0 International license
+available under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted October 23, 2024. 
+; 
+https://doi.org/10.1101/2024.10.23.619731
+doi: 
+bioRxiv preprint 
+
+40 
+ 
+Palanca, B.J.A., Mitra, A., Larson-Prior, L., Snyder, A.Z., Avidan, M.S., Raichle, M.E., 
+975 
+2015. Resting-state functional magnetic resonance imaging correlates of 
+976 
+sevoflurane-induced unconsciousness. Anesthesiology 123, 346–356. 
+977 
+https://doi.org/10.1097/ALN.0000000000000731 
+978 
+Ranft, A., Golkowski, D., Kiel, T., Riedl, V., Kohl, P., Rohrer, G., Pientka, J., Berger, S., 
+979 
+Thul, A., Maurer, M., Preibisch, C., Zimmer, C., Mashour, G.A., Kochs, E.F., 
+980 
+Jordan, D., Ilg, R., 2016. Neural Correlates of Sevoflurane-induced 
+981 
+Unconsciousness Identified by Simultaneous Functional Magnetic Resonance 
+982 
+Imaging and Electroencephalography. Anesthesiology 125, 861–872. 
+983 
+https://doi.org/10.1097/ALN.0000000000001322 
+984 
+Seth, A.K., Bayne, T., 2022. Theories of consciousness. Nat. Rev. Neurosci. 23, 439–
+985 
+452. https://doi.org/10.1038/s41583-022-00587-4 
+986 
+Shinn, M., Hu, A., Turner, L., Noble, S., Preller, K.H., Ji, J.L., Moujaes, F., Achard, S., 
+987 
+Scheinost, D., Constable, R.T., Krystal, J.H., Vollenweider, F.X., Lee, D., 
+988 
+Anticevic, A., Bullmore, E.T., Murray, J.D., 2023. Functional brain networks reflect 
+989 
+spatial and temporal autocorrelation. Nat. Neurosci. 26, 867–878. 
+990 
+https://doi.org/10.1038/s41593-023-01299-3 
+991 
+Siegel, J.S., Subramanian, S., Perry, D., Kay, B.P., Gordon, E.M., Laumann, T.O., 
+992 
+Reneau, T.R., Metcalf, N. V., Chacko, R. V., Gratton, C., Horan, C., Krimmel, S.R., 
+993 
+Shimony, J.S., Schweiger, J.A., Wong, D.F., Bender, D.A., Scheidter, K.M., 
+994 
+Whiting, F.I., Padawer-Curry, J.A., Shinohara, R.T., Chen, Y., Moser, J., Yacoub, 
+995 
+E., Nelson, S.M., Vizioli, L., Fair, D.A., Lenze, E.J., Carhart-Harris, R., Raison, 
+996 
+C.L., Raichle, M.E., Snyder, A.Z., Nicol, G.E., Dosenbach, N.U.F., 2024. Psilocybin 
+997 
+desynchronizes the human brain. Nature 632. https://doi.org/10.1038/s41586-024-
+998 
+07624-5 
+999 
+Storm, J.F., Klink, P.C., Aru, J., Senn, W., Goebel, R., Pigorini, A., Avanzini, P., 
+1000 
+Vanduffel, W., Roelfsema, P.R., Massimini, M., Larkum, M.E., Pennartz, C.M.A., 
+1001 
+2024. An integrative, multiscale view on neural theories of consciousness. Neuron 
+1002 
+112, 1531–1552. https://doi.org/10.1016/j.neuron.2024.02.004 
+1003 
+.
+CC-BY-NC-ND 4.0 International license
+available under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted October 23, 2024. 
+; 
+https://doi.org/10.1101/2024.10.23.619731
+doi: 
+bioRxiv preprint 
+
+41 
+ 
+Tagliazucchi, E., Laufs, H., 2014. Decoding Wakefulness Levels from Typical fMRI 
+1004 
+Resting-State Data Reveals Reliable Drifts between Wakefulness and Sleep. Neuron 
+1005 
+82, 695–708. https://doi.org/10.1016/j.neuron.2014.03.020 
+1006 
+Tagliazucchi, E., Roseman, L., Kaelen, M., Orban, C., Muthukumaraswamy, S.D., 
+1007 
+Murphy, K., Laufs, H., Leech, R., McGonigle, J., Crossley, N., Bullmore, E., 
+1008 
+Williams, T., Bolstridge, M., Feilding, A., Nutt, D.J., Carhart-Harris, R., 2016. 
+1009 
+Increased Global Functional Connectivity Correlates with LSD-Induced Ego 
+1010 
+Dissolution. Curr. Biol. 26, 1043–1050. https://doi.org/10.1016/j.cub.2016.02.010 
+1011 
+Talairach, J., Tournoux, P., 1988. Co-Planar Stereotaxis Atlas of the Human Brain: : an 
+1012 
+approach to cerebral imaging. Stuttgart, New York, New York G. 
+1013 
+Tononi, G., 2008. Consciousness as integrated information: A provisional manifesto. 
+1014 
+Biol. Bull. 215, 216–242. https://doi.org/10.2307/25470707 
+1015 
+Tononi, G., 2004. An information integration theory of consciousness. BMC Neurosci. 5, 
+1016 
+1–22. https://doi.org/10.1186/1471-2202-5-42 
+1017 
+Tononi, G., Boly, M., Massimini, M., Koch, C., 2016. Integrated information theory: 
+1018 
+From consciousness to its physical substrate. Nat. Rev. Neurosci. 17, 450–461. 
+1019 
+https://doi.org/10.1038/nrn.2016.44 
+1020 
+Vanini, G., Bassana, M., Mast, M., Mondino, A., Cerda, I., Phyle, M., Chen, V., 
+1021 
+Colmenero, A. V., Hambrecht-Wiedbusch, V.S., Mashour, G.A., 2020. Activation of 
+1022 
+Preoptic GABAergic or Glutamatergic Neurons Modulates Sleep-Wake 
+1023 
+Architecture, but Not Anesthetic State Transitions. Curr. Biol. 30, 779-787.e4. 
+1024 
+https://doi.org/10.1016/j.cub.2019.12.063 
+1025 
+Yaron, I., Melloni, L., Pitts, M., Mudrik, L., 2022. The ConTraSt database for analysing 
+1026 
+and comparing empirical studies of consciousness theories. Nat. Hum. Behav. 6, 
+1027 
+593–604. https://doi.org/10.1038/s41562-021-01284-5 
+1028 
+Yeo, B.T.T., Krienen, F.M., Sepulcre, J., Sabuncu, M.R., Lashkari, D., Hollinshead, M., 
+1029 
+Roffman, J.L., Smoller, J.W., Zöllei, L., Polimeni, J.R., Fischl, B., Liu, H., Buckner, 
+1030 
+R.L., 2011. The organization of the human cerebral cortex estimated by intrinsic 
+1031 
+.
+CC-BY-NC-ND 4.0 International license
+available under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted October 23, 2024. 
+; 
+https://doi.org/10.1101/2024.10.23.619731
+doi: 
+bioRxiv preprint 
+
+42 
+ 
+functional connectivity. J. Neurophysiol. 106, 1125–65. 
+1032 
+https://doi.org/10.1152/jn.00338.2011 
+1033 
+Zang, Y., Jiang, T., Lu, Y., He, Y., Tian, L., 2004. Regional homogeneity approach to 
+1034 
+fMRI data analysis. Neuroimage 22, 394–400. 
+1035 
+https://doi.org/10.1016/j.neuroimage.2003.12.030 
+1036 
+ 
+1037 
+ 
+ 
+1038 
+.
+CC-BY-NC-ND 4.0 International license
+available under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted October 23, 2024. 
+; 
+https://doi.org/10.1101/2024.10.23.619731
+doi: 
+bioRxiv preprint 
+
+43 
+ 
+Data availability 
+1039 
+All data supporting the findings of this study are provided in Supplementary Data. The natural sleep 
+1040 
+fMRI 
+dataset 
+is 
+available 
+from 
+OpenNEURO 
+1041 
+(https://openneuro.org/datasets/ds003768/versions/1.0.11). The LSD dataset is published at 
+1042 
+Openneuro (doi: 10.18112/openneuro.ds003059.v1.0.0 ). Access to additional data are not openly 
+1043 
+available due to reasons of participant privacy and are available from the corresponding author 
+1044 
+upon reasonable request. Data are located in controlled access data storage at University of 
+1045 
+Michigan Medical School. 
+1046 
+Code availability 
+1047 
+Publicly 
+available 
+software 
+and 
+toolbox 
+used 
+for 
+analyses 
+include 
+AFNI 
+1048 
+(https://afni.nimh.nih.gov/), 
+JASP 
+(v0.16.3; 
+https://jasp-stats.org/), 
+BrainSpace 
+toolbox 
+1049 
+(https://brainspace.readthedocs.io/en/latest/), 
+Brain 
+Connectivity 
+Toolbox 
+1050 
+(https://doi.org/10.1016/j.neuroimage.2009.10.003) 
+and 
+MATLAB 
+R2022a 
+1051 
+(https://www.mathworks.com/products/new_products/release2022a.html) 
+1052 
+Acknowledgements: This work was funded by National Institutes of Health (Bethesda, Maryland, 
+1053 
+USA) grants R01-GM103894 (to A.G.H. and Z.H.), R01-GM111293 (to G.A.M., R.E.H.) and T32-
+1054 
+GM103730 (to G.A.M., PI, and R.D., Z.H., Fellows).  
+1055 
+Authorship contribution statement:  
+1056 
+Conceptualization: R.D., Z.H., G.A.M. Methodology: R.D., Z.H., G.A.M. Investigation: R.D., Z.H., 
+1057 
+G.A.M. Data analysis and visualization: R.D., Co-data analysis Z.H. and H.J., Supervision: G.A.M, 
+1058 
+A.G.H., Writing—original draft: R.D., Writing—review & editing: All authors.  
+1059 
+Competing interests: The authors have no conflicts of interest to declare.  
+1060 
+ 
+1061 
+.
+CC-BY-NC-ND 4.0 International license
+available under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted October 23, 2024. 
+; 
+https://doi.org/10.1101/2024.10.23.619731
+doi: 
+bioRxiv preprint 
+
+44 
+ 
+Supplementary Information 
+1062 
+Neural Correlates of Psychedelic, Sleep, and Sedated States Support Global 
+1063 
+Theories of Consciousness 
+1064 
+Rui Dai, Hyunwoo Jang, Anthony G. Hudetz, Zirui Huang, George A. Mashour  
+1065 
+ 
+1066 
+ 
+1067 
+ 
+1068 
+Figure S1. Between-Network Functional Connectivity Across States of Consciousness. Violin 
+1069 
+plots show between-network functional connectivity (FC; Fisher z-transformed Pearson’s r) for 
+1070 
+psychedelic states (LSD, KTM, N2O), sleep stages (N1, N2), and propofol-induced sedation at 
+1071 
+varying effect-site concentrations. Significant differences from baseline are marked by asterisks (*, 
+1072 
+FDR-corrected p < 0.05). LSD: lysergic acid diethylamide, KTM: ketamine, N2O: nitrous oxide, 
+1073 
+Sleep N1/N2: non-REM sleep stage 1/ stage 2, PPF 1.0: propofol 1.0 μg/ml, PPF 1.9: propofol 1.9 
+1074 
+μg/ml, PPF 2.4: propofol 2.4 μg/ml, PPF 2.7: propofol 2.7 μg/ml. 
+1075 
+ 
+ 
+1076 
+.
+CC-BY-NC-ND 4.0 International license
+available under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted October 23, 2024. 
+; 
+https://doi.org/10.1101/2024.10.23.619731
+doi: 
+bioRxiv preprint 
+
+45 
+ 
+ 
+1077 
+Figure S2. Regional Homogeneity (ReHo) Across States of Consciousness. Violin plots depict 
+1078 
+ReHo values (Kendall’s W) for psychedelic states (LSD, KTM, N2O), sleep stages (N1, N2), and 
+1079 
+propofol-induced sedation at varying effect-site concentrations. Significant differences from 
+1080 
+baseline are marked by asterisks (*, FDR-corrected p < 0.05), and significant differences before 
+1081 
+FDR correction are indicated by a hash (#, uncorrected p < 0.05). LSD: lysergic acid diethylamide, 
+1082 
+KTM: ketamine, N2O: nitrous oxide, Sleep N1/N2: non-REM sleep stage 1/ stage 2, PPF 1.0: 
+1083 
+propofol 1.0 μg/ml, PPF 1.9: propofol 1.9 μg/ml, PPF 2.4: propofol 2.4 μg/ml, PPF 2.7: propofol 
+1084 
+2.7 μg/ml. 
+1085 
+ 
+ 
+1086 
+.
+CC-BY-NC-ND 4.0 International license
+available under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted October 23, 2024. 
+; 
+https://doi.org/10.1101/2024.10.23.619731
+doi: 
+bioRxiv preprint 
+
+46 
+ 
+ 
+1087 
+Figure S3. Functional Connectivity Within and Between Anterior and Posterior Regions in 
+1088 
+Different States of Consciousness. Functional connectivity was assessed within anterior regions 
+1089 
+(A-A), within posterior regions (P-P), and between anterior and posterior regions (A-P). Violin 
+1090 
+plots show functional connectivity (Fisher z-transformed Pearson’s r) for psychedelic states (LSD, 
+1091 
+KTM, N2O), sleep stages (N1, N2), and propofol-induced sedation at varying effect-site 
+1092 
+concentrations. Significant differences from baseline are marked by asterisks (*, FDR-corrected p 
+1093 
+< 0.05; #, uncorrected p < 0.05). LSD: lysergic acid diethylamide, KTM: ketamine, N2O: nitrous 
+1094 
+oxide, Sleep N1/N2: non-REM sleep stage 1/ stage 2, PPF 1.0: propofol 1.0 μg/ml, PPF 1.9: 
+1095 
+propofol 1.9 μg/ml, PPF 2.4: propofol 2.4 μg/ml, PPF 2.7: propofol 2.7 μg/ml. 
+1096 
+ 
+1097 
+.
+CC-BY-NC-ND 4.0 International license
+available under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted October 23, 2024. 
+; 
+https://doi.org/10.1101/2024.10.23.619731
+doi: 
+bioRxiv preprint 
+
+47 
+ 
+ 
+1098 
+.
+CC-BY-NC-ND 4.0 International license
+available under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted October 23, 2024. 
+; 
+https://doi.org/10.1101/2024.10.23.619731
+doi: 
+bioRxiv preprint 
+
+48 
+ 
+Figure S4. Functional Connectivity Within and Between Anterior/Posterior and 
+1099 
+Transmodal/Unimodal Regions in Different States of Consciousness. Functional connectivity 
+1100 
+was assessed between and within anterior transmodal (AT), anterior unimodal (AU), posterior 
+1101 
+transmodal (PT), and posterior unimodal (PU) regions. Violin plots show functional connectivity 
+1102 
+(Fisher z-transformed Pearson’s r) for psychedelic states (LSD, KTM, N2O), sleep stages (N1, N2), 
+1103 
+and propofol-induced sedation at varying effect-site concentrations. Significant differences from 
+1104 
+baseline are marked by asterisks (*, FDR-corrected p < 0.05; #, uncorrected p < 0.05). LSD: 
+1105 
+lysergic acid diethylamide, KTM: ketamine, N2O: nitrous oxide, Sleep N1/N2: non-REM sleep 
+1106 
+stage 1/ stage 2, PPF 1.0: propofol 1.0 μg/ml, PPF 1.9: propofol 1.9 μg/ml, PPF 2.4: propofol 2.4 
+1107 
+μg/ml, PPF 2.7: propofol 2.7 μg/ml. 
+1108 
+ 
+ 
+1109 
+.
+CC-BY-NC-ND 4.0 International license
+available under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted October 23, 2024. 
+; 
+https://doi.org/10.1101/2024.10.23.619731
+doi: 
+bioRxiv preprint 
+
+49 
+ 
+ 
+1110 
+Figure S5. Global Efficiency Within and Between Anterior and Posterior Regions in Different 
+1111 
+States of Consciousness. Global efficiency was assessed within anterior regions (A-A), within 
+1112 
+posterior regions (P-P), and between anterior and posterior regions (A-P). Violin plots show 
+1113 
+functional connectivity (Fisher z-transformed Pearson’s r) for psychedelic states (LSD, KTM, N2O), 
+1114 
+sleep stages (N1, N2), and propofol-induced sedation at varying effect-site concentrations. 
+1115 
+Significant differences from baseline are marked by asterisks (*, FDR-corrected p < 0.05; #, 
+1116 
+uncorrected p < 0.05). LSD: lysergic acid diethylamide, KTM: ketamine, N2O: nitrous oxide, Sleep 
+1117 
+N1/N2: non-REM sleep stage 1/ stage 2, PPF 1.0: propofol 1.0 μg/ml, PPF 1.9: propofol 1.9 μg/ml, 
+1118 
+PPF 2.4: propofol 2.4 μg/ml, PPF 2.7: propofol 2.7 μg/ml. 
+1119 
+ 
+ 
+1120 
+.
+CC-BY-NC-ND 4.0 International license
+available under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted October 23, 2024. 
+; 
+https://doi.org/10.1101/2024.10.23.619731
+doi: 
+bioRxiv preprint 
+
+50 
+ 
+ 
+1121 
+.
+CC-BY-NC-ND 4.0 International license
+available under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted October 23, 2024. 
+; 
+https://doi.org/10.1101/2024.10.23.619731
+doi: 
+bioRxiv preprint 
+
+51 
+ 
+Figure 
+S6. 
+Global 
+Efficiency 
+Within 
+and 
+Between 
+Anterior/Posterior 
+and 
+1122 
+Transmodal/Unimodal Regions Across States of Consciousness. Global efficiency was assessed 
+1123 
+between and within anterior transmodal (AT), anterior unimodal (AU), posterior transmodal (PT), 
+1124 
+and posterior unimodal (PU) regions. Violin plots show functional connectivity (Fisher z-
+1125 
+transformed Pearson’s r) for psychedelic states (LSD, KTM, N2O), sleep stages (N1, N2), and 
+1126 
+propofol-induced sedation at varying effect-site concentrations. Significant differences from 
+1127 
+baseline are marked by asterisks (*, FDR-corrected p < 0.05; #, uncorrected p < 0.05). LSD: 
+1128 
+lysergic acid diethylamide, KTM: ketamine, N2O: nitrous oxide, Sleep N1/N2: non-REM sleep 
+1129 
+stage 1/ stage 2, PPF 1.0: propofol 1.0 μg/ml, PPF 1.9: propofol 1.9 μg/ml, PPF 2.4: propofol 2.4 
+1130 
+μg/ml, PPF 2.7: propofol 2.7 μg/ml. 
+1131 
+ 
+1132 
+.
+CC-BY-NC-ND 4.0 International license
+available under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprint
+this version posted October 23, 2024. 
+; 
+https://doi.org/10.1101/2024.10.23.619731
+doi: 
+bioRxiv preprint 

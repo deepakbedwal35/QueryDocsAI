@@ -1,0 +1,689 @@
+OPINION ARTICLE
+published: 20 December 2013
+doi: 10.3389/fpsyg.2013.00930
+Multiple sources of conscious odor integration and
+propagation in olfactory cortex
+Bernard J. Baars*
+Theoretical Neurobiology, The Neurosciences Institute, La Jolla, CA, USA
+*Correspondence: bernard.baars@mbscience.org
+Edited by:
+Andreas Keller, Rockefeller University, USA
+Reviewed by:
+John Smythies, University of California San Diego, USA
+Leslie M. Kay, The University of Chicago, USA
+Keywords: consciousness, olfaction, global workspace, theoretical neuroscience
+INTRODUCTION
+How do airborne plumes of molecules
+docking on olfactory receptors emerge as
+conscious odors in the brain? How are they
+interpreted in space, time, and biological
+meaning? And how do they lead to fast and
+adaptive decisions and actions?
+In general, conscious (reportable) per-
+ception supports neural adaptation to
+novelty, judgments of self-relevance, and
+voluntary
+decision-making.
+Conscious
+processes have a number of established
+properties that are markedly different
+from unconscious ones (Seth et al., 2005).
+A growing experimental literature has
+explored conscious perception with a wide
+array of recording techniques. Similarly,
+conscious olfaction “as such” can be stud-
+ied by comparing novel vs. habituated
+odors, attended vs. unattended ones, and
+rivaling olfactory percepts, comparable to
+visual rivalry (Stevenson and Mahmut,
+2013). State comparisons of odor pro-
+cessing during waking vs. sleep, general
+anesthesia, and impaired consciousness
+are also important.
+Neural activity underlying conscious
+percepts should follow the known psy-
+chophysical features of the stimulus. A spe-
+ciﬁc conscious odor should correspond to
+a speciﬁc trajectory in the olfactory per-
+ceptual space derived from psychophysi-
+cal stimulus matching and discrimination
+(e.g., Berglund et al., 1973; Koulakov et al.,
+2011).
+Global workspace theory (GWT) has
+been used as a framework for experimen-
+tal studies of conscious brain processes
+for more than two decades, leading to a
+family of related models and experimen-
+tal predictions. GWT begins by analyzing
+a reliable set of properties of conscious
+events (Baars, 1988, 2002). For example,
+while conscious perception shows lim-
+ited momentary capacity, it also supports
+access to non-conscious functions, like
+memory, executive control, and automatic
+skills (Baars and Franklin, 2003). By com-
+parison, unconscious stimuli do not afford
+such very widespread access to uncon-
+scious brain capacities.
+In general terms, a global workspace
+(GW) is a functional hub of bind-
+ing and propagation in a population of
+loosely coupled signaling elements, such
+as neurons (Izhikevich, 1999). A GW is
+commonly compared to the stage of a the-
+ater, or a playing ﬁeld in a large football
+arena, allowing many specialized knowl-
+edge sources to compete and cooperate to
+resolve focal problems. GW architectures
+are useful to resolve ambiguous and novel
+stimuli, such as words in natural language.
+Conscious percepts often result from a
+process of ambiguity reduction, and GW
+architectures have therefore been proposed
+as models of conscious perception. They
+are also consistent with highly interactive
+information ﬂow in the cortico-thalamic
+(C-T) system (Baars et al., 2013). Edelman
+et al. (2011) suggest that GW theory is
+consistent with Neural Darwinism and its
+many ramiﬁcations.
+GWT predicted widespread “broad-
+casting” of conscious events, a prediction
+that is now widely accepted. In a recent
+study of visual rivalry in the macaque,
+content-speciﬁc
+“global
+broadcasting”
+from temporal to lateral prefrontal cortex
+was observed for both oscillatory popula-
+tion signaling and multi-unit recordings
+(Panagiotaropoulos et al., 2012). Similarly,
+long-distance
+cortical
+phase-linking
+is
+associated with the waking state but not
+slow-wave sleep (see Baars et al., 2013 for
+a review). In general, conscious sensory
+input has been repeatedly found to evoke
+more widespread, high amplitude, and
+phase-linked oscillations in cortex.
+Baars et al. (2013) have proposed that
+neuronal source coalitions may emerge
+anywhere in cortex, becoming subjec-
+tively conscious and reportable when a
+convergent winner-take-all source coali-
+tion comes to a momentary equilibrium,
+able to drive many other regions. During
+the waking state the visual cortex shows
+reentrant signaling among more than 40
+visuotopical maps (Steriade, 2006). In
+vision the occipito-temporal cortex iden-
+tiﬁes the perceptual features that emerge
+in consciousness, from high-resolution
+visual details to lower-resolution object
+and event representation (IT and MTL).
+For the sight of a visual coffee cup
+or a ﬂower garden, input convergence
+is believed to occur at high levels of
+the visual hierarchy, including object
+perception in area IT and event percep-
+tion in MTL. However, a simple stimu-
+lus, like the sight of a single star on a
+dark night, might equilibrate early in the
+visual hierarchy, since areas V1 and LGN
+have the highest spatial resolution. This
+highly ﬂexible version of GWT in the C-
+T system has been called Dynamic GWT
+(dGWT).
+Thus, visual cortex may integrate visual
+gestalts and broadcast them to frontopari-
+etal, anterior temporal, and subcortical
+regions. In contrast, non-sensory “feelings
+of knowing” (FOKs), including expecta-
+tions and intentions, may arise and prop-
+agate from frontal and anterior-temporal
+regions to caudal sites (Cole et al., 2010;
+Baars et al., 2013).
+www.frontiersin.org
+December 2013 | Volume 4 | Article 930 | 1
+
+Baars
+Conscious source propagation olfactory cortex
+Direct brain recordings in human
+patients
+show
+widespread
+neocortical
+signaling
+by
+way
+of
+cross-frequency
+phase-linking among cortical arrays, espe-
+cially
+theta-gamma
+and
+alpha-gamma
+signaling. Single neurons have been shown
+to phase-adapt to dominant theta oscilla-
+tions, suggesting a mechanism by which
+individual neurons may be recruited by
+population oscillations. Such spatiotem-
+poral coding allows for an extremely rich
+signaling vocabulary, but speciﬁc cod-
+ing schemes are just beginning to be
+understood (see Baars et al., 2013 for a
+review).
+CONCEPTUAL FRAMEWORK
+Stimulus ambiguity is pervasive in the
+natural world. Even simple stimuli like
+a single point of light in a completely
+dark room are perceived to wander long
+subjective distances. Ambiguity resolution
+appears to be a basic feature of sensory
+systems. For animals the environment is
+full of unpredictable dangers and oppor-
+tunities, so that there may be a gen-
+eral evolutionary pressure for brains to
+resolve focal ambiguities as quickly as
+possible. Odorant molecules can also be
+highly ambiguous—they may be sparse,
+ﬂeeting, masked by other odorants or
+by attentional distraction, they are often
+physically degraded, or ambiguous in their
+biological implications. Conscious olfac-
+tion may therefore beneﬁt from the capac-
+ity of a GW architecture to concentrate
+multiple knowledge sources on resolving
+focal uncertainties.
+dGWT suggests that each functional
+cortical hub passes through two phases,
+a convergence phase combining many cor-
+tical sources into single gestalts, and a
+broadcasting phase, in which the gestalt
+ignites a broadcast of about 100–200 ms,
+driving widespread adaptation in existing
+networks. To account for the great range
+of conscious contents over time, the theory
+suggests an open set of source coalitions,
+which may broadcast via theta/gamma
+or alpha/gamma coupling, like AM radio
+channels competing for a limited band of
+carrying frequencies (Hoppensteadt and
+Izhikevich, 1998).
+In mammals the C-T core is believed
+to underlie conscious aspects of percep-
+tion, thinking, learning, FOKs, felt emo-
+tions, visual imagery, working memory,
+and executive control. The hippocampus
+and rhinal cortex show similar proper-
+ties, evolving from pre-mammalian roots.
+It seems therefore that 3-6-layered cortex
+may generally support conscious percep-
+tion (Butler, 2008)1.
+Because C-T neurons are linked bidi-
+rectionally, the system can act as a “unitary
+oscillatory machine” (Steriade, 2006). The
+question “which area comes ﬁrst?” may
+therefore change dynamically, depend-
+ing on the balance of expectation-driven
+vs. stimulus-driven information. Stimulus
+detection may also change with payoffs:
+predator odors may have a lower detec-
+tion threshold than food odors, because
+the cost of being wrong about predators
+is higher than the cost of missing food.
+However, in drought conditions animals
+may risk greater nearness to predators in
+order to drink from shared water holes.
+dGWT allows such context-sensitive fac-
+tors to shape emergent activity in cortex.
+MULTIPLE NEURAL SOURCES
+CONVERGE TO DEFINE PERCEIVED
+ODORS
+This paper is focused on conscious odor
+perception, odor interpretation and odor-
+guided action control. Since exploratory
+snifﬁng is crucial for odor identiﬁca-
+tion, olfaction is directly tied to behav-
+ior, including breathing, touching, active
+tasting, vomeronasal “yawning,” reaching,
+oral grasping, behavioral stimulus track-
+ing, and the like.
+Many olfactory stimuli are reportable
+“as conscious” with great accuracy by
+humans, and meet demanding match-to-
+sample criteria in other animals. Other
+odorants are processed unconsciously,
+without direct reportability. The brain dif-
+ferences between conscious and uncon-
+scious olfaction are not well understood.
+Neuroanatomists traditionally empha-
+sized the differences between six-layered
+neocortex
+and
+ancestral
+3–5
+layered
+cortex.
+Hippocampus
+is
+three-layered
+cortex, but it is often treated as a
+non-cortical
+tissue.
+The
+entire
+cor-
+tical
+sheet,
+including
+hippocampus
+and paleocortex, may ﬂexibly support
+1Crick and Koch (2005) have suggested that cortico-
+claustral circuits may be involved in consciousness,
+given the widespread input and output connections
+of the claustrum. However, the exact role of the claus-
+trum is still unclear (Smythies et al., 2012).
+the integration and broadcasting of source
+coalitions (Baars et al., 2013). For exam-
+ple, olfactory regions project forward to
+the orbitofrontal cortex. Kay and Sherman
+(2007) propose that the olfactory bulb may
+act as an analog of the sensory thalamus. In
+spite of different gross anatomy, conscious
+olfaction be similar to conscious vision.
+Freeman (2005) has proposed that
+the microanatomy of dendro-dendritic
+neuropil provides the basis for such
+widespread
+interactivity.
+Others
+have
+focused on the vertical axonal connections
+of the C-T system (Steriade, 2006). These
+views are not incompatible, so that corti-
+cal signaling may combine both horizontal
+and vertical signal propagation. Both old
+and new phylogenetic cortex supports this
+kind of signaling.
+There is debate about the earliest olfac-
+tory region where odors are identiﬁed as
+conscious gestalts. Freeman and colleagues
+suggest that the olfactory bulb analyzes
+stimuli by destabilizing a pre-existing
+equilibrium, resulting in a distinctive,
+high-dimensional
+attractor
+landscape
+incorporating both old and new stimu-
+lus parameters. Once the olfactory bulb
+adapts to the new stimulus, a novel attrac-
+tor equilibrium propagates as a rapid
+phase-change in each hemisphere (Kay
+et al., 1996).
+Other approaches point to the poste-
+rior piriform and even orbitofrontal cor-
+tex for the identiﬁcation of conscious
+odors (Gottfried, 2010). Nearby regions
+are reported to serve multimodal and
+spatial contextual integration of olfactory
+stimuli.
+From a dGWT perspective, olfactory
+percepts may come to an equilibrium
+in different regions of cortex, depend-
+ing on the precise “source coalition” of
+active cortical arrays. “Raw” olfactory
+sensations might arise in the posterior
+piriform region and spread forward to
+related regions of cortex. However, “feel-
+ings of knowing” about a predictable
+odor may arise frontally and spread cau-
+dally. The peak cortical locus of olfac-
+tory percepts may therefore change with
+expectations, receptor input, the distal
+spatial and temporal context, selective
+attention, biological and personal signif-
+icance, and the current task. In rats, the
+rate of snifﬁng (1–12 Hz) also drives theta
+oscillations, while beta oscillations are
+Frontiers in Psychology | Consciousness Research
+December 2013 | Volume 4 | Article 930 | 2
+
+Baars
+Conscious source propagation olfactory cortex
+reported to encode odor quality (Kay et al.,
+2009).
+AFTER GESTALT FORMATION:
+CENTRIFUGAL BROADCASTING
+Global workspace theory suggests both
+converging source integration and diverg-
+ing gestalt broadcasting. The best-known
+example of global propagation in this
+region is the hippocampal-neocortical dia-
+log, which supports accurate coding of
+conscious events in episodic memory
+(Ferkin et al., 2008). The hippocampal
+complex also seems to support conscious
+event organization (Baars et al., 2013; Lee
+and Park, 2013).
+Olfactory
+stimuli
+have
+remarkably
+widespread effects in the brain, including
+the limbic system, hypothalamus, amyg-
+dala, reward pathway, orbitofrontal, and
+insular cortex (Savic, 2005). One exam-
+ple of long-distance brain signaling may
+be Kay and Freeman’s (1998) reported
+widespread
+cortical
+gamma
+coherence
+in the rat. According to these authors,
+coherent oscillatory “wave packets” may
+broadcast odor gestalts to other regions,
+using theta-to-beta phase-linked oscil-
+lations. In mammals, prefrontal regions
+support voluntary decisions evoked by
+conscious stimuli. The ability to report
+a conscious stimulus, and to perform
+match-to-sample tasks, plausibly requires
+prefrontal cortex (Asplund et al., 2010).
+Olfaction is sometimes thought to
+be “primitive,” but it is actually highly
+sophisticated. In nature, odors must be
+identiﬁed, interpreted, and acted on, to
+determine how long ago a tree was scent-
+marked, and whether the marking animal
+was a predator or a potential mate. The
+ancestral smell brain has been proposed
+to be an autonomous olfactory-motor sys-
+tem, since odors trigger rapid, adaptive
+behavior, as in detecting and running from
+the smell of a predator. Many factors,
+like wind direction, ambient temperatures,
+mating readiness, health and immune sta-
+tus, inferred age of the stimulus, con-
+centration gradients, and the nature of
+the scent-marked surface must be inter-
+preted accurately. Intervening rain or snow
+changes the composition of odor mix-
+tures, which must still be identiﬁed cor-
+rectly. Accurate olfaction and taste are also
+vital for food sampling and toxin avoid-
+ance, digestion, elimination, reproduction
+and sexual behavior, immunity, biological
+cycles, the health/illness dimension and its
+emotions, and the vagus-insula interocep-
+tive system.
+CONCLUSION
+Conscious
+perception
+emerges
+from
+a
+complex,
+highly interactive
+process
+of resolving ambiguous and context-
+dependent stimuli. Baars et al. (2013)
+propose that sensory cortex gives rise to
+neuronal source coalitions that emerge
+into reportable consciousness when they
+drive many other cortical regions. By con-
+trast, non-sensory cortex may give rise to
+FOKs, such as the “tip of the tongue” expe-
+rience. Animals following an odorant trail
+often show a kind of expectant “tip of the
+nose” pose, tasting the air, and the ground
+for more information about a suspected
+odor source.
+Because odorants may be ﬂeeting,
+sparse, intermittent, masked, physically
+degraded, or ambiguous, conscious odor
+perception may also beneﬁt from the inter-
+activity of a GW capacity. In mammals
+both the new and old cortex support such
+interactivity.
+The GW framework has been used to
+study conscious vision and audition. It
+may also help to clarify a world of con-
+scious odors.
+ACKNOWLEDGMENTS
+I am grateful to Gerald M. Edelman,
+Joseph Gally, Walter J. Freeman and
+Frontiers reviewers and the Special Issue
+editor for helpful suggestions.
+REFERENCES
+Asplund, C. L., Todd, J. J., Snyder. A. P., and Marois,
+R. (2010). A central role for the lateral prefrontal
+cortex in goal-directed and stimulus-driven atten-
+tion. Nat. Neurosci. 13, 507–512. doi: 10.1038/nn.
+2509
+Baars,
+B.
+J.
+(1988).
+A
+Cognitive
+Theory
+of
+Consciousness.
+New
+York,
+NY:
+Cambridge
+University Press.
+Baars, B. J. (2002). The conscious access hypothesis:
+origins and recent evidence. Trends Cogn. Sci. 6,
+47–50. doi: 10.1016/S1364-6613(00)01819-2
+Baars,
+B.
+J.,
+and
+Franklin,
+S.
+(2003).
+How
+consciousness
+and
+working
+memory
+inter-
+act.
+Trends
+Cogn.
+Sci.
+7,
+166–172.
+doi:
+10.1016/S1364-6613(03)00056-1
+Baars, B. J., Franklin, S., and Ramsoy, T. Z. (2013).
+Global workspace dynamics: cortical “binding and
+propagation” enables conscious contents. Front.
+Psychol. 4:200. doi: 10.3389/fpsyg.2013.00200
+Berglund,
+B.,
+Berglund,
+U.,
+Engen,
+T.,
+and
+Ekman,
+G.
+(1973).
+Multidimensional
+anal-
+ysis of twenty-one odors. Scand. J. Psychol.
+14,
+131–137.
+doi:
+10.1111/j.1467-9450.1973.
+tb00104.x
+Butler, A. B. (2008). Evolution of brains, cognition,
+and consciousness. Brain Res. Bull. 75, 442–449.
+doi: 10.1016/j.brainresbull.2007.10.017
+Cole, M. W., Pathak, S., and Schneider, W. (2010).
+Identifying
+the
+brain’s
+most
+globally
+con-
+nected regions. Neuroimage 49, 3132–3148. doi:
+10.1016/j.neuroimage.2009.11.001
+Crick, F. C., and Koch, C. (2005). What is the func-
+tion of the claustrum? Philos. Trans. R. Soc. Lond.
+B Biol. Sci. 360, 1271–1279. doi: 10.1098/rstb.2005.
+1661
+Edelman, G. M., Gally, J. A., and Baars, B. J. (2011).
+Biology of consciousness. Front. Psychol. 2:4. doi:
+10.3389/fpsyg.2011.00004
+Ferkin, M. H., Combs, A., delBarco-Trillo, J., Pierce,
+A. A., and Franklin, S. (2008). Meadow voles dis-
+play a capacity for what, where, and when. Anim.
+Cogn. 11, 147–159. doi: 10.1007/s10071-007-
+0101-8
+Freeman, W. J. (2005). Neural dynamics, vol-
+ume transmission, and self-organization in brain
+dynamics. J. Integr. Neurosci. 4, 407–421. doi:
+10.1142/S0219635205000963
+Gottfried, J. A. (2010). Central mechanisms of odour
+object perception. Nat. Rev. Neurosci. 11, 628–641.
+doi: 10.1038/nrn2883
+Hoppensteadt,
+F.
+C.,
+and
+Izhikevich,
+E.
+M.
+(1998).
+Thalamo-cortical
+interactions
+mod-
+eled
+by
+weakly
+connected
+oscillators:
+could
+the brain use FM radio principles? Biosystems
+48,
+85–94.
+doi:
+10.1016/S0303-2647(98)
+00053-7
+Izhikevich, E. M. (1999). Weakly pulse-coupled
+oscillators, FM interactions, synchronization, and
+oscillatory associative memory. IEEE Trans. Neural
+Netw. 10, 508–526. doi: 10.1109/72.761708
+Kay,
+L.
+M.,
+Beshel,
+J.,
+Brea,
+J.,
+Martin,
+C.,
+Rojas-Líbano,
+D.,
+and
+Kopell,
+N.
+(2009).
+Olfactory
+oscillations:
+the
+what,
+how
+and
+what for. Trends Neurosci. 32, 207–214. doi:
+10.1016/j.tins.2008.11.008
+Kay, L. M., and Freeman, W. J. (1998). Bidirectional
+processing in the olfactory-limbic axis during
+olfactory behavior. Behav. Neurosci. 112, 541–553.
+doi: 10.1037/0735-7044.112.3.541
+Kay, L. M., Lancaster, L. R., and Freeman, W. J.
+(1996). Reafference and attractors in the olfac-
+tory system during odor recognition. Int. J.
+Neural Syst. 7, 489–495. doi: 10.1142/S0129065796
+000476
+Kay, L. M., and Sherman, S. M. (2007). Argument for
+an olfactory thalamus. Trends Neurosci. 30, 47–53.
+doi: 10.1016/j.tins.2006.11.007
+Koulakov, A. A., Kolterman, B. E., Enikolopov, A. G.,
+and Rinberg, D. (2011). In search of the structure
+of human olfactory space. Front. Syst. Neurosci.
+5:65. doi: 10.3389/fnsys.2011.00065
+Lee, I., and Park, S. B. (2013). Perirhinal cortical inac-
+tivation impairs object-in-place memory and dis-
+rupts task-dependent ﬁring in hippocampal CA1,
+but not in CA3. Front. Neural Circuits 7:134. doi:
+10.3389/fncir.2013.00134
+Panagiotaropoulos, T. I., Deco, G., Kapoor, V., and
+Logothetis, N. K. (2012). Neuronal discharges
+www.frontiersin.org
+December 2013 | Volume 4 | Article 930 | 3
+
+Baars
+Conscious source propagation olfactory cortex
+and gamma oscillations explicitly reﬂect visual
+consciousness in the lateral prefrontal cortex.
+Neuron 74, 924–935. doi: 10.1016/j.neuron.2012.
+04.013
+Savic, I. (2005). Brain imaging studies of the func-
+tional organization of human olfaction. Chem.
+Senses
+30,
+i222–i223.
+doi:
+10.1093/chemse/
+bjh194
+Seth, A. K., Baars, B. J., and Edelman, D. B. (2005).
+Criteria for consciousness in humans and other
+mammals. Conscious. Cogn. 14, 119–139. doi:
+10.1016/j.concog.2004.08.006
+Smythies, J., Edelstein, L., and Ramachandran, V.
+(2012). Hypotheses relating to the function of
+the claustrum. Front. Integr. Neurosci. 6:53. doi:
+10.3389/fnint.2012.00053
+Steriade, M. (2006). Grouping of brain rhythms
+in corticothalamic systems. Neuroscience 137,
+1087–1106.
+doi:
+10.1016/j.neuroscience.2005.
+10.029
+Stevenson, R. J., and Mahmut, M. K. (2013).
+Detecting
+olfactory
+rivalry.
+Conscious.
+Cogn.
+22,
+504–516.
+doi:
+10.1016/j.concog.2013.
+02.009
+Received: 27 September 2013; accepted: 25 November
+2013; published online: 20 December 2013.
+Citation: Baars BJ (2013) Multiple sources of conscious
+odor integration and propagation in olfactory cortex.
+Front. Psychol. 4:930. doi: 10.3389/fpsyg.2013.00930
+This article was submitted to Consciousness Research, a
+section of the journal Frontiers in Psychology.
+Copyright © 2013 Baars. This is an open-access article
+distributed under the terms of the Creative Commons
+Attribution License (CC BY). The use, distribution or
+reproduction in other forums is permitted, provided the
+original author(s) or licensor are credited and that the
+original publication in this journal is cited, in accor-
+dance with accepted academic practice. No use, distribu-
+tion or reproduction is permitted which does not comply
+with these terms.
+Frontiers in Psychology | Consciousness Research
+December 2013 | Volume 4 | Article 930 | 4

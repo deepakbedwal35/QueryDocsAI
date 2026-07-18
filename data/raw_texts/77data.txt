@@ -1,0 +1,183 @@
+GOOD PRACTICES IN TEACHING COGNITIVE NEUROSCIENCE  
+TO BIOLOGY STUDENTS IN HIGHER EDUCATION 
+Eleftheria Katsarou1, Angeliki Boulala2, Petros Karampet1,  
+& Lefkothea-Vasiliki Andreou2  
+1Independent author 
+2Department of Biological Applications and Technology, University of Ioannina (Greece)  
+Abstract 
+Cognitive Neuroscience refers to the scientific study of the mind and the brain, mainly by means of 
+neuroimaging techniques and psychophysics. This field is considered rather complex, often posing 
+learning challenges for students, especially in terms of the terminology and technical jargon used, as well 
+as due to its interdisciplinary, STEM (science, technology, engineering, and mathematics) nature. To 
+address this issue, an active learning approach was implemented. The present report describes a repertoire 
+of targeted educational activities, developed in the context of a Cognitive Neuroscience course at a 
+Biology Department in Higher Education. To approach consciousness, the theatre analogy for the Global 
+Workspace Theory, developed by Bernard Baars, was used. This refers to a parallelism between elements 
+of a theatrical production and consciousness. To this end, students attended a theatre performance and 
+subsequently physically engaged in a series of onstage exercises. Next, a Science Spring Picnic was held 
+to foster an informal dialogue on newly established knowledge, in a relaxed environment over food, 
+beverages and kite flying. Finally, outreach activities were organized in the form of an art & science 
+communication exhibition on visual illusions, at a major Science festival. Student feedback, by means of 
+anonymous questionnaires, clearly denoted that the activities promoted motivation for learning, learning, 
+and engagement beyond the classroom.  
+Keywords: Cognitive Neuroscience, good practices in education, higher education, active learning, 
+science communication.  
+1. Introduction
+How is a mechanical or chemical signal transformed into higher cognitive functions? To unravel 
+this enigma, the field of Cognitive Neuroscience studies the mind and the brain, via advanced 
+neuroimaging techniques and psychophysics (Poeppel, Mangun, Gazzaniga, & Bassett, 2020; Vallet, van 
+Wassenhove, 2023). This domain stands in the intersection of STEM: Science, Technology, Engineering 
+and Mathematics (Basu, Mondoux, Whitt, Isaacs, & Narita, 2017). This fact, alongside niche terminology 
+and methodology, present significant hurdles to students (Baars & Gage, 2010).  To tackle this issue, 
+innovative teaching approaches may be implemented, namely active learning (Santosh, & Nakarmi, 
+2023). Active learning is an experiential educational practice so to increase student engagement (Zepke 
+& Leach, 2010). The aim is to mitigate the academic burden through participation in -outside the 
+classroom- course activities. The purpose of this report is to present good educational practices, that took 
+place in the context of a Cognitive Neuroscience University course, offered to Biology students.  
+2. Methodology
+2.1. The Theatre Analogy 
+To treat consciousness as an observable variable (Baars, 2017), students participated in a 
+theatrical workshop (Figure 1.a). For this purpose, Bernard Baars’ Theatre Analogy of the Global 
+Workspace theory was used, i.e., a metaphorical framework that compares parts of a theatre and the 
+conscious and unconscious contents that form the brain’s mental processes (Baars, 2017). According to 
+this analogy, the theatre stage corresponds to the working memory, whilst the spotlight on the stage 
+represents voluntary attention. The content of consciousness is limited to the materials on the stage; the 
+rest of the theatre represents unconscious knowledge and processes. Students first attended a theatrical 
+https://doi.org/10.36315/2024v1end062
+Education and New Developments 2024
+269
+
+performance, and then found themselves on stage and under the spotlight. Through a series of physical 
+theatre exercises, students worked on drawing several parallels to the concept of consciousness through a 
+functional framework of human cognition. By forming emotional responses to external stimuli, they 
+recreated the bottom-up attentional capture and they progressed to focus on top-down voluntary attention; 
+ultimately, selectively directing their attention. 
+ 
+2.2. Science spring picnic 
+This extra credit course activity is a Journal Club with a twist, inspired by a previously published 
+project, namely Science Tea Party (Andreou, Aletra, Athanasopoulou & Psarropoulou, 2018).  
+A neuroscience curation of topics from the Nautilus Journal (http://nautil.us/) was made available to the 
+students, so to choose their paper between the following options: 1. How Your Brain Fills in the Blanks 
+with Experience; 2. Neuroscience has a Race Problem; 3. I Feel, Therefore I Am; 4. Why your Brain’s 
+Sense of Time is so Elastic; 5. Unlocking Mom’s Brain; 6. Our Mind-Boggling Sense of Smell; 7. How 
+We Remember Last Weekend; 8. The Brain Uses Calculus to Control Fast Movements; 9. Get Lost in 
+Parking Lots -You Might Have Developmental Topographic Disorientation; 10. Are We Wired to Be 
+Outside?. For presentation guidelines see Andreou et al. (2018). Students gave 5-minute talks, over food, 
+beverages and kite flying, followed by plenary discussion (Figure 1.b). They were instructed to drill down 
+to the most fundamental aspects of the publication and to interact with the audience. The premise of the 
+activity was to boost science communication skills, outdoors, in a lax atmosphere. This way, a safe 
+learning space was established, that nurtured informal conversations, on neuroscience and its implications 
+on current culture and vice versa.   
+ 
+2.3. Science festival 
+An interdisciplinary student team was built and achieved their participation to a prominent  
+three-day Science festival. There, they presented an art & science communication exhibition, entitled 
+"Illusory vision: the human brain & illusions". This was essentially a STEM group, in which female 
+representation was encouraged. The Cognitive Neuroscience course students held a science and science 
+communication role. The topic of the exhibition involved the concept of error. “Cognitive Neuroscience 
+informs us that error is an integral part of the learning process; our brain, by default, is wired up to make 
+mistakes. A visual illusion begins where our senses fail. The false perception of reality, that the brain 
+constructs, reveals to us the mechanism by which it operates. So, by learning from our "mistakes", we 
+draw useful conclusions about the meaning of error in science and society; since in science we rely on 
+experimentation to explore the unknown, while in education we often risk making mistakes in order to 
+learn” (Andreou, 2023).  The art exhibition negotiated these ideas in an open discussion with audiences of 
+all ages. Alongside optical art printouts, graphic designs, and everyday objects, it mainly included 
+exhibits created through 3D (three-dimensional) printing (Figure 1.c); that is, it employed art  
+& technology for neuroscience communication of the study of the human brain. Henceforth, in this 
+activity, students communicated complex neuroscience ideas to a diverse audience of 15.000 visitors, 
+including 30 schools. 
+ 
+Figure 1. Student engagement in Cognitive Neuroscience educational practises (a) The Theatre Analogy (b) Science 
+Spring Picnic (c) Science Festival. 
+ 
+ 
+ 
+3. Results & discussion 
+ 
+Students were requested to reflect on the aforementioned educational practices via optional, 
+anonymously provided, open-ended comments. The student feedback was unanimously positive; 
+indicatively one student remarked, “Cognitive Neuroscience is one of the most interesting courses of the 
+semester. The professor implemented various outreach activities to establish knowledge. During the 
+p-ISSN: 2184-044X  e-ISSN: 2184-1489  ISBN: 978-989-35106-9-8 © 2024
+270
+
+Science Picnic, we had the opportunity to present science articles and further understand the concepts, 
+through a fun, outdoor activity!”. The comments provide a significant insight to students’ perspective and 
+merit further qualitative and quantitative investigation. 
+The vast majority of the comments provided affirmation with regards to the mitigation of 
+academic burden, student engagement and subject-matter learning; and are in line with studies employing 
+active learning strategies (Freeman et al., 2014). Students had the opportunity to elaborate on the science 
+involved, in controlled, safe settings. They promoted their collaboration, public speaking, and science 
+communication skills, while maintaining and sharing their enthusiasm and curiosity with their peers, their 
+instructor and the general public. The incorporation of multidisciplinary practices, as the theatre analogy, 
+the science spring picnic, and the participation to a science festival, underlines the multidisciplinary 
+nature of the Cognitive Neuroscience field. Novelty and creativity enhanced motivation for learning, 
+knowledge acquisition and student engagement in and beyond the classroom. Thus, the active learning 
+activities reported here are deemed effective. 
+ 
+ 
+Acknowledgments  
+ 
+We would like to deeply express our gratitude to the “Circle” theatre for providing their facilities, Petros 
+Christakopoulos for physical theatre instruction, Dr. Alexandros Moutzouris for kite flying instruction, 
+the Athens Science Festival, for the dissemination of the exhibition. Special thanks to our ASF team and 
+our home institution, the University of Ioannina.  
+ 
+ 
+References 
+ 
+Andreou, 
+L.-V. 
+(2023). 
+Illusory 
+vision: 
+Illusions 
+& 
+brain. 
+Athens 
+Science 
+Festival.  
+https://www.athens-science-festival.gr/en/exhibitions/illusory-vision-hallucinations-brain/ 
+Andreou, L.-V., Aletra, V., Athanasopoulou, G., & Psarropoulou, C. (2018). Good practices in teaching 
+English for scientific purposes to biology students in Higher Education. INTED Proceedings. 
+https://doi.org/10.21125/inted.2018.1679 
+Baars, B. J. (2017). The global workspace theory of consciousness. In The Blackwell Companion to 
+Consciousness (pp. 227-242). John Wiley & Sons Ltd. 
+Baars, B. J., & Gage, N. M. (2010). Cognition, brain, and consciousness: Introduction to cognitive 
+neuroscience. Academic Press. 
+Basu, A. C., Mondoux, M. A., Whitt, J. L., Isaacs, A. K., & Narita, T. (2017). An Integrative Approach to 
+STEM Concepts in an Introductory Neuroscience Course: Gains in Interdisciplinary Awareness. 
+Journal of undergraduate neuroscience education: JUNE: a publication of FUN, Faculty for 
+Undergraduate Neuroscience, 16(1), A102-A111. 
+Freeman, S., Eddy, S. L., McDonough, M., Smith, M. K., Okoroafor, N., Jordt, H., & Wenderoth, M. P. 
+(2014). Active learning increases student performance in science, engineering, and Mathematics. 
+Proceedings 
+of 
+the 
+National 
+Academy 
+of 
+Sciences, 
+111(23), 
+8410-8415. 
+https://doi.org/10.1073/pnas.1319030111 
+Poeppel, D., Mangun, G. R., Gazzaniga, M. S., & Bassett, D., S. (2020). The cognitive neurosciences. 
+The MIT Press. 
+Santosh, K., & Nakarmi, S. (2023). Active learning—review. SpringerBriefs in Applied Sciences and 
+Technology, 19-30. https://doi.org/10.1007/978-981-99-7442-9_3 
+Vallet, W., & van Wassenhove, V. (2023). Can cognitive neuroscience solve the lab-dilemma by going 
+wild? 
+Neuroscience 
+& 
+Biobehavioral 
+Reviews, 
+155, 
+105463. 
+https://doi.org/10.1016/j.neubiorev.2023.105463 
+Zepke, N., & Leach, L. (2010). Improving student engagement: Ten proposals for action. Active Learning 
+in Higher Education, 11(3), 167-177. https://doi.org/10.1177/1469787410379680 
+ 
+ 
+https://doi.org/10.36315/2024v1end062
+Education and New Developments 2024
+271

@@ -1,0 +1,2117 @@
+1 
+ 
+Disruption in structural-functional network repertoire and time-
+1 
+resolved subcortical-frontoparietal connectivity in disorders of 
+2 
+consciousness 
+3 
+Rajanikant Panda1,2, Aurore Thibaut1,2, Ane Lopez-Gonzalez3, Anira Escrichs3, Mohamed Ali 
+4 
+Bahri1,2, Arjan Hillebrand4, Gustavo Deco3, Steven Laureys1,2, Olivia Gosseries1,2, Jitka 
+5 
+Annen*1,2, Prejaas Tewarie*4,5 
+6 
+1 Coma Science Group, GIGA-Consciousness, University of Liege, Liege, Belgium 
+7 
+2 Centre du Cerveau2, University Hospital of Liege, Liege, Belgium 
+8 
+3 Computational Neuroscience Group, Center for Brain and Cognition, Universitat Pompeu 
+9 
+Fabra, Barcelona, Spain 
+10 
+4 Amsterdam UMC, Vrije Universiteit Amsterdam, Department of Clinical Neurophysiology 
+11 
+and MEG Center, Amsterdam Neuroscience, Amsterdam, The Netherlands 
+12 
+5 Sir Peter Mansfield Imaging Centre, School of Physics and Astronomy, University of 
+13 
+Nottingham, Nottingham, United Kingdom 
+14 
+  
+15 
+* Equal contribution 
+16 
+Page count: 23 
+17 
+Figures: 4 
+18 
+   
+19 
+ 
+20 
+ 
+21 
+ 
+22 
+Corresponding author: 
+23 
+Prejaas Tewarie, MD, PhD 
+24 
+Department of Clinical Neurophysiology and MEG Center 
+25 
+Amsterdam UMC, Vrije Universiteit Amsterdam, Amsterdam Neuroscience 
+26 
+Amsterdam 
+27 
+The Netherlands 
+28 
+Email: p.tewarie@amsterdamumc.nl 
+29 
+ 
+30 
+ 
+ 
+31 
+preprint (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this
+this version posted December 12, 2021. 
+; 
+https://doi.org/10.1101/2021.12.10.472068
+doi: 
+bioRxiv preprint 
+
+2 
+ 
+Abstract 
+32 
+Understanding recovery of consciousness and elucidating its underlying mechanism is 
+33 
+believed to be crucial in the field of basic neuroscience and medicine. Ideas such as the global 
+34 
+neuronal workspace and the mesocircuit theory hypothesize that failure of recovery in 
+35 
+conscious states coincide with loss of connectivity between subcortical and frontoparietal 
+36 
+areas, a loss of the repertoire of functional networks states and metastable brain activation. 
+37 
+We adopted a time-resolved functional connectivity framework to explore these ideas and 
+38 
+assessed the repertoire of functional network states as a potential marker of consciousness 
+39 
+and its potential ability to tell apart patients in the unresponsive wakefulness syndrome (UWS) 
+40 
+and minimally conscious state (MCS). In addition, prediction of these functional network states 
+41 
+by underlying hidden spatial patterns in the anatomical network, i.e. so-called eigenmodes, 
+42 
+were supplemented as potential markers. By analysing time-resolved functional connectivity 
+43 
+from fMRI data, we demonstrated a reduction of metastability and functional network repertoire 
+44 
+in UWS compared to MCS patients. This was expressed in terms of diminished dwell times 
+45 
+and loss of nonstationarity in the default mode network and fronto-parietal subcortical network 
+46 
+in UWS compared to MCS patients. We further demonstrated that these findings co-occurred 
+47 
+with a loss of dynamic interplay between structural eigenmodes and emerging time-resolved 
+48 
+functional connectivity in UWS. These results are, amongst others, in support of the global 
+49 
+neuronal workspace theory and the mesocircuit hypothesis, underpinning the role of time-
+50 
+resolved thalamo-cortical connections and metastability in the recovery of consciousness.
+51 
+ 
+  
+52 
+  
+53 
+ 
+54 
+  
+55 
+ 
+ 
+56 
+preprint (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this
+this version posted December 12, 2021. 
+; 
+https://doi.org/10.1101/2021.12.10.472068
+doi: 
+bioRxiv preprint 
+
+3 
+ 
+I. Introduction 
+57 
+Diagnosis of the level of consciousness after coma due to severe brain injury is a well-known 
+58 
+dilemma in the field of neurology and intensive care medicine. Coma after cardiac arrest or 
+59 
+after traumatic brain injury (TBI) may result in sustained altered states of consciousness. 
+60 
+These patients with disorders of consciousness (DOC), irrespective of the aetiology, can be 
+61 
+grouped into the unresponsive wakefulness syndrome (UWS) (1), characterized by the 
+62 
+presence of eye-opening and reflexive behaviours, and the minimally conscious state (MCS), 
+63 
+characterized by consistent but fluctuant wilful conscious behaviours, such as command 
+64 
+following or visual pursuit (2, 3). Recovery of consciousness is argued to emerge conjointly 
+65 
+with restoration of resting-state functional brain networks (4), which refers to patterns of 
+66 
+neuronal interactions inferred by indirect (e.g., functional magnetic resonance imaging - fMRI) 
+67 
+or direct (e.g., electro- and magneto-encephalography (EEG/MEG)) measurements. Analysis 
+68 
+of these resting-state networks could potentially help in the diagnosis of patients with DOC 
+69 
+and provide insight into the mechanisms that results in absence of recovery of consciousness 
+70 
+in UWS. 
+71 
+Various resting-state networks that play an important role in the recovery of consciousness 
+72 
+have been identified, among which the default mode network (DMN), fronto-parietal network 
+73 
+(FPN) and the salience network are the most important (5, 6). Recovery of the DMN in 
+74 
+combination with recovery of the auditory network could for instance discriminate between 
+75 
+MCS and UWS with a very high accuracy (~85%) (7). The mechanism of resting-state network 
+76 
+restoration in DOC is yet unknown, however, thalamic activity and especially thalamocortical 
+77 
+connectivity may be a driving force behind restorations of cortical network function that 
+78 
+sustains conscious states (8, 9). Previous work on resting-state networks in DOC have mainly 
+79 
+focused on the “static” picture of functional connectivity (4, 6, 10, 11), i.e., connections are 
+80 
+assessed over the entire duration of the (fMRI) recording and fluctuations in connectivity over 
+81 
+time are ignored. However, the underlying dynamics of connectivity seem relevant for 
+82 
+consciousness (12, 13) and a static description may therefore be inadequate to provide 
+83 
+mechanistic insight into failure of recovery of consciousness in DOC (14). 
+84 
+The analysis of dynamic or time-resolved functional connectivity, as well as the relationship 
+85 
+between the underlying anatomical connections and emergent time-resolved functional 
+86 
+connectivity (15, 16), may be clinically relevant in patients with DOC. Previous studies have 
+87 
+already explored the role of time-resolved functional connectivity in DOC (17–19). A recent 
+88 
+study demonstrated that network states with long distance connections occurred less 
+89 
+frequently over time in MCS compared to UWS patients (14), emphasizing disintegration of 
+90 
+interactions across the cortex in unconscious states. However, network states reminiscent of 
+91 
+the well-known resting-state networks were not retrieved. Cao and colleagues used two 
+92 
+methods to extract time-varying networks, i.e. independent component analysis and hidden 
+93 
+Markov modelling, and revealed clinically relevant differences in network state durations 
+94 
+between patients with DOC patients and healthy subjects (20), while lacking comparative 
+95 
+analysis between patients in MCS and in UWS. In another fMRI study, the authors focused on 
+96 
+the posterior cingulate area and the DMN using a spatiotemporal point process analysis and 
+97 
+demonstrated decreased occurrence of DMN-like patterns in UWS. Dynamic connectivity 
+98 
+analysis has recently also been applied to EEG data, revealing loss of network integration and 
+99 
+increased network segregation in DOC patients (21). Despite the importance of the previously 
+100 
+published work, the role of the well-known resting-state networks and especially thalamo-
+101 
+cortical functional connections (22) within the context of time-resolved connectivity and DOC 
+102 
+has so far not been fully explored, partly potentially due to the fact that previous work has 
+103 
+been mostly hypothesis driven rather than data driven.   
+104 
+Another important aspect in the context of the emergence or restoration of resting-state 
+105 
+networks is the underlying structural network, as anatomical connectivity patterns influence 
+106 
+the repertoire of possible functional network states (23). It is widely assumed that switching 
+107 
+preprint (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this
+this version posted December 12, 2021. 
+; 
+https://doi.org/10.1101/2021.12.10.472068
+doi: 
+bioRxiv preprint 
+
+4 
+ 
+between functional network states is achieved by so-called metastability in the brain (24), i.e., 
+108 
+winnerless competitive dynamics. A promising and robust approach to analyse the relationship 
+109 
+between structural and functional network states is the so-called eigenmode approach (25–
+110 
+27). With this approach, spatial harmonic components or eigenmodes are extracted from the 
+111 
+anatomical network. These eigenmodes can be considered as patterns of ‘hidden 
+112 
+connectivity’, which allow for prediction of the well-known resting-state networks (28). It can 
+113 
+be hypothesized that switching between functional network states, as can be observed in the 
+114 
+metastable brain, is accompanied by fluctuations in the expression of eigenmodes (29); 
+115 
+therefore, a potential loss of metastability in DOC could co-occur with loss of modulations in 
+116 
+eigenmode expression (12).  
+117 
+In this context, the aim of the current study was fourfold. First, we first tested whether loss of 
+118 
+metastability and resting-state network activity, derived from time-resolved estimates of 
+119 
+functional connectivity, could differentiate between MCS and UWS, with a potential extraction 
+120 
+of a spatiotemporal thalamocortical network state. Second, we analysed whether time-
+121 
+resolved connectivity could be explained by modulations in expression of eigenmodes in DOC, 
+122 
+and third, whether potential differences in eigenmode expression in DOC patients would co-
+123 
+occur with a loss of metastability. Finally, we used a classification procedure to evaluate 
+124 
+whether the collection of these network-based measures could predict patients’ diagnosis.  
+125 
+II. Results 
+126 
+We included 34 healthy control subjects (HC, 39 (mean) ± 14 years (standard deviation), 20 
+127 
+males), 30 MCS (41 ± 13 years, 21 males) and 14 UWS patients (48 ± 16 years, 7 males).  
+128 
+There was no difference in the age of patients with MCS and UWS (p > 0.05), gender (p > 
+129 
+0.05), time since injury (p > 0.05) and aetiology (p > 0.05). There was also no difference in 
+130 
+age (p > 0.05) and gender (p > 0.05) between HC and DOC patients. Further details about the 
+131 
+patient population is described in the methods and supplementary table 1.  
+132 
+Metastability and time-resolved functional connectivity in patients with DOC 
+133 
+Time-resolved or dynamic connectivity for all subjects was extracted from the phase 
+134 
+information of the data. We quantified a proxy measure for metastability defined as the 
+135 
+standard deviation of the overall phase behaviour over time (i.e. the Kuramoto order 
+136 
+parameter). This was followed by extraction of spatiotemporal patterns using non-negative 
+137 
+tensor factorisation (NNTF) from phase connectivity data, corresponding to resting-state 
+138 
+networks or network states (see Figure 1). Well-known resting-state networks as well as a 
+139 
+residual component were used as initial conditions for the spatial connectivity patterns for all 
+140 
+network states to allow for stable convergence of the algorithm (i.e. DMN, FPN, visual network, 
+141 
+sensorimotor network, salience network, subcortical network (30)). However, the NNTF 
+142 
+algorithm allowed the spatial patterns of these network states to change in order to maximize 
+143 
+the explained variance of the data. Temporal statistics from the network states were derived 
+144 
+for every network state in terms of excursions from the median (proxy for nonstationarity (31) 
+145 
+and state duration (i.e., dwell time).  
+146 
+A reduction of metastability was found in DOC patients compared to HCs (Figure 2A). Lower 
+147 
+metastability was observed in UWS patients in comparison to MCS patients (Figure 2A). 
+148 
+Reduced metastability is expected to occur with loss of switching between resting-state 
+149 
+networks and potentially with dwelling within a more limited subset of resting-state networks 
+150 
+in DOC. The output of the NNTF algorithm resulted in spatial topographies of some of the well-
+151 
+known resting-state networks, i.e., the default mode network (DMN), a separate posterior DMN 
+152 
+around the precuneus, the visual network, the salience network (SN), the fronto-parietal 
+153 
+network (FPN), and a network consisting of fronto-parietal and subcortical regions (FPN-sub) 
+154 
+(Figure 2 I-N). Note that these network states were not identical to the initial conditions, e.g. 
+155 
+the subcortical network that was provided as initial condition to NNTF was incorporated with 
+156 
+preprint (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this
+this version posted December 12, 2021. 
+; 
+https://doi.org/10.1101/2021.12.10.472068
+doi: 
+bioRxiv preprint 
+
+5 
+ 
+the frontoparietal network (Figure 2N) by the NNTF algorithm. At the same time, the 
+157 
+sensorimotor network that was provided as initial condition disappeared as state.  Excursions 
+158 
+from the median were lower for most networks (DMN, visual, Salience, Posterior DMN and 
+159 
+FPN-sub) in DOC compared to HC (Figure 2 C-F, H). Significant loss of nonstationarity was 
+160 
+also found in UWS compared to MCS for the DMN, FPN, FPN-sub (Figure 2 C,G,H). The 
+161 
+NNTF also yielded a residual state, with a lack of spatial structure, accounting for the variance 
+162 
+of connectivity data not explained by the resting-state networks. The residual component had 
+163 
+longer dwell times for the decreasing levels of consciousness (Figure 2B).  In addition, as in 
+164 
+line with the metastability results, there were lower dwell times in DOC patients for a specific 
+165 
+set of resting-state networks (Salience, Posterior DMN, FPN and FPN-sub), and dwell time 
+166 
+was shorter in UWS patients compared to MCS patients only in the FPN-sub network (see 
+167 
+results in Figure S1).  
+168 
+Relationship between structural eigenmodes and time-resolved functional connectivity in DOC 
+169 
+We next analysed how disruption in time-resolved functional connectivity in DOC was related 
+170 
+to the underlying structural network. In order to put our findings into context, we first analysed 
+171 
+the relationship between static functional networks and structural networks, using the Pearson 
+172 
+correlation between static functional connectivity and structural connectivity for the different 
+173 
+groups (Figure 3A). These results show that functional connectivity in DOC patients show 
+174 
+more correspondence with the underlying structural connectivity as compared to HCs, as the 
+175 
+relationship between structural and functional connectivity was stronger for decreasing levels 
+176 
+of consciousness (Figure 3A). 
+177 
+We next obtained the eigenmodes from the structural connectivity by extracting the 
+178 
+eigenvectors of the graph Laplacian. These eigenmodes can be regarded as distinct spatial 
+179 
+harmonics within the structural connectivity, where the first eigenmodes correspond to 
+180 
+patterns with low spatial frequency and subsequent eigenmodes contain patterns with 
+181 
+increasingly higher spatial frequencies. Given their spatial configuration, consecutive 
+182 
+eigenmodes can be associated with increasing levels of segregation while the first 
+183 
+eigenmodes can be linked with network integration. For every time point we predicted the 
+184 
+extent to which phase connectivity could be explained by a weighted combination of the 
+185 
+eigenmodes (27). Since phase connectivity can evolve over time, the weighting coefficients 
+186 
+for the eigenmodes can modulate as well, resulting in fluctuations in the strength of the 
+187 
+expressions of eigenmodes over time. For every eigenmode, we could then quantify the 
+188 
+modulation strength (i.e. how much the eigenmode-expression varied over time). In addition 
+189 
+to the weighting coefficients, we also obtain the goodness-of-fit for the predictions of time-
+190 
+resolved functional connectivity. 
+191 
+The goodness-of-fit for the eigenmode predictions is displayed in Figure 3B, where we show 
+192 
+the average correlation between eigenmode predicted FC and empirical FC for the three 
+193 
+groups. Results show better predictions for HC and MCS compared to predictions for static 
+194 
+FC (median and interquartile range of correlations HC static 0.18 ± 0.04, HC eigenmode 0.39 
+195 
+± 0.09, Z = -7.1, p < 0.001, MCS static 0.2 ± 0.05, MCS eigenmode 0.35 ± 0.18, Z = -4.8, p < 
+196 
+0.001). In order to test whether these eigenmode predictions of time-varying connectivity could 
+197 
+have been obtained by chance, we redid our analysis using surrogate BOLD data (see method 
+198 
+section “Analysis steps”). Results showed that eigenmode predictions for time-resolved 
+199 
+connectivity from surrogate data performed significantly worse compared to genuine empirical 
+200 
+data (for all comparisons with surrogate data p < 0.001; Figure 3B). We did not test whether 
+201 
+contribution of individual eigenmodes differed between groups as this would come with a 
+202 
+serious multiple comparisons problem.    
+203 
+Instead, since structural connectivity appeared to correlate stronger with static FC in DOC 
+204 
+compared to HC, we expected that eigenmode coefficients in DOC patients would hardly 
+205 
+change over time, underlining the observation of a ‘fixed’ structural-functional network 
+206 
+preprint (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this
+this version posted December 12, 2021. 
+; 
+https://doi.org/10.1101/2021.12.10.472068
+doi: 
+bioRxiv preprint 
+
+6 
+ 
+relationship in DOC patients. To analyse this lack of change in the structural-functional 
+207 
+network relationship over time in DOC patients, we quantified the modulation strength of the 
+208 
+weighting coefficients over time (see methods “Analysis steps”). We performed this analysis 
+209 
+separately for the dominant (1st to 107th eigenmode, first half) and non-dominant eigenmodes 
+210 
+(108th to 214th eigenmode, second half). Results for the dominant eigenmodes show a clear 
+211 
+reduction in modulation of the eigenmode weighting in DOC patients compared to HCs (Figure 
+212 
+3C), with also a significantly lower modulation of eigenmode expression in UWS compared to 
+213 
+MCS patients. This result could not be explained by chance, since the same results could not 
+214 
+be obtained from surrogate data (Figure 3C). Note that no between group difference for non-
+215 
+dominant eigenmodes was obtained (Figure 3D). 
+216 
+We have so far shown a reduction in modulation strength of eigenmode expressions in DOC 
+217 
+patients compared to HC subjects, as well as a loss of metastability in DOC patients and 
+218 
+dwelling of the brain in fewer network states in DOC patients. This poses the question whether 
+219 
+these two observations are related. In Figure 3EFG we show that metastability is strongly 
+220 
+correlated to modulations in eigenmode expression within every group. This underscores the 
+221 
+notion that loss of dynamic modulations in functional network patterns due to a loss of 
+222 
+metastability could indeed be related to a reduced modulation of eigenmode expression. 
+223 
+Classification of DOC patients using measures of dynamic functional connectivity and 
+224 
+structure-function relationships 
+225 
+To translate the structural and functional dynamic properties of the brain to clinical practice, 
+226 
+we used a classification approach for functional and structural properties using two class 
+227 
+support vector machine (SVM) classifiers. Only functional and structural properties that 
+228 
+showed group differences were used as features. We used three different classification 
+229 
+approaches of SVM (i.e., leave one out cross validation (LOOCV), k-fold cross validation, and 
+230 
+splitting the data into 60-40% training and testing data respectively). The LOOCV showed 
+231 
+better performance in terms of classification between groups for the selected features, 
+232 
+compared to the other approaches (see Table 1). Using LOOCV, UWS versus MCS 
+233 
+classification accuracy was 79.1%, with a sensitivity of 83.3% and specificity of 69.2%. When 
+234 
+we compared healthy controls with the DOC patient group, the classification performance was 
+235 
+very high. For healthy controls versus UWS, we found a classification accuracy of 95.8%, with 
+236 
+a sensitivity of 97.1% and a specificity of 92.3%. The healthy controls versus MCS 
+237 
+classification accuracy was 95.3%, with a sensitivity of 94.1% and specificity of 96.7% (Table 
+238 
+1). We also used the surrogate data to assess whether such a classification accuracy could 
+239 
+be obtained by chance. We found that the classification algorithm assorted all subjects into 
+240 
+one group, with an accuracy equal to chance level, a sensitivity of 100% and specificity of 0% 
+241 
+(Table 1). These results indicate that the classification performance of functional and structural 
+242 
+features is beyond chance level.  
+243 
+To further understand which features were most discriminating between UWS and MCS, we 
+244 
+used a feature ranking based on diagonal adaptation of neighbourhood component analysis 
+245 
+(NCA). Results showed that the most important features were nonstationarity in the DMN 
+246 
+(feature weight (FW)=2.22), Salience network (FW=1.03), FPN (FW=0.66), visual network 
+247 
+(FW=0.18), FPN-sub network (FW=0.1). Remaining features had low feature weights (<0.01) 
+248 
+(Figure 4). Interestingly we found that purely structural features had very low weights, 
+249 
+indicating that purely structural properties contribute very little beyond functional features to 
+250 
+the classification between UWS versus MCS, as well as between healthy controls versus DOC 
+251 
+patients.     
+252 
+ 
+ 
+253 
+preprint (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this
+this version posted December 12, 2021. 
+; 
+https://doi.org/10.1101/2021.12.10.472068
+doi: 
+bioRxiv preprint 
+
+7 
+ 
+III. Discussion 
+254 
+Differentiation between MCS and UWS is key for adequate diagnosis and prognosis in DOC 
+255 
+patients as this is connected to medical-ethical end of life decisions. Use of imaging 
+256 
+characteristics allows testing of hypotheses on causes for delayed, or failure of, recovery of 
+257 
+consciousness. Here, we used state-of-the art techniques to quantify time-varying functional 
+258 
+connectivity, metastability and the relationship between the underlying anatomical network 
+259 
+and time-resolved functional connections. We demonstrated that these advanced techniques 
+260 
+were sensitive to detect clinically relevant differences for the diagnosis of MCS and UWS 
+261 
+patients. More specifically, we first demonstrated that UWS patients show reduced 
+262 
+metastability, and spend less time in states outside the natural equilibrium state that would 
+263 
+favor cerebral processing in a cooperative and coordinated manner to support consciousness. 
+264 
+This is accompanied by shorter state durations that the brain spends in the frontoparietal-
+265 
+subcortical configuration in UWS. A loss of nonstationarity was observed in several resting-
+266 
+state networks (i.e., DMN, frontoparietal and frontoparietal-subcortical) in UWS compared to 
+267 
+MCS patients. We furthermore showed that functional brain networks are more ‘fixed’ to the 
+268 
+underlying anatomical connections and are less subject to spatial reconfigurations over time 
+269 
+in UWS compared to MCS patients. The extent to which these spatial reconfigurations 
+270 
+occurred (i.e., expressed as modulations in eigenmode-expression) correlated strongly to 
+271 
+metastability. Lastly, classification analysis showed that out of all results, nonstationarity in the 
+272 
+DMN, salience network, frontoparietal network, visual network and in the frontoparietal-
+273 
+subcortical network were features that were most discriminating between MCS and UWS. 
+274 
+Our results are in agreement with several hypothesis and theories for the emergence of 
+275 
+consciousness, of which most share the importance of thalamocortical connectivity for 
+276 
+consciousness (32–34). The mesocircuit hypothesis states that deafferentation between the 
+277 
+frontal cortex and subcortical regions is crucial in explaining failure of recovery of 
+278 
+consciousness (32). One of the most novel findings in the current work is the generation of 
+279 
+the frontoparietal-subcortical network. Although subcortical connections were, among others, 
+280 
+used as initial conditions for the decomposition of the time-varying functional connectivity 
+281 
+patterns into resting-state networks, incorporation with fronto-parietal connections emerged 
+282 
+from the data-driven NNTF algorithm. Another observation confirms that this NNTF approach 
+283 
+was extracting DOC-relevant networks, namely that the sensorimotor network disappeared 
+284 
+after optimization of spatial network patterns. This latter result is in line with the fact that 
+285 
+somatosensory cortices are not directly involved in the emergence of consciousness, based 
+286 
+on current theories (35). In addition, we found that the frontoparietal-subcortical network 
+287 
+showed shorter dwell times in DOC patients compared to HC subjects, with even shorter state 
+288 
+durations in UWS compared to MCS patients. Finally, this network also demonstrated a loss 
+289 
+of nonstationarity in UWS compared to MCS patients. However, it should be noted that the 
+290 
+frontoparietal-subcortical network was not the only network with loss of time-resolved network 
+291 
+characteristics; other resting-state networks also showed loss of nonstationarity, such as the 
+292 
+DMN and frontoparietal network. Yet a combination of shorter dwell times and loss of 
+293 
+nonstationarity was only found for the frontoparietal-subcortical network. The mesocircuit 
+294 
+hypothesis suggests that lack of excitation of the inhibition of the thalamus induces a reduction 
+295 
+of thalamo-cortical connectivity, which in turn, causes a reduction of the activity in the whole 
+296 
+frontoparietal network. It may be tempting to interpret that the frontoparietal-subcortical 
+297 
+network may play a crucial role in orchestrating global network interactions and dwell times. 
+298 
+Hence, this sub-network may be instrumental for the observed loss of nonstationarity in the 
+299 
+other sub-networks. Although the importance of functional connections between the thalamus 
+300 
+and frontal cortex has been emphasized by the mesocircuit hypothesis, and shown to relate 
+301 
+to consciousness in hypothesis-driven functional (e.g., (8, 22, 36)) and structural (e.g., (37, 
+302 
+38)) neuroimaging studies, this is the first demonstration of the ability of a (semi)data-driven 
+303 
+approach to identify this sub-network in the context of time-resolved functional connectivity. 
+304 
+Most previous data-driven approaches have been unable to extract such a network (14, 20, 
+305 
+21).      
+306 
+preprint (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this
+this version posted December 12, 2021. 
+; 
+https://doi.org/10.1101/2021.12.10.472068
+doi: 
+bioRxiv preprint 
+
+8 
+ 
+Our findings also support the global neuronal workspace (GNW) theory (33), which 
+307 
+emphasizes the importance of long-distance and recurrent functional connections, large-scale 
+308 
+reverberant networks and metastable brain states in the emergence and recovery of 
+309 
+consciousness (39). So far, the importance of metastability has mainly been addressed in the 
+310 
+context of recovery of consciousness from anesthesia (40). Here, we underscore this finding 
+311 
+and demonstrate that a reduction of metastability can even differentiate between UWS and 
+312 
+MCS patients. We further show that in DOC patients, the brain is dwelling shorter in relevant 
+313 
+and important network states, indicating that a more limited repertoire of functional network 
+314 
+states in DOC patients. There is still some dwelling time in the DMN, salience network, visual 
+315 
+network and in the unstructured residual state, but shorter dwell time in especially the 
+316 
+frontoparietal and frontoparietal-subcortical network.  
+317 
+Diagnosis and prognosis of patients in DOC is challenging and merely relying on clinical 
+318 
+measures may be unreliable (41, 42). Specialistic imaging techniques such as positron 
+319 
+emission tomography (PET) have shown their added-value to complement the clinical 
+320 
+diagnosis of DOC patients (4). Especially the lack of activation of a frontoparietal-subcortical 
+321 
+network in UWS has been postulated by several hypotheses on DOC (4). Here, we have used 
+322 
+a non-invasive imaging protocol and demonstrated the role of time-resolved functional 
+323 
+connectivity and disrupted structural-functional network coupling to differentiate between MCS 
+324 
+and UWS patients. Our findings allow differentiation between MCS and UWS with about 80% 
+325 
+accuracy, commensurate with previous work (7, 37, 43, 44). A high sensitivity (83%, i.e., true 
+326 
+positive for the presence of consciousness) and slightly lower specificity (69%, i.e., true 
+327 
+negative predicting the absence of consciousness) was obtained. This might reflect the finding 
+328 
+that behavioural assessment might underestimate the presence of consciousness in up to 2/3 
+329 
+of the UWS patients (45). Since our sample size was limited with only 14 UWS patients, we 
+330 
+did not use a separate validation dataset to verify our classification results. Instead, we applied 
+331 
+a few different approaches to verify our results and we used surrogate data to find out whether 
+332 
+our classification could have been obtained by chance. This was not the case. Diagnosis in 
+333 
+itself was not the sole goal of the classification analysis, but the adopted approach also aided 
+334 
+to elucidate mechanisms that would lead to (failure of) recovery of consciousness in DOC 
+335 
+leveraging the data-driven obtained features. Loss of nonstationarity in the DMN, salience 
+336 
+network and frontoparietal turned out to be important discriminating features to tell apart MCS 
+337 
+and UWS.  
+338 
+Our observation of functional connectivity dynamics that are more restricted to the structural 
+339 
+connectivity has been observed in pharmacological and pathological loss of consciousness 
+340 
+(see also (14, 46)), however, here we show that this co-occurred with a reduction of 
+341 
+metastability. Previous work has demonstrated that the underlying anatomical connectivity 
+342 
+forms a constraint for functional connectivity and also shapes the repertoire of possible 
+343 
+functional network states (24). The underlying anatomical connectivity contains so-called 
+344 
+inherent ‘hidden patterns’ or eigenmodes with different spatial structures. In a dynamical 
+345 
+system such as the brain, these eigenmodes, or a combination of eigenmodes, can 
+346 
+sequentially be activated or deactivated (25, 47), and thereby shape the repertoire of possible 
+347 
+functional network states. We stress that this framework does not imply that there is some 
+348 
+fixed relationship or coupling between structure and function, but rather that parts of the 
+349 
+anatomical network support the (sequential) formation of specific functional sub-networks, and 
+350 
+not only at the level of individual nodes (46). Although the mechanism behind the 
+351 
+(de)activation of these spatial eigenmodes remains to be investigated, we posit that a potential 
+352 
+underlying mechanism for a loss of the functional repertoire in DOC is the inability to 
+353 
+sequentially dwell for prolonged times in a different set of eigenmodes. This inability was even 
+354 
+more pronounced for UWS than for MCS. 
+355 
+A few methodological aspects in our retrospective study deserve further discussion. First of 
+356 
+all, we did not analyse the contributions of individual eigenmodes for two reasons: i) although 
+357 
+earlier studies have demonstrated that a limited set of eigenmodes could already explain 
+358 
+preprint (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this
+this version posted December 12, 2021. 
+; 
+https://doi.org/10.1101/2021.12.10.472068
+doi: 
+bioRxiv preprint 
+
+9 
+ 
+observed functional connectivity pattern (25), in our case, assessing group differences 
+359 
+between MCS and UWS on the basis of individual eigenmodes would impose a multiple 
+360 
+comparisons problem; ii) our analytical approach is based on the assumption that all 
+361 
+eigenmodes are necessary in the mapping to functional connectivity instead of a statistical 
+362 
+selection of eigenmodes. Second, using fMRI to look at dynamic FC, and particular phase-
+363 
+based FC, may not be optimal. High temporal resolution of EEG/MEG may be able to provide 
+364 
+even more reliable estimates of dynamic FC (even of subcortical structures (48) and on the 
+365 
+relation between SC and dynamic FC (47). Last, concatenated data from all groups were fed 
+366 
+into the NNTF analysis, instead of per group. This assumes that spatial network structure is 
+367 
+similar across groups. Even though this is not necessarily the case, the amount of data to 
+368 
+allow for stable NNTF results for individual groups was limited, especially for the UWS group. 
+369 
+Future (multicentric) studies with more patients should verify whether the decomposition of 
+370 
+the dynamic functional connectivity patterns into the observed sub-networks holds for the 
+371 
+separate groups. Our approach to concatenate data from all groups made group comparison 
+372 
+much easier though, as there was now no need to ‘match’ potentially slightly different networks 
+373 
+from the different groups. This also allowed us to focus on networks that were important in 
+374 
+DOC. 
+375 
+Taken together, we have demonstrated that a (semi) data-driven approach has extracted 
+376 
+clinically meaningful time-resolved functional brain networks. This unique network-based 
+377 
+spatiotemporal characterization accounts for structure-function coupling (i.e., eigenmodes), 
+378 
+and shows a relationship with brain stability. The measures that differed between UWS and 
+379 
+MCS patients most, were the dominant eigenmodes (reflecting structure-function coupling) 
+380 
+and time-resolved functional connectivity in the default mode network, frontoparietal network 
+381 
+and the subcortical-frontoparietal network. Interestingly, the latter network was generated by 
+382 
+the (semi)data-driven approach to better fit the data, and was to sole network to show shorter 
+383 
+dwell times in UWS than MCS patients. This suggests that the subcortical-frontoparietal 
+384 
+network might play a pivotal role for supporting conscious network interactions, as is in line 
+385 
+with several theorethical and hypothesis-driven studies. Future work will be required to assess 
+386 
+to what extent these advanced aspects of connectivity can serve as biomarkers to aid 
+387 
+diagnosis and prognosis in DOC.  
+388 
+V. Methods 
+389 
+Participants 
+390 
+Forty-four adult DOC patients, of whom 30 in Minimally Conscious State (MCS)  (11 females, 
+391 
+age range 24-83 years; mean age ± SD, 45 ± 16 years) and 14 with the Unresponsive 
+392 
+Wakefulness Syndrome (UWS) (6 females, age range 20-74 years; mean age ± SD, 47 ± 16 
+393 
+years) and thirty-four age and gender matched healthy subjects (HC)  (14 females, age range 
+394 
+19-72 years; mean age ± SD, 40 ± 14 years) without premorbid neurological problems were 
+395 
+included. The local ethics committee from the University Hospital of Liège (Belgium) approved 
+396 
+the study. Written informed consent was obtained from all healthy subjects and the legal 
+397 
+representative for DOC patients. The same data was used in (46, 49).  
+398 
+The diagnosis of the DOC patients was confirmed through two gold standard approaches (i.e., 
+399 
+(i) behavioural and (ii) fluorodeoxyglucose-positron emission tomography (FDG-PET), 
+400 
+excluding patients for whom these two diagnostic approaches disagreed. (i) Patients were 
+401 
+behaviourally diagnosed through the best of at least five coma recovery scale revised  CRS-
+402 
+R assessments, evaluating auditory, visual, motor, oromotor function, communication and 
+403 
+arousal  (50). (ii) Behavioural diagnosis was complemented with the visual assessment of 
+404 
+preserved brain metabolism in the frontoparietal network using FDG-PET as a neurological 
+405 
+proxy for consciousness (41). Patient-specific clinical information is presented in Table 1. We 
+406 
+only included patients for whom (1) MRI data were recorded without anaesthesia (2) diagnosis 
+407 
+preprint (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this
+this version posted December 12, 2021. 
+; 
+https://doi.org/10.1101/2021.12.10.472068
+doi: 
+bioRxiv preprint 
+
+10 
+ 
+was based on at least 5 repetitions of the CRS-R assessment, (3) diagnosed as UWS or MCS, 
+408 
+and (4) the FDG-PET diagnosis was in agreement with the clinical diagnosis. We excluded 
+409 
+the patients (1) for whom the patients the structural MRI segmentation was incorrect or (2) if 
+410 
+there were excessive head movement artefacts during MR recordings. There were 46 MCS 
+411 
+patients in which 16 were discarded due to mismatch of PET and CRS-R diagnosis, 8 for failed 
+412 
+segmentation and 4 for head movement artefacts. Amongst the 28 UWS patients, 8 were 
+413 
+discarded due to mismatch of the PET and CRS-R diagnosis, 4 for failure of segmentation 
+414 
+and 2 for head movement artefacts. 
+415 
+MRI Data Acquisition 
+416 
+For the DOC dataset, structural (T1 and DWI) and functional MRI data was acquired on a 
+417 
+Siemens 3T Trio scanner. 3D T1-weighted MP-RAGE images (120 transversal slices, 
+418 
+repetition time = 2300 ms, voxel size = 1.0 x 1.0 x 1.2 mm3, flip angle = 9°, field of view = 256 
+419 
+x 256 mm2) were acquired prior to the 10 minutes of BOLD fMRI resting-state (i.e. task free) 
+420 
+(EPI, gradient echo, volumes = 300, repetition time = 2000 ms, echo time = 30 ms, flip angle 
+421 
+= 78°, voxel size = 3 x 3 x 3 mm3, field of view = 192 × 192 mm2, 32 transversal slices). HC 
+422 
+subjects were instructed to keep eyes open and to be in relaxed state during the fMRI data 
+423 
+acquisition. Last, diffusion weighted MRI (DWI) was acquired in 64 directions (b-value =1,000 
+424 
+s/mm2, voxel size = 1.8 x 1.8 x 3.3 mm3, field of view 230 x 230 mm2, repetition time 5,700 
+425 
+ms, echo time 87 ms, 45 transverse slices, 128 x 128 voxel matrix) preceded by a single 
+426 
+unweighted image (b0). 
+427 
+Resting -state fMRI preprocessing 
+428 
+Preprocessing was performed as in (46) using MELODIC (Multivariate Exploratory Linear 
+429 
+Optimized Decomposition into Independent Components) version 3.14, which is part of 
+430 
+FMRIB's Software Library (FSL, http://fsl.fmrib.ox.ac.uk/fsl). The preprocessing consisted of 
+431 
+the following steps: the first five functional images were discarded to reduce scanner 
+432 
+inhomogeneity, motion correction was performed using MCFLIRT, non brain tissue was 
+433 
+removed using Bet Extraction Tool (BET), temporal band-pass filtering with sigma 100 
+434 
+seconds, spatial smoothing was applied using a 5mm FWHM Gaussian kernel, rigid-body 
+435 
+registration was performed, and finally single-session ICA with automatic dimensionality 
+436 
+estimation was employed (51). Then, FIX (FMRIB's ICA-based X-noiseifier) was applied to 
+437 
+remove the noise components and the lesion-driven for each subject. Specifically, FSLeyes 
+438 
+in Melodic mode was used to manually identify the single-subject independent components 
+439 
+(ICs) into "good" for cerebral signal, "bad" for noise or injury-driven artifacts, and "unknown" 
+440 
+for ambiguous components. Each component was evaluated based on the spatial map, the 
+441 
+time series, and the temporal power spectrum (51). Next, for each subject, FIX was applied 
+442 
+with default parameters to remove bad and unknown components. Subsequently, the Shen et 
+443 
+al., functional atlas (without cerebellum) was applied for brain parcellation to obtain the BOLD 
+444 
+time series of the 214 cortical and subcortical brain areas in each individual's native EPI 
+445 
+space (30, 52). The cleaned functional data were co-registered to the T1-weighted structural 
+446 
+image by using FLIRT (53). Then, the T1-weighted image was co-registered to the standard 
+447 
+MNI space by using FLIRT (12 DOF), and FNIRT (54). The transformations matrices were 
+448 
+inverted and applied to warp the resting-state atlas from MNI space to the single-subject 
+449 
+functional data using a nearest-neighbor interpolation method to ensure the preservation of 
+450 
+the labels. Finally, the time series for each of the 214 brain areas were extracted using 
+451 
+fslmaths and fslmeants. 
+452 
+ 
+453 
+ 
+ 
+454 
+preprint (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this
+this version posted December 12, 2021. 
+; 
+https://doi.org/10.1101/2021.12.10.472068
+doi: 
+bioRxiv preprint 
+
+11 
+ 
+Probabilistic Tractography analysis  
+455 
+A whole-brain structural connectivity (SC) matrix was computed for each subject as reported 
+456 
+in our previous study (46). Briefly, the b0 image was co-registered to the T1 structural image 
+457 
+using FLIRT and the T1 structural image was co-registered to the MNI space using FLIRT and 
+458 
+FNIRT(53, 54).  The transformation matrices were inverted and applied to warp the resting-
+459 
+state atlas from MNI space to the native diffusion space using a nearest-neighbor interpolation 
+460 
+method. Analysis of diffusion images was applied using the FMRIB's Diffusion Toolbox (FDT) 
+461 
+(www.fmrib.ox.ac.uk/fsl). BET was computed, eddy current distortions and head motion were 
+462 
+corrected using eddy correct tool (55). Crossing Fibres were modeled by using BEDPOSTX, 
+463 
+and the probability of multi-fibre orientations was calculated to enhance the sensitivity of non-
+464 
+dominant fibre populations (56, 57). Then, probabilistic tractography analysis was calculated 
+465 
+in native diffusion space using PROBTRACKX to compute the connectivity probability of each 
+466 
+brain region to each of the other 213 brain regions. Subsequently, the value of each brain area 
+467 
+was divided by its corresponding number of generated tracts to obtain the structural probability 
+468 
+matrix. Finally, the SCpn matrix was then symmetrized by computing their transpose SCnp and 
+469 
+averaging both matrices. 
+470 
+Metastability and time-resolved functional connectivity 
+471 
+BOLD time series for every ROI k were filtered within the narrowband of 0.01-0.9 Hz. We 
+472 
+estimated both time-resolved functional connectivity and static functional connectivity. Static 
+473 
+functional connectivity (FCstatic) was estimated by the Pearson correlation coefficient between 
+474 
+pairwise narrowband time courses. Time-resolved connectivity was estimated from the 
+475 
+instantaneous phases. The instantaneous phase of the BOLD signal, 𝜑𝑘(𝑡), was extracted 
+476 
+from the analytic signal as obtained from the Hilbert transform. The synchronization between 
+477 
+pairs of brain regions was characterised as the difference between their instantaneous 
+478 
+phases. At each time point, the phase difference between two regions j and k was used as 
+479 
+estimate for instantaneous phase connectivity ∆𝜑𝑗𝑘(𝑡) (58). Evaluation of pairwise connectivity 
+480 
+at each time point resulted in a functional connectivity tensor (number of ROIs x number of 
+481 
+ROIs x time points). 
+482 
+Furthermore, we investigated how the synchronization between different nodes fluctuates 
+483 
+across time using the concept of metastability. In the current sense, metastability quantifies 
+484 
+how variable the states of phase configurations are as a function of time. We quantified 
+485 
+metastability (i.e. our proxy measure for metastability) in terms of the standard deviation of the 
+486 
+Kuramoto order parameter, 𝑅(𝑡) = |
+1
+𝑁∑𝑒𝑖𝜑𝑘(𝑡)
+𝑁
+𝑘
+|, where 𝑁 is the number of ROIs and i denotes 
+487 
+the imaginary unit (59). 
+488 
+Similar to (60, 61), we extracted time-evolving networks using non-negative tensor 
+489 
+factorization (NNTF) (62). We used the N-way toolbox (version 1.8) for MATLAB for this 
+490 
+analysis (63). NNTF can be considered as a higher-order principal component analysis. The 
+491 
+goal of the approach is to decompose the functional connectivity tensor 𝐹𝐶 into components, 
+492 
+such that the approximation of the functional connectivity tensor 𝐹𝐶̃ can be written as 𝐹𝐶̃ =
+493 
+∑𝑎𝑙× 𝑏𝑙× 𝑐𝑙
+𝐿
+𝑙
+. Here, 𝑎𝑙 and 𝑏𝑙 correspond to vectors decoding spatial information for 
+494 
+component l, and 𝑐𝑙 represents the vector that contains information on temporal fluctuations 
+495 
+of component l. Note that the outer product 𝑎𝑙× 𝑏𝑙 stands for the spatial pattern of functional 
+496 
+connectivity of component l. The number of components L can be estimated from the data 
+497 
+using established algorithms (64). However, here, we fixed the number of components based 
+498 
+on the number of a-priori expected networks that we were interested in. We fed the NNTF 
+499 
+algorithm with initial conditions for 𝑎𝑙 and 𝑏𝑙 based on the spatial components of six expected 
+500 
+resting-state networks: salience network, fronto-parietal network, default mode network, 
+501 
+subcortical network, sensorimotor network, visual network. We added a residual network to 
+502 
+account for the unexplained variance in the functional connectivity tensor. Note that the spatial 
+503 
+preprint (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this
+this version posted December 12, 2021. 
+; 
+https://doi.org/10.1101/2021.12.10.472068
+doi: 
+bioRxiv preprint 
+
+12 
+ 
+initial conditions did not indicate that these spatial components were kept fixed during NNTF 
+504 
+calculation, but these spatial components were free to be adjusted according to maximization 
+505 
+of the explained variance. Data from all subjects and groups were concatenated to allow 
+506 
+convergence to stable results. 
+507 
+Relationship between structural eigenmodes and time-resolved functional connectivity 
+508 
+For every subject, we extracted structural eigenmodes from the graph Laplacian 𝑄𝐴 of the 
+509 
+structural connectivity (SC) matrix defined by 𝑄𝐴= 𝐾𝑆𝐶−𝑆𝐶, where 𝐾𝑆𝐶  refers to the diagonal 
+510 
+degree matrix of SC. We further applied symmetric normalization to obtain a normalized 
+511 
+Laplacian 𝑄𝑆𝐶. Subsequently, eigenvectors 𝑢𝑖 and eigenvalues (together called eigenmodes) 
+512 
+were extracted using diagonalization of 𝑄𝑆𝐶, resulting in N eigenmodes (N = number of ROIs). 
+513 
+Using a recently introduced approach we mapped functional brain networks at each time point 
+514 
+from the structural eigenmodes (27). In other words, we estimated to what extent functional 
+515 
+connectivity at each time point 𝐹𝐶(𝑡) could be explained by a linear combination of the 
+516 
+eigenmodes  
+517 
+𝐹𝐶(𝑡) ≈𝐾𝐹𝐶(𝑡) −𝐾𝐹𝐶
+1
+2(𝑡)(𝑈𝑃(𝑡)𝑈𝑇)𝐾𝐹𝐶
+1
+2(𝑡),  
+ 
+ 
+ 
+ 
+ 
+(1) 
+518 
+where 𝐾𝐹𝐶(𝑡) is the diagonal node strength matrix of the functional connectivity matrix 𝐹𝐶(𝑡) 
+519 
+at time t. The matrix 𝑃(𝑡) corresponds to the weighting coefficient matrix for the eigenmodes 
+520 
+and is obtained after optimisation and equal to 
+521 
+𝑃(𝑡) = diag(𝑢1
+𝑇𝑄𝐹𝐶(𝑡)𝑢1, … , 𝑢𝑁
+𝑇𝑄𝐹𝐶(𝑡)𝑢𝑁).  
+ 
+ 
+ 
+ 
+ 
+ 
+(2) 
+522 
+Hence, modulations of eigenmode expressions over time are expressed in 𝑃(𝑡). Here, 𝑄𝐹𝐶(𝑡) 
+523 
+is the normalised graph Laplacian of 𝐹𝐶(𝑡) at time t, and 𝑢𝑖 is the i-th eigenvector of 𝑄𝑆𝐶 and 
+524 
+the i-th column of 𝑈.  
+525 
+Analysis steps 
+526 
+1. Time-resolved functional connectivity. Individual temporal time courses 𝑐𝑙
+𝑖𝑛𝑑 for 
+527 
+expression of component l for every subject were extracted from 𝑐𝑙. A high value of 𝑐𝑙 
+528 
+at a certain time point indicates strong expression of this spatial pattern of functional 
+529 
+connectivity (𝑎𝑙× 𝑏𝑙) at that time point. At each time point we determined the 
+530 
+component with the strongest expression (max(𝑐𝑙
+𝑖𝑛𝑑)), and assumed that connectivity 
+531 
+at that point in time was dominated by this state or component. The duration that this 
+532 
+component retained the strongest expression was considered as state duration or 
+533 
+dwell time (see Figure 1). In addition, we also characterized the amount of 
+534 
+nonstationarity in 𝑐𝑙  (31, 65), i.e. excursions from the median. The rationale for using 
+535 
+this metric is its sensitivity to detect modulations if the underlying system is indeed 
+536 
+dynamic (65). Mann-Whitney U tests were used to test, for each network separately, 
+537 
+differences in state durations and excursion from the median between groups.   
+538 
+2.   Structural vs functional brain networks. We first estimated the relationship between 
+539 
+static functional connectivity and the structural connectivity itself (without decomposing 
+540 
+SC into eigenmodes). This relationship was estimated in terms of a Pearson correlation 
+541 
+coefficient between the SC and FCstatic, denoted as corr(FCstatic, SC). We secondly 
+542 
+analysed the amount to which time-varying functional networks could be explained by 
+543 
+expressions of the structural eigenmodes. We therefore computed the Pearson 
+544 
+correlation between the empirical 𝐹𝐶(𝑡) and the eigenmode predicted 𝐹𝐶(𝑡), denoted 
+545 
+as corr(FC, eigenmodes). In order to be able to test whether there was a difference in 
+546 
+fluctuations of eigenmode expression over time between groups, we quantified the 
+547 
+eigenmode modulation strength defined as ∆eigenmode = ∑
+‖𝑃(𝑡𝑘) −𝑃(𝑡𝑗)‖
+𝑇,𝑇
+𝑡𝑘=1,𝑡𝑙=1
+, 
+548 
+where 𝑡𝑗 and 𝑡𝑘 correspond to different points in time and 𝑇 to total duration of the 
+549 
+preprint (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this
+this version posted December 12, 2021. 
+; 
+https://doi.org/10.1101/2021.12.10.472068
+doi: 
+bioRxiv preprint 
+
+13 
+ 
+recording. As the first eigenmodes can be considered as dominant eigenmodes and 
+550 
+more important to shape functional brain networks (25), we evaluated the eigenmode 
+551 
+modulation strength for the dominant eigenmodes 𝑖= {1, … , 𝑁/2} and non-
+552 
+dominant eigenmodes 𝑖= {𝑁/2, … , 𝑁} separately. We further computed the correlation 
+553 
+between eigenmode modulation strength and metastability in all groups separately in 
+554 
+order to test whether modulations in eigenmode expression related to our proxy 
+555 
+measure for metastability. Group differences for all metrics was tested using Mann-
+556 
+Whitney U tests.  
+557 
+In order to test whether eigenmode predictions of functional connectivity could be 
+558 
+obtained by chance, we created surrogate data and redid analysis for the surrogate 
+559 
+data. Surrogate data for fMRI BOLD time series were obtained using the circular time 
+560 
+shifted method (66). Time-resolved phase connectivity was estimated in the same way 
+561 
+as for genuine empirical data. Time-resolved connectivity obtained from surrogate data 
+562 
+was subsequently predicted using the eigenmodes.  
+563 
+False discovery rate was used to correct for multiple comparisons for analysis steps 1 
+564 
+and 2: number of metrics (excursions * seven networks, dwell time * seven networks, 
+565 
+metastability, corr(FCstatic, SC), corr(FC, eigenmodes), non-dominant and dominant 
+566 
+eigenmodes)* 3 comparisons + surrogate comparison with genuine data 3 * 3, 
+567 
+(corr(FC, eigenmodes), non-dominant and dominant eigenmodes) comparisons = 66 
+568 
+tests) (67).   
+569 
+3. Classification Algorithm. For two group classifications (i.e., UWS vs MCS, UWS vs HC, 
+570 
+MCS vs HC), a two class “linear SVM” model with 2nd order polynomial kernel was 
+571 
+employed. To train the classifier, we used the “fitcsvm” function and to test the classifier 
+572 
+performance, we used the “SVMModel.predict” function of MATLAB. As we have a low 
+573 
+sample size, we employed three popular algorithms to avoid model or parameter bias. 
+574 
+We employed the SVM model with: 1) Leave-one-out cross-validation (LOOCV); 2) 10-
+575 
+fold cross validation and 3) splitting the data in 60-40%. Furthermore, classification 
+576 
+performance was verified with real and surrogate data features to get an estimate of 
+577 
+the bias in the results obtained with the real data. The discriminative and the predictive 
+578 
+capabilities of the classifier were evaluated with measures obtained from receiver 
+579 
+operating curves (ROC): accuracy, sensitivity, specificity (68). 
+580 
+4. Feature Ranking. To understand which features predominantly contribute to classify the 
+581 
+UWS from MCS, and healthy controls from patients, we used the classification-based 
+582 
+feature weighting algorithm based on diagonal adaptation of neighbourhood 
+583 
+component analysis (NCA). We used the ‘fscnca’ function of MATLAB that learns the 
+584 
+feature weights using a diagonal adaptation of NCA and returns the weight for each 
+585 
+functional dynamic and structural-functional feature (69). 
+586 
+ 
+ 
+587 
+preprint (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this
+this version posted December 12, 2021. 
+; 
+https://doi.org/10.1101/2021.12.10.472068
+doi: 
+bioRxiv preprint 
+
+14 
+ 
+V. References 
+588 
+1.  
+S. Laureys, et al., Unresponsive wakefulness syndrome: a new name for the 
+589 
+vegetative state or apallic syndrome. BMC Med. 8, 1–4 (2010). 
+590 
+2.  
+J. T. Giacino, et al., The minimally conscious state: definition and diagnostic criteria. 
+591 
+Neurology 58, 349–353 (2002). 
+592 
+3.  
+C. Schnakers, et al., The Nociception Coma Scale: a new tool to assess nociception 
+593 
+in disorders of consciousness. Pain 148, 215–219 (2010). 
+594 
+4.  
+B. L. Edlow, J. Claassen, N. D. Schiff, D. M. Greer, Recovery from disorders of 
+595 
+consciousness: mechanisms, prognosis and emerging therapies. Nat. Rev. Neurol., 
+596 
+1–22 (2020). 
+597 
+5.  
+E. Amico, et al., Mapping the functional connectome traits of levels of consciousness. 
+598 
+Neuroimage 148, 201–211 (2017). 
+599 
+6.  
+L. Heine, et al., Resting state networks and consciousness. Front. Psychol. 3, 295 
+600 
+(2012). 
+601 
+7.  
+A. Demertzi, et al., Intrinsic functional connectivity differentiates minimally conscious 
+602 
+from unresponsive patients. Brain 138, 2619–2631 (2015). 
+603 
+8.  
+E. A. Fridman, B. J. Beattie, A. Broft, S. Laureys, N. D. Schiff, Regional cerebral 
+604 
+metabolic patterns demonstrate the role of anterior forebrain mesocircuit dysfunction 
+605 
+in the severely injured brain. Proc. Natl. Acad. Sci. 111, 6473–6478 (2014). 
+606 
+9.  
+S. Laureys, et al., Restoration of thalamocortical connectivity after recovery from 
+607 
+persistent vegetative state. Lancet 355, 1790–1791 (2000). 
+608 
+10.  
+A. Demertzi, A. Soddu, S. Laureys, Consciousness supporting networks. Curr. Opin. 
+609 
+Neurobiol. 23, 239–244 (2013). 
+610 
+11.  
+J. T. Giacino, J. J. Fins, S. Laureys, N. D. Schiff, Disorders of consciousness after 
+611 
+acquired brain injury: the state of the science. Nat. Rev. Neurol. 10, 99 (2014). 
+612 
+12.  
+P. Barttfeld, et al., Signature of consciousness in the dynamics of resting-state brain 
+613 
+activity. Proc. Natl. Acad. Sci. 112, 887–892 (2015). 
+614 
+13.  
+A. I. Luppi, et al., Consciousness-specific dynamic interactions of brain integration 
+615 
+and functional diversity. Nat. Commun. 10, 1–12 (2019). 
+616 
+14.  
+A. Demertzi, et al., Human consciousness is supported by dynamic complex patterns 
+617 
+of brain signal coordination. Sci. Adv. 5, eaat7603 (2019). 
+618 
+15.  
+L. E. Suárez, R. D. Markello, R. F. Betzel, B. Misic, Linking structure and function in 
+619 
+macroscale brain networks. Trends Cogn. Sci. (2020). 
+620 
+16.  
+A. Avena-Koenigsberger, B. Misic, O. Sporns, Communication dynamics in complex 
+621 
+brain networks. Nat. Rev. Neurosci. 19, 17 (2018). 
+622 
+17.  
+Y. Sanz Perl, et al., Perturbations in dynamical models of whole-brain activity 
+623 
+dissociate between the level and stability of consciousness. PLoS Comput. Biol. 17, 
+624 
+e1009139 (2021). 
+625 
+preprint (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this
+this version posted December 12, 2021. 
+; 
+https://doi.org/10.1101/2021.12.10.472068
+doi: 
+bioRxiv preprint 
+
+15 
+ 
+18.  
+D. Golkowski, et al., Dynamic Patterns of Global Brain Communication Differentiate 
+626 
+Conscious From Unconscious Patients After Severe Brain Injury. Front. Syst. 
+627 
+Neurosci. 15 (2021). 
+628 
+19.  
+S. M. Del Pozo, et al., Unconsciousness reconfigures modular brain network 
+629 
+dynamics. Chaos An Interdiscip. J. Nonlinear Sci. 31, 93117 (2021). 
+630 
+20.  
+B. Cao, et al., Abnormal dynamic properties of functional connectivity in disorders of 
+631 
+consciousness. NeuroImage Clin. 24, 102071 (2019). 
+632 
+21.  
+J. Rizkallah, et al., Decreased integration of EEG source-space networks in disorders 
+633 
+of consciousness. NeuroImage Clin. 23, 101841 (2019). 
+634 
+22.  
+M. M. Monti, et al., Thalamo-frontal connectivity mediates top-down cognitive 
+635 
+functions in disorders of consciousness. Neurology 84, 167–173 (2015). 
+636 
+23.  
+G. Deco, et al., Resting-state functional connectivity emerges from structurally and 
+637 
+dynamically shaped slow linear fluctuations. J. Neurosci. 33, 11239–11252 (2013). 
+638 
+24.  
+G. Deco, M. L. Kringelbach, Metastability and coherence: extending the 
+639 
+communication through coherence hypothesis using a whole-brain computational 
+640 
+perspective. Trends Neurosci. 39, 125–135 (2016). 
+641 
+25.  
+S. Atasoy, I. Donnelly, J. Pearson, Human brain networks function in connectome-
+642 
+specific harmonic waves. Nat. Commun. 7 (2016). 
+643 
+26.  
+P. A. Robinson, et al., Eigenmodes of brain activity: Neural field theory predictions 
+644 
+and comparison with experiment. Neuroimage 142, 79–98 (2016). 
+645 
+27.  
+P. Tewarie, et al., Mapping functional brain networks from the structural connectome: 
+646 
+relating the series expansion and eigenmode approaches. Neuroimage 216, 116805 
+647 
+(2020). 
+648 
+28.  
+S. Atasoy, G. Deco, M. L. Kringelbach, J. Pearson, Harmonic brain modes: a unifying 
+649 
+framework for linking space and time in brain dynamics. Neurosci. 24, 277–293 
+650 
+(2018). 
+651 
+29.  
+M. G. Preti, D. Van De Ville, Decoupling of brain function from structure reveals 
+652 
+regional behavioral specialization in humans. Nat. Commun. 10, 1–7 (2019). 
+653 
+30.  
+E. S. Finn, et al., Functional connectome fingerprinting: identifying individuals using 
+654 
+patterns of brain connectivity. Nat. Neurosci. 18, 1664–1671 (2015). 
+655 
+31.  
+A. Zalesky, A. Fornito, L. Cocchi, L. L. Gollo, M. Breakspear, Time-resolved resting-
+656 
+state brain networks. Proc. Natl. Acad. Sci. 111, 10341–10346 (2014). 
+657 
+32.  
+N. D. Schiff, Recovery of consciousness after brain injury: a mesocircuit hypothesis. 
+658 
+Trends Neurosci. 33, 1–9 (2010). 
+659 
+33.  
+S. Dehaene, J.-P. Changeux, L. Naccache, The global neuronal workspace model of 
+660 
+conscious access: from neuronal architectures to clinical applications. Charact. 
+661 
+Conscious. From Cogn. to Clin., 55–84 (2011). 
+662 
+34.  
+H. Blumenfeld, Brain mechanisms of conscious awareness: Detect, pulse, switch, and 
+663 
+wave. Neurosci., 10738584211049378 (2021). 
+664 
+preprint (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this
+this version posted December 12, 2021. 
+; 
+https://doi.org/10.1101/2021.12.10.472068
+doi: 
+bioRxiv preprint 
+
+16 
+ 
+35.  
+L. Naccache, Minimally conscious state or cortically mediated state? Brain 141, 949–
+665 
+960 (2018). 
+666 
+36.  
+J. S. Crone, B. J. Bio, P. M. Vespa, E. S. Lutkenhoff, M. M. Monti, Restoration of 
+667 
+thalamo‐cortical connectivity after brain injury: recovery of consciousness, complex 
+668 
+behavior, or passage of time? J. Neurosci. Res. 96, 671–687 (2018). 
+669 
+37.  
+J. Annen, et al., Function–structure connectivity in patients with severe brain injury as 
+670 
+measured by MRI‐DWI and FDG‐PET. Hum. Brain Mapp. 37, 3707–3720 (2016). 
+671 
+38.  
+L. Weng, et al., Abnormal structural connectivity between the basal ganglia, thalamus, 
+672 
+and frontal cortex in patients with disorders of consciousness. Cortex 90, 71–87 
+673 
+(2017). 
+674 
+39.  
+G. A. Mashour, P. Roelfsema, J.-P. Changeux, S. Dehaene, Conscious processing 
+675 
+and the global neuronal workspace hypothesis. Neuron 105, 776–798 (2020). 
+676 
+40.  
+F. Cavanna, M. G. Vilas, M. Palmucci, E. Tagliazucchi, Dynamic functional 
+677 
+connectivity and brain metastability during altered states of consciousness. 
+678 
+Neuroimage 180, 383–395 (2018). 
+679 
+41.  
+J. Stender, et al., Diagnostic precision of PET imaging and functional MRI in disorders 
+680 
+of consciousness: a clinical validation study. Lancet 384, 514–522 (2014). 
+681 
+42.  
+W. S. van Erp, et al., Unexpected emergence from the vegetative state: delayed 
+682 
+discovery rather than late recovery of consciousness. J. Neurol. 266, 3144–3149 
+683 
+(2019). 
+684 
+43.  
+D. A. Engemann, et al., Robust EEG-based cross-site and cross-protocol 
+685 
+classification of states of consciousness. Brain 141, 3179–3192 (2018). 
+686 
+44.  
+D. Candia-Rivera, et al., Neural Responses to Heartbeats Detect Residual Signs of 
+687 
+Consciousness during Resting State in Postcomatose Patients. J. Neurosci. 41, 
+688 
+5251–5262 (2021). 
+689 
+45.  
+A. Thibaut, et al., Preservation of brain activity in unresponsive patients identifies 
+690 
+MCS star. Ann. Neurol. 90, 89–100 (2021). 
+691 
+46.  
+A. López-González, et al., Loss of consciousness reduces the stability of brain hubs 
+692 
+and the heterogeneity of brain dynamics. Commun. Biol. 4, 1–15 (2021). 
+693 
+47.  
+P. Tewarie, et al., How do spatially distinct frequency specific MEG networks emerge 
+694 
+from one underlying structural connectome? The role of the structural eigenmodes. 
+695 
+Neuroimage 186, 211–220 (2019). 
+696 
+48.  
+A. Hillebrand, et al., Detecting epileptiform activity from deeper brain regions in 
+697 
+spatially filtered MEG data. Clin. Neurophysiol. Off. J. Int. Fed. Clin. Neurophysiol. 
+698 
+127, 2766–2769 (2016). 
+699 
+49.  
+R. Panda, et al., Posterior integration and thalamo-frontotemporal broadcasting are 
+700 
+impaired in disorders of consciousness (2021). 
+701 
+50.  
+J. T. Giacino, K. Kalmar, J. Whyte, The JFK Coma Recovery Scale-Revised: 
+702 
+measurement characteristics and diagnostic utility. Arch. Phys. Med. Rehabil. 85, 
+703 
+2020–2029 (2004). 
+704 
+preprint (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this
+this version posted December 12, 2021. 
+; 
+https://doi.org/10.1101/2021.12.10.472068
+doi: 
+bioRxiv preprint 
+
+17 
+ 
+51.  
+L. Griffanti, et al., ICA-based artefact removal and accelerated fMRI acquisition for 
+705 
+improved resting state network imaging. Neuroimage 95, 232–247 (2014). 
+706 
+52.  
+X. Shen, F. Tokoglu, X. Papademetris, R. T. Constable, Groupwise whole-brain 
+707 
+parcellation from resting-state fMRI data for network node identification. Neuroimage 
+708 
+82, 403–415 (2013). 
+709 
+53.  
+M. Jenkinson, S. Smith, A global optimisation method for robust affine registration of 
+710 
+brain images. Med. Image Anal. 5, 143–156 (2001). 
+711 
+54.  
+J. L. R. Andersson, M. Jenkinson, S. Smith, Non-linear registration, aka Spatial 
+712 
+normalisation FMRIB technical report TR07JA2. FMRIB Anal. Gr. Univ. Oxford 2, e21 
+713 
+(2007). 
+714 
+55.  
+J. L. R. Andersson, S. N. Sotiropoulos, An integrated approach to correction for off-
+715 
+resonance effects and subject movement in diffusion MR imaging. Neuroimage 125, 
+716 
+1063–1078 (2016). 
+717 
+56.  
+T. E. J. Behrens, et al., Characterization and propagation of uncertainty in diffusion‐
+718 
+weighted MR imaging. Magn. Reson. Med. An Off. J. Int. Soc. Magn. Reson. Med. 50, 
+719 
+1077–1088 (2003). 
+720 
+57.  
+T. E. J. Behrens, H. J. Berg, S. Jbabdi, M. F. S. Rushworth, M. W. Woolrich, 
+721 
+Probabilistic diffusion tractography with multiple fibre orientations: What can we gain? 
+722 
+Neuroimage 34, 144–155 (2007). 
+723 
+58.  
+E. Glerean, J. Salmi, J. M. Lahnakoski, I. P. Jääskeläinen, M. Sams, Functional 
+724 
+magnetic resonance imaging phase synchronization as a measure of dynamic 
+725 
+functional connectivity. Brain Connect. 2, 91–101 (2012). 
+726 
+59.  
+G. Deco, M. L. Kringelbach, V. K. Jirsa, P. Ritter, The dynamics of resting fluctuations 
+727 
+in the brain: metastability and its dynamical cortical core. Sci. Rep. 7, 3095 (2017). 
+728 
+60.  
+A. Ponce-Alvarez, et al., Resting-state temporal synchronization networks emerge 
+729 
+from connectivity topology and heterogeneity. PLoS Comput. Biol. 11, e1004100 
+730 
+(2015). 
+731 
+61.  
+P. Tewarie, et al., Tracking dynamic brain networks using high temporal resolution 
+732 
+MEG measures of functional connectivity. Neuroimage 200, 38–50 (2019). 
+733 
+62.  
+R. Bro, PARAFAC. Tutorial and applications. Chemom. Intell. Lab. Syst. 38, 149–171 
+734 
+(1997). 
+735 
+63.  
+C. A. Andersson, R. Bro, The N-way toolbox for MATLAB. Chemom. Intell. Lab. Syst. 
+736 
+52, 1–4 (2000). 
+737 
+64.  
+M. E. Timmerman, H. A. L. Kiers, Three‐mode principal components analysis: 
+738 
+Choosing the numbers of components and sensitivity to local optima. Br. J. Math. 
+739 
+Stat. Psychol. 53, 1–16 (2000). 
+740 
+65.  
+R. Hindriks, et al., Can sliding-window correlations reveal dynamic functional 
+741 
+connectivity in resting-state fMRI? Neuroimage 127, 242–256 (2016). 
+742 
+66.  
+R. Q. Quiroga, A. Kraskov, T. Kreuz, P. Grassberger, Performance of different 
+743 
+synchronization measures in real data: a case study on electroencephalographic 
+744 
+preprint (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this
+this version posted December 12, 2021. 
+; 
+https://doi.org/10.1101/2021.12.10.472068
+doi: 
+bioRxiv preprint 
+
+18 
+ 
+signals. Phys. Rev. E 65, 41903 (2002). 
+745 
+67.  
+Y. Benjamini, Y. Hochberg, Controlling the false discovery rate: a practical and 
+746 
+powerful approach to multiple testing. J. R. Stat. Soc. Ser. B, 289–300 (1995). 
+747 
+68.  
+R. D. Bharath, et al., Machine learning identifies “rsfMRI epilepsy networks” in 
+748 
+temporal lobe epilepsy. Eur. Radiol. 29, 3496–3505 (2019). 
+749 
+69.  
+H. Eryilmaz, et al., Working memory load-dependent changes in cortical network 
+750 
+connectivity estimated by machine learning. Neuroimage 217, 116895 (2020). 
+751 
+ 
+752 
+  
+753 
+ 
+754 
+  
+755 
+ 
+ 
+756 
+preprint (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this
+this version posted December 12, 2021. 
+; 
+https://doi.org/10.1101/2021.12.10.472068
+doi: 
+bioRxiv preprint 
+
+19 
+ 
+VI. Figures  
+757 
+Figure 1: Overview of the analysis pipeline. We used the same Shen parcellation for DWI 
+758 
+and fMRI data. Time-resolved functional connectivity was estimated using a metric for phase 
+759 
+connectivity. A proxy measure for metastability was derived from the phase information. Time-
+760 
+resolved networks were subsequently extracted from the concatenated data from all subjects 
+761 
+using non-negative tensor factorisation (NNTF). Dwell times and nonstationarity (excursions 
+762 
+from the median) were retrieved for each spatial pattern of functional connectivity (6 resting-
+763 
+state networks and 1 ‘residual’ network). At the same time, time-resolved connectivity was 
+764 
+predicted on a sample by sample basis based on a linear combination of eigenmodes (hidden 
+765 
+patterns in the anatomical network). Measures were used for classification and feature 
+766 
+ranking.    
+767 
+Figure 2: Metastability and time-resolved functional networks in DOC. Panel A displays 
+768 
+metastability for all groups: healthy controls (HC), minimally conscious state (MCS), 
+769 
+unresponsive wakefulness state (UWS). Panels B-H display the distributions of nonstationarity 
+770 
+(excursions from the median) for the residuals and time-resolved networks. Panels I-N show 
+771 
+the spatial patterns of time-resolved output networks. Abbreviations: default mode network 
+772 
+(DMN), frontoparietal network (FPN), **, and *** denote p < 0.01 and p <0.001 respectively. 
+773 
+The colourbar indicates the strength of that specific area to the overall spatial pattern.  
+774 
+Figure 3: Relationship between time-resolved connectivity and eigenmodes. Panel A 
+775 
+shows the prediction of static functional connectivity based on structural connectivity for all 
+776 
+three groups (HC, MCS and UWS) in terms of the Pearson correlation coefficient. Panel B 
+777 
+shows the prediction of time-resolved functional connectivity based on eigenmodes. These 
+778 
+distributions of eigenmode predictions are accompanied with predictions based on surrogate 
+779 
+data. We further illustrate the level of fluctuations in eigenmode expression for all three groups 
+780 
+(HC, MCS, UWS) for dominant (reflecting network integration, Panel C) and non-dominant 
+781 
+eigenmodes (reflecting increasing network segregation, Panel D) accompanied with results 
+782 
+for surrogate data, ** and *** denote p < 0.01 and p <0.001 respectively. Panels E-G show 
+783 
+that metastability is strongly correlated to modulations in eigenmode expression within every 
+784 
+group. 
+785 
+Figure 4: Feature ranking. We illustrate the feature weights for classification based on 
+786 
+diagonal adaptation of neighborhood component analysis (NCA). 
+787 
+ 
+788 
+ 
+789 
+ 
+790 
+ 
+791 
+ 
+792 
+ 
+793 
+ 
+794 
+ 
+795 
+ 
+796 
+ 
+ 
+797 
+preprint (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this
+this version posted December 12, 2021. 
+; 
+https://doi.org/10.1101/2021.12.10.472068
+doi: 
+bioRxiv preprint 
+
+20 
+ 
+Figure 1: 
+798 
+ 
+799 
+ 
+800 
+ 
+801 
+ 
+802 
+ 
+803 
+ 
+804 
+ 
+805 
+ 
+806 
+ 
+807 
+ 
+ 
+808 
+preprint (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this
+this version posted December 12, 2021. 
+; 
+https://doi.org/10.1101/2021.12.10.472068
+doi: 
+bioRxiv preprint 
+
+21 
+ 
+Figure 2:  
+809 
+ 
+810 
+ 
+811 
+ 
+ 
+812 
+preprint (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this
+this version posted December 12, 2021. 
+; 
+https://doi.org/10.1101/2021.12.10.472068
+doi: 
+bioRxiv preprint 
+
+22 
+ 
+Figure 3: 
+813 
+ 
+814 
+ 
+815 
+Figure 4:  
+816 
+ 
+817 
+ 
+ 
+818 
+preprint (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this
+this version posted December 12, 2021. 
+; 
+https://doi.org/10.1101/2021.12.10.472068
+doi: 
+bioRxiv preprint 
+
+23 
+ 
+Table 1. Classification accuracy, sensitivity and specificity (mean and standard deviation) for 
+819 
+MCS vs UWS, HC vs UWS and HC vs MCS using three different SVM-based classification 
+820 
+approaches. Performance of the classification using the real experimental data is presented 
+821 
+alongside the performance of classicisation based on surrogate data, to define change level. 
+822 
+SVM 
+classifie
+r 
+method 
+Group 
+Comparis
+on 
+Accuracy 
+Sensitivity 
+Specificity 
+Experimen
+tal data 
+Surroga
+te data 
+Experimen
+tal data 
+Surroga
+te data 
+Experimen
+tal data 
+Surroga
+te data 
+LOOCV 
+(Leave-
+one-out 
+cross-
+validatio
+n) 
+MCS vs 
+UWS 
+79.1% 
+66% 
+83.3% 
+100% 
+69.2% 
+0% 
+HC vs 
+UWS 
+95.8% 
+72% 
+97.1% 
+100% 
+92.3% 
+0% 
+HC vs 
+MCS 
+95.3% 
+53% 
+94.1% 
+100% 
+96.7% 
+0% 
+10-fold 
+cross-
+validatio
+n 
+MCS vs 
+UWS 
+76.1±0.03
+% 
+66±0% 
+80.0±0.04
+% 
+100±0% 
+67.1±0.04
+% 
+0±0% 
+HC vs 
+UWS 
+95.5±0.01
+% 
+72±0% 
+96.6±0.01
+% 
+100±0% 
+92.8±0.04
+% 
+0±0% 
+HC vs 
+MCS 
+93.8±0.02
+% 
+53±0% 
+93.8±0.01
+% 
+100±0% 
+93.7±0.03
+% 
+0±0% 
+60-40 
+data 
+splitting 
+MCS vs 
+UWS 
+73.5±0.12
+% 
+66±0% 
+78.4±0.14
+% 
+100±0% 
+64.5±0.11
+% 
+0±0% 
+HC vs 
+UWS 
+95.5±0.05
+% 
+72±0% 
+96.3±0.07
+% 
+100±0% 
+93.4±0.08
+% 
+0±0% 
+HC vs 
+MCS 
+93.6±0.05
+% 
+53±0% 
+93.3±0.06
+% 
+100±0% 
+94.2±0.08
+% 
+0±0% 
+ 
+823 
+ 
+824 
+ 
+825 
+preprint (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this
+this version posted December 12, 2021. 
+; 
+https://doi.org/10.1101/2021.12.10.472068
+doi: 
+bioRxiv preprint 

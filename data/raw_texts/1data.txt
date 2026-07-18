@@ -1,0 +1,1131 @@
+1 
+ 
+ 
+How sustainable are different levels of consciousness? 
+Erik J Wiersma 
+ 
+Affiliation:  Alba Biologics, Toronto, Ontario, Canada,  
+Email: erikwiersma@rogers.com 
+ 
+Abstract: 
+The human brain processes a wide variety of inputs and does so either consciously or 
+subconsciously. According to the Global Workspace theory, conscious processing involves 
+broadcasting of information to several regions of the brain and subconscious processing 
+involves more localized processing. This theoretical paper aims to expand on some of the aspects 
+of the Global Workspace theory: how the properties of incoming information result in it being 
+processed subconsciously or consciously; why processing can be either be sustained or short-
+lived; how the Global Workspace theory may apply both to real-time sensory input as well as to 
+internally retained information.  
+This paper proposes that: familiar input which does not elicit intense emotions becomes 
+processed subconsciously and such processing can be continuous and sustained; input that 
+elicits relatively intense emotions is subjected to highly sustainable conscious processing; input 
+can also undergo meta-conscious processing. Such processing is not very sustainable but can 
+exert control over other cognitive processes. This paper also discusses possible benefits of 
+regulating cognitive processes this way.  
+ 
+Keywords: Consciousness, Global Workspace theory, cognition, emotion 
+ 
+ 
+ 
+ 
+
+2 
+ 
+1. 
+Introduction 
+1.1 The Global Workspace Theory  
+Consciousness is a multi-faceted concept, and this paper is limited to some aspects; to 
+access consciousness (the type that can be used for reasoning and directing acting) but not 
+phenomenal consciousness (subjective sensations such as the experience of colours, tastes, 
+smells etc.). Also, this paper will look at different levels of wakeful consciousness, especially 
+how such levels are attained and sustained. A defining feature of consciousness is that a person 
+can report on the content of what is being processed; in contrast, the content of subconscious 
+processing is not reportable. These two levels (consciousness and subconsciousness) can, as 
+presented later in this paper, be divided into other levels.  
+According to the Global Workspace (GW) theory (Baars, 1997; Baars 2005; Baars, 
+Franklin & Ramsoy, 2013) consciousness involves the broadcasting of selected information to 
+many different brain regions. During the onset of conscious processing there is a shift from 
+isolated local processing towards shared, global processing. Broadcasting is facilitated by the 
+thalamus supporting a cortical ‘up state’, enabling different cortical regions to communicate with 
+one another in a synchronized fashion (Rigas & Castro-Alamancos, 2007; Steriade, McCormick 
+& Sejnowski, 1993). Cortical broadcasting leads to extensive cognitive resources being spent on 
+one (out of many) stream of information so that it is processed accurately and effectively. 
+Ongoing competition for mental resources determines which stream of information will be 
+broadcasted. When information is processed consciously it is often perceived as being unitary 
+and internally consistent — this is likely a result of utilizing substantial resources on focussed 
+processing. Over time the brain’s focus will shift to different streams of input (James, 1890, p. 
+243; Hasenkamp, Wilson-Mendenhall, Duncan & Barsalou, 2012; Logothetis, Leopold & 
+Sheinberg, 1996; Vanhaudenhuyse et al., 2010). This ability, to re-direct the brain’s cognitive 
+resources, is useful when responding to a changing environment.  
+There is experimental support for GW theory; for example, experiments utilizing 
+functional magnetic resonance imaging indicate that conscious processing coincides with 
+integration among different brain regions (Fahrenfort et al., 2012; Godwin, Barry & Marois, 
+2015). Also, it has been possible to dissect the onset of conscious processing (Dehaene, 2014, pp. 
+121-142) both in terms of stimuli thresholds that need to be exceeded, as well as tracking the 
+time course of how different brain regions become successively involved during the onset of 
+consciousness. Studies provide support for three levels of cognitive processing (Dehaene, 
+Changeux, Naccache, Sackur & Sergent, 2006; Dehaene, 2014, pp.190-193). The lowest level, 
+subliminal processing, is caused by stimuli having weak bottom-up strength. Such stimuli do not 
+result in wide broadcasting nor the ability to report on the stimuli. The next level, pre-conscious 
+processing, is caused by strong stimulus in the absence of strong top-down attention. It has the 
+potential of becoming reportable, albeit after a temporal delay. The third level, conscious 
+processing, is caused by strong stimulus strength and strong top-down attention, and it is 
+reportable. Two publications (Zylkerberg, Slezak, Roelfsema, Dehaene & Sigman 2010; 
+Zylkerberg, Dehaene, Roelfsema & Sigman, 2011) describe reverse engineering where these 
+levels of brain processes were modeled by a computer software. This software was able to 
+accurately replicate some aspects of short-term processing of simple visual stimuli. This model, 
+described in three publications (Dehaene, Changeux, Naccache, Sackur & Sergent, 2006; 
+
+3 
+ 
+Zylkerberg, Slezak, Roelfsema, Dehaene & Sigman, 2010; Zylkerberg, Dehaene, Roelfsema & 
+Sigman, 2011), will be referred to as ‘the Router model’. 
+Another GW-based computer model, LIDA (reviewed by Franklin et al., 2016), also has 
+three levels of cognitive processing, and incoming sensory input is routed to any of these levels 
+through their degree of salience (Franklin & Baars, 2010). High level processing, which is 
+accurate but slow, involves a greater number of cycles of repeat processing than do lower levels 
+of processing (Faghihi, Estey, McCall & Franklin, 2015). This feature, to undergo consecutive 
+and iterative rounds of processing, contrasts with the Router model’s short-term start-to-finish 
+processing. Repeated, sustained processing is an important step towards replicating human-like 
+cognition. Humans often perform consecutive rounds of cognitive processing to solve problems 
+(Dehane & Sigman, 2012), each round lasting hundreds of milliseconds. Also, some aspects of 
+conscious experiences require integration of input received at different points in time, i.e. carry-
+over of information from one round of cognitive processing to the next. One such aspect is that a 
+sense of continuity, such as continuous motion, is obtained by integrating sensory information 
+from different time points (Geldard & Sherrick, 1972; Kolers & von Grünau, 1975). Another 
+aspect is that temporal integration enables patterns to be recognized; it has been claimed that the 
+ability to recognize patterns in a long auditory sequence is a marker of conscious processing 
+(Bekinschtein et al., 2009). An additional aspect is that temporal integration is important for the 
+richness of a conscious experience. Our visual experience of the environment is often richer than 
+the information we perceive at any given instance and this because of temporal integration 
+(Melchers & Morrone, 2007). Taken together, integrating information from sustained, repeated 
+cycles of cognitive processing appears to be important for several attributes of human 
+consciousness. 
+This paper seeks to build on the Router and LIDA models to further our understanding of 
+some aspects of consciousness, especially the sustainability of processing. In order to launch 
+such ideas, the remainder of this Introduction will present a brief overview of some principles of 
+cognitive processing and emotions.  
+ 
+1.2 Sensory-coupled Cognition 
+The brain can rapidly and accurately process a diverse and vast amount of information. 
+This involves both real-time processing of input sensory organs, which is briefly summarized in 
+this section, as well as processing that is not directly coupled to sensory input, discussed in the 
+next section. Efficient processing of sensory input is made possible by several operating 
+principles, including the following:  
+The brain uses a high degree of parallel and distributed processing during initial steps of 
+cognition (Cisek & Kalaska, 2010; Feldman & Ballard, 1982; Nassi & Callaway, 2009). Such a 
+principle, which operates at different anatomical scales of the brain, allows for efficient 
+processing. At the smaller scale, parallel processing is carried out by a large number of neural 
+processors that are arranged in series and in layers (Hinton, 2007; Poggio, 2016). Such serial 
+layers form local networks with signalling among adjacent layers. 
+
+4 
+ 
+Parallel processing also operates at the brain’s larger anatomical scale. Distinct brain 
+regions carry out primary processing for different sensory streams, e.g. there are separate centres 
+for visual, auditory and olfactory inputs. Such brain regions, as well as more domain-general 
+regions, are connected through network hubs (Bola & Sabel, 2015; Moon, Lee, Blain-Moraes, & 
+Mashour, 2015; Van Den Heuvel & Sporns, 2013). Some hubs confer regional, short-range 
+connectivity. Other, ‘rich club’ hubs, connect a larger number of brain regions over longer 
+physical distances, and these are seen as being important for large-scale integration of 
+information.  
+Another approach for effective cognition, related to broadcasting of information, is the 
+ability to focus processing on some incoming information at the expense of other, i.e. selective 
+attention (Dehaene, 2014, p.21-22; Yantis, 2008). Attention involves competitive interactions 
+during inter-neuronal communications such that signalling from some neurons but not others are 
+forwarded for processing (Moran & Desimone, 1985). Attentional mechanisms are at work 
+during several stages of cognitive processing, both in the prefrontal cortex (Kim, Ährlund-
+Richter, Wang, Deisseroth, & Carlén 2016) and in other brain regions (Rueda & Posner, 2013).  
+Effective processing is also made possible by memories of previous experiences. 
+Creating rich associations is an integral part of forming memories as well as in retrieving them. 
+Memories can be formed more efficiently when items are presented in a context, such as linked 
+to imagery (Groninger, 1971) or in an emotional context (Yesavage, Rose & Bower, 1983) as 
+compared to an absence of such contexts. The hippocampus has a key role in forming 
+associations, e.g. in linking a new item or event with information about its time and place 
+(Mankin et al., 2012; Staresina & Davachi, 2009). The hippocampus has neural connections with 
+several regions of the cortex, and such connections are regarded as important for integrated 
+memories. During memory retrieval a single cue, such as a smell (Gottfried, Smith, Rugg. & 
+Dolan 2004), spatial cue (Karlsson & Frank, 2009) or words (Horner, Bisby, Bush, Lin, & 
+Burgess, 2015) can bring back larger episodic memories. Such cue-based recall of memory helps 
+the processing of incoming sensory information. 
+ 
+1.3 Sensory-decoupled cognition 
+In addition to sensory-dependent cognition, described in the previous section, cognitive 
+processing can also involve content that is unrelated to immediate sensory input. Such sensory-
+decoupled processing (hereafter called ‘decoupled cognition’) includes activities such as day 
+dreaming, mind wandering, creative thinking and rumination (Christoff, Irving, Fox, Spreng & 
+Andrews-Hanna, 2016). Studies (Killingsworth & Gilbert, 2012; Klinger & Cox 1987; Song & 
+Wang, 2012) suggest that 20-50% of our time awake is spent mind wandering.  
+Decoupled cognition is not just abundant, it can also lead to important outcomes: 
+planning for the future and achieving future goals (Stawarczyk, Majerus, Maj, Van Der Linden, 
+& Argembeau, 2011; Smallwood, Ruby & Singer, 2013), reprocessing of memory (Wang et al. 
+2009) as well as creativity and problem solving (Beaty, Benedek, Silvia, & Schacter, 2016; Ritter 
+& Dijksterhuis, 2014; Sio & Ormerod, 2009). Decoupled cognition can also have negative 
+effects such as poorer performance of ongoing tasks (He et al., 2011; Stawarczyk, Majerus, Maj, 
+Van Der Linden & Argembeau 2011) and unhappiness (Killingsworth & Gilbert, 2012). It has 
+
+5 
+ 
+been proposed (Allen et al. 2013; Vatansever, Manktelow, Sahakian, Menon. & Stamatakis, 
+2015) that decoupled cognition has an overall positive impact when it is flexibly balanced with 
+sensory-dependent cognition.  
+Some brain regions, those of default mode network (Grecius, Krasnow, Reiss & Menon, 
+2003; Mason et al., 2007), show preferential activation during decoupled cognition, but several 
+other regions appear not to have such a preference. Many brain regions become activated when 
+we plan for or are memorizing an event (decoupled processing) as well as when we experience 
+something in real-time experience and perform motor action (sensory-dependent processing) 
+(Barsalou, 2008, p. 627; Decety & Grèzes, 2006; Nyberg et al., 2000). Because there are 
+similarities between decoupled and sensory-dependent processing it has been suggested 
+(Shanahan, 2006; Song & Tang, 2008) that GW theory applies to both types of processing. This 
+idea will be expanded upon in this paper.  
+   
+1.4 Emotion 
+Emotion is a central and complex part of consciousness. Although experts have found it 
+difficult to agree on a definition for ‘emotion’ there is agreement that characteristics of emotion 
+include “recruits response systems” and “motivates cognition and action” (Izard, 2007, p. 271). 
+This paper will focus on such functional characteristics.  
+Emotions are evoked by internal or external cues and result in different types of 
+responses. A wide variety of functions are influenced by emotions, such as attention (Bocanegra 
+& Zeelenberg, 2011; Fredrickson & Branigan, 2005; Koster, Crombez, Van Damme, Verschuere 
+& De Houwer, 2004; Öhman, Flykt & Esteves, 2001), reasoning and decision making (De 
+Martino, 2006; Blanchette, 2006; Sohn et al., 2015; Zeelenberg, Nelissen, Breugelmans & 
+Pieters et al. 2008) as well as arousal and memory (Bradley et al., 1992; Cahill & McGaugh, 
+1995). It has been claimed that emotions are economical and effective means to respond to input 
+in a beneficial way (Bechara & Damasio, 2005; Lowe & Ziemke, 2011; Muramatsu & Hanoch, 
+2005).  
+Emotions are caused by neural activity and can arise from both sensory-dependent 
+(Bocanegra & Zeelenberg, 2011; Öhman, Flykt & Esteves, 2001) and decoupled processing 
+(Killingsworth & Gilbert, 2012; Ruby, Smallwood, Engen & Singer, 2013). The neural activity 
+that gives rise to emotions can be more or less complex. On one hand, it is understood that the 
+processing that gives rise to somatosensory sensations (e.g. pain and temperature) is less 
+complex (Lloyd, McGlone & Yosipovitch, 2015; Ross, 2011). On the other hand, many other 
+emotions are caused by more complex processing. According to appraisal theories (Roseman & 
+Smith, 2001; Moors, Ellsworth, Scherer & Frijda, 2013) emotions arise from cognitive 
+evaluation of events and situations. It has been proposed (Scherer, 2009; Scherer & Mueleman, 
+2013) that such evaluations involve appraisal of several categories (relevance, coping potential, 
+normative significance, as well as their subcategories) and that, depending on how such 
+categories score, specific emotions are evoked; joy, rage, fear, sadness. A similar idea, using a 
+different scheme, was proposed by Roseman (2013). These hypotheses have received some 
+experimental support. Scherer and Mueleman (2013) found that subjects’ reports of their 
+emotions correlated with the ratings they provided for different appraisal categories. In another 
+
+6 
+ 
+study Roseman and Evdokas (2004) was able to alter the emotions that subjects experienced 
+through controlled manipulation of their appraisal categories.  
+ 
+2. A Modified Global Workspace Model for Consciousness  
+2.1 Overview of the Model 
+Figure 1 presents a model for cognitive processing that is based on GW theory and shares 
+some of its elements with the Router model and the LIDA model.   
+During the first step, sensory input is received by local networks of parallel and layered 
+processors, and these transform the incoming information. Such processing also involves the 
+information being appraised, and may lead to that emotions are evoked. Emotions lead to several 
+types of responses and functions, e.g. to attention and access to short-term memory where 
+information can be stored for several seconds (McGaugh, 2000). This short-term storage enables 
+the information to be carried forward to subsequent rounds of processing. Attention also allows 
+for access to network hubs as well as to long-term memories that can be retrieved and utilized for 
+additional rounds of cognition. When information gains access to hubs, it becomes condensed. 
+This condensation will result in some information being filtered away, i.e. to information 
+remaining unconscious. This processed and condensed information gains access hubs where it is 
+broadcasted and received by local networks. This closes one round of cognitive processing. 
+Provided that the broadcasting is sufficiently widespread we will become conscious of the 
+information. 
+Figure 1 is a generic model of cognitive processing. The next sections of this paper will 
+discuss different levels of consciousness and proposes how variations (Figure 2) of this generic 
+model describe different levels of processing. 
+ 
+2.2 Sustainability of Cognitive Processing  
+Conscious processing has a bottleneck — generally we are not conscious of several 
+streams of information at the same time (Pashler, 1994; Logothetis, Leopold & Sheinberg, 1996). 
+There are indications (Dixon, Fox & Christoff, 2015) that this bottleneck applies both to sensory-
+dependent processing and to decoupled processing.  
+There are reasons for believing that rich club hubs are responsible for the limited capacity 
+of conscious processing, and that this limitation is due to the burden of broadcasting information. 
+Rich club hubs connect brain regions through long-distance axonal projections (Rubinov, Ypma, 
+Watson & Bullmore 2015). Such a mode of wiring is not as economical as utilizing a more 
+distributed connectivity but it brings the advantages of adaptable and integrated processing 
+(Bullmore & Sporns, 2012). Analysis of gene expression also suggests there is cost; the 
+transcriptional signature of rich club hubs indicates high metabolic activity (Fulcher & Fornito, 
+2016), exceeding that of several other neuronal structures (Vertes et al., 2016), suggesting that 
+rich club hubs operate at a high capacity. If rich club hubs are indeed the bottleneck of conscious 
+
+7 
+ 
+processing, then it becomes important to select the streams of information that gain access to 
+these hubs. This paper suggests that it is emotions that create such access. One of the functions 
+of emotions is selective attention (Bocanegra & Zeelenberg, 2011; Fredrickson & Branigan, 
+2005; Koster, Crombez, Van Damme, Verschuere & De Houwer, 2004; Öhman, Flykt & 
+Esteves, 2001) which, in context of this model, is understood as creating access to the global 
+workspace through rich club hubs. Other GW-based models make similar proposals, that 
+saliency, feelings (Franklin, Madl, D’Mello & Snaider, 2014, Franklin et al. 2016) and affect 
+(Shanahan, 2005) enable information broadcasting and repeat processing.  
+In the proposed model (Figure 1) local networks of processors create emotions, allowing 
+rich club hubs to broadcast information, and enabling it to undergo repeated rounds of 
+processing. Different streams of information are processed at any given time by different local 
+networks, and unrelated streams compete for access to the same rich club hubs. It is proposed 
+that a given stream can be sustained only if it generates sufficient emotion to be broadcast to a 
+large enough number of local networks. If the number of networks that are engaged in repeat 
+processing cannot be maintained, then that stream of processing will either stop or become 
+diminished. In other words, it is proposed that sustainability is the amount of emotional intensity 
+generated during processing compared to the cognitive effort required for such processing to 
+continue, and this can be expressed as: 
+sustainability of processing = emotional intensity / cognitive effort   
+In order for this equation to be experimentally testable, one needs methods for measuring 
+cognitive effort and emotional intensity. Several methods have been described for measuring 
+cognitive effort, including electroencephalography (Antonenko, Paas, Grabner & Van Gog, 
+2010), pupillometry (Kahnemann & Beatty 1966) and response time measurements (Dux et al., 
+2009; Smallwood, McSpadden & Schooler, 2007). Also a number of methods (reviewed by 
+Mauss & Robinson (2009)) have been used for measuring different emotions.  
+Next, sections 2.2 through 2.4 will look at how this equation applies to different levels of 
+consciousness; briefly, it is proposed that different types of sensory input create different levels 
+of emotional intensity and cognitive effort, and this results in different levels of cognitive 
+processing that have different degrees of sustainability. Thereafter, Sections 2.5 and 2.6 will 
+expand these concepts to decoupled processing.  
+ 
+2.2 The Subliminal Level of Sensory-coupled Processing 
+At this lowest level of consciousness, the brain receives sensory input but performs only 
+cursory processing, i.e. input is processed by early sensory areas of the brain (Dehaene, 2014, 
+pp.121-123; Dehaene, Changeux, Naccache, Sackur & Sergent, 2006), but is not forwarded to 
+other regions of the brain. Such input has been described as having low stimulus strength 
+(Dehaene, Changeux, Naccache, Sackur & Sergent, 2006). Here, such input is viewed as not 
+generating emotion (Table 1, row 1) and, as a consequence, not being sustainable. Inability to 
+access rich club hubs mean that a first round of acquired processing cannot be completed (Figure 
+2, panel 1). Despite such processing not being sustainable, it need not be completely non-
+productive: subliminal processing has the capability to influence attention to a subsequent, 
+
+8 
+ 
+consciously processed stimulus provided that the timing between the two stimuli is very short 
+(Naccache, Blandin & Dehaene, 2002). 
+ 
+2.3 The Preconscious Level of Sensory-coupled Processing 
+Preconsciousness is the next level of consciousness, and it is more capable than 
+subliminal processing. One such capability is to store partially processed information while 
+awaiting for access to conscious processing to become available. Some experimental set-ups 
+(attentional blink and psychological refractory period; reviewed by Dehaene et al. (2006)) 
+provide strong evidence for this capability, and have lead to the view that that preconscious 
+processing is “conscious-in-waiting” (Dehaene, 2014, p. 191). The LIDA model provides a 
+somewhat different view — it proposes that preconscious processing is ongoing and active, and 
+that such activity underpins conscious processing (Franklin & Baars, 2010). 
+There are reasons to believe that preconscious processing is not limited to 
+“consciousness-in-waiting” or to providing support for conscious processing and that it can also 
+lead to functional outcomes all by itself. A number of activities can be performed subconsciously 
+such as integration of multisensory information (Salomon et al. 2016), social signalling (Lakin & 
+Chartrand, 2003), reading and performing additions (Sklar, Nevy, Goldstein, Mandel, Maril & 
+Hassin 2012), decision making (Galdi, Arcuri & Gawronski, 2008), and playing chess (Kiesel, 
+Kunde, Berner & Hoffmann, 2009). Since some of these processes are relatively complex, it 
+seems reasonable that they involve multiple rounds of cognitive processing, i.e. that 
+preconscious processing can be sustained.  
+The studies cited above describe mental operations that had been overlearnt through past 
+events, and this is likely a hallmark for this type of preconscious processing. It has been claimed 
+(Bargh , 1997) that such automated processing is very common; that much of our everyday lives 
+relies on learnt processes that are executed subconsciously. Overlearned processes have been 
+well studied. When a cognitive task is performed regularly, it results in changes to neural 
+structure (myelination) and routing (plasticity) (Chevalier et al., 2015; Mensch et al. 2015; 
+O’Rourke, Gasperini & Young, 2014). Such cellular changes can result in neurons responding 
+more selectively and efficiently to specific stimuli (Baker, Behrmann & Olson, 2002). At the 
+macro-anatomical level, training results in reduced activation of fronto-parietal and other brain 
+regions (Chein & Schneider, 2012; Garner & Dux, 2015; Dux et al., 2009). In other words, 
+whereas the performance of a new task often requires wide-spread brain activation, training 
+results in the same task being performed with far less broadcasting of information. The reduction 
+in fronto-parietal activity could either be due to overlearnt processing not being highly dependent 
+on these regions (Kelly & Garavan, 2005) or, alternatively, that extensive practise has led to 
+fronto-parietal activity becoming more efficient (Garner & Dux, 2015; Dux et al., 2009).  
+The neural changes that occur during learning allows a task to be executed rapidly (Lee, 
+Seo & Jung, 2012) and also to be performed concurrently with other tasks (Garner & Dux, 2015; 
+Dux et al., 2009). This suggests that the cognitive effort for such processing is relatively low. 
+Another important observation is that training often leads to a reduced emotional response 
+(Carretié, Hinojosa & Mercado, 2003; Fisher et al., 2003; Rankin et al. 2010). Assuming that 
+both cognitive effort and emotional intensity are low (Table 1, row 2), one may calculate the 
+
+9 
+ 
+sustainability for preconscious processing; as compared to other levels of consciousness (Table 
+1, rows 1-4), the preconscious level has an intermediate degree of sustainability. 
+  
+2.4 The Conscious Level of Sensory-coupled Processing 
+Conscious processing is characterized by being reportable, and as discussed above, by 
+being effortful. Conscious processing is also seen as being more capable and flexible than 
+preconscious processing, notably through the greater involvement of the prefrontal cortex (Daw, 
+Niv & Dayan 2005; Eslinger & Grattan, 1993; Karnath & Wallesch, 1992). This paper suggests 
+that it is the degree of emotional intensity that determines whether sensory information will be 
+processed consciously or not. It is commonly recognized that novel stimuli can give rise to 
+intense emotions, and that novel stimuli tend to be processed consciously. However, conscious 
+processing and intense emotions are not limited to novel stimuli; in some contexts, re-exposure 
+to a stimulus results in a sensitised response (Grillon & Davis, 1997; Groves & Thompson, 1970; 
+Richardson & Elsayed, 1998). It is suggested that such familiar stimuli can be processed 
+consciously.  
+Assuming a conscious processing involves a relatively high emotional intensity and an 
+intermediate level cognitive effort (Table 1, row 3), the sustainability of such processing would 
+be greater than that of any other level of processing. This means that a stream of conscious 
+processing is likely to be highly recursive and able to effectively compete with other streams. 
+ 
+2.5 Decoupled Processing: Subliminal, Preconscious and Conscious Levels 
+In addition to sensory-coupled processing, cognitive processing can also be decoupled 
+from immediate sensory input (Introduction). Such decoupled processing can compete with 
+sensory-dependent processing for mental resources (reviewed by: Kam & Handy, 2013; 
+Smallwood & Schooler, 2006), and therefore, it is suggested that decoupled processing needs to 
+be included as part of the GW theory. 
+This paper proposes that decoupled processing, like sensory-coupled processing, can 
+have different levels of processing, a point also made by others: Moutard et al. (2015) proposed 
+that decoupled cognition can transition from being subliminal to becoming conscious. Also, it 
+has been proposed (Dixon, Fox & Christoff, 2014) that decoupled processing, similar to sensory-
+dependent cognition, has a lower level of processing that is not resource-demanding, as well as a 
+higher level of processing that requires more resources. There is evidence that memories can 
+induce decoupled processing (Ellamil et al. 2016). This paper suggests that processing of 
+memories, similar to processing of real-time sensory information, can have different emotional 
+intensity, cognitive effort, and sustainability, and that such different parameters determine the 
+cognitive level at which memories are be processed.  More specifically, it is proposed that the 
+relationships outlined in Table 1 apply not only to sensory-dependent cognition but also to 
+decoupled cognition.   
+The subliminal level of processing is not reportable; also it is short-lived and contained 
+within local networks of the brain (Dehaene, Changeux, Naccache, Sackur & Sergent, 2006). 
+
+10 
+ 
+There is reason to believe that some decoupled activity is subliminal, i.e. in the absence of 
+known sensory input, there is temporary activation in isolated areas and small-world networks of 
+the brain (He et al., 2009; Smith et al. 2012). This paper interprets decoupled subliminal activity 
+as being the activation of memories that do not have a significant emotional content, and 
+therefore unable to complete a first round of cognitive processing (Figure 2, panel 5)  
+Preconscious processing is also not reportable, and involves a modest degree of 
+integration of different brain regions (Dehaene, Changeux, Naccache, Sackur & Sergent, 2006). 
+There are indications that decoupled processing can be preconscious. After one has formulated a 
+problem there may be an ‘incubation’ phase before a solution is found. During this ‘incubation 
+phase’ (Hamard, 1954, pp.13-15; Sio & Ormerod, 2009; Ritter & Dijksterhuis, 2014), we are not 
+conscious of trying to solve a problem. However, the fact that we can suddenly reach insight out 
+of the blue has been taken as an indication of subconscious processing. The literature has 
+examples of complex tasks being processed subconsciously, e.g. in higher mathematics, and this 
+would presumably require multiple rounds of processing. Figure 2, panel 6 proposes how this 
+processing may occur.  
+Conscious processing is reportable and involves a high degree of integration among 
+different brain regions (Dehaene, Changeux, Naccache, Sackur & Sergent, 2006). Decoupled 
+consciousness, which is not constrained by real-time sensory information, has the potential of 
+being highly flexible and dynamic. It is understood that an ongoing chain of decoupled thoughts 
+is linked together through memories that share some aspects of their content (James, 1890; 
+Gabora & Carbert, 2015). Such serial linkages are important for creative thinking and problem 
+resolution (Beaty, Benedek, Silvia & Schacter, 2016; Ritter & Dijksterhuis, 2014; Sio & 
+Ormerod, 2009).  
+How can conscious decoupled processing be understood in terms of the model proposed 
+earlier in this paper (Figure 2 and Table 1)? Although this type of processing has different input 
+than sensory-dependent processing (i.e. memories versus sensory input), there are indications 
+that it, like sensory-dependent processing, involves high emotional intensity (Carr & Nielsen, 
+2015; Foulkes & Fleisher, 1975; Tusche, Smallwood, Bernhardt & Singer, 2014). Also, it can be 
+highly sustainability since it can interfere with conscious sensory-dependent processing (Kam & 
+Handy, 2013; Smallwood & Schooler, 2006). Based on this reasoning, it is proposed that both 
+decoupled consciousness and sensory-dependent consciousness have high emotional intensity 
+and high sustainability (Table 1, row 3). Figure 2, panels 3 and 7 illustrates these two types 
+processing as being very similar albeit that decoupled processing does not utilize real-time 
+sensory input.  
+ 
+2.6 Decoupled Processing: the Meta-conscious Level 
+Meta-consciousness is seen as the highest level of processing, and it is reportable. 
+Whereas other levels of consciousness involve processing (or reflecting) on items, events or 
+concepts, meta-consciousness involves reflecting on thinking processes themselves. Schooler 
+
+11 
+ 
+(2002, p. 339) defines meta-conscious1 processing as "intermittent explicit re-representations of 
+the contents of consciousness". There are several implications of this definition:  
+First, in order to re-represent consciousness, meta-conscious processing must occur after 
+conscious processing – a ‘temporal dissociation’ (Schooler 2002). This means that meta-
+consciousness is decoupled from sensory input (Figure 2, panel 8) and that there is no sensory-
+coupled level of meta-consciousness (Figure 2, panel 4).  
+Second, if meta-consciousness processing is the re-representation of consciousness then it 
+is likely to pose a greater cognitive effort than does conscious processing. It has been found 
+(reviewed by Schooler, 2002) that monitoring conscious content results in loss of information, 
+consistent with the idea that meta-conscious monitoring demands more mental resources than 
+does conscious experience. Another indication that meta-consciousness involves a high cognitive 
+effort comes from studies of how it interferes with performance of an unrelated task. It was 
+found (Smallwood, McSpadden & Schooler, 2007) that mind wandering with awareness leads to 
+longer response time of an unrelated task than does mind wandering without awareness.  
+Third, it may be expected that re-representation (meta-consciousness) may lead to 
+emotions becoming less vivid as compared to when they are directly experienced 
+(consciousness). Experiments indicate that this can indeed be the case (Papies, Pronk, Keesman 
+& Barsalou 2015; Schooler, Areily & Loweenstein, 2003, pp. 56-59; Shapira, Gundar-Goshen & 
+Dar, 2013).  
+If meta-consciousness involves less emotional intensity and a greater cognitive effort 
+than does consciousness, then it will, according to formula presented earlier, be less sustainable 
+than consciousness (Table 1, rows 3 versus 4). There are indications that meta-conscious 
+processing is indeed less sustainable than other forms of decoupled conscious processing: 
+alcohol consumption (Sayette, Reichle & Schooler, 2009), craving for cigarettes (Sayette, 
+Schooler &, Reichle, 2010) and sleep deprivation (Poh, Chong & Chee, 2016) reduce the 
+proportion of mind wandering that involves awareness. Since these different experimental 
+conditions had a greater impact on the occurrence of meta-consciousness than on decoupled 
+consciousness, it is deemed that meta-consciousness is less sustainable than decoupled 
+consciousness.  
+There is evidence that meta-consciousness can be productive, i.e. that the act of observing 
+our conscious thoughts can influence how we think, feel and the decisions we make. Hasenkamp 
+et al. (2012) found that the act of catching oneself mind wandering is followed by attention being 
+brought back to task performance, and task performance being resumed. Such an observation is 
+consistent with meta-consciousness exerting regulation on other cognitive processes. In another 
+example, Papies et al. (2015) found that observing one’s reactions to pictures of attractive food 
+leads to changes in how subjects rated the attractiveness of food. Also, in a separate extension of 
+the same experiment, it was found that the subjects’ choice of food purchase changed.  
+Others have also argued that high-level processing can have productive outcomes. It has 
+been proposed that executive control is exerted by high-level processes that re-represent / reflect 
+                                                          
+1 Some publications use the term ‘mind wandering with awareness’ rather than ‘meta-
+consciousness’, and this paper will use these terms interchangeably. 
+
+12 
+ 
+on input (Son & Schwartz, 2002; Zelaso, 2015) and that are decoupled from sensory input 
+(Stanovich, 2009).  
+In summary, it appears that meta-consciousness processing has dual properties. On one 
+hand, it is not very sustainable and, on the other hand, once meta-conscious processing does 
+occur, it has the ability to influence many other mental processes. 
+ 
+3. Discussion 
+This theoretical paper builds on the GW theory proposed by Baars (Baars, 1997; Baars, 
+2005; Baars, Franklin & Ramsoy, 2013) and elaborated by Dehaene (Dehaene, Changeux, 
+Naccache, Sackur & Sergent, 2006; Zylkerberg, Slezak, Roelfsema, Dehaene. & Sigman 2010; 
+Zylkerberg, Dehaene, Roelfsema & Sigman, 2011), Franklin (Franklin, Madl, D’Mello & 
+Snaider, 2014; Franklin et al. 2016) and their respective colleagues. The model presented in this 
+paper elaborates on how well different levels of consciousness are sustained. Sustained 
+processing is important for solving complex problems and for creating a rich, dynamic 
+understanding of our surroundings (Introduction). In addition, this paper elaborates on how 
+decoupled processing can be incorporated into the same general model as sensory-dependent 
+processing. Such a common framework might simplify and help provide a coherent 
+understanding of these two types of processing. 
+The proposed model has its limitations. Currently it is a relatively simple conceptual 
+model and, unlike the Router and LIDA models, has not yet been translated into an elaborate 
+computer architecture. Also, additional experiments are needed to corroborate or refute the 
+model, particularly for subliminal and preconscious decoupled processing. The model proposes 
+that each level of processing has a distinct value for emotional intensity, cognitive effort and 
+sustainability (Table 1). It is possible that once more experimental data is available that some 
+heterogeneity is discovered within each level of processing.  
+If the presented model is essentially correct, then what would be the utility for regulating 
+the different levels of processing as described? There is a trend when comparing the three lowest 
+levels of consciousness, subliminal, preconscious and conscious processing: for each higher level 
+of processing the input receives increasingly higher emotional appraisal, leading to greater 
+access to the global workspace and to higher sustainability of processing. This trend appears to 
+make sense – that large amounts of mental resources are dedicated to tasks that (through 
+emotional appraisal) are deemed to be highly relevant and important, and that the processing of 
+such tasks becomes sustainable. This paper proposes that such a principle applies to both 
+sensory-dependent and to decoupled processing; that allocation of resources applies not just to 
+how we process large amounts of information about a real-time situation (sensory-dependent 
+processing), but also to how we plan for future actions and how we solve problems off-line by 
+retrieving information from the brain’s vast memory banks (decoupled processing) 
+Peculiarly, the highest level of processing, meta-consciousness, does not fully conform to 
+the trends seen for the three lower levels of processing (Table 1). Emotional intensity, cognitive 
+effort and sustainability increase in the order subliminal < preconscious < conscious processing. 
+However, only cognitive effort increases when comparing the highest two levels, conscious < 
+
+13 
+ 
+meta-conscious. The other two parameters, emotional intensity and sustainability, are lower at 
+the highest level of processing, meta-conscious < conscious.  
+What would be the utility of meta-consciousness having less sustainability than 
+consciousness? This may relate to the idea that meta-consciousness has the ability to regulate 
+other cognitive processes. If the primary utility of meta-consciousness was to exert a regulatory 
+function, and it had no direct role in processing input, it may be best if it was not to too 
+sustainable; if meta-consciousness was brief, then most of our mental resources could be spent 
+on actual processing of input, and only limited resources be spent on regulating such processing.  
+
+14 
+ 
+Table 1: Relationships between properties of input and cognitive processing 
+Row 
+number 
+Level of consciousness 
+                     Properties of input and how it is processed 
+ 
+Sustainability of 
+processing 
+Familiarity 
+ 
+Emotional intensity 
+ 
+Cognitive effort 
+1. 
+Subliminal 
+Low, medium or high 
+Negligible (0) 
+N/A 
+N/A 
+2. 
+Preconscious 
+High 
+Low (1) 
+Low (1) 
+1 
+3. 
+Conscious 
+Low, medium or high 
+High (4) 
+Medium (2) 
+2 
+4. 
+Meta-conscious 
+Medium or high 
+Medium to high (3) 
+High (4) 
+0.8 
+ 
+This table illustrates how different properties of input, and how such input is processed, leads to different degrees of sustainability of 
+processing.  This table applies to both sensory input (rows 1-3) as well as to decoupled input (memory) (rows 1-4). The three middle 
+columns illustrate that input can have different degrees of familiarity, evoke different degrees of emotions and impart different 
+cognitive efforts. Each of these different variables is ranked from negligible to high, corresponding to ordinal values ranging from 
+zero to four.  The sustainability of processing (right-most column) is calculated; sustainability of processing = emotional intensity / 
+cognitive effort.   
+ 
+
+15 
+ 
+ 
+ 
+Figure 1:  A proposed workflow model for cognitive processing 
+The figure illustrates how the different components of cognition interact to form feed-back loops.  The 
+broken arrow and the clock indicate that it takes much longer to create ‘established long-term memory’ 
+than to complete other parts of the cognitive cycle.  
+  
+Next page 
+Figure 2: Proposed workflows during different levels of consciousness  
+The panels in this figure illustrate different variants of the cognitive cycle that are proposed to occur 
+during different levels of consciousness.  Each panel is a simplified version of the workflow presented in 
+Figure 1, excluding ‘motor action’, ‘external environment’ and ‘somatic state’.  The processes illustrated 
+in panels 1 and 5 do not form a cognitive cycle.  The processes in panels 2 and 6 form cognitive cycles; 
+however, they do not include formation of new long-term memory, only recall from existing long-term 
+memory. Panels 3, 7 and 8 form cognitive cycles, including forming new long-term memory. These three 
+panels have increased engagement of some parts of their cycles, indicated by larger font (medium 
+activity), and bold large font (high activity); also, these panels have increased broadcasting of 
+information, indicated by two or four arrows originating from ‘hub’.   
+External 
+environment
+Somatic state
+Sensory 
+input
+Recalled long-
+term memory
+Emotion
+Attention & 
+arousal
+Established 
+long-term
+memory
+Short-term 
+memory 
+Motor action
+Local network of 
+processors
+Hub
+
+16 
+ 
+ 
+ 
+ 
+Sensory-coupled processing
+Sensory-decoupled processing 
+Short-term 
+memory 
+Subliminal
+Conscious
+Meta-conscious
+Recalled 
+memory
+Emotion
+Attention
+Long-term
+memory
+Short-term 
+memory 
+Local 
+network
+Hub
+Sensory 
+input
+N/A
+Local network
+Sensory input
+1.
+3.
+2.
+Recalled 
+memory
+Emotion
+Attention
+Local 
+network
+Hub
+6.
+Recalled memory
+Local network
+5.
+8.
+Preconscious
+Recalled 
+memory
+Emotion
+Attention
+Short-term 
+memory 
+Local 
+network
+Hub
+Sensory 
+input
+Emotion
+Attention
+Short-term 
+memory 
+Local 
+network
+Hub
+7.
+Recalled 
+memory
+Long-term
+memory
+Emotion
+Attention
+Short-term 
+memory 
+Local 
+network
+Hub
+Recalled 
+memory
+Long-term
+memory
+
+17 
+ 
+Acknowledgements:   The author would like thank Drs. Vince Taguchi and Donald Stewart for 
+their valuable comments on this paper  
+Funding Details:  This work was not supported by funding 
+Disclosure statement: The author declares no financial conflict of interest in this research 
+ 
+ 
+
+18 
+ 
+References 
+Allen, M., Smallwood, J., Christensen, J., Gramm, D., Rasmussen, B, Jensen, C.G., Roepstorff & 
+Lutz, A. (2013). The balanced mind: the variability of task-unrelated thoughts predicts 
+error monitoring. Frontiers in Human Neuroscience, 7,  
+http://journal.frontiersin.org/article/10.3389/fnhum.2013.00743/full 
+Antonenko, P. Paas, F., Grabner, R. & Van Gog, T. (2010). Using electroencephalography to 
+measure cognitive load. Educational Psychology Review. 22(4), 425-438 
+Baars, B.J. (1997). In the theatre of consciousness. Global Workspace Theory, a rigorous 
+scientific theory of consciousness. Journal of Consciousness Studies, 4(4), 292-309 
+Baars, B.J.  (2005). Global workspace theory of consciousness: toward a cognitive neuroscience 
+of human experience?. Progress in Brain Research, 150, 45-53 
+Baars, B.J., Franklin, S. & Ramsoy, T.Z. (2013). Global workspace dynamics: cortical “binding 
+and propagation” enables conscious content. Frontiers in Psychology, 4, 
+http://journal.frontiersin.org/article/10.3389/fpsyg.2013.00200/full 
+Baker, C.I., Behrmann, M. & Olson, C.R. (2002). Impact of learning on representation of parts 
+and wholes in monkey inferotemporal cortex. Nature Neuroscience, 5, 1210-1216 
+Bargh, J.A. (1997). The automaticity of everyday life. In R.S. Wyer, Jr. (Ed.), Advances in social 
+cognition, volume 10. The automaticity of everyday life (pp. 1-62). New York, NY; 
+Lawrence Erlbaum Associates, Inc.  
+Barsalou, L.W. (2008). Grounded cognition.  Annual Review of Psychology, 59, 617-645 
+Beaty, R.E., Benedek, M., Silvia, P.J. & Schacter, D.L. (2016). Creative cognition and brain 
+network dynamics, Trends in Cognitive Sciences, 20(2), 87-95 
+Bechara, A. & Damasio, A.R. (2005). The somatic marker hypothesis: a neural theory of 
+economic decision. Games and Economic Behavior, 52, 336-372 
+Bekinschtein, T.A., Dehaene, S., Rohaut, B., Tadel, F., Cohen, L. & Naccache, L. (2009). Neural 
+signatures of the conscious processing of auditory regulaties. Proceedings of the National 
+Academy of Sciences, USA, 106(5), 1672-1677 
+Blanchette, I. (2006). The effect of emotion on interpretation and logic in a conditional reasoning 
+task. Memory & Cognition, 34(5), 1112-1125 
+Bocanegra, B.R. & Zeelenberg, R. (2011). Emotional cues enhance the attentional effects on 
+spatial and temporal resolution. Psychonomic Bulletin & Review. 18(6) 1071-1076 
+Bola, M. & Sabel, B.A. (2015).  Dynamic reorganization of brain functional networks during 
+cognition. Neuroimage, 114, 398-413 
+Bradley, M.M., Greenwald, M.K., Petry, M.C. and Lang, P.J. (1992). Remembering pictures: 
+pleasure and arousal in memory. Journal of Experimental Psychology: learning, memory 
+and cognition, 18(2), 379-390 
+
+19 
+ 
+Bullmore, E. & Sporns, O. (2012). The economy of brain network organization. Nature Reviews 
+Neuroscience, 13(5), 336-349 
+Cahill, L. & McGaugh, J.L. (1995). A novel demonstration of enhanced memory associated with 
+emotional arousal. Consciousness and Cognition, 4(4), 410-421 
+Carr, M. & Nielsen T. (2015). Daydreams and nap dreams: content comparisons. Consciousness 
+and Cognition, 36, 196-205 
+Carretié, L., Hinojosa, J.A. & Mercado, F. (2003). Cerebral patterns of attentional habituation to 
+emotional stimuli. Psychophysiology, 40, 381-388 
+Chein, J.M & Schneider, W. (2012).  The brain’s learning and control architecture. Current 
+Directions in Psychological Science, 21(2), 78-84 
+Chevalier, N., Kurth, S., Doucette, M.R., Wiseheart, M., Deoni, S.C.L., Dean III, D.C., 
+O’Muircheartaigh, J., Blackwell, K.A., Munakata, Y., & LeBourgeois, M.K. (2015).  
+Myelination is associated with processing speed in early childhood: preliminary insights. 
+PLOS One. http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0139897  
+Christoff, K., Irving, Z.C., Fox, K.C.R., Spreng, R.N. & Andrews-Hanna, J.R. (2016). Mind-
+wandering as spontaneous thought: a dynamic framework.  Nature Reviews 
+Neuroscience, 17, 718-731 
+Cisek, P. & Kalaska, J.F. (2010). Neural mechanisms for interacting with a world full of action 
+choices. Annual Review of Neuroscience, 33, 269-298   
+Daw, N.D., Niv, Y. & Dayan, P. (2005). Uncertainty-based competition between prefrontal and 
+dorsolateral striatal systems for bevioural control. Nature Neuroscience, 8(12), 1704-
+1711 
+De Martino, B., Kumaran, D., Seymore, B. & Dolan, R.J. (2006). Frames, biases and rational 
+decision-making in the human brain. Science, 313(5787), 684-687 
+Decety, J. & Grèzes, J. (2006). The power of simulation: imagining one’s own and other’s 
+behavior. Brain Research, 1079(1), 4-14 
+Dehaene, S. (2014). Consciousness and the brain. Deciphering how the brain codes our 
+thoughts. New York: Penguin Books  
+Dehaene, S, Changeux, J., Naccache, L. Sackur, J. & Sergent, C. (2006). Conscious, 
+preconscious, and subliminal processing: a testable taxonomy. Trends in Cognitive 
+Sciences, 10(5), 204-211 
+Dehaene, S., Naccache, L., Cohen, L., Le Bihan, D., Mangin, J., Poline, J. & Rivière, D. (2001). 
+Cerebral mechanisms of word masking and unconscious repetition priming. Nature 
+Neuroscience, 4, 752-758 
+Dehaene, S. & Sigman, M. (2012).  From a single decision to a multi-step algorithm. Current 
+opinion in neurobiology, 22 (6), 937-945 
+
+20 
+ 
+Dixon, M.L., Fox, K.C.R. and Christoff, K. (2014). A framework for understanding the 
+relationship between externally and internally directed cognition. Neurophyschologia, 62, 
+321-330 
+Dux, P.E., Tombu, M.N., Harrison, S., Rogers, B.P., Tong, F. & Marois, R. (2009). Training 
+improves multitasking performance by increasing the speed of information processing in 
+human prefrontal cortex. Neuron, 63(1), 127-138 
+Ellamil, M., Fox, K.C.R., Dixon, M.L., Pritchard, S., Todd, R.M., Thompson, E. & Christoff, K. 
+(2016):  Dynamics of neural recruitment surrounding the spontaneous arising of thoughts 
+in experienced mindfulness practitioners. NeuroImage, 136, 186-196   
+Eslinger, P.J. & Grattan, L.M. (1993). Frontal lobe and frontal-striatal substrates for different 
+forms of human cognitive flexibility. Neuropsychologia, 31(1), 17-28 
+Faghihi, U., Estey, C., McCall, R. & Franklin S. (2015). A cognitive model fleshes out 
+Kahnemann’s fast and slow systems. Biologically Inspired Cognitive Architectures, 11, 
+38-52.   
+Fahrenfort, J.F., Snijders, T.M., Heinen, K., Van Gaal, S., Scholte, H.S. & Lamme, V.A.F. 
+(2012). Neuronal integration in visual cortex elevates face category tuning to conscious 
+face perception,  Proceedings of the National Academy of Sciences, USA, 109 (52), 
+21504-21509 
+Feldman, J.A. & Ballard, D.H. (1982). Connectionist models and their properties. Cognitive 
+Science, 6, 205-254 
+Fischer, H., Wright, C.I., Whalen, P.J., McInerney, S.C., Shin, L.M. & Rauch, S.L. (2003). Brain 
+habituation during repeated exposure to fearful and neutral faces: a functional MRI study. 
+Brain Research Bulletin, 59(5), 387-392 
+Foulkes, D. & Fleisher, S. (1975). Mental activity in relaxed wakefulness. Journal of Abnormal 
+Psychology, 84(1), 66-75 
+Franklin, S. & Baars, B.J. (2010). Two varieties of unconscious processes. In E. Perry, D. 
+Collerton, F. LeBeau & H. Ashton (Eds), New Horizons in the Neuroscience of 
+Consciousness,  (p. 91-102), Amsterdam/Philadelphia, John Benjamins Publishing 
+Company 
+Franklin, S. Madl, T, D’Mello, S. & Snaider, J. (2014). LIDA: a systems-level architecture for 
+cognition, emotion and learning. IEE Transactions on Autonomous Mental Development, 
+6(1), 19-41 
+Franklin, S., Madl, T., Strain, S., Faghihi, U., Dong, D., Kugele, S., Snaider, J., Agrawal, P. & 
+Chen, S. (2016).  A LIDA cognitive model tutorial. Biologically Inspired Cognitive 
+Architectures, 16, 105-130 
+Fredrickson, B.L. & Branigan, C. (2005). Positive emotions broaden the scope of attention and 
+thought-action repertoires. Cognition & emotion, 19(3), 313-332 
+
+21 
+ 
+Fulcher, B.D., & Fornito, A. (2016). A transcriptional signature of hub connectivity in the mouse 
+connectome. Proceedings of the National Academy of Sciences, USA,  113(5), 1435-1440    
+Gabora, L. & Carbert, N. (2015,July). A study and preliminary model of cross-domain influences 
+on creativity. In R. Dale, C. Jennings, P. Maglio, T. Matlock, D. Noelle, A. Warlaumont 
+& J. Yashimi (Eds). Proceedings of the 37th Annual Meeting of the Cognitive Science 
+Society. Conference at Austin, Texas 
+Galdi, S. Arcuri, L. & Gawronski, B. (2008). Automatic mental associations predict future 
+choices of undecided decision-makers. Science, 321(5892), 1100-1102 
+Garner, K.G. & Dux, P.E. (2015). Training conquers multitasking cost by dividing task 
+representations in the frontoparietal-subcortical system. Proceedings of the National 
+Academy of Sciences, USA, 112 (46), p. 14372-14377 
+Geldard, F.A. & Sherrick, C.E. (1972). The cutaneous “rabbit”; a perceptual illusion. Science, 
+178(4057), 178-179 
+Godwin, D., Barry, R.L. & Marois, R. (2015). Breakdown of the brain’s functional network 
+modularity with awareness. Proceedings of the National Academy of Sciences, USA, 112 
+(12), 3799-3804 
+Gottfried, J.A., Smith, A.P.R., Rugg, M.D. & Dolan, R.J. (2004). Remembrance of odors past: 
+human olfactory cortex in cross-modal recognition memory. Neuron, 42, 687-695. 
+Grecius, M.D., Krasnow, B., Reiss, A.L. & Menon, V. (2003). Functional connectivity in the 
+resting brain: a network analysis of the default mode hypothesis. Proceedings of the 
+National Academy of Sciences, USA, 100(1), 235-258   
+Grillon, C. & Davis, M. (1997). Fear-potentiated startle conditioning in humans: explicit and 
+contextual cue conditioning following paired versus unpaired training. Psychophysiology, 
+34(4), 451-458 
+Groninger, L.D. (1971). Mnemonic imagery and forgetting. Psychonomic Science, 17(5), 161-
+163 
+Groves, P.M. & Thompson, R.F. (1970). Habituation: a dual-process theory. Psychological 
+Review, 77(5), 419-450   
+Hamard, J. (1954). The Psychology of Inventions in the Mathematical Field. New York; Dover 
+Publications 
+Hasenkamp, W., Wilson-Mendenhall, C.D., Duncan, E., & Barsalou, L.W. (2012). Mind 
+wandering and attention during focused meditation: a fine-grained temporal analysis of 
+fluctuating cognitive states. NeuroImage, 59, 750-760  
+He, J., Becic, E., Lee, Y.C. & McCarley, J.S. (2011). Mind wandering behind the wheel: 
+performance and oculomotor correlates. Human Factors, 53(1), 13-21 
+
+22 
+ 
+He, Y., Wang, J., Wang, L., Chen, Z.J., Yan, C., Yang, H., Tang, H. Zhu, C., Gong, Q., Zang, Y. 
+& Evans, A.C. (2009). Uncovering intrinsic modular organization of spontaneous brain 
+activity in humans. PLoS One, 4(4),  
+http://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0005226&type=print
+able 
+Hinton, G.E. (2007).  Learning multiple layers of representation. Trends in Cognitive Sciences, 
+11(10), 428-434 
+Horner, A.J., Bisby, J.A., Bush, D., Lin, W. & Burgess, N. (2015). Evidence for holistic episodic 
+recollection via hippocampal pattern completion. Nature Communications.  
+https://www.researchgate.net/publication/280030462_Evidence_for_holistic_episodic_re
+collection_via_hippocampal_pattern_completion  
+Izard, C.E. (2007). Basic emotions, natural kinds, emotion schemas, and new paradigm. 
+Perspectives on Psychological Sciences, 2(3), 260-280 
+James, W. (1890). The Principles of Psychology. New York, Henry Hol J and Company 
+Kahneman, D. & Beatty, J. (1966). Pupil diameter and load on memory. Science, 154(3756), 
+1583-1585 
+Kam, J.W.Y. and Handy, T.C. (2013). The neurocognitive consequences of the wandering mind: 
+a mechanistic account of sensory-motor decoupling. Frontiers in Psychology, 4, 
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3796327/pdf/fpsyg-04-00725.pdf 
+Karlsson, M.P. & Frank, L.M. (2009). Awake replay of remote experiences in the hippocampus. 
+Nature Neuroscience, 12(7), 913-918 
+Karnath, H.O. & Wallesch, C.W. (1992). Inflexibility of mental planning: a characteristic 
+disorder with frontal lobe lesions? Neurophysiologa, 30(11), 1011-1016  
+Kelly, A.M.C. & Garavan, H. (2005). Human functional neuroimaging of brain changes 
+associated with practise. Cerebral Cortex, 15(8), 1089-1102 
+Kiesel, A., Kunde, W., Berner, M.P. and Hoffmann, J. (2009). Playing chess unconsciously. 
+Journal of Experimental Psychology: Learning, Memory and Cognition,  35(1), 292-298 
+Killingsworth, M.A. & Gilbert, D.T. (2012). A wandering mind is an unhappy mind. Science, 
+330(6006), 932 
+Kim, H. Ährlund-Richter, S., Wang, X., Deisseroth, K. & Carlén, M. (2016). Prefrontal 
+parvalbumin neurons in control of attention. Cell, 164, 208-218. 
+Klinger, E. & Cox, C.W. (1987). Dimensions of thought in everyday life. Imagination, Cognition 
+and Personality, 7(2), 105-128 
+Kolers, P.A. & von Grünau, M. (1975). Shape and color in apparent motion. Vision Research, 
+16(4), 329-335 
+
+23 
+ 
+Koster, E.H.W., Crombez, G., Van Damme, S., Verschuere & De Houwer, J. (2004). Does 
+imminent threat capture and hold attention? Emotion, 4(3), 312-317 
+Lakin, J.L. & Chartrand, T.L. (2003). Using nonconscious behavioral mimicry to create 
+affiliation and rapport. Psychological Science, 14(4), 334-339 
+Lee, D., Seo, H. & Jung, M.W. (2012). Neural basis of reinforcement learning and decision 
+making.  Annual Review of Neuroscience, 35, 287-308 
+Lee, K.H., Mathews, P.J., Reeves, A.M.B, Choe, K.Y., Jami, S.A., Serrano, R.E. & Otis, T.S. 
+(2015). Circuit mechanisms underlying motor memory formation in the cerebellum. 
+Neuron, 86, 529-540 
+Lloyd, D.M., McGlone, F.P. & Yosipovitch, G. (2015). Somatosensory pleasure circuitry: from 
+skin to brain and back. Experimental Dermatology, 24, 321-324 
+Logothetis, N.K., Leopold, D.A. & Sheiberg, D.L. (1996). What is rivalling during binocular 
+rivalry? Nature, 380(6575), 621-624 
+Lowe, R. & Ziemke, T. (2011). The feeling of action tendencies: on the emotional regulation of 
+goal-directed behavior. Frontiers in Psychology, 2, 
+http://pubmedcentralcanada.ca/pmcc/articles/PMC3246364/pdf/fpsyg-02-00346.pdf 
+Mankin, E.A., Sparks, F.T., Slayeh, B., Sutherland, R.J., Leutgebb, S. & Leutgeb, J.K. (2012). 
+Neuronal code for extended time in the hippocampus. Proceedings of the National 
+Academy of Sciences, USA, 109(47), 19462-19467 
+Mason, M.F., Norton, M.I., Van Horn, J.D., Wegner, D.M., Grafton, S.T. & Macrae, C.N. 
+(2007). Wandering minds: the default network and stimulus-independent thought.  
+Science, 315(5810), 393-395 
+Mauss, I.B. & Robinson, M.D. (2009). Measures of emotion: a review. Cognition and Emotion, 
+23(2), 209-237 
+McGaugh, J.L. (200). Memory – a century of consolidation. Science, 287, 248-251 
+Mensch, S., Baraban, M. Almeida, R., Czopka, T. Ausborn, J., El Manira, A. & Lyons, D.A. 
+(2015). Synaptic vesicle release regulates the number of myelin sheaths made by 
+individual oligodendrocytes in vivo. Nature Neuroscience, (18(5), 628-630 
+Melchers, D. & Morrone, C.  (2007). Chapter 10: Transsaccadic memory: building a stable world 
+from glance to glance. In R.P.G. Van Gompel, M.H. Fischer, W.S. Murray & R.L. Hill 
+(Eds). Eye movements: a window on mind and brain (pp. 213-233), Oxford, UK; Elsevier 
+Moran, J. & Desimone, R. (1985). Selective attention gates visual processing in the extrastriate 
+cortex. Science, 229, 782-784 
+Moon, J., Lee, U., Blain-Moraes, S. & Mashour, G.A. (2015). General relationship of global 
+topology, local dynamics, and directionality in large-scale networks.  PLOS 
+Computational Biology. 
+
+24 
+ 
+http://www.ploscompbiol.org/article/fetchObject.action?uri=info:doi/10.1371/journal.pcb
+i.1004225&representation=PDF 
+Moors, A., Ellsworth, P.C., Scherer, K. & Frijda, N. (2013). Appraisal theories of emotion: state 
+of the art and future development. Emotion Review 5(2), 119-124    
+Moutard, C., Dehaene, S. & Malach, R. (2015). Spontaneous fluctuations and non-linear 
+ignitions: two dynamic faces of cortical recurrent loops. Neuron, 88, 194-206 
+Muramatsu, R., & Hanoch, Y. (2005). Emotions as a mechanism for boundedly rational agents: 
+the fast and frugal way. Journal of Economic Psychology, 26(2), 201-223 
+Naccache, L., Blandin, E. and Dehaene, S. (2002). Unconscious masked priming depends on 
+temporal attention. Psychological Science, 13(5), 416-424 
+Nassi, J.J. & Callaway, E.M. (2009). Parallel processing strategies of the primate visual system.  
+Nature Reviews Neuroscience, 10, 360-372 
+Nyberg, L., Habib, R., McIntosh, A.R. & Tulving, E. (2000). Reactivation of encoding-related 
+brain activity during memory retrieval. Proceedings of the National Academy of Sciences, 
+USA, 97(20), 11120-11124 
+Öhman, A., Flykt, A. & Esteves, F. (2001). Emotion drives attention: detecting the snake in the 
+grass. Journal of Experimental Psychology: General, 130(3), 466-478 
+O’Rourke, M., Gasperini, R. & Young, K.M. (2014). Adult myelination: wrapping up neuronal 
+plasticity. Neural Regeneration Research, 9(13), 1261-1264 
+Papies, E.K., Pronk, T.M, Keesman, M. & Barsalou, L.W. (2015). The benefits of simply 
+observing: mindful attention modulates the link between motivation and behavior. 
+Journal of Personality and Social Psychology, 108(1), 148-170 
+Pashler, H. (1994).  Dual-task interference in simple tasks: data and theory. Psychological 
+Bulletin, 116(2), 220-244 
+Poh, J., Chong, P.L.H. & Chee, M.W.L. (2016). Sleepless night, restless mind: effects of sleep 
+deprivation on mind wandering. Journal of Experimental Psychology: General, 145(10), 
+1312-1318 
+Poggio, T. (2016). Brain-inspired intelligent robotics: The intersection of robotics and 
+neuroscience sciences. Deep learning: mathematics and neuroscience. Science, Booklet, 
+354(6318), 9-12  
+Rankin, C.H., Abrams, T., Barry, R.J., Bhatnagar, S., Clayton, D.F., Colombo, J., Coppola, G., 
+Geyer, M.A., Glanzman, D.L, Marsland, S., McSweeney, F.K., Wilson, D.A., Wu, C. & 
+Thompson, R.F. (2009). Habituation revisited: an updated and revised description of the 
+behavioral characteristics of habituation. Neurobiology of Learning and Memory, 92(2), 
+135-138   
+
+25 
+ 
+Richardson, R. and Elsayed, H. (1998). Shock sensitization of startle in rats: the role of 
+contextual conditioning. Behavioral Neuroscience, 112(5), 1136-1141 
+Rigas, P. & Castro-Alamancos, M.A. (2007). Thalamocortical up states: differential effects of 
+intrinsic and extrinsic cortical inputs on persistent activity. Journal of Neuroscience, 
+27(16), 4261-4272 
+Ritter, S.M. & Dijksterhuis, A. (2014). Creativity – the unconscious foundations of the 
+incubation period. Frontiers in Human Neuroscience, 8,  
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3990058/pdf/fnhum-08-00215.pdf 
+Roseman, I.J. (2013). Appraisal in the emotion system: coherence in strategies for coping. 
+Emotion Review, 5(7), 141-149 
+Roseman, I. and Evdokas, A. (2004). Appraisals cause experienced emotions: experimental 
+evidence. Cognition and Emotion, 18(1), 1-28.  
+http://crab.rutgers.edu/~roseman/Roseman_&_Evdokas_2004.pdf 
+Roseman, I.J. & Smith, C.A. (2001). Appraisal theory. Overview, assumptions, varieties, 
+controversies. In K.R. Scherer, A. Schorr & T. Johnstone (Eds.) Appraisal processes in 
+emotion: theory, methods and research, (pp.3-19), New York: Oxford University Press 
+Ross, S.E. (2011). Pain and itch: insights into the neuronal circuits of aversive somatosensation 
+in health and disease. Current Opinion in Neurobiology  21, 1-8 
+Rubinov, M., Ypma, R.J.F., Watson, C. & Bullmore, E.T. (2015). Wiring cost and topological 
+participation of the mouse brain connectome. Proceedings of the National Academy of 
+Sciences, USA, 112(32), 10032-10037 
+Ruby, F.J.M., Smallwood, J., Engen, H. & Singer, T. (2013). How self-generated thought shapes 
+mood – the relation between mind-wandering and mood depends on the social-temporal 
+content of thoughts, PLoS One, 8(1), 
+http://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0077554&type=print
+able 
+Rueda, M.R. & Posner, M.I. (2013). Development of attention networks. In P.D. Zelato (Ed.) 
+The Oxford Handbook of Developmental Psychology, Vol. 1: Body and Mind, Chapter 24 
+https://www.researchgate.net/profile/Maria_Rueda/publication/260187130_Development
+_of_attentional_networks/links/550092af0cf2d61f820ec034.pdf  
+Salomon, R., Noel, J., Łukowska, M., Faivre, N., Metzinger, T., Serino, A. & Blanke, O. (2016). 
+Unconscious integration of multisensory bodily inputs in the peripersonal space shapes 
+bodily self-consciousness, bioRxiv, 
+http://biorxiv.org/content/biorxiv/early/2016/04/11/048108.full.pdf 
+Sayette, M.A., Reichle, E.D. & Schooler, J.W. (2009). Lost in the sauce. The effects of alcohol 
+on mind wandering. Psychological Science, 20(6), 747-752 
+
+26 
+ 
+Sayette, M.A., Schooler, J.W. &, Reichle, E.D. (2010). Out for a smoke. The impact of cigarette 
+craving on zoning out during reading. Psychological Science, 21(1), 26-30 
+Scherer, K.R. (2009). Emotions are emergent processes: they require a dynamic computational 
+architecture. Philosophical Transactions of the Royal Society B. 364, 3459-3474   
+Scherer, K.R. & Meuleman, B. (2013). Human motion experiences can be predicted on 
+theoretical grounds: evidence from verbal labeling. PLoS One, 8(3). 
+http://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0058166&type=print
+able 
+Schooler (2002). Re-representing consciousness: dissociations between experience and meta-
+consciousness. Trends in Cognitive Sciences, 8(1), 339-344 
+Schooler, J.W., Ariely, D. & Loewenstein, G (2003): The pursuit and assessment of happiness 
+can be self-defeating”, In I. Brocas & J.D. Carrillo (Eds.), The Psychology of Economic 
+Decisions, Volume I, Rationality and Well-being (pp.41-70), New York; Oxford 
+University Press 
+Shanahan, M. (2005, April). Consciousness, emotion and imagination. A brain-inspired 
+architecture for cognitive robots.  In K. Dautenhahn (Chair), Next Generation 
+Approaches to Machine Consciousness. Imagination, Development, Intersubjectivity and 
+Embodiment.  Symposium conducted at AISB 2005, Hatfield, UK 
+Shanahan, M. (2006). A cognitive architecture that combines internal simulation with a global 
+workspace. Consciousness and Cognition, 15(2), 433-449 
+Shapira O., Gundar-Goshen, A. & Dar, R. (2013). An ironic effect of monitoring closeness. 
+Cognition and Emotion, 27(8), 1495-1503 
+Sio, U.N. & Ormerod, T.C. (2009). Does incubation enhance problem solving? A meta-analytic 
+review. Psychological Bulletin, 135(1), 94-120 
+Sklar, A.Y., Nevy, N., Goldstein, A., Mandel, R., Maril, A. & Hassin, R.R. (2012).  Reading and 
+doing arithmetic nonconsciously. Proceedings of the National Academy of Sciences, 
+USA, 109(48), 19614-19619 
+Smallwood, J., McSpadden & Schooler, J.W. (2007).  The lights are on but no one’s home: 
+meta-awareness and the decoupling of attention when the mind wanders. Psychonomic 
+Bulletin & Review, 14(3), 527-533  
+Smallwood, J., Ruby, J.W. & Singer, T. (2013). Letting go of the present: mind-wandering is 
+associated with reduced delay discounting. Consciousness and Cognition, 22(1), 1-7 
+Smallwood, J. & Schooler, J.W. (2006).  The restless mind.  Psychological bulletin, 132(6), 946-
+958 
+Smith, S.M., Miller, K.L., Moeller, S., Xu, J., Auerbach, E.J., Woolrich, M.W., Beckman, C.F., 
+Jenkinson, M., Andersson, J., Glasser, M.F., Van Essen, D.C., Feinberg, D.A., Yacoub, 
+
+27 
+ 
+E.S. & Ugurbil, K. Temporally-independent functional modes of spontaneous brain 
+activity. Proceedings of the National Academy of Sciences, USA. 109(8), 3131-31336   
+Sohn, J., Kim, H., Sohn, S., Seok, J., Choi, D. & Watanuki, S. (2015). Effect of emotional 
+arousal on inter-temporal decision-making: an fMRI study.  Journal of Physiological 
+Anthropology, 34(8),  
+http://download.springer.com/static/pdf/758/art%253A10.1186%252Fs40101-015-0047-
+5.pdf?originUrl=http%3A%2F%2Fjphysiolanthropol.biomedcentral.com%2Farticle%2F1
+0.1186%2Fs40101-015-0047-
+5&token2=exp=1482870294~acl=%2Fstatic%2Fpdf%2F758%2Fart%25253A10.1186%
+25252Fs40101-015-0047-
+5.pdf*~hmac=c288fcc696a9f41d6c61e451df061d933eafba2018cb93bdf04b6ac66cd5c10
+f 
+Son, L.K & Schwartz, B.L. (2002). The relation between metacognitive monitoring and control, 
+In T.J. Perfect & B.L. Schwartz (Eds), Applied Metacognition (pp. 15-38). Cambridge, 
+UK: Cambridge University Press 
+Song, X. & Tang, W. (2008). An extended theory of global workspace of consciousness. 
+Progress in Natural Science, 18, 789-793 
+Song, X. & Wang, X. (2012). Mind wandering in Chinese daily lives – an experience sampling 
+study. PLoS One, 7(9), 
+http://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0044423&type=print
+able 
+Stanovich, K.E. (2009). Distinguishing the reflective, algorithmic and autonomous minds: is it 
+time for a tri-process theory?. In J. Evans & K. Frankish (Eds.) In two minds: dual 
+processes and beyond (pp. 55-88). New York, NY; Oxford University Press 
+Staresina, B.P. & Davachi, L. (2009). Mind the gap: binding experiences across space and time 
+in the human hippocampus. Neuron, 63, 267--276 
+Stawarczyk, D., Majerus, S., Maj, M., Van Der Linden, M., & Argembeau, A. (2011), Mind-
+wandering: phenomenology and function as assessed with a novel experience sampling 
+method. Acta Psychologica, 136, 370-381  
+Steriade, M., McCormick, D.A., Sejnowski, T.J. (1993). Thalamocortical oscillations in the 
+sleeping and aroused brain. Science, 26(5134), 679-685 
+Tusche, A., Smallwood, J., Bernhardt, B.C. & Singer, T. (2014). Classifying the wandering 
+mind: revealing the affective content of thoughts during task-free rest periods. 
+NeuroImage, 97, 107-116 
+Van den Heuvel & Sporns, O. (2013). Network hubs in the human brain. Trends in Cognitive 
+Sciences, 17(12), 683-696 
+Vanhaudenhuyse, A., Demertzi, A., Schabus, M., Noirhomme, Q., Bredart, S., Boly, M., 
+Phillips, C., Soddu, A., Luxen, A., Moonen, G. & Laureys, S. (2010). Two distinct 
+
+28 
+ 
+neuronal networks mediate the awareness of environment and of self. Journal of 
+Cognitive Neuroscience, 23(3), 570-578 
+Vatansever, D., Manktelow, A.E., Sahakian, B.J., Menon, D.K. & Stamatakis, E.A. (2016). 
+Cognitive flexibility: a default network and basal ganglia connectivity perspective.  Brain 
+connectivity, 6(3), 
+https://www.repository.cam.ac.uk/bitstream/handle/1810/252946/Vatansever%20et%20al
+.%202015%20Brain%20Connectivity.pdf?sequence=1&isAllowed=y 
+Vértes, P,E., Rittman, T, Whitaker, K.J., Romero-Garcia, R., Váša, F., Kitzbichler, M.G., 
+Wagstyl, K., Fonagy, P., Dolan, R.J., Jones, P.B., Goodyer, I.M., the NSPN Consortium 
+& Bullmore, E.T. (2016). Gene transcription profiles associated with inter-modular hubs 
+and connection distance in human functional magnetic resonance imaging networks.  
+Philosophical Transactions B, 371(1705), 
+http://rstb.royalsocietypublishing.org/content/371/1705/20150362 
+Wang, J., Wang, L., Zang, Y, Yang, H., Tang, H., Gong, Q., Chen, Z., Zhu, C. & He, Y. (2009). 
+Parcellation-dependent small-world brain functional networks: a resting-state fMRI 
+study. Human Brain Mapping, 30, 1511-1523 
+Wang, K., Yu, C., Xu, L., Qin, W., Li, K., Xu, L. & Jiang, T. (2009). Offline memory 
+reprocessing: involvement of the brain’s default network in spontaneous thought 
+processes. PLoS One, 4(3), 
+http://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0004867&type=print
+able 
+Yantis, S. (2008). The neural basis of selective attention: cortical sources and targets of 
+attentional modulation. Current Directions in Psychological Sciences 17(2), 86-90 
+Yesavage, J.A., Rose, T.L. & Bower, G.H. (1983). Interactive imagery and affective judgements 
+improve face-name learning in the elderly. Journal of Gerontology, 38(2), 197-203 
+Zeelenberg, M, Nelissen, R.M.A, Breugelmans, S.M. & Pieters, R. (2008). On emotion 
+specificity in decision making: Why feeling is for doing. Judgment and Decision Making, 
+3(1), 18-27 
+Zelaso, P.D. (2015). Executive function: reflection, iterative reprocessing, complexity and the 
+developing brain. Developmental Review, 38, 55-68  
+Zylkerberg, A. Dehaene, S. Roelfsma, P.R. and Sigman, M. (2011). The human Turing machine: 
+a neural framework for mental programs. Trends in Cognitive Sciences, 15(7), 293-300 
+Zylkerberg, A., Slezak, D.F., Roelfsema, P.R., Dehaene, S. & Sigman, M. (2010).  The brain’s 
+router: a cortical network model of serial processing in the primate brain.  PLoS 
+computational Biology, 6(4). 
+http://journals.plos.org/ploscompbiol/article/asset?id=10.1371%2Fjournal.pcbi.1000765.
+PDF 

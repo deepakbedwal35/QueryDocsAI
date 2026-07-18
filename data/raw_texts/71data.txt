@@ -1,0 +1,1091 @@
+RESEARCH ARTICLE
+Network analysis of the human structural
+connectome including the brainstem
+Salma SalhiID1,2☯*, Youssef Kora1,2,4☯, Gisu Ham1,2,3, Hadi Zadeh HaghighiID1,2,4,
+Christoph Simon1,2,4
+1 Department of Physics and Astronomy, University of Calgary, Calgary, Alberta, Canada, 2 Hotchkiss Brain
+Institute, University of Calgary, Calgary, Alberta, Canada, 3 Fishtank Consulting, Calgary, Alberta, Canada,
+4 Institute for Quantum Science and Technology, University of Calgary, Calgary, Alberta, Canada
+☯These authors contributed equally to this work.
+* salma.salhi@ucalgary.ca
+Abstract
+The underlying anatomical structure is fundamental to the study of brain networks, but the
+role of brainstem from a structural perspective is not very well understood. We conduct a
+computational and graph-theoretical study of the human structural connectome incorporat-
+ing a variety of subcortical structures including the brainstem. Our computational scheme
+involves the use of Python DIPY and Nibabel libraries to develop structural connectomes
+using 100 healthy adult subjects. We then compute degree, eigenvector, and betweenness
+centralities to identify several highly connected structures and find that the brainstem ranks
+highest across all examined metrics, a result that holds even when the connectivity matrix is
+normalized by volume. We also investigated some global topological features in the connec-
+tomes, such as the balance of integration and segregation, and found that the domination of
+the brainstem generally causes networks to become less integrated and segregated. Our
+results highlight the importance of including the brainstem in structural network analyses.
+Introduction
+Network-based approaches are exceedingly useful tools for investigating the computational
+and informational power of the brain [1]. The core idea involves the reduction of an object as
+complex and generally intractable as the brain to a much simpler system of basic interacting
+neuronal elements [2]. This profound simplification has proven to be quite powerful, leading
+to insights into a variety of neuroscientific topics and applications [3]. For instance, diseases
+such as Alzheimer’s, schizophrenia, and Parkinson’s disease can be seen as disorders of brain
+networks [4]. The emerging field of network neuroscience [5] is working towards a theoretical
+framework which unifies the principles underlying the wide range of observed neurobiological
+phenomena, and deepens our understanding of the relationship between brain structure and
+function [6].
+The goals of such network-based methods include the mapping, modeling and analysis of
+brain networks, both at a structural and functional level. Structural brain networks are con-
+structed to reflect the direct fibre connections between the different anatomical regions, while
+PLOS ONE
+PLOS ONE | https://doi.org/10.1371/journal.pone.0272688
+April 6, 2023
+1 / 20
+a1111111111
+a1111111111
+a1111111111
+a1111111111
+a1111111111
+OPEN ACCESS
+Citation: Salhi S, Kora Y, Ham G, Zadeh Haghighi
+H, Simon C (2023) Network analysis of the human
+structural connectome including the brainstem.
+PLoS ONE 18(4): e0272688. https://doi.org/
+10.1371/journal.pone.0272688
+Editor: Stavros I. Dimitriadis, Cardiff University,
+UNITED KINGDOM
+Received: July 24, 2022
+Accepted: March 16, 2023
+Published: April 6, 2023
+Peer Review History: PLOS recognizes the
+benefits of transparency in the peer review
+process; therefore, we enable the publication of
+all of the content of peer review and author
+responses alongside final, published articles. The
+editorial history of this article is available here:
+https://doi.org/10.1371/journal.pone.0272688
+Copyright: © 2023 Salhi et al. This is an open
+access article distributed under the terms of the
+Creative Commons Attribution License, which
+permits unrestricted use, distribution, and
+reproduction in any medium, provided the original
+author and source are credited.
+Data Availability Statement: The data cannot be
+shared in our submission since users of Human
+Connectome Project (HCP) data are not allowed to
+share it, as per the data use agreement. However,
+the data are publicly available from the HCP
+
+functional networks refer to relationships between components which are statistically corre-
+lated regardless of the strength of their anatomical connections [7]. Studies of the latter are
+quite ubiquitous in the literature. These networks are typically extracted through techniques
+such as electroencephalography (EEG) and functional magnetic resonance imaging (fMRI),
+which enable the investigation of the topological properties of the dynamical patterns that
+emerge, both in the resting state and during the performance of tasks [8–10]. The study of
+structural networks, on the other hand, has gained prominence in more recent years, largely
+owing to the recent advances in non-invasive techniques that allow the imaging and mapping
+of the structural connectome [11, 12].
+The human structural connectome provides a foundation for neurobiological research [13].
+Indeed, the structural wiring of the brain constrains the cost of controlling a particular brain
+state; the transition to higher information content states is more costly and is modulated by
+the anatomical structure [14]. Functional networks are influenced by their structural counter-
+parts; it has been shown that the strength and persistence of functional connectivity is con-
+strained by the anatomical cortex [15], amongst other key factors such as local dynamics [16]
+and neuromodulation [17]. In fact, it is thought that anatomical connectivity allows for the
+reconciliation of the opposing requirements for functional networks, integration and segrega-
+tion [18], where integration refers to the ability to quickly combine information from distant
+brain regions, and segregation refers to the ability for specialized processing to occur within
+dense regions [19].
+It has been proposed that the brainstem is necessary for “core consciousness”—the simplest
+form of consciousness and the self—because the somato-sensory nuclei in the brainstem are
+best suited for its modulation [20]. Some theorists maintain that the regulation and arousal of
+consciousness are affected by the same part of the brain, which is thought to be the brainstem
+[21], and some even suggest that the brainstem alone can keep a subject conscious [22]. As
+we are also interested in the applications of structural connectomics to theories of conscious-
+ness, this provided motivation for the consideration of the brainstem in our structural network
+analysis.
+We designed a computational fibre tractography method in Python using DIPY and Niba-
+bel libraries to construct the structural connectomes. We constructed two connectomes: one
+containing 104 structures that includes the brainstem and is based on the parcellated images
+provided by the Human Connectome Project (HCP), and another comprising only 84 struc-
+tures, which excludes some important subcortical regions including the brainstem and is
+comprised of the structures typically found in the MRTrix Desikan-Killiany atlas, which is
+the default atlas used in MRTrix, the popular software for brain network studies. We shall
+henceforth refer to the former as the “extended connectome”, and the latter as the “restricted
+connectome”.
+With the networks obtained, we identified the most structurally important brain regions as
+those corresponding to nodes occupying the most central positions in each network, i.e., hubs.
+There are a number of graph-theoretical measures to characterize the centrality of a given
+node [23]. We started by the simplest of all, degree centrality (also known as node degree,
+node weight, or connectivity strength), which is defined as the sum of all connections to the
+node in question. In the case of a weighted network such as ours, this would simply corre-
+spond to the total number of streamline connections associated with each brain region. Such a
+quantity measures the extent to which a given node has strong connections to other nodes in
+the network, irrespective of their importance.
+The importance of other nodes is taken into account by computing the eigenvector central-
+ity [24, 25], which has been applied in more recent times to fMRI data in the human brain
+[26, 27]. This measure privileges nodes that are well-connected to other nodes in the network
+PLOS ONE
+Network analysis of the human structural connectome including the brainstem
+PLOS ONE | https://doi.org/10.1371/journal.pone.0272688
+April 6, 2023
+2 / 20
+database, which is available at this URL: https://db.
+humanconnectome.org/app/template/Login.vm.
+Funding: All authors of our paper (Salma Salhi,
+Youssef Kora, Gisu Ham, Christoph Simon, and
+Hadi Zadeh Haghighi) were funded by the NSERC
+Discovery Grant RGPIN-2020-03945, URL: https://
+www.nserc-crsng.gc.ca/index_eng.asp. The funder
+(NSERC) had no role in study design, data
+collection and analysis, decision to publish, or
+preparation of the manuscript.
+Competing interests: The authors have declared
+that no competing interests exist.
+
+which are themselves strongly connected. As the name suggests, this is accomplished by the
+eigenvector decomposition of the connectivity matrix.
+The third measure we computed for our networks is betweenness centrality [28]. Unlike
+the aforementioned types of centrality, which directly quantify the connectivity of a given
+node to the rest of the network, betweenness centrality measures the extent to which the node
+is strategically located in the network. This is achieved by considering the number of shortest
+geodesic paths between all possible pairs of nodes that pass through the node of interest. Its
+computation is of complexity O(n3), which renders it an unfeasible measure for sufficiently
+large networks. It has, however, been used in the context of brain networks with a moderate
+number of nodes [29, 30], and since the sizes of the networks considered here do not exceed
+104 regions, we did not contend with any serious computational limitations.
+We also studied some global topological features in the different types of networks, such as
+the balance of integration and segregation. Integration was estimated by computing the global
+efficiency, which quantifies the extent to which a graph is interconnected by calculating the
+average over all pairs of vertices of the inverse of the shortest distance between them [3]. Segre-
+gation was quantified by relying upon the notion of modularity, which measures the extent to
+which a network may be partitioned into modules that are densely connected as compared to
+a null model of random connections [31]. Finally, we compute the global reaching centrality,
+which is a measure of the amount of hierarchical architecture within a graph.
+Several results came to light after applying these graph-theoretical tools to the restricted
+and extended connectomes. Most notably, we found that the brainstem scores highest across
+all centrality measures, followed by the superiorfrontal cortices and the right and left thalami.
+The removal of the 20 subcortical structures in the restricted connectome, which is modelled
+from a well-known atlas, caused the ranking of the prominent structures to change on average,
+albeit with substantially overlapping distributions. Additionally, the exceedingly dominant
+presence of the brainstem seems to generally cause networks to become both less integrated
+and less segregated. We also observed that, following a normalization procedure intended to
+take into account the substantial volume of certain structures, the brainstem retained, across
+all centrality measures, quite a high place among the top structures notwithstanding its great
+size.
+Materials and methods
+Data analysis
+No new data was collected for this project. Data was obtained from the Human Connectome
+Project (HCP) database. The HCP project (Principal Investigators: Bruce Rosen, M.D., Ph.D.,
+Martinos Center at Massachusetts General Hospital; Arthur W. Toga, Ph.D., University of
+Southern California, Van J. Weeden, MD, Martinos Center at Massachusetts General Hospi-
+tal) is supported by the National Institute of Dental and Craniofacial Research (NIDCR), the
+National Institute of Mental Health (NIMH) and the National Institute of Neurological Disor-
+ders and Stroke (NINDS). HCP is the result of efforts of co-investigators from the University
+of Southern California, Martinos Center for Biomedical Imaging at Massachusetts General
+Hospital (MGH), Washington University, and the University of Minnesota. We used data
+from 100 adult subjects ranging in age from 22 to 35 years, with 44 females and 56 males, all
+from the “WU-Minn HCP Data—1200 Subjects” round of data collection. Since the data is
+publicly available, we did not need to seek approval by an ethics committee or institutional
+review board for the collection or use of this data. According to HCP protocol, all data is
+obtained with written informed consent and the data is anonymized. Both preprocessed
+T1-weighted structural images and 3T dMRI images were used in our computational fibre
+PLOS ONE
+Network analysis of the human structural connectome including the brainstem
+PLOS ONE | https://doi.org/10.1371/journal.pone.0272688
+April 6, 2023
+3 / 20
+
+tracking method. The data was preprocessed by the HCP according to their standard prepro-
+cessing protocol. Python DIPY and NiBabel libraries were utilized to perform the streamline
+calculations using a constrained spherical deconvolution model and probabilistic fibre track-
+ing functions, which are built in the libraries.
+MRTrix is perhaps the most widely used software in brain network studies, but the atlas
+most readily available to its users is the FreeSurfer Desikan-Killiany atlas, which consists of
+only 84 structures and does not include the brainstem. The full list of these structures can be
+found in S1 Table. This atlas has been used in studies of structural-functional relationships
+(see, for instance, [32–34]). The brainstem is conspicuously missing in this atlas, so we
+designed a computational fibre tractography method in Python using DIPY and Nibabel
+libraries to calculate a connectivity matrix that would include the brainstem. Using these algo-
+rithms, we were able to extract 104 structures from dMRI images provided by the Human
+Connectome Project (HCP). We constructed two connectomes: one containing the 104 struc-
+tures extracted using our Python method, and the other comprising the 84 structures typically
+found in the default MRTrix Desikan-Killiany atlas.
+A white matter mask was first created by extracting labels of structures provided in the
+HCP structural data. Regions that matched the labels for white matter were identified, and
+the white matter mask was then used to calculate the seeds from which to begin the fibre track-
+ing. For the extended connectome, the mask included the brainstem and a few other structures
+commonly omitted, the full list of which is found in Supporting information. A response
+function, which is used to form the constrained spherical deconvolution (CSD) model, was
+then calculated using the DIPY auto_response_ssst function. The CSD model was then
+combined with the structural white matter mask to generate a generalized fractional anistropy
+(GFA) model, which would aid in the fibre tracking process. A probabilistic direction getter
+model was then created using a maximum angle of 45˚, and this was finally used along with
+seeds and the diffusion affine matrix to generate a list of streamlines, using the DIPY
+LocalTracking class. Note that this function does not contain a parameter specifying the
+maximum number of streamlines, but instead only has a parameter specifying the maximum
+number of steps taken to generate streamlines (to prevent infinite loops) which is 500 steps by
+default. The function also uses the direction getter, the affine matrix, the seeds, and the stop-
+ping criterion to generate the streamlines. For each subject, the total number of streamlines is
+thus on the order of 104. A list of endpoints was generated by extracting the first and last ele-
+ments in each streamline list. This was then used in conjunction with the label mask to assess
+which structures each endpoint corresponded to in order to create a bi-directional label map.
+This is essentially a connectivity matrix that matches the total number of streamlines associ-
+ated with a structure to the correct endpoint.
+Due to the probabilistic nature of this tracking algorithm, the program was run three times
+for each subject and the results were averaged across all three runs in order to corroborate
+the results of the runs and ensure accuracy. These averages were then collected and averaged
+across 100 subjects to produce one overarching averaged connectome, representative of all
+subjects. All python code files are provided on the Github repository created for this project,
+which can be found at this link: https://github.com/SalmaSalhi7/Structural-Connectome-
+Project.
+The same method was used to calculate the connectivity matrix with a reduced number of
+structures. The white matter masks were altered to eliminate undesired structures, enabling
+the fibre tracking algorithm to only examine the 84 structures in the restricted connectome,
+the full list of which can be found in S1 Table. A list of the 20 eliminated structures can be
+found in S2 Table.
+PLOS ONE
+Network analysis of the human structural connectome including the brainstem
+PLOS ONE | https://doi.org/10.1371/journal.pone.0272688
+April 6, 2023
+4 / 20
+
+Centrality measures
+We computed degree centrality simply as the sum of all connections to a given node
+di ¼
+X
+N
+i¼1
+aij
+ð1Þ
+where aij are the elements of the structural connectivity matrix A. The next examined metric
+is eigenvector centrality, defined as the components of the eigenvector v corresponding to the
+largest eigenvalue of A. The signficance of such a quantity may be seen by looking at the eigen-
+value equation
+v ¼ 1
+l Av
+ð2Þ
+where λ is the largest eigenvalue of A. By expanding the matrix multiplication process, one
+may write each component of v as
+vi ¼ 1
+l
+X
+N
+i¼1
+aijvj
+ð3Þ
+which is similar to Eq 1, but the sum is now weighted by the scores of the node. These scores
+are all guaranteed to be positive by the Perron-Frobenius theorem, provided that A is non-neg-
+ative and irreducible, i.e., it has at least one non-zero off-diagonal element in each row and
+column (which will always be true in the cases of interest). These values are only unique up to
+an overall multiplication factor which depends on the choice of normalization [35], but such a
+factor does not play a role in the process of comparing nodes within the same network, which
+is our goal in this study. Finally, betweenness centrality was defined as
+bi ¼
+2
+ðN   1ÞðN   2Þ
+X
+i6¼j;i6¼k;j6¼k
+sjkðiÞ
+sjk
+ð4Þ
+where σjk is the number of shortest paths between nodes j and k, and σjk(i) is the number of
+shortest paths between nodes j and k that pass through node i. To define the shortest paths in
+a complete weighted graph such as ours, a notion of distance is required, which was simply
+taken to be the reciprocal of the weight. We employed the Python package NetworkX [36] in
+our computations of the betweenness centrality.
+Together, di, vi, and bi constitute our node centrality metrics. By studying all three, we com-
+pare the graph-theoretical importance of the various brain regions that comprise the connec-
+tome, and thus are able to estimate their relative influence within the structural connectome.
+Global topological features
+We studied some global topological properties in the networks in order to investigate the
+balance between integration and segregation, as well as to measure the amount of hierarchical
+structure, in the different types of connectomes. We estimated the integration simply by
+means of the global efficiency. The efficiency between two nodes is defined as the inverse of
+the shortest distance between them [3]. Since ours are weighted graphs, the shortest path is not
+that which contains the minimum number of edges; instead, the distance associated with each
+edge was defined as the inverse of its weight, allowing the Dijkstra shortest path [37] sij to be
+computed for any given pair of nodes using the NetworkX Python package [36]. The global
+PLOS ONE
+Network analysis of the human structural connectome including the brainstem
+PLOS ONE | https://doi.org/10.1371/journal.pone.0272688
+April 6, 2023
+5 / 20
+
+efficiency was then computed as the average over the efficiencies between all pairs of nodes
+Eglob ¼
+1
+NðN   1Þ
+X
+i6¼j
+1
+sij
+ð5Þ
+We estimated the degree of segregation in a given network by attempting to partition it into
+the set of communities for which the value of the modularity is maximum, and then using that
+maximum value of the modularity as our measure of segregation. The modularity is defined
+for a certain partitioning of a given network so as to quantify the strength of the connections
+within communities relative to the strength of the connections between communities. In the
+cases of a weighted network with a connectivity matrix A, this may be written as
+Q ¼ 1
+2m
+X
+i;j
+aij   didj
+2m
+
+
+dðci; cjÞ
+ð6Þ
+where di is the degree centrality of node i as defined in Eq 1; ci is the community to which
+node i belongs; δ(u, v) is a Kronecker delta, equaling 1 if u = v and 0 otherwise; and
+m ¼ 1
+2
+P
+ijaij. We use the algorithm prescribed in [38] to arrive at the partitioning which
+maximizes the modularity for each network, and we cite that value of the modularity as an esti-
+mate of the degree of segregation. Finally, hierarchical structure in the networks was quantified
+by means of the global reaching centrality [39], for which computation we also employed the
+Python package NetworkX [36]. For a graph G with N nodes, GRC may be written as
+GRC ¼
+P
+i2V½Cmax
+R
+  CRðiÞ
+N   1
+ð7Þ
+where V is the set of nodes in G, CR(i) is the local reaching centrality of node i, and Cmax
+R
+is the
+maximum value thereof. Local reaching centrality is defined for unweighted directed graphs
+as the fraction of all nodes in the network that may be reached from node i, and generalized
+for weighted graphs as
+CRðiÞ ¼
+1
+N   1
+X
+j:0<noutði;jÞ<1
+Pnoutði;jÞ
+k¼1
+w
+ðkÞ
+i ðjÞ
+noutði; jÞ
+ð8Þ
+where nout(i, j) is the number of links along the shortest path from node i to node j, and w
+ðkÞ
+i ðjÞ
+is the weight of the k-th such link.
+Results
+We plotted the averaged extended and restricted connectomes in Figs 1 and 2 respectively. In
+Fig 1, we note very strong edge-weighted connections between the left and right cerebellum
+cortices and the brainstem, as well as several strong connections in the midbrain and mid-cor-
+tex region. With the absence of the brainstem in Fig 2, both sides of the cerebellum appear to
+be very weakly connected to the rest of the network. Additionally, we no longer see as many
+strong connections in the midbrain and mid-cortex region. In Fig 3, we isolated the top 20
+structures based on node density (degree centrality) and plotted the connectome to show how
+these structures are connected. The high-ranking structures, which include the brainstem, the
+thalamus, and the superiorfrontal cortices, seem to form a hub in the midbrain.
+The corresponding connectivity matrices for the extended and restricted connectomes are
+plotted in Fig 4a and 4b respectively. Here we can also see that the extended network is much
+more strongly interconnected than the restricted one. Interestingly, the interconnectivity
+between the right and left cortices dramatically drops off in the restricted network, which
+PLOS ONE
+Network analysis of the human structural connectome including the brainstem
+PLOS ONE | https://doi.org/10.1371/journal.pone.0272688
+April 6, 2023
+6 / 20
+
+could indicate that some streamlines that connect cortical structures must pass over subcorti-
+cal structures, and when these structures are eliminated from the calculation of the matrix,
+these streamlines are missed.
+Centrality
+As explained above, we quantified the importance to the network of each node in three differ-
+ent ways; we computed the degree centrality, eigenvector centrality, and betweenness central-
+ity. We present in Fig 5 the 10 highest ranked structures according to each of the three
+measures, as well as their associated standard deviations, both within extended networks (a)
+Fig 1. An overarching connectome featuring the 104 structures in the extended network. The strength of connections between structures
+(represented by the coloured nodes) is indicated by the colour, with darker red indicating more streamlines connecting two regions. Node size
+reflects the raw density of each node. Streamlines correspond to white matter fibre bundles. The full list of the 104 structures in this connectome
+can be found in Supporting information.
+https://doi.org/10.1371/journal.pone.0272688.g001
+Fig 2. An overarching connectome featuring the 84 structures in the restricted network. The full list of the 84 structures in this connectome
+can be found in S1 Table.
+https://doi.org/10.1371/journal.pone.0272688.g002
+PLOS ONE
+Network analysis of the human structural connectome including the brainstem
+PLOS ONE | https://doi.org/10.1371/journal.pone.0272688
+April 6, 2023
+7 / 20
+
+and restricted ones (b). These were computed by first calculating the centralities for each struc-
+ture in each connectome, then for each structure averaging across all subjects and computing
+the inter-subject standard deviations, It is important to note that these bars are not error bars,
+but standard deviations representing the variability between individuals. and then ranking the
+structures in descending order of their averages. Each averaged centrality measure was nor-
+malized by dividing by its own maximum averaged value, such that the highest ranked struc-
+ture according to each averaged measure always has a value of unity. In order to take into
+account the variable size of the structures, we performed the same calculations for normalized
+Fig 3. The top 20 most connected structures in the averaged extended connectome by degree centrality. The size of the nodes represents the node
+density (degree centrality) of the structure, and the edge colours represent the number of streamlines connecting two nodes. The structures are listed in
+the legend in the order of degree centrality.
+https://doi.org/10.1371/journal.pone.0272688.g003
+Fig 4. (a) (left) The structural connectivity matrix for the extended connectome (104 structures), averaged over 100 adult subjects; (b) (right) the
+structural connectivity matrix for the restricted connectome (84 structures). The black box indicates subcortical structures. The full list of structures in
+the extended and restricted connectomes can be found in Supporting information and S1 Table respectively.
+https://doi.org/10.1371/journal.pone.0272688.g004
+PLOS ONE
+Network analysis of the human structural connectome including the brainstem
+PLOS ONE | https://doi.org/10.1371/journal.pone.0272688
+April 6, 2023
+8 / 20
+
+versions of each network. The extended and restricted networks were both normalized by
+dividing the strength of each connection by the sum of the volumes (lists of which are pre-
+sented in Supporting information and S1 Table) of its two nodes, as in earlier studies [40, 41].
+The results for the normalized networks are presented in Fig 6.
+We begin by discussing the case of the extended connectome in Fig 5a. In all the three cen-
+tralities, the brainstem is leading by quite a substantial margin. This result clearly establishes
+the high centrality of the brainstem within the averaged connectome, at least from the perspec-
+tive of the three measures considered here. Another structure which displays strong centrality
+(albeit nowhere near as strong as the brainstem) is the superior frontal cortex, as both the left
+and right hand-sides feature in the high ranks of all three measures.
+The remaining structures featured in Fig 5a, while still displaying considerable centrality,
+pale in prominence compared to the brainstem; their distributions considerably overlap, as
+indicated by the bars representing the standard deviations, thereby preventing us from making
+strong statements as to their precise ranking. These structures include the thalamus and the
+precentral cortex, and other fairly high-ranking structures such as the ventral diencephalon
+(DC), the putamen, the cerebellum, and the superior parietal cortex. These structures seem to
+form a hub in the midbrain as shown in Fig 3.
+Fig 5b paints quite a different picture for the restricted connectome. A particularly striking
+feature, for instance, is the absence of a structure that strongly dominates all others, in the
+same way that the brainstem does in Fig 5a. In its stead, the most salient subcortical structure
+appears to be the thalamus, which, while ranking rather highly in general, only appears to
+eminently dominate in the case of the betweenness centrality. In the cases of degree and eigen-
+vector centralities, there is a notable absence of a single structure that dwarfs the rest of the
+structures with largely overlapping distributions.
+Fig 5. The top 10 central structures for (a) the extended networks and (b) the restricted networks, according to three different measures: Degree
+centrality (top), eigenvector centrality (middle), and betweenness centrality (bottom). Each of the three quantities is normalized with respect to its own
+maximum value.
+https://doi.org/10.1371/journal.pone.0272688.g005
+PLOS ONE
+Network analysis of the human structural connectome including the brainstem
+PLOS ONE | https://doi.org/10.1371/journal.pone.0272688
+April 6, 2023
+9 / 20
+
+It may also be observed that there exists a difference in the order in which the structures
+appear between Fig 5a and 5b. It appears that going from the extended connectome to the
+restricted one, the surviving structures do not retain the order of the mean values of their
+centralities. The removal of those 20 structures has indeed caused some structures, on average,
+to rise in centrality, and others to fall. This is also the case for the corresponding normalized
+networks in Fig 6a and 6b. However, most structures seem to retain their importance in both
+Figs 5 and 6, when going from the extended network (a) to the corresponding restricted one
+(b). It may also be perceived that some of the eigenvector and/or betweenness centralities in
+Fig 6 appear to possess such substantial standard deviations as to broach the zero mark; these,
+of course, do not suggest that some subjects possess brain regions with negative centrality,
+but are rather artifacts of the long-tailed subject distributions of centralities for those brain
+regions.
+The cerebellum is another sub-cortical structure which, at first glance, may appear to pos-
+sess a considerable amount of degree and eigenvector centrality within the extended connec-
+tome in Fig 5a. However, when the volume density of streamlines is taken into account, the
+situation is altered. Consider Fig 6a, which does not feature the cerebellum among any of the
+high ranking centrality measures. In fact, the means of the degree, eigenvector, and between-
+ness centralities for the cerebellum in this case were computed to be 0.13, 0.17, and 0 respec-
+tively. This strongly suggests that the ostensible high connectivity of the cerebellum implied
+by Fig 5a may largely be attributable to its sheer size. This is not true of the brainstem, on the
+other hand, which retains quite a high ranking in Fig 6a across all centrality measures, despite
+its substantial volume. The superiorfrontal cortex is another example of a structure that seems
+to lose some prominence when the volume is taken into account, albeit to a much lesser extent
+than the cerebellum.
+Fig 6. The top 10 central structures within the volume-normalized connectomes, for (a) the extended network and (b) the restricted network,
+according to three different measures: Degree centrality (top), eigenvector centrality (middle), and betweenness centrality (bottom). Each of the three
+quantities is normalized with respect to its own maximum value.
+https://doi.org/10.1371/journal.pone.0272688.g006
+PLOS ONE
+Network analysis of the human structural connectome including the brainstem
+PLOS ONE | https://doi.org/10.1371/journal.pone.0272688
+April 6, 2023
+10 / 20
+
+Global topology
+Fig 7 presents our analysis of some global topological features in our networks. In (a), we study
+the balance of integration and segregation in all types of networks; we use the ultimate modu-
+larity as a measure of the degree of segregation in a network, which is the maximum modular-
+ity that we were able to obtain by employing the algorithm in [38]; and we estimate integration
+within the networks by means of computing the global efficiency. In (b), we plot the ultimate
+Fig 7. (a)(top) The balance between integration and segregation in all types of connectomes; (b)(bottom)
+segregation vs. hierarchy in all types of connectomes.
+https://doi.org/10.1371/journal.pone.0272688.g007
+PLOS ONE
+Network analysis of the human structural connectome including the brainstem
+PLOS ONE | https://doi.org/10.1371/journal.pone.0272688
+April 6, 2023
+11 / 20
+
+modularity against the global reaching centrality, the latter being a measure of the amount of
+hierarchical architecture within a graph.
+It is clear that both plots enjoy considerable separation between the points belonging to
+different types of connectomes, allowing us to draw conclusions by simple visual inspection
+of the relative positions of the centers of mass of each set of points. From (a), it appears that
+restricted connectomes, be they normalized or not, tend to be more segregated on the whole;
+and that the volume normalization procedure seems to have caused the extended connectomes
+to become more integrated and more segregated, but the restricted connectomes to become
+more segregated but rather less integrated. From (b), the global reaching centrality doesn’t
+seem to differ too greatly between the different types of connectomes, with the obvious excep-
+tion of the extended unnormalized one, which appears to be on average more hierarchical
+than the rest. These results, as well as those presented above, are discussed in the next section.
+Discussion
+Our results unambiguously highlight the structural importance of the brainstem in the
+extended connectome. All measures of centrality we computed point to the brainstem being
+the most prominent structure on average within the extended networks, by a margin larger
+than the differences between the successive structures, and larger than the inter-subject stan-
+dard deviations. It also became clear upon studying the volume-normalized network that the
+large size of the brainstem is not solely responsible for its dominance. By contrast, it appears
+that the high centrality of the cerebellum in the unnormalized network was an artifact of its
+extensive volume.
+Furthermore, the connections of the cerebellum reach primarily to the brainstem, and to
+very few structures in the midbrain and beyond in the cortex. This becomes clear when com-
+paring the ranking of the cerebellum between Fig 5a, with all 104 structures present, and Fig
+5b, with 20 structures (including the brainstem) absent. Upon exclusion of the brainstem, the
+cerebellum disappears completely from the list of top 10 structures for all three centrality mea-
+sures. This, in combination with the volume observation, certainly detracts from the impor-
+tance of the cerebellum within the structural network, which is at least consistent with the
+accepted idea that the cerebellum does not take any part in conscious processing [42].
+As mentioned in the results section, going from the extended to the restricted connectome
+did not preserve the average centrality order of the surviving structures. While perhaps unsur-
+prising, this observation emphasizes the importance of incorporating as many brain regions as
+possible when drawing conclusions based on such graph-theoretical considerations. For exam-
+ple, the use of an exclusively cortical atlas, even if only cortical structures are of interest, may
+yield misleading results.
+The global topological measures computed and presented in Fig 7 also reveal some interest-
+ing insights. We observed restricted connectomes to exhibit more segregation; this might be
+attributable to the presence of such dominant structures as the brainstem in the extended con-
+nectomes, which, by virtue of their strong connections to many regions in different communi-
+ties, are bound to detract from the relative importance of intra-community connections.
+Another observation was the volume normalization procedure’s causing the extended connec-
+tomes to become more integrated and more segregated; this may seem counter-intuitive at
+first glance, but it is perfectly possible to simultaneously 1) render a network more relatively
+well-connected on the whole, and 2) render the communities therein to be more interconnec-
+ted compared to the rest of the network. The volume normalization procedure, upon its caus-
+ing the brainstem to be less flagrantly dominant, seems to have had precisely that effect on the
+extended connectomes. On the other hand, the effect of the same procedure on the restricted
+PLOS ONE
+Network analysis of the human structural connectome including the brainstem
+PLOS ONE | https://doi.org/10.1371/journal.pone.0272688
+April 6, 2023
+12 / 20
+
+connectomes, which are destitute of such exceptionally dominant structures, seems to be to
+make them more segregated but less integrated. Finally, the global reaching centrality analysis
+revealed only the extended connectome unnormalized connectome to be substantially more
+hierarchical than the rest, on average; this seems to suggest that the brainstem, in all its unnor-
+malized dominance, plays an important role within the hierarchical architecture of the net-
+works, and that that role is diminished when the brainstem loses some of this dominance
+upon normalization.
+The anatomies of the thalamus and of the cortex are believed to be essential to the underly-
+ing neural mechanisms [43] for consciousness. When the anatomy of the brain is altered,
+some disorders of consciousness (DOC), such as a vegetative state (VM) or a minimally con-
+scious state (MCS) are sometimes observed. Indeed, it has been shown that these patients tend
+to exhibit significantly reduced structural connections between the basal ganglia, thalamus,
+and frontal cortex [44]. Another study found a significant decrease in volume in the globus
+pallidus and the thalamus, especially prominent in the thalamus [45]. Recent evidence suggests
+that the dynamics that underlie loss of consciousness can emerge from randomized neuroana-
+tomical connectivity [46]. The mesocircuit hypothesis proposes that the recovery of conscious-
+ness following severe injury that can lead to DOCs is possible, specifically through
+corticothalamic circuits [47]. The mesocircuit model proposes several structural and dynamic
+changes that aid in the process of recovery, with structural alterations changing the widespread
+disconnection of neurons and thus potentially leading to the reestablishment of some learning
+and memory mechanisms. Recently, it was also found that a loss of consciousness is associated
+with more structurally-constrained local dynamics and a disruption to structural hubs that
+contain some subcortical regions [48]. These findings suggest that the specific structural wiring
+in the brain is important for conscious processing, revealing an important application for the
+structural connectome.
+The high ranking of the brainstem across all examined metrics suggests an important role
+for the brainstem in information integration. Recent studies suggest that mechanisms in the
+brainstem are crucial for the constitution of the conscious state [22]. At the very least, the
+brainstem is responsible for maintaining a most basic level of consciousness, as evidenced by
+various studies on children with hydranencephaly, who still appeared conscious despite miss-
+ing most of their cortex [22]. Damage to the brainstem can induce a comatose state, which is
+the most radical form of disturbance in consciousness [49]. The mesocircuit hypothesis also
+suggests the brainstem is important for consciousness, positing brainstem/forebrain “arousal
+systems” that control many thalamic and cortical neurons [47]. Given the evidence linking the
+brainstem to important aspects of consciousness, and our results suggesting the brainstem is
+one of the most, if not the most, highly connected anatomical region in the brain, we propose
+that the brainstem warrants more consideration within notable theories of consciousness.
+With some theorists suggesting that the upper brainstem may be especially important for
+maintaining the state of consciousness [20, 21], this also calls for more structural network anal-
+yses with finer parcellations of the brainstem. Our analysis was limited to the brainstem as a
+whole, due to the nature of the parcellation included in the HCP data. The HCP parcellation,
+which was built into the preprocessed data that we used, is rather broad and does not parcellate
+known regions like the brainstem or the thalamus into subregions like the medulla, pons, or
+thalamic nuclei.
+In the context of consciousness, two main theories could be interpreted with our results.
+Global workspace theory is one such theory which proposes a fleeting memory capacity
+enabling access between brain functions [50]. While it is a functional theory, it does draw on a
+structurally inspired framework [51], and it is thought that the thalamus and cortex work as an
+integrated system to create this global access network, because they are functionally integrated
+PLOS ONE
+Network analysis of the human structural connectome including the brainstem
+PLOS ONE | https://doi.org/10.1371/journal.pone.0272688
+April 6, 2023
+13 / 20
+
+to a degree where they constitute a single functional system [52]. Our metrics suggest that the
+superior frontal and precentral cortices are strongly connected to the rest of the network, as
+are the right and left thalami, which suggests that a strong structural cortico-thalamic network
+may be present. Integrated Information Theory (IIT) defines consciousness as the capacity of
+a system to integrate information [53], which is quantified by ϕmax. To achieve a high ϕmax, a
+structure must be sufficiently functionally integrated [54]. There is evidence to suggest a corre-
+lation between structural and functional connectivity, and given that the physical substrates of
+consciousness (PSC) can split as a result of anatomical disconnections [55], there is reason to
+believe that structural connectivity does play a fundamental role in IIT. Examining our results
+in the framework of IIT, under the assumption that structural and functional connectivity are
+related, we see a likelihood for the brainstem to give rise to a high ϕmax given that it is the top-
+scoring structure across all our structural metrics. This provides further motivation to examine
+the brainstem from a functional perspective in the context of IIT as well. We acknowledge,
+however, that our results cannot provide a complete picture of the role of structural connec-
+tomics in the generation and/or perpetuation of conscious processes, since we have only con-
+sidered healthy patients. It could be the case that the regions of high connectivity that we have
+identified, such as the brainstem and the thalamus, are related to processes other than con-
+sciousness. It is necessary, then, to conduct the same network analysis with DOC patients as
+well in order to gauge the extent to which high structural connectivity plays a role in con-
+sciousness. This is an interesting question for future research.
+Finally, we make a connection between the results presented here and the newly emerging
+ideas involving quantum effects in the brain (see, for instance, [56]). Given that the delivery of
+anaesthetics specifically targeting the brainstem has been shown to be sufficient for the induc-
+tion of loss of consciousness [57], and given the recent proposal that quantum effects may be
+important for xenon-induced anaesthesia [58], the prominent role enjoyed by the brainstem
+in our structural analysis may have potential implications for quantum-mechanical explana-
+tions of consciousness.
+There are several limitations with our computational fibre tracking method. One of the
+largest limitations with fibre tractography using diffusion tensor imaging (DTI) is that the
+tensor model, which characterizes the orientation of white matter fibres, cannot differentiate
+complex configurations of crossing fibres in a single voxel [59]. Although the incorporation of
+constrained spherical deconvolution (CSD) in our computation improves this error, there are
+a few other advanced computational methods available, such as Q-ball imaging and diffusion
+spectrum imaging, and there is no general consensus on which method is best [59]. The CSD
+uses an empirically derived response function, which estimates the direction of fibre tracts and
+assumes that white matter fibres do not differ in their diffusion properties between tracts [60].
+A common criticism of this approach, however, is that the response function may not be con-
+stant throughout the brain [60], which may alter the measured distribution of fibres within a
+voxel. Additionally, while there is no clear consensus on which parcellation method is best,
+the structures extracted from the HCP structural images used in this paper do not allow for a
+more detailed examination of the brainstem, as it has not been parcellated into smaller regions
+such as the upper nuclei, medulla, and pons.
+The CSD approach is most notably used in MRtrix, a widely-used software pipeline for
+streamline tractography and connectome generation. It is formulated such that either a proba-
+bilistic or deterministic tracking algorithm can be used to track and generate streamlines. The
+tckgen function uses a probabilistic tracking algorithm by default, taking a fibre orientation
+distribution (FOD) image as input, where streamlines are considered more probable to
+follow a path where the FOD amplitudes along that path are also large. Similarly, our Python
+approach uses CSD to generate an FOD that guides the ProbabilisticDirectionGetter in the
+PLOS ONE
+Network analysis of the human structural connectome including the brainstem
+PLOS ONE | https://doi.org/10.1371/journal.pone.0272688
+April 6, 2023
+14 / 20
+
+DIPY module, producing tracking direction seeds that are then used in the tracking. The differ-
+ence between the methods, however, lies in their approaches to track termination. MRtrix
+terminates a track during the tracking process if no suitable FOD peak can be found whose
+amplitude is above a user-specified threshold [61]. In Python, we first used a Constant Solid
+Angle (CSA) Orientation Distribution Function (ODF) model, or the CsaOdfModel function,
+to estimate the orientation of tract segments at a point in the image. Then, the CSA/ODF
+model was passed into the ThresholdStoppingCriterion function, which determines
+the stopping criterion for the tracks based on the peaks of the ODF. Since the Desikan-Killiany
+atlas, which produces the restricted connectome, is available for use with MRtrix, we ran the
+software on one subject to compare the two methods. We noticed some quantitative differ-
+ences, as some structures appeared to be higher or lower scoring in the MRtrix version than
+in our Python version, but qualitatively, the matrices were similar. Largely the same structures
+appeared in the top ten across all our centrality measures. An additional key difference between
+the two methods is that MRtrix allows for the manual setting of the number of streamlines
+desired, whereas in DIPY, the number is determined empirically based on a subject’s structural
+data. This renders it difficult to conduct a direct quantitative comparison between the two
+methods, since the convergence of the MRtrix results as a function of the number of stream-
+lines may be more ambiguous. Nevertheless, our qualitative comparison shows there can be
+differences in the strength of certain structures depending on the computational methods
+used. An extension of our work could involve computing the same centrality measures for an
+MRtrix-generated connectome if an atlas including both cortical structures and subcortical
+structures (including the brainstem) should become available, and to quantify the optimal
+number of streamlines in MRtrix.
+Our computed centrality measures, while powerful tools, also come with some limitations.
+Degree centrality, for instance, straightforward as it is to compute, assumes that the impor-
+tance of a node is determined entirely by the amount of connections it has to other nodes in
+the network. Hence, such a measure could in principle overestimate the importance of a node
+which is connected to a large number of irrelevant nodes. To rectify this shortcoming, eigen-
+vector centrality gives precedence to those nodes that are connected to other nodes with high
+centrality, as opposed to considering all connections on equal grounds. One possible limitation
+of eigenvector centrality is that it says little of the difference between the degree of a node and
+those of its neighbours, which is an important consideration for the study of assortativity and
+modularity of networks [62].
+These two measures are complemented by betweenness centrality, which identifies the
+most important nodes of a network as those which lie in the most strategic locations with
+respect to the shortest paths between pairs of nodes. While certainly a strong measure, it suf-
+fers from its own limitations, such as a computational cost that quickly becomes unfeasible
+as a function of network size. Although our moderately sized networks allowed us to largely
+evade this limitation in this work, it is bound to present a challenge for future studies consider-
+ing significantly larger brain networks. Furthermore, betweenness centrality is implicitly based
+on the assumption that information propagates through the network serially along the most
+efficient routes. This has been argued to be a flawed assumption when considering brain net-
+works, as it presupposes that individual components possess global information about the
+network topology [63], a condition that is unlikely to be satisfied in the context of biological
+systems [64].
+The notion of network directionality constitutes another limitation within our approach.
+Graph-theoretical studies based on neuroimaging data typically represent connections within
+networks as undirected, owing to the inability of such non-invasive techniques to resolve
+the directionality of anatomical connections [19]. Our investigation presented here is no
+PLOS ONE
+Network analysis of the human structural connectome including the brainstem
+PLOS ONE | https://doi.org/10.1371/journal.pone.0272688
+April 6, 2023
+15 / 20
+
+exception. However, it is believed that brain network connections are inherently directional
+in nature, and that the assumption of undirected connections introduces inaccuracies to the
+computation of topological properties, especially to the process of hub identification [65].
+Hence, results obtained here may in principle be improved in future studies by constructing
+directed networks. Currently, some invasive techniques are capable of resolving axonal direc-
+tionality of non-human connectomes [64].
+A natural extension of this research would be to examine the role of the brainstem in
+more detail, ideally with a finer parcellation of the entire connectome. Since our goal was to
+examine how the brainstem generally fits into the structural connectome, we did not parcel-
+late it further, but a finer parcellation could alter the network even more and may shed light
+on where the high structural connectivity that we see in the brainstem is concentrated. The
+brainstem could be parcellated into the midbrain, pons, medulla, and superior cerebellar
+peduncles [66]. Another topic for future investigation is establishing connections with func-
+tional observations by means of implementing a dynamical model in the context of our net-
+work. A number of such models have been applied to brain networks to assess structure-
+function relationships, such as neural mass models [67, 68], models of Wilson-Cowan oscil-
+lators [41, 69], and spin models [32–34]. Studying critical phenomena and phase transitions
+within these systems allows for the possibility of making connections with the critical brain
+hypothesis [70, 71].
+Conclusion
+We examined structural connectivity across 100 healthy adult subjects, using graph theory
+tools and structural brain networks that include the brainstem. We found that the brainstem
+scores the highest in all our computed centrality measures, followed by the superiorfrontal cor-
+tices and the right and left thalami. When the brainstem and several other subcortical struc-
+tures are removed in the restricted connectome, we observed that the connections between the
+surviving regions were substantially altered, and we found that the most prominent structures
+revealed by the centrality analysis were rather different on average. This stresses the impor-
+tance of incorporating all brain regions in structural network analyses, and suggests that the
+use of a non-comprehensive list of structures may give rise to misleading conclusions. Overall,
+the brainstem certainly merits more consideration in structural and functional analyses, and
+potentially also in theories of consciousness.
+Supporting information
+S1 Table. A list of the 104 brain structures used in the extended connectivity matrix, with
+the corresponding number of streamlines attached to each structure and the average vol-
+ume of the structure across 100 subjects.
+(PDF)
+S2 Table. A list of the 84 brain structures used in the restricted connectivity matrix, with
+the corresponding number of streamlines attached to each structure.
+(PDF)
+S3 Table. The list of 20 structures removed in the restricted connectivity matrix. This
+matrix corresponds with the standard MRtrix parcellation scheme, widely used in studies of
+brain networks. The list of cortical structures remained the same.
+(PDF)
+PLOS ONE
+Network analysis of the human structural connectome including the brainstem
+PLOS ONE | https://doi.org/10.1371/journal.pone.0272688
+April 6, 2023
+16 / 20
+
+Acknowledgments
+We would like to thank Emma Towlson and Wilten Nicola for their valuable input, guidance,
+and discussion, as well as Joern Davidsen, Davor Curic, and Omid Khajehdehi from the Com-
+plexity Science Group (CSG). Additionally, we thank the HCP for providing access to their
+data.
+Author Contributions
+Conceptualization: Salma Salhi, Youssef Kora, Hadi Zadeh Haghighi, Christoph Simon.
+Data curation: Salma Salhi.
+Formal analysis: Youssef Kora.
+Funding acquisition: Christoph Simon.
+Investigation: Salma Salhi, Youssef Kora.
+Methodology: Salma Salhi, Youssef Kora, Gisu Ham.
+Project administration: Youssef Kora, Christoph Simon.
+Software: Salma Salhi, Youssef Kora, Gisu Ham.
+Supervision: Christoph Simon.
+Validation: Salma Salhi, Youssef Kora, Christoph Simon.
+Visualization: Salma Salhi, Youssef Kora.
+Writing – original draft: Salma Salhi, Youssef Kora.
+Writing – review & editing: Salma Salhi, Youssef Kora, Hadi Zadeh Haghighi, Christoph
+Simon.
+References
+1.
+Sporns O. Network analysis, complexity, and brain function. Complexity. 2003; 8(1):56–60. https://doi.
+org/10.1002/cplx.10047
+2.
+Zalesky A, Fornito A, Bullmore ET. Network-based statistic: Identifying differences in Brain Networks.
+NeuroImage. 2010; 53(4):1197–1207. https://doi.org/10.1016/j.neuroimage.2010.06.041 PMID:
+20600983
+3.
+Stam CJ, Reijneveld JC. Graph theoretical analysis of complex networks in the brain. Nonlinear Biomed
+Phys. 2007; 1:3. https://doi.org/10.1186/1753-4631-1-3 PMID: 17908336
+4.
+Li M, Pan Y, Lan W, Zheng R, Wu FX, Wang J. Complex Brain network analysis and its applications to
+Brain Disorders: A survey. Complexity. 2017; 2017:1–27.
+5.
+Bassett DS, Sporns O. Network neuroscience. Nature Neuroscience. 2017; 20:353–364. https://doi.
+org/10.1038/nn.4502 PMID: 28230844
+6.
+Park HJ, Friston KJ. Structural and Functional Brain Networks: From Connections to Cognition. Sci-
+ence. 2013; 342. https://doi.org/10.1126/science.1238411 PMID: 24179229
+7.
+Lang EW, Tome´ AM, Keck IR, Go´rriz-Sa´ez JM, Puntonet CG. Brain Connectivity Analysis: A short sur-
+vey. Computational Intelligence and Neuroscience. 2012; 2012:1–21. https://doi.org/10.1155/2012/
+412512 PMID: 23097663
+8.
+Eguı´luz VM, Chialvo DR, Cecchi GA, Baliki M, Apkarian AV. Scale-Free Brain Functional Networks.
+Phys Rev Lett. 2005; 94:018102. https://doi.org/10.1103/PhysRevLett.94.018102 PMID: 15698136
+9.
+Heuvel MP, Stam CJ, Boersma M, Hulshoff Pol HE. Small-world and scale-free organization of voxel-
+based resting-state functional connectivity in the human brain. NeuroImage. 2008; 43(3):528–539.
+https://doi.org/10.1016/j.neuroimage.2008.08.010 PMID: 18786642
+10.
+Hayasaka S, Laurienti PJ. Comparison of characteristics between region-and voxel-based network
+analyses in resting-state fMRI data. NeuroImage. 2010; 50:499–508. https://doi.org/10.1016/j.
+neuroimage.2009.12.051 PMID: 20026219
+PLOS ONE
+Network analysis of the human structural connectome including the brainstem
+PLOS ONE | https://doi.org/10.1371/journal.pone.0272688
+April 6, 2023
+17 / 20
+
+11.
+Jbabdi S, Sotiropoulos SN, Haber SN, Van Essen DC, Behrens TE. Measuring macroscopic brain
+connections in vivo. Nat Neurosci. 2015; 18(11):1546–55. https://doi.org/10.1038/nn.4134 PMID:
+26505566
+12.
+Shi Y, Toga AW. Connectome imaging for mapping human brain pathways. Molecular Psychiatry.
+2017; 22:1230–1240. https://doi.org/10.1038/mp.2017.92 PMID: 28461700
+13.
+Sporns O, Tononi G, Ko¨tter R. The human connectome: A structural description of the human brain.
+PLoS Computational Biology. 2005; 1(4):0245–0251. https://doi.org/10.1371/journal.pcbi.0010042
+PMID: 16201007
+14.
+Weninger L, Srivastava P, Zhou D, Kim JZ, Cornblath EJ, Bertolero MA, et al. The information content
+of brain states is explained by structural constraints on state energetics. arXiv. 2021;.
+15.
+Honey CJ, Sporns O, Cammoun L, Gigandet X, Thiran JP, Meuli R, et al. Predicting human resting-
+state functional connectivity from structural connectivity. Proceedings of the National Academy of Sci-
+ences. 2009; 106(6):2035–2040. https://doi.org/10.1073/pnas.0811168106 PMID: 19188601
+16.
+Ramnani N, Behrens TEJ, Penny W, Matthews PM. New approaches for exploring anatomical and
+functional connectivity in the human brain. Biological Psychiatry. 2004; 56(9):613–619. https://doi.org/
+10.1016/j.biopsych.2004.02.004 PMID: 15522243
+17.
+van den Brink RL, Pfeffer T, Warren CM, Murphy PR, Tona KD, van der Wee NJ, et al. Catecholaminer-
+gic neuromodulation shapes intrinsic MRI functional connectivity in the human brain. The Journal of
+Neuroscience. 2016; 36(30):7865–7876. https://doi.org/10.1523/JNEUROSCI.0744-16.2016 PMID:
+27466332
+18.
+Tononi G, Sporns O, Edelman GM. A measure for brain complexity: Relating functional segregation
+and integration in the nervous system. Proceedings of the National Academy of Sciences. 1994; 91
+(11):5033–5037. https://doi.org/10.1073/pnas.91.11.5033 PMID: 8197179
+19.
+Rubinov M, Sporns O. Complex network measures of brain connectivity: Uses and interpretations. Neu-
+roImage. 2009; 52(3):1059–1069. https://doi.org/10.1016/j.neuroimage.2009.10.003 PMID: 19819337
+20.
+Parvizi J, Damasio A. Consciousness and the brainstem. Cognition. 2000; 79(1-2):135–160. https://doi.
+org/10.1016/S0010-0277(00)00127-X
+21.
+Solms M, Friston K. How and why consciousness arises: some considerations from physics and physi-
+ology. Journal of Consciousness Studies. 2018; 25(5-6):202–238.
+22.
+Merker B. Consciousness without a cerebral cortex: A challenge for neuroscience and medicine.
+Behavioral and Brain Sciences. 2007; 30(1):63–81. https://doi.org/10.1017/S0140525X07000891
+PMID: 17475053
+23.
+van den Heuvel MP, Sporns O. Network hubs in the human brain. Trends in Cognitive Sciences. 2013;
+17(12):683–696. https://doi.org/10.1016/j.tics.2013.09.012 PMID: 24231140
+24.
+Bonacich P. Factoring and weighting approaches to status scores and clique identification. Journal of
+Mathematical Sociology. 1972; 2:113–120. https://doi.org/10.1080/0022250X.1972.9989806
+25.
+Bonacich P. Some unique properties of eigenvector centrality. Soc Networks. 2007; 29:555–564.
+https://doi.org/10.1016/j.socnet.2007.04.002
+26.
+Lohmann G, Margulies DS, Horstmann A, Pleger B, Lepsien J, Goldhahn ea D. Eigenvector Centrality
+Mapping for Analyzing Connectivity Patterns in fMRI Data of the Human Brain. PLoS ONE. 2010; 5(4).
+https://doi.org/10.1371/journal.pone.0010232 PMID: 20436911
+27.
+Wink AM. Eigenvector Centrality Dynamics From Resting-State fMRI: Gender and Age Differences in
+Healthy Subjects. Frontiers in Neuroscience. 2019; 13. https://doi.org/10.3389/fnins.2019.00648 PMID:
+31316335
+28.
+Freeman LC. A Set of Measures of Centrality Based on Betweenness. Sociometry. 1977; 40(1):35–41.
+https://doi.org/10.2307/3033543
+29.
+He Y, Wang J, Wang L, Chen ZJ, Yan C, Yang H, et al. Uncovering Intrinsic Modular Organization of
+Spontaneous Brain Activity in Humans. PLOS ONE. 2009; 4(4):1–18. https://doi.org/10.1371/journal.
+pone.0005226 PMID: 19381298
+30.
+Pacheco L, Hernndez D, Padilla P, Velasco-Segura R, Pacheco-Snchez JH, Gonzalez-Garca N. An
+fMRI study on betweenness Centrality in Brain Networks of Teenagers with Inhaled Substance Abuse
+Disorder. Am J Biomed Sci & Res. 2019; 4(3).
+31.
+Newman MEJ. Analysis of weighted networks. Phys Rev E. 2004; 70:056131. https://doi.org/10.1103/
+PhysRevE.70.056131 PMID: 15600716
+32.
+Abeyasinghe PM, de Paula DR, Khajehabdollahi S, Valluri SR, Owen AM, Soddu A. Role of dimension-
+ality in predicting the spontaneous behavior of the brain using the classical Ising model and the Ising
+model implemented on a structural connectome. Brain Connectivity. 2018; 8(7):444–455. https://doi.
+org/10.1089/brain.2017.0516 PMID: 29936876
+PLOS ONE
+Network analysis of the human structural connectome including the brainstem
+PLOS ONE | https://doi.org/10.1371/journal.pone.0272688
+April 6, 2023
+18 / 20
+
+33.
+Abeyasinghe PM, Aiello M, Nichols ES, Cavaliere C, Salvatore F, Masotta O, et al. Consciousness and
+the Dimensionality of DOC Patients via the Generalized Ising Model. J Clin Med. 2020; 9(5):1342.
+https://doi.org/10.3390/jcm9051342 PMID: 32375368
+34.
+Abeyasinghe PM, Aiello M, Cavaliere C, Owen A A M Soddu. A comparison of diffusion tractography
+techniques in simulating the generalized Ising model to predict the intrinsic activity of the brain. Brain
+Structure and Function. 2021; 226(3):817–832. https://doi.org/10.1007/s00429-020-02211-6 PMID:
+33523294
+35.
+Ruhnau B. Eigenvector-centrality a node-centrality? Social Networks. 2000; 22(4):357–365. https://doi.
+org/10.1016/S0378-8733(00)00031-9
+36.
+Hagberg AA, Schult DA, Swart PJ. Exploring Network Structure, Dynamics, and Function using Net-
+workX. In: Varoquaux G, Vaught T, Millman J, editors. Proceedings of the 7th Python in Science Confer-
+ence. Pasadena, CA USA; 2008. p. 11–15.
+37.
+Dijkstra EW. A note on two problems in connexion with graphs. Numer Math. 1959; 1. https://doi.org/10.
+1007/BF01386390
+38.
+Blondel VD, Guillaume JL, Lambiotte R, Lefebvre E. Fast unfolding of communities in large networks. J
+Stat Mech. 2008; 2008(10):P10008. https://doi.org/10.1088/1742-5468/2008/10/P10008
+39.
+Mones E, Vicsek L, Vicsek T. Hierarchy Measure for Complex Networks. PLOS ONE. 2012; 7(3):1–10.
+https://doi.org/10.1371/journal.pone.0033799 PMID: 22470477
+40.
+Muldoon SF, Pasqualetti F, Gu S, Cieslak M, Grafton ST, Vettel JM, et al. Stimulation-Based Control of
+Dynamic Brain Networks. PLOS Computational Biology. 2016; 12(9):1–23. https://doi.org/10.1371/
+journal.pcbi.1005076 PMID: 27611328
+41.
+Bansal K, Medaglia JD, Bassett DS, Vettel JM, Muldoon SF. Data-driven brain network models differen-
+tiate variability across language tasks. PLOS Computational Biology. 2018; 14(10):1–25. https://doi.
+org/10.1371/journal.pcbi.1006487 PMID: 30332401
+42.
+Tononi G. An Information Integration Theory of Consciousness. BMC Neuroscience. 2004; 5(42).
+https://doi.org/10.1186/1471-2202-5-42 PMID: 15522121
+43.
+Edelman GM, Gally JA, Baars BJ. Biology of Consciousness. Frontiers. 2011;. https://doi.org/10.3389/
+fpsyg.2011.00004 PMID: 21713129
+44.
+Weng L, Xie Q, Zhao L, Zhang R, Ma Q, Wang J, et al. Abnormal structural connectivity between the
+basal ganglia, thalamus, and frontal cortex in patients with disorders of consciousness. PubMed. 2017;
+90:71–87. PMID: 28365490
+45.
+Ragu M, Predrijevac I, Dlaka D, Oreskovic D, Rotim A, Romic D, et al. Structural changes in brains of
+patients with disorders of consciousness treated with deep brain stimulation. Nature. 2021; 1:100723.
+46.
+Luppi AI, Mediano PA, Rosas FE, Allanson J, Pickard JD, Williams GB, et al. Whole-brain modelling
+identifies distinct but convergent paths to unconsciousness in anaesthesia and disorders of conscious-
+ness. Communications Biology. 2022; 5(1). https://doi.org/10.1038/s42003-022-03330-y PMID:
+35444252
+47.
+Schiff ND. Recovery of consciousness after brain injury: A mesocircuit hypothesis. Trends in Neurosci-
+ences. 2010; 33(1):1–9. https://doi.org/10.1016/j.tins.2009.11.002 PMID: 19954851
+48.
+Lo´pez-Gonza´lez A, Panda R, Ponce-Alvarez A, Zamora-Lo´pez G, Escrichs A, Martial C, et al. Loss of
+consciousness reduces the stability of brain hubs and the heterogeneity of brain dynamics. Communi-
+cations Biology. 2021; 4. https://doi.org/10.1038/s42003-021-02537-9 PMID: 34489535
+49.
+Parvizi J, Damasio AR. Neuroanatomical correlates of brainstem coma. Brain. 2003; 126(7):1524–
+1536. https://doi.org/10.1093/brain/awg166 PMID: 12805123
+50.
+Baars BJ. Global workspace theory of consciousness: toward a cognitive neuroscience of human expe-
+rience. Progress in Brain Research The Boundaries of Consciousness: Neurobiology and Neuropathol-
+ogy. 2005; p. 45–53. https://doi.org/10.1016/S0079-6123(05)50004-9
+51.
+Schutter DJLG, van Honk J. Extending the global workspace theory to emotion: Phenomenality without
+access. Consciousness and Cognition. 2004; 13(3):539–549. https://doi.org/10.1016/j.concog.2004.05.
+002 PMID: 15336246
+52.
+Baars BJ, Franklin S, Ramsoy TZ. Global Workspace Dynamics: Cortical binding and propagation
+enables conscious contents. Frontiers in Psychology. 2013; 4. https://doi.org/10.3389/fpsyg.2013.
+00200 PMID: 23974723
+53.
+Zhao T, Zhu Y, Tang H, Xie R, Zhu J, Zhang JH. Consciousness: New concepts and neural networks.
+Frontiers in Cellular Neuroscience. 2019; 13. https://doi.org/10.3389/fncel.2019.00302 PMID:
+31338025
+54.
+Balduzzi D, Tononi G. Integrated information in discrete dynamical systems: Motivation and theoretical
+framework. PLoS Computational Biology. 2008; 4(6). https://doi.org/10.1371/journal.pcbi.1000091
+PMID: 18551165
+PLOS ONE
+Network analysis of the human structural connectome including the brainstem
+PLOS ONE | https://doi.org/10.1371/journal.pone.0272688
+April 6, 2023
+19 / 20
+
+55.
+Tononi G, Boly M, Massimini M, Koch C. Integrated information theory: From consciousness to its phys-
+ical substrate. Nature Reviews Neuroscience. 2016; 17(7):450–461. https://doi.org/10.1038/nrn.2016.
+44 PMID: 27225071
+56.
+Adams B, Petruccione F. Quantum effects in the brain: A review. AVS Quantum Sci. 2020; 2:022901.
+https://doi.org/10.1116/1.5135170
+57.
+Minert A, Devor M. Brainstem node for loss of consciousness due to GABAA receptor-active anesthet-
+ics. Experimental Neurology. 2016; 275:38–45. https://doi.org/10.1016/j.expneurol.2015.10.001 PMID:
+26436687
+58.
+Smith J, Zadeh Haghighi H, Salahub D, Simon C. Radical pairs may play a role in xenon-induced gen-
+eral anesthesia. Sci Rep. 2021; 11:6287. https://doi.org/10.1038/s41598-021-85673-w PMID:
+33737599
+59.
+Calamante F. The seven deadly sins of measuring brain structural connectivity using diffusion MRI
+streamlines fibre-tracking. Diagnostics. 2019; 9(3):115. https://doi.org/10.3390/diagnostics9030115
+PMID: 31500098
+60.
+Dell’Acqua F, Tournier J. Modelling white matter with spherical deconvolution: How and why? NMR in
+Biomedicine. 2018; 32(4):1–18. https://doi.org/10.1002/nbm.3945 PMID: 30113753
+61.
+Tournier JD, Calamante F, Connelly A. MRtrix: Diffusion tractography in crossing fiber regions. Interna-
+tional Journal of Imaging Systems and Technology. 2012; 22(1):53–66. https://doi.org/10.1002/ima.
+22005
+62.
+Joyce KE, Laurienti PJ, Burdette JH, Hayasaka S. A New Measure of Centrality for Brain Networks.
+PLoS One. 2010; 5(8):e12200. https://doi.org/10.1371/journal.pone.0012200 PMID: 20808943
+63.
+Avena-Koenigsberger A, Yan X, Kolchinsky A, van den Heuvel MP, Hagmann P, Sporns O. A spectrum
+of routing strategies for brain networks. PLOS Computational Biology. 2019; 15(3):1–24. https://doi.org/
+10.1371/journal.pcbi.1006833 PMID: 30849087
+64.
+Seguin C, Razi A, Zalesky A. Inferring neural signalling directionality from undirected structural connec-
+tomes. Nat Commun. 2019; 10:4289. https://doi.org/10.1038/s41467-019-12201-w PMID: 31537787
+65.
+Kale P, Zalesky A, Gollo LL. Estimating the impact of structural directionality: How reliable are undi-
+rected connectomes? Netw Neurosci. 2018; 2(2):259–284. https://doi.org/10.1162/netn_a_00040
+PMID: 30234180
+66.
+Magnusson M, Love A, Ellingsen LM. Automated brainstem parcellation using multi-atlas segmentation
+and deep neural network. Medical Imaging 2021: Image Processing. 2021.
+67.
+David O, Cosmelli D, Friston K. Evaluation of different measures of functional connectivity using a neu-
+ral mass model. Neuroimage. 2004; 21(2):659–73. https://doi.org/10.1016/j.neuroimage.2003.10.006
+PMID: 14980568
+68.
+Honey CJ, Sporns O, Cammoun L, Gigandet X, Thiran JP, Meuli R, et al. Predicting human resting-
+state functional connectivity from structural connectivity. Proceedings of the National Academy of Sci-
+ences. 2009; 106(6):2035–2040. https://doi.org/10.1073/pnas.0811168106 PMID: 19188601
+69.
+Bansal K, Nakuci J, Muldoon SF. Personalized brain network models for assessing structure–function
+relationships. Current Opinion in Neurobiology. 2018; 52:42–47. https://doi.org/10.1016/j.conb.2018.
+04.014 PMID: 29704749
+70.
+Bak P, Tang C, Wiesenfeld K. Self-organized criticality. Phys Rev A. 1988; 38:364. https://doi.org/10.
+1103/PhysRevA.38.364 PMID: 9900174
+71.
+Massobrio P, Pasquale V, Martinoia S. Self-organized criticality in cortical assemblies occurs in concur-
+rent scale-free and small-world networks. Scientific Reports. 2015; 5:10578. https://doi.org/10.1038/
+srep10578 PMID: 26030608
+PLOS ONE
+Network analysis of the human structural connectome including the brainstem
+PLOS ONE | https://doi.org/10.1371/journal.pone.0272688
+April 6, 2023
+20 / 20

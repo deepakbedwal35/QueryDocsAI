@@ -1,0 +1,4069 @@
+Trends in Cognitive Sciences
+ 
+Learning to be conscious
+--Manuscript Draft--
+ 
+Manuscript Number:
+TICS-D-19-00166R2
+Article Type:
+Opinion
+Keywords:
+consciousness;  Learning;  global workspace theory;  higher-order theories;  predictive
+processing;  metacognition
+Corresponding Author:
+Axel Cleeremans
+Université Libre de Bruxelles CP 122
+Brussels, BELGIUM
+First Author:
+Axel Cleeremans
+Order of Authors:
+Axel Cleeremans
+Dalila Achoui
+Arnaud Beauny
+Lars Keuninckx
+Jean-Remy Martin
+Santiago Muñoz-Moldes
+Laurène Vuillaume
+Adélaïde de Heering
+Abstract:
+Consciousness remains a formidable challenge. Different theories of consciousness
+have proposed different mechanisms to account for phenomenal experience. Here,
+appealing to Global Workspace Theory, Higher-Order Theories, Social Theories, and
+Predictive Processing, we introduce a novel framework — the Self-Organizing
+Metarerpresentational Account (SOMA), in which consciousness is viewed as
+something that the brain learns to do. The brain continuously and unconsciously learns
+to redescribe its own activity to itself, so developing systems of metarepresentations
+that qualify target first-order representations. Experiences only occur in experiencers
+that have learned to know they possess certain first-order states and that have learned
+to care more about certain states than about others. Thus, consciousness is the brain’s
+(unconscious, embodied, enactive, non-conceptual) theory about itself.
+Powered by Editorial Manager® and ProduXion Manager® from Aries Systems Corporation
+
+ 
+ 
+ 
+ 
+Learning to be conscious 
+  
+Axel Cleeremans, Dalila Achoui, Arnaud Beauny, Lars Keuninckx, Jean-Remy Martin, 
+Santiago Muñoz-Moldes, Laurène Vuillaume, & Adélaïde de Heering 
+ 
+ 
+Affiliation: 
+Consciousness, Cognition & Computation Group (CO3) 
+Center for Research in Cognition & Neuroscience (CRCN) 
+ULB Neuroscience Institute (UNI) 
+Université libre de Bruxelles 
+50 ave. F.-D. Roosevelt CP191 
+B1050 Bruxelles 
+BELGIUM 
+ 
+Corresponding author: axcleer@ulb.ac.be (Axel Cleeremans) 
+ 
+Keywords: consciousness, learning, global workspace theory, higher-order theories, 
+predictive processing, metacognition 
+ 
+Abstract: 
+ 
+Consciousness remains a formidable challenge. Different theories of consciousness have 
+proposed vastly different mechanisms to account for phenomenal experience. Here, appealing 
+to aspects of Global Workspace Theory, Higher-Order Theories, Social Theories, and 
+Predictive Processing, we introduce a novel framework — the Self-Organizing 
+Metarerpresentational Account (SOMA), in which consciousness is viewed as something that 
+the brain learns to do. By this account, the brain continuously and unconsciously learns to 
+redescribe its own activity to itself, so developing systems of metarepresentations that qualify 
+target first-order representations. Thus, experiences only occur in experiencers that have 
+learned to know they possess certain first-order states and that have learned to care more about 
+certain states than about others. In this sense, consciousness is the brain’s (unconscious, 
+embodied, enactive, non-conceptual) theory about itself. 
+ 
+ 
+ 
+ 
+ 
+Clean Manuscript
+Click here to access/download;Manuscript;Cleeremans-
+final.docx
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+20 
+21 
+22 
+23 
+24 
+25 
+26 
+27 
+28 
+29 
+30 
+31 
+32 
+33 
+34 
+35 
+36 
+37 
+38 
+39 
+40 
+41 
+42 
+43 
+44 
+45 
+46 
+47 
+48 
+49 
+50 
+51 
+52 
+53 
+54 
+55 
+56 
+57 
+58 
+59 
+60 
+61 
+62 
+63 
+64 
+65 
+
+ 
+2
+The mystery of consciousness 
+1 
+ 
+2 
+Consciousness (see Glossary), by which we mean phenomenal experience, remains a genuine 
+3 
+mystery — a problem, as Dennett [1] put it,  “about which one does not know how to think 
+4 
+about yet”. Today, after thirty years of concerted scientific research [2-4] dedicated to 
+5 
+understanding the biological bases of consciousness, we seem no closer to understanding why 
+6 
+it feels like anything at all to be oneself. Different theories offer contrasted accounts of the 
+7 
+cognitive functions that consciousness affords (access consciousness) [5, 6]; others have 
+8 
+attempted to directly address the felt qualities of conscious states (phenomenal consciousness) 
+9 
+[7-12], but none have achieved sufficient consensus to elicit widespread endorsement [13].  
+10 
+ 
+11 
+In this Opinion piece, we develop a novel perspective on consciousness that we hope will 
+12 
+stimulate debate and help integrate different aspects of extant proposals, in particular Global 
+13 
+Workspace Theory (GWT) [5, 6, 14], Higher-Order Theories (HOT) [15-17], Social Theories 
+14 
+[18-21], and Predictive Processing [22-27]. At its core, our proposal is that consciousness 
+15 
+should be viewed as a process that results from continuously operating unconscious learning 
+16 
+and plasticity mechanisms. In other words, consciousness is something that the brain learns to 
+17 
+do, by which we mean to suggest that phenomenal experience, rather than being an intrinsic 
+18 
+property of some patterns of neural activation, should instead be viewed as the product of 
+19 
+active, plasticity-driven mechanisms through which the brain learns to redescribe its own 
+20 
+activity to itself. 
+21 
+ 
+22 
+ 
+23 
+ 
+24 
+ 
+25 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+20 
+21 
+22 
+23 
+24 
+25 
+26 
+27 
+28 
+29 
+30 
+31 
+32 
+33 
+34 
+35 
+36 
+37 
+38 
+39 
+40 
+41 
+42 
+43 
+44 
+45 
+46 
+47 
+48 
+49 
+50 
+51 
+52 
+53 
+54 
+55 
+56 
+57 
+58 
+59 
+60 
+61 
+62 
+63 
+64 
+65 
+
+ 
+3
+Awareness is not sensitivity 
+1 
+ 
+2 
+To develop this argument, we begin by noting  that all sorts of systems are sensitive to their 
+3 
+environments: Plants, thermostats, computers — all are capable of detecting the states of affairs 
+4 
+that they evolved or were designed to be sensitive to, and to react to them in appropriate ways. 
+5 
+Yet, few would be willing to attribute any form of awareness to such systems: Awareness is 
+6 
+not sensitivity.  What is the difference, then, between such systems and conscious systems?  
+7 
+ 
+8 
+Different extant theories address this core challenge in different ways. Amongst the many 
+9 
+views that are currently competing, two stand out: Global Workspace Theory (GWT) [5, 28], 
+10 
+and Higher-Order theories (HOT) [15, 16, 29] (BOX 1). While GWT is not typically taken to 
+11 
+be a theory of phenomenal experience, it is fair to say that it links phenomenal experience with 
+12 
+global availability: at any point in time, conscious mental states are those that are globally 
+13 
+available. HOT, on the other hand, links phenomenal experience with metarepresentation: 
+14 
+conscious mental states are those that we are conscious of. 
+15 
+ 
+16 
+While both perspectives have been criticized [16, 29, 30], and while comparing them offers 
+17 
+interesting empirical challenges that are now the object of concerted efforts (i.e., an ongoing 
+18 
+Templeton World Charity Foundation initiative aimed at fostering adversarial collaboration), 
+19 
+we note that higher-order views are attracting increasing interest [16, 17, 29, 31, 32]. GWT and 
+20 
+HOT are often taken to be at odds with each other insofar as core theoretical tenets and 
+21 
+empirical evidence are concerned [32]. However, we see reasons to think that they may be 
+22 
+usefully reconciled with each other. Different proposals have defended germane (but not 
+23 
+identical) ideas. Van Gulick’s Higher-Order Global State theory (HOGS, see [33]) is such an 
+24 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+20 
+21 
+22 
+23 
+24 
+25 
+26 
+27 
+28 
+29 
+30 
+31 
+32 
+33 
+34 
+35 
+36 
+37 
+38 
+39 
+40 
+41 
+42 
+43 
+44 
+45 
+46 
+47 
+48 
+49 
+50 
+51 
+52 
+53 
+54 
+55 
+56 
+57 
+58 
+59 
+60 
+61 
+62 
+63 
+64 
+65 
+
+ 
+4
+attempt. Likewise, Shea and Frith [34] have recently argued that “the Global Workspace needs 
+1 
+metacognition”. 
+2 
+ 
+3 
+Here, we take it as a starting point that “phenomenal awareness always involves a form of 
+4 
+(subpersonal) metacognition”, as Lau (personal communication) recently put it. Thus, we 
+5 
+assume that consciousness minimally entails that one is sensitive to one’s sensitivity. This 
+6 
+segues well with our intuitive understanding of the difference between conscious and 
+7 
+unconscious representations: We say that someone is aware of some state of affairs not merely 
+8 
+when she is sensitive to that state of affairs, but rather when she knows that she is sensitive to 
+9 
+that state of affairs. Because the brain only has access to external states of affairs through its 
+10 
+sensorium, this suggests that awareness involves (1) a first-order representation of the external 
+11 
+state of affairs, and (2) a further, higher-order representation of the fact that a representation 
+12 
+of the target external state of affairs is now active. As we develop later, we surmise that global 
+13 
+availability is a consequence of Representational Redescription (RR, BOX 2) processes 
+14 
+through which unconscious first-order representations become objects of representation for the 
+15 
+system by means of being indexed, targeted, or otherwise characterized by 
+16 
+metarepresentations. 
+17 
+ 
+18 
+How do we get there? 
+19 
+ 
+20 
+Regardless of whether one takes GWT or HOT to best characterize the differences between 
+21 
+conscious and unconscious cognition, a singularly essential question remains pending: How do 
+22 
+we get there? How do we build the global workspace? How do metarepresentations come to 
+23 
+play their role? As Fleming [35] recently asked, “How are awareness states learned?”.  
+24 
+ 
+25 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+20 
+21 
+22 
+23 
+24 
+25 
+26 
+27 
+28 
+29 
+30 
+31 
+32 
+33 
+34 
+35 
+36 
+37 
+38 
+39 
+40 
+41 
+42 
+43 
+44 
+45 
+46 
+47 
+48 
+49 
+50 
+51 
+52 
+53 
+54 
+55 
+56 
+57 
+58 
+59 
+60 
+61 
+62 
+63 
+64 
+65 
+
+ 
+5
+This often-ignored question in the consciousness literature is in our view central, for two 
+1 
+reasons. The first reason is that learning profoundly shapes consciousness. Expertise creates as 
+2 
+well as eliminates contents from phenomenal experience. Tasting wine for the first time is a 
+3 
+wholly different experience than that of an oenologist [36] whose phenomenology has been 
+4 
+enriched through expertise. But expertise can also eliminate phenomenal contents from 
+5 
+awareness, as in the ‘find the F’s” illusion, whereby observers asked to count the number of 
+6 
+instances of the letter “F” in a text passage often fail to produce the correct answer because 
+7 
+skilled reading has, through automaticity, eliminated function words (e.g., “of”) from 
+8 
+awareness. Another example of how the contents of consciousness are shaped by expertise is 
+9 
+“predictive attenuation”. Tickling one’s self is far less effective than being tickled [37], for 
+10 
+when we tickle ourselves (but not when we are tickled) our brain can leverage previous 
+11 
+experience so as to predict the consequences of our actions. Cognitive development also 
+12 
+highlights how some changes go unheeded (i.e., the fact that our action and perceptual systems 
+13 
+remain adapted despite our limbs growing spectacularly during the first few years), whereas 
+14 
+other changes have profound phenomenal consequences (i.e., learning to read). Recent 
+15 
+empirical work is strongly suggestive that perception is continuously shaped by learned priors 
+16 
+(e.g., [38, 39]). Thus, we argue [40] that learning shapes conscious experience and that 
+17 
+conscious experience shapes learning: the contents of consciousness are continuously shaped, 
+18 
+over different time scales (i.e., development, skill acquisition, time available within a single 
+19 
+trial) and over different spaces (interactions within the brain itself, with the world, with other 
+20 
+people), by mandatory prediction-driven learning mechanisms, the computational goal of 
+21 
+which is to improve control over action and hence to minimize “surprise”, as in Predictive 
+22 
+Processing [22, 24, 25].  
+23 
+ 
+24 
+ 
+25 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+20 
+21 
+22 
+23 
+24 
+25 
+26 
+27 
+28 
+29 
+30 
+31 
+32 
+33 
+34 
+35 
+36 
+37 
+38 
+39 
+40 
+41 
+42 
+43 
+44 
+45 
+46 
+47 
+48 
+49 
+50 
+51 
+52 
+53 
+54 
+55 
+56 
+57 
+58 
+59 
+60 
+61 
+62 
+63 
+64 
+65 
+
+ 
+6
+Learning to be conscious  
+1 
+ 
+2 
+There is a second, more radical claim that we should like to entertain, however. Indeed, 
+3 
+acknowledging the fundamental role that learning plays in shaping conscious experience leads 
+4 
+to the mesmerizing possibility that learning is in fact instrumental to bootstrapping 
+5 
+consciousness, or, to express this hypothesis in other words, that conscious experience is not 
+6 
+only shaped by learning, but that its very occurrence depends on it.  
+7 
+ 
+8 
+From this perspective, experiences only occur in experiencers that have learned to know they 
+9 
+possess certain first-order states and that have learned to care more about certain states than 
+10 
+about others. Indeed, what would be the point of doing anything at all if the doing was not 
+11 
+doing something to you? It is a distinctive and salient feature of conscious agents that they care 
+12 
+about the phenomenal states they find themselves in. The obvious fact that phenomenal states 
+13 
+have value for the agents who entertain them has equally obvious consequences in accounting 
+14 
+for individual differences in phenomenology as they express themselves through a wide range 
+15 
+of personality traits such as preference, ability, motivation, and attention [17, 29, 41]. Thus, 
+16 
+our claim here is that phenomenal experience, rather than being a mere epiphenomenon 
+17 
+associated with rewarding action, as in, say, reinforcement learning, instead has intrinsic value. 
+18 
+But this claim only makes sense if agents are able to learn about which phenomenal states they 
+19 
+want to find themselves in. As Dennett put it (personal communication), “How do we go from 
+20 
+doing things for reasons to having reasons for doing things?”. Having reasons for doing things 
+21 
+is precisely what differentiates conscious agents from agents such as Alpha Go [42], which, 
+22 
+despite exhibiting superhuman skill when doing things, remains unable to do so for reasons of 
+23 
+its own. 
+24 
+ 
+25 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+20 
+21 
+22 
+23 
+24 
+25 
+26 
+27 
+28 
+29 
+30 
+31 
+32 
+33 
+34 
+35 
+36 
+37 
+38 
+39 
+40 
+41 
+42 
+43 
+44 
+45 
+46 
+47 
+48 
+49 
+50 
+51 
+52 
+53 
+54 
+55 
+56 
+57 
+58 
+59 
+60 
+61 
+62 
+63 
+64 
+65 
+
+ 
+7
+This crucially links conscious experience with agenthood [43, 44]. There is no sense in which 
+1 
+we can talk about conscious experiences without first assuming there is an experiencer who 
+2 
+experiences those experiences. The very notion of conscious experience presupposes the 
+3 
+existence of a subject it is the experience of. As Frege [45] pointed out, “It seems absurd to us 
+4 
+that a pain, a mood, a wish, should rove about the world without a bearer, independently. An 
+5 
+experience is impossible without an experiencer. The inner world presupposes the person 
+6 
+whose inner world it is.” (p. 299).  
+7 
+ 
+8 
+In the following, we flesh out these ideas in the form of a novel, integrative proposal based on 
+9 
+the ideas expressed in Cleeremans’ Radical Plasticity framework [46-49]. We dub this proposal 
+10 
+“The Self-Organizing Metarepresentational Account” (SOMA). 
+11 
+ 
+12 
+The Self-Organizing Metarepresentational Account 
+13 
+  
+14 
+The theory is based on three assumptions. The first is that information processing as carried 
+15 
+out by neurons is intrinsically unconscious. An implication of this assumption is that 
+16 
+consciousness depends on specific mechanisms rather than on intrinsic properties of local 
+17 
+neural activity. The second is that information processing as carried out by the brain is graded 
+18 
+and cascades [50] in a continuous flow [51] over the multiple levels of a heterarchy [52, 53] 
+19 
+extending from the posterior to the anterior cortex as evidence accumulates during information 
+20 
+processing episodes. An implication of this assumption is that consciousness takes time. The 
+21 
+third assumption is that plasticity is mandatory: The brain learns all the time, whether we intend 
+22 
+to or not [54] ; each experience leaves a trace in the brain [55]. 
+23 
+ 
+24 
+ 
+25 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+20 
+21 
+22 
+23 
+24 
+25 
+26 
+27 
+28 
+29 
+30 
+31 
+32 
+33 
+34 
+35 
+36 
+37 
+38 
+39 
+40 
+41 
+42 
+43 
+44 
+45 
+46 
+47 
+48 
+49 
+50 
+51 
+52 
+53 
+54 
+55 
+56 
+57 
+58 
+59 
+60 
+61 
+62 
+63 
+64 
+65 
+
+ 
+8
+First-order processing as a necessary condition for consciousness  
+  
+1 
+  
+2 
+With these assumptions in place, we surmise that the extent to which a representation is 
+3 
+available to different aspects of consciousness (i.e., action, control, and experience) depends 
+4 
+on quality of representation [47, 56, 57], a first-order property. Quality of representation 
+5 
+(QoR) designates graded properties of neural representations, specifically (1) their strength, (2) 
+6 
+their stability in time, and (3) their distinctiveness, by which we mean the extent to which they 
+7 
+are different from other, competing representations. QoR depends both on bottom-up factors 
+8 
+such as stimulus properties (i.e., energy, duration) and on top-down factors such as attention 
+9 
+[58]. Crucially, QoR changes as a function of learning and plasticity, over different time-scales, 
+10 
+so that the weak representations associated with subliminal processing or with the early stages 
+11 
+of acquiring a new skill get progressively stronger and more likely to influence behaviour as a 
+12 
+function of both time available for processing and plasticity-driven mechanisms that increase 
+13 
+their overall quality through learning. Neither the weak representations associated with 
+14 
+subliminal processing nor the very strong representations associated with automaticity are 
+15 
+available to cognitive control, but for very different reasons that can be understood from an 
+16 
+adaptive point of view: Weak representations do not need to be controlled because they only 
+17 
+exert weak effects on behaviour. Strong representations, on the other hand, do not need to be 
+18 
+controlled either — but only as long as the effects they exert on behaviour can be trusted to be 
+19 
+adaptive, as is the case in automaticity. This leaves intermediate representations as the main 
+20 
+target of cognitive control, that is, representations that are strong enough that they begin 
+21 
+exerting significant effects on action, yet not strong enough that their influence can be left to 
+22 
+unfold unfettered. From this, the extent to which given representations are available to form 
+23 
+the contents of phenomenal experience is assumed to depend on both their availability to action 
+24 
+and their availability to cognitive control [59]. This predicts (1) that weak representations are 
+25 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+20 
+21 
+22 
+23 
+24 
+25 
+26 
+27 
+28 
+29 
+30 
+31 
+32 
+33 
+34 
+35 
+36 
+37 
+38 
+39 
+40 
+41 
+42 
+43 
+44 
+45 
+46 
+47 
+48 
+49 
+50 
+51 
+52 
+53 
+54 
+55 
+56 
+57 
+58 
+59 
+60 
+61 
+62 
+63 
+64 
+65 
+
+ 
+9
+simply not available to form such contents, (2) that the intermediate, flexible representations 
+1 
+associated with intentional, controlled processing are the most likely to form the contents of 
+2 
+phenomenal experience, and (3) that the very strong representations associated with 
+3 
+automaticity, while available to form the contents of a processing episode, are typically 
+4 
+dimmed out unless amplified through attention. This accounts for the loss of phenomenology 
+5 
+associated with automaticity, and also for the fact that metacognitive accuracy often lags first-
+6 
+order performance initially, but precedes first-order performance with expertise (i.e., I know 
+7 
+that I know the answer to a query before I can actually answer the query). One would thus 
+8 
+expect non-monotonic effects as expertise develops, in different paradigms ranging from 
+9 
+perception to motor learning. In this continuum, the intermediate representations that are of 
+10 
+sufficient QoR that they begin exerting significant effects on behaviour yet not sufficiently 
+11 
+automatized that they can exert their influence outside of conscious control are the best 
+12 
+candidates for Representational Redescription (RR, see BOX 2), and can thus be recoded in 
+13 
+different ways, e.g., as linguistic propositions supporting verbal report. 
+14 
+  
+15 
+The distinctions introduced here overlap partially with those introduced by other theories — 
+16 
+Dehaene’s conscious–preconscious–unconscious taxonomy [60], Lamme’s Stages 1/2/3/4 
+17 
+framework [61], and Kouider’s partial awareness hypothesis [62], but uniquely frame the 
+18 
+transitions dynamically as resulting from the consequences of learning and plasticity 
+19 
+mechanisms through which the system learns about the geography and dynamics of its own 
+20 
+internal representations. 
+21 
+ 
+22 
+ 
+23 
+ 
+24 
+ 
+25 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+20 
+21 
+22 
+23 
+24 
+25 
+26 
+27 
+28 
+29 
+30 
+31 
+32 
+33 
+34 
+35 
+36 
+37 
+38 
+39 
+40 
+41 
+42 
+43 
+44 
+45 
+46 
+47 
+48 
+49 
+50 
+51 
+52 
+53 
+54 
+55 
+56 
+57 
+58 
+59 
+60 
+61 
+62 
+63 
+64 
+65 
+
+ 
+10
+Metarepresentation as a sufficient condition for consciousness? 
+1 
+ 
+2 
+How do we go from the mere sensitivity exhibited by first-order systems to consciousness? As 
+3 
+many studies have now demonstrated, even strong, high-quality stimuli can fail to be conscious 
+4 
+– this is what happens in change blindness [63], in the attentional blink [64] or in inattentional 
+5 
+blindness [65]. Further, states of altered consciousness like hypnosis, and pathological states 
+6 
+such as blindsight [66-68] or hemineglect all suggest that high-quality percepts can fail to be 
+7 
+consciously represented while (putatively) remaining causally efficacious. 
+8 
+ 
+9 
+These observations are indicative that merely achieving sufficient quality (i.e., sufficient 
+10 
+strength, stability, and distinctiveness), while necessary for a representation to be a conscious 
+11 
+representation, is not sufficient. HOT precisely proposes that the contents of first-order 
+12 
+representations are only conscious when they are the target of relevant metarepresentations.  
+13 
+The densely connected prefrontal cortex (PFC), which we know is involved in conscious report 
+14 
+[69, 70] and in metacognition [71] is a good candidate to support such metarepresentations. It 
+15 
+is important to note, however, that our perspective does not mandate PFC involvement, and 
+16 
+that there remains substantial debate about the role of PFC in subtending conscious experience 
+17 
+[69, 72, 73]. 
+18 
+ 
+19 
+Our core suggestion is that a relevant minimal mechanism to support metarepresentation 
+20 
+involves Representational Redescription, that is, the ability for a system to redescribe its own 
+21 
+representations to itself in ways that make it possible for the relevant action-oriented first-order 
+22 
+knowledge it implicitly acquired to be available as data structures to the system as a whole. As 
+23 
+Clark and Karmiloff-Smith [74] put it, implicit knowledge “… is knowledge in the system, but 
+24 
+it is not yet knowledge to the system. A procedure for producing a particular output is available 
+25 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+20 
+21 
+22 
+23 
+24 
+25 
+26 
+27 
+28 
+29 
+30 
+31 
+32 
+33 
+34 
+35 
+36 
+37 
+38 
+39 
+40 
+41 
+42 
+43 
+44 
+45 
+46 
+47 
+48 
+49 
+50 
+51 
+52 
+53 
+54 
+55 
+56 
+57 
+58 
+59 
+60 
+61 
+62 
+63 
+64 
+65 
+
+ 
+11
+as a whole to other processes, but its component parts (i.e., the knowledge embedded in the 
+1 
+procedure) are not.” (p. 495).  
+2 
+ 
+3 
+Figure 1: Tangled loops 
+4 
+ 
+5 
+One way of enabling a system to be sensitive to its own sensitivity is to have a second, higher-
+6 
+order system act as an observer of a first-order network’s internal states (Figure 1a). In such a 
+7 
+system, one network learns about the world, carrying out first-order decisions. This entire first-
+8 
+network, or layers thereof,  is also input to a second-order network, the task of which is to learn 
+9 
+something about the representations and the dynamics of the first-order network, endowing it 
+10 
+with the ability to express judgments about and to characterize (mental attitudes) what the first-
+11 
+order network knows, so as to develop metarepresentations about the relevant first-order 
+12 
+knowledge.  
+13 
+ 
+14 
+In prior work, we have provided different instantiated computational examples of how such 
+15 
+higher-order networks, however elementary, can nevertheless account for many existing 
+16 
+patterns of association and dissociation between conscious and unconscious knowledge, or 
+17 
+between metacognitive judgements and first-order performance [75-77].  
+18 
+ 
+19 
+Such metarepresentations subtend not only effective metacognition [71], executive control and 
+20 
+verbal report [32], but also, we contend, phenomenal experience itself. Crucially, such 
+21 
+redescription processes need neither be conscious, nor conceptual, nor global. The RR 
+22 
+mechanism echoes central aspects of both GWT and HOT. Indeed, along with the idea that 
+23 
+first-order mental states across sensory modalities and action systems can themselves become 
+24 
+objects of representation through unconscious RR processes operating through a predictive 
+25 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+20 
+21 
+22 
+23 
+24 
+25 
+26 
+27 
+28 
+29 
+30 
+31 
+32 
+33 
+34 
+35 
+36 
+37 
+38 
+39 
+40 
+41 
+42 
+43 
+44 
+45 
+46 
+47 
+48 
+49 
+50 
+51 
+52 
+53 
+54 
+55 
+56 
+57 
+58 
+59 
+60 
+61 
+62 
+63 
+64 
+65 
+
+ 
+12
+inner loop, our proposal leads naturally to the kind of hierarchical structure that enables 
+1 
+widespread availability to many transmitting and consuming systems in the brain — the core 
+2 
+idea of GWT, but with a higher-order twist [33, 34]. Thus, the very architecture of the global 
+3 
+workspace (Figure 1b) may simply be the result of repeated representational redescription 
+4 
+aimed at improving control over action.  
+5 
+ 
+6 
+Importantly however, here, and in contrast to Rosenthal’s Higher-Order Thought Theory [15], 
+7 
+such metarepresentational models (1) may be local and hence exist anywhere in the brain, (2) 
+8 
+may be subpersonal, and (3) are subject, just like first-order representations, to plasticity, and 
+9 
+can thus themselves become automatic. We note that three recent proposals have expressed 
+10 
+germane ideas: Fleming’s concept of “verbal reports as inference in a higher-order state space” 
+11 
+[35] precisely captures the core idea that reports about our own mental states involve generative 
+12 
+models actively monitoring perceptual content. Second, Lau’s characterization of 
+13 
+consciousness as involving “perceptual reality monitoring” [31, 35, 78] is similarly buttressed 
+14 
+on the idea that “consciousness involves subpersonal metacognition”. As we develop below, 
+15 
+such mechanisms appear necessary to enable a system to distinguish between, say, genuine 
+16 
+perceptual input and mental imagery or hallucinations. This, we claim, can only be achieved 
+17 
+as long as the observing system has learned about the states in which the observed system 
+18 
+typically finds itself in. Third, Gershman [79] has recently proposed that phenomenal 
+19 
+experience (and abnormalities thereof) results from the interactions between generators (of 
+20 
+first-order content) and (higher-order) discriminators in a Generative Adversarial Network 
+21 
+(GAN) framework. These recent proposals all share the core intuition that phenomenal 
+22 
+experience emerges out of the (learning-driven) interactions between first-order perception-to-
+23 
+action systems and higher-order monitoring and control systems — the central mechanism of 
+24 
+metacognition [80].  
+25 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+20 
+21 
+22 
+23 
+24 
+25 
+26 
+27 
+28 
+29 
+30 
+31 
+32 
+33 
+34 
+35 
+36 
+37 
+38 
+39 
+40 
+41 
+42 
+43 
+44 
+45 
+46 
+47 
+48 
+49 
+50 
+51 
+52 
+53 
+54 
+55 
+56 
+57 
+58 
+59 
+60 
+61 
+62 
+63 
+64 
+65 
+
+ 
+13
+I am a strange loop 
+1 
+ 
+2 
+In what way do the learning and plasticity mechanisms that shape interactions between first-
+3 
+order and higher-order systems operate? We assume that they involve similar prediction-driven 
+4 
+RR mechanisms that extend over three entangled loops: An inner loop, through which the brain 
+5 
+learns about itself, a perception-action loop, through which agents learn about the 
+6 
+consequences of action on the world, and a self-other loop, through which they learn about the 
+7 
+consequences of action on other agents. 
+8 
+ 
+9 
+A first, internal or “inner loop”, involves the brain redescribing its own representations to itself 
+10 
+as a result of its continuous unconscious attempts at predicting how activity in one region 
+11 
+influences activity in other regions. The provocative idea here is that the brain does not know, 
+12 
+e.g., that SMA activity consistently precedes M1 activity.  To represent this causal link to itself, 
+13 
+it therefore has to learn to redescribe its own activity so that the causal link is now represented 
+14 
+explicitly, that is, as an active pattern of neural activity that is available to other systems as a 
+15 
+data structure (Figure 2). While any layer in a neural network can appropriately be 
+16 
+characterized as a redescription of lower-level layers, metarepresentations additionally involve 
+17 
+representing the representational relationship itself. As Perner [81] put it: metarepresentations 
+18 
+“represent representations as representations”. Thus, in Figure 2a, while neuron B can 
+19 
+appropriately be described as representing (as indicating) the activity of neuron A, it takes 
+20 
+neuron C (Figure 2b) to represent the representational relationship between neurons A and B, 
+21 
+so making the implicit information contained in the connection between A and B explicit and 
+22 
+available as data to other systems.   
+23 
+ 
+24 
+Figure 2: Representational Redescription 
+25 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+20 
+21 
+22 
+23 
+24 
+25 
+26 
+27 
+28 
+29 
+30 
+31 
+32 
+33 
+34 
+35 
+36 
+37 
+38 
+39 
+40 
+41 
+42 
+43 
+44 
+45 
+46 
+47 
+48 
+49 
+50 
+51 
+52 
+53 
+54 
+55 
+56 
+57 
+58 
+59 
+60 
+61 
+62 
+63 
+64 
+65 
+
+ 
+14
+A substantial pending question here is the extent to which the observing (predictive) systems 
+1 
+need to be causally independent from the target first-order systems for them to play out their 
+2 
+metarepresentational functions. We note that the same discussion concerning the thorny 
+3 
+problem of causality, and in particular circular causality [82] in recurrent systems takes place 
+4 
+at other levels of description. For instance, Fleming and Daw [83] distinguish between three 
+5 
+classes of metacognitive systems: First-order models, in which actions and confidence are 
+6 
+computed based on the same first-order signals, second-order models, in which actions and 
+7 
+confidence are computed fully independently, and post-decisional models, in which action 
+8 
+information is allowed to influence confidence. The extent to which causal independence is 
+9 
+necessary for a representation to count as metarepresentational is a matter of further analysis 
+10 
+and empirical research.  
+11 
+ 
+12 
+It is important to keep in mind that this inner loop involves multiple layers of recurrent 
+13 
+connectivity, at different scales throughout the brain. Empirical evidence that the brain “learns 
+14 
+about itself” is scant (but see, e.g.,[84], for evidence that the brain anticipates the metabolic 
+15 
+needs of specific regions), but we note that plasticity is an integral aspect of all contemporary 
+16 
+theories of neural function. This is further broadly consistent with the core assumptions of 
+17 
+generative models in general and with the perspective of “radical predictive processing”, 
+18 
+according to which “cognition is accomplished by a canonical, ubiquitous microcircuit motif 
+19 
+replicated across all sensory and cognitive domains in which specific classes of neurons 
+20 
+reciprocally pass predictions and prediction errors across all the global neuronal hierarchy” 
+21 
+[85, p. 2463]. 
+22 
+ 
+23 
+A second “perception-action loop” results from the agent as a whole predicting the 
+24 
+consequences of its actions on the world [13-14]. Not only does perception lead to action, but 
+25 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+20 
+21 
+22 
+23 
+24 
+25 
+26 
+27 
+28 
+29 
+30 
+31 
+32 
+33 
+34 
+35 
+36 
+37 
+38 
+39 
+40 
+41 
+42 
+43 
+44 
+45 
+46 
+47 
+48 
+49 
+50 
+51 
+52 
+53 
+54 
+55 
+56 
+57 
+58 
+59 
+60 
+61 
+62 
+63 
+64 
+65 
+
+ 
+15
+acting can itself influence both perception [86] and metacognition [87-89]. Here, our proposal 
+1 
+echoes the enactive perspective put forward by O’Regan and Noë [90]. Successful interaction 
+2 
+with the world, and, tentatively, our experience of such interactions, depends on learning-
+3 
+driven “mastery of sensorimotor contingencies” and is broadly consistent with the assumptions 
+4 
+of active inference — the processes through which internal generative models minimize 
+5 
+prediction error through action [22, 24, 25, 27]. 
+6 
+ 
+7 
+We then note that when such prediction-driven learning mechanisms are directed towards 
+8 
+improving an agent’s ability to act adaptively towards other agents, their operation results in 
+9 
+the emergence of systems of internal representations (internal models) that capture the structure 
+10 
+and variability of other people’s unobservable internal states [19, 91, 92]. 
+11 
+ 
+12 
+This third, “self-other loop”, we argue, is the scaffolding that makes it possible for an agent to 
+13 
+redescribe its own activity to itself [93] — for now it is endowed with an (implicit, unconscious, 
+14 
+enactive, embodied) internal model of what it takes to be an agent [94] — precisely what social 
+15 
+theories of consciousness have proposed [19, 21] [20]. This proposal is supported by the 
+16 
+hypothesis that theory of mind [95, 96] can be understood as rooted in the very same 
+17 
+mechanisms of predictive redescriptions as involved when interacting with the world or with 
+18 
+oneself [18]. Rather than seeing such redescriptions as internally generated, qualitatively 
+19 
+different representations of discrete knowledge about the world, the “social” redescription is 
+20 
+an ongoing learning process driven by increasingly complex interactive contexts [97], such as 
+21 
+when moving from dyadic to triadic interaction, for instance [98]. Social context as a driving 
+22 
+force for learning has, indeed, been recognized in language learning [99], child development 
+23 
+[100] and social cognition [101]. 
+24 
+ 
+25 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+20 
+21 
+22 
+23 
+24 
+25 
+26 
+27 
+28 
+29 
+30 
+31 
+32 
+33 
+34 
+35 
+36 
+37 
+38 
+39 
+40 
+41 
+42 
+43 
+44 
+45 
+46 
+47 
+48 
+49 
+50 
+51 
+52 
+53 
+54 
+55 
+56 
+57 
+58 
+59 
+60 
+61 
+62 
+63 
+64 
+65 
+
+ 
+16
+Thus, something unique happens when a developing agent has models of itself available to it 
+1 
+[18] in the form of other agents that it can infer the unobservable internal states of merely by 
+2 
+interacting with them [102, 103]. Selves are thus embodied, virtual and transparent renditions 
+3 
+of the underlying biological machinery [104] that produces them, and emerge progressively 
+4 
+over development as a mandatory consequence of dynamic interactions with other agents [19, 
+5 
+93].  
+6 
+ 
+7 
+The relationships between theory of mind, self-awareness and perceptual awareness are 
+8 
+complex, interwoven, and loopy. Here, we argue that they are strongly interdependent on each 
+9 
+other: The processing carried out by the inner loop is causally dependent on the existence of 
+10 
+both the perception-action loop and the self-other loop, with the entire system thus forming a 
+11 
+“tangled hierarchy” (e.g., Hofstadter’s concept of “a strange loop” [105, 106]) of predictive 
+12 
+internal models [44, 91]. In this light, the social world is thus instrumental in generating 
+13 
+conscious experience, for something special happens when we try to build a model of the 
+14 
+internal, unobservable states of agents that are just like ourselves [16-17]. As Frith (personal 
+15 
+communication) put it, in this sense, “consciousness is for other people”. Language, as the 
+16 
+metarepresentational tool per excellence, undoubtedly plays a role in explaining the seemingly 
+17 
+singular nature of human consciousness [107].  
+18 
+ 
+19 
+Who is conscious, then? Our perspective predicts that phenomenal awareness depends on (1) 
+20 
+The existence of massive information-processing resources that are sufficiently powerful to 
+21 
+simulate certain aspects of one’s own physical basis and inner workings; (2) the operation of  
+22 
+continuously learning systems that attempt to predict future states and (3) immersion in a 
+23 
+sufficiently rich social environment, specifically, environments from which models of yourself 
+24 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+20 
+21 
+22 
+23 
+24 
+25 
+26 
+27 
+28 
+29 
+30 
+31 
+32 
+33 
+34 
+35 
+36 
+37 
+38 
+39 
+40 
+41 
+42 
+43 
+44 
+45 
+46 
+47 
+48 
+49 
+50 
+51 
+52 
+53 
+54 
+55 
+56 
+57 
+58 
+59 
+60 
+61 
+62 
+63 
+64 
+65 
+
+ 
+17
+can be built. Which organisms meet these criteria is, obviously, an open and challenging 
+1 
+empirical question. 
+2 
+ 
+3 
+Concluding remarks 
+4 
+  
+5 
+This piece had the main goal of fleshing out the original proposal that conscious experience — 
+6 
+what it feels like to have mental states [108] — is the result of continuously operating 
+7 
+(unconscious) prediction-driven representational redescription processes, the computational 
+8 
+goal of which is to enable better control of action through  the anticipation of the consequences 
+9 
+of action or activity on the brain itself, on the world, and on other people.   Consciousness, 
+10 
+from this perspective, is the brain’s implicit, embodied, enactive, and non-conceptual theory 
+11 
+about itself In other words, we “learn to be conscious”. Thus, we broadly espouse the enactive 
+12 
+approach [90] [109] — that neural activity is, at its core, driven by action, and that phenomenal 
+13 
+experience amounts to learned knowledge of the sensorimotor contingencies — but extend it 
+14 
+both inwards (the brain learning about itself) and further outwards (the brain learning about 
+15 
+other minds). 
+16 
+ 
+17 
+Beyond instantiating a search for the “computational correlates of consciousness” [57], our 
+18 
+approach also suggests new avenues for empirical research. Our understanding of the 
+19 
+differences between conscious and unconscious cognition would clearly benefit from increased 
+20 
+focus on documenting the dynamics of consciousness at different scales, from cognitive 
+21 
+development [110] to learning situations [38] and individual perceptual episodes [111].  
+22 
+ 
+23 
+To conclude, a good metaphor for all of this is the following. The brain is as an unconscious 
+24 
+biological machine which, in the process of trying to figure out what the consequences of the 
+25 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+20 
+21 
+22 
+23 
+24 
+25 
+26 
+27 
+28 
+29 
+30 
+31 
+32 
+33 
+34 
+35 
+36 
+37 
+38 
+39 
+40 
+41 
+42 
+43 
+44 
+45 
+46 
+47 
+48 
+49 
+50 
+51 
+52 
+53 
+54 
+55 
+56 
+57 
+58 
+59 
+60 
+61 
+62 
+63 
+64 
+65 
+
+ 
+18
+actions it carries out through its body, ends up developing a model of itself which is largely 
+1 
+shaped based on interactions with other agents. This model is a (sketchy, high-level, 
+2 
+unconscious, non-conceptual, prediction-relevant) representation of the inner workings of the 
+3 
+machine that produced it. It is self-organizing in the sense that it is through broadly 
+4 
+unsupervised learning mechanisms that the brain creates both a first-order sensorium and the 
+5 
+higher-level redescriptions that ultimately makes it possible for agents to represent themselves 
+6 
+as entertaining mental states. This is where the miracle happens — the rest is a long story about 
+7 
+the complex interactions between the machine (the brain) and the representation of itself that 
+8 
+it has developed over its existence (see Outstanding Questions). Where does consciousness 
+9 
+come from in such a system? If one accepts the idea that consciousness amounts to being 
+10 
+(unconsciously) sensitive to the fact that one knows, then this is exactly the sort of mechanism 
+11 
+we need. Of course, consciousness being such a thorny problem, some will always claim: “But 
+12 
+this is just a mechanism!”. But consciousness, if it affords a scientific explanation at all, cannot 
+13 
+be anything else than a mechanism, as both Seth [112] and Dennett [113] have forcefully 
+14 
+argued. 
+ 
+15 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+20 
+21 
+22 
+23 
+24 
+25 
+26 
+27 
+28 
+29 
+30 
+31 
+32 
+33 
+34 
+35 
+36 
+37 
+38 
+39 
+40 
+41 
+42 
+43 
+44 
+45 
+46 
+47 
+48 
+49 
+50 
+51 
+52 
+53 
+54 
+55 
+56 
+57 
+58 
+59 
+60 
+61 
+62 
+63 
+64 
+65 
+
+ 
+19
+Acknowledgments 
+1 
+ 
+2 
+This work was supported by European Research Council Advanced Grant #340718 
+3 
+“RADICAL” to Axel Cleeremans. Dalila Achoui, Arnaud Beauny, Lars Keuninckx, Jean-
+4 
+Remy Martin, Santiago Muñoz Moldes, Laurène Vuillaume, & Adélaïde de Heering were 
+5 
+supported by the grant. Axel Cleeremans is a Research Director with the Fonds de la Recherche 
+6 
+Scientifique (F.R.S.-FNRS, Belgium) and a Senior Fellow of the Canadian Institute for 
+7 
+Advanced Research (CIFAR). We thank Matthias Michel for useful comments on a previous 
+8 
+version of this manuscript as well as the referees and the editor for their constructive appraisal 
+9 
+of the submission. 
+ 
+10 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+20 
+21 
+22 
+23 
+24 
+25 
+26 
+27 
+28 
+29 
+30 
+31 
+32 
+33 
+34 
+35 
+36 
+37 
+38 
+39 
+40 
+41 
+42 
+43 
+44 
+45 
+46 
+47 
+48 
+49 
+50 
+51 
+52 
+53 
+54 
+55 
+56 
+57 
+58 
+59 
+60 
+61 
+62 
+63 
+64 
+65 
+
+ 
+20
+ 
+Bibliography 
+ 
+1 
+1. Dennett, D.C. (1991) Consciousness Explained, Little, Brown & Co. 
+2 
+2. Crick, F.H.C. and Koch, C. (1990) Towards a neurobiological theory of consciousness. 
+3 
+Seminars in the Neurosciences 2, 263-275. 
+4 
+3. Michel, M. et al. (2019) Opportunities and challenges for a maturing science of 
+5 
+consciousness. . Nature Human Behaviour 3, 104-107. 
+6 
+4. Sohn, E. (2019) Decoding the neuroscience of consciousness. Nature 571, S2-S5. 
+7 
+5. Baars, B.J. (1988) A Cognitive Theory of Consciousness, Cambridge University Press. 
+8 
+6. Dehaene, S. et al. (1998) A neuronal model of a global workspace in effortful cognitive 
+9 
+tasks. Proceedings of the National Academy of Sciences of the U.S.A. 95 (24), 14529-
+10 
+14534. 
+11 
+7. Dretske, F. (1995) Naturalizing the Mind, MIT Press. 
+12 
+8. Humphrey, N. (2006) Seeing Red, Harvard University Press. 
+13 
+9. O’Regan, J.K. (2011) Why red doesn’t sound like a bell: Understanding the feel of 
+14 
+consciousness, Oxford University Press. 
+15 
+10. Tye, M. (1995) Ten problems of consciousness, MIT Press. 
+16 
+11. Tononi, G. and Edelman, G.M. (1998) Consciousness and complexity. Science 282 (5395), 
+17 
+1846-1851. 
+18 
+12. Damasio, A. (1999) The feeling of what happens: Body and Emotion in the Making of 
+19 
+Consciousness, Harcourt Brace & Company. 
+20 
+13. Michel, M. et al. (2018) An informal internet survey on the current state of consciousness 
+21 
+science. Frontiers in Psychology 9. 
+22 
+14. Dehaene, S. and Naccache, L. (2001) Towards a cognitive neuroscience of consciousness: 
+23 
+Basic evidence and a workspace framework. Cognition 79, 1-37. 
+24 
+15. Rosenthal, D. (1997) A theory of consciousness. In The Nature of Consciousness: 
+25 
+Philosophical Debates (Block, N. et al. eds), MIT Press. 
+26 
+16. Lau, H. and Rosenthal, D. (2011) Empirical support for higher-order theories of 
+27 
+consciousness. Trends in Cognitive Sciences 15 (8), 365-373. 
+28 
+17. LeDoux, J.E. and Brown, R. (2017) A higher-order theory of emotional consciousness. 
+29 
+Proc Natl Acad Sci U S A 114 (10), E2016-25. 
+30 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+20 
+21 
+22 
+23 
+24 
+25 
+26 
+27 
+28 
+29 
+30 
+31 
+32 
+33 
+34 
+35 
+36 
+37 
+38 
+39 
+40 
+41 
+42 
+43 
+44 
+45 
+46 
+47 
+48 
+49 
+50 
+51 
+52 
+53 
+54 
+55 
+56 
+57 
+58 
+59 
+60 
+61 
+62 
+63 
+64 
+65 
+
+ 
+21
+18. Carruthers, P. (2009) How we know our own minds: the relationship between mindreading 
+1 
+and metacognition. Behavioral and Brain Sciences 32 (2), 121-138. 
+2 
+19. Frith, C.D. (2007) Making up the mind, Blackwell Publishing. 
+3 
+20. Graziano, M. (2015) Consciousness and the social brain, Oxford University Press. 
+4 
+21. Graziano, M. and Karstner, S. (2011) Human consciousness and its relationship to social 
+5 
+neuroscience: A novel hypothesis. Cognitive Neuroscience 2 (2), 98-113. 
+6 
+22. Friston, K. (2006) A free energy principle for the brain. Journal of Physiology (Paris) 100, 
+7 
+70-87. 
+8 
+23. Clark, A. (2013) Whatever next? Predictive brains, situated agents, and the future of 
+9 
+cognitive science. Behavioral and Brain Sciences 36 (3), 181-204. 
+10 
+24. Clark, A. (2016) Surfing uncertainty: Prediction, Action, and the Embodied Mind, Oxford 
+11 
+University Press. 
+12 
+25. Hohwy, J. (2013) The predictive mind, Oxford University Press. 
+13 
+26. Bar, M. (2009) Predictions: a universal principle in the operation of the human brain. 
+14 
+Philosophical Transactions of the Royal Society B 364, 1181-1182. 
+15 
+27. Seth, A. (2014) A predictive processing theory of sensorimotor contingencies: Explaining 
+16 
+the puzzle of perceptual presence and its absence in synsethesia. Cognitive Neuroscience 
+17 
+5 (2), 97-118. 
+18 
+28. Dehaene, S. et al. (2003) A neuronal network model linking subjective reports and objective 
+19 
+physiological data during conscious perception. Proceedings of the National Academy of 
+20 
+Sciences of the U.S.A. 100 (14), 8520-8525. 
+21 
+29. Brown, R. et al. (2019) Understanding the higher-order approach to consciousness. Trends 
+22 
+in Cognitive Science 23 (9), 754-768. 
+23 
+30. Block, N. (2011) The higher-order approach to consciousness is defunct. Analysis 71 (3). 
+24 
+31. Lau, H. (2008) A higher-order Bayesian Decision Theory of consciousness. In Models of 
+25 
+brain and mind. Physical, computational and psychological approaches. Progress in Brain 
+26 
+Research. Progress in Brain Research (Banerjee, R. and Chakrabarti, B.K. eds), pp. 35-
+27 
+48, Elsevier. 
+28 
+32. Dehaene, S. et al. (2017) What is consciousness and could machines have it? Science 358 
+29 
+(1-7). 
+30 
+33. Van Gulick, R. (2004) Higher-Order Global States (HOGS): An alternative Higher-Order 
+31 
+model of consciousness. In Higher-Order Theories of Consciousness: An anthology 
+32 
+(Gennaro, R.J. ed), pp. 67-90, John Benjamins. 
+33 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+20 
+21 
+22 
+23 
+24 
+25 
+26 
+27 
+28 
+29 
+30 
+31 
+32 
+33 
+34 
+35 
+36 
+37 
+38 
+39 
+40 
+41 
+42 
+43 
+44 
+45 
+46 
+47 
+48 
+49 
+50 
+51 
+52 
+53 
+54 
+55 
+56 
+57 
+58 
+59 
+60 
+61 
+62 
+63 
+64 
+65 
+
+ 
+22
+34. Shea, N. and Frith, C.D. (2019) The Global Workspace Needs Metacognition. Trends in 
+1 
+Cognitive Sciences 23 (7), 560-571. 
+2 
+35. Fleming, S.M. (2019) Awareness reports as inference in a higher-order state space. 
+3 
+arXiv:1906.00728 [q-bio]. 
+4 
+36. Smith, B.C. (2006) Questions of taste: The philosophy of wine, Oxford University Press. 
+5 
+37. Blakemore, S.J. et al. (1998) Central cancellation of self-produced tickle sensation. Nature 
+6 
+Neuroscience 1 (7), 635-640. 
+7 
+38. Schwiedrzik, C.M. et al. (2009) Sensitivity and perceptual awareness increase with practice 
+8 
+in metacontrast masking. Journal of Vision 9, 1-18. 
+9 
+39. de Lange, F.P. et al. (2018) How do expectations shape perception? Trends in Cognitive 
+10 
+Science 22 (9), 764-779. 
+11 
+40. Perruchet, P. and Vinter, A. (2002) The self-organizing consciousness. Behavioral and 
+12 
+Brain Sciences 25 (3), 297-330. 
+13 
+41. Hornsby, A.N. and Love, B.C. (2019) How decisions and the desire for coherency shape 
+14 
+subjective preferences over time. PsyarXiv. 
+15 
+42. Silver, D. et al. (2017) Mastering the game of Go without human knowledge. Nature 550, 
+16 
+354. 
+17 
+43. Bayne, T. (2013) Agency as a marker of consciousness. In Decomposing the will (Clark, 
+18 
+A. et al. eds), pp. 160-177, Oxford University Press. 
+19 
+44. Pacherie, E. (2008) The phenomenology of action: A conceptual framework. Cognition 
+20 
+107, 179-217. 
+21 
+45. Frege, G. (1918/1956) The thought: A logical enquiry. Mind 65 (259), 289-311. 
+22 
+46. Cleeremans, A. (2008) Consciousness: the radical plasticity thesis. In Models of Brain and 
+23 
+Mind: Physical, Computational and Psychological Approaches. Progress in Brain 
+24 
+Research (Banerjee, R. and Chakrabarti, B.K. eds), pp. 19-33, Elsevier. 
+25 
+47. Cleeremans, A. (2011) The radical plasticity thesis: How the brain learns to be conscious. 
+26 
+Frontiers in Psychology 2, 1-12. 
+27 
+48. Cleeremans, A. (2014) Connecting conscious and unconscious cognition. Cognitive 
+28 
+Science 38 (6), 1286-1315. 
+29 
+49. Cleeremans, A. (2019) Consciousness (unconsciously) designs itself. Journal of 
+30 
+Consciousness Studies 26 (3-4), 88-111. 
+31 
+50. McClelland, J.L. (1979) On the time-relations of mental processes: An examination of 
+32 
+systems in cascade. Psychological Review 86, 287-330. 
+33 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+20 
+21 
+22 
+23 
+24 
+25 
+26 
+27 
+28 
+29 
+30 
+31 
+32 
+33 
+34 
+35 
+36 
+37 
+38 
+39 
+40 
+41 
+42 
+43 
+44 
+45 
+46 
+47 
+48 
+49 
+50 
+51 
+52 
+53 
+54 
+55 
+56 
+57 
+58 
+59 
+60 
+61 
+62 
+63 
+64 
+65 
+
+ 
+23
+51. Eriksen, C.W. and Schultz, D.W. (1979) Information processing in visual search: A 
+1 
+continuous flow conception and experimental results. Attention, Perception & 
+2 
+Psychophysics 25 (4), 249-263. 
+3 
+52. McCulloch, W.S. (1945) A heterarchy of values determined by the topology of nervous 
+4 
+nets. Bull. Math. Biophys. 7, 89-93. 
+5 
+53. Fuster, J.M. (2008) The prefrontal cortex, 4th edn., Academic Press. 
+6 
+54. Cleeremans, A. et al. (1998) Implicit learning: News from the front. Trends in Cognitive 
+7 
+Sciences 2, 406-416. 
+8 
+55. Kreiman, G. et al. (2002) Single-neuron correlates of subjective vision in the human medial 
+9 
+temporal lobe. Proceedings of the National Academy of Sciences of the U.S.A. 99 (8378-
+10 
+8383). 
+11 
+56. Farah, M.J. (1994) Neuropsychological inference with an interactive brain: A critique of 
+12 
+the “locality” assumption. Behavioral and Brain Sciences 17, 43-104. 
+13 
+57. Cleeremans, A. (2005) Computational correlates of consciousness. Boundaries of 
+14 
+Consciousness: Neurobiology and Neuropathology 150, 81-98. 
+15 
+58. Dehaene, S. et al. (2006) Conscious, preconscious, and subliminal processing: A testable 
+16 
+taxonomy. Trends in Cognitive Sciences 10 (5), 204-211. 
+17 
+59. Shallice, T. (1978) The dominant action system: An information-processing approach to 
+18 
+consciousness. In The steam of consciousness (Pope, K. and Singer, J.L. eds), pp. 117-
+19 
+157, Springer. 
+20 
+60. Dehaene, S. et al. (2006) Conscious, preconscious, and subliminal processing: A testable 
+21 
+taxonomy. Trends in Cognitive Sciences 10 (5), 204-211. 
+22 
+61. Lamme, V.A.F. (2006) Toward a true neural stance on consciousness. Trends in Cognitive 
+23 
+Sciences 10 (11), 494-501. 
+24 
+62. Kouider, S. et al. (2010) How rich is consciousness: The partial awareness hypothesis. 
+25 
+Trends in Cognitive Sciences 14 (7), 301-307. 
+26 
+63. Simons, D.J. and Levin, D.T. (1997) Change Blindness. Trends in Cognitive Sciences 1, 
+27 
+261-267. 
+28 
+64. Shapiro, K.L. et al. (1997) The Attentional Blink. Trends in Cognitive Sciences 1, 291-295. 
+29 
+65. Mack, A. and Rock, I. (1998) Inattentional Blindness, MIT Press. 
+30 
+66. Muckli, L. et al. (2009) Bilateral visual field maps in a patient with only one hemisphere. 
+31 
+Proceedings of the National Academy of Sciences 106 (31), 13034-13039. 
+32 
+67. Silvanto, J. and Rees, G. (2011) What does Neural Plasticity Tell us about Role of Primary 
+33 
+Visual Cortex (V1) in Visual Awareness? Frontiers in Psychology 2. 
+34 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+20 
+21 
+22 
+23 
+24 
+25 
+26 
+27 
+28 
+29 
+30 
+31 
+32 
+33 
+34 
+35 
+36 
+37 
+38 
+39 
+40 
+41 
+42 
+43 
+44 
+45 
+46 
+47 
+48 
+49 
+50 
+51 
+52 
+53 
+54 
+55 
+56 
+57 
+58 
+59 
+60 
+61 
+62 
+63 
+64 
+65 
+
+ 
+24
+68. Weiskrantz, L. (1986) Blindsight: A case study and implications, Oxford University Press. 
+1 
+69. Tsuchiya, N. et al. (2015) No-Report paradigms: Extracting the true neural correlates of 
+2 
+consciousness. Trends in Cognitive Science 19 (12), 757-770. 
+3 
+70. Block, N. (2019) What is wrong with the no-report paradigm and how to fix it. Trends in 
+4 
+Cognitive Science. 
+5 
+71. Fleming, S.M. et al. (2010) Relating instrospective accuracy to individual differences in 
+6 
+brain structure. Science 329 (5998), 1541-1543. 
+7 
+72. Odergaard, B. et al. (2017) Should a few null findings falsify prefrontal theories of 
+8 
+conscious perception? Journal of Neuroscience 37 (40), 9593-9602. 
+9 
+73. Boly, M. et al. (2017) Are the neural correlates of consciousness in the front or in the back 
+10 
+of the cerebral cortex? Clinical and neuroimaging evidence. Journal of Neuroscience 
+11 
+2017 (37), 9603-9613. 
+12 
+74. Clark, A. and Karmiloff-Smith, A. (1993) The cognizer’s innards: A psychological and 
+13 
+philosophical perspective on the development of thought. Mind and Language 8, 487-
+14 
+519. 
+15 
+75. Cleeremans, A. et al. (2007) Consciousness and metarepresentation: A computational 
+16 
+sketch. Neural Networks 20 (9), 1032-1039. 
+17 
+76. Pasquali, A. et al. (2010) Know thyself: Metacognitive networks and measures of 
+18 
+consciousness. Cognition 117, 182-190. 
+19 
+77. Timmermans, B. et al. (2012) Higher order thoughts in action: consciousness as a 
+20 
+unconscious re-description process. Philosophical Transcations of the Royal Society B 
+21 
+367, 1412-1423. 
+22 
+78. Lau, H. (2019) Consciousness, Metacognition, & Perceptual Reality Monitoring. 
+23 
+79. Gershman, S.J. (submitted) The generative adversarial brain. 
+24 
+80. Nelson, T.O. and Narens, L. (1990) Metamemory: A theoretical framework and new 
+25 
+findings. The Psychology of Learning and Motivation 26, 125-173. 
+26 
+81. Perner, J. (1991) Understanding the representational mind, MIT Press. 
+27 
+82. Haken, H. (1977) Synergestics - An introduction: Nonequilibrium phase transitions and 
+28 
+self-organization in physics, chemistry, and biology., Springer Verlag. 
+29 
+83. Fleming, S.M. and Daw, N.D. (2017) Self-evaluation of decision-making: A general 
+30 
+Bayesian framework for metacognitive computation. Psychological Review 124, 91-114. 
+31 
+84. Sirotin, Y.B.D.A. (2009) Anticipatory haemodynamic signals in sensory cortex not 
+32 
+predicted by local neuronal activity. Nature 457, 475-480. 
+33 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+20 
+21 
+22 
+23 
+24 
+25 
+26 
+27 
+28 
+29 
+30 
+31 
+32 
+33 
+34 
+35 
+36 
+37 
+38 
+39 
+40 
+41 
+42 
+43 
+44 
+45 
+46 
+47 
+48 
+49 
+50 
+51 
+52 
+53 
+54 
+55 
+56 
+57 
+58 
+59 
+60 
+61 
+62 
+63 
+64 
+65 
+
+ 
+25
+85. Allen, M. and Friston, K. (2018) From cognitivism to autopoesis: towards a computational 
+1 
+framework for the embodied mind. Synthèse 195, 2459-2482. 
+2 
+86. Strack, F. et al. (1998) Inhibiting and facilitating conditions of the human smile: A 
+3 
+nonobstrusive test of the facial feedback hypothesis. . Journal of Personality and Social 
+4 
+Psychology 54 (5), 768-777. 
+5 
+87. Fleming, S.M. et al. (2015) Action-specific disruption of perceptual confidence. 
+6 
+Psychologial Science 26 (1), 89-98. 
+7 
+88. Wokke, M. et al. (2019) Action information contributes to metacognitive decision-making. 
+8 
+bioRxiv. 
+9 
+89. Siedlecka, M. et al. (2016) But I was so sure! Metacognitive judgments are less accurate 
+10 
+given prospectively than retrospectively. Frontiers in Psychology 7. 
+11 
+90. O'Regan, J.K. and Noë, A. (2001) A sensorimotor account of vision and visual 
+12 
+consciousness. Behavioral and Brain Sciences 24 (5), 883-917. 
+13 
+91. Wolpert, D.M. et al. (2004) A unifying computational framework for motor control and 
+14 
+social interaction. In The neuroscience of social interaction (Frith, C.D. and Wolpert, 
+15 
+D.M. eds), pp. 305-322, Oxford University Press. 
+16 
+92. Prinz, W. (2012) Open minds: The social making of agency and intentionality, MIT Press. 
+17 
+93. Shea, N. et al. (2014) Supra-personal cognitive control and metacognition. Trends in 
+18 
+cognitive sciences 18 (186-193). 
+19 
+94. Seth, A. and Tsakiris, M. (2018) Being a beast machine: The somatic basis of selfhood. 
+20 
+Trends in Cognitive Sciences 22 (11), 969-981. 
+21 
+95. Leslie, A.M. et al. (2004) Core mechanisms in "theory of mind". Trends in Cognitive 
+22 
+Sciences 8 (12), 528-533. 
+23 
+96. Carruthers, P. and Smith, P.K. (1996) Theories of theories of mind, Cambridge University 
+24 
+Press. 
+25 
+97. Schilbach, L. et al. (2013) Toward a second-person neuroscience. Behavioral and Brain 
+26 
+Sciences 36 (4), 393-414. 
+27 
+98. Carpendale, J.I. and Lewis, C. (2004) Constructing an understanding of mind: The 
+28 
+development of children's social understanding within social interaction. Behavioral and 
+29 
+brain sciences 27 (1), 79–96. 
+30 
+99. Kuhl, P.K. (2007) Is speech learning "gated" by the social brain? Developmental Science 
+31 
+10, 110-120. 
+32 
+100. Reddy, V. (2008) How infants know minds, Harvard University Press. 
+33 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+20 
+21 
+22 
+23 
+24 
+25 
+26 
+27 
+28 
+29 
+30 
+31 
+32 
+33 
+34 
+35 
+36 
+37 
+38 
+39 
+40 
+41 
+42 
+43 
+44 
+45 
+46 
+47 
+48 
+49 
+50 
+51 
+52 
+53 
+54 
+55 
+56 
+57 
+58 
+59 
+60 
+61 
+62 
+63 
+64 
+65 
+
+ 
+26
+101. Becchio, C. et al. (2010) Toward you: The social side of actions. Current Directions in 
+1 
+Psychological Science 19 (3), 183-188. 
+2 
+102. Tamir, D. and Thornton, M.A. (2018) Modeling the predictive social mind. Trends in 
+3 
+Cognitive Science 22 (3), 201-212. 
+4 
+103. Thornton, M.A. et al. (2019) The social brain automatically predicts other’s future mental 
+5 
+states. Journal of Neuroscience 39 (1), 140-148. 
+6 
+104. Metzinger, T. (2003) Being No One: The self-model theory of subjectivity, Bradford 
+7 
+Books, MIT Press. 
+8 
+105. Hofstadter, D.R. and Dennett, D.C. (1981) The mind's I: Fantasies and reflections on self 
+9 
+and soul, Penguin. 
+10 
+106. Hofstadter, D.R. (2007) I am a strange loop, Basic Books. 
+11 
+107. Frith, C. (2012) The role of metacognition in human social interactions. Philisophical 
+12 
+Transactions of the Royal Society of London, B. 367, 2213-2223. 
+13 
+108. Nagel, T. (1974) What is like to be a bat? Philosophical Review 83, 434-450. 
+14 
+109. Varela, F.J. et al. (1991) The Embodied Mind: Cognitive Science and Human Experience, 
+15 
+MIT Press. 
+16 
+110. Kouider, S. et al. (2013) A neural marker of perceptual consciousness in infants. Science 
+17 
+50 (14), 3736-3744. 
+18 
+111. Del Cul, A. et al. (2007) Brain dynamics underlying the nonlinear threshold for access to 
+19 
+consciousness. PloS Biology 5 (10), e260. 
+20 
+112. Seth, A. (2016) The real problem. Aeon. 
+21 
+113. Dennett, D.C. (2001) Are we explaining consciousness yet? Cognition 79, 221-237. 
+22 
+114. Dienes, Z. and Perner, J. (1999) A theory of implicit and explicit knowledge. Behavioral 
+23 
+and Brain Sciences 22, 735-808. 
+24 
+115. Karmiloff-Smith, A. (1992) Beyond modularity : A developmental perspective on 
+25 
+cognitive science, MIT Press. 
+26 
+116. Piaget, J. (1970) Genetic Epistemology, Columbia University Press. 
+27 
+ 
+ 
+28 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+20 
+21 
+22 
+23 
+24 
+25 
+26 
+27 
+28 
+29 
+30 
+31 
+32 
+33 
+34 
+35 
+36 
+37 
+38 
+39 
+40 
+41 
+42 
+43 
+44 
+45 
+46 
+47 
+48 
+49 
+50 
+51 
+52 
+53 
+54 
+55 
+56 
+57 
+58 
+59 
+60 
+61 
+62 
+63 
+64 
+65 
+
+ 
+27
+Glossary 
+1 
+ 
+2 
+● Consciousness: Consciousness is a mongrel concept that involves at least three distinctions:  
+3 
+The distinction between phenomenal consciousness and access consciousness; the 
+4 
+distinction between awareness of the world (perceptual awareness), self-awareness, and 
+5 
+awareness of other people’s mental states (theory of mind); and the distinction between 
+6 
+states (e.g., sleep versus wakefulness) and contents of consciousness. Here, we use the term 
+7 
+“consciousness” to refer to information processing that is associated with phenomenal 
+8 
+experience. 
+9 
+ 
+10 
+● Access consciousness: Access consciousness refers to the fact that, unlike unconscious 
+11 
+mental states, conscious mental states are available to cognitive functions such as reasoning, 
+12 
+verbal report, memory, planning, or goal-directed behaviour. 
+13 
+ 
+14 
+● Phenomenal consciousness: Phenomenal consciousness refers to the felt subjective 
+15 
+qualities associated with conscious mental states; “what it is like”, as Thomas Nagel 
+16 
+famously put it, to be a bat, to smell cheese, to listen to Bach, to remember a vacation, or to 
+17 
+imagine having one next year. 
+18 
+ 
+19 
+● First-order (representation): A first-order representation is a neuronal state representing a 
+20 
+state of affairs from the world (perception) or from one’s body (interoception). First-order 
+21 
+representations are the result of the neural computations of the constitutive sensory 
+22 
+properties of objects such as their shape, colour, size, pitch, and so on, that are necessary to 
+23 
+successfully drive action and decision-making. 
+24 
+ 
+25 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+20 
+21 
+22 
+23 
+24 
+25 
+26 
+27 
+28 
+29 
+30 
+31 
+32 
+33 
+34 
+35 
+36 
+37 
+38 
+39 
+40 
+41 
+42 
+43 
+44 
+45 
+46 
+47 
+48 
+49 
+50 
+51 
+52 
+53 
+54 
+55 
+56 
+57 
+58 
+59 
+60 
+61 
+62 
+63 
+64 
+65 
+
+ 
+28
+●Heterarchy: Unlike hierarchies, heterarchies are connected networks in which all nodes are 
+1 
+equipotent and may thus play different roles, including hierarchical roles, as a function of 
+2 
+context. 
+3 
+ 
+4 
+● Higher-order (representation): Higher-order representations are, in our perspective, 
+5 
+identical to metarepresentations.  
+6 
+ 
+7 
+● Quality of representation: A core concept of the proposed framework, quality of 
+8 
+representation is a construct aimed at characterizing core properties of representations in a 
+9 
+graded manner: Their strength, their stability in time, and their distinctiveness.  
+10 
+ 
+11 
+● Metarepresentation: A metarepresentation – or second-order representation – is a 
+12 
+representation that conveys information about other representations in the brain, for 
+13 
+instance, the fact that the target (first-order) representation exists, the probability that it 
+14 
+correctly represents a true state of affairs (confidence), it emotional value, its kind (a belief, 
+15 
+a hope, a regret, and so on).  
+16 
+ 
+17 
+● Metacognition: By metacognition (cognition about cognition), we mean the operations by 
+18 
+which one consciously evaluates and controls one’s own cognitive processes. Metacognition 
+19 
+depends on the existence of metarepresentations. 
+20 
+ 
+21 
+● Self awareness: The sense that we have (or not) of being a conscious agent distinct from the 
+22 
+world and from other agents. Self-awareness depends on introspection and on interoception. 
+23 
+Here, following Carruthers, we argue that self-awareness engages the same mechanisms as 
+24 
+theory of mind.  
+25 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+20 
+21 
+22 
+23 
+24 
+25 
+26 
+27 
+28 
+29 
+30 
+31 
+32 
+33 
+34 
+35 
+36 
+37 
+38 
+39 
+40 
+41 
+42 
+43 
+44 
+45 
+46 
+47 
+48 
+49 
+50 
+51 
+52 
+53 
+54 
+55 
+56 
+57 
+58 
+59 
+60 
+61 
+62 
+63 
+64 
+65 
+
+ 
+29
+● Theory of mind: Here, by theory of mind, we mean the processes that make it possible for 
+1 
+an agent to ascribe mental states (beliefs, desires, intentions) to other agents (including 
+2 
+oneself).  
+ 
+3 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+20 
+21 
+22 
+23 
+24 
+25 
+26 
+27 
+28 
+29 
+30 
+31 
+32 
+33 
+34 
+35 
+36 
+37 
+38 
+39 
+40 
+41 
+42 
+43 
+44 
+45 
+46 
+47 
+48 
+49 
+50 
+51 
+52 
+53 
+54 
+55 
+56 
+57 
+58 
+59 
+60 
+61 
+62 
+63 
+64 
+65 
+
+ 
+30
+BOX 1: Global Workspace Theory and Higher-Order Theories 
+1 
+ 
+2 
+According to Global Workspace Theory (GWT), conscious representations are made globally 
+3 
+available to cognitive functions in a manner that unconscious representations are not. Global 
+4 
+availability, that is, the capacity for a given representation to influence processing on a global 
+5 
+scale (supporting, in particular, verbal report, but also goal-directed decision-making), is 
+6 
+achieved by means of “the global neuronal workspace”, a large network of high-level neural 
+7 
+“processors” linked to each other by long-distance cortico-cortical connections. Thus, while 
+8 
+information processing can take place without consciousness in any given specialized 
+9 
+processor, once the contents processed by that processor enter in contact with the neural 
+10 
+workspace, they trigger a non-linear transition dubbed “ignition” and are “broadcasted” to the 
+11 
+entire brain, so achieving what Dennett [113] has called “fame in the brain”. GWT thus solves 
+12 
+the quandary of explaining the differences between conscious and unconscious cognition by 
+13 
+distinguishing between causal efficacy and conscious access through architecture: Information 
+14 
+that is in the neural workspace is globally available and hence conscious; information that is 
+15 
+outside of it and embedded in peripheral modules is not (despite potentially retaining causal 
+16 
+efficacy). While GWT makes no attempt to explain phenomenal awareness in and of itself, it 
+17 
+is fair to say that it implicitly assumes that global availability is a correlate of phenomenal 
+18 
+experience.  
+19 
+  
+20 
+Higher-Order theories of consciousness, of which there are different instantiations [15, 16, 29, 
+21 
+31, 78], have a very different flavour. According to HOT, a mental state is conscious when the 
+22 
+agent entertains, in a non-inferential manner, thoughts to the effect that it currently is in that 
+23 
+mental state. Importantly, for Rosenthal, it is in virtue of occurrent higher-order thoughts that 
+24 
+the target first-order representations become conscious. In other words, a particular 
+25 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+20 
+21 
+22 
+23 
+24 
+25 
+26 
+27 
+28 
+29 
+30 
+31 
+32 
+33 
+34 
+35 
+36 
+37 
+38 
+39 
+40 
+41 
+42 
+43 
+44 
+45 
+46 
+47 
+48 
+49 
+50 
+51 
+52 
+53 
+54 
+55 
+56 
+57 
+58 
+59 
+60 
+61 
+62 
+63 
+64 
+65 
+
+ 
+31
+representation, say, a representation of the printed letter “J”, will only be a conscious 
+1 
+representation to the extent that there exists another (unconscious) representation (in the same 
+2 
+brain) that indicates the fact that a (first-order) representation of the letter “J” exists at time t. 
+3 
+Dienes and Perner [114] have elaborated this idea by analysing the implicit-explicit distinction 
+4 
+as reflecting a hierarchy of the different manners in which a given representation can be 
+5 
+explicit. Thus, a representation can explicitly indicate a property (e.g., “yellow”), predication 
+6 
+to an individual (“the flower is yellow”), factivity (“it is a fact and not a belief that the flower 
+7 
+is yellow”) and attitude (“I know that the flower is yellow”). Fully conscious knowledge is thus 
+8 
+knowledge that is “attitude-explicit”, and conscious states are necessarily states that the subject 
+9 
+is aware of. While this sounds highly counterintuitive to some authors (most notably Ned 
+10 
+Block, see e.g., [30]), it captures the central intuition that it is precisely the fact that I am aware 
+11 
+(that I experience the fact, that I feel) that I possess some knowledge that makes this knowledge 
+12 
+conscious. HOT thus solves the problem of distinguishing between conscious and unconscious 
+13 
+cognition in a completely different manner than GWT, specifically by assuming the 
+14 
+involvement of specific kinds of representations, the function of which it is to denote the 
+15 
+existence of and to qualify target first-order representations. Such higher-order states, or meta-
+16 
+representations, do not need to be localized in any particular brain region, but of course the 
+17 
+densely interconnected prefrontal cortex is a good candidate for such metarepresentations to 
+18 
+play out their functions [29]. 
+ 
+19 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+20 
+21 
+22 
+23 
+24 
+25 
+26 
+27 
+28 
+29 
+30 
+31 
+32 
+33 
+34 
+35 
+36 
+37 
+38 
+39 
+40 
+41 
+42 
+43 
+44 
+45 
+46 
+47 
+48 
+49 
+50 
+51 
+52 
+53 
+54 
+55 
+56 
+57 
+58 
+59 
+60 
+61 
+62 
+63 
+64 
+65 
+
+ 
+32
+BOX 2. Representational Redescription 
+1 
+ 
+2 
+Representational Redescription (RR) is a theory of cognitive development introduced by 
+3 
+Karmiloff-Smith [115] and further developed by Clark & Karmiloff-Smith [74] about human 
+4 
+knowledge, its processes and its by-products. The starting point of the theory is the observation 
+5 
+that “human learning goes beyond success”, that is, that children’s learning often exhibits u-
+6 
+curved-shaped developmental trajectories whereby early behavioural mastery of a particular 
+7 
+task is paradoxically followed by an increase of errors before a final recovery. Karmiloff-Smith 
+8 
+interprets this pattern as reflecting the increased cognitive load induced by the reorganization 
+9 
+of internal knowledge over the course of learning. For instance, in French, the same form 
+10 
+(“un”) is used as an indefinite pronoun, i.e., “a truck” (vs. a car) or to denote number, i.e., “one 
+11 
+truck” (vs. two). Over development, children learning French start explicitly marking the 
+12 
+different usages of “un” by committing errors such as producing “un de camion” in contexts 
+13 
+were the intent is to denote kind rather than number. Karmiloff-Smith takes such cases as 
+14 
+indications that the underlying representations are in the process of being reorganized so as to 
+15 
+capture formerly implicit distinctions. To account for such patterns, the RR theory 
+16 
+distinguishes between four knowledge “levels”. Implicit (level I) representations are 
+17 
+individuated and procedural — they are effective procedures to drive behaviour but fail to be 
+18 
+available as objects of representation to the system. Three further levels characterize explicit 
+19 
+knowledge: E1 knowledge is knowledge that has been successfully redescribed into an explicit 
+20 
+format that enables generalization. E2 knowledge is conscious knowledge. E3 knowledge is 
+21 
+available for verbal report, that is, it can be used to justify one’s decisions. Overall, the theory 
+22 
+aimed to move away from traditional perspectives on cognitive development, in particular the 
+23 
+idea that it proceeds by broad cross-domain stages [116].  Clark and Karmiloff-Smith [74] later 
+24 
+elaborated on these ideas by framing them in the larger context of understanding the differences 
+25 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+20 
+21 
+22 
+23 
+24 
+25 
+26 
+27 
+28 
+29 
+30 
+31 
+32 
+33 
+34 
+35 
+36 
+37 
+38 
+39 
+40 
+41 
+42 
+43 
+44 
+45 
+46 
+47 
+48 
+49 
+50 
+51 
+52 
+53 
+54 
+55 
+56 
+57 
+58 
+59 
+60 
+61 
+62 
+63 
+64 
+65 
+
+ 
+33
+between classical and connectionist approaches to cognition, and by asking what kinds of 
+1 
+mechanisms might support representational redescription. Clark and Karmiloff-Smith argued 
+2 
+that knowledge in connectionist networks is always implicit: A first-order network never 
+3 
+knows that it knows. Explicit knowledge, in contrast, in the form of rules for instance, always 
+4 
+entails awareness. The difference, according to the authors, stems precisely from the system’s 
+5 
+ability to be sensitive to its own internal representations by means of representational 
+6 
+redescription: “For the genuine thinkers, we submit, are endowed with an internal organization 
+7 
+which is geared to the repeated redescription of its own stored knowledge” (p. 488). Clark and 
+8 
+Karmiloff-Smith speculated about possible mechanisms that would enable connectionist 
+9 
+networks to learn to become sensitive to their own internal states in the way suggested by RR. 
+10 
+We subsequently proposed possible implementations [75-77]. 
+ 
+11 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+20 
+21 
+22 
+23 
+24 
+25 
+26 
+27 
+28 
+29 
+30 
+31 
+32 
+33 
+34 
+35 
+36 
+37 
+38 
+39 
+40 
+41 
+42 
+43 
+44 
+45 
+46 
+47 
+48 
+49 
+50 
+51 
+52 
+53 
+54 
+55 
+56 
+57 
+58 
+59 
+60 
+61 
+62 
+63 
+64 
+65 
+
+ 
+34
+Figure Legends 
+1 
+ 
+2 
+Figure 1: Tangled loops (a): Three interacting prediction-driven loops define the dynamics of 
+3 
+a core representational redescription (RR) system in which a first-order network mapping 
+4 
+perception to action constitutes input to a higher-order network, the task of which is to re-
+5 
+represent first-order states in order to serve other computational goals, such as computing 
+6 
+confidence and value, monitoring first-order states and dynamics, and predicting its future 
+7 
+states (inner loop). Two further prediction-driven loops augment this core system: A 
+8 
+perception-action loop that extends over interactions with the world, and a self-other loop that   
+9 
+extends over interactions with other agents. The three loops form a tangled hierarchy in the 
+10 
+sense that the operation of the inner loop, and the resulting metarepresentations, are causally 
+11 
+dependent on the operation of the other loops. (b) Many RR systems linked to each other lead 
+12 
+naturally to the architecture of the global workspace, the higher-level states of which should 
+13 
+now be viewed as fundamentally metarepresentational in the sense that their core function is 
+14 
+to redescribe first-order knowledge in such a way that they can be shared across many systems.   
+15 
+ 
+16 
+Figure 2:   Representational Redescription (a):  Neuron A is connected to Neuron B and can 
+17 
+drive its activity, but the causal link between A and B is only implicitly represented in the 
+18 
+connection itself.  Neither A nor B explicitly represent the fact that A is causally linked to B. 
+19 
+(b) Making the causal link between A and B explicit minimally requires a third neuron, C, the 
+20 
+state of which can then explicitly represent the fact that neurons A and B’s states are causally 
+21 
+linked to each other. This information is then available for further representation by other 
+22 
+systems. 
+23 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+20 
+21 
+22 
+23 
+24 
+25 
+26 
+27 
+28 
+29 
+30 
+31 
+32 
+33 
+34 
+35 
+36 
+37 
+38 
+39 
+40 
+41 
+42 
+43 
+44 
+45 
+46 
+47 
+48 
+49 
+50 
+51 
+52 
+53 
+54 
+55 
+56 
+57 
+58 
+59 
+60 
+61 
+62 
+63 
+64 
+65 
+
+Outstanding questions 
+ 
+ 
+How causally independent does a monitoring system need to be from the monitored system for 
+it to count as genuinely metarepresentational?  
+ 
+ 
+Which empirical evidence would support the hypothesised mechanisms that subtend the inner 
+loop (the brain learning about itself)? 
+ 
+ 
+How does consciousness develop in exceptional social contexts, such as complete isolation or 
+prolonged exposure to non-human agents, as is the case for feral children? 
+ 
+ 
+Which neural network architecture is best suited to capture the intuitions behind Clark and 
+Karmiloff-Smith’s Representational Redescription hypothesis? 
+ 
+ 
+What should be the computational goals of the Representational Redescription systems, beyond 
+computing confidence? 
+ 
+ 
+What are the links between theory of mind, self-awareness, and perceptual awareness? Is theory 
+of mind a precursor to self-awareness? Is minimal self-awareness required for or phenomenal 
+experience? 
+ 
+ 
+If phenomenal awareness depends on specific cognitive mechanisms, as suggested here, then 
+artificial consciousness is possible. How do we get there? Do we want to get there? 
+ 
+ 
+ 
+Outstanding questions
+
+Highlights 
+ 
+ 
+ 
+We introduce a novel framework dubbed the Self-organizing metarepresentational Account 
+(SOMA), according to which consciousness is something that the brains learns to do. 
+ 
+ 
+We propose Representational Redescription as the core mechanism through which higher-order 
+monitoring systems learn about and characterize target first-order states 
+ 
+ 
+We suggest that theory of mind, self-awareness, and perceptual awareness share common 
+prediction-driven learning mechanisms that operate over three loops: An inner loop, a 
+perception-action loop, and a self-other loop 
+ 
+Highlights
+
+Figure 1
+Click here to access/download;Figure;CleeremansFig1.jpg
+
+Figure 2
+Click here to access/download;Figure;CleeremansFig2.jpg

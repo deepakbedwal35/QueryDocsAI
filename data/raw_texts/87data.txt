@@ -1,0 +1,21 @@
+Making sure you're not a bot!
+Loading...
+You are seeing this because the administrator of this website has set up
+a security system to protect the server against aggressive bot scraping.
+This can and does cause downtime for the websites, which makes their
+resources inaccessible for everyone.
+This system uses a Proof-of-Work scheme in the vein of Hashcash. The
+idea is that at individual scales the additional load is ignorable, but at
+mass scraper levels it adds up and makes scraping much more
+expensive.
+Ultimately, this is a placeholder solution so that more time can be spent
+on fingerprinting and identifying headless browsers so that the challenge
+page doesn't need to be presented to users that are much more likely to
+be legitimate.
+Please note that this security system requires the use of modern
+JavaScript features that plugins like JShelter will disable. Please disable
+JShelter or other such plugins for this domain.
+Sadly, you must enable JavaScript to get past this challenge. This is
+required to protect the server against automated scraping. A no-JS
+solution is a work-in-progress.
+Protegit per CSUC — Consorci de Serveis Universitaris de Catalunya.

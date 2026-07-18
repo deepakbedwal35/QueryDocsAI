@@ -1,0 +1,16 @@
+{
+    "folders": [
+        {
+            "path": ".."
+        },
+        {
+            "path": "../../data/sample_vector_embeddings"
+        },
+        {
+            "path": "../../data/sample_chunks_jsonl"
+        },
+        {
+            "path": "../../data"
+        }
+    ]
+}

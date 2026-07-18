@@ -1,0 +1,1044 @@
+1 
+Title 
+ 
+Delay Coordinate Embedding as Neuronally Implemented Information Processing: The State 
+Space Theory of Consciousness 
+ 
+Authors 
+ 
+Vikas N. O'Reilly-Shah, MD, PhD*# 
+* Department of Anesthesiology & Pain Medicine 
+University of Washington School of Medicine  
+ 
+# Corresponding Author 
+Professor of Anesthesiology & Pain Medicine 
+University of Washington School of Medicine 
+RR450, 1959 NE Pacific St, Seattle, WA 98195 
+ 
+ 
+Disclosure of funding:  This research received no specific grant from any funding agency in the 
+public, commercial, or not-for-profit sectors.  
+  
+Conflicts of interest:  All authors declare: no support from any organization for the submitted 
+work; no financial relationships with any organizations that might have an interest in the 
+submitted work in the previous three years; no other relationships or activities that could appear 
+to have influenced the submitted work.  
+ 
+AI Use Statement: ChatGPT, Claude, and other large language models may have been used to 
+generate draft language for this manuscript. Every word has been reviewed and every sentence 
+has been edited for clarity and accuracy. Citations were manually retrieved from traditional 
+sources (e.g., PubMed). The authors take full responsibility for all content within this 
+manuscript. 
+  
+Author contributions: All authors meet ICMJE criteria for authorship. V-OS conceived the work 
+and drafted the paper. 
+2 
+Abstract:   
+ 
+Despite intensive effort, a satisfactory scientific theory of consciousness remains elusive. This 
+paper introduces the State Space Theory, aiming to meet key criteria for a theory of 
+consciousness while providing a satisfactory framework consistent with neurobiological and 
+philosophical considerations. The theory posits that the cortex processes information through 
+delay coordinate embedding within recurrent neural networks. These networks create state space 
+representations of reality, forming hierarchical, pseudo-hierarchical, and parallel pathways. 
+Under this theory, consciousness is posited to arise at the highest-order engines in this hierarchy, 
+with complex behavioral options competing within these engines. The theory emphasizes that 
+consciousness is a dynamic process, not representable within a static neuronal state, and 
+develops uniquely in each individual due to history-dependent development of the processing 
+engines. 
+ 
+Neuronally, these delay coordinate embedding engines are posited to form recurrent networks 
+that process information by integrating current and past data to reconstruct models of reality, 
+leveraging the power of Takens' Theorem. These engines would themselves exhibit nonlinear 
+dynamics sensitive to initial conditions. This mechanism aligns with the subjective and emergent 
+properties of consciousness, explaining phenomena like binocular rivalry and ambiguous figures. 
+The theory also addresses cortical plasticity and the heuristic nature of cortical processing, 
+aligning with neurobiological evidence supporting the idea that the cortex's information 
+processing is generic rather than specialized. 
+ 
+The State Space Theory aligns with and expands upon major theories like Higher-Order 
+Theories, Global Workspace Theories, Integrated Information Theory, and Predictive Processing 
+Theories by providing a computational mechanism for hierarchical integration and recurrent 
+processing. Philosophically, it reconciles dualist intuitions with a monist perspective, positing 
+that consciousness emerges from dynamic brain processes rather than static states. The theory 
+addresses the unity of consciousness and the privacy of subjective experiences, offering a new 
+framework to understand free will within deterministic systems. Future work will refine this 
+theory, exploring its neural mechanisms and validating its predictions, advancing our 
+understanding of consciousness. 
+ 
+Key Words: Theory of Consciousness, Delay Coordinate Embedding, Recurrent Neural 
+Networks, Hierarchical Integration, Nonlinear Dynamics 
+ 
+ 
+ 
+
+3 
+Introduction 
+Despite a substantial effort, which has dramatically increased over the past several 
+decades, a satisfactory scientific theory of consciousness remains elusive. Spectacular advances 
+in our ability to study the behavior of neuronal systems in situ and at scale have not yet yielded 
+the theoretical bridge that connects the behavior of these systems with an explanation of 
+phenomenal consciousness; as yet, the hard problem of consciousness has not been solved even 
+as proffered physicalist theories of consciousness continue to multiply.(Seth & Bayne 2022) 
+The problems that continue to plague theories of consciousness have been well described; 
+a recent paper by Doerig and colleagues offers a reasonable starting point for assessing the 
+viability of these and proposed theories.(Doerig et al. 2021) In it, the authors identify that 
+theories must be constructed in such a way as to cope with a number of key questions and 
+criteria. These elements represent a summary of the major neuroscientific, analytical, and 
+philosophical considerations and quandaries affecting the viability of various candidate theories 
+of consciousness. 
+ 
+Presentation of the Theory 
+This paper aims to develop a theory of consciousness that aims to fulfill these and other 
+key criteria. The main ideas put forth in this paper - the State Space Theory - are as follows: 
+1. Generic computation - The computational processing that occurs in the cortex is 
+somewhat generic rather than highly specialized. This is evidenced through 
+neuroscientific observations including interindividual variability in normal brain function 
+(primary visual cortex; Broca's area) as well as plasticity in response to congenital 
+
+4 
+disorders, trauma, or surgery (visual cortex activation in Braille reading; 
+hemispherectomy). 
+2. Delay coordinate embedding - The specific approach taken by the cortex to process 
+information occurs through a process called delay coordinate embedding. Short- and 
+long-range recurrent cortical networks form the neurobiological basis for delay 
+coordinate embedded processing in the cortex. Neuronally implemented delay coordinate 
+embedding engines are responsible for the information processing that results in the 
+instantiation of representations of reality within neuronal systems. 
+3. Recurrent networks are not unfoldable - Under the hypothesis, delay coordinate 
+embedding engines are modified in the process of firing, allowing engines to both learn 
+and represent different aspects of the state space being represented. In addition, delay 
+coordinate embedding is a process rather than an algorithm. As a result, these recurrent 
+processing engines would not fulfill criteria necessary to unfold a recurrent network into 
+a feedforward network. 
+4. State space representations - Delay coordinate embedding creates representations of 
+reality by encoding aspects of reality positioned within a state space describing that 
+aspect of reality. 
+5. Hierarchical organization - Delay coordinate embedding engines are arranged pseudo-
+hierarchically, with higher order delay coordinate embedding engines representing 
+increasingly abstract and synthesized aspects of reality. While there is a hierarchical 
+organization, multiple parallel processing pathways also exist, consistent with 
+observational neuroscientific data (e.g. dorsal and ventral visual pathways). 
+
+5 
+6. Consciousness at the apex - Consciousness arises at the highest-order delay coordinate 
+embedding engines in this hierarchy, with multiple parallel highest-order delay 
+coordinate embedding engines competing to give rise to different complex behavioral 
+options available to the conscious entity. 
+7. Consciousness as process - Given that delay coordinate embedding is a process that 
+requires signal processing to occur over time, neuronally implemented delay coordinate 
+embedding engines require that information processing occur over time in order to 
+represent aspects of reality. This implies that consciousness occurs as a process and 
+cannot be represented within a static neuronal state. 
+8. History-dependent development - The specifics of how each individual brain processes 
+information is determined in a history-dependent manner. The instantiation of specific 
+aspects of reality within an individual's brain, even at the earliest level of cortical 
+processing, are similar but not identical. Thus, each individual brain instantiates their 
+representation of reality in a similar but unique manner. This results, ultimately, in qualia 
+and consciousness being private and non-shareable. 
+9. Nonlinear dynamics - The delay coordinate embedding engines themselves are nonlinear 
+dynamical systems sensitive to initial conditions when performing state space 
+categorization. A given representation of reality is selected based on initial conditions. 
+This provides a physiologic basis for commonly observed phenomena such as binocular 
+rivalry and perception of ambiguous figures such as the Necker cube. 
+10. Limbic modulation - Under the State Space Theory, the highest order delay coordinate 
+embedding engines are modulated diffusely by limbic projections, giving rise to 
+emotional qualia as well as affecting decision-making.  
+
+6 
+Together, these ideas form the core of the State Space Theory. The overarching 
+hypothesis is that the cortex employs delay coordinate embedding to process sensory 
+information, creating a hierarchy of state space representations that give rise to consciousness at 
+the highest levels of the hierarchy. Crucially, this process is generic, occurs over time, develops 
+in a history-dependent manner, and exhibits nonlinear dynamics.  
+ 
+Neuronal Firing as Time Series Data 
+ 
+Leaving aside panpsychist or quantum theories of consciousness, the core informational 
+unit of neuronal systems is the action potential.(Byrne 2023) In response to sensory input, 
+neurons adjust their firing patterns, achieving firing rates approaching 1000 Hz but more 
+typically with an upper bound in the 200 Hz range.(Wang et al. 2016) What is less clear is the 
+computational mechanism that transforms these neuronal firing patterns into coherent perceptual 
+experiences and higher-order cognitive phenomena. This has yet to be defined even within 
+simple model systems such as the 302-neuron Caenorhabditis elegans.(Hobert 2018) Powerful 
+modern machine learning approaches have been used to identity what neurons in these systems 
+are doing, but have yet to identify how.(Atanas et al. 2023; Chang et al. 2023) 
+ 
+Let us begin with the view that neuronal action potentials represent time series data. 
+Though discretized into binary signals (firing/not firing), it is well established that summation 
+through excitation and inhibition occurs at the dendritic level, resulting in the ability of neurons 
+to process information nonlinearly.(Payeur et al. 2019; Larkum et al. 2018)  
+
+7 
+ 
+It is into this context that I introduce a mathematical technique commonly used in the 
+analysis of complex systems. This technique, called delay coordinate embedding, is used for 
+attractor reconstruction in these systems. In 1981, Floris Takens demonstrated that the nonlinear 
+dynamics of a strange attractor with a state space (phase space) of n dimensions can be 
+reconstructed from a single observed variable using time-delayed copies of that variable as 
+surrogates for the unobserved dimensions.(Takens 1981) 
+More formally, given a time series x(t), a delay embedding can be constructed as a set of 
+vectors y(t) = [x(t), x(t-τ), ..., x(t-(m-1)τ)] where τ is a fixed time delay and m is the embedding 
+dimension. Under Taken's Theorem, with appropriate choice of τ and m, the reconstructed 
+attractor y(t) preserves the topological and dynamical properties of the original system. 
+The power of delay embedding lies in its ability to uncover hidden structure and 
+determinism in seemingly complex or chaotic data. It has found wide application in fields 
+ranging from physics and engineering to economics and climatology.(Kantz & Schreiber 2003) 
+This deep and important theorem for the analysis of nonlinear dynamical systems has a 
+seemingly trivial and trite use case in the analysis of simple dynamical systems. Take the 
+example of a car moving on a two-dimensional circular racetrack, moving along dimensions 
+(x,y). Let us say that all we have available to us is a measure of the velocity of that car in one 
+dimension⊽x. As a function of time, ⊽x(t) takes the form of a sine wave (Figure 1, left panel). If 
+we were to develop a delay embedding reconstruction of the behavior of this system using 
+embedding dimension m = 2, a trivial exercise to perform, we would reconstruct the motion of 
+the car; the reconstructed attractor of this system is a simple circle (Figure 1, right panel). The 
+
+8 
+reconstruction of the far more complex Lorenz attractor from a single observed dimension is also 
+demonstrated (Figure 1, bottom). 
+Thus, delay coordinate embedding is also a powerful tool for reconstructing and 
+predicting the behavior of well-defined deterministic systems. The conceptual connection being 
+made in this paper is that the reconstruction and prediction of deterministic systems, a primary 
+function of the brain, is performed in the brain through dendritic integration of data via recurrent 
+neural loops. Under this theory, recurrent networks in the brain represent a neuronal 
+implementation of the delay coordinate embedding process. It is proposed that the brain's ability 
+to construct meaningful representations from the raw time series data of neuronal firing patterns 
+occurs through a process that is mathematically described by delay coordinate embedding. 
+Specifically, the hypothesis being presented is that cortical microcircuits, centered around 
+cortical columns, act as delay coordinate embedding engines. The recurrent connectivity within 
+these microcircuits, spanning cortical layers and involving both excitatory and inhibitory 
+neurons, provides the necessary architecture for integrating information by causing information 
+(spiking activity) that is currently being presented to the system to be integrated with information 
+that had previously been presented to the system via recurrent loops. A vastly simplified 
+diagrammatic representation of a neuronally implemented delay coordinate embedding process is 
+shown in Figure 2. This diagram, while instructive, is vastly simplified in several ways. In actual 
+cortical networks, neurons have thousands or tens of thousands of synapses per dendrite, with a 
+mixture of glutamatergic and cholinergic excitatory synapses, inhibitory GABAergic synapses, 
+and synapses of other neurotransmitter types as well.(DeFelipe & Fariñas 1992) The diagram 
+
+9 
+lays out a view of the reconstruction of an attractor in low (m = 3) dimensional space using only 
+one observed variable. Given the large amount of simultaneous information available to the 
+cortex and the requirement for multiplexing of that information to develop a coherent 
+reconstruction of reality, state space reconstruction of the cortex must be multivariable and is 
+likely high dimensional as well (see e.g. Han et al for known approaches to multivariable 
+reconstruction of state spaces using nonuniform embedding).(Han et al. 2019) 
+There is a neuroanatomical basis for the implementation of delay coordinate embedding 
+in the cerebral cortex. It is well established that there are a large number of feedback connections 
+in the cerebral cortex, and that these feedback connections have important functional roles. 
+Specific macroscopic loops include the cortico-basal ganglia-thalamo-cortical loop (Baladron & 
+Hamker 2023; Parent & Hazrati 1995), the cortico-cerebellar loop (Ramnani 2006), the limbic 
+loop (Papez's Circuit) (Shah et al. 2012), the oculomotor loop (Perrinet et al. 2014; Smith & 
+Archibald 2020), and prefrontal cortex loops.(Badre & Nee 2018; Fuster 2015) Dysfunction of or 
+interruption to these recurrent loops result in a wide variety of neurological and psychiatric 
+disorders, including depression, bipolar disorder, and schizophrenia. 
+Cytoarchitecture at the cortical column level also supports local recurrent loops 
+consistent with a delay coordinate embedding neural analogue. A cortical column is a vertically 
+organized group of neurons within the cortex. The idea of the cortical column was first 
+introduced by Vernon Mountcastle in the 1950s.(Mountcastle 1957; Wikipedia contributors 
+2023) Mountcastle's work showed that neurons in a given vertical column of the cortex, spanning 
+all six layers, often respond to similar types of stimuli. This observation led to the idea that the 
+cortical column serves as a fundamental unit of information processing in the brain. Cortical 
+
+10 
+columns typically contain about 10,000 neurons, although the exact number can vary across 
+different species and cortical regions. In humans, estimates vary from 100,000 total columns in 
+the neocortex to upwards of 2 million.(Landing et al. 1998; Krueger et al. 2008) Within a 
+column, so-called minicolumns are organized, with short-range connections between them. 
+These neurons are interconnected in complex ways, forming both local loops within the column 
+and connecting to other columns and brain regions.(Schubert et al. 2007; Fox 2018) 
+There are feedback connections to subcortical structures such as the thalamus  and 
+hippocampus as well. These abundant feedback connections in the cortex are essentially 
+delivering old information back to the same dendritic tree that is receiving current information, 
+after a delay. The ability of old information to interact with the newer information at the level of 
+the dendritic tree has clear analogies to delay coordinate embedding. Under this hypothesis, the 
+representation of reconstruction space is spread out over the neural network, with subnetworks 
+representing various parts of that reconstruction space.  The recurrent networks, and coincidence 
+detection occurring in the dendritic tree, would represent accessing various parts of reconstructed 
+space. Furthermore, the synaptic weights would be continuously (albeit slowly) updated over 
+time, resulting in learning by the neural network. Though dendritic integration can occur over 
+hundreds of milliseconds, it is more typical for this integration to occur on the scale of tens of 
+milliseconds, corresponding to a frequency of 40-80Hz -- precisely the beta and gamma range 
+frequencies that are known to be associated with conscious experience.(Kirch & Gollo 2020; 
+Purdon et al. 2015) 
+Under this hypothesis, the neurobiological details underlying the ability of recurrent 
+neural networks to first learn and then access reconstructions of reality would involve a complex 
+interplay between cholinergic and glutamatergic signaling (on the excitatory side) and 
+
+11 
+GABAergic signaling (on the inhibitory side); the formation and pruning of new synapses; and 
+the modulation of this signaling by myriad other widely-projecting neurotransmitter systems 
+(primarily, dopaminergic, serotonergic, and peptide systems). The specific neurobiology of the 
+development of these systems has and continues to be the subject of deep study across the 
+neuroscientific community. The State Space Theory offers a framework by which to understand 
+the overall trajectory by which the brain reconstructs models of reality and gives rise to 
+conscious experience. 
+This hypothesis is consistent with observations of neuropsychiatric conditions that arise 
+from demyelinating disorders such as multiple sclerosis. Myelin is a fatty covering found on the 
+axons of some neurons, and facilitates a process called saltatory conduction which dramatically 
+accelerates the speed of the action potential along the length of the axon. Demyelination, then, 
+would be expected to reduce the speed of signals along the axon and disrupt delay coordinate 
+embedding processes.  
+Analogously, any process that disrupts high-frequency components of the delay 
+embedding processes - particularly those that would act across broader areas of the cortex - 
+would be expected to cause disruption of consciousness. Thus, the State Space Theory offers a 
+long-sought final common pathway for sedation and general anesthesia. Under this theory, 
+general anesthesia can be induced in a variety of ways - through action at GABA receptors, 
+NMDA receptors, or through disruption of cellular energetics and result impacts on 
+neurotransmitter endocytosis.(Weir 2006; Jung et al. 2022; Lambert 2020) 
+ 
+State Space Exemplars 
+Color Vision 
+
+12 
+In standard trichromatic human vision, three retinal types of cone cells are responsible for 
+mediating color vision at the level of input signal to the eye. These cone cells contain pigments 
+sensitive to short, medium, and long wavelength visual light, corresponding to the S-, M-, and L-
+type classification of these photoreceptive cells.(Carroll & Conway 2021) From a state space 
+perspective, color (hue) can be seen as a state space in three dimensions (Figure 3, top). 
+Certainly, this is a naive perspective that does not take into account the known aspects of color 
+processing that occurs at multiple levels, beginning as early as the retina and continuing through 
+early visual cortex up (V1) through higher-order cortical areas responsible for visual processing 
+(V3, V4). Regardless, a state space perspective on color vision is, at minimum, an informative 
+and useful way to conceptualize the dimensions of known color vision. For example, loss of the 
+M-type photoreceptor results in deuteranopia, the most common form of color deficiency. Figure 
+3 (bottom) provides a state space representation of color accessibility for deuteranopia. Under the 
+State Space Theory, the qualia for the color space available to deuteranopes remains private. 
+Many attempts have been made to simulate the experience of humans with color deficiency but it 
+should be clear that these are just simulations rather than a true representation of the qualia of 
+those with color deficiencies. 
+It is clear from observational data that color vision appears to be modular in the building 
+of the representation of objects in perception. Oliver Sacks famously describes the case of 
+Jonathan I in "The Case of the Colorblind Painter."(Sacks 1995) As a result of damage to areas 
+on the ventral occipital cortex, subjects with cerebral achromatopsia have complete loss of color 
+vision.(Bouvier & Engel 2006) This was described by Jonathan I in stark terms - everything 
+"utterly gray and void of color… not just that colors were missing, but that what he did see had a 
+
+13 
+distasteful, 'dirty' look, the whites glaring, yet discolored and off-white, the blacks cavernous — 
+everything wrong, unnatural, stained, and impure." 
+This is consistent with the State Space Theory, which posits that the brain constructs 
+perceptual experiences by navigating and integrating multidimensional state spaces. Damage to 
+specific cortical areas disrupts the neural processes that construct the 'color' state space, resulting 
+in the specific perceptual deficit of achromatopsia without concomitant loss of other perceptual 
+capabilities (assuming brain damage is restricted to just color processing). The modular nature of 
+color processing is reflected in how the brain segregates and processes different dimensions of 
+visual information, feeding it forward into the construction of a coherent perceptual experience 
+based on an integrated combination of lower order state spaces. 
+ 
+Motion Perception 
+Motion perception provides another exemplar of the State Space Theory. The brain's 
+ability to perceive motion relies on integrating temporal sequences of visual information, 
+constructing a state space that represents dynamic changes in the environment. Neurons in the 
+medial temporal (MT) area of the visual cortex are specifically tuned to detect motion direction 
+and speed.(Solomon et al. 2011) These neurons process sequential visual inputs, integrating them 
+into a coherent perception of motion. 
+The State Space Theory explains motion perception as the brain's ability to reconstruct 
+state spaces that capture temporal changes in visual stimuli. This dynamic state space allows the 
+brain to predict and interpret motion, integrating information over time to create a unified 
+
+14 
+perception of moving objects. Under the State Space Theory, it is the recurrent loops and 
+feedback connections within the visual cortex that facilitate this integration, serving as the 
+computational mechanism and explanation by which univariate neuron firing results in the ability 
+of the MT area (in general) to discriminate motion. Using purely one-dimensional data, it would 
+(under Taken's Theorem) be expected that the neuronal network would be making use of an 
+embedding dimension of at least 7 to reconstruct the behavior of an object moving through three 
+dimensional space (embedding dimension m is calculated as greater than or equal to twice the 
+underlying dimensionality d plus one).(Takens 1981) As the brain makes use of multichannel 
+data, it is possible that the neuronal network uses a smaller embedding dimension. 
+ 
+Depth Perception 
+Depth perception, the ability to perceive the world in three dimensions, also aligns well 
+with the State Space Theory. The brain uses various cues, such as binocular disparity, motion 
+parallax, and texture gradients, to construct a three-dimensional state space that represents 
+depth.(Howard 2012) Neurons in the primary visual cortex (V1) and higher visual areas, such as 
+the dorsal stream, process these cues to create a coherent perception of depth. 
+The State Space Theory posits that depth perception arises from the brain's ability to 
+integrate multiple sensory inputs into a unified state space. This integration involves 
+reconstructing spatial relationships between objects, allowing the brain to interpret and navigate 
+the three-dimensional environment. Under the theory, the hierarchical processing of depth cues, 
+from V1 to higher-order visual areas, supports the construction of a multidimensional state space 
+
+15 
+that represents the spatial structure of the environment. This information would then be joined 
+with other state space representations to create a representation that binds e.g. object, color, 
+motion into a unified percept in a higher order delay coordinate embedding engine. 
+ 
+Implications of Plasticity for Cortical Computation 
+There are some key constraints about the way that information must be processed by the 
+brain related to plasticity, genetic limitations, and robustness of the network. The mammalian 
+cortex exhibits a striking degree of gross scale plasticity. This plasticity is classically exemplified 
+by experiments describing the patterning of ocular dominance columns observed by Wiesel and 
+Hubel in kittens.(Berardi et al. 2003) In these experiments, Hubel and Wiesel discovered that eye 
+closure during the first six months of life led to a functional, permanent disconnection between 
+the closed eye and the cortex, even though the retina of the closed eye remained intact. 
+Furthermore, the functional eye was preferentially represented in the cortex. This was the first 
+demonstration of Hebb’s Rule: the “fire-together, wire-together” principle.   
+Another example is the role of occipital cortex in Braille reading. Functional MRI and 
+rTMS studies have together established that regions of the cortex that areas normally devoted to 
+visual processing are, in fact, recruited in congenitally blind subjects to subserve the reading of 
+Braille.(Pascual-Leone & Torres 1993; Kupers et al. 2007) Massive cortical reorganization and 
+plasticity have also been noted in sighted subjects who underwent an intensive Braille-reading 
+training regimen.(Siuda-Krzywicka et al. 2016) 
+
+16 
+Interindividual variability in otherwise healthy subjects also demonstrates the deep role 
+that plasticity plays within the context of normal development. In an fMRI study of subjects 
+viewing grating patterns, Kamitani and Tong were able to train a simple machine learning 
+algorithm to predict the grating that a subject was observing using only fMRI data from visual 
+cortex.(Kamitani & Tong 2005) However, an algorithm trained on one subject could not be used 
+to predict on another subject. Why? Even in the early primary visual cortex, there is substantial 
+interindividual variability in the specific pattern of cortical areas that are sensitive to specific 
+grating orientations.  
+These and many other examples amount to a well-established plethora of evidence of 
+plasticity found within the mammalian cortex. The presence of plasticity - this ability of the brain 
+to recruit unused or underused neuronal circuitry to subserve new and, in some cases, completely 
+different processing tasks - has important implications for the way that information processing 
+must occur in cortex. 
+Specifically, it implies that cortical mechanisms of information processing are, at least to 
+some extent, generic. Returning to observations related to Braille-reading patients, the rTMS 
+study in particular underscores the point that the occipital cortex is not merely recruited to fire in 
+the presence of tactile stimuli, but is in fact functionally important for the reading of 
+Braille.(Kupers et al. 2007) The circuits involved in the analysis of the incoming visual data 
+were somehow recruited to functionally process incoming tactile data instead. If cortical 
+information processing systems were highly specialized to subserve particular tasks, this would 
+not be possible. 
+In addition to plasticity, the size of the human genome also strongly suggests that cortical 
+information processing must be heuristic in nature. There are only about 20,000 protein coding 
+
+17 
+genes in the human genome, far fewer than previously expected (this number goes up when 
+accounting for splice variants, but is on the same order of magnitude).(Nurk et al. 2022) This 
+relatively small number of genes makes it vanishingly unlikely that the blueprints for highly 
+specialized neural circuitry for the processing of visual, auditory, tactile, proprioceptive, 
+linguistic, and other types of data are hardcoded into the genome. Indeed, it is far more likely 
+that the genetic specification of cortical structure gives rise to a system that is able to ‘pull itself 
+up by its own bootstraps’ to learn the rules of reality and perform any other processing tasks 
+important for survival. 
+Delay coordinate embedding and the State Space Theory provide just such a 
+computational platform to explain this generic yet highly adaptable nature of cortical processing. 
+The concept of delay coordinate embedding, rooted in chaos theory and complex systems 
+analysis, allows the brain to dynamically reconstruct state spaces from temporal sequences of 
+neural inputs. This reconstruction process involves recurrent loops and feedback mechanisms 
+that integrate past data with current sensory inputs, providing an explanatory framework for 
+learning and adaptation in a continuously evolving neural environment, including adaptability 
+and recruitment of brain areas to subserve new tasks in the context of congenital disorders or 
+trauma. 
+ 
+Nonlinear Dynamical Computational Engines 
+ 
+It was mentioned in the introduction that delay coordinate embedding engines are 
+themselves nonlinear dynamical deterministic systems. This aspect merits a bit more expansion, 
+as it is a key feature that arises from the State Space Theory and provides additional explanatory 
+power for crucial aspects of our intuition of consciousness. 
+
+18 
+ 
+As outlined above, neuronally implemented delay coordinate embedding engines are 
+comprised of neural networks that engage in recurrent processing, with integration of time 
+delayed data occurring at the level of the dendrite. The complexity of this recurrent processing 
+and time-delayed data integration renders these systems nonlinear and dynamical. This means 
+that the state of the system at any given moment is influenced not just by the immediate inputs, 
+but also by the history of past inputs and the interactions within the system. Nonlinear dynamical 
+systems are known for their sensitivity to initial conditions, leading to phenomena such as chaos 
+and bifurcations. 
+The nonlinearity and sensitivity to initial conditions provide a basis for understanding 
+some of the more mysterious aspects of consciousness. For example, the subjective experience of 
+consciousness, or qualia, can be seen as emerging from the complex interactions and feedback 
+loops within these nonlinear systems. The same input can lead to different conscious experiences 
+depending on the prior state of the system and the exact dynamics at play. To return to the 
+example of ambiguous figures mentioned in the introduction, such as the Necker cube or Rubin's 
+vase, these perceptual phenomena can be explained by the brain's nonlinear dynamical 
+processing. When presented with such ambiguous stimuli, the brain does not have a single, static 
+representation but rather multiple potential interpretations that compete with each other (Figure 
+4). The final conscious percept that emerges can shift between these interpretations depending on 
+subtle changes in the neural network's state or initial conditions, due to the sensitivity to initial 
+conditions characteristic of nonlinear systems. 
+Another critical implication of viewing delay coordinate embedding engines as nonlinear 
+dynamical systems is their capacity for producing emergent properties. Emergence occurs when 
+a system exhibits properties or behaviors that are not evident from the sum of its parts. In the 
+
+19 
+context of consciousness, this means that the intricate interplay of numerous simple neural 
+components can give rise to the complex, integrated experience that we identify as conscious 
+awareness. This emergent property of consciousness aligns with our intuition that consciousness 
+is more than just the activity of individual neurons but a product of the collective dynamics of 
+the brain. However, it should be made clear that the State Space Theory offers substance to the 
+idea that 'consciousness is an emergent phenomenon.' The theory provides a specific mechanism 
+by which this emergence occurs. Through a neurobiological implementation of Takens' 
+Theorem, these systems learn and then reconstruct models of reality through neurobiologically 
+instantiated state space representations of aspects of reality. In this case emergence, sometimes 
+viewed perhaps as handwaving, is grounded with specific mechanistic and computational 
+underpinning. 
+This theoretical framework also provides insights into phenomena such as binocular 
+rivalry, where conflicting images presented to each eye lead to alternating perceptions rather than 
+a single, stable image. The recurrent, history-dependent processing within delay coordinate 
+embedding engines allows for the dynamic competition and switching between different neural 
+representations, reflecting the brain's response to conflicting inputs. 
+In practical terms, this theory suggests that any attempt to alter consciousness, such as 
+through anesthesia or neurostimulation, must account for the nonlinear dynamics of these 
+systems. Disrupting the timing or connectivity within these recurrent networks can lead to 
+significant changes in conscious experience, as seen in the effects of various anesthetics and 
+psychoactive substances. The nonlinear dynamics also imply that small changes in neural 
+activity can sometimes lead to disproportionately large changes in conscious experience. 
+
+20 
+A discussion of the nonlinear dynamical properties of the brain would be incomplete 
+without a discussion of brain systems existing at the so-called edge of criticality. It has been 
+demonstrated at both the macro- and micro-scale that the brain exhibits behaviors characteristic 
+of certain types of chaotic systems; namely that the brain obeys power law relationships, scale 
+invariance, and self-organized criticality.(Werner 2009) Destabilization of these features is 
+associated with general anesthesia.(Eisen et al. 2024) These features support the presence of 
+nonlinear dynamics in the brain (self-evident even from the examination of the functioning of a 
+single neuron) but more importantly are the macro features that likely underpin the ways in 
+which brain development supports and gives rise, through self-organization, to the heuristic, 
+generic information processing hypothesized in this paper. Indeed, it has been hypothesized (and 
+early work has shown) that the systems operating at the edge of chaos are optimized for 
+adaptability and computational power.(Beggs 2008) 
+ 
+The Doerig et al Criteria 
+As mentioned in the introduction, the criteria laid out by Doerig and colleagues provides 
+a valuable starting point for evaluating the State Space Theory of consciousness. The authors 
+were motivated by a desire to develop a method to compare theories of consciousness, to 
+stimulate discussion and debate with respect to the relative explanatory power of various 
+theories, and to provide a framework for understanding how the predictions of a given theory 
+could potentially be falsified experimentally. 
+ 
+
+21 
+Paradigm Cases 
+It has already been outlined the ways in which the State Space Theory addresses specific 
+paradigm cases of consciousness: cortical blindness, general anesthesia, and ambiguous figures, 
+to name a few. The State Space Theory also accounts for sleep and in particular dreamless sleep. 
+Under the State Space Theory, wakefulness and dreaming states would be accounted for by 
+integrative recurrent processing through delay coordinate embedding engines. By contrast, 
+dreamless sleep would be accounted for through brain activity that subserves known functions of 
+dreamless sleep including clearance of neuroprotective clearance of metabolic waste and 
+memory formation.(Eugene & Masiak 2015; Rasch & Born 2013) In particular, the fact that deep 
+sleep is associated with slow wave states is strongly consistent with the State Space Theory 
+approach; under the State Space Theory, higher-frequency brain activity is requisite for dendritic 
+processing giving rise to delay coordinate embedded reconstruction of state spaces; slow wave 
+activity would be too slow for dendritic integration to give rise to reconstructed state spaces. This 
+is similar to the aforementioned common final mechanism for general anesthesia as proposed 
+under the State Space Theory. 
+ 
+Unfolding 
+The unfolding argument has likewise already been touched upon. Perhaps the most 
+powerful argument against integrated information theory (IIT) and other causal models of 
+consciousness is the unfolding argument.(Doerig et al. 2019) This argument posits that any 
+recurrent neural network (RNN) can be unfolded into a feedforward neural network (FNN) that 
+
+22 
+implements the same input-output function. This argument makes use of the fact that both RNN 
+and FNN are universal function approximators in order to make this claim. On this view, 
+recurrent causal structures are neither necessary nor sufficient to explain consciousness, as any 
+input-output function implemented in RNN can be implemented in FNN. 
+The State Space Theory (SST) provides a robust rebuttal to this argument in several 
+ways. However, in order to provide a detailed rebuttal, we need to go all the way back to the 
+definition of an algorithm. Succinctly, Evans describes it thus: 
+ 
+Computer science is the study of information processes… A procedure is a description of 
+a process. A simple process can be described just by listing the steps. The list of steps is 
+the procedure; the act of following them is the process. A procedure that can be followed 
+without any thought is  called a mechanical procedure. An algorithm is a mechanical 
+procedure that is guaranteed to eventually finish. (Evans 2011) 
+ 
+ 
+Much has been written about Gödel's Incompleteness Theorems, Turing's Halting 
+Problem, and the relationship of these to the nature of human cognition. Sir Roger Penrose, in 
+The Emperor's New Mind, famously wrote, "A plausible case can be made that there is an 
+essential non-algorithmic ingredient to (conscious) thought processes." (Penrose 1989) While it 
+is beyond the scope of this article to review these considerations in full, in brief, they provide a 
+critical backdrop for understanding the limits of computation and their implications for theories 
+of consciousness, including the State Space Theory. Kurt Gödel’s theorems demonstrate that in 
+any sufficiently powerful mathematical system, there are propositions that cannot be proven or 
+disproven within the system. This implies that no formal system can be both complete and 
+
+23 
+consistent. For consciousness, this suggests that the human mind might operate beyond the 
+constraints of formal systems, potentially engaging in non-computable processes. Alan Turing 
+proved that there is no general algorithm that can determine whether any given program will halt 
+or run indefinitely. This highlights a fundamental limit of algorithmic computation, suggesting 
+that some aspects of human cognition might also be non-algorithmic, as proposed by Penrose 
+and others.  
+ 
+However, if we return to the definition of an algorithm (a process that must terminate), 
+one can write a non-algorithmic program to describe human consciousness: 
+ 
+while (System.Alive) {be_conscious();} 
+This trivial and rather unsatisfying pseudocode represents a non-algorithmic process; it will not 
+terminate while the interesting case of System.Alive is true. Perhaps we can update it to be 
+slightly more interesting: 
+while (System.Alive) { 
+switch(ARAS_Mode){ 
+case ARAS_Modes.Mode_Awake: be_conscious(); break; 
+case ARAS_Modes.Mode_REM: be_less_conscious(); break; 
+case ARAS_Modes.Mode_NREM: break; 
+} 
+ 
+These are, of course, frivolous examples of non-algorithmic processes. And if 
+be_conscious() is an algorithm, a defined set of input-output steps that is continuously 
+returned to in a loop, then we are back to the Godel-Turing-Penrose conundrum. The State Space 
+
+24 
+Theory goes further in defining consciousness as a non-algorithmic process, and therefore not 
+unfoldable, in two distinct ways.  
+First, a crucial aspect of the theory is that delay coordinate embedding is not an algorithm 
+but rather a process. Delay coordinate embedding involves creating state space representations 
+through integration of temporal sequences of data. It is only within the dynamical evolution of 
+the system that representations of reality can be instantiated. As a process that inherently requires 
+recurrent loops to integrate information over time, this process cannot be fully replicated by 
+static FNNs as there is no process in an FNN where data can be returned to an earlier point in the 
+network to modulate new information entering this system. . The dynamic reconstruction of state 
+spaces allows for the integration of past data into current processing, emphasizing the role of 
+temporal dynamics in generating conscious experience. Because the theory views the neuronal 
+processes giving rise to consciousness as processes rather than as input-output algorithms, the 
+unfolding argument is obviated. 
+Moreover, the State Space Theory posits that the brain's recurrent networks are 
+continuously evolving, shaped by the history of their inputs. In order for a formally defined 
+input-output RNN to be unfolded to an equivalent FNN, it is a prerequisite that the underlying 
+neural network remain unchanged as the equivalent FNN processes sequential inputs. History-
+dependent changes to the neural network under the State Space Theory - and as supported by 
+abundant neurobiological evidence of synaptic plasticity - again undercuts the argument that 
+brain-based recurrent neural networks can be unfolded to an equivalent FNN without losing 
+essential aspects of their function. Continuous changes in the underlying neural network result in 
+a system that behaves in a non-algorithmic manner. 
+
+25 
+Small and Large Network Arguments 
+The State Space Theory inherently addresses the small and large network arguments. 
+With respect to small networks, the theory posits that consciousness arises from the integration 
+within higher-order delay coordinate embedding engines. This requires complex, large-scale 
+recurrent networks. Simple networks lack the necessary complexity and hierarchical structure to 
+implement the delay coordinate embedded reconstruction processes fully. With respect to the 
+large network argument, again, the State Space Theory specifically identifies that it is the higher-
+order delay coordinate embedding engines that give rise to consciousness. While reliant upon the 
+lower order engines in order to provide basic processing, it is the higher-order elements of the 
+network that are associated with consciousness itself. The hierarchical arrangement allows the 
+State Space Theory to explain how consciousness can be both distributed and integrated across 
+the cortex. 
+Other Systems Argument 
+With respect to the other systems argument, the response of the State Space Theory is 
+straightforward: there is nothing special about the human brain. Any processing system that 
+gives rise to hierarchically arranged delay coordinate embedded representations of the input 
+signals, with a sufficient number of levels in the hierarchy, would give rise to consciousness. 
+Certainly, what is less clear is what constitutes a sufficient number of levels. It is most 
+straightforward to posit under this theory that there is a minimum number of levels below which 
+no there is no conscious experience. Above this number of levels, consciousness would be 
+viewed as arising with increasing richness and diversity of the associated conscious experience. 
+
+26 
+It is indubitable that even the smallest mammalian brains meet sufficient criteria for some sort of 
+conscious experience. 
+ 
+Other Theories of Consciousness 
+A thorough review and comparison to other major theories of consciousness is beyond 
+the scope of this introductory article. That said, it has been pointed out by Doerig and colleagues 
+and others that theories of consciousness have tended to be proffered by their authors in 
+isolation, ignoring the broader context within which they are being offered and failing to 
+compare and contrast the offered theory with existing ideas about the nature of 
+consciousness.(Doerig et al. 2021; Seth & Bayne 2022; Storm et al. 2024) As such, a brief 
+comparison to the major theories of the day is warranted, to highlight alignments, discrepancies, 
+and opportunities for debate and discussion. 
+ 
+Higher-Order Theories (HOTs) 
+Higher-Order Theories (HOTs) posit that a mental state becomes conscious when it is the 
+target of a higher-order representation, which is a meta-representation of the agent's own mental 
+state.(Seth & Bayne 2022) These theories emphasize the role of anterior cortical regions, 
+especially the prefrontal cortex, in supporting these meta-representations. Both HOTs and the 
+State Space Theory support a hierarchical organization of mental states. The State Space 
+Theory's pseudo-hierarchical arrangement of delay coordinate embedding engines aligns with 
+HOTs' requirement for higher-order representations. Likewise, the State Space Theory's concept 
+
+27 
+of delay coordinate embedding engines creating representations of reality could be seen as a 
+form of meta-representation, though the State Space Theory does not explicitly focus on meta-
+cognitive states. HOTs emphasize anterior cortical regions, particularly the prefrontal cortex, 
+while the State Space Theory suggests that consciousness arises from the highest-order 
+embedding engines distributed across the cortex, some of which may indeed be commonly 
+localized to anterior cortical regions. In sum, the State Space Theory could be viewed as in many 
+ways providing a mechanistic explanation of HOTs. 
+ 
+Global Workspace Theories (GWTs) 
+Global Workspace Theories propose that consciousness arises when information is 
+globally broadcasted within a widespread neuronal workspace, particularly involving fronto-
+parietal regions.(Seth & Bayne 2022) This theory highlights the integration and sharing of 
+information across different brain regions. The State Space Theory’s hierarchical delay 
+coordinate embedding engines support the idea of integrating information across different levels, 
+providing a mechanistic underpinning to GWT’s global workspace. Both theories recognize the 
+importance of recurrent processing in achieving consciousness. The State Space Theory’s 
+recurrent delay coordinate embedding engines align with GWT’s recurrent network ignitions. 
+GWTs emphasize a specific neural workspace, often centered on fronto-parietal networks; while 
+the State Space Theory posits a more distributed network involving various delay coordinate 
+embedding engines, again (similar to the discussion on HOTs), there is no aspect of the State 
+Space Theory that would exclude the importance of specific networks for consciousness - with 
+
+28 
+the specific exception that there are likely paradigm cases (such as, for example, the Hogan 
+craniopagus twins) which the State Space Theory would handle better.(Cochrane 2021) The 
+State Space Theory’s detailed computational mechanism of delay coordinate embedding is 
+distinct from GWT's broader concept of global broadcasting. 
+ 
+Integrated Information Theory (IIT) 
+Integrated Information Theory (IIT) links consciousness to the amount of integrated 
+information (Φ) generated by a system. IIT posits that high levels of integrated information, 
+particularly in the posterior cortex, are crucial for consciousness.(Albantakis et al. 2023) Under 
+the State Space Theory, delay coordinate embedding engines create integrated representations of 
+reality, which can be seen as a form of integrated information. The non-linear dynamics and 
+sensitivity to initial conditions in State Space Theory can also align with IIT’s focus on complex 
+information integration. While State Space Theory does not explicitly prioritize posterior cortical 
+areas, the distributed nature of delay coordinate embedding engines can encompass areas that IIT 
+identifies as crucial. The State Space Theory also solves some fundamental problems with IIT, 
+namely the possibility that IIT could ascribe consciousness to entities that are not intuitively 
+conscious; simpler recurrent networks with an insufficient number of levels in the hierarchy 
+would not be expected to give rise to consciousness under the State Space Theory. In the 
+parlance of IIT, we might state that there is a minimum nonzero Φ associated with conscious 
+experience. As a contrast between the two theories, the State Space Theory does not offer any 
+
+29 
+quantitative measure of consciousness, an advantage that IIT offers. There are likely ways to 
+align the theories that would augment both.   
+ 
+Re-Entry and Predictive Processing Theories 
+Re-entry and Predictive Processing Theories (RPTs) emphasize the importance of top-
+down and bottom-up signaling, with a focus on recurrent, re-entrant pathways to enable 
+conscious perception.(Seth & Bayne 2022) The State Space Theory’s reliance on recurrent 
+networks for delay coordinate embedding aligns closely with the emphasis on re-entrant 
+pathways in RPTs. 
+Likewise, the history-dependent development and non-linear dynamics in State Space 
+Theory align with the principles of predictive coding, where past experiences influence current 
+perceptions. RPTs provide additional detail with respect to specific neural pathways in ways that 
+augment the State Space Theory; the State Space Theory offers an advantage here in that it 
+provides a computational mechanism that underlies the predictive models emphasized in RPTs. 
+ 
+Philosophical Considerations 
+The State Space Theory offers some remarkable advantages with respect to philosophical 
+considerations and quandaries. A brief analysis is offered here; a fuller consideration is again 
+beyond the scope of this manuscript. 
+ 
+
+30 
+Dualism 
+Dualism, the view that mind and body are fundamentally distinct, has long been a 
+contentious issue in the philosophy of mind. State Space Theory, being rooted in physicalist and 
+computational principles, aligns with monist perspectives and seeks to explain consciousness 
+through the interactions and dynamics of physical neural systems. This approach inherently 
+rejects dualism by providing a framework that explains consciousness as an emergent property of 
+physical neural activity. However, due to the requirement of a temporal element in the 
+reconstruction of state spaces using delay coordinate embedding, the State Space Theory offers 
+an intriguing answer to the problem of dualist concepts that are, on their face, intuitive. Under 
+the State Space Theory, the mind is, indeed, something different from the brain. A static brain 
+has no mental component, nor does a specific brain state. It is only a brain 'in flight' - actively 
+reconstructing ever more complex state spaces - that gives rise to mental phenomena and 
+conscious experiences. It is a category error to talk of mental states. Consciousness is a verb. 
+Thus, while the mind and brain are not fundamentally different substances as dualism suggests, 
+the State Space Theory introduces a dynamic element to the discussion. Consciousness is not a 
+property of the brain in a fixed state but emerges from the brain's dynamic processes over time. 
+This dynamic view aligns with process philosophy, which emphasizes becoming over 
+being and sees processes as more fundamental than static entities. The State Space Theory posits 
+that the brain, through its continuous engagement in delay coordinate embedding, generates the 
+flow of conscious experience. The mind, therefore, is the activity of the brain, not a separate 
+entity or a mere collection of brain states. This perspective resolves some dualist intuitions by 
+acknowledging that the brain's dynamic nature is essential for consciousness, thus providing a 
+
+31 
+more nuanced understanding that bridges the gap between physicalist monism and dualist 
+intuitions. 
+ 
+The Hard Problem of Consciousness 
+The hard problem of consciousness, as formulated by David Chalmers, concerns the 
+question of why and how physical processes in the brain give rise to subjective 
+experiences.(Chalmers 1995) This problem is often seen as a significant challenge for any 
+physicalist theory of consciousness. The State Space Theory posits that consciousness is not just 
+an emergent property of complex, nonlinear dynamical systems, but offers a specific mechanism 
+for that emergence in the form of reconstructed and increasingly abstract and complex state 
+spaces. By explaining how delay coordinate embedding allows for the integration and 
+representation of information in a hierarchical manner, the State Space Theory provides a 
+framework for understanding the emergence of subjective experiences from neural processes. 
+The theory’s emphasis on the role of history-dependent development and nonlinear dynamics in 
+shaping individual experiences aligns with the notion that subjective experiences, or qualia, arise 
+from the unique patterns of neural activity shaped by an individual’s history and interactions. 
+ 
+The Unity of Consciousness 
+The unity of consciousness refers to the phenomenon where conscious experiences are 
+integrated into a single, coherent whole, rather than fragmented or disconnected parts. The State 
+
+32 
+Space Theory explains the unity of consciousness through the hierarchical arrangement of delay 
+coordinate embedding engines. Higher-order delay coordinate embedding engines integrate 
+information from lower levels, creating a unified representation of reality. This hierarchical 
+integration ensures that different aspects of sensory and cognitive processing are combined into a 
+coherent conscious experience. The recurrent nature of neural networks in the State Space 
+Theory further supports the integration and unity of conscious experiences by allowing 
+continuous interaction and feedback between different neural processes. 
+ 
+Privacy and Subjectivity of Experience 
+One of the key features of conscious experience is its inherently private and subjective 
+nature. Each individual’s experiences are uniquely their own and cannot be directly accessed by 
+others. 
+The State Space Theory posits that the specifics of how each brain processes information 
+are shaped by an individual’s unique history. This leads to the private and non-shareable nature 
+of conscious experiences, as each conscious entity's neural networks are uniquely configured 
+based on their personal experiences and interactions with the environment. 
+ 
+Free Will and Determinism 
+The debate between free will and determinism questions whether human actions are 
+determined by prior states and laws of nature or if individuals have the capacity to make free 
+
+33 
+choices. Our intuition that we have free will has been undermined by the conception of the 
+universe as mechanistic and deterministic. This perhaps provides an explanation for the interest 
+in and exploration of quantum theories of consciousness. Quantum mechanical phenomena, in 
+particular probabilistic and stochastic aspects of quantum theory, provide (possibly) a pathway to 
+free will under known physical laws. The State Space Theory of consciousness likewise offers a 
+pathway to free will, but under the auspices of known aspects of nonlinear dynamical systems 
+theory. Under chaos theory, systems may be deterministic and yet unpredictable. In a neural 
+system employing a large number of nonlinear delay coordinate embedding engines, with 
+multiple engines present at the highest level of the hierarchy, there arises the possibility of these 
+systems acting in opposition to one another - multiple 'voices,'  modulated by limbic and other 
+signals, presenting different possible behaviors in weighted ways, that represent, to an even 
+higher order engine, possibilities for behavior to select amongst: free will. In future work, we 
+will more rigorously explore these concepts in order to more specifically outline how the State 
+Space Theory can imbue agency to neurobiological systems that meet specific design constraints 
+and the evolutionary advantages implied by this agency. 
+ 
+Conclusions, Challenges, and Future Directions 
+In the present work, I have introduced the State Space Theory of consciousness in a 
+comprehensive and yet, in some ways, quite brief manner. This theory, grounded in the physical 
+and computational properties of neural networks, provides a robust framework for understanding 
+the emergence and nature of consciousness. By focusing on delay coordinate embedding as a 
+mechanism for the dynamic and hierarchical integration of information, the State Space Theory 
+
+34 
+offers a novel approach that aligns with many philosophical intuitions while also addressing key 
+empirical and theoretical challenges. 
+A key next step in the development of the State Space Theory is to explore the ways in 
+which the theory offers specific, falsifiable predictions and gives rise to scientifically verifiable 
+hypothesis testing. We have already seen that the State Space Theory offers a framework by 
+which we can understand the mechanisms underlying general anesthesia and neuroplasticity and 
+how it reconciles specific philosophical quandaries about consciousness. We will explore in 
+future work how the State Space Theory is consistent with other known aspects of neuronal 
+processing - e.g. with machine learning studies on C. elegans worms. The State Space Theory 
+makes predictions that could be tested psychometrically. Specifically, there are known 
+quandaries about event related potentials such as the readiness potential that occur prior to 
+consciousness of the associated percept.(Piani et al. 2024) These event related potentials are 
+altered in neurologic and psychiatric disease states.(Sur & Sinha 2009) The State Space Theory 
+offers a window into how recurrent networks - giving rise to coherent, macroscopically 
+observable electroencephalographic features - might be linked back to microscale processing and 
+explain some of these quandaries. Transcranial magnetic stimulation studies could be designed to 
+specifically target and interrupt recurrent processing in specific brain areas to assess for the 
+impact on conscious experience in normal and diseased states, as well as in other altered states of 
+consciousness (e.g. with exposure to psychedelics). These studies could be extended to neuronal 
+microcircuitry using a combination of optogenetics and large scale in vivo neuronal recording, 
+technologies that have only just begun to become available and computationally tractable. 
+Key challenges for the theory include a number of disparate considerations. One element 
+mentioned earlier is to detail the specific ways in which neurobiological networks are modified 
+
+35 
+to facilitate the learning and access of the myriad state space representations or models of reality. 
+Another challenge is to identify which aspects of behavior and perhaps even which models of 
+reality are inborn. This, a version of the age-old nature/nurture question, leads back to questions 
+about how the neural plan, as implemented in fetal development and as dictated by the plan laid 
+out in DNA and DNA-protein complexes, can specify specific information processing pathways. 
+Presumably, these would give rise to inborn representations of reality that accrued evolutionary 
+survival benefit. It should also be said that any such specification within the neural plan would 
+carry a substantial computational burden on the underlying DNA -- hence, plasticity-mediated 
+genericity to neural computation as the rule rather than as the exception. Another challenge to the 
+theory stands apart: namely, as with any theory in science, that this theory cannot be proven but 
+rather can only withstand the rigors of falsification. 
+Another critical challenge faced by the State Space Theory relates to how implementation 
+of high-dimensional and multivariable information is managed within the neurobiological system 
+to avoid a number of computational traps and local minima that could be envisioned. Takens' 
+Theorem grounds the theory, at core, as implementation of delay coordinate embedding within 
+recurrent neural network systems. The challenge will be to detail how the vastly simplified 
+Figure 2 is implemented in neural systems with excitatory, inhibitory, and modulatory signaling, 
+with as many as 50,000 synapses to an individual neuron. Another challenge is to envision how 
+state space representations of lower order perceptual phenomena are integrated and bound to 
+form higher order representations, without resulting in excessive sparseness and result in a 'curse 
+of dimensionality' - one of the aforementioned computational traps. This remains to be explored 
+further in future work. 
+
+36 
+In conclusion, the State Space Theory offers a comprehensive and scientifically grounded 
+explanation of consciousness that addresses many of the philosophical and empirical challenges 
+that have long puzzled researchers. Future work will build on this framework to further explore 
+the mechanisms of delay coordinate embedding, investigate the specific neural pathways 
+involved, and develop empirical tests to validate the theory's predictions. By continuing to refine 
+and expand the State Space Theory, we can advance our understanding of one of the most 
+profound aspects of the human condition and move closer to solving the hard problem of 
+consciousness. 
+ 
+ 
+
+37 
+Figures 
+Figure 1: Examples of Delay Coordinate Embedding in the Reconstruction of Dynamical 
+Systems Behavior. (left) Velocity time series data. This plot shows the velocity ⊽x(t) of a car 
+moving along a circular racetrack as a function of time, depicted as a sine wave. (right) 
+Reconstructed attractor with 𝑚=2 embedding dimensions: Using delay embedding with an 
+embedding dimension of 2, this plot reconstructs the car's circular motion from the velocity data, 
+revealing a circular attractor. (bottom) Lorenz attractor depicted using 3 state variables (x,y,z 
+dimensions), extraction of one of the state variables as a univariate time series, and delay 
+embedding of that univariate time series in three dimensions using time t and a first and second 
+lagged dimension. Figures generated in R and RStudio. 
+ 
+ 
+ 
+ 
+ 
+ 
+
+38 
+Figure 2: Hierarchical Delay Coordinate Embedding in Neuronal Networks. This figure 
+illustrates the concept of hierarchical delay coordinate embedding within neuronal networks, as 
+proposed by the State Space Theory of consciousness. Sensory input x(t) is received by Neuron 1 
+and is processed through a series of recurrent loops involving Neurons 2 and 3. The recurrent 
+connections between these neurons create a temporal sequence of embedded states, represented 
+as x(t−1) and x(t−2). These embeddings are integrated over time, enabling the construction of 
+state space representations that capture the dynamics of sensory information. Axon pathways 
+(solid lines) and feedback connections to dendrites (dotted lines) are depicted to emphasize the 
+recurrent nature of the network, essential for delay coordinate embedding and temporal 
+integration of sensory data. 
+ 
+ 
+ 
+
+39 
+Figure 3: State space representation of color in three dimensions based on receptive cell type in 
+trichromatic (top left and right) and dicromatic (bottom) vision.  
+ 
+ 
+ 
+
+40 
+Figure 4: Bistable ambiguous figures through the lens of the State Space Theory. (left) The 
+commonly encountered elderly/young woman bistable image marked with a red arrow for the 
+mouth of the elderly woman and a blue arrow for the nose of the young woman. (Public domain 
+images.) (Anon 2023) (right) Attractor-based view of the brain favoring one percept or another, 
+based on initial conditions. If the observer focuses on features associated with one stable percept, 
+that percept will dominate. 
+ 
+ 
+
+41 
+References: 
+Albantakis, L. et al., 2023. Integrated information theory (IIT) 4.0: Formulating the properties of 
+phenomenal existence in physical terms. PLoS computational biology, 19(10), p.e1011465. 
+Anon, 2023. Ambiguous Objects / WPClipart. Available at: 
+https://www.wpclipart.com/signs_symbol/optical_illusions/ambiguous_object/ [Accessed August 25, 
+2023]. 
+Atanas, A.A. et al., 2023. Brain-wide representations of behavior spanning multiple timescales and states 
+in C. elegans. Cell, 186(19), pp.4134–4151.e31. 
+Badre, D. & Nee, D.E., 2018. Frontal Cortex and the Hierarchical Control of Behavior. Trends in 
+cognitive sciences, 22(2), pp.170–188. 
+Baladron, J. & Hamker, F.H., 2023. Re-Thinking the Organization of Cortico-Basal Ganglia-Thalamo-
+Cortical Loops. Cognitive computation. Available at: https://doi.org/10.1007/s12559-023-10140-9. 
+Berardi, N. et al., 2003. Molecular basis of plasticity in the visual cortex. Trends in neurosciences, 26(7), 
+pp.369–378. 
+Bouvier, S.E. & Engel, S.A., 2006. Behavioral deficits and cortical damage loci in cerebral 
+achromatopsia. Cerebral cortex , 16(2), pp.183–191. 
+Byrne, J.H., 2023. Chapter 1: Resting Potentials and Action Potentials. In J. H. Byrne, ed. Neuroscience 
+Online: An Electronic Textbook for the Neurosciences. Department of Neurobiology and Anatomy 
+McGovern Medical School at The University of Texas Health Science Center at Houston 
+(UTHealth). 
+Carroll, J. & Conway, B.R., 2021. Color vision. Handbook of clinical neurology, 178, pp.131–153. 
+Chalmers, D., 1995. Facing Up to the Problem of Consciousness. Journal of Consciousness Studies, 2(3), 
+pp.200–219. 
+Chang, A.S. et al., 2023. Measures of Information Content during Anesthesia and Emergence in the 
+Caenorhabditis elegans Nervous System. Anesthesiology, 139(1), pp.49–62. 
+Cochrane, T., 2021. A case of shared consciousness. Synthese, 199(1), pp.1019–1037. 
+DeFelipe, J. & Fariñas, I., 1992. The pyramidal neuron of the cerebral cortex: morphological and 
+chemical characteristics of the synaptic inputs. Progress in neurobiology, 39(6), pp.563–607. 
+Doerig, A. et al., 2019. The unfolding argument: Why IIT and other causal structure theories cannot 
+explain consciousness. Consciousness and cognition, 72, pp.49–59. 
+Doerig, A., Schurger, A. & Herzog, M.H., 2021. Hard criteria for empirical theories of consciousness. 
+Cognitive neuroscience, 12(2), pp.41–62. 
+Eisen, A.J. et al., 2024. Propofol anesthesia destabilizes neural dynamics across cortex. Neuron, 0(0). 
+Available at: http://www.cell.com/article/S089662732400446X/abstract [Accessed July 25, 2024]. 
+
+42 
+Eugene, A.R. & Masiak, J., 2015. The Neuroprotective Aspects of Sleep. MEDtube science, 3(1), pp.35–
+40. 
+Evans, D., 2011. Introduction to Computing: Explorations in Language, Logic, and Machines, 
+CreateSpace Independent Publishing Platform. 
+Fox, K., 2018. Deconstructing the cortical column in the barrel cortex. Neuroscience, 368, pp.17–28. 
+Fuster, J., 2015. The Prefrontal Cortex, Academic Press. 
+Han, M. et al., 2019. Nonuniform State Space Reconstruction for Multivariate Chaotic Time Series. IEEE 
+transactions on cybernetics, 49(5), pp.1885–1895. 
+Hobert, O., 2018. Neurogenesis in the nematode Caenorhabditis elegans, WormBook. 
+Howard, I.P., 2012. Perceiving in Depth, Volume 1: Basic Mechanisms, Oxford University Press. 
+Jung, S. et al., 2022. Isoflurane inhibition of endocytosis is an anesthetic mechanism of action. Current 
+biology: CB, 32(14), pp.3016–3032.e3. 
+Kamitani, Y. & Tong, F., 2005. Decoding the visual and subjective contents of the human brain. Nature 
+neuroscience, 8(5), pp.679–685. 
+Kantz, H. & Schreiber, T., 2003. Nonlinear Time Series Analysis, Cambridge University Press. 
+Kirch, C. & Gollo, L.L., 2020. Spatially resolved dendritic integration: towards a functional classification 
+of neurons. PeerJ, 8, p.e10250. 
+Krueger, J.M. et al., 2008. Sleep as a fundamental property of neuronal assemblies. Nature reviews. 
+Neuroscience, 9(12), pp.910–919. 
+Kupers, R. et al., 2007. rTMS of the occipital cortex abolishes Braille reading and repetition priming in 
+blind subjects. Neurology, 68(9), pp.691–693. 
+Lambert, D.G., 2020. Mechanisms of action of general anaesthetic drugs. Anaesthesia & Intensive Care 
+Medicine, 21(5), pp.235–237. 
+Landing, B.H., Shankle, W.R. & Hara, J., 1998. Constructing the human cerebral cortex during infancy 
+and childhood: types and numbers of cortical columns and numbers of neurons in such columns at 
+different age-points. Acta paediatrica Japonica; Overseas edition, 40(6), pp.530–543. 
+Larkum, M.E. et al., 2018. A Perspective on Cortical Layering and Layer-Spanning Neuronal Elements. 
+Frontiers in neuroanatomy, 12, p.56. 
+Mountcastle, V.B., 1957. Modality and topographic properties of single neurons of cat’s somatic sensory 
+cortex. Journal of neurophysiology, 20(4), pp.408–434. 
+Nurk, S. et al., 2022. The complete sequence of a human genome. Science, 376(6588), pp.44–53. 
+Parent, A. & Hazrati, L.N., 1995. Functional anatomy of the basal ganglia. I. The cortico-basal ganglia-
+thalamo-cortical loop. Brain research. Brain research reviews, 20(1), pp.91–127. 
+
+43 
+Pascual-Leone, A. & Torres, F., 1993. Plasticity of the sensorimotor cortex representation of the reading 
+finger in Braille readers. Brain: a journal of neurology, 116 ( Pt 1), pp.39–52. 
+Payeur, A., Béïque, J.-C. & Naud, R., 2019. Classes of dendritic information processing. Current opinion 
+in neurobiology, 58, pp.78–85. 
+Penrose, R., 1989. The Emperor’s New Mind: Concerning Computers, Minds, and the Laws of Physics, 
+OUP Oxford. 
+Perrinet, L.U., Adams, R.A. & Friston, K.J., 2014. Active inference, eye movements and oculomotor 
+delays. Biological cybernetics, 108(6), pp.777–801. 
+Piani, M.C. et al., 2024. Mapping the pre-reflective experience of “self” to the brain - An ERP study. 
+Consciousness and cognition, 119(103654), p.103654. 
+Purdon, P.L. et al., 2015. Clinical Electroencephalography for Anesthesiologists. Anesthesiology, 123(4), 
+pp.937–960. Available at: http://dx.doi.org/10.1097/aln.0000000000000841. 
+Ramnani, N., 2006. The primate cortico-cerebellar system: anatomy and function. Nature reviews. 
+Neuroscience, 7(7), pp.511–522. 
+Rasch, B. & Born, J., 2013. About sleep’s role in memory. Physiological reviews, 93(2), pp.681–766. 
+Sacks, O., 1995. An Anthropologist on Mars: Seven Paradoxical Tales, Knopf Doubleday Publishing 
+Group. 
+Schubert, D., Kötter, R. & Staiger, J.F., 2007. Mapping functional connectivity in barrel-related columns 
+reveals layer- and cell type-specific microcircuits. Brain structure & function, 212(2), pp.107–119. 
+Seth, A.K. & Bayne, T., 2022. Theories of consciousness. Nature reviews. Neuroscience, 23(7), pp.439–
+452. 
+Shah, A., Jhawar, S.S. & Goel, A., 2012. Analysis of the anatomy of the Papez circuit and adjoining 
+limbic system by fiber dissection techniques. Journal of clinical neuroscience: official journal of the 
+Neurosurgical Society of Australasia, 19(2), pp.289–298. 
+Siuda-Krzywicka, K. et al., 2016. Massive cortical reorganization in sighted Braille readers. eLife, 5, 
+p.e10762. 
+Smith, D.T. & Archibald, N., 2020. Spatial working memory in Progressive Supranuclear Palsy. Cortex; 
+a journal devoted to the study of the nervous system and behavior, 122, pp.115–122. 
+Solomon, S.S. et al., 2011. Visual motion integration by neurons in the middle temporal area of a New 
+World monkey, the marmoset. The Journal of physiology, 589(Pt 23), pp.5741–5758. 
+Storm, J.F. et al., 2024. An integrative, multiscale view on neural theories of consciousness. Neuron, 
+112(10), pp.1531–1552. 
+Sur, S. & Sinha, V.K., 2009. Event-related potential: An overview. Industrial psychiatry journal, 18(1), 
+pp.70–73. 
+
+44 
+Takens, F., 1981. Detecting strange attractors in turbulence. In Lecture Notes in Mathematics, Berlin 
+Springer Verlag. p. 366. 
+Wang, B. et al., 2016. Firing Frequency Maxima of Fast-Spiking Neurons in Human, Monkey, and 
+Mouse Neocortex. Frontiers in cellular neuroscience, 10, p.239. 
+Weir, C.J., 2006. The molecular mechanisms of general anaesthesia: dissecting the GABAA receptor. 
+Continuing Education in Anaesthesia Critical Care & Pain, 6(2), pp.49–53. 
+Werner, G., 2009. Consciousness related neural events viewed as brain state space transitions. Cognitive 
+neurodynamics, 3(1), pp.83–95. 
+Wikipedia contributors, 2023. Cortical column. Wikipedia, The Free Encyclopedia. Available at: 
+https://en.wikipedia.org/w/index.php?title=Cortical_column&oldid=1146222509. 
+ 
+ 
+ 
