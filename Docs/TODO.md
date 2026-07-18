@@ -1,1 +1,1 @@
-why the hell is this so much pycache
+change the pallete and font

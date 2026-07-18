@@ -1,0 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Karla:ital,wght@0,200..800;1,200..800&display=swap");
+@import "tailwindcss";
+@import "./css/pallete.css";
+
+@theme {
+  --font-heading: "ABeeZee";
+  --font-body: "Karla";
+}

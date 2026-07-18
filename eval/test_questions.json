@@ -1,0 +1,186 @@
+[
+  {
+    "id": "q001",
+    "question": "How does Global Workspace Theory explain sustained conscious processing?",
+    "expected_chunk_ids": ["paper027d_chunk014"]
+  },
+  {
+    "id": "q002",
+    "question": "What is Global Workspace Theory?",
+    "expected_chunk_ids": ["paper027d_chunk014"]
+  },
+  {
+    "id": "q003",
+    "question": "How does broadcasting information to brain regions relate to consciousness?",
+    "expected_chunk_ids": ["paper027d_chunk014"]
+  },
+  {
+    "id": "q004",
+    "question": "Why do emotionally intense stimuli remain consciously accessible longer?",
+    "expected_chunk_ids": ["paper027d_chunk014"]
+  },
+  {
+    "id": "q005",
+    "question": "What makes some conscious experiences more sustainable than others?",
+    "expected_chunk_ids": ["paper027d_chunk014", "paper027d_chunk015"]
+  },
+  {
+    "id": "q006",
+    "question": "What happens to low-intensity stimuli that don't achieve global broadcast?",
+    "expected_chunk_ids": ["paper027d_chunk015"]
+  },
+  {
+    "id": "q007",
+    "question": "Can weak sensory input become part of conscious experience?",
+    "expected_chunk_ids": ["paper027d_chunk015"]
+  },
+  {
+    "id": "q008",
+    "question": "What is the difference between locally processed and globally broadcast information?",
+    "expected_chunk_ids": ["paper027d_chunk014", "paper027d_chunk015"]
+  },
+  {
+    "id": "q009",
+    "question": "What are the neural correlates of consciousness?",
+    "expected_chunk_ids": ["paper19a3_chunk002"]
+  },
+  {
+    "id": "q010",
+    "question": "What does the NCC framework propose about cortical activity?",
+    "expected_chunk_ids": ["paper19a3_chunk002"]
+  },
+  {
+    "id": "q011",
+    "question": "Are specific patterns of brain activity necessary for conscious experience?",
+    "expected_chunk_ids": ["paper19a3_chunk002"]
+  },
+  {
+    "id": "q012",
+    "question": "What is Integrated Information Theory?",
+    "expected_chunk_ids": ["paper19a3_chunk007"]
+  },
+  {
+    "id": "q013",
+    "question": "How does IIT define consciousness in terms of information integration?",
+    "expected_chunk_ids": ["paper19a3_chunk007"]
+  },
+  {
+    "id": "q014",
+    "question": "What is phi in Integrated Information Theory?",
+    "expected_chunk_ids": ["paper19a3_chunk007"]
+  },
+  {
+    "id": "q015",
+    "question": "How do IIT and the neural correlates of consciousness framework differ?",
+    "expected_chunk_ids": ["paper19a3_chunk002", "paper19a3_chunk007"]
+  },
+  {
+    "id": "q016",
+    "question": "How does propofol affect the brain during anesthesia?",
+    "expected_chunk_ids": ["paper5f2c_chunk001"]
+  },
+  {
+    "id": "q017",
+    "question": "What happens to frontoparietal connectivity under anesthesia?",
+    "expected_chunk_ids": ["paper5f2c_chunk001"]
+  },
+  {
+    "id": "q018",
+    "question": "Is there a link between anesthetic agents and loss of awareness?",
+    "expected_chunk_ids": ["paper5f2c_chunk001"]
+  },
+  {
+    "id": "q019",
+    "question": "How does anesthesia disrupt consciousness at the network level?",
+    "expected_chunk_ids": ["paper5f2c_chunk001"]
+  },
+  {
+    "id": "q020",
+    "question": "What role does emotional intensity play in Global Workspace Theory?",
+    "expected_chunk_ids": ["paper027d_chunk014"]
+  },
+  {
+    "id": "q021",
+    "question": "According to GWT, why do some memories stay accessible over long time windows?",
+    "expected_chunk_ids": ["paper027d_chunk014"]
+  },
+  {
+    "id": "q022",
+    "question": "What distinguishes conscious from unconscious representations in GWT?",
+    "expected_chunk_ids": ["paper027d_chunk014", "paper027d_chunk015"]
+  },
+  {
+    "id": "q023",
+    "question": "Is cortical activity alone sufficient for a conscious experience to occur?",
+    "expected_chunk_ids": ["paper19a3_chunk002"]
+  },
+  {
+    "id": "q024",
+    "question": "How is phi quantified in Integrated Information Theory?",
+    "expected_chunk_ids": ["paper19a3_chunk007"]
+  },
+  {
+    "id": "q025",
+    "question": "What is the capacity to integrate information according to IIT?",
+    "expected_chunk_ids": ["paper19a3_chunk007"]
+  },
+  {
+    "id": "q026",
+    "question": "What correlates with loss of behavioral responsiveness under propofol?",
+    "expected_chunk_ids": ["paper5f2c_chunk001"]
+  },
+  {
+    "id": "q027",
+    "question": "Does anesthesia affect reported awareness as well as behavioral responses?",
+    "expected_chunk_ids": ["paper5f2c_chunk001"]
+  },
+  {
+    "id": "q028",
+    "question": "Compare Global Workspace Theory and Integrated Information Theory as accounts of consciousness.",
+    "expected_chunk_ids": ["paper027d_chunk014", "paper19a3_chunk007"]
+  },
+  {
+    "id": "q029",
+    "question": "How might anesthesia research inform theories like NCC or GWT?",
+    "expected_chunk_ids": ["paper5f2c_chunk001"]
+  },
+  {
+    "id": "q030",
+    "question": "What input elicits highly sustainable conscious processing?",
+    "expected_chunk_ids": ["paper027d_chunk014"]
+  },
+  {
+    "id": "q031",
+    "question": "What is transient or unconscious representation in the context of GWT?",
+    "expected_chunk_ids": ["paper027d_chunk015"]
+  },
+  {
+    "id": "q032",
+    "question": "Does IIT offer an alternative to the NCC framework?",
+    "expected_chunk_ids": ["paper19a3_chunk002", "paper19a3_chunk007"]
+  },
+  {
+    "id": "q033",
+    "question": "What is the best recipe for chocolate chip cookies?",
+    "expected_chunk_ids": [],
+    "expect_not_found": true
+  },
+  {
+    "id": "q034",
+    "question": "Who won the 2022 FIFA World Cup?",
+    "expected_chunk_ids": [],
+    "expect_not_found": true
+  },
+  {
+    "id": "q035",
+    "question": "What's the current stock price of Apple?",
+    "expected_chunk_ids": [],
+    "expect_not_found": true
+  },
+  {
+    "id": "q036",
+    "question": "How do I set up a React project with Vite?",
+    "expected_chunk_ids": [],
+    "expect_not_found": true
+  }
+]
