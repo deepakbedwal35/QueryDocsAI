@@ -476,3 +476,26 @@ The original rank_bm25 library is written in pure Python;
                     │
                     ▼
         Those 5 chunks → sent to Groq for the actual answer
+
+
+      
+fist extract 20 from both bm25 and qdrant and then merge them 
+  via 
+**Fusion Algorithms**
+
+1. **Reciprocol Rank Fusion**
+   RRF ignores the raw scores completely. It only cares about the position (rank) of the document in each list. It uses a constant (k, usually set to 60) to ensure low-ranked documents don't ruin the score
+   
+   k usually set 60 
+   $$ \text{RRF Score} = (k + \text{Rank}_{\text{Dense}})^{-1} + (k + \text{Rank}_{\text{Sparse}})^{-1} $$
+  
+  Say chunk A is:
+
+Rank 1 in dense (score: 1/61 = 0.0164)
+Rank 15 in sparse (score: 1/75 = 0.0133)
+Fused score: 0.029
+use in our code
+  
+2. **Score-Based Fusion (Relative Score Fusion / Min-Max Scaling)**
+  This method uses the actual numerical scores given by Qdrant and BM25. However, because Qdrant scores (usually Cosine similarity between 0 and 1) and BM25 scores (open-ended numbers like 14.5 or 22.1) use entirely different scales, you cannot just add them together. You must normalize them first to a 0–1 scale.
+

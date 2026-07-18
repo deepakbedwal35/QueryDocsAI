@@ -86,9 +86,53 @@ def get_query_ans(query:str):
     }
   
 
-query = """If AI achieves autonomous behavior, what two factors will 
-determine if it is granted legal personhood (right-subjectivity)"""
-print(get_query_ans(query))
+
+
+
+def get_top_n_chunks(query, n=10, k=60):
+    results = get_query_ans(query)
+    bm25_ = results.get("bm25")
+    qdrant_ = results.get("qdrant")
+
+    fused_scores = {}   
+
+    for item in bm25_:
+        chunk_id = item["uuid"]
+        rank = item["rank"]
+        score = 1 / (k + rank)
+
+        if chunk_id in fused_scores:
+            fused_scores[chunk_id]["score"] += score
+        else:
+            fused_scores[chunk_id] = {"score": score, "text": item["text"]}
+
+
+    for idx, item in enumerate(qdrant_):
+        chunk_id = item["chunk_id"]
+        rank = idx + 1
+        score = 1 / (k + rank)
+
+        if chunk_id in fused_scores:
+            fused_scores[chunk_id]["score"] += score
+        else:
+            fused_scores[chunk_id] = {"score": score, "text": item["text"]}
+
+
+    ranked = sorted(fused_scores.items(), key=lambda x: x[1]["score"], reverse=True)
+
+    top_n = [
+        {"chunk_id": chunk_id, "score": data["score"], "text": data["text"]}
+        for chunk_id, data in ranked[:n]
+    ]
+    return top_n
+
+query = """How do XOR and AND gates test consciousness theories?"""
+print(get_top_n_chunks(query))
+
+
+    
+    
+    
     
     
     
