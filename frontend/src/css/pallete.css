@@ -1,0 +1,108 @@
+:root {
+  /* Base Canvas & Text */
+  --background: hsl(300 0% 93%);
+  --foreground: hsl(330 0% 4%);
+
+  /* Muted/Highlight Canvas & Text */
+  /*--background-muted: hsl(300 10% 90%);
+  --background-highlight: hsl(300 50% 93%);*/
+  --background-highlight: hsl(300 0% 95%);
+  --background-muted: hsl(300 0% 90%);
+  --foreground-highlighted: hsl(330 0% 1%);
+  --foreground-muted: hsl(0 0% 28%);
+
+  /* Borders */
+  --border: hsl(300 0% 30%);
+  --border-muted: hsl(340 0% 62%);
+
+  /* Brand Colors (with Hover states) */
+  --primary: hsl(219 51% 32%);
+  --primary-hover: hsl(219 51% 42%); /* +10% lightness */
+  --secondary: hsl(43 100% 40%);
+  --secondary-hover: hsl(43 100% 25%); /* +10% lightness */
+
+  /* Semantic Colors */
+  --danger: hsl(9 21% 41%);
+  --warning: hsl(52 23% 34%);
+  --success: hsl(147 19% 36%);
+  --info: hsl(217 22% 41%);
+
+  /* Gradients */
+  --gradient: linear-gradient(
+    0deg,
+    var(--background) 95%,
+    var(--background-highlight)
+  );
+  --gradient-hover: linear-gradient(
+    0deg,
+    var(--background),
+    var(--background-highlight)
+  );
+}
+
+body.dark {
+  /* Base Canvas & Text */
+  --background: hsl(0 0% 6%);
+  --foreground: hsl(0 0% 93%);
+
+  /* Muted/Highlight Canvas & Text */
+  --background-muted: hsl(0 0% 3%);
+  --background-highlight: hsl(0 0% 8%);
+  --foreground-highlighted: hsl(330 0% 100%);
+  --foreground-muted: hsl(300 0% 69%);
+
+  /* Borders */
+  --border: hsl(0 0% 28%);
+  --border-muted: hsl(300 0% 18%);
+
+  /* Brand Colors (with Hover states) */
+  --primary: hsl(219 78% 75%);
+  --primary-hover: hsl(219 78% 81%); /* +10% lightness */
+  --secondary: hsl(39 54% 61%);
+  --secondary-hover: hsl(39 54% 71%); /* +10% lightness */
+
+  /* Semantic Colors */
+  --danger: hsl(9 26% 64%);
+  --warning: hsl(52 19% 57%);
+  --success: hsl(146 17% 59%);
+  --info: hsl(217 28% 65%);
+
+  /* Gradients & Shadows */
+  --gradient: linear-gradient(
+    0deg,
+    var(--background) 95%,
+    var(--background-highlight)
+  );
+  --gradient-hover: linear-gradient(
+    0deg,
+    var(--background),
+    var(--background-highlight)
+  );
+  --shadow-s: var(--background-highlight);
+  --shadow-m: var(--background-highlight);
+  --shadow-l: var(--background-highlight);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-background-muted: var(--background-muted);
+  --color-background-highlight: var(--background-highlight);
+  --color-foreground-highlighted: var(--foreground-highlighted);
+  --color-foreground-muted: var(--foreground-muted);
+
+  --color-border: var(--border);
+  --color-border-muted: var(--border-muted);
+
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+
+  --color-secondary: var(--secondary);
+  --color-secondary-hover: var(--secondary-hover);
+
+  --color-danger: var(--danger);
+  --color-warning: var(--warning);
+  --color-success: var(--success);
+  --color-info: var(--info);
+}

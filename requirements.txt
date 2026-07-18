@@ -1,1 +1,6 @@
 requests
+dotenv
+pandas
+pymupdf
+langchain_text_splitters
+qdrant-client
