@@ -17,10 +17,10 @@ from backend.generation.citation_verifier import verify_citations
 from backend.generation.groq_client import generate_answer
 from backend.models.schemas import AskRequest, AskResponse, Citation, HealthResponse
 
-# Swap this import for Person A's real retrieval function once it's
-# ready (Step 9) — no other code in this file needs to change, since
-# both implementations return the same contract shape.
-from mock_retrieval import retrieve
+# Real hybrid retrieval (Qdrant dense + BM25 sparse + RRF fusion),
+# resolved back to actual paper metadata. Replaces mock_retrieval now
+# that Person A's pipeline + the chunk_id -> paperId mapping are in place.
+from real_retrieval import retrieve
 
 router = APIRouter()
 

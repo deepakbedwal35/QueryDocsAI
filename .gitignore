@@ -49,3 +49,11 @@ eval/results/*.json
 *.swo
 .env
 >>>>>>> c02e21adbc511833d1dd8adbeac70aacb93bc921
+
+# Data and Databases
+data/
+scripts/qdrant_storage/
+*.pkl
+*.pdf
+*.jsonl
+

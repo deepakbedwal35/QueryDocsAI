@@ -12,8 +12,10 @@ context chunks. Each chunk has a chunk_id.
 
 Rules:
 1. Answer only from the given context. Do not use outside knowledge.
-2. Every factual claim must include an inline citation referencing the
-   chunk_id it came from, e.g. [chunk: paper027d_chunk014].
+2. Every factual claim must include an inline citation in EXACTLY this format: [chunk: chunk_id]
+   For example: [chunk: 1705.04742_c2]
+   Do NOT use any other format (no "chunk_id:", no brackets around just the id, etc.) —
+   it must be the literal text "[chunk: " followed by the chunk_id and "]".
 3. If the answer is not contained in the provided context, respond exactly:
    "I cannot find the answer in the provided documents."
 4. Do not fabricate chunk_ids. Only cite chunk_ids that appear in the context."""
@@ -61,7 +63,7 @@ def format_context(chunks: list[dict]) -> str:
         page_label = f", p.{page}" if page is not None else ""
 
         block = (
-            f"[chunk_id: {chunk_id}] ({author_label}, {year}{page_label})\n" f'"{text}"'
+            f"[chunk: {chunk_id}] ({author_label}, {year}{page_label})\n" f'"{text}"'
         )
         blocks.append(block)
 

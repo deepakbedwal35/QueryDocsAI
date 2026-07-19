@@ -1,0 +1,199 @@
+[
+  {
+    "question": "How does Global Workspace Theory explain sustained conscious processing?",
+    "expected_paper_titles": [
+      "How sustainable are different levels of consciousness"
+    ],
+    "expect_not_found": false
+  },
+  {
+    "question": "What is the relationship between the prefrontal cortex and Global Workspace Theory?",
+    "expected_paper_titles": [
+      "Temporal Crossroads",
+      "Consciousness in Artificial Intelligence: Insights from the Science of Consciousness",
+      "Global Workspace Theory (GWT) and Prefrontal Cortex: Recent Developments",
+      "General and specific consciousness: a first-order representationalist approach",
+      "An adversarial collaboration protocol for testing contrasting predictions of global neuronal workspace and integrated information theory"
+    ],
+    "expect_not_found": false
+  },
+  {
+    "question": "What is Integrated Information Theory?",
+    "expected_paper_titles": [
+      "Delay Coordinate Embedding as Neuronally Implemented Information Processing: The State Space Theory of Consciousness",
+      "Theoretical Neurobiology of Consciousness Applied to Human Cerebral Organoids",
+      "Sleep Neuroimaging and Models of Consciousness",
+      "Visual Functions Generating Conscious Seeing"
+    ],
+    "expect_not_found": false
+  },
+  {
+    "question": "What are the neural correlates of consciousness?",
+    "expected_paper_titles": [
+      "An Integration of Deep Learning and Neuroscience for Machine Consciousness",
+      "General and specific consciousness: a first-order representationalist approach",
+      "Temporal Crossroads",
+      "Phenomenology and the Concept of Consciousness"
+    ],
+    "expect_not_found": false
+  },
+  {
+    "question": "How does anesthesia affect conscious awareness?",
+    "expected_paper_titles": [
+      "Visual Functions Generating Conscious Seeing",
+      "The functional contributions of consciousness.",
+      "Self-organized criticality as a framework for consciousness: A review study",
+      "Learning to Be Conscious.",
+      "Leveraging Nonhuman Primate Multisensory Neurons and Circuits in Assessing Consciousness Theory"
+    ],
+    "expect_not_found": false
+  },
+  {
+    "question": "What triggers explicit awareness in implicit sequence learning?",
+    "expected_paper_titles": [
+      "What triggers explicit awareness in implicit sequence learning? Implications from theories of consciousness"
+    ],
+    "expect_not_found": false
+  },
+  {
+    "question": "How does the 3D default space model explain conscious experience?",
+    "expected_paper_titles": [
+      "A unified 3D default space consciousness model combining neurological and physiological processes that underlie conscious experience"
+    ],
+    "expect_not_found": false
+  },
+  {
+    "question": "What is Higher-Order Theory of consciousness?",
+    "expected_paper_titles": [
+      "What triggers explicit awareness in implicit sequence learning? Implications from theories of consciousness",
+      "Consciousness in Artificial Intelligence: Insights from the Science of Consciousness",
+      "General and specific consciousness: a first-order representationalist approach"
+    ],
+    "expect_not_found": false
+  },
+  {
+    "question": "How does Recurrent Processing Theory explain perceptual consciousness?",
+    "expected_paper_titles": [
+      "The functional contributions of consciousness.",
+      "An Integration of Deep Learning and Neuroscience for Machine Consciousness",
+      "Consciousness in Artificial Intelligence: Insights from the Science of Consciousness",
+      "Visual Functions Generating Conscious Seeing"
+    ],
+    "expect_not_found": false
+  },
+  {
+    "question": "Can artificial intelligence systems be conscious?",
+    "expected_paper_titles": [
+      "Is Dialogue with a Technosubject Possible? Architectures of Artificial Intelligence and Signatures of Consciousness",
+      "An Integration of Deep Learning and Neuroscience for Machine Consciousness",
+      "Consciousness in Artificial Intelligence: Insights from the Science of Consciousness",
+      "Integrated World Modeling Theory (IWMT) and the Human Consciousness Hypothesis (HCH)"
+    ],
+    "expect_not_found": false
+  },
+  {
+    "question": "What role does the thalamus play in consciousness?",
+    "expected_paper_titles": [
+      "A unified 3D default space consciousness model combining neurological and physiological processes that underlie conscious experience"
+    ],
+    "expect_not_found": false
+  },
+  {
+    "question": "How do different theories of consciousness compare in explaining sustained awareness?",
+    "expected_paper_titles": [
+      "Learning to Be Conscious.",
+      "An Integration of Deep Learning and Neuroscience for Machine Consciousness",
+      "The functional contributions of consciousness.",
+      "Exploration of Consciousness : A Bridge among Science, Spirituality, Psychology and Philosophy",
+      "Consciousness in Artificial Intelligence: Insights from the Science of Consciousness"
+    ],
+    "expect_not_found": false
+  },
+  {
+    "question": "What is the global neuronal workspace?",
+    "expected_paper_titles": [
+      "An Integration of Deep Learning and Neuroscience for Machine Consciousness",
+      "An adversarial collaboration protocol for testing contrasting predictions of global neuronal workspace and integrated information theory",
+      "Theoretical Neurobiology of Consciousness Applied to Human Cerebral Organoids",
+      "Temporal Crossroads"
+    ],
+    "expect_not_found": false
+  },
+  {
+    "question": "How is machine consciousness modeled using deep learning?",
+    "expected_paper_titles": [
+      "An Integration of Deep Learning and Neuroscience for Machine Consciousness",
+      "Augmentor: a cognitive-inspired approach for context-aware adaptive learning with human guidance",
+      "What triggers explicit awareness in implicit sequence learning? Implications from theories of consciousness"
+    ],
+    "expect_not_found": false
+  },
+  {
+    "question": "What is meta-conscious processing?",
+    "expected_paper_titles": [
+      "How sustainable are different levels of consciousness"
+    ],
+    "expect_not_found": false
+  },
+  {
+    "question": "What are the functional contributions of consciousness?",
+    "expected_paper_titles": [
+      "The functional contributions of consciousness."
+    ],
+    "expect_not_found": false
+  },
+  {
+    "question": "How does emotional intensity affect conscious processing?",
+    "expected_paper_titles": [
+      "How sustainable are different levels of consciousness",
+      "The functional contributions of consciousness."
+    ],
+    "expect_not_found": false
+  },
+  {
+    "question": "What is the ignition marker of conscious experience in the prefrontal cortex?",
+    "expected_paper_titles": [
+      "Global Workspace Theory (GWT) and Prefrontal Cortex: Recent Developments",
+      "Temporal Crossroads",
+      "An Integration of Deep Learning and Neuroscience for Machine Consciousness",
+      "A Map of Consciousness Studies: Questions and Approaches"
+    ],
+    "expect_not_found": false
+  },
+  {
+    "question": "How does phenomenology relate to the concept of consciousness?",
+    "expected_paper_titles": [
+      "Phenomenology and the Concept of Consciousness"
+    ],
+    "expect_not_found": false
+  },
+  {
+    "question": "What is the relationship between spirituality and consciousness research?",
+    "expected_paper_titles": [
+      "Exploration of Consciousness : A Bridge among Science, Spirituality, Psychology and Philosophy",
+      "Phenomenology and the Concept of Consciousness",
+      "On the link between conscious function and general intelligence in humans and machines"
+    ],
+    "expect_not_found": false
+  },
+  {
+    "question": "Who won the most recent Super Bowl?",
+    "expected_paper_titles": [],
+    "expect_not_found": true
+  },
+  {
+    "question": "What is the boiling point of water at sea level?",
+    "expected_paper_titles": [],
+    "expect_not_found": true
+  },
+  {
+    "question": "What's the best recipe for chocolate chip cookies?",
+    "expected_paper_titles": [],
+    "expect_not_found": true
+  },
+  {
+    "question": "What is the current stock price of Apple?",
+    "expected_paper_titles": [],
+    "expect_not_found": true
+  }
+]

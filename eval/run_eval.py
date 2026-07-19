@@ -35,7 +35,7 @@ from pathlib import Path
 import backend.config  # noqa: F401  (loads .env -> GROQ_API_KEY)
 from backend.generation.citation_verifier import verify_citations
 from backend.generation.groq_client import generate_answer
-from mock_retrieval import retrieve
+from real_retrieval import retrieve
 
 HERE = Path(__file__).parent
 QUESTIONS_PATH = HERE / "test_questions.json"
@@ -52,30 +52,38 @@ NOT_FOUND_ACCURACY_THRESHOLD = 0.8
 
 
 def load_questions() -> list[dict]:
-    return json.loads(QUESTIONS_PATH.read_text())
+    questions = json.loads(QUESTIONS_PATH.read_text())
+    for i, q in enumerate(questions, start=1):
+        q.setdefault("id", f"q{i:03d}")
+    return questions
 
 
 def hit_rate_at_k(
-    expected_chunk_ids: list[str], retrieved_chunks: list[dict]
+    expected_paper_titles: list[str], retrieved_chunks: list[dict]
 ) -> bool | None:
     """
-    True/False if this question has known expected chunks; None
-    (not applicable) if it's a not-found question with no expected
-    chunks to check retrieval against.
+    True/False if this question has known expected papers; None (not
+    applicable) if it's a not-found question with nothing to check
+    retrieval against.
+
+    Checked at the paper level, not exact chunk_id, since chunk
+    boundaries are somewhat arbitrary -- what matters is whether
+    retrieval surfaced content from the RIGHT PAPER, not the exact
+    same slice of text a human happened to pick.
     """
-    if not expected_chunk_ids:
+    if not expected_paper_titles:
         return None
-    retrieved_ids = {c["chunk_id"] for c in retrieved_chunks}
-    return any(cid in retrieved_ids for cid in expected_chunk_ids)
+    retrieved_titles = {c["paper_title"] for c in retrieved_chunks}
+    return any(title in retrieved_titles for title in expected_paper_titles)
 
 
 def run_one(question_item: dict, top_k: int) -> dict:
     question = question_item["question"]
-    expected_chunk_ids = question_item.get("expected_chunk_ids", [])
+    expected_paper_titles = question_item.get("expected_paper_titles", [])
     expect_not_found = question_item.get("expect_not_found", False)
 
     chunks = retrieve(question, top_k=top_k)
-    hit = hit_rate_at_k(expected_chunk_ids, chunks)
+    hit = hit_rate_at_k(expected_paper_titles, chunks)
 
     raw_answer = generate_answer(question, chunks)
     result = verify_citations(raw_answer, chunks)
@@ -93,8 +101,8 @@ def run_one(question_item: dict, top_k: int) -> dict:
     return {
         "id": question_item["id"],
         "question": question,
-        "expected_chunk_ids": expected_chunk_ids,
-        "retrieved_chunk_ids": [c["chunk_id"] for c in chunks],
+        "expected_paper_titles": expected_paper_titles,
+        "retrieved_paper_titles": list({c["paper_title"] for c in chunks}),
         "hit_at_k": hit,
         "answer": result["clean_answer"],
         "valid_citations": valid,
