@@ -7,6 +7,10 @@ Devices -> Chats -> Messages, with ON DELETE CASCADE so deleting a
 chat removes its messages, and deleting a device removes its chats
 (and transitively their messages).
 
+Chats -> Documents, with ON DELETE CASCADE so deleting a chat
+removes its uploaded documents (and their Qdrant points via
+application-level cascade).
+
 `citations` is stored as a JSON column on Message rather than a
 separate table, since citations are always read/written as a unit
 with their parent message and never queried independently.
@@ -60,6 +64,11 @@ class Chat(Base):
         cascade="all, delete-orphan",
         order_by="Message.created_at",
     )
+    documents: Mapped[list["Document"]] = relationship(
+        back_populates="chat",
+        cascade="all, delete-orphan",
+        order_by="Document.uploaded_at",
+    )
 
 
 class Message(Base):
@@ -76,3 +85,18 @@ class Message(Base):
     created_at: Mapped[datetime] = mapped_column(DateTime, default=utcnow)
 
     chat: Mapped["Chat"] = relationship(back_populates="messages")
+
+
+class Document(Base):
+    __tablename__ = "documents"
+
+    document_id: Mapped[str] = mapped_column(String, primary_key=True, default=_uuid)
+    chat_id: Mapped[str] = mapped_column(
+        String, ForeignKey("chats.chat_id", ondelete="CASCADE"), index=True
+    )
+    filename: Mapped[str] = mapped_column(String)
+    page_count: Mapped[int | None] = mapped_column(nullable=True)
+    chunk_count: Mapped[int] = mapped_column(default=0)
+    uploaded_at: Mapped[datetime] = mapped_column(DateTime, default=utcnow)
+
+    chat: Mapped["Chat"] = relationship(back_populates="documents")

@@ -22,6 +22,7 @@ from __future__ import annotations
 
 import ast
 import json
+import logging
 import os
 import pickle
 import re
@@ -29,7 +30,10 @@ import uuid
 
 import pandas as pd
 from qdrant_client import QdrantClient
+from qdrant_client.models import FieldCondition, Filter, MatchValue
 from sentence_transformers import SentenceTransformer
+
+log = logging.getLogger(__name__)
 
 DATA_DIR = os.environ.get("DATA_DIR", "data")
 METADATA_PATH = os.path.join(DATA_DIR, "metadata.csv")
@@ -125,10 +129,64 @@ def _tokenise(text: str) -> list[str]:
     return clean_text.split()
 
 
-def _resolve_metadata(chunk_id: str) -> dict:
+_corpus_payload_migrated = False
+
+
+def _ensure_corpus_payload() -> None:
+    """One-time migration: add source='corpus' payload to all points
+    that don't already have a 'source' field, so Qdrant filtering
+    works.  Points with source='upload' (from user PDF uploads) are
+    left untouched."""
+    global _corpus_payload_migrated
+    if _corpus_payload_migrated:
+        return
+
+    client = _get_qdrant_client()
+
+    offset = None
+    migrated = 0
+    while True:
+        result, offset = client.scroll(
+            collection_name=QDRANT_COLLECTION,
+            limit=500,
+            offset=offset,
+            with_payload=True,
+        )
+        if not result:
+            break
+
+        ids_without_source = [
+            p.id for p in result if not p.payload or "source" not in p.payload
+        ]
+        if ids_without_source:
+            client.set_payload(
+                collection_name=QDRANT_COLLECTION,
+                payload={"source": "corpus"},
+                points=ids_without_source,
+            )
+            migrated += len(ids_without_source)
+
+        if offset is None:
+            break
+
+    log.info("Corpus payload check complete: %d points updated.", migrated)
+    _corpus_payload_migrated = True
+
+
+def _resolve_metadata(chunk_id: str, payload: dict | None = None) -> dict:
     """chunk_id looks like '19data_c0' or '1705.04742_c3' -- strip the
     '_c{n}' suffix to get the pdf stem, then chase
-    pdf_stem -> paperId -> {title, authors, year}."""
+    pdf_stem -> paperId -> {title, authors, year}.
+
+    For uploaded chunks (prefix 'upload_'), resolve from the Qdrant
+    payload instead."""
+    if chunk_id.startswith("upload_") and payload is not None:
+        return {
+            "paper_title": payload.get("filename", "Uploaded document"),
+            "authors": [],
+            "year": 0,
+        }
+
     pdf_stem = chunk_id.rsplit("_c", 1)[0]
     paperid_map = _get_pdf_stem_to_paperid()
     paper_by_id = _get_paper_by_id()
@@ -146,21 +204,39 @@ def _resolve_metadata(chunk_id: str) -> dict:
     }
 
 
-def retrieve(question: str, top_k: int = 5) -> list[dict]:
+def retrieve(question: str, top_k: int = 5, chat_id: str | None = None) -> list[dict]:
     """
     Hybrid retrieval: dense (Qdrant) + sparse (BM25), fused via RRF,
     with each result's chunk_id resolved back to real paper metadata.
+
+    When chat_id is provided, the dense search also includes uploaded
+    chunks belonging to that chat (via Qdrant payload filter).
     """
+    _ensure_corpus_payload()
+
     # --- Dense: Qdrant ---
     model = _get_model()
     query_embedding = model.encode(
         BGE_QUERY_PREFIX + question, normalize_embeddings=True
     )
     client = _get_qdrant_client()
+
+    # Build filter: corpus OR this chat's uploads
+    search_filter = None
+    if chat_id:
+        search_filter = Filter(
+            should=[
+                FieldCondition(key="source", match=MatchValue(value="corpus")),
+                FieldCondition(key="chat_id", match=MatchValue(value=chat_id)),
+            ]
+        )
+
     dense_hits = client.query_points(
         collection_name=QDRANT_COLLECTION,
         query=query_embedding,
         limit=CANDIDATE_POOL_SIZE,
+        query_filter=search_filter,
+        with_payload=True,
     ).points
 
     # Qdrant point ids are uuid5(chunk_id), not the chunk_id itself --
@@ -172,13 +248,25 @@ def retrieve(question: str, top_k: int = 5) -> list[dict]:
         for item in mapping_table
     }
 
-    dense_ranked_chunk_ids = []
+    dense_ranked = []  # list of (chunk_id, text, payload)
     for point in dense_hits:
-        item = uuid_to_chunk.get(str(point.id))
+        point_uuid = str(point.id)
+        # Corpus chunk: look up in mapping table
+        item = uuid_to_chunk.get(point_uuid)
         if item:
-            dense_ranked_chunk_ids.append(item["chunk_id"])
+            dense_ranked.append((item["chunk_id"], item["text"], None))
+            continue
+        # Non-corpus chunk (uploaded or migrated): extract from Qdrant
+        # payload.  We check for chunk_id rather than source=='upload'
+        # so that points whose source was overwritten by a prior
+        # migration are still recovered.
+        payload = point.payload or {}
+        if "chunk_id" in payload:
+            dense_ranked.append((payload["chunk_id"], payload.get("text", ""), payload))
 
-    # --- Sparse: BM25 ---
+    dense_ranked_chunk_ids = [cid for cid, _, _ in dense_ranked]
+
+    # --- Sparse: BM25 (corpus only — BM25 pickle is static) ---
     tokens = _tokenise(question)
     scores = bm25.get_scores(tokens)
     ranked_indices = sorted(range(len(scores)), key=lambda i: scores[i], reverse=True)
@@ -199,15 +287,49 @@ def retrieve(question: str, top_k: int = 5) -> list[dict]:
             FUSION_K + rank
         )
 
-    ranked_chunk_ids = sorted(fused_scores.items(), key=lambda kv: kv[1], reverse=True)[
-        :top_k
-    ]
+    ranked = sorted(fused_scores.items(), key=lambda kv: kv[1], reverse=True)
 
-    text_by_chunk_id = {item["chunk_id"]: item["text"] for item in mapping_table}
+    # Guarantee uploaded chunks are represented: uploaded chunks only
+    # get dense scores (BM25 is corpus-only), so RRF systematically
+    # underranks them.  After initial ranking, swap in any uploaded
+    # chunk that scored higher than the weakest corpus chunk in top_k.
+    if chat_id:
+        top = list(ranked[:top_k])
+        corpus_in = [
+            (i, cid, sc)
+            for i, (cid, sc) in enumerate(top)
+            if not cid.startswith("upload_")
+        ]
+        for up_cid, up_sc in ranked:
+            if not up_cid.startswith("upload_"):
+                continue
+            if up_sc <= 0:
+                break  # remaining are worse
+            if any(cid == up_cid for cid, _ in top):
+                continue  # already in results
+            if not corpus_in:
+                break  # no corpus slots to replace
+            worst_idx, worst_cid, worst_sc = min(corpus_in, key=lambda x: x[2])
+            if up_sc <= worst_sc:
+                break  # uploaded chunk isn't better than what's there
+            top[worst_idx] = (up_cid, up_sc)
+            corpus_in = [(i, c, s) for i, c, s in corpus_in if i != worst_idx]
+        ranked_chunk_ids = top[:top_k]
+    else:
+        ranked_chunk_ids = ranked[:top_k]
+
+    # Build lookup for text and payload from the dense results
+    text_by_chunk_id = {cid: text for cid, text, _ in dense_ranked}
+    payload_by_chunk_id = {cid: pl for cid, _, pl in dense_ranked}
+    # Also include corpus text from mapping table
+    for item in mapping_table:
+        if item["chunk_id"] not in text_by_chunk_id:
+            text_by_chunk_id[item["chunk_id"]] = item["text"]
 
     results = []
     for chunk_id, score in ranked_chunk_ids:
-        meta = _resolve_metadata(chunk_id)
+        payload = payload_by_chunk_id.get(chunk_id)
+        meta = _resolve_metadata(chunk_id, payload=payload)
         results.append(
             {
                 "chunk_id": chunk_id,
@@ -215,7 +337,7 @@ def retrieve(question: str, top_k: int = 5) -> list[dict]:
                 "paper_title": meta["paper_title"],
                 "authors": meta["authors"],
                 "year": meta["year"],
-                "page": None,  # not recoverable from the current pipeline, see module docstring
+                "page": None,
                 "score": round(score, 4),
             }
         )

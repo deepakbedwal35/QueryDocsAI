@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Plus, Send } from "lucide-react";
+import { Send } from "lucide-react";
 
 export default function InputBar({ onSend, isLoading }) {
   const [value, setValue] = useState("");
@@ -21,13 +21,6 @@ export default function InputBar({ onSend, isLoading }) {
   return (
     <div className="shrink-0 px-6 py-4">
       <div className="mx-auto flex max-w-2xl items-end gap-2 rounded-2xl border border-border bg-background-highlight px-3 py-2 shadow-sm">
-        <button
-          aria-label="Attach document"
-          className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-foreground-muted transition-colors hover:bg-background-muted hover:text-foreground cursor-pointer"
-        >
-          <Plus size={16} />
-        </button>
-
         <textarea
           rows={1}
           value={value}

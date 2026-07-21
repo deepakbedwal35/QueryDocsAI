@@ -12,6 +12,11 @@ import {
   deleteChat,
   getChatMessages,
 } from "./api/chatsApi";
+import {
+  listDocuments,
+  uploadDocument,
+  deleteDocument,
+} from "./api/documentsApi";
 
 let msgIdCounter = 0;
 const nextMsgId = () => `local-${++msgIdCounter}`;
@@ -34,8 +39,10 @@ export default function App() {
 
   const [isLoadingChats, setIsLoadingChats] = useState(true);
   const [isLoadingMessages, setIsLoadingMessages] = useState(false);
+  const [isLoadingDocuments, setIsLoadingDocuments] = useState(false);
   const [isSending, setIsSending] = useState(false);
   const [error, setError] = useState(null);
+  const [documents, setDocuments] = useState([]);
 
   const activeChat = chats.find((c) => c.chat_id === activeChatId) ?? null;
 
@@ -76,6 +83,22 @@ export default function App() {
     })();
   }, [activeChatId]);
 
+  // Load documents whenever the active chat changes.
+  useEffect(() => {
+    if (!activeChatId) return;
+    (async () => {
+      setIsLoadingDocuments(true);
+      try {
+        const docs = await listDocuments(activeChatId);
+        setDocuments(docs);
+      } catch (err) {
+        setError(err.message);
+      } finally {
+        setIsLoadingDocuments(false);
+      }
+    })();
+  }, [activeChatId]);
+
   const handleNewChat = async () => {
     try {
       const chat = await createChat();
@@ -88,6 +111,24 @@ export default function App() {
 
   const handleSelectChat = (chatId) => {
     setActiveChatId(chatId);
+  };
+
+  const handleUploadDocument = async (file) => {
+    try {
+      const doc = await uploadDocument(activeChatId, file);
+      setDocuments((prev) => [...prev, doc]);
+    } catch (err) {
+      setError(err.message);
+    }
+  };
+
+  const handleDeleteDocument = async (docId) => {
+    try {
+      await deleteDocument(activeChatId, docId);
+      setDocuments((prev) => prev.filter((d) => d.document_id !== docId));
+    } catch (err) {
+      setError(err.message);
+    }
   };
 
   const handleRenameChat = async (chatId, newTitle) => {
@@ -222,7 +263,12 @@ export default function App() {
         <InputBar onSend={handleSend} isLoading={isSending} />
       </div>
 
-      <DocumentsSidebar />
+      <DocumentsSidebar
+        documents={documents}
+        onUpload={handleUploadDocument}
+        onDelete={handleDeleteDocument}
+        isLoading={isLoadingDocuments}
+      />
     </div>
   );
 }

@@ -62,3 +62,13 @@ class MessageOut(BaseModel):
     created_at: datetime
 
     model_config = {"from_attributes": True}
+
+
+class DocumentSummary(BaseModel):
+    document_id: str
+    filename: str
+    page_count: int | None = None
+    chunk_count: int
+    uploaded_at: datetime
+
+    model_config = {"from_attributes": True}

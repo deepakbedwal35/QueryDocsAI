@@ -65,7 +65,7 @@ def ask(
     if chat is None or chat.device_id != device.device_id:
         raise HTTPException(status_code=404, detail="Chat not found")
 
-    chunks = retrieve(req.question)
+    chunks = retrieve(req.question, chat_id=req.chat_id)
     raw_answer = generate_answer(req.question, chunks)
     result = verify_citations(raw_answer, chunks)
     citations = build_citation_list(result["valid_citations"], chunks)

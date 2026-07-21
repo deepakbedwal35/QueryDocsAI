@@ -15,6 +15,7 @@ import backend.config  # noqa: F401
 from backend.db.session import init_db
 from backend.routes.ask import router as ask_router
 from backend.routes.chats import router as chats_router
+from backend.routes.documents import router as documents_router
 
 app = FastAPI(title="Ask My Papers API")
 
@@ -35,3 +36,4 @@ def on_startup() -> None:
 
 app.include_router(ask_router)
 app.include_router(chats_router)
+app.include_router(documents_router)
