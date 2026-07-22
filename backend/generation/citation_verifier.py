@@ -1,20 +1,13 @@
 """
 citation_verifier.py
 
-Verifies that every [chunk: <id>] citation the LLM produced actually
-corresponds to a chunk that was retrieved. Strips/flags any
-hallucinated citations before the answer reaches the user.
-
-PRD Section 5 — "Citation Verification Logic (Person B owns this)".
 """
 
 from __future__ import annotations
 
 import re
 
-# Matches tags like: [chunk: paper027d_chunk014]
-# Allows optional whitespace around the id, and ids made of
-# word chars/hyphens (matches the chunk_id format used elsewhere).
+
 _CITATION_PATTERN = re.compile(r"\[chunk:\s*([\w\-]+)\s*\]")
 
 _NOT_FOUND_MESSAGE = "I cannot find the answer in the provided documents."
@@ -66,7 +59,7 @@ def verify_citations(answer: str, retrieved_chunks: list[dict]) -> dict:
             if chunk_id not in seen_hallucinated:
                 hallucinated_citations.append(chunk_id)
                 seen_hallucinated.add(chunk_id)
-            # Strip hallucinated citation tags from the answer text.
+            
             return ""
 
     clean_answer = _CITATION_PATTERN.sub(_replace, answer)

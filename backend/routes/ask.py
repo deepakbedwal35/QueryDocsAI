@@ -17,16 +17,15 @@ from backend.generation.citation_verifier import verify_citations
 from backend.generation.groq_client import generate_answer
 from backend.models.schemas import AskRequest, AskResponse, Citation, HealthResponse
 
+
 # Real hybrid retrieval (Qdrant dense + BM25 sparse + RRF fusion),
 # resolved back to actual paper metadata. Replaces mock_retrieval now
 # that Person A's pipeline + the chunk_id -> paperId mapping are in place.
 from real_retrieval import retrieve
 
+
 router = APIRouter()
-
 _NOT_FOUND_PHRASE = "cannot find the answer"
-
-
 def build_citation_list(
     valid_chunk_ids: list[str], chunks: list[dict]
 ) -> list[Citation]:
@@ -56,16 +55,8 @@ def build_citation_list(
 
 
 @router.post("/ask", response_model=AskResponse)
-def ask(
-    req: AskRequest,
-    device: Device = Depends(get_current_device),
-    db: Session = Depends(get_db),
-) -> AskResponse:
-    chat = db.get(Chat, req.chat_id)
-    if chat is None or chat.device_id != device.device_id:
-        raise HTTPException(status_code=404, detail="Chat not found")
-
-    chunks = retrieve(req.question, chat_id=req.chat_id)
+def ask(req: AskRequest) -> AskResponse:
+    chunks = get_top_n_chunks(req.question)
     raw_answer = generate_answer(req.question, chunks)
     result = verify_citations(raw_answer, chunks)
     citations = build_citation_list(result["valid_citations"], chunks)

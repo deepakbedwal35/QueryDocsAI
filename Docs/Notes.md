@@ -180,7 +180,7 @@ Quality depends entirely on the one PDF they gave you — if it's messy scanned 
 
 Recommendation
 Don't build this yet. Get the fixed-corpus version working end-to-end first (including your eval step — that's the harder, more valuable part). Once that's solid, adding "upload your own PDF" is a relatively small extension: you're just running your existing pipeline on-demand instead of as a batch job.
-If you do want it eventually, it's genuinely a good v2 feature — it turns "Ask My Papers" from your fixed library into a general research tool, which is a stronger interview story ("built a fixed-corpus RAG, then extended it to arbitrary user documents").
+If you do want it eventually, it's genuinely a good v2 feature — it turns "QueryDocsAI" from your fixed library into a general research tool, which is a stronger interview story ("built a fixed-corpus RAG, then extended it to arbitrary user documents").
 Want to keep going on the fixed-corpus build first, or are you deciding right now whether to design for both from the start?
 
 Full flow (step by step)

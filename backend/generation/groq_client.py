@@ -10,13 +10,17 @@ downstream in citation_verifier.py, not here).
 from __future__ import annotations
 
 import os
+import os
+
+
+from dotenv import load_dotenv
 
 from groq import Groq
 
 from .prompt_templates import SYSTEM_PROMPT, build_user_message
 
-# Model choice: fast + cheap, good enough for grounded Q&A. Swap if
-# you want a bigger model for tougher synthesis.
+GROQ_API_KEY="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" 
+
 DEFAULT_MODEL = "llama-3.3-70b-versatile"
 
 _client: Groq | None = None
@@ -28,10 +32,10 @@ def _get_client() -> Groq:
     module out entirely)."""
     global _client
     if _client is None:
-        api_key = os.environ.get("GROQ_API_KEY")
-        if not api_key:
-            raise RuntimeError("GROQ_API_KEY is not set. Add it to your .env file.")
-        _client = Groq(api_key=api_key)
+        # api_key = os.environ.get("GROQ_API_KEY")
+        # if not api_key:
+        #     raise RuntimeError("GROQ_API_KEY is not set. Add it to your .env file.")
+        _client = Groq(api_key=GROQ_API_KEY)
     return _client
 
 
@@ -39,8 +43,8 @@ def generate_answer(
     question: str,
     chunks: list[dict],
     model: str = DEFAULT_MODEL,
-    temperature: float = 0.0,
-    max_tokens: int = 1024,
+    temperature: float = 0.2,
+    max_tokens: int = 500,
 ) -> str:
     """
     Generate an answer grounded strictly in the retrieved chunks.
@@ -73,3 +77,4 @@ def generate_answer(
     )
 
     return response.choices[0].message.content or ""
+

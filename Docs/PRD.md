@@ -1,4 +1,4 @@
-# Ask My Papers — PRD & TRD
+# QueryDocsAI — PRD & TRD
 
 ---
 
@@ -6,10 +6,10 @@
 
 ## 1. Overview
 
-**Product name:** Ask My Papers
+**Product name:** QueryDocsAI
 **One-liner:** A RAG (Retrieval-Augmented Generation) chatbot that answers questions about a curated set of neuroscience/consciousness research papers, grounding every claim in cited source passages.
 
-**Problem it solves:** Reading dozens of research papers to answer a specific question is slow. General-purpose LLM chatbots can answer instantly but may hallucinate or use outdated/generic knowledge instead of the actual papers. Ask My Papers gives fast answers that are traceable back to real source text — or honestly says "not found" when the corpus doesn't cover it.
+**Problem it solves:** Reading dozens of research papers to answer a specific question is slow. General-purpose LLM chatbots can answer instantly but may hallucinate or use outdated/generic knowledge instead of the actual papers. QueryDocsAI gives fast answers that are traceable back to real source text — or honestly says "not found" when the corpus doesn't cover it.
 
 **Analogy:** Same core mechanism as Google NotebookLM (grounded Q&A with citations over a fixed document set), scoped down to a single research domain and built end-to-end to understand every layer.
 
