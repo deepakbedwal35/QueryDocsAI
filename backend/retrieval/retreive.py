@@ -83,7 +83,7 @@ def get_query_ans(query:str):
         "qdrant":matched_results
     }
   
-def get_top_n_chunks(query, n=5, k=60):
+def get_top_n_chunks(query, n=6, k=60):
     results = get_query_ans(query)
     bm25_ = results.get("bm25")
     qdrant_ = results.get("qdrant")
@@ -119,6 +119,10 @@ def get_top_n_chunks(query, n=5, k=60):
         for chunk_id, data in ranked[:n]
     ]
     return top_n_chunks
+
+query ="""What is "neural ignition" in Global Neuronal Workspace (GNW) theory, and did the data support it"""
+# print(get_top_n_chunks(query))
+
 
 
 

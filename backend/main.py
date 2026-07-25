@@ -8,7 +8,7 @@ from __future__ import annotations
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-
+from backend.db.session import init_db
 # import config  # noqa: F401  — loads .env before anything else
 
 from backend.routes.ask import router as ask_router
@@ -27,9 +27,10 @@ app.add_middleware(
 )
 
 
-@app.on_event("startup")
-def on_startup() -> None:
-    init_db()
+# @app.on_event("startup")
+# def on_startup() -> None:
+#     print("creating db")
+#     init_db()
 
 
 app.include_router(ask_router)

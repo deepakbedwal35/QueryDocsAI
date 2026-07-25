@@ -12,7 +12,7 @@ export default function ChatHistorySidebar({
     <aside className="flex h-full w-64 shrink-0 flex-col bg-background-muted">
       <div className="flex items-center justify-between px-4 py-4">
         <span className="font-heading text-sm font-bold tracking-wide text-foreground">
-          Ask My Papers
+          QueryDocsAI
         </span>
       </div>
 

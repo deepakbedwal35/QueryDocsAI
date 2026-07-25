@@ -4,3 +4,7 @@ pandas
 pymupdf
 langchain_text_splitters
 qdrant-client
+bm_25
+sentence-transformers
+numpy
+python-multipart

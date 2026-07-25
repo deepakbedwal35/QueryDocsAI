@@ -6,8 +6,6 @@ Qdrant + sparse via BM25), fused with Reciprocal Rank Fusion, then
 each result's chunk_id is resolved back to real paper metadata via
 pdf_to_paperid.json + metadata.csv.
 
-Returns the exact same shape mock_retrieval.retrieve() did:
-    [{chunk_id, text, paper_title, authors, year, page, score}, ...]
 so nothing downstream (ask.py, citation_verifier, eval suite) needs
 to change -- only the import line in ask.py swaps from
 `from mock_retrieval import retrieve` to `from real_retrieval import retrieve`.
@@ -204,7 +202,7 @@ def _resolve_metadata(chunk_id: str, payload: dict | None = None) -> dict:
     }
 
 
-def retrieve(question: str, top_k: int = 5, chat_id: str | None = None) -> list[dict]:
+def retrieve(question: str, top_k: int = 7, chat_id: str | None = None) -> list[dict]:
     """
     Hybrid retrieval: dense (Qdrant) + sparse (BM25), fused via RRF,
     with each result's chunk_id resolved back to real paper metadata.

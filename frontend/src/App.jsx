@@ -17,6 +17,7 @@ import {
   uploadDocument,
   deleteDocument,
 } from "./api/documentsApi";
+import Demo from "./demo";
 
 let msgIdCounter = 0;
 const nextMsgId = () => `local-${++msgIdCounter}`;
@@ -241,7 +242,7 @@ export default function App() {
       <div className="flex min-w-0 flex-1 flex-col">
         <header className="flex shrink-0 items-center justify-between border-b border-border px-6 py-3">
           <span className="text-sm font-medium text-foreground-muted">
-            {activeChat?.title ?? "Ask My Papers"}
+            {activeChat?.title ?? "QueryDocsAI"}
           </span>
           <ThemeToggle />
         </header>
@@ -262,6 +263,7 @@ export default function App() {
 
         <InputBar onSend={handleSend} isLoading={isSending} />
       </div>
+      {/* <Demo/> */}
 
       <DocumentsSidebar
         documents={documents}

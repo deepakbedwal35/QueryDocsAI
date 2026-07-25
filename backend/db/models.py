@@ -27,6 +27,7 @@ from sqlalchemy.orm import Mapped, mapped_column, relationship
 from backend.db.session import Base, utcnow
 
 
+
 def _uuid() -> str:
     return str(uuid.uuid4())
 
