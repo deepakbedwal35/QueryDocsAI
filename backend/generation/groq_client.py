@@ -14,7 +14,7 @@ import os
 from dotenv import load_dotenv
 
 from groq import Groq
-from backend.config import GROQ_API_KEY, QDRANT_URL, QDRANT_API_KEY
+from backend.config import GROQ_API_KEY
 
 from .prompt_templates import SYSTEM_PROMPT, build_user_message
 

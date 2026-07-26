@@ -79,7 +79,7 @@ export default function ChatWindow({ messages, isLoading }) {
 
         {isLoading && (
           <div className="flex justify-start">
-            <div className="max-w-[80%] rounded-2xl  bg-background-highlight px-4 py-2.5 text-sm text-foreground-muted">
+            <div className="max-w-[80%] rounded-2xl animate-pulse bg-background-highlight px-4 py-2.5 text-sm text-foreground-muted">
               Thinking...
             </div>
           </div>
