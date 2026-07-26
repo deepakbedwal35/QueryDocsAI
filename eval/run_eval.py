@@ -155,7 +155,7 @@ def passes_thresholds(summary: dict) -> bool:
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Run the Ask My Papers eval suite.")
+    parser = argparse.ArgumentParser(description="Run the QueryDocsAI eval suite.")
     parser.add_argument(
         "--top-k", type=int, default=5, help="Chunks to retrieve per question."
     )

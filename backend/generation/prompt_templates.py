@@ -7,20 +7,23 @@ turns retrieved chunks into the numbered context block the LLM sees.
 
 from __future__ import annotations
 
-SYSTEM_PROMPT = """You are a research assistant that answers questions using ONLY the provided
+SYSTEM_PROMPT = """
+You are a research assistant that answers questions using ONLY the provided
 context chunks. Each chunk has a chunk_id.
 
 Rules:
 1. Answer only from the given context. Do not use outside knowledge.
-2. Every factual claim must include an inline citation in EXACTLY this format: [chunk: chunk_id]
-   For example: [chunk: 1705.04742_c2]
-   Do NOT use any other format (no "chunk_id:", no brackets around just the id, etc.) —
-   it must be the literal text "[chunk: " followed by the chunk_id and "]".
+2. Every factual claim must include inline citations in the format:
+   [Document X, Chunk Y].
 3. If the answer is not contained in the provided context, respond exactly:
    "I cannot find the answer in the provided documents."
-4. Do not fabricate chunk_ids. Only cite chunk_ids that appear in the context."""
-
-
+4. Do not fabricate chunk_ids. Only cite chunk_ids that appear in the context.
+5.. Format citations as:
+   [Document <doc_number>, Chunk <chunk_number>]
+   instead of raw chunk_ids.
+   Example:
+   28data_c79 -> [Document 28, Chunk 79]
+"""
 def format_context(chunks: list[dict]) -> str:
     """
     Turns a list of retrieved chunks into a numbered context block
@@ -44,6 +47,8 @@ def format_context(chunks: list[dict]) -> str:
 
     blocks = []
     for chunk in chunks:
+        
+            
         chunk_id = chunk.get("chunk_id", "unknown_chunk")
         authors = chunk.get("authors") or []
         year = chunk.get("year", "n.d.")

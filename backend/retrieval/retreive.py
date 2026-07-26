@@ -13,18 +13,16 @@ def tokenise_query_text(text):
     clean_text = re.sub(r'[^\w\s]', ' ', text.lower())
     return clean_text.split()
 
-model = SentenceTransformer("BAAI/bge-base-en-v1.5")
-
-
 def get_query_ans(query:str):
     
+    model = SentenceTransformer("BAAI/bge-base-en-v1.5")
     query_embeddings = model.encode( query, normalize_embeddings=True)
     
     client = QdrantClient(host = "localhost", port=6333)
     search_results = client.query_points(
         collection_name="sample_docs_collections",
         query=query_embeddings,
-        limit=4,    
+        limit=20,    
     ).points
     
     for point in search_results:
@@ -39,7 +37,7 @@ def get_query_ans(query:str):
         sample_mapping_table = pickle.load(f_map)
     
     doc_scores = sample_bm25.get_scores(tokenise_query)
-    top_indices = np.argsort(doc_scores)[::-1][:4]
+    top_indices = np.argsort(doc_scores)[::-1][:20]
     
     results = []
     for rank, idx in enumerate(top_indices, start=1):
@@ -85,11 +83,7 @@ def get_query_ans(query:str):
         "qdrant":matched_results
     }
   
-
-
-
-
-def get_top_n_chunks(query, n=10, k=60):
+def get_top_n_chunks(query, n=6, k=60):
     results = get_query_ans(query)
     bm25_ = results.get("bm25")
     qdrant_ = results.get("qdrant")
@@ -120,14 +114,16 @@ def get_top_n_chunks(query, n=10, k=60):
 
     ranked = sorted(fused_scores.items(), key=lambda x: x[1]["score"], reverse=True)
 
-    top_n = [
+    top_n_chunks = [
         {"chunk_id": chunk_id, "score": data["score"], "text": data["text"]}
         for chunk_id, data in ranked[:n]
     ]
-    return top_n
+    return top_n_chunks
 
-query = """How do XOR and AND gates test consciousness theories?"""
-print(get_top_n_chunks(query))
+query ="""What is "neural ignition" in Global Neuronal Workspace (GNW) theory, and did the data support it"""
+# print(get_top_n_chunks(query))
+
+
 
 
     

@@ -5,10 +5,24 @@ Helpers for upserting and deleting uploaded document points in Qdrant.
 """
 
 from __future__ import annotations
-
+import os
 from qdrant_client.models import Filter, FieldCondition, MatchValue, PointStruct
+import pandas as pd
+from qdrant_client import QdrantClient
+from qdrant_client.models import FieldCondition, Filter, MatchValue
 
-from real_retrieval import _get_qdrant_client, QDRANT_COLLECTION
+QDRANT_HOST = os.environ.get("QDRANT_HOST", "localhost")
+QDRANT_PORT = int(os.environ.get("QDRANT_PORT", "6333"))
+QDRANT_COLLECTION = (
+    "docs_collections" 
+)
+_qdrant_client: QdrantClient | None = None
+
+def _get_qdrant_client() -> QdrantClient:
+    global _qdrant_client
+    if _qdrant_client is None:
+        _qdrant_client = QdrantClient(host=QDRANT_HOST, port=QDRANT_PORT)
+    return _qdrant_client
 
 
 def upsert_points(points: list[dict]) -> None:

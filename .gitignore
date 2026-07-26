@@ -5,6 +5,8 @@
 .env
 .env.*
 *.pem
+node_modules
+.dist
 
 # =========================
 # Python / Backend
@@ -15,12 +17,14 @@ __pycache__/
 .pytest_cache/
 .coverage
 htmlcov/
+mock_retrieval.py
 
 # Virtual Environments
 venv/
 .venv/
 env/
 .env_python/
+__pycache__
 
 # =========================
 # Frontend (Node/React)

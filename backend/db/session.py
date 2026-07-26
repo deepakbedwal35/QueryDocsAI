@@ -13,17 +13,19 @@ from datetime import datetime, timezone
 
 from sqlalchemy import create_engine
 from sqlalchemy.orm import DeclarativeBase, Session, sessionmaker
+from dotenv import load_dotenv
 
-DATABASE_URL = os.environ.get("DATABASE_URL", "sqlite:///./ask_my_papers.db")
+load_dotenv()
+
+DATABASE_URL = os.getenv("DATABASE_URL")
+
 
 # check_same_thread=False is only needed for SQLite (FastAPI handles
 # requests across threads); harmless no-op arg for other engines.
 connect_args = {"check_same_thread": False} if DATABASE_URL.startswith("sqlite") else {}
 
 engine = create_engine(DATABASE_URL, connect_args=connect_args)
-
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
-
 
 class Base(DeclarativeBase):
     pass
@@ -46,5 +48,6 @@ def init_db():
     """Create all tables. Call once at startup (fine for SQLite/dev;
     swap for Alembic migrations if this grows into production)."""
     from backend.db import models  # noqa: F401 (ensure models are registered)
-
+    print("intialising db..")
     Base.metadata.create_all(bind=engine)
+    print("successfully connect to supabase")

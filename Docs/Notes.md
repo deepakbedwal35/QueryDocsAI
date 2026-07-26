@@ -1,4 +1,14 @@
+
+uvicorn backend.main:app --reload
+docker up 
+
 use this api key for extract data/pdf :
+
+
+pip install sqlalchemy psycopg2-binary alembic python-dotenv
+sqlalchemy — ORM, lets you define tables as Python classes
+psycopg2-binary — the actual Postgres driver SQLAlchemy uses under the hood
+alembic — migration tool, tracks schema changes properly instead of hand-editing tables
 
 https://www.semanticscholar.org/product/api/tutorial
 
@@ -81,6 +91,93 @@ ask-my-papers/
 └── public/
 
     Full stack, step by step
+
+
+    ask-my-papers/
+├── README.md
+├── .env                              # QDRANT_URL, GROQ_API_KEY, SUPABASE_URL,
+│                                      # SUPABASE_KEY, DATABASE_URL (postgres), STORAGE_MODE
+├── .gitignore
+│
+├── data/                              # LOCAL DEV ONLY — not deployed
+│   ├── raw_pdfs/                      # curated corpus PDFs (batch-processed once)
+│   ├── metadata.csv                   # curated corpus metadata
+│   ├── raw_texts/                     # dev-only intermediate, optional to keep
+│   └── chunks_jsonl/                  # dev-only debugging copy of chunks
+│       └── <paper_id>.jsonl
+│
+├── scripts/                           # OFFLINE batch pipeline — curated corpus only
+│   ├── 01_fetch_papers.py             # Semantic Scholar → download PDFs + metadata
+│   ├── 02_extract_text.py             # PyMuPDF → clean text
+│   ├── 03_chunk_text.py               # RecursiveCharacterTextSplitter → chunks.jsonl
+│   ├── 04_build_embeddings.py         # sentence-transformers → embeddings
+│   ├── 05_index_qdrant.py             # push curated chunks into Qdrant (chat_id="global")
+│   ├── 06_build_bm25_index.py         # rank_bm25 sparse index → pickle
+│   └── run_pipeline.py                # orchestrates 01–06 in order
+│
+├── backend/
+│   ├── main.py                        # FastAPI app entrypoint
+│   ├── config.py                      # env vars, model names, constants
+│   ├── requirements.txt
+│   │
+│   ├── storage/
+│   │   ├── pdf_storage.py             # save_pdf() — local (dev) vs Supabase (prod), env-switched
+│   │   └── db.py                      # Postgres connection (Supabase), session/engine setup
+│   │
+│   ├── ingestion/                     # LIVE pipeline — user-uploaded PDFs
+│   │   ├── pipeline.py                # process_pdf(file, chat_id) — reused by scripts/ too
+│   │   ├── upload_handler.py          # receives upload, calls pipeline.py
+│   │   └── cleanup_job.py             # scheduled deletion of expired chat_id data
+│   │
+│   ├── retrieval/
+│   │   ├── dense.py                   # Qdrant query logic (filtered by chat_id)
+│   │   ├── sparse.py                  # BM25 query logic
+│   │   ├── fusion.py                  # Reciprocal Rank Fusion (k=60)
+│   │   └── reranker.py                # cross-encoder reranking → top 5
+│   │
+│   ├── generation/
+│   │   ├── prompt_templates.py        # builds prompt from top-5 chunks + question
+│   │   ├── groq_client.py             # Groq API call
+│   │   └── citation_verifier.py       # validates [Source N] tags against real chunks
+│   │
+│   ├── models/
+│   │   └── schemas.py                 # Pydantic request/response models
+│   │
+│   ├── db/
+│   │   ├── models.py                  # SQLAlchemy models: Chat, Message, PdfUpload
+│   │   └── migrations/                # Alembic migrations (or Supabase SQL migrations)
+│   │
+│   ├── routes/
+│   │   ├── ask.py                     # POST /ask — retrieval + generation, chat_id-scoped
+│   │   ├── upload.py                  # POST /upload — PDF upload endpoint
+│   │   └── chats.py                   # GET /chats, GET /chats/{id}/messages, etc.
+│   │
+│   └── utils/
+│       └── pdf_utils.py               # shared PyMuPDF helpers (scripts/ + ingestion/ both use)
+│
+├── eval/
+│   ├── test_questions.json            # 20–50 hand-written Q&A pairs (ground truth)
+│   ├── run_eval.py                    # runs test set, logs retrieval-hit/faithfulness/score
+│   └── results/
+│       └── eval_run_<date>.json
+│
+└── frontend/
+    ├── package.json
+    ├── src/
+    │   ├── App.jsx
+    │   ├── components/
+    │   │   ├── ChatWindow.jsx
+    │   │   ├── ChatSidebar.jsx         # list of past chats (chat_id based)
+    │   │   ├── MessageBubble.jsx
+    │   │   ├── CitationCard.jsx        # expandable source excerpt
+    │   │   ├── PdfUploadButton.jsx     # upload UI, shows processing state
+    │   │   └── PaperSourceBadge.jsx
+    │   ├── api/
+    │   │   ├── askApi.js
+    │   │   ├── uploadApi.js
+    │   │   └── chatsApi.js
+    │   └── styles/
+    └── public/
 
 1. Paper collection
 
@@ -180,7 +277,7 @@ Quality depends entirely on the one PDF they gave you — if it's messy scanned 
 
 Recommendation
 Don't build this yet. Get the fixed-corpus version working end-to-end first (including your eval step — that's the harder, more valuable part). Once that's solid, adding "upload your own PDF" is a relatively small extension: you're just running your existing pipeline on-demand instead of as a batch job.
-If you do want it eventually, it's genuinely a good v2 feature — it turns "Ask My Papers" from your fixed library into a general research tool, which is a stronger interview story ("built a fixed-corpus RAG, then extended it to arbitrary user documents").
+If you do want it eventually, it's genuinely a good v2 feature — it turns "QueryDocsAI" from your fixed library into a general research tool, which is a stronger interview story ("built a fixed-corpus RAG, then extended it to arbitrary user documents").
 Want to keep going on the fixed-corpus build first, or are you deciding right now whether to design for both from the start?
 
 Full flow (step by step)
@@ -210,3 +307,33 @@ This step is what separates "I built a RAG demo" from "I built and measured a RA
 Step 9 — Frontend + deploy
 Simple chat UI showing the answer with clickable citations expanding to the source excerpt. Deploy same as FinScope (Render).
 Want me to start with Step 1–2 now — pulling a sample set of papers and testing chunking on a real PDF — or do you want the full tech stack (libraries/tools per step) laid out first
+
+
+
+
+**DB Used**
+1. SQLite : The tool your Python code is using (SQLAlchemy)
+   **What is SQLite?**
+   SQLite is a serverless, self-contained relational database engine.
+   *Serverless:* There is no background service to install, start, stop, or configure (no systemctl start sqlite).*Self-Contained:* The entire database—including the schema, tables, indexes, and all your data—is stored in one ordinary file on your hard drive (e.g., your ask_my_papers.db file).Node.js
+    *Analogy:* It is exactly like using a highly optimized, high-performance variant of a local JSON file store (like lowdb), except it speaks standard SQL and can handle concurrent reads flawlessly.📊
+**Why use SQLite?**
+*Zero Configuration:*
+You do not need to deal with usernames, passwords, port forwarding, or connection strings. It just works out of the box.*Flawless Portability:* 
+Want to share your backend with a team member? They just pull your git repository, and the database comes right along with it.
+*Blazing Fast Reads:* Because the database file resides directly in the same application memory space, there is zero network latency for fetching data.🍃
+**Why use MongoDB?Dynamic Schemas:** 
+If your AI app suddenly needs to start saving user preferences with highly erratic structures, MongoDB handles it without requiring complex migrations.
+Horizontal Scaling: Built from day one to span across dozens of cloud servers effortlessly.🐬
+**High Concurrent Writes:**
+ SQLite locks the entire database file when writing data to prevent corruption. MySQL manages locks down to individual rows, allowing thousands of users to write data simultaneously.
+ Advanced User Access: Built-in permission systems let you restrict access down to specific columns for different server accounts.
+
+
+
+from backend.db import models: 
+This line imports your database tables (like User, Paper, etc.). Python normally deletes unused imports, so # noqa: F401 tells the code linter: "Leave this alone, it is imported on purpose." If you don't import them here, SQLAlchemy won't know they exist.Base.metadata: Base is the registry class you defined earlier. Every time you create a database model (like class User(Base):), it registers itself inside Base.metadata. Think of metadata as a list of blueprints for your tables..create_all(bind=engine): This tells SQLAlchemy: "Look at my list of blueprints, look at the database file connected to the engine, and build any tables that are missing."
+
+
+error :
+SSL Enforcement: By default, connections to Supabase require SSL encryption, meaning your database credentials cannot be intercepted over public networks. in supabase

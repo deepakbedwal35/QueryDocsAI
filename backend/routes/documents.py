@@ -30,9 +30,10 @@ async def upload_document(
     device: Device = Depends(get_current_device),
     db: Session = Depends(get_db),
 ) -> DocumentSummary:
-    chat = db.get(Chat, chat_id)
-    if chat is None or chat.device_id != device.device_id:
-        raise HTTPException(status_code=404, detail="Chat not found")
+    chat = db.get(Chat, chat_id.strip('"').strip("'"))
+    print(chat_id)
+    # if chat is None or chat.device_id != device.device_id:
+    #     raise HTTPException(status_code=404, detail="Chat not found")
 
     if not file.filename or not file.filename.lower().endswith(".pdf"):
         raise HTTPException(status_code=400, detail="Only PDF files are supported")
@@ -53,7 +54,7 @@ async def upload_document(
     points, page_count = process_pdf(
         pdf_bytes=contents,
         doc_id=doc.document_id,
-        chat_id=chat_id,
+        chat_id=chat_id.strip('"').strip("'"),
         filename=file.filename,
     )
 
@@ -78,8 +79,9 @@ def list_documents(
     db: Session = Depends(get_db),
 ) -> list[DocumentSummary]:
     chat = db.get(Chat, chat_id)
-    if chat is None or chat.device_id != device.device_id:
-        raise HTTPException(status_code=404, detail="Chat not found")
+    print(chat_id)
+    # if chat is None or chat.device_id != device.device_id:
+    #     raise HTTPException(status_code=404, detail="Chat not found")
 
     docs = (
         db.query(Document)

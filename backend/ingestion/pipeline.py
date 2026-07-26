@@ -13,9 +13,9 @@ import uuid
 
 import fitz  # PyMuPDF
 from langchain_text_splitters import RecursiveCharacterTextSplitter
+from sentence_transformers import SentenceTransformer
 
-from real_retrieval import _get_model
-
+EMBEDDING_MODEL_NAME = "BAAI/bge-base-en-v1.5"
 CHUNK_SIZE = 1200
 CHUNK_OVERLAP = 250
 
@@ -23,6 +23,16 @@ splitter = RecursiveCharacterTextSplitter(
     chunk_size=CHUNK_SIZE,
     chunk_overlap=CHUNK_OVERLAP,
 )
+
+# --- Lazy singletons: the embedding model and indexes are expensive
+# to load, so load once per process, not per request. ---
+_model: SentenceTransformer | None = None
+
+def _get_model() -> SentenceTransformer:
+    global _model
+    if _model is None:
+        _model = SentenceTransformer(EMBEDDING_MODEL_NAME)
+    return _model
 
 
 def process_pdf(
