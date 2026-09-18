@@ -47,7 +47,8 @@ def get_db():
 def init_db():
     """Create all tables. Call once at startup (fine for SQLite/dev;
     swap for Alembic migrations if this grows into production)."""
-    from backend.db import models  # noqa: F401 (ensure models are registered)
+    from backend.db import models  
     print("intialising db..")
     Base.metadata.create_all(bind=engine)
     print("successfully connect to supabase")
+

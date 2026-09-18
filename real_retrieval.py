@@ -26,7 +26,7 @@ import pickle
 import re
 import uuid
 
-
+import pandas as pd
 from qdrant_client import QdrantClient
 from qdrant_client.models import FieldCondition, Filter, MatchValue
 from sentence_transformers import SentenceTransformer

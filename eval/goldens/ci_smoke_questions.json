@@ -1,0 +1,20 @@
+[
+  {
+    "id": "ci001",
+    "question": "What is Global Neuronal Workspace theory and what is neural ignition?",
+    "expected_paper_titles": [],
+    "expect_not_found": false
+  },
+  {
+    "id": "ci002",
+    "question": "What does Integrated Information Theory claim about consciousness?",
+    "expected_paper_titles": [],
+    "expect_not_found": false
+  },
+  {
+    "id": "ci003",
+    "question": "What is the current price of Bitcoin in US dollars?",
+    "expected_paper_titles": [],
+    "expect_not_found": true
+  }
+]

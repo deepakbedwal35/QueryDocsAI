@@ -1,0 +1,107 @@
+[
+  {
+    "id": "Q001",
+    "question": "What are the two core processes of the Global Workspace Theory (GWT)?",
+    "expected_answer": "The 'Selection' process (which integrates information from multiple parallel specialized modules) and the 'Broadcast' process (which disseminates the selected information throughout the system).",
+    "source": "0data.pdf",
+    "page_section": "Section 1 / Section 2.1"
+  },
+  {
+    "id": "Q002",
+    "question": ", GWTs argue that conscious experience is inextricably linked with which cognitive notion?",
+    "expected_answer": "The cognitive notion of 'access.' Information enters conscious awareness only when it is accessed and made available to various processing subsystems.",
+    "source": "13data.pdf",
+    "page_section": "Introduction / Section 1"
+  },
+  {
+    "id": "Q003",
+    "question": "According to the GWT neurobiological model, what specific networks realize global informational access?",
+    "expected_answer": "Long-range excitatory neurons forming recurrent corticocortical connections between prefrontal, parietal, and cingulate regions.",
+    "source": "13data.pdf",
+    "page_section": "Section 1"
+  },
+  {
+    "id": "Q004",
+    "question": "What is the primary role of the 'Reality Monitoring' mechanism in Perceptual Reality Monitoring (PRM) theory?",
+    "expected_answer": "To automatically discriminate between meaningful activity in perceptual systems (caused by external stimuli, top-down expectations, memory, etc.) and random noise, identifying representations as conscious when they are deemed reliable.",
+    "source": "18data.pdf",
+    "page_section": "Section 2.3 / PRM Overview"
+  },
+  {
+    "id": "Q005",
+    "question": "How does the 'Local Workspace Theory' (LWT) of consciousness differ conceptually from the Global Workspace Theory regarding recurrent processing circuits?",
+    "expected_answer": "LWT posits that conscious experience is realized by local recurrent processing circuits, whereas GWT posits that conscious experience is realized by global recurrent processing circuits.",
+    "source": "13data.pdf",
+    "page_section": "Section 3 (LWT definition)"
+  },
+  {
+    "id": "Q006",
+    "question": ", what is the neuroscientific term used to describe the extraordinary non-conscious state of advanced meditators characterized by voluntary suspension of consciousness?",
+    "expected_answer": "Extended Cessation (EC).",
+    "source": "17data.pdf",
+    "page_section": "Abstract / Introduction"
+  },
+  {
+    "id": "Q007",
+    "question": "What is the 'winner-take-all' mechanism in GWT?",
+    "expected_answer": "A mechanism in which multiple parallel, independent streams of unconscious processing compete for propagation, and a single stream is selected for binding and propagation.",
+    "source": "53data.pdf",
+    "page_section": "Introduction"
+  },
+  {
+    "id": "Q008",
+    "question": ", what determines whether sensory information will be processed consciously rather than preconsciously or subliminally?",
+    "expected_answer": "The degree of emotional intensity (or emotional appraisal) of the input.",
+    "source": "1data.pdf",
+    "page_section": "Section 2.4 / Page 8"
+  },
+  {
+    "id": "Q009",
+    "question": "What is the 'Attention Schema' in the Attention Schema Theory (AST)?",
+    "expected_answer": "A high-level model of the attentional process that interacts with the attentional system to enable flexible adaptation to novel contexts based on current and future behavioral needs.",
+    "source": "6data.pdf",
+    "page_section": "Section 3.3"
+  },
+  {
+    "id": "Q010",
+    "question": "What does 'ignition' mean in the context of the Global Workspace Theory (GWT)?",
+    "expected_answer": "A step-function process in which sufficiently strong perceptual representations cause workspace neurons (originating in frontoparietal areas) to abruptly fire and code for their content, making the information globally broadcast and conscious.",
+    "source": "18data.pdf",
+    "page_section": "Section 2.2.1"
+  },
+  {
+    "id": "Q011",
+    "question": "What is the 'all-or-none law' of neuron firing in the prefrontal and anterior temporal cortex during conscious perception,?",
+    "expected_answer": "The principle that neurons fire to a specific concept (and do so only when the corresponding word or image is presented consciously), serving as a neural signature of conscious perception.",
+    "source": "24data.pdf",
+    "page_section": "Page 23 / Section II"
+  },
+  {
+    "id": "Q012",
+    "question": ", what anatomical boundary is used to segment the brain into anterior and posterior regions for functional connectivity analysis?",
+    "expected_answer": "The central sulcus.",
+    "source": "25data.pdf",
+    "page_section": "Anterior and Posterior Functional Connectivity"
+  },
+  {
+    "id": "Q013",
+    "question": "What does the Lempel-Ziv (LZ) complexity measure estimate in spiking activity,?",
+    "expected_answer": "It measures the approximate quantity of non-redundant information in a spike train by estimating the minimal size of the 'vocabulary' necessary to describe the sequence of data in a lossless manner.",
+    "source": "28data.pdf",
+    "page_section": "Lempel-Ziv Complexity / Methods"
+  },
+  {
+    "id": "Q014",
+    "question": "What is the primary hub of consciousness in the unified 3D default space model proposed by Jerath et al.?",
+    "expected_answer": "The thalamus.",
+    "source": "53data.pdf",
+    "page_section": "Introduction / Section '3D default space'"
+  },
+  {
+    "id": "Q015",
+    "question": "What is the functional role of sleep spindles in the N1 to N2 sleep transition as detailed?",
+    "expected_answer": "They act as a threshold gating mechanism that actively suppresses sensory processing and cortical communication, creating a neural gate that abolishes consciousness of the external environment to consolidate Stage 2 sleep.",
+    "source": "43data.pdf",
+    "page_section": "Discussion (Spindle Gating as Threshold Mechanism)"
+  }
+]

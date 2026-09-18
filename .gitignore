@@ -1,12 +1,10 @@
-
 # =========================
 # Environment Variables & Secrets
 # =========================
 .env
 .env.*
+!.env.example
 *.pem
-node_modules
-.dist
 
 # =========================
 # Python / Backend
@@ -17,14 +15,11 @@ __pycache__/
 .pytest_cache/
 .coverage
 htmlcov/
-mock_retrieval.py
 
-# Virtual Environments
+# Virtual environments
 venv/
 .venv/
 env/
-.env_python/
-__pycache__
 
 # =========================
 # Frontend (Node/React)
@@ -36,12 +31,56 @@ frontend/.npm/
 frontend/npm-debug.log*
 frontend/yarn-error.log*
 frontend/yarn-debug.log*
+node_modules/
+dist/
 
 # =========================
-# Project-Specific Generated Files
+# Data: raw / bulky / regenerable — NOT committed
 # =========================
-# Ignores generated evaluation reports so they don't clutter the repo
+data/raw_pdfs/
+data/raw_texts/
+data/sample_raw_pdfs/
+data/sample_raw_texts/
+data/chunks_jsonl/
+data/sample_chunks_jsonl/
+data/vector_embeddings/
+data/sample_vector_embeddings/
+
+# Local Qdrant storage (binary segment/WAL files — running-instance state,
+# never source-controlled)
+scripts/qdrant_storage/
+
+# Notebook checkpoints / caches
+scripts/notebook/.ipynb_checkpoints/
+scripts/notebook/__pycache__/
+
+# Any stray pickles/jsonl/pdfs are build output, not source
+*.pkl
+*.pdf
+*.jsonl
+
+# =========================
+# Data: required serialized artifacts — DO commit these.
+# real_retrieval.py loads these directly at request time; without them the
+# app cannot serve /ask at all. Explicit negation overrides the blanket
+# rules above.
+# =========================
+!data/bm25_index.pkl
+!data/mapping_table.pkl
+!data/pdf_to_paperid.json
+!data/metadata.csv
+!data/sample_bm25_index.pkl
+!data/sample_mapping_table.pkl
+
+# =========================
+# Project-generated output — not committed (baseline is the one exception,
+# it's what CI regression-gates against)
+# =========================
 eval/results/*.json
+!eval/results/baseline.json
+observability/logs/
+*.log
+.deepeval
 
 # =========================
 # OS & IDE
@@ -51,13 +90,3 @@ eval/results/*.json
 .idea/
 *.swp
 *.swo
-.env
->>>>>>> c02e21adbc511833d1dd8adbeac70aacb93bc921
-
-# Data and Databases
-data/
-scripts/qdrant_storage/
-*.pkl
-*.pdf
-*.jsonl
-

@@ -20,7 +20,7 @@ from backend.models.schemas import AskRequest, AskResponse, Citation, HealthResp
 # Real hybrid retrieval (Qdrant dense + BM25 sparse + RRF fusion),
 # resolved back to actual paper metadata. Replaces mock_retrieval now
 # that Person A's pipeline + the chunk_id -> paperId mapping are in place.
-from real_retrieval import retrieve
+from backend.retrieval.hybrid import retrieve
 
 router = APIRouter()
 

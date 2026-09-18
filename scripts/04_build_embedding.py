@@ -37,7 +37,7 @@ def embed_texts(texts: list[str]) -> list[list[float]]:
 
     Note: BGE only needs the "Represent this sentence for searching
     relevant passages:" prefix on QUERIES at retrieval time, not on
-    passages/chunks here -- see real_retrieval.py.
+    passages/chunks here -- see from backend.retrieval.hybrid import retrieve.
     """
     model = get_embedding_model()
     embeddings = model.encode(

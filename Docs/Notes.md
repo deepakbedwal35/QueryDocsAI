@@ -1,4 +1,92 @@
 
+this is prompting for genrating retreival_golden dataset
+I am evaluating my RAG application using the PDF sources uploaded to this notebook.
+git reset --soft HEAD~1
+
+Generate exactly **70 evaluation questions** based ONLY on the uploaded PDF documents.
+
+The primary goal is to evaluate **retrieval quality**, so make the questions useful for testing whether my RAG system can retrieve the correct passages/chunks.
+
+### Question requirements
+
+1. Generate exactly 70 questions.
+2. Give every question a unique ID:
+
+   * Q001
+   * Q002
+   * ...
+   * Q070
+3. Keep questions relatively short and specific.
+4. Each question should have a clear answer that can be found directly in the PDFs.
+5. Do NOT require outside knowledge.
+6. Do NOT create opinion-based, subjective, or ambiguous questions.
+7. Avoid questions whose answers require combining many unrelated sections unless that combination is genuinely necessary.
+8. Prefer questions targeting a specific fact, definition, requirement, number, date, process, feature, condition, or relationship.
+9. Include a mixture of:
+
+   * definitions
+   * factual questions
+   * specific details
+   * numerical/value-based questions
+   * requirements/conditions
+   * process/how-to questions
+   * comparisons when both items are clearly discussed in the documents
+10. Avoid making questions too easy by copying the exact wording of headings.
+11. Questions should be diverse and should cover different parts of the documents.
+12. Avoid duplicate or near-duplicate questions.
+13. Prefer questions that test retrieval of a specific passage rather than questions answerable from general knowledge.
+
+### Expected answer requirements
+
+For every question, provide:
+
+* A concise expected answer based ONLY on the PDFs.
+* The answer should contain the key facts needed to consider the RAG answer correct.
+* Do not write unnecessarily long answers.
+
+### Source requirements
+
+For every question, also provide:
+
+* Document/source name
+* Page number or section heading where the answer can be found, if available.
+
+### Output format
+
+Return the result as a table with exactly these columns:
+
+| ID | Question | Expected Answer | Source | Page/Section |
+
+Example:
+
+| Q001 | What is X? | X is ... | document.pdf | Page 12 |
+| Q002 | What condition must Y satisfy? | Y must ... | document.pdf | Page 27 |
+
+### Distribution
+
+Try to distribute the 70 questions across the uploaded documents and across different sections/pages rather than concentrating on one part.
+
+Aim approximately for:
+
+* 15 definition/factual questions
+* 15 specific-detail questions
+* 10 numerical/date/value questions
+* 10 requirement/condition questions
+* 10 process/how-to questions
+* 5 comparison/relationship questions
+* 5 questions targeting information that is easy to miss or retrieve incorrectly
+
+Before finalizing, verify that:
+
+* There are exactly 70 questions.
+* Every question has an expected answer.
+* Every answer is supported by the uploaded PDFs.
+* There are no duplicate questions.
+* No outside information has been introduced.
+* The questions are suitable for evaluating a RAG retriever.
+
+
+
 uvicorn backend.main:app --reload
 docker up 
 

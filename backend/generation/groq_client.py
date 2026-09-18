@@ -14,11 +14,11 @@ import os
 from dotenv import load_dotenv
 
 from groq import Groq
-from backend.config import GROQ_API_KEY
+from backend.config import GROQ_API_KEY, GROQ_MODEL, GROQ_MAX_TOKENS, GROQ_TEMPERATURE
 
 from .prompt_templates import SYSTEM_PROMPT, build_user_message
 
-DEFAULT_MODEL = "llama-3.3-70b-versatile"
+DEFAULT_MODEL = "openai/gpt-oss-120b"
 
 _client: Groq | None = None
 
@@ -38,7 +38,7 @@ def _get_client() -> Groq:
 def generate_answer(
     question: str,
     chunks: list[dict],
-    model: str = DEFAULT_MODEL,
+    model: str = GROQ_MODEL or DEFAULT_MODEL,
     temperature: float = 0.2,
     max_tokens: int = 500,
 ) -> str:
