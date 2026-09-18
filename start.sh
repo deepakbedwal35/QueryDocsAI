@@ -6,7 +6,7 @@ cd scripts && docker compose up -d && cd ..
 
 # 2. Start the Uvicorn backend in the background
 echo "Starting Uvicorn backend..."
-uvicorn backend.main:app --reload  & 
+uvicorn backend.main:app --reload --port 8080 & 
 
 # 3. Start the frontend
 echo "Starting frontend..."

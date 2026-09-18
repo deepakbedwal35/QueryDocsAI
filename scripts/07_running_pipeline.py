@@ -35,7 +35,7 @@ def main():
             raise
         print(f"✅ Done: {module_name} ({time.time() - start:.1f}s)")
 
-    print(f"\n🎉 Pipeline completed successfully in {time.time() - overall_start:.1f}s")
+    print(f"\n Pipeline completed successfully in {time.time() - overall_start:.1f}s")
 
 
 if __name__ == "__main__":

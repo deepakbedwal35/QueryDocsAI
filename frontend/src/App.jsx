@@ -6,6 +6,7 @@ import ThemeToggle from "./components/ThemeToggle";
 import { useChats } from "./hooks/useChats";
 import { useMessages } from "./hooks/useMessages";
 import { useDocuments } from "./hooks/useDocuments";
+import {useEffect} from "react"
 
 export default function App() {
   const {
@@ -38,9 +39,12 @@ export default function App() {
   // error state instead.
   const error = messagesError || documentsError || chatsError;
 
+ 
+ 
+
   if (isLoadingChats) {
     return (
-      <div className="flex h-screen w-screen items-center justify-center bg-background text-sm text-foreground-muted">
+      <div className="flex h-screen w-screen items-center justify-center bg-background animate-pulse text-sm text-foreground-muted">
         Loading...
       </div>
     );

@@ -27,7 +27,7 @@ def tokenise(text: str) -> list[str]:
     """Lowercase + strip punctuation + split on whitespace.
 
     Shared by index-building here and by query-time tokenising in
-    real_retrieval.py -- keep both in sync if this changes.
+    hybrid.py -- keep both in sync if this changes.
     """
     clean_text = re.sub(r"[^\w\s]", " ", text.lower())
     return clean_text.split()

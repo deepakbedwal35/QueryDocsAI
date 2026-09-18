@@ -27,10 +27,10 @@ app.add_middleware(
 )
 
 
-# @app.on_event("startup")
-# def on_startup() -> None:
-#     print("creating db")
-#     init_db()
+@app.on_event("startup")
+def on_startup() -> None:
+    print("creating db")
+    init_db()
 
 
 app.include_router(ask_router)
