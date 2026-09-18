@@ -48,10 +48,10 @@ class OpenRouterJudgeModel(DeepEvalBaseLLM):
     """
     def __init__(self, model_name: str):
         self.model_name = model_name
-        self.client = OpenAI(
-            base_url="https://openrouter.ai",
-            api_key="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",
-        )
+        # self.client = OpenAI(
+        #     base_url="https://openrouter.ai",
+        #     api_key="..INSERT API KEY HERE WE YOU HAVE MONEY",
+        # )
 
     def load_model(self):
         return self.client
