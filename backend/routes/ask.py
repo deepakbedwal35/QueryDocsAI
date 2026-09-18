@@ -58,12 +58,12 @@ def build_citation_list(
 @router.post("/ask", response_model=AskResponse)
 def ask(
     req: AskRequest,
-    # device: Device = Depends(get_current_device),
+    device: Device = Depends(get_current_device),
     db: Session = Depends(get_db),
 ) -> AskResponse:
     chat = db.get(Chat, req.chat_id)
-    # if chat is None or chat.device_id != device.device_id:
-    #     raise HTTPException(status_code=404, detail="Chat not found")
+    if chat is None or chat.device_id != device.device_id:
+        raise HTTPException(status_code=404, detail="Chat not found")
     
     try:
         print("retrieving Chunks..")
