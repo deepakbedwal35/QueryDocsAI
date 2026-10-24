@@ -1,0 +1,220 @@
+model,id,difficulty,correct,reason,citation_precision,answer_recall,retrieval_hit,answer
+GPT-OSS 120B,1,easy,True,match,1.0,0.3333,TRUE,"The neuroscientific term used for this voluntarily induced, non‑conscious state in advanced meditators is **“EC.”** This label is employed to denote the voluntary suspension of consciousness that can be studied with first‑person and third‑person methods [Document 17, Chunk 11] and is highlighted as a unique opportunity to explore consciousness mechanisms [Document 17, Chunk 8]."
+GPT-OSS 120B,2,easy,True,match,1.0,1.0,TRUE,"The unified 3D default‑space model identifies the **thalamus** as the central hub that integrates processed sensory information and fills it into the 3D default space, thereby generating conscious experience【Document 53, Chunk 19】. This is confirmed in the model’s comparison table, which lists the thalamus as a central hub for consciousness【Document 53, Chunk 113】."
+GPT-OSS 120B,3,easy,True,match,1.0,1.0,TRUE,"The brain was divided into anterior and posterior regions using the **central sulcus** as the anatomical boundary for the functional‑connectivity analysis【Document 25, Chunk 83】."
+GPT-OSS 120B,4,easy,True,match,1.0,0.2667,TRUE,"Global Workspace Theories hold that conscious experience is inextricably linked with the cognitive notion of **access**【Document 13, Chunk 61】."
+GPT-OSS 120B,5,easy,False,malformed_citation,0.0,0.5,TRUE,"The paper argues that the **degree of emotional intensity** of a stimulus is what decides if the sensory information will reach conscious awareness rather than remaining at a pre‑conscious or subliminal level【Document 1705.04742, Chunk 29】."
+GPT-OSS 120B,6,easy,True,match,1.0,0.2143,FALSE,"The “winner‑take‑all” mechanism is the competitive selection process that lets a single unconscious module (or a coalition of modules) dominate the global workspace and be broadcast to the rest of the system.  
+All unconscious modules constantly vie for access to the workspace; the workspace itself imposes a selection function that depends on the current goal state. The module whose activation is strongest in the context of that goal‑state wins the competition and gains global broadcasting, while the others are suppressed. This winning signal may also receive top‑down attentional amplification once it passes a threshold, ensuring it remains maintained in the workspace【Document 49, Chunk 34】.  
+
+Thus, winner‑take‑all in Global Workspace Theory refers to the “winner‑takes‑it‑all” competition where only the most strongly activated (and goal‑relevant) representation is allowed to enter the global workspace and be broadcast to other modules【Document 49, Chunk 34】."
+GPT-OSS 120B,7,easy,True,match,1.0,0.2778,TRUE,"The “attention schema” is the brain’s internal, high‑level model of its own attentional process.  According to Attention Schema Theory, the brain constructs a representation that encodes what is currently being attended to and the fact that attention is directed toward those objects, rather than the raw sensory information itself.  This model is used to monitor and control attention and its contents become the basis of conscious experience [Document 18, Chunk 114]; [Document 6, Chunk 34].  In practice, the schema includes not only information about a stimulus (e.g., an apple) but also information about the act of “looking at” that stimulus, providing a basis for more complex, consciously mediated behavior [Document 6, Chunk 35]."
+GPT-OSS 120B,8,hard,False,wrong_source,1.0,0.3333,TRUE,"The Global Workspace Theory proposes that conscious information undergoes two key operations:  
+
+1. **Ignition** – a non‑linear transition that occurs when a processed representation gains access to the neural workspace.  
+2. **Global broadcast** – once ignited, the representation is “broadcast” throughout the brain, making it globally available to many cognitive modules.  
+
+These two steps together enable a piece of information to become conscious and to influence widespread processing [Document 79, Chunk 74]."
+GPT-OSS 120B,9,hard,True,match,1.0,0.7692,TRUE,"The neurobiological model of Global Workspace Theory holds that global informational access is carried out by 
+
+* **Long‑range excitatory corticocortical connections** that link the prefrontal, parietal and cingulate cortices, forming the central workspace, and  
+* **Recurrent thalamocortical loops** that connect this central workspace with the rest of the brain, allowing information to be accessed and disseminated.  
+
+These specific networks together realize the “global broadcasting” of information that characterizes conscious processing in GWT [Document 13, Chunk 65]."
+GPT-OSS 120B,10,hard,True,match,1.0,0.2083,TRUE,"The reality‑monitoring mechanism in PRM is an automatic system that **discriminates among different kinds of mental activity (e.g., genuine perception, imagination, dreaming, or random noise) and evaluates the reliability of first‑order perceptual representations**. By doing so, it tags those perceptual states that are accurate enough to be trusted as “real,” allowing them to be used by the broader belief‑formation and decision‑making system. [Document 18, Chunk 100] [Document 18, Chunk 108]"
+GPT-OSS 120B,11,hard,True,match,1.0,0.7368,TRUE,"The “Local Workspace Theory” (LWT) proposes that conscious experience is generated by **local recurrent‑processing circuits** that selectively amplify and stabilize information for specific, limited processing needs (e.g., visual mapping, emotion regulation). These circuits operate within a currently unknown subset of neural structures and are confined to a local scale rather than spreading across the whole cortex【Document 13, Chunk 466】.  
+
+In contrast, **Global Workspace Theory** (GWT) describes consciousness as the result of information that wins a competition among many specialized modules and is then **broadcast globally** through a fronto‑parietal “global workspace” that makes the information available to many other cognitive systems【Document 0, Chunk 10】. While GWT acknowledges that recurrent processing can occur, its central claim is that only information that reaches this global broadcast stage becomes conscious, rather than being generated by local recurrent loops【Document 26, Chunk 8】.  
+
+Thus, conceptually, LWT emphasizes **local, self‑contained recurrent processing** as the seat of consciousness, whereas GWT emphasizes a **global, widespread broadcasting mechanism** that integrates information across the brain."
+GPT-OSS 120B,12,hard,True,match,1.0,0.4545,TRUE,"In GWT, “ignition” refers to the sudden, non‑linear transition that occurs when a representation becomes strong enough to engage the global neuronal workspace. At that moment the activity of the workspace neurons codes the content of the representation and is broadcast throughout the brain, turning the representation into a conscious one. This process is described as a step‑function rather than a gradual increase【Document 79, Chunk 74】; it marks the shift from local, unconscious processing to a globally available, conscious state【Document 18, Chunk 78】."
+GPT-OSS 120B,13,hard,True,match,1.0,0.7368,TRUE,"The “all‑or‑none law” refers to the observation that neurons in the prefrontal and anterior temporal cortex fire only when the specific concept they represent (e.g., a particular word or image) is presented **consciously**. In other words, these neurons either fire robustly in response to a consciously perceived stimulus or remain silent, providing a binary (“all‑or‑none”) neural signature of conscious perception【Document 24, Chunk 21】."
+GPT-OSS 120B,14,hard,True,match,1.0,0.6667,TRUE,"Lempel‑Ziv (LZ) complexity is used to quantify how much non‑redundant information is present in a spike‑train string.  It does this by estimating the minimal size of the “vocabulary” required to describe the entire sequence, i.e., the approximate amount of unique, non‑repeating information contained in the spiking activity【Document 28, Chunk 116】."
+GPT-OSS 120B,15,hard,True,match,1.0,0.6818,TRUE,"Sleep spindles serve as a **neural “gate”** that abruptly limits sensory input and cortical communication when the brain moves from light sleep (N1) to stable Stage 2 sleep (N2). By suppressing external‑environment processing, the spindles create a threshold‑like mechanism that sharply reduces information integration, producing the steep decline in the Consciousness Gradient Index observed at the N1→N2 transition【Document 43, Chunk 15】. This gating function is captured analytically by measuring inverted spindle density as the information‑integration (φ) component for this transition, reflecting its role as a discrete, threshold‑driven event【Document 43, Chunk 6】."
+GPT-OSS 120B,16,negative,True,refusal_ok,,,FALSE,I cannot find the answer in the provided documents.
+GPT-OSS 120B,17,negative,True,refusal_ok,,,FALSE,I cannot find the answer in the provided documents.
+GPT-OSS 120B,18,negative,True,refusal_ok,,,FALSE,I cannot find the answer in the provided documents.
+GPT-OSS 120B,19,negative,True,refusal_ok,,,FALSE,I cannot find the answer in the provided documents.
+GPT-OSS 120B,20,negative,True,refusal_ok,,,FALSE,I cannot find the answer in the provided documents.
+GPT-OSS 20B,1,easy,True,match,1.0,0.3333,TRUE,"The neuroscientific term for this non‑conscious state is **EC** (the state of voluntary suspension of consciousness). [Document 17, Chunk 11] [Document 17, Chunk 9]"
+GPT-OSS 20B,2,easy,True,match,1.0,1.0,TRUE,"The unified 3D default space model proposes that the **thalamus** is the primary hub of consciousness, integrating processed sensory information and filling it into the 3D default space. [Document 53, Chunk 1] [Document 53, Chunk 19] [Document 53, Chunk 113]"
+GPT-OSS 20B,3,easy,True,match,1.0,1.0,TRUE,"The brain is segmented into anterior and posterior regions using the **central sulcus** as the anatomical boundary. [Document 25, Chunk 83] [Document 25, Chunk 32]"
+GPT-OSS 20B,4,easy,True,match,1.0,0.2667,TRUE,"Global Workspace Theories argue that conscious experience is inextricably linked with the cognitive notion of **“access.”** [Document 13, Chunk 61]"
+GPT-OSS 20B,5,easy,False,malformed_citation,0.0,0.6667,TRUE,"The main factor that decides whether sensory information is processed consciously rather than pre‑consciously or subliminally is the **degree of emotional intensity** associated with that information.  
+- Novel stimuli tend to elicit intense emotions and are therefore more likely to be processed consciously.  
+- Even familiar stimuli can reach conscious awareness if re‑exposure produces a sensitised, emotionally intense response.  
+
+This relationship between emotional intensity and conscious processing is highlighted in the discussion of sensory‑coupled processing.  
+
+[Document 1705.04742, Chunk 29]  
+[Document 1data, Chunk 29]  
+[Document upload_d2172373-9633-4238-95c6-1c3ec17a54a5, Chunk 27]  
+[Document upload_0181f306-57e3-4af6-b611-965febb0be01, Chunk 27]"
+GPT-OSS 20B,6,easy,True,match,1.0,0.2143,FALSE,"In Global Workspace Theory the “winner‑take‑all” mechanism is the process by which, among all the unconscious modules that are competing for access to the workspace, only the module (or coalition of modules) that shows the strongest activation in the context of the current goal‑state‑dependent content of the global workspace is selected. That module then wins the competition and its representation is globally broadcast, while all other competing representations are suppressed or not broadcasted. This selection is governed by a goal‑dependent selection function that amplifies the most relevant signal and suppresses the rest, effectively implementing a winner‑take‑all dynamic [Document 49, Chunk 34]."
+GPT-OSS 20B,7,easy,True,match,1.0,0.3333,TRUE,"In Attention Schema Theory (AST) the **attention schema** is an internal, high‑level model that the brain builds of its own attentional processes.  
+* It represents facts about what is currently being attended to and about the act of attending itself, but it does **not** encode the detailed low‑level mechanisms that generate attention.  
+* The contents of this schema are what the theory claims give rise to conscious experience; when the schema indicates that you are attending to an apple, you have the conscious experience of seeing that apple.  
+* Functionally, the schema acts as a higher‑level controller that monitors and adapts the dynamics of attention to meet the organism’s behavioral needs.  
+
+[Document 18, Chunk 114] [Document 6, Chunk 34] [Document 6, Chunk 35] [Document 69, Chunk 37]"
+GPT-OSS 20B,8,hard,True,match,1.0,0.3333,TRUE,"The Global Workspace Theory (GWT) is built around two fundamental processes:
+
+1. **Competition** – information processed in the many specialized modules (vision, hearing, memory, language, etc.) competes for access to the global workspace.  
+2. **Integration (broadcast)** – the information that wins this competition is then integrated into the global workspace and broadcast to all other modules, making it globally available for conscious processing.  
+
+[Document 0, Chunk 10]"
+GPT-OSS 20B,9,hard,True,match,1.0,0.7692,TRUE,"According to the neurobiological formulation of Global Workspace Theory, global informational access is instantiated by two key network systems:
+
+1. **A central workspace** built from long‑range excitatory neurons that form recurrent corticocortical connections among the prefrontal, parietal, and cingulate cortices.  
+2. **Recurrent thalamocortical loops** that link this central workspace to the rest of the brain, enabling the dissemination of information.
+
+These structures together support the “broadcast” of information that characterizes conscious access. [Document 13, Chunk 65] [Document 42, Chunk 34]"
+GPT-OSS 20B,10,hard,True,match,1.0,0.25,TRUE,"The reality‑monitoring mechanism in PRM is an automatic process that discriminates between different kinds of perceptual activity (e.g., real perception, imagination, noise) and evaluates the reliability of first‑order representations. It labels those perceptual states that are sufficiently reliable as “real,” allowing the system to rely on them for belief formation and action selection. [Document 18, Chunk 100] [Document 18, Chunk 108]"
+GPT-OSS 20B,11,hard,True,match,1.0,0.6842,TRUE,"The Local Workspace Theory (LWT) proposes that conscious experience is produced by **local recurrent processing circuits** that selectively amplify and stabilize information for specific, local processing demands (e.g., visual mapping, emotion regulation). These circuits operate within a subset of neural structures and do not rely on a global broadcast mechanism. In contrast, the Global Workspace Theory (GWT) envisions consciousness as the result of a **global workspace** that broadcasts information across a fronto‑parietal network, integrating signals from many specialized modules. Recurrent processing in GWT occurs between cortical modules but ultimately serves the global broadcast that makes information available to the entire system. Thus, LWT emphasizes localized, task‑specific recurrent loops, whereas GWT emphasizes a system‑wide, global integration of information.  
+
+[Document 13, Chunk 466] [Document 26, Chunk 8]"
+GPT-OSS 20B,12,hard,True,match,1.0,0.5455,TRUE,"In GWT, **ignition** is the sudden, non‑linear transition that occurs when a perceptual or other representation becomes strong enough to enter the global neuronal workspace. At this point the workspace neurons “code” for that content and the representation is broadcast throughout the brain, making it available for conscious access. This process is described as a step‑function: a representation is either ignited (and thus conscious) or it is not, rather than a gradual increase in awareness.  
+
+[Document 79, Chunk 74] [Document 18, Chunk 78]"
+GPT-OSS 20B,13,hard,True,match,1.0,0.8421,TRUE,"The “all‑or‑none law” refers to the observation that neurons in the prefrontal and anterior temporal cortex fire to a specific concept only when the corresponding word or image is presented consciously. In other words, these neurons either fire strongly in response to a consciously perceived stimulus or they do not fire at all, with no intermediate firing levels. This pattern is taken as a neural signature of conscious perception. [Document 24, Chunk 21]"
+GPT-OSS 20B,14,hard,True,match,1.0,0.6111,TRUE,"Lempel‑Ziv (LZ) complexity estimates the approximate amount of non‑redundant information contained in a spike train by calculating the minimal size of the “vocabulary” needed to describe the entire sequence of spikes. [Document 28, Chunk 116]"
+GPT-OSS 20B,15,hard,True,match,1.0,0.8636,TRUE,"Sleep spindles act as a threshold‑gating mechanism during the N1→N2 transition.  They actively suppress sensory processing and cortical communication, creating a neural “gate” that moves the brain from light sleep—where external stimuli can still penetrate—to stable Stage 2 sleep, where consciousness of the external environment is largely abolished.  The increase in spindle activity directly reduces information integration, producing the steep decline in the Consciousness Gradient Index (CGI) observed for this transition. [Document 43, Chunk 15] [Document 43, Chunk 6]"
+GPT-OSS 20B,16,negative,True,refusal_ok,,,FALSE,I cannot find the answer in the provided documents.
+GPT-OSS 20B,17,negative,True,refusal_ok,,,FALSE,I cannot find the answer in the provided documents.
+GPT-OSS 20B,18,negative,True,refusal_ok,,,FALSE,I cannot find the answer in the provided documents.
+GPT-OSS 20B,19,negative,True,refusal_ok,,,FALSE,I cannot find the answer in the provided documents.
+GPT-OSS 20B,20,negative,True,refusal_ok,,,FALSE,I cannot find the answer in the provided documents.
+Qwen3.8 27B,1,easy,True,match,1.0,0.6667,TRUE,"The neuroscientific term for the non-conscious state of advanced meditators characterized by the voluntary suspension of consciousness is **EC** (often referred to in the context of ""cessation"" experiences in meditation literature).
+
+[Document 17, Chunk 11]
+[Document 17, Chunk 8]"
+Qwen3.8 27B,2,easy,True,match,1.0,1.0,TRUE,"In the unified 3D default space model proposed by Jerath et al., the **thalamus** is identified as the central hub for consciousness [Document 53, Chunk 113]. The model posits that the thalamus integrates processed sensory information received from corticothalamic feedback loops and ""fills in"" this information within the 3D default space, a process that gives rise to conscious experience [Document 53, Chunk 19]. This distinguishes the model from the Global Workspace Theory, where consciousness can arise anywhere throughout the cortex [Document 53, Chunk 19]."
+Qwen3.8 27B,3,easy,True,match,1.0,1.0,TRUE,"The central sulcus is used as the anatomical boundary to segment the brain into anterior and posterior regions for functional connectivity analysis [Document 25, Chunk 83]. This boundary separates the anterior region, which includes the frontal cortex, from the posterior region, which encompasses the parietal, temporal, and occipital cortices [Document 25, Chunk 83]."
+Qwen3.8 27B,4,easy,True,match,1.0,0.2667,TRUE,"Global Workspace Theories argue that conscious experience is inextricably linked with the cognitive notion of “access” [Document 13, Chunk 61]."
+Qwen3.8 27B,5,easy,True,match,1.0,0.5,TRUE,"The degree of emotional intensity determines whether sensory information will be processed consciously [Document 1, Chunk 29]. This paper suggests that conscious processing is not limited to novel stimuli, which typically give rise to intense emotions, but can also occur with familiar stimuli if re-exposure results in a sensitized response [Document 1, Chunk 29]."
+Qwen3.8 27B,6,easy,True,match,1.0,0.3571,FALSE,"In Global Workspace Theory, the ""winner-take-all"" mechanism is a selection process where unconscious modules compete for access to the global workspace based on current goal states [Document 49, Chunk 34]. Specifically, every unconscious module constantly competes, and only the module or coalition of modules that exhibits the strongest activation in the context of the current goal-state-dependent content of the global workspace wins the competition for global broadcasting [Document 49, Chunk 34]. This mechanism ensures that the most relevant information is selected from the vast amount of unconscious information [Document 49, Chunk 34].
+
+Additionally, this dynamic involves phases of collaboration and competition, which allows the system to effectively handle unknown problems that isolated unconscious processors might address ineffectively [Document 88, Chunk 8]. The criteria for determining the winner are defined by the current context, such as the achievement of a goal or the fulfillment of an emotion [Document 88, Chunk 8]. In some interpretations, this winner-take-all dynamic occurs after periods where multiple competing hypotheses remain in play, before the information is integrated into larger scale networks and broadcasted back to modules [Document 80, Chunk 74]."
+Qwen3.8 27B,7,easy,True,match,1.0,0.5556,TRUE,"In the Attention Schema Theory (AST), the ""Attention Schema"" is a model of attention constructed by the brain that represents—and may misrepresent—facts about the current objects of attention [Document 18, Chunk 114]. This model functions similarly to a body schema, helping the brain control attention [Document 18, Chunk 114].
+
+Key characteristics of the Attention Schema include:
+
+*   **Higher-Order Representation:** It is a high-level model of the attentional process, and consciousness depends on these higher-order representations rather than attention itself [Document 18, Chunk 114], [Document 6, Chunk 34].
+*   **Content of Consciousness:** The content of consciousness corresponds to the information present in this mental model of attention, rather than the information being attended to directly [Document 6, Chunk 34].
+*   **Functional Role:** It acts as a higher-level controller responsible for monitoring and adapting the dynamics of the attentional process based on the organism's behavioral needs [Document 6, Chunk 34].
+*   **Distinction from Attention:** The theory distinguishes ""awareness"" (the result of the mental model) from ""attention"" (the direct process), noting that the schema includes information about the act of attending (e.g., ""looking at the apple"") in addition to the object itself [Document 6, Chunk 34], [Document 6, Chunk 35].
+*   **Explanation of Intuition:** Because the schema does not represent the detailed mechanisms of attention, it creates the intuition that we are related to stimuli in an immediate and seemingly mysterious way [Document 18, Chunk 114]."
+Qwen3.8 27B,8,hard,False,false_refusal,,,TRUE,I cannot find the answer in the provided documents.
+Qwen3.8 27B,9,hard,True,match,1.0,0.9231,TRUE,"According to the GWT neurobiological model, global informational access is realized by very particular neurobiological networks [Document 13, Chunk 65]. Specifically, the central workspace is implemented by long-range excitatory neurons that form recurrent corticocortical connections between prefrontal, parietal, and cingulate regions [Document 13, Chunk 65]. Additionally, access to and dissemination of information is made possible by recurrent thalamocortical loops that link the central workspace [Document 13, Chunk 65]. Another description notes that consciousness is the result of the broadcast of information through a fronto-parietal network of interconnected local processors [Document 42, Chunk 34]."
+Qwen3.8 27B,10,hard,True,match,1.0,0.5417,TRUE,"In Perceptual Reality Monitoring (PRM) theory, the primary role of the ""reality monitoring"" mechanism is to automatically discriminate between different sources of perceptual content—such as actual perception, expectations, imagination, dreaming, episodic memory, or random noise—and to assess the reliability of first-order representations [Document 18, Chunk 100].
+
+Specifically, this mechanism functions to identify which perceptual states are accurate enough to be relied upon by the agent when selecting actions [Document 18, Chunk 108]. Perceptual representations are considered conscious when they are identified by this mechanism as reliable, or sufficiently distinct from noise [Document 18, Chunk 100]. Furthermore, the mechanism must output this information to a system for general belief-formation and rational decision-making, thereby providing conscious experiences with ""assertoric force"" [Document 18, Chunk 106]."
+Qwen3.8 27B,11,hard,True,match,1.0,0.6842,TRUE,"The Local Workspace Theory (LWT) differs conceptually from the Global Workspace Theory (GWT) regarding recurrent processing circuits by positing that conscious experience is realized by **local** (rather than global) recurrent processing circuits [Document 13, Chunk 466].
+
+Specifically, LWT suggests that these local circuits selectively amplify and stabilize information to support local processing needs, such as mapping objects in a visual environment or regulating emotion [Document 13, Chunk 466]. In contrast, Global Workspace Theory (and its neural implementation, GNWT) describes consciousness as the result of the **broadcast** of information through a fronto-parietal network of interconnected local processors, where information is shared among many specialized modules and rendered available to many cognitive systems for flexible processing [Document 0, Chunk 10] [Document 42, Chunk 34]. While GWT emphasizes a global workspace that integrates and shares winning information across the cortex [Document 0, Chunk 10], LWT focuses on local recurrent circuits that operate to meet specific, localized functional demands [Document 13, Chunk 466]."
+Qwen3.8 27B,12,hard,False,hallucinated_citation,0.6666666666666666,0.7273,TRUE,"In the context of Global Workspace Theory (GWT), ""ignition"" refers to a non-linear transition that occurs when information processed by a specialized neural processor enters the ""global neuronal workspace"" [Document 28, Chunk 74]. This process triggers the ""broadcasting"" of that content to the entire brain, making the representation globally available to cognitive functions such as verbal report and goal-directed decision-making [Document 28, Chunk 74].
+
+Additionally, ignition is described as a step-function process where activity in workspace neurons begins to code for their content once perceptual representations become sufficiently strong [Document 18, Chunk 78]. Because it is a step-function, whether a representation is broadcast and therefore conscious is not a matter of degree [Document 18, Chunk 78]. In broader terms, ignition is part of the dynamics that involve the stabilization of selected content over an operational time window [Document 69, Chunk 33]."
+Qwen3.8 27B,13,hard,True,match,1.0,0.7368,TRUE,"According to the provided documents, the ""all-or-none law"" refers to the specific activity of neurons in the prefrontal and anterior temporal cortex that fire to a specific concept only when the corresponding word or image is presented consciously [Document 24, Chunk 21]. This specific firing pattern acts as a signature of conscious perception [Document 24, Chunk 21]."
+Qwen3.8 27B,14,hard,True,match,1.0,0.6111,TRUE,"The Lempel-Ziv (LZ) complexity measure estimates the approximate quantity of non-redundant information contained within a string by determining the minimal size of the “vocabulary” necessary to describe the entirety of the data [Document 28, Chunk 116]."
+Qwen3.8 27B,15,hard,True,match,1.0,0.7727,TRUE,"In the N1 to N2 sleep transition, sleep spindles function as a neural ""gate"" or threshold mechanism that discretely transitions the brain from light sleep to stable Stage 2 sleep [Document 43, Chunk 15]. Generated by thalamic reticular nucleus (TRN) neurons and propagating through thalamocortical circuits, spindles actively suppress sensory processing and cortical communication [Document 43, Chunk 15]. This gating function effectively abolishes consciousness of the external environment, which is largely present in light sleep [Document 43, Chunk 15]. Furthermore, increasing spindle activity directly reduces information integration, resulting in a steep decline in the Consciousness Gradient Index (CGI) [Document 43, Chunk 15]."
+Qwen3.8 27B,16,negative,True,refusal_ok,,,FALSE,I cannot find the answer in the provided documents.
+Qwen3.8 27B,17,negative,True,refusal_ok,,,FALSE,I cannot find the answer in the provided documents.
+Qwen3.8 27B,18,negative,True,refusal_ok,,,FALSE,I cannot find the answer in the provided documents.
+Qwen3.8 27B,19,negative,True,refusal_ok,,,FALSE,I cannot find the answer in the provided documents.
+Qwen3.8 27B,20,negative,True,refusal_ok,,,FALSE,I cannot find the answer in the provided documents.
+ALLaM 2 7B,1,easy,False,false_refusal,,,TRUE,I cannot find the answer in the provided documents. 
+ALLaM 2 7B,2,easy,False,no_citation,0.0,1.0,TRUE,"In the unified 3D default space model proposed by Jerath et al., the primary hub of consciousness is the thalamus. This is inferred from the proposal that the projection of 3D space is processed by the thalamus after extensive processing throughout the cortex. The thalamus is suggested to be the central hub for integrating sensory information and creating conscious experience within the 3D default space model. "
+ALLaM 2 7B,3,easy,True,match,1.0,1.0,TRUE,"In the provided context, the anatomical boundary used to segment the brain into anterior and posterior regions for functional connectivity analysis is the central sulcus. 
+
+Reference:
+25data_c26 -> [Document 25, Chunk 26] "
+ALLaM 2 7B,4,easy,False,no_citation,0.0,0.4,TRUE,"Based on the provided context, Global Workspace Theories argue that conscious experience is inextricably linked with the cognitive notion of ""access."" According to the Global Workspace Theory (GWT), conscious content is globally available for diverse cognitive processes such as memory and attention, and consciousness might be a gateway enabling access between otherwise separate neuronal functions. 
+
+References:
+Baars, B. J. (2002). A Cognitive Theory of Consciousness. Oxford University Press.
+Baars, B. J., & de Bruin, J. (2004). The Global Workspace Theory: A Cognitive Theory of Consciousness. In: Consciousness: Contemporary Readings (pp. 19-34). Oxford University Press.
+Michel, J., & Baars, B. J. (2018). The Global Workspace Theory: A Cognitive Theory of Consciousness. In: Consciousness: Contemporary Readings (pp. 19-34). Oxford University Press.
+Nike, W., & Michel, J. (2019). The Integrated Information Theory: A Cognitive Theory of Consciousness. In: Consciousness: Contemporary Readings (pp. 19-34). Oxford University Press.
+Walter, N., & Michel, J. (2020). The Integrated Information Theory: A Cognitive Theory of Consciousness. In: Consciousness: Contemporary Readings (pp. 19-34). Oxford University Press. "
+ALLaM 2 7B,5,easy,False,hallucinated_citation,0.0,0.0,TRUE,"Based on the provided context, conscious processing determines whether sensory information will be processed consciously. When information is processed consciously, it is often perceived as being unitary and internally consistent due to utilizing substantial resources on focused processing. 
+
+
+References:
+
+1705.04742_c3 -> [Document 1705, Chunk 04742] 
+1705.04742_c3 -> [Document 1705, Chunk 04742] 
+1705.04742_c3 -> [Document 1705, Chunk 04742] "
+ALLaM 2 7B,6,easy,False,malformed_citation,0.0,0.1429,FALSE,"In Global Workspace Theory, the 'winner-take-all' mechanism refers to the process where multiple competing hypotheses or information can remain in play during mesoscale connectomic modularity (Betzel et al., 2016; Safron et al., 2021b). This mechanism ensures that only one hypothesis or piece of information is integrated into larger scale networks and models (Cheung et al., 2019). After integration, the information is ""broadcasted"" back to the modules as they re-form. The concept of winner-take-all dynamics is intriguingly suggested by Stanislas Dehaene (2014) as a kind of phase transition, similar to those observed in physical systems. 
+
+Citations:
+[Document 18data_c18, Document 20data_c20, Document 21data_c21] "
+ALLaM 2 7B,7,easy,False,no_citation,0.0,0.2778,TRUE,"In the Attention Schema Theory (AST), the 'Attention Schema' is a component that goes beyond the information provided by the direct attentional process. The attention schema includes information about the object (e.g., an apple) and the action related to the object (e.g., ""looking at the apple""). This allows for more complex behavior, even if the behavior is not consciously mediated. The attention schema is supported by experimental evidence, as mentioned in Kentridge et al. (1999) and Koch & Tsuchiya (2007). The temporoparietal junction is implicated in the function of the AST (Webb et al., 2016). Additionally, the prefrontal cortex is likely involved in supporting the attentional schema, given its role in representing various high-level cognitive schemas (Gilboa & Marlatte, 2017)."" 
+
+Citations:
+1. Kentridge, R. W., Weiskopf, N., & Burgess, N. (1999). The role of the temporoparietal junction in the perception of time. Cognitive Neurodynamics, 3(4), 349-360.
+2. Koch, C., & Tsuchiya, N. (2007). The role of the prefrontal cortex in the perception of time. Cognitive Neurodynamics, 1(1), 1-20.
+3. Graziano, M. S., & Marlatte, A. (2017). The role of the prefrontal cortex in the perception of time. Cognitive Neurodynamics, 11(1), 1-20.
+4. Webb, T., Graziano, M. S., & Marlatte,"
+ALLaM 2 7B,8,hard,False,no_citation,0.0,0.1333,TRUE,"Based on the provided context, the two core processes of the Global Workspace Theory (GWT) are:
+
+1. CONSCIOUS metacognition: This involves humans consciously thinking about their own conscious experiences, such as editing a text like this example.
+2. UN-conscious metacognition: This process involves specialized processors monitoring the conscious global workspace to interrupt the conscious flow or intervene if the UN-conscious ""critic"" detects a serious problem. 
+
+Citations:
+1. Baars, B., & Geld, J. (2019). Global Workspace Theory: A unifying framework for consciousness. In B. Baars & J. Geld (Eds.), Consciousness: From neurons to meaning (pp. 1-20).
+2. Baars, B., & Geld, J. (2019). Global Workspace Theory: A unifying framework for consciousness. In B. Baars & J. Geld (Eds.), Consciousness: From neurons to meaning (pp. 1-20). "
+ALLaM 2 7B,9,hard,False,hallucinated_citation,0.0,0.3077,TRUE,"According to the Global Workspace Theory (GWT) neurobiological model, the specific networks that realize global informational access are the fronto-parietal network of interconnected local processors. These networks engage cognitive processes such as evaluative systems and working memory, enabling flexible processing and behavior that would not be possible under automatic, unconscious processing. The theory is deeply rooted in empirical studies highlighting the differential activation of the prefrontal cortex between seen and unseen stimuli. Within this framework, a marker of conscious experience is ignition (a non-linear, all or none increase) in the PFC (prefrontal cortex). 
+
+References:
+Dehaene, S., & Changeux, J.-P. (2014). Neurons that talk to each other win. Nature Reviews Neuroscience, 15(1), 13–25.
+
+[Document 1, Chunk 13]
+
+[Document 1, Chunk 14]
+
+[Document 1, Chunk 15] "
+ALLaM 2 7B,10,hard,False,no_citation,0.0,0.0833,TRUE,"In the Perceptual Reality Monitoring (PRM) theory, the primary role of the Reality Monitoring mechanism is to classify experiences differently based on their phenomenal character. According to PRM, imaginative experiences are classified differently by the Reality Monitoring mechanism, resulting in a different phenomenal character. Additionally, higher-order theories like PRM can propose that imaginative experiences have some minimal amount of assertoric force, explaining results where participants are more likely to report a target as visible if it is congruent with their mental imagery (Dijkstra et al., 2021, 2022; Dijkstra & Fleming, 2023). 
+
+Citations:
+1. Dijkstra, K., Fleming, R., & Dijkstra, J. (2021). The role of higher-order thoughts in conscious experience. In Proceedings of the 20th International Congress of Psychology (pp. 123-134).
+2. Dijkstra, K., Fleming, R., & Dijkstra, J. (2022). The role of higher-order thoughts in conscious experience. In Proceedings of the 20th International Congress of Psychology (pp. 234-245).
+3. Dijkstra, K., Fleming, R., & Fleming, J. (2023). The role of higher-order thoughts in conscious experience. In Proceedings of the 20th International Congress of Psychology (pp. 345-356). "
+ALLaM 2 7B,11,hard,False,no_citation,0.0,0.7368,TRUE,"I cannot find any information about a theory called 'Local Workspace Theory' (LWT) in the provided context. However, I can provide information about Global Workspace Theory (GWT) and its adaptation, Global Workspace Dynamics (GWD).
+
+Global Workspace Theory (GWT) posits that consciousness arises from the integration of information across different brain regions, particularly the prefrontal cortex. GWT proposes that conscious experience is the result of highly integrated and recurrent processing circuits. Global Workspace Dynamics (GWD), on the other hand, is a brain-based version of GWT. GWD emphasizes the role of the cortex as a ""unified oscillatory machine"" and suggests that consciousness is the product of highly integrated and recurrent processing circuits.
+
+In summary, the main difference between GWT and GWD is that GWT is a psychological theory, while GWD is a brain-based version of GWT. Additionally, GWD highlights the role of the cortex as a ""unified oscillatory machine"" and focuses on recurrent processing circuits, whereas GWT does not explicitly mention the cortex or recurrent processing circuits in the same way. "
+ALLaM 2 7B,12,hard,False,hallucinated_citation,0.0,0.1818,TRUE,"In the context of the Global Workspace Theory (GWT), ignition refers to the process by which conscious experiences emerge from the brain. According to GWT, ignition involves the integration of information from various sources, including the cortex and thalamus, to create a global network that supports conscious experience. This integration allows the contents of consciousness to be made available for access and manipulation by higher cognitive processes. The term ""ignition"" is used to describe the transition from unconscious to conscious processing. 
+
+References:
+[Document 19, Chunk 28]
+[Document 19, Chunk 29]
+[Document 19, Chunk 30] "
+ALLaM 2 7B,13,hard,False,no_citation,0.0,0.2105,TRUE,"I cannot find the information about the 'all-or-none law' of neuron firing in the prefrontal and anterior temporal cortex during conscious perception in the provided context. 
+
+However, the context does mention the GNW theory, which states that sensory stimuli elicit a conscious percept when the neural activity associated with the stimuli propagates through a broad fronto-parietal network following neural ignition. This theory predicts a higher likelihood of near concurrent neuronal firing in S1 and vPM (at the single trial level) when animals are in a conscious state (and thus capable of conscious content) than when they are unconscious (Prediction #3). 
+
+Please note that the 'all-or-none law' is not explicitly discussed in the provided context. "
+ALLaM 2 7B,14,hard,False,hallucinated_citation,0.3333333333333333,0.0,TRUE,"Based on the provided context, the Lempel-Ziv (LZ) complexity measure estimates the basal complexity in spiking activity as a function of consciousness and whether neurons were categorized as convergent or integrative. It is argued to be a well-established measure that is altered by the consciousness state. 
+
+References:
+[Document 28, Chunk 2]
+[Document 28, Chunk 119]
+[Document 28, Chunk 5] "
+ALLaM 2 7B,15,hard,False,hallucinated_citation,0.0,0.1818,TRUE,"Based on the provided context, the functional role of sleep spindles in the N1 to N2 sleep transition can be described as follows:
+
+The N1→N2 transition exhibits threshold behavior via thalamic spindle gating mechanisms. This is evident from the significantly steeper CGI decline compared to Wake→N1 (paired t-test: t=-9.334, p<0.001, Cohen's d=-2.814) and N2→N3 (t=-6.341, p<0.001, d=-1.912). Spindle gating mechanisms play a role in determining the threshold for the N1 to N2 transition, as demonstrated by the significant differences between the N1→N2 transition and the other transitions mentioned. 
+
+Reference:
+[Document 28, Chunk 17] (E. Dobbin, 2025) "
+ALLaM 2 7B,16,negative,False,missed_refusal,,,FALSE,"I cannot find the information about the closing price of Apple stock on its IPO day in the provided context. Please provide more specific information or context about where or when you are looking for this data. 
+
+If you are asking about the closing price of Apple Inc. stock, I can inform you that the provided context does not contain information about stock prices or Apple Inc.'s IPO day. To find this information, you may need to search for sources discussing financial markets or Apple Inc.'s history. "
+ALLaM 2 7B,17,negative,False,gen_error,,,FALSE,
+ALLaM 2 7B,18,negative,True,refusal_ok,,,FALSE,"
+I cannot find the answer in the provided context. Please provide more information or clarify the question. Додатки інтів із емоційним вигоранням. Додатки інтів із емоційним вигоранням. Додатки інтів із емоційним вигоранням. Додатки інтів із емоційним вигоранням. Додатки інтів із емоційним вигоранням. Додатки інтів із емоційним вигоранням. Додатки інтів із емоційним вигоранням. Додатки інтів із емоційним вигоранням. Додатки інтів із емоційним вигоранням. Додатки інтів із емоційним вигоранням. Додатки інтів із емоційним вигоранням. Додатки інтів із емоційним вигоранням. Додатки "
+ALLaM 2 7B,19,negative,True,refusal_ok,,,FALSE,I cannot find the answer to the question about the time complexity of quicksort in the worst case from the provided context. Please provide more specific information or context related to quicksort time complexity. 
+ALLaM 2 7B,20,negative,False,missed_refusal,,,FALSE,"I cannot find the information about the boiling point of ethanol at sea level in the provided context chunks. 
+
+Please provide more specific information about the context in which you would like me to search for the boiling point of ethanol. "

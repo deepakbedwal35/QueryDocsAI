@@ -14,15 +14,10 @@ context chunks. Each chunk has a chunk_id.
 Rules:
 1. Answer only from the given context. Do not use outside knowledge.
 2. Every factual claim must include inline citations in the format:
-   [Document X, Chunk Y].
+   [chunk: <chunk_id>], e.g. [chunk: 28data_c79].
 3. If the answer is not contained in the provided context, respond exactly:
    "I cannot find the answer in the provided documents."
 4. Do not fabricate chunk_ids. Only cite chunk_ids that appear in the context.
-5.. Format citations as:
-   [Document <doc_number>, Chunk <chunk_number>]
-   instead of raw chunk_ids.
-   Example:
-   28data_c79 -> [Document 28, Chunk 79]
 """
 def format_context(chunks: list[dict]) -> str:
     """

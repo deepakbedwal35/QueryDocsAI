@@ -64,17 +64,16 @@ def ask(
     chat = db.get(Chat, req.chat_id)
     if chat is None or chat.device_id != device.device_id:
         raise HTTPException(status_code=404, detail="Chat not found")
-    
     try:
         print("retrieving Chunks..")
         chunks = retrieve(req.question, chat_id=req.chat_id)
         print("chunks retrieve successfull \n generating answer...")
-        
+
         raw_answer = generate_answer(req.question, chunks)
         print("answer generate succesfully")
         result = verify_citations(raw_answer, chunks)
     except Exception as e:
-        raise HTTPException(status_code=500,  detail=f"Failed to generate answer: {e}")
+        raise HTTPException(status_code=500, detail=f"Failed to generate answer: {e}")
     citations = build_citation_list(result["valid_citations"], chunks)
     answer_found = _NOT_FOUND_PHRASE not in result["clean_answer"].lower()
 

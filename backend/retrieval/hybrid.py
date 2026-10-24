@@ -1,11 +1,5 @@
-
-
-
-
-    
-    
 """
-real_retrieval.py
+hybrid.py
 
 Real retrieval, replacing mock_retrieval.py. Hybrid search (dense via
 Qdrant + sparse via BM25), fused with Reciprocal Rank Fusion, then
@@ -243,6 +237,21 @@ def retrieve(question: str, top_k: int = 7, chat_id: str | None = None) -> list[
         with_payload=True,
     ).points
 
+    # Uploaded chunks compete against thousands of corpus chunks and get
+    # no BM25 score, so search them on their own to make sure the chat's
+    # documents actually reach the LLM.
+    upload_hits = []
+    if chat_id:
+        upload_hits = client.query_points(
+            collection_name=QDRANT_COLLECTION,
+            query=query_embedding,
+            limit=max(top_k - 2, 1),
+            query_filter=Filter(
+                must=[FieldCondition(key="chat_id", match=MatchValue(value=chat_id))]
+            ),
+            with_payload=True,
+        ).points
+
     # Qdrant point ids are uuid5(chunk_id), not the chunk_id itself --
     # we need the mapping table (chunk_id <-> text) to translate back,
     # same trick running_pipeline.py used.
@@ -251,6 +260,12 @@ def retrieve(question: str, top_k: int = 7, chat_id: str | None = None) -> list[
         str(uuid.uuid5(uuid.NAMESPACE_DNS, item["chunk_id"])): item
         for item in mapping_table
     }
+
+    upload_ranked = [
+        (point.payload["chunk_id"], point.payload.get("text", ""), point.payload)
+        for point in upload_hits
+        if point.payload and "chunk_id" in point.payload
+    ]
 
     dense_ranked = []  # list of (chunk_id, text, payload)
     for point in dense_hits:
@@ -293,38 +308,15 @@ def retrieve(question: str, top_k: int = 7, chat_id: str | None = None) -> list[
 
     ranked = sorted(fused_scores.items(), key=lambda kv: kv[1], reverse=True)
 
-    # Guarantee uploaded chunks are represented: uploaded chunks only
-    # get dense scores (BM25 is corpus-only), so RRF systematically
-    # underranks them.  After initial ranking, swap in any uploaded
-    # chunk that scored higher than the weakest corpus chunk in top_k.
-    if chat_id:
-        top = list(ranked[:top_k])
-        corpus_in = [
-            (i, cid, sc)
-            for i, (cid, sc) in enumerate(top)
-            if not cid.startswith("upload_")
-        ]
-        for up_cid, up_sc in ranked:
-            if not up_cid.startswith("upload_"):
-                continue
-            if up_sc <= 0:
-                break  # remaining are worse
-            if any(cid == up_cid for cid, _ in top):
-                continue  # already in results
-            if not corpus_in:
-                break  # no corpus slots to replace
-            worst_idx, worst_cid, worst_sc = min(corpus_in, key=lambda x: x[2])
-            if up_sc <= worst_sc:
-                break  # uploaded chunk isn't better than what's there
-            top[worst_idx] = (up_cid, up_sc)
-            corpus_in = [(i, c, s) for i, c, s in corpus_in if i != worst_idx]
-        ranked_chunk_ids = top[:top_k]
-    else:
-        ranked_chunk_ids = ranked[:top_k]
+    # The chat's own uploads go first; corpus results fill the rest.
+    upload_ids = [cid for cid, _, _ in upload_ranked]
+    pinned = [(cid, 1.0 / (FUSION_K + rank)) for rank, cid in enumerate(upload_ids, start=1)]
+    rest = [(cid, sc) for cid, sc in ranked if cid not in upload_ids]
+    ranked_chunk_ids = (pinned + rest)[:top_k]
 
     # Build lookup for text and payload from the dense results
-    text_by_chunk_id = {cid: text for cid, text, _ in dense_ranked}
-    payload_by_chunk_id = {cid: pl for cid, _, pl in dense_ranked}
+    text_by_chunk_id = {cid: text for cid, text, _ in dense_ranked + upload_ranked}
+    payload_by_chunk_id = {cid: pl for cid, _, pl in dense_ranked + upload_ranked}
     # Also include corpus text from mapping table
     for item in mapping_table:
         if item["chunk_id"] not in text_by_chunk_id:
@@ -350,8 +342,4 @@ def retrieve(question: str, top_k: int = 7, chat_id: str | None = None) -> list[
 
 query ="""What is "neural ignition" in Global Neuronal Workspace (GNW) theory, and did the data support it"""
 
-
-
-    
-    
 # print(retrieve(query, top_k=7, chat_id=None))
