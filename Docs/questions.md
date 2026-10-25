@@ -23,7 +23,7 @@ marked so you never over-claim in an interview:
 | Cold first request | ≈ 5 s (model load + BM25 unpickle + payload backfill scroll) | measured locally |
 | Golden set | 35 questions: 7 easy, 8 hard, 10 complex, 5 negative, 5 upload | `eval/rag_eval/golden_dataset.csv` |
 | Retrieval on golden set | hit-rate@5 = 89.7% (26/29 answerable), MRR = 0.793, precision@5 = 0.545 | `retrieval_metrics()` in `eval/rag_eval/main.py` |
-| End-to-end accuracy (25-question run) | GPT-OSS 120B 92%, GPT-OSS 20B 96%, Qwen3.8 27B 96%, ALLaM 2 7B 16% | `eval/rag_eval/eval_results.csv` |
+| End-to-end accuracy (35-question run, 2026-10-25) | Qwen3.8 27B 85.7%, GPT-OSS 120B 80.0%, GPT-OSS 20B 80.0%, ALLaM 2 7B 14.3% (25-question run before: 96 / 92 / 96 / 16%) | `eval/rag_eval/eval_results.csv` |
 
 ---
 
@@ -76,7 +76,7 @@ Tailwind on the frontend, and Langfuse for tracing.
 - Deletion: removing a document from RAG is a single Qdrant `delete`. Removing it from model
   weights is effectively impossible.
 - Fine-tuning *could* still help at the edges: a small model trained to follow the citation
-  format (ALLaM 7B scored 16%, mostly from bad citations), or a fine-tuned reranker or
+  format (ALLaM 7B scored 14.3%, mostly from bad citations), or a fine-tuned reranker or
   embedder. That would complement RAG, not replace it.
 
 ### 5. Draw the end-to-end architecture from query to answer.
@@ -409,7 +409,7 @@ Reasoning: ~200 tokens is about one scientific paragraph, which is enough to hol
 plus its context. Five of them fit in a tiny prompt (~1.1k context tokens). It also stays under
 BGE's 512-token limit for almost all chunks.
 **Validation, honestly:** it was chosen up front and checked indirectly. Hit@5 = 89.7% and
-92–96% end-to-end accuracy suggest it is adequate. I did **not** run a chunk-size sweep. To do
+80–86% end-to-end accuracy on 35 questions (92–96% on the easier first 25) suggest it is adequate. I did **not** run a chunk-size sweep. To do
 it properly: rebuild the index at {400, 800, 1200, 2000} × {0, 15%, 25%} overlap, re-run
 `make_golden_dataset` (hit@5, MRR) plus `main` (accuracy), and watch the cost in prompt tokens.
 Note that the 711-token outliers are silently truncated at 512 by the embedder. A token-based
@@ -860,10 +860,13 @@ Evaluate with the existing complex bucket plus citation coverage per sub-claim.
 - **Model:** `openai/gpt-oss-120b` (`GROQ_MODEL`, overridable by env). It is an open-weights
   MoE reasoning model, strong at instruction following and citation formatting.
 - **Why it won:** the frozen-context bake-off in `eval/rag_eval` compared four models on
-  identical context. GPT-OSS 120B scored 92%, GPT-OSS 20B 96%, Qwen3.8 27B 96%, and ALLaM 2 7B
-  16%. The top three are within noise of each other on 25 questions (Q107). 120B was kept as
-  the default and CI model for headroom on the harder questions.
-  The data also suggests **20B is a viable cheaper and faster option**.
+  identical context. On the 35-question set Qwen3.8 27B scored 85.7%, GPT-OSS 120B 80.0%,
+  GPT-OSS 20B 80.0%, and ALLaM 2 7B 14.3%. The top three are 2 questions apart, which is within
+  noise (Q107). 120B was kept as the default and CI model; it was chosen on the earlier
+  25-question run (92%, vs 96% for 20B and Qwen).
+  The data suggests **20B is a viable cheaper and faster option**, and that **Qwen3.8 27B is
+  worth trialling as the default**: it is the only model at 100% on hard questions and the
+  best on complex ones (60% vs 40%).
 - **Why Groq:** LPU inference is very fast (hundreds of tokens/s), so generation latency is
   small despite a 120B model. It has an OpenAI-compatible SDK, a free tier for development,
   multiple open models behind one API (which made the bake-off trivial), and JSON mode (used
@@ -1196,11 +1199,12 @@ For what the runtime verifier checks (ID membership), it is exact. It cannot wro
 retrieved ID, or keep a non-retrieved one, once the tag is parsed. The real error sources are:
 - **Parse misses (false negatives for formatting):** a tag the regex doesn't recognise is
   left in the text untouched (not counted). The evaluator's `malformed_citation` reason exists
-  for `[Document N, Chunk M]` style outputs. In the 25-question run, `no_citation` and
-  `malformed_citation` were **0** for GPT-OSS and Qwen, and **6** for ALLaM.
+  for `[Document N, Chunk M]` style outputs. In the 35-question run, `no_citation` and
+  `malformed_citation` were **0** for GPT-OSS and Qwen; ALLaM had **14** `no_citation` and
+  **8** `hallucinated_citation`.
 - **Blocked valid answers (false positives):** the verifier never blocks answers; it only
   strips tags. At the eval level, "valid answer judged wrong" shows up as `missing_key_fact`
-  and `wrong_source`, at 1 + 1 out of 25 for GPT-OSS 120B. Inspecting those by hand is how
+  and `wrong_source`, at 4 + 1 out of 35 for GPT-OSS 120B (plus 2 `false_refusal`). Inspecting those by hand is how
   I'd tell regex-key strictness apart from real errors.
 - **Citation precision** (valid ÷ all tags) is 1.00 for the three large models and 0.25 for
   ALLaM (8 out of 25 answers had hallucinated IDs).
@@ -1445,31 +1449,39 @@ The current all-1.0 scores for strong models are a warning sign of low discrimin
   for auditing.
 
 ### 106. What are your baseline numbers for hit rate, faithfulness, and relevance?
-From the committed artifacts (retrieval over 35 questions, generation from a 25-question run
-before the 10 "complex" questions were added):
+From the committed artifacts. Retrieval and the deterministic generation metrics are from the
+35-question run (2026-10-25). The LLM judge hasn't been run on the 35-question set yet, so
+faithfulness and relevancy are still from the earlier 25-question run (before the 10
+"complex" questions were added):
 
 | Metric | GPT-OSS 120B (default) | GPT-OSS 20B | Qwen3.8 27B | ALLaM 2 7B |
 |---|---|---|---|---|
-| Accuracy (all checks pass) | **92%** | 96% | 96% | 16% |
-| Citation precision | 1.00 | 1.00 | 1.00 | 0.25 |
-| Faithfulness (judge) | 1.00 | 1.00 | 1.00 | 0.72 |
-| Answer relevancy (judge) | 1.00 | 1.00 | 1.00 | 0.40 |
-| Token recall vs reference | 0.64 | 0.65 | 0.72 | 0.27 |
+| Accuracy (all checks pass, 35 Qs) | **80.0%** | 80.0% | 85.7% | 14.3% |
+| Citation precision (35 Qs) | 1.00 | 1.00 | 1.00 | 0.20 |
+| Token recall vs reference (35 Qs) | 0.67 | 0.69 | 0.74 | 0.37 |
+| Faithfulness (judge, 25 Qs) | 1.00 | 1.00 | 1.00 | 0.72 |
+| Answer relevancy (judge, 25 Qs) | 1.00 | 1.00 | 1.00 | 0.40 |
+| Accuracy on the 25-question run | 92% | 96% | 96% | 16% |
+
+Accuracy by difficulty (35 Qs): easy and negative are 100% for the top three; hard is 87.5%
+for both GPT-OSS models and 100% for Qwen; upload is 100 / 100 / 80%; complex is only
+40 / 40 / 60%. Complex questions cause 15 of the 21 misses across the top three.
 
 Retrieval: **hit@5 89.7%, MRR 0.793, precision@5 0.545**. The PRD targets were hit@5 ≥ 80%
 and faithfulness ≥ 90%, both met. The older `deepeval_suite` report: faithfulness 1.0,
 not-found accuracy 91.7% on 36 questions. GPT-OSS 120B's two misses were one
-`missing_key_fact` and one `wrong_source`.
+`missing_key_fact` and one `wrong_source` on 25 questions; on 35 questions it misses 7
+(4 `missing_key_fact`, 2 `false_refusal`, 1 `wrong_source`).
 
 ### 107. How do you measure statistical significance of an improvement with a small eval set?
-With n = 25–35, one question is 3–4 percentage points, so **92% vs 96% is a single question
+With n = 25–35, one question is 3–4 percentage points, so **80% vs 85.7% is two questions
 and not significant**. Methods:
 - **Paired tests**, since the same questions run under both systems: **McNemar's test** on
   the discordant pairs (questions A got right and B got wrong, and vice versa), or an exact
   sign test.
 - **Bootstrap confidence intervals:** resample questions with replacement 10k times and
-  report the 95% CI of the accuracy *difference*. At n = 25 a 92% accuracy has a CI of about
-  ±10 percentage points.
+  report the 95% CI of the accuracy *difference*. At n = 35 an 80% accuracy has a CI of about
+  ±13 percentage points.
 - **Repeated runs** to separate model nondeterminism from real change (Q111).
 - The practical rule I use: look at the **per-question diff** (which questions flipped and
   why) rather than the headline, and grow the set. ~200+ questions are needed to detect
@@ -1593,7 +1605,7 @@ The old suite used absolute floors: hit-rate 0.7, faithfulness 0.9, not-found ac
 Why absolute and loose: with n = 35, normal LLM jitter is ±1–2 questions (3–6 points). A tight
 relative gate ("no drop > 2 points") would be flaky. 0.6 catches **real breakage** (a prompt
 change that kills citations, a regex mismatch, a model deprecation that drops accuracy to
-~16%, as ALLaM shows), not small shifts.
+~14%, as ALLaM shows), not small shifts.
 What I'd add: a **relative check vs the stored baseline with a noise margin**, e.g. fail if
 accuracy drops by more than 2 questions *and* McNemar p < 0.1, or warn on any per-question
 flip. Plus a hard **zero-tolerance gate on hallucinated citations**, which are deterministic

@@ -436,9 +436,9 @@ judge is an *added* layer, not the pass/fail gate.
 
 | Metric | Definition | Last value |
 |---|---|---|
-| **Recall@k** (hit rate) | share of answerable questions where *any* chunk from the gold source paper is in the top k | 94.7% (25 Qs) → 89.7% after adding the harder questions |
-| **Precision@k** | average share of the k retrieved chunks that come from the gold source | 50.5% (25 Qs) |
-| **MRR** | Mean Reciprocal Rank: 1 / (position of the first gold-source chunk), averaged | 0.816 (25 Qs) |
+| **Recall@k** (hit rate) | share of answerable questions where *any* chunk from the gold source paper is in the top k | 89.7% (35 Qs; was 94.7% on the first 25) |
+| **Precision@k** | average share of the k retrieved chunks that come from the gold source | 54.5% (35 Qs) |
+| **MRR** | Mean Reciprocal Rank: 1 / (position of the first gold-source chunk), averaged | 0.793 (35 Qs) |
 
 **Generation** (per model):
 
@@ -471,7 +471,56 @@ One Groq call per answer returns JSON `{faithfulness, answer_relevancy, reason}`
 
   **Always validate your judge before trusting it.**
 
-### 7.6 Results so far (25-question run, before the complex questions)
+### 7.6 Results (35-question run, 2026-10-25)
+
+All 4 models answered all 35 questions on the same frozen context, scored with the deterministic
+cascade. The LLM judge has **not** been run on this set yet, so faithfulness and relevancy are
+pending (see the 25-question numbers below for the last judged run).
+
+| Model | Accuracy | Citation precision | Answer recall |
+|---|---|---|---|
+| **Qwen3.8 27B** | **85.7%** (30/35) | 100% | **74.0%** |
+| GPT-OSS 120B | 80.0% (28/35) | 100% | 66.8% |
+| GPT-OSS 20B | 80.0% (28/35) | 100% | 69.1% |
+| ALLaM 2 7B | 14.3% (5/35) | 20.1% | 36.6% |
+
+**Accuracy by difficulty:**
+
+| Model | Easy (7) | Hard (8) | Negative (5) | Upload (5) | Complex (10) |
+|---|---|---|---|---|---|
+| Qwen3.8 27B | 100% | 100% | 100% | 80% | 60% |
+| GPT-OSS 120B | 100% | 87.5% | 100% | 100% | 40% |
+| GPT-OSS 20B | 100% | 87.5% | 100% | 100% | 40% |
+| ALLaM 2 7B | 28.6% | 0% | 20% | 20% | 10% |
+
+**Failure reasons:**
+
+| Reason | 120B | 20B | Qwen | ALLaM |
+|---|---|---|---|---|
+| match / refusal_ok (correct) | 22 / 6 | 22 / 6 | 24 / 6 | 3 / 2 |
+| missing_key_fact | 4 | 2 | 2 | 1 |
+| false_refusal | 2 | 3 | 3 | 2 |
+| wrong_source | 1 | 1 | 0 | 1 |
+| empty_answer | 0 | 1 | 0 | 0 |
+| no_citation | 0 | 0 | 0 | 14 |
+| hallucinated_citation | 0 | 0 | 0 | 8 |
+| missed_refusal | 0 | 0 | 0 | 3 |
+| gen_error (prompt exceeds ALLaM's 4k context) | 0 | 0 | 0 | 1 |
+
+**What the numbers say:**
+
+- **Qwen3.8 27B is the best model on this set.** It's the only one at 100% on hard questions and the
+  strongest on complex ones.
+- **GPT-OSS 120B and 20B tie at 80%.** The 20B has slightly higher answer recall, so the bigger model
+  isn't clearly worth the extra cost here.
+- **Complex questions are the real test.** They account for 15 of the 21 misses across the three
+  strong models; easy, negative and upload questions are nearly saturated.
+- **#26, #32 and #33 fail for all three strong models**, and on #32 and #33 all three say the answer
+  isn't in the documents. That points at the frozen context or the reference answer, not the models.
+- **The three strong models never invent a citation** (100% citation precision). ALLaM is unusable:
+  22 of 35 answers have no citation or a made-up one.
+
+**Previous run (25 questions, before the complex questions, with the LLM judge):**
 
 | Model | Accuracy | Faithfulness | Relevancy | Citation precision |
 |---|---|---|---|---|
@@ -481,9 +530,9 @@ One Groq call per answer returns JSON `{faithfulness, answer_relevancy, reason}`
 | ALLaM 2 7B | 16% | 72% | 40% | 25% |
 
 **How to talk about the 100%s honestly:** the judge *does* catch invented claims (see the test above).
-The perfect scores reflect easy single-fact questions with good context. That's exactly why I added
-the 10 complex questions. They immediately showed a **retrieval** gap: the Cogitate paper wasn't
-retrieved for its own two questions.
+The perfect scores reflected easy single-fact questions with good context. That's exactly why I added
+the 10 complex questions: they dropped the strong models from 92–96% to 80–86%, and showed a
+**retrieval** gap (the Cogitate paper wasn't retrieved for its own two questions).
 
 ### 7.7 Running it
 
@@ -772,8 +821,8 @@ The downside: after re-indexing you must rebuild the frozen set.
 
 **Q26. Explain precision@k, recall@k and MRR in your setup.**
 - **Recall@k:** did *any* chunk from the gold paper appear in the top k? (89.7%)
-- **Precision@k:** what share of the top-k chunks came from the gold paper? (about 50%)
-- **MRR:** 1 / rank of the first gold chunk, averaged (0.816 on the 25-question set). The right
+- **Precision@k:** what share of the top-k chunks came from the gold paper? (54.5%)
+- **MRR:** 1 / rank of the first gold chunk, averaged (0.793 on the 35-question set). The right
   evidence is usually ranked first.
 
 **Q27. Deterministic checks or an LLM judge, which is better?**
