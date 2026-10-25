@@ -8,3 +8,4 @@ bm_25
 sentence-transformers
 numpy
 python-multipart
+langfuse

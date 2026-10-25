@@ -10,6 +10,22 @@
 #
 # Seeded from eval/goldens/retriever_golden_dataset.json.
 
+# Fictional resume uploaded into a fixed eval chat by make_golden_dataset,
+# to exercise the chat_id (upload) retrieval path.
+UPLOAD_CHAT_ID = "eval-upload-chat"
+UPLOAD_DOC_ID = "eval-resume"
+UPLOAD_FIXTURE = """Asha Verma
+B.Tech in Computer Science and Engineering, Ridgeview Institute of Technology (2022-2026), CGPA 8.7
+
+Projects
+TerrainSim: a real-time GPU terrain renderer written in Rust and WGPU, with procedural
+heightmaps, level-of-detail streaming and a 60 fps target on integrated graphics.
+LeafLens: a plant disease classifier trained with PyTorch on 38 leaf classes, served through
+a FastAPI inference endpoint and a React frontend.
+
+Skills: Rust, Python, PyTorch, FastAPI, React, PostgreSQL, Docker
+"""
+
 GOLDEN = [
  # ================= EASY =================
  dict(id=1, diff="easy", source="17data", not_found=False,
@@ -84,6 +100,71 @@ GOLDEN = [
    q="What is the time complexity of quicksort in the worst case?", answer=""),
  dict(id=20, diff="negative", source="", not_found=True,
    q="What is the boiling point of ethanol at sea level?", answer=""),
+
+ # ================= UPLOAD =================
+ # Asked inside an eval chat that has UPLOAD_FIXTURE uploaded (chat=True).
+ dict(id=21, diff="upload", source=f"upload_{UPLOAD_DOC_ID}", not_found=False, chat=True,
+   q="What is the name of the candidate whose resume is given?", answer="Asha Verma."),
+
+ dict(id=22, diff="upload", source=f"upload_{UPLOAD_DOC_ID}", not_found=False, chat=True,
+   q="In which college does the person study?", answer="Ridgeview Institute of Technology."),
+
+ dict(id=23, diff="upload", source=f"upload_{UPLOAD_DOC_ID}", not_found=False, chat=True,
+   q="Give me a quick summary of the projects in this resume.",
+   answer="TerrainSim, a GPU terrain renderer in Rust and WGPU, and LeafLens, a plant disease classifier built with PyTorch and served with FastAPI."),
+
+ dict(id=24, diff="upload", source="", not_found=True, chat=True,
+   q="What is the candidate's phone number?", answer=""),
+
+ # ================= COMPLEX =================
+ # Summaries, multi-fact lists, numbers, partial context and multi-paper
+ # questions: long answers leave room to hallucinate, unlike the one-fact
+ # questions above. source "a|b" = the answer spans both papers.
+ dict(id=26, diff="complex", source="18data", not_found=False,
+   q="Summarize the approach and main conclusion of the report on consciousness in artificial intelligence by Butlin, Long et al.",
+   answer="It derives computational 'indicator properties' of consciousness from neuroscientific theories and uses them to assess recent AI systems; it concludes that no current AI systems are conscious but that there are no obvious technical barriers to building systems that satisfy the indicators."),
+
+ dict(id=27, diff="complex", source="18data", not_found=False,
+   q="Which scientific theories of consciousness does the Butlin et al. report survey to derive its indicator properties?",
+   answer="Recurrent processing theory, global workspace theory, higher-order theories, predictive processing and attention schema theory."),
+
+ dict(id=28, diff="complex", source="6data", not_found=False,
+   q="Which three theories of conscious function do Juliani et al. examine, and what do they conclude about current deep learning methods?",
+   answer="Global Workspace Theory, Information Generation Theory and Attention Schema Theory; while still far from general intelligence, many state-of-the-art deep learning methods have begun to incorporate key aspects of each of the three theories."),
+
+ dict(id=29, diff="complex", source="43data", not_found=False,
+   q="In the sleep EEG study of consciousness transitions, how many transitions and subjects were analysed, and what share of transition types showed gradual versus threshold dynamics?",
+   answer="622 sleep stage transitions across 12 subjects; three of four transition types (75%) were gradual and one (25%, N1 to N2) showed threshold behaviour."),
+
+ dict(id=30, diff="complex", source="43data", not_found=False,
+   q="According to the sleep EEG study, which sleep transitions are consistent with IIT and which with Global Workspace Theory?",
+   answer="Wake to N1, N2 to N3 and REM to Wake follow gradual dynamics consistent with IIT; N1 to N2 shows threshold behaviour consistent with GWT, via thalamic spindle gating."),
+
+ dict(id=31, diff="complex", source="84data", not_found=False,
+   q="What findings of the Cogitate adversarial collaboration challenge IIT and GNWT respectively?",
+   answer="For IIT, a lack of sustained synchronization within posterior cortex; for GNWT, the general lack of ignition at stimulus offset and limited representation of some conscious dimensions in prefrontal cortex."),
+
+ dict(id=32, diff="complex", source="84data", not_found=False,
+   q="How many subjects took part in the Cogitate adversarial collaboration, and which neural recording methods were used?",
+   answer="256 subjects, measured with fMRI, magnetoencephalography (MEG) and electrocorticography (ECoG)."),
+
+ # partial context: the handedness of subjects is not in the corpus
+ dict(id=33, diff="complex", source="43data", not_found=False,
+   q="How many subjects were in the sleep EEG consciousness-transition study, and how many of them were left-handed?",
+   answer="12 subjects; the handedness of the subjects is not reported in the provided documents."),
+
+ dict(id=34, diff="complex", source="6data|18data", not_found=False,
+   q="Which theories of consciousness are used both by Juliani et al. (conscious function and general intelligence) and by Butlin et al. (consciousness in AI)?",
+   answer="Global Workspace Theory and Attention Schema Theory appear in both."),
+
+ dict(id=35, diff="complex", source="43data|84data", not_found=False,
+   q="How do the sleep EEG transition study and the Cogitate adversarial collaboration each test IIT against global workspace theories?",
+   answer="The sleep study measures whether sleep-stage transitions are gradual (IIT) or threshold-like (GWT) and finds both occur; Cogitate tests preregistered divergent predictions with fMRI, MEG and ECoG and finds evidence challenging both theories."),
+
+ # corpus question inside an upload chat: uploads must not crowd out the corpus
+ dict(id=25, diff="upload", source="53data", not_found=False, chat=True,
+   q="What is the primary hub of consciousness in the unified 3D default space model proposed by Jerath et al.?",
+   answer="The thalamus."),
 ]
 
 # Key facts per question: regexes (case-insensitive) that a correct answer MUST
@@ -106,6 +187,20 @@ KEYS = {
     13: [r"concept|specific", r"conscious"],
     14: [r"non-?redundant|information", r"vocabulary|lossless"],
     15: [r"gat(e|ing)|threshold", r"suppress|block|abolish"],
+    21: [r"asha verma"],
+    22: [r"ridgeview"],
+    23: [r"terrainsim", r"leaflens"],
+    25: [r"thalamus"],
+    26: [r"indicator", r"no current AI|not (currently )?conscious|none of the", r"barrier"],
+    27: [r"recurrent processing", r"global workspace", r"higher.order", r"predictive processing", r"attention schema"],
+    28: [r"global workspace", r"information generation", r"attention schema", r"incorporat|begun|adopt"],
+    29: [r"\b622\b", r"\b12\b", r"75 ?%|three of (the )?four", r"N1\W{0,5}(to\W{0,3})?N2"],
+    30: [r"Wake\W{0,5}(to\W{0,3})?N1", r"N2\W{0,5}(to\W{0,3})?N3", r"REM\W{0,5}(to\W{0,3})?Wake", r"N1\W{0,5}(to\W{0,3})?N2"],
+    31: [r"synchroni", r"posterior", r"ignition", r"prefrontal"],
+    32: [r"\b256\b", r"fMRI|functional magnetic", r"MEG|magnetoencephalograph", r"ECoG|electrocorticograph"],
+    33: [r"\b12\b", r"not (reported|mentioned|stated|provided|specified|available)|no information|cannot find|does not (report|mention|state|specify)"],
+    34: [r"global workspace", r"attention schema"],
+    35: [r"gradual|threshold", r"ignition|synchroni|preregist|adversarial|challeng"],
 }
 
 if __name__ == "__main__":
@@ -115,7 +210,8 @@ if __name__ == "__main__":
     print(f"Validating {len(GOLDEN)} golden entries against data/pdf_to_paperid.json\n")
     ok = 0
     for g in GOLDEN:
-        good = g["not_found"] or (g["source"] in stems and g["id"] in KEYS)
+        good = g["not_found"] or (all(s in stems or s.startswith("upload_")
+                                      for s in g["source"].split("|")) and g["id"] in KEYS)
         print(f"[{g['diff']:8}] #{g['id']:2}  {'OK  ' if good else 'FAIL'}  source={g['source'] or '-'}")
         ok += good
     print(f"\n{ok}/{len(GOLDEN)} passed")

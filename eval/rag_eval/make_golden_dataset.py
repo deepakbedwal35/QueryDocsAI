@@ -11,19 +11,32 @@ Output: eval/rag_eval/golden_dataset.csv
 import csv, json
 from pathlib import Path
 
+import fitz
+
+from backend.ingestion.pipeline import process_pdf
+from backend.ingestion.qdrant_utils import delete_points_by_doc, upsert_points
 from backend.retrieval.hybrid import retrieve
-from eval.rag_eval.golden_dataset_generator import GOLDEN, KEYS
+from eval.rag_eval.golden_dataset_generator import (GOLDEN, KEYS, UPLOAD_CHAT_ID,
+                                                     UPLOAD_DOC_ID, UPLOAD_FIXTURE)
 
 TOP_K = 5
 OUT = Path(__file__).parent / "golden_dataset.csv"
 
+# (Re)upload the fixture resume into the eval chat, same path as a user upload.
+pdf = fitz.open()
+pdf.new_page().insert_textbox(fitz.Rect(50, 50, 550, 800), UPLOAD_FIXTURE, fontsize=10)
+delete_points_by_doc(UPLOAD_DOC_ID, UPLOAD_CHAT_ID)
+points, _ = process_pdf(pdf.tobytes(), UPLOAD_DOC_ID, UPLOAD_CHAT_ID, "eval_resume.pdf")
+upsert_points(points)
+
 rows_out = []
 hits = answerable = 0
 for g in GOLDEN:
-    chunks = retrieve(g["q"], top_k=TOP_K)
+    chunks = retrieve(g["q"], top_k=TOP_K, chat_id=UPLOAD_CHAT_ID if g.get("chat") else None)
     ctx = [{k: c.get(k) for k in ("chunk_id", "text", "paper_title", "authors", "year", "page")}
            for c in chunks]
-    hit = (not g["not_found"]) and any(c["chunk_id"].startswith(f"{g['source']}_c") for c in ctx)
+    hit = (not g["not_found"]) and any(c["chunk_id"].startswith(f"{s}_c")
+                                       for c in ctx for s in g["source"].split("|"))
     if not g["not_found"]:
         answerable += 1
         hits += hit

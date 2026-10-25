@@ -9,6 +9,7 @@ client is constructed.
 from __future__ import annotations
 
 import os
+
 from pathlib import Path
 
 from dotenv import load_dotenv
@@ -22,3 +23,7 @@ QDRANT_URL = os.environ.get("QDRANT_URL", "")
 QDRANT_API_KEY = os.environ.get("QDRANT_API_KEY", "")
 GROQ_MAX_TOKENS = int(os.environ.get("GROQ_MAX_TOKENS", 2048))
 GROQ_TEMPERATURE = float(os.environ.get("GROQ_TEMPERATURE", 0.2))
+# USD per 1M tokens per Groq model, {"model": {"input": x, "output": y}}, used by
+# backend/observability/metrics.py. Fill from https://groq.com/pricing; models
+# missing here are costed at 0.
+GROQ_PRICING_PER_1M: dict[str, dict[str, float]] = {}

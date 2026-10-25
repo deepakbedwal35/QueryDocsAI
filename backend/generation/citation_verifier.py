@@ -7,12 +7,16 @@ from __future__ import annotations
 
 import re
 
+from langfuse import observe
 
-_CITATION_PATTERN = re.compile(r"\[chunk:\s*([\w\-]+)\s*\]")
+# Accepts 【chunk: id】 too (GPT-OSS 120B emits full-width brackets) and
+# dots in ids (arXiv-style corpus stems like 1705.04742_c29).
+_CITATION_PATTERN = re.compile(r"[\[【]chunk:\s*([\w\-.]+?)\s*[\]】]")
 
 _NOT_FOUND_MESSAGE = "I cannot find the answer in the provided documents."
 
 
+@observe(name="verify_citations")
 def verify_citations(answer: str, retrieved_chunks: list[dict]) -> dict:
     """
     Extract citation tags from the answer and cross-check them
@@ -53,8 +57,8 @@ def verify_citations(answer: str, retrieved_chunks: list[dict]) -> dict:
             if chunk_id not in seen_valid:
                 valid_citations.append(chunk_id)
                 seen_valid.add(chunk_id)
-            # Keep valid citation tags in the answer as-is.
-            return match.group(0)
+            # Keep valid citation tags, normalised to [chunk: id].
+            return f"[chunk: {chunk_id}]"
         else:
             if chunk_id not in seen_hallucinated:
                 hallucinated_citations.append(chunk_id)

@@ -27,6 +27,7 @@ import re
 import uuid
 
 import pandas as pd
+from langfuse import observe
 from qdrant_client import QdrantClient
 from qdrant_client.models import FieldCondition, Filter, MatchValue
 from sentence_transformers import SentenceTransformer
@@ -61,6 +62,8 @@ _model: SentenceTransformer | None = None
 _qdrant_client: QdrantClient | None = None
 _bm25 = None
 _bm25_mapping_table: list[dict] | None = None
+_uuid_to_chunk: dict[str, dict] = {}
+_chunk_text: dict[str, str] = {}
 _paper_by_id: dict[str, dict] | None = None
 _pdf_stem_to_paperid: dict[str, str] | None = None
 
@@ -80,12 +83,18 @@ def _get_qdrant_client() -> QdrantClient:
 
 
 def _get_bm25():
-    global _bm25, _bm25_mapping_table
+    global _bm25, _bm25_mapping_table, _uuid_to_chunk, _chunk_text
     if _bm25 is None:
         with open(BM25_PATH, "rb") as f:
             _bm25 = pickle.load(f)
         with open(MAPPING_TABLE_PATH, "rb") as f:
             _bm25_mapping_table = pickle.load(f)
+        # Qdrant point ids are uuid5(chunk_id); built once, not per request.
+        _uuid_to_chunk = {
+            str(uuid.uuid5(uuid.NAMESPACE_DNS, item["chunk_id"])): item
+            for item in _bm25_mapping_table
+        }
+        _chunk_text = {item["chunk_id"]: item["text"] for item in _bm25_mapping_table}
     return _bm25, _bm25_mapping_table
 
 
@@ -164,6 +173,23 @@ def _ensure_corpus_payload() -> None:
             )
             migrated += len(ids_without_source)
 
+        # Older uploads were wrongly tagged 'corpus' by this backfill;
+        # retag them so they stay private to their chat.
+        mistagged_uploads = [
+            p.id
+            for p in result
+            if p.payload
+            and p.payload.get("source") == "corpus"
+            and str(p.payload.get("chunk_id", "")).startswith("upload_")
+        ]
+        if mistagged_uploads:
+            client.set_payload(
+                collection_name=QDRANT_COLLECTION,
+                payload={"source": "upload"},
+                points=mistagged_uploads,
+            )
+            migrated += len(mistagged_uploads)
+
         if offset is None:
             break
 
@@ -202,7 +228,8 @@ def _resolve_metadata(chunk_id: str, payload: dict | None = None) -> dict:
     }
 
 
-def retrieve(question: str, top_k: int = 7, chat_id: str | None = None) -> list[dict]:
+@observe(name="retrieve", as_type="retriever")
+def retrieve(question: str, top_k: int = 5, chat_id: str | None = None) -> list[dict]:
     """
     Hybrid retrieval: dense (Qdrant) + sparse (BM25), fused via RRF,
     with each result's chunk_id resolved back to real paper metadata.
@@ -219,8 +246,10 @@ def retrieve(question: str, top_k: int = 7, chat_id: str | None = None) -> list[
     )
     client = _get_qdrant_client()
 
-    # Build filter: corpus OR this chat's uploads
-    search_filter = None
+    # Build filter: corpus OR this chat's uploads (never other chats' uploads)
+    search_filter = Filter(
+        must=[FieldCondition(key="source", match=MatchValue(value="corpus"))]
+    )
     if chat_id:
         search_filter = Filter(
             should=[
@@ -256,10 +285,7 @@ def retrieve(question: str, top_k: int = 7, chat_id: str | None = None) -> list[
     # we need the mapping table (chunk_id <-> text) to translate back,
     # same trick running_pipeline.py used.
     bm25, mapping_table = _get_bm25()
-    uuid_to_chunk = {
-        str(uuid.uuid5(uuid.NAMESPACE_DNS, item["chunk_id"])): item
-        for item in mapping_table
-    }
+    uuid_to_chunk = _uuid_to_chunk
 
     upload_ranked = [
         (point.payload["chunk_id"], point.payload.get("text", ""), point.payload)
@@ -310,17 +336,19 @@ def retrieve(question: str, top_k: int = 7, chat_id: str | None = None) -> list[
 
     # The chat's own uploads go first; corpus results fill the rest.
     upload_ids = [cid for cid, _, _ in upload_ranked]
-    pinned = [(cid, 1.0 / (FUSION_K + rank)) for rank, cid in enumerate(upload_ids, start=1)]
+    pinned = [
+        (cid, 1.0 / (FUSION_K + rank)) for rank, cid in enumerate(upload_ids, start=1)
+    ]
     rest = [(cid, sc) for cid, sc in ranked if cid not in upload_ids]
     ranked_chunk_ids = (pinned + rest)[:top_k]
 
     # Build lookup for text and payload from the dense results
     text_by_chunk_id = {cid: text for cid, text, _ in dense_ranked + upload_ranked}
     payload_by_chunk_id = {cid: pl for cid, _, pl in dense_ranked + upload_ranked}
-    # Also include corpus text from mapping table
-    for item in mapping_table:
-        if item["chunk_id"] not in text_by_chunk_id:
-            text_by_chunk_id[item["chunk_id"]] = item["text"]
+    # Also include corpus text from mapping table (BM25-only hits)
+    for chunk_id, _ in ranked_chunk_ids:
+        if chunk_id not in text_by_chunk_id and chunk_id in _chunk_text:
+            text_by_chunk_id[chunk_id] = _chunk_text[chunk_id]
 
     results = []
     for chunk_id, score in ranked_chunk_ids:
@@ -338,8 +366,3 @@ def retrieve(question: str, top_k: int = 7, chat_id: str | None = None) -> list[
             }
         )
     return results
-
-
-query ="""What is "neural ignition" in Global Neuronal Workspace (GNW) theory, and did the data support it"""
-
-# print(retrieve(query, top_k=7, chat_id=None))

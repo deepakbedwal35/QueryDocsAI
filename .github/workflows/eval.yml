@@ -18,7 +18,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install python-dotenv groq pandas
+          pip install python-dotenv groq pandas langfuse
 
       - name: Run eval suite
         env:

@@ -34,7 +34,7 @@ NOT_FOUND_PHRASE = "cannot find the answer"
 _DOC_CHUNK = re.compile(r"[\[【]\s*Document\s+(\d+)\s*,\s*Chunk\s+(\d+)\s*[\]】]", re.IGNORECASE)
 _THINK = re.compile(r"<think>.*?</think>", re.DOTALL)
 _MALFORMED = re.compile(r"[\[【]\s*Document\b[^\]】]*[\]】]", re.IGNORECASE)
-_ANY_TAG = re.compile(r"\[chunk:[^\]]*\]")
+_ANY_TAG = re.compile(r"[\[【]chunk:[^\]】]*[\]】]")
 _UNICODE = str.maketrans({"‐": "-", "‑": "-", "–": "-", "—": "-",
                           " ": " ", " ": " "})
 _STOP = set("""a an the of in on at to for and or is are was were be been by with as that this
@@ -90,7 +90,7 @@ def evaluate_one(row, answer, chunks):
 
     # 3. grounding (only checkable when retrieval surfaced the source)
     if str(row["retrieval_hit"]).upper() == "TRUE" and \
-            not any(c.startswith(f"{row['source']}_c") for c in valid):
+            not any(c.startswith(f"{s}_c") for c in valid for s in row["source"].split("|")):
         out["reason"] = "wrong_source"
         return out
 

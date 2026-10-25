@@ -8,6 +8,7 @@ Also hosts GET /health.
 from __future__ import annotations
 
 from fastapi import APIRouter, Depends, HTTPException
+from langfuse import get_client, observe
 from sqlalchemy.orm import Session
 
 from backend.db.deps import get_current_device
@@ -56,6 +57,7 @@ def build_citation_list(
 
 
 @router.post("/ask", response_model=AskResponse)
+@observe(name="ask", capture_input=False)
 def ask(
     req: AskRequest,
     device: Device = Depends(get_current_device),
@@ -76,6 +78,15 @@ def ask(
         raise HTTPException(status_code=500, detail=f"Failed to generate answer: {e}")
     citations = build_citation_list(result["valid_citations"], chunks)
     answer_found = _NOT_FOUND_PHRASE not in result["clean_answer"].lower()
+    get_client().update_current_span(
+        input={"question": req.question, "chat_id": req.chat_id},
+        metadata={
+            "answer_found": answer_found,
+            "valid_citations": len(result["valid_citations"]),
+            "hallucinated_citations": len(result["hallucinated_citations"]),
+            "upload_chunks": sum(c["chunk_id"].startswith("upload_") for c in chunks),
+        },
+    )
 
     # Persist both turns of the conversation.
     db.add(Message(chat_id=chat.chat_id, role="user", content=req.question))
