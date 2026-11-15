@@ -5,11 +5,6 @@ Splits each extracted .txt file into chunks using
 RecursiveCharacterTextSplitter, saving one .jsonl file per paper
 into data/chunks_jsonl/.
 
-NOTE: your notebook (03_chunks_text.ipynb) was empty/corrupted --
-this logic was actually living inside 02_extract_text.ipynb (cell 7).
-Split out here so each pipeline stage has exactly one responsibility,
-matching the directory structure.
-
 Can be run directly, or imported:
     from scripts.chunk_text import chunk_text, chunk_all
 """

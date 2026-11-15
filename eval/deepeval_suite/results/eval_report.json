@@ -1,0 +1,193 @@
+{
+  "summary": {
+    "num_questions": 0,
+    "hit_rate_at_k": null,
+    "faithfulness": null,
+    "not_found_accuracy": null,
+    "hallucinated_citation_count": 0
+  },
+  "errored_count": 36,
+  "passed_thresholds": false,
+  "results": [
+    {
+      "id": "q001",
+      "question": "How does Global Workspace Theory explain sustained conscious processing?",
+      "error": "[Errno 61] Connection refused"
+    },
+    {
+      "id": "q002",
+      "question": "What is Global Workspace Theory?",
+      "error": "[Errno 61] Connection refused"
+    },
+    {
+      "id": "q003",
+      "question": "How does broadcasting information to brain regions relate to consciousness?",
+      "error": "[Errno 61] Connection refused"
+    },
+    {
+      "id": "q004",
+      "question": "Why do emotionally intense stimuli remain consciously accessible longer?",
+      "error": "[Errno 61] Connection refused"
+    },
+    {
+      "id": "q005",
+      "question": "What makes some conscious experiences more sustainable than others?",
+      "error": "[Errno 61] Connection refused"
+    },
+    {
+      "id": "q006",
+      "question": "What happens to low-intensity stimuli that don't achieve global broadcast?",
+      "error": "[Errno 61] Connection refused"
+    },
+    {
+      "id": "q007",
+      "question": "Can weak sensory input become part of conscious experience?",
+      "error": "[Errno 61] Connection refused"
+    },
+    {
+      "id": "q008",
+      "question": "What is the difference between locally processed and globally broadcast information?",
+      "error": "[Errno 61] Connection refused"
+    },
+    {
+      "id": "q009",
+      "question": "What are the neural correlates of consciousness?",
+      "error": "[Errno 61] Connection refused"
+    },
+    {
+      "id": "q010",
+      "question": "What does the NCC framework propose about cortical activity?",
+      "error": "[Errno 61] Connection refused"
+    },
+    {
+      "id": "q011",
+      "question": "Are specific patterns of brain activity necessary for conscious experience?",
+      "error": "[Errno 61] Connection refused"
+    },
+    {
+      "id": "q012",
+      "question": "What is Integrated Information Theory?",
+      "error": "[Errno 61] Connection refused"
+    },
+    {
+      "id": "q013",
+      "question": "How does IIT define consciousness in terms of information integration?",
+      "error": "[Errno 61] Connection refused"
+    },
+    {
+      "id": "q014",
+      "question": "What is phi in Integrated Information Theory?",
+      "error": "[Errno 61] Connection refused"
+    },
+    {
+      "id": "q015",
+      "question": "How do IIT and the neural correlates of consciousness framework differ?",
+      "error": "[Errno 61] Connection refused"
+    },
+    {
+      "id": "q016",
+      "question": "How does propofol affect the brain during anesthesia?",
+      "error": "[Errno 61] Connection refused"
+    },
+    {
+      "id": "q017",
+      "question": "What happens to frontoparietal connectivity under anesthesia?",
+      "error": "[Errno 61] Connection refused"
+    },
+    {
+      "id": "q018",
+      "question": "Is there a link between anesthetic agents and loss of awareness?",
+      "error": "[Errno 61] Connection refused"
+    },
+    {
+      "id": "q019",
+      "question": "How does anesthesia disrupt consciousness at the network level?",
+      "error": "[Errno 61] Connection refused"
+    },
+    {
+      "id": "q020",
+      "question": "What role does emotional intensity play in Global Workspace Theory?",
+      "error": "[Errno 61] Connection refused"
+    },
+    {
+      "id": "q021",
+      "question": "According to GWT, why do some memories stay accessible over long time windows?",
+      "error": "[Errno 61] Connection refused"
+    },
+    {
+      "id": "q022",
+      "question": "What distinguishes conscious from unconscious representations in GWT?",
+      "error": "[Errno 61] Connection refused"
+    },
+    {
+      "id": "q023",
+      "question": "Is cortical activity alone sufficient for a conscious experience to occur?",
+      "error": "[Errno 61] Connection refused"
+    },
+    {
+      "id": "q024",
+      "question": "How is phi quantified in Integrated Information Theory?",
+      "error": "[Errno 61] Connection refused"
+    },
+    {
+      "id": "q025",
+      "question": "What is the capacity to integrate information according to IIT?",
+      "error": "[Errno 61] Connection refused"
+    },
+    {
+      "id": "q026",
+      "question": "What correlates with loss of behavioral responsiveness under propofol?",
+      "error": "[Errno 61] Connection refused"
+    },
+    {
+      "id": "q027",
+      "question": "Does anesthesia affect reported awareness as well as behavioral responses?",
+      "error": "[Errno 61] Connection refused"
+    },
+    {
+      "id": "q028",
+      "question": "Compare Global Workspace Theory and Integrated Information Theory as accounts of consciousness.",
+      "error": "[Errno 61] Connection refused"
+    },
+    {
+      "id": "q029",
+      "question": "How might anesthesia research inform theories like NCC or GWT?",
+      "error": "[Errno 61] Connection refused"
+    },
+    {
+      "id": "q030",
+      "question": "What input elicits highly sustainable conscious processing?",
+      "error": "[Errno 61] Connection refused"
+    },
+    {
+      "id": "q031",
+      "question": "What is transient or unconscious representation in the context of GWT?",
+      "error": "[Errno 61] Connection refused"
+    },
+    {
+      "id": "q032",
+      "question": "Does IIT offer an alternative to the NCC framework?",
+      "error": "[Errno 61] Connection refused"
+    },
+    {
+      "id": "q033",
+      "question": "What is the best recipe for chocolate chip cookies?",
+      "error": "[Errno 61] Connection refused"
+    },
+    {
+      "id": "q034",
+      "question": "Who won the 2022 FIFA World Cup?",
+      "error": "[Errno 61] Connection refused"
+    },
+    {
+      "id": "q035",
+      "question": "What's the current stock price of Apple?",
+      "error": "[Errno 61] Connection refused"
+    },
+    {
+      "id": "q036",
+      "question": "How do I set up a React project with Vite?",
+      "error": "[Errno 61] Connection refused"
+    }
+  ]
+}

@@ -37,8 +37,15 @@ from backend.generation.citation_verifier import verify_citations
 from backend.generation.groq_client import generate_answer
 from backend.retrieval.hybrid import retrieve
 
-HERE = Path(__file__).parent
-QUESTIONS_PATH = HERE / "test_questions.json"
+from pathlib import Path
+
+HERE = Path(__file__).parent.resolve()
+
+
+QUESTIONS_PATH = HERE.parent / "goldens" / "test_questions.json"
+
+
+
 REPORT_PATH = HERE / "results" / "eval_report.json"
 
 _NOT_FOUND_PHRASE = "cannot find the answer"

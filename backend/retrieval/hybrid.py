@@ -1,3 +1,5 @@
+   
+    
 """
 hybrid.py
 
@@ -66,7 +68,6 @@ _uuid_to_chunk: dict[str, dict] = {}
 _chunk_text: dict[str, str] = {}
 _paper_by_id: dict[str, dict] | None = None
 _pdf_stem_to_paperid: dict[str, str] | None = None
-
 
 def _get_model() -> SentenceTransformer:
     global _model
@@ -366,3 +367,8 @@ def retrieve(question: str, top_k: int = 5, chat_id: str | None = None) -> list[
             }
         )
     return results
+
+
+query ="""What is "neural ignition" in Global Neuronal Workspace (GNW) theory, and did the data support it"""
+
+# print(retrieve(query, top_k=7, chat_id=None))

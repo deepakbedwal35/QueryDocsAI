@@ -23,8 +23,7 @@ def verify_citations(answer: str, retrieved_chunks: list[dict]) -> dict:
     against the chunk_ids that were actually retrieved.
 
     Args:
-        answer: Raw LLM output, potentially containing [chunk: id]
-            tags.
+        answer: Raw LLM output, potentially containing Document <id>, Chunk <id> tags.
         retrieved_chunks: The chunks that were passed to the LLM as
             context (same list used to build the prompt).
 
@@ -52,7 +51,7 @@ def verify_citations(answer: str, retrieved_chunks: list[dict]) -> dict:
     seen_hallucinated: set[str] = set()
 
     def _replace(match: re.Match) -> str:
-        chunk_id = match.group(1)
+        chunk_id = match.group(2)
         if chunk_id in valid_chunk_ids:
             if chunk_id not in seen_valid:
                 valid_citations.append(chunk_id)
@@ -79,3 +78,5 @@ def verify_citations(answer: str, retrieved_chunks: list[dict]) -> dict:
         "hallucinated_citations": hallucinated_citations,
         "clean_answer": clean_answer,
     }
+
+
